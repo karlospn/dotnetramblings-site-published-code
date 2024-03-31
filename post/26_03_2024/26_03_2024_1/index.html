@@ -25,30 +25,30 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="What’s the Best Way to Count the Digits in a Number" />
-<meta name="twitter:image" content="https://example.com/images/dotnet.png"/>
-<meta property="og:url" content="https://example.com/post/26_03_2024/26_03_2024_1/" />
+<meta name="twitter:image" content="https://karlospn.github.io/mydotnetramblings-news-site/images/dotnet.png"/>
+<meta property="og:url" content="https://karlospn.github.io/mydotnetramblings-news-site/post/26_03_2024/26_03_2024_1/" />
 <meta property="og:title" content="What’s the Best Way to Count the Digits in a Number" />
 <meta property="og:description" content="In this article, we examine how to count the digits in a number, using C#. Finding the number of digits of an integer is a common problem in informatics. For …" />
-<meta property="og:image" content="https://example.com/images/dotnet.png" />
+<meta property="og:image" content="https://karlospn.github.io/mydotnetramblings-news-site/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="https://example.com/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://example.com/icons/favicon-32x32.png">
-<link rel="manifest" href="https://example.com/icons/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="https://karlospn.github.io/mydotnetramblings-news-site/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://karlospn.github.io/mydotnetramblings-news-site/icons/favicon-32x32.png">
+<link rel="manifest" href="https://karlospn.github.io/mydotnetramblings-news-site/icons/site.webmanifest">
 
-<link rel="canonical" href="https://example.com/post/26_03_2024/26_03_2024_1/">
-
-
-
-<link rel="preload" href="https://example.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity = "sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
+<link rel="canonical" href="https://karlospn.github.io/mydotnetramblings-news-site/post/26_03_2024/26_03_2024_1/">
 
 
 
-<link rel="preload" href="https://example.com/en/js/bundle.2bc29897d0f0d57754fe3f5ed0ca4711291b81fd969ae00db9b029a4b243871a22014d1131762607b110b47df8948c12c1024ef366866b624f70510ff84ffe79.js" as="script" integrity=
-"sha512-K8KYl9Dw1XdU/j9e0MpHESkbgf2WmuANubAppLJDhxoiAU0RMXYmB7EQtH34lIwSwQJO82aGa2JPcFEP&#43;E/&#43;eQ==" crossorigin="anonymous">
+<link rel="preload" href="https://karlospn.github.io/mydotnetramblings-news-site/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity = "sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
 
-<link rel="stylesheet" type="text/css" href="https://example.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
+
+<link rel="preload" href="https://karlospn.github.io/mydotnetramblings-news-site/en/js/bundle.9896abf8d5deaba4f365de34fb532aa3f5ff24ed6535d015adb83a1c6bdbb66fe143fda9c52c882e8555270a430543ad44412e93fe084a36ac3b0fd953592459.js" as="script" integrity=
+"sha512-mJar&#43;NXeq6TzZd40&#43;1Mqo/X/JO1lNdAVrbg6HGvbtm/hQ/2pxSyILoVVJwpDBUOtREEuk/4ISjasOw/ZU1kkWQ==" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="https://karlospn.github.io/mydotnetramblings-news-site/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
 
   </head>
   <body
@@ -59,8 +59,8 @@
   >
 
 <header class="nav_header" >
-  <nav class="nav"><a href='https://example.com/' class="nav_brand nav_item" title=".NET Ramblings">
-  <img src="https://example.com/logos/logo.png" class="logo" alt=".NET Ramblings">
+  <nav class="nav"><a href='https://karlospn.github.io/mydotnetramblings-news-site/' class="nav_brand nav_item" title=".NET Ramblings">
+  <img src="https://karlospn.github.io/mydotnetramblings-news-site/logos/logo.png" class="logo" alt=".NET Ramblings">
   <div class="nav_close">
     <div><svg class="icon">
   <title>open-menu</title>
@@ -81,16 +81,16 @@
         
 
   <div class="nav_parent">
-    <a href="https://example.com/" class="nav_item" title="Home">Home </a>
+    <a href="https://karlospn.github.io/mydotnetramblings-news-site/" class="nav_item" title="Home">Home </a>
   </div>
   <div class="nav_parent">
-    <a href="https://example.com/feeds/" class="nav_item" title="Feeds">Feeds </a>
+    <a href="https://karlospn.github.io/mydotnetramblings-news-site/feeds/" class="nav_item" title="Feeds">Feeds </a>
   </div>
   <div class="nav_parent">
-    <a href="https://example.com/about/" class="nav_item" title="About">About </a>
+    <a href="https://karlospn.github.io/mydotnetramblings-news-site/about/" class="nav_item" title="About">About </a>
   </div>
   <div class="nav_parent">
-    <a href="https://example.com/contribute/" class="nav_item" title="Contribute">Contribute </a>
+    <a href="https://karlospn.github.io/mydotnetramblings-news-site/contribute/" class="nav_item" title="Contribute">Contribute </a>
   </div>
       
 <div class='follow'>
@@ -130,7 +130,7 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 26, 2024</span><span>&nbsp;· <a href='https://example.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
+      Mar 26, 2024</span><span>&nbsp;· <a href='https://karlospn.github.io/mydotnetramblings-news-site/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
         </a>
     </span>
   </div>
@@ -255,7 +255,7 @@ The post What’s the Best Way to Count the Digits in a Number appeared first on
 
 <footer class="footer">
   <div class="footer_inner wrap pale">
-    <img src='https://example.com/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt=".NET Ramblings">
+    <img src='https://karlospn.github.io/mydotnetramblings-news-site/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt=".NET Ramblings">
     <p>Copyright&nbsp;<span class="year"></span>&nbsp;.NET RAMBLINGS. All Rights Reserved</p><a class="to_top" href="#documentTop">
   <svg class="icon">
   <title>to-top</title>
@@ -267,9 +267,9 @@ The post What’s the Best Way to Count the Digits in a Number appeared first on
   </div>
 </footer>
 
-<script type="text/javascript" src="https://example.com/en/js/bundle.2bc29897d0f0d57754fe3f5ed0ca4711291b81fd969ae00db9b029a4b243871a22014d1131762607b110b47df8948c12c1024ef366866b624f70510ff84ffe79.js" integrity="sha512-K8KYl9Dw1XdU/j9e0MpHESkbgf2WmuANubAppLJDhxoiAU0RMXYmB7EQtH34lIwSwQJO82aGa2JPcFEP&#43;E/&#43;eQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://karlospn.github.io/mydotnetramblings-news-site/en/js/bundle.9896abf8d5deaba4f365de34fb532aa3f5ff24ed6535d015adb83a1c6bdbb66fe143fda9c52c882e8555270a430543ad44412e93fe084a36ac3b0fd953592459.js" integrity="sha512-mJar&#43;NXeq6TzZd40&#43;1Mqo/X/JO1lNdAVrbg6HGvbtm/hQ/2pxSyILoVVJwpDBUOtREEuk/4ISjasOw/ZU1kkWQ==" crossorigin="anonymous"></script>
 
-  <script src="https://example.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
+  <script src="https://karlospn.github.io/mydotnetramblings-news-site/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
   </body>
 </html>
