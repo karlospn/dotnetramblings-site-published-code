@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code-Maze.com on .NET Ramblings</title>
+    <link>https://example.com/tags/code-maze.com/</link>
+    <description>Recent content in Code-Maze.com on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Sun, 31 Mar 2024 06:42:56 +0000</lastBuildDate><atom:link href="https://example.com/tags/code-maze.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Different Ways to Create a Generic List of Anonymous Types in C#</title>
+      <link>https://example.com/post/31_03_2024/31_03_2024_0/</link>
+      <pubDate>Sun, 31 Mar 2024 06:42:56 +0000</pubDate>
+      
+      <guid>https://example.com/post/31_03_2024/31_03_2024_0/</guid>
+      <description>
+        
+          
+            Knowing how to manipulate complex datatypes such as Lists is crucial when storing and manipulating data in C#. Sometimes, we may want to incorporate versatility by not having to define explicit classes and create generic lists of anonymous types in C#. In this article, we are going to learn some of the different ways we […] The post Different Ways to Create a Generic List of Anonymous Types in C# appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Fastest Way to Remove the Last Character of a String</title>
+      <link>https://example.com/post/30_03_2024/30_03_2024_0/</link>
+      <pubDate>Sat, 30 Mar 2024 08:56:24 +0000</pubDate>
+      
+      <guid>https://example.com/post/30_03_2024/30_03_2024_0/</guid>
+      <description>
+        
+          
+            Creating and manipulating string objects can be useful when building applications. In the C# programming language, string objects contain text values stored as a sequential read-only collection of character objects. This means string objects are immutable and thus can’t be changed once created. Despite this, we often find ourselves needing to manipulate them. In this […] The post The Fastest Way to Remove the Last Character of a String appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Code Maze Weekly #207</title>
+      <link>https://example.com/post/29_03_2024/29_03_2024_2/</link>
+      <pubDate>Fri, 29 Mar 2024 09:56:02 +0000</pubDate>
+      
+      <guid>https://example.com/post/29_03_2024/29_03_2024_2/</guid>
+      <description>
+        
+          
+            Issue #207 of the Code Maze weekly. Check out what’s new this week and enjoy the read. .NET and C# Top Picks C# 12: Alias Any Type [www.thomasclaudiushuber.com] Aliasing types and namespaces has been around for the longest time. With C# that feature has been extended and now we can alias almost any type out […] The post Code Maze Weekly #207 appeared first on Code Maze.
+Link to article: https://code-maze.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fastest Way to Check if a List is in Order in C#</title>
+      <link>https://example.com/post/29_03_2024/29_03_2024_3/</link>
+      <pubDate>Fri, 29 Mar 2024 07:38:35 +0000</pubDate>
+      
+      <guid>https://example.com/post/29_03_2024/29_03_2024_3/</guid>
+      <description>
+        
+          
+            In this article, we’ll examine different techniques to check whether or not a list is in order in C#. We’ll begin by examining several techniques, including parallel processing. Finally, we’ll run a series of benchmarks to help us choose which option fits best in our use case. So, let’s begin! Initial Setup Before we start […] The post Fastest Way to Check if a List is in Order in C# appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Get the HTML Content of a Web Page as a String in .NET</title>
+      <link>https://example.com/post/28_03_2024/28_03_2024_1/</link>
+      <pubDate>Thu, 28 Mar 2024 07:30:26 +0000</pubDate>
+      
+      <guid>https://example.com/post/28_03_2024/28_03_2024_1/</guid>
+      <description>
+        
+          
+            In this article, we will look into a comprehensive guide on how to get the HTML content of a web page as a string and how to parse the content retrieved. First things first, we’ll learn how to retrieve HTML content as a string from the web using tools like HttpClient, HtmlAgilityPack, and AngleSharp. Then, […] The post How to Get the HTML Content of a Web Page as a String in .
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Use Entity Framework Core Migrations in Production</title>
+      <link>https://example.com/post/27_03_2024/27_03_2024_3/</link>
+      <pubDate>Wed, 27 Mar 2024 11:48:43 +0000</pubDate>
+      
+      <guid>https://example.com/post/27_03_2024/27_03_2024_3/</guid>
+      <description>
+        
+          
+            In this article, we will discuss the different approaches to migrating a production database when using Entity Framework (EF) Core code-first migrations. Let’s start. Entity Framework Core Project Setup Let’s start by creating a template Web API project and installing the necessary Entity Framework Core NuGet packages: Microsoft.EntityFrameworkCore Microsoft.EntityFrameworkCore.SqlServer Microsoft.EntityFrameworkCore.Design In this article, we use […] The post How to Use Entity Framework Core Migrations in Production appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Reverse a Number as an Integer and Not as a String in C#</title>
+      <link>https://example.com/post/27_03_2024/27_03_2024_4/</link>
+      <pubDate>Wed, 27 Mar 2024 07:24:34 +0000</pubDate>
+      
+      <guid>https://example.com/post/27_03_2024/27_03_2024_4/</guid>
+      <description>
+        
+          
+            In this article, we will dive into various ways to reverse a number using integer reversal. We will begin by exploring the iterative approach, which breaks down numbers into individual digits and rebuilds them in reverse order. Next, we will discuss recursion as an alternative solution. We will also use a built-in function Math.Pow() for […] The post How to Reverse a Number as an Integer and Not as a String in C# appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What’s the Best Way to Count the Digits in a Number</title>
+      <link>https://example.com/post/26_03_2024/26_03_2024_1/</link>
+      <pubDate>Tue, 26 Mar 2024 06:34:49 +0000</pubDate>
+      
+      <guid>https://example.com/post/26_03_2024/26_03_2024_1/</guid>
+      <description>
+        
+          
+            In this article, we examine how to count the digits in a number, using C#. Finding the number of digits of an integer is a common problem in informatics. For instance, it’s useful when we need to convert numbers from one numerical system to another, or when we want to understand the order of magnitude […] The post What’s the Best Way to Count the Digits in a Number appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Best Practices for Logging With Serilog</title>
+      <link>https://example.com/post/25_03_2024/25_03_2024_2/</link>
+      <pubDate>Mon, 25 Mar 2024 06:20:44 +0000</pubDate>
+      
+      <guid>https://example.com/post/25_03_2024/25_03_2024_2/</guid>
+      <description>
+        
+          
+            In this article, we’ll take a look at some best practices when it comes to logging in .NET with Serilog. Logging is essential to any application we build and Serilog is one of the major logging providers. For this reason, we’ve prepared some Serilog best practices to help you improve your logs. Through the article, […] The post Best Practices for Logging With Serilog appeared first on Code Maze.
+Link to article: https://code-maze.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
