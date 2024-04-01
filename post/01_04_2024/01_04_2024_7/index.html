@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Docker.com | .NET Ramblings</title>
+<title>Generate Sortable Unique IDs With the NewId Library in .NET | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="In this article, we’ll explore why we might need sortable unique IDs in .NET and how to create them with the NewId NuGet Package. Let’s dive in! Why Might We …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Docker.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/docker.com/" />
-<meta property="og:title" content="Docker.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Generate Sortable Unique IDs With the NewId Library in .NET" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/01_04_2024/01_04_2024_7/" />
+<meta property="og:title" content="Generate Sortable Unique IDs With the NewId Library in .NET" />
+<meta property="og:description" content="In this article, we’ll explore why we might need sortable unique IDs in .NET and how to create them with the NewId NuGet Package. Let’s dive in! Why Might We …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/docker.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/docker.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/01_04_2024/01_04_2024_7/">
 
 
 
@@ -125,19 +126,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/openssh-and-xz-liblzma/" title="OpenSSH and XZ/liblzma: A nation-state attack was thwarted, what did we learn?">OpenSSH and XZ/liblzma: A nation-state attack was thwarted, what did we learn?</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Generate Sortable Unique IDs With the NewId Library in .NET</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -145,235 +137,35 @@
 </svg>
 </span>
     <span class="post_date">
-      Apr 1, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Apr 1, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="OpenSSH and XZ/liblzma: A nation-state attack was thwarted, what did we learn?"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Docker CTO Justin Cormack looks at what we can learn from malicious code in upstream tarballs of xz targeted at a subset of OpenSSH servers. &quot;It is hard to overstate how lucky we were here, as there are no tools that will detect this vulnerability.&quot;
-Link to article: …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/openssh-and-xz-liblzma/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/building-a-video-analysis-and-transcription-chatbot-with-the-genai-stack/" title="Building a Video Analysis and Transcription Chatbot with the GenAI Stack">Building a Video Analysis and Transcription Chatbot with the GenAI Stack</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 28, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>In this article, we’ll explore why we might need sortable unique IDs in .NET and how to create them with the NewId NuGet Package. Let’s dive in! Why Might We Need Sortable Unique IDs in .NET We all know there are two main approaches when it comes to generating IDs for entities in our projects: […]
+The post Generate Sortable Unique IDs With the NewId Library in .NET appeared first on Code Maze.</p>
+<ul>
+<li>Link to article: <a href="https://code-maze.com/dotnet-generate-sortable-unique-ids-with-the-newid-library/">https://code-maze.com/dotnet-generate-sortable-unique-ids-with-the-newid-library/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Building a Video Analysis and Transcription Chatbot with the GenAI Stack"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Dive into a video transcription and chat project that leverages the GenAI Stack, along with seamless integration provided by Docker, to streamline video content processing and understanding.
-Link to article: <a href="https://www.docker.com/blog/building-a-video-analysis-and-transcription-chatbot-with-the-genai-stack/">https://www.docker.com/blog/building-a-video-analysis-and-transcription-chatbot-with-the-genai-stack/</a></p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/building-a-video-analysis-and-transcription-chatbot-with-the-genai-stack/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/containerd-vs-docker/" title="containerd vs. Docker: Understanding Their Relationship and How They Work Together">containerd vs. Docker: Understanding Their Relationship and How They Work Together</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="containerd vs. Docker: Understanding Their Relationship and How They Work Together"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Learn what containerd is, how Docker and containerd work together, and how their combined strengths can improve developer experience.
-Link to article: <a href="https://www.docker.com/blog/containerd-vs-docker/">https://www.docker.com/blog/containerd-vs-docker/</a></p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/containerd-vs-docker/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/is-your-container-image-really-distroless/" title="Is Your Container Image Really Distroless?">Is Your Container Image Really Distroless?</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Is Your Container Image Really Distroless?"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Find out what makes an image distroless, tools that make the creation of distroless images practical, and security benefits of this approach.
-Link to article: <a href="https://www.docker.com/blog/is-your-container-image-really-distroless/">https://www.docker.com/blog/is-your-container-image-really-distroless/</a></p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/is-your-container-image-really-distroless/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -390,9 +182,8 @@ Link to article: <a href="https://www.docker.com/blog/is-your-container-image-re
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
