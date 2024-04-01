@@ -25,30 +25,30 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="Fastest Way to Check if a List is in Order in C#" />
-<meta name="twitter:image" content="https://news.mytechramblings.com/images/dotnet.png"/>
-<meta property="og:url" content="https://news.mytechramblings.com/post/29_03_2024/29_03_2024_6/" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_6/" />
 <meta property="og:title" content="Fastest Way to Check if a List is in Order in C#" />
 <meta property="og:description" content="In this article, we’ll examine different techniques to check whether or not a list is in order in C#. We’ll begin by examining several techniques, including …" />
-<meta property="og:image" content="https://news.mytechramblings.com/images/dotnet.png" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="https://news.mytechramblings.com/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://news.mytechramblings.com/icons/favicon-32x32.png">
-<link rel="manifest" href="https://news.mytechramblings.com/icons/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
+<link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://news.mytechramblings.com/post/29_03_2024/29_03_2024_6/">
-
-
-
-<link rel="preload" href="https://news.mytechramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity = "sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_6/">
 
 
 
-<link rel="preload" href="https://news.mytechramblings.com/en/js/bundle.8975047c0d5088d4220bac93b6bc37f28bf62089f4bd12a638fa50ee3e5157c189ffd9be41f50aa0ceb24b2d7ae9deebec8006f5e186a28b1708e14c835dcae5.js" as="script" integrity=
-"sha512-iXUEfA1QiNQiC6yTtrw38ov2IIn0vRKmOPpQ7j5RV8GJ/9m&#43;QfUKoM6ySy166d7r7IAG9eGGoosXCOFMg13K5Q==" crossorigin="anonymous">
+<link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity = "sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
 
-<link rel="stylesheet" type="text/css" href="https://news.mytechramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
+
+<link rel="preload" href="https://www.dotnetramblings.com/en/js/bundle.3d98ba0ad69ec3c2206b2484efe69a87e5e9ac96a247f6f6b4030a18081e33d91c7eca808b062a38592b28a662f6806471b3b4590752a93179c6c0adcf9235f0.js" as="script" integrity=
+"sha512-PZi6Ctaew8IgaySE7&#43;aah&#43;XprJaiR/b2tAMKGAgeM9kcfsqAiwYqOFkrKKZi9oBkcbO0WQdSqTF5xsCtz5I18A==" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
 
   </head>
   <body
@@ -59,8 +59,8 @@
   >
 
 <header class="nav_header" >
-  <nav class="nav"><a href='https://news.mytechramblings.com/' class="nav_brand nav_item" title=".NET Ramblings">
-  <img src="https://news.mytechramblings.com/logos/logo.png" class="logo" alt=".NET Ramblings">
+  <nav class="nav"><a href='https://www.dotnetramblings.com/' class="nav_brand nav_item" title=".NET Ramblings">
+  <img src="https://www.dotnetramblings.com/logos/logo.png" class="logo" alt=".NET Ramblings">
   <div class="nav_close">
     <div><svg class="icon">
   <title>open-menu</title>
@@ -81,16 +81,16 @@
         
 
   <div class="nav_parent">
-    <a href="https://news.mytechramblings.com/" class="nav_item" title="Home">Home </a>
+    <a href="https://www.dotnetramblings.com/" class="nav_item" title="Home">Home </a>
   </div>
   <div class="nav_parent">
-    <a href="https://news.mytechramblings.com/feeds/" class="nav_item" title="Feeds">Feeds </a>
+    <a href="https://www.dotnetramblings.com/feeds/" class="nav_item" title="Feeds">Feeds </a>
   </div>
   <div class="nav_parent">
-    <a href="https://news.mytechramblings.com/about/" class="nav_item" title="About">About </a>
+    <a href="https://www.dotnetramblings.com/about/" class="nav_item" title="About">About </a>
   </div>
   <div class="nav_parent">
-    <a href="https://news.mytechramblings.com/contribute/" class="nav_item" title="Contribute">Contribute </a>
+    <a href="https://www.dotnetramblings.com/contribute/" class="nav_item" title="Contribute">Contribute </a>
   </div>
       
 <div class='follow'>
@@ -130,7 +130,7 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 29, 2024</span><span>&nbsp;· <a href='https://news.mytechramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
+      Mar 29, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
         </a>
     </span>
   </div>
@@ -255,7 +255,7 @@ The post Fastest Way to Check if a List is in Order in C# appeared first on Code
 
 <footer class="footer">
   <div class="footer_inner wrap pale">
-    <img src='https://news.mytechramblings.com/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt=".NET Ramblings">
+    <img src='https://www.dotnetramblings.com/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt=".NET Ramblings">
     <p>Copyright&nbsp;<span class="year"></span>&nbsp;.NET RAMBLINGS. All Rights Reserved</p><a class="to_top" href="#documentTop">
   <svg class="icon">
   <title>to-top</title>
@@ -267,9 +267,9 @@ The post Fastest Way to Check if a List is in Order in C# appeared first on Code
   </div>
 </footer>
 
-<script type="text/javascript" src="https://news.mytechramblings.com/en/js/bundle.8975047c0d5088d4220bac93b6bc37f28bf62089f4bd12a638fa50ee3e5157c189ffd9be41f50aa0ceb24b2d7ae9deebec8006f5e186a28b1708e14c835dcae5.js" integrity="sha512-iXUEfA1QiNQiC6yTtrw38ov2IIn0vRKmOPpQ7j5RV8GJ/9m&#43;QfUKoM6ySy166d7r7IAG9eGGoosXCOFMg13K5Q==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://www.dotnetramblings.com/en/js/bundle.3d98ba0ad69ec3c2206b2484efe69a87e5e9ac96a247f6f6b4030a18081e33d91c7eca808b062a38592b28a662f6806471b3b4590752a93179c6c0adcf9235f0.js" integrity="sha512-PZi6Ctaew8IgaySE7&#43;aah&#43;XprJaiR/b2tAMKGAgeM9kcfsqAiwYqOFkrKKZi9oBkcbO0WQdSqTF5xsCtz5I18A==" crossorigin="anonymous"></script>
 
-  <script src="https://news.mytechramblings.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
+  <script src="https://www.dotnetramblings.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
   </body>
 </html>
