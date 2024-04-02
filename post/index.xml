@@ -7,13 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 02 Apr 2024 17:29:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Apr 2024 22:19:30 +0200</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Should .terraform.lock.hcl file be added to .gitignore or committed to Git repo?</title>
+      <title>Building and deploying a .NET 8 App on an ARM64 processor using Azure Pipelines and AWS ECS Fargate. Part 2: Demo</title>
       <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_0/</link>
-      <pubDate>Tue, 02 Apr 2024 17:29:21 +0000</pubDate>
+      <pubDate>Tue, 02 Apr 2024 22:19:30 +0200</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_0/</guid>
+      <description>
+        
+          
+            In this two-part series, I’m going to show you how to build and deploy a .NET 8 app container image that targets an ARM64 processor. In part 2, we will attempt to perform an end-to-end process. This will involve building a .NET 8 API, containerizing the app targeting an ARM64 processor using Azure Pipelines, and deploying it on AWS ECS Fargate. Furthermore, a benchmark will also be conducted to compare the performance of the application running on an ARM64 Fargate container versus an AMD64 Fargate container.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Should .terraform.lock.hcl file be added to .gitignore or committed to Git repo?</title>
+      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_1/</link>
+      <pubDate>Tue, 02 Apr 2024 17:29:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_1/</guid>
       <description>
         
           
@@ -26,10 +42,10 @@
     
     <item>
       <title>Making AI powered .NET apps more consistent and intelligent with Redis</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_2/</link>
       <pubDate>Tue, 02 Apr 2024 17:05:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_2/</guid>
       <description>
         
           
@@ -43,10 +59,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/redis-makes-intelligent-a
     
     <item>
       <title>Gradient makes LLM benchmarking cost-effective and effortless with AWS Inferentia</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_3/</link>
       <pubDate>Tue, 02 Apr 2024 16:21:15 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_3/</guid>
       <description>
         
           
@@ -60,10 +76,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/gradient-makes-ll
     
     <item>
       <title>Enable single sign-on access of Amazon SageMaker Canvas using AWS IAM Identity Center: Part 2</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_4/</link>
       <pubDate>Tue, 02 Apr 2024 16:08:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_4/</guid>
       <description>
         
           
@@ -77,10 +93,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/enable-single-sig
     
     <item>
       <title>Solar models from Upstage are now available in Amazon SageMaker JumpStart</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_5/</link>
       <pubDate>Tue, 02 Apr 2024 15:55:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_5/</guid>
       <description>
         
           
@@ -94,10 +110,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/solar-models-from
     
     <item>
       <title>The history of computing, as told by the hallways of Microsoft Building 41</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_6/</link>
       <pubDate>Tue, 02 Apr 2024 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_6/</guid>
       <description>
         
           
@@ -111,10 +127,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240402-00/?p=10960
     
     <item>
       <title>Empower Your Development: Dive into Docker’s Comprehensive Learning Ecosystem</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_7/</link>
       <pubDate>Tue, 02 Apr 2024 13:26:01 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_7/</guid>
       <description>
         
           
@@ -128,10 +144,10 @@ Link to article: https://www.docker.com/blog/docker-learning-ecosystem/
     
     <item>
       <title>How to Install GitHub Copilot in Visual Studio</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_7/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_8/</link>
       <pubDate>Tue, 02 Apr 2024 10:01:13 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_8/</guid>
       <description>
         
           
@@ -145,10 +161,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/how-to-install-gith
     
     <item>
       <title>Syncing a git branch between Windows and WSL filesystems</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_8/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_9/</link>
       <pubDate>Tue, 02 Apr 2024 09:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_9/</guid>
       <description>
         
           
@@ -162,10 +178,10 @@ Link to article: https://andrewlock.net/working-on-a-git-branch-in-two-different
     
     <item>
       <title>Create conditional access base policies for a Microsoft Entra ID tenant</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_9/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_10/</link>
       <pubDate>Tue, 02 Apr 2024 06:37:01 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_10/</guid>
       <description>
         
           
@@ -179,10 +195,10 @@ Link to article: https://damienbod.com/2024/04/02/create-conditional-access-base
     
     <item>
       <title>How to Validate a GUID in C#</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_10/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_11/</link>
       <pubDate>Tue, 02 Apr 2024 00:45:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2024/02_04_2024_11/</guid>
       <description>
         
           
