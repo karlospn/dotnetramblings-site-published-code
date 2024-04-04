@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>.NET Ramblings</title>
+<title>Improve Performance With Source-Generated RegEx in .NET | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="In this article, we’ll look at source-generated RegEx and how it can improve performance in our .NET applications. Let’s dive in! How Does RegEx Work? Regular …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/feeds/" />
-<meta property="og:title" content="" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Improve Performance With Source-Generated RegEx in .NET" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/04_04_2024/04_04_2024_0/" />
+<meta property="og:title" content="Improve Performance With Source-Generated RegEx in .NET" />
+<meta property="og:description" content="In this article, we’ll look at source-generated RegEx and how it can improve performance in our .NET applications. Let’s dive in! How Does RegEx Work? Regular …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/feeds/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/04_04_2024/04_04_2024_0/">
 
 
 
@@ -90,7 +90,7 @@
   <div class="nav_parent">
     <a href="https://www.dotnetramblings.com/" class="nav_item" title="Home">Home </a>
   </div>
-  <div class="nav_parent nav_active">
+  <div class="nav_parent">
     <a href="https://www.dotnetramblings.com/feeds/" class="nav_item" title="Feeds">Feeds </a>
   </div>
   <div class="nav_parent">
@@ -125,286 +125,65 @@
   </nav>
 </header>
 
-    <main> 
-<link rel="stylesheet" href="/styles/feeds.css"/>  
+    <main>
+  
 <div class="grid-inverse wrap content">
-    <div class="feed-container">
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">Software Engineering (Damien Bowden blog)</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://damienbod.com">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">Daily .NET tips</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://dailydotnettips.com">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">Code Maze</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://code-maze.com">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">Code4IT</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://www.code4it.dev/">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">Code Opinion</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://codeopinion.com/">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">elmah.io Blog</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://blog.elmah.io/">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">Microsoft Azure Blog</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://azure.microsoft.com/en-us/blog/">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">Ardalis</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://ardalis.com/blog">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">.NET Escapades</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://andrewlock.net/">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">James Montemagno - Live, Love, Bike and Code</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://motnemagno.com">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">The OpenAI Blog</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://openai.com/blog">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">.NET Foundation</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://dotnetfoundation.org/">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">Meziantou&#39;s blog</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://www.meziantou.net/">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">Build5Nines</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://build5nines.com">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">Microsoft Developer Blog</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://devblogs.microsoft.com/">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">Docker</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://www.docker.com">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">AWS Machine Learning Blog</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://aws.amazon.com/blogs/machine-learning">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">.NET on AWS Blog</h2>    
-                      
-                      
-                      
-                      
-                      
-                    <a class="feed-website" href="https://aws.amazon.com/blogs/dotnet">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-            <div class="feed-card">    
-                <div class="feed-content">    
-                      
-                    <h2 class="feed-title">My technical ramblings</h2>    
-                      
-                      
-                    <p class="feed-description">Technical ramblings from a software engineer</p>    
-                      
-                      
-                    <p class="feed-author">Author: Carlos Pons</p>    
-                      
-                      
-                    <p class="feed-language">Language: English</p>    
-                      
-                      
-                    <a class="feed-website" href="https://www.mytechramblings.com">Visit Website</a>    
-                       
-                </div>    
-            </div>    
-            
-    </div> 
-</div>  
+  <article class="post_content">
+    <h1 class="post_title">Improve Performance With Source-Generated RegEx in .NET</h1>
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Apr 4, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
+        </a>
+    </span>
+  </div>
 
+    <div class="post_body"><p>In this article, we’ll look at source-generated RegEx and how it can improve performance in our .NET applications. Let’s dive in! How Does RegEx Work? Regular expressions are vital to the programming world, but do we know how they work in .NET? Let’s examine the example: public static class PasswordValidator { public static bool ValidatePasswordWithRegularRegEx(string […]
+The post Improve Performance With Source-Generated RegEx in .NET appeared first on Code Maze.</p>
+<ul>
+<li>Link to article: <a href="https://code-maze.com/csharp-improve-performance-with-source-generated-regex/">https://code-maze.com/csharp-improve-performance-with-source-generated-regex/</a></li>
+</ul>
+
+    </div>
+<div class="post_comments">
+  
+  
+  
+</div>
+
+
+
+
+  </article>
+<aside class="sidebar">
+  <section class="sidebar_inner">
+    <br>
+    
+  
+  <div class="search">
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
+    <label for="find" class="search_label"><svg class="icon">
+  <title>search</title>
+  <use xlink:href="#search"></use>
+</svg>
+
+    </label>
+    
+    <div class="search_results results"></div>
+  </div>
+
+
+    
+    
+  </section>
+</aside>
+
+  
+</div>
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
