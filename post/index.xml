@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 05 Apr 2024 18:16:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5 Rules for DTOs</title>
+      <link>https://www.dotnetramblings.com/post/06_04_2024/06_04_2024_0/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_04_2024/06_04_2024_0/</guid>
+      <description>
+        
+          
+            If you don&#39;t like reading, here&#39;s my YouTube video with samples that covers why these 5 rules will help you write better DTOs: What&#39;s a DTO…
+Link to article: https://ardalis.com/5-rules-dtos/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Improving Content Moderation with Amazon Rekognition Bulk Analysis and Custom Moderation</title>
       <link>https://www.dotnetramblings.com/post/05_04_2024/05_04_2024_0/</link>
@@ -1026,156 +1043,6 @@ Link to article: https://openai.com/blog/start-using-chatgpt-instantly
         
           
             Creating and manipulating string objects can be useful when building applications. In the C# programming language, string objects contain text values stored as a sequential read-only collection of character objects. This means string objects are immutable and thus can’t be changed once created. Despite this, we often find ourselves needing to manipulate them. In this […] The post The Fastest Way to Remove the Last Character of a String appeared first on Code Maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Terraform: Install Latest Version on macOS and Linux</title>
-      <link>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_0/</link>
-      <pubDate>Fri, 29 Mar 2024 18:47:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_0/</guid>
-      <description>
-        
-          
-            Terraform from HashiCorp is provided as a command-line tool that must first be installed locally before excution. It’s easy to install, as the full tool is contained within a single executable. This makes it easy to put terraform in any folder on your machine for use. Although, to make it executable from anywhere on your […] The article Terraform: Install Latest Version on macOS and Linux appeared first on Build5Nines.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What’s New in vcpkg (March 2024)</title>
-      <link>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_1/</link>
-      <pubDate>Fri, 29 Mar 2024 17:42:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_1/</guid>
-      <description>
-        
-          
-            This blog post summarizes changes to the vcpkg package manager as part of the 2024.03.19 and 2024.03.25 releases as well as changes to vcpkg documentation throughout March. This month’s vcpkg release includes an arm64ec platform expression, more flexibility when mixing static and dynamic libraries,
-Link to article: https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-march-2024 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bing on .NET 8: The Impact of Dynamic PGO</title>
-      <link>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_2/</link>
-      <pubDate>Fri, 29 Mar 2024 17:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_2/</guid>
-      <description>
-        
-          
-            Bing Extensible Application Platform&#39;s upgrade to .NET 8 and how dynamic profile guided optimization continues to deliver performance gains
-Link to article: https://devblogs.microsoft.com/dotnet/bing-on-dotnet-8-the-impact-of-dynamic-pgo 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Provide live agent assistance for your chatbot users with Amazon Lex and Talkdesk cloud contact center</title>
-      <link>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_3/</link>
-      <pubDate>Fri, 29 Mar 2024 14:56:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_3/</guid>
-      <description>
-        
-          
-            Amazon Lex provides advanced conversational artificial intelligence (AI) capabilities to enable self-service support for your organization’s contact center. With Amazon Lex, you can implement an omnichannel strategy where customers engage via phone, websites, and messaging platforms. The bots can answer FAQs, provide self-service experiences, or triage customer requests before transferring to a human agent. Amazon Lex integrates […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/provide-live-agent-assistance-for-your-chatbot-users-with-amazon-lex-and-talkdesk-cloud-contact-center/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How can I tell C&#43;&#43; that I want to discard a nodiscard value?</title>
-      <link>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_4/</link>
-      <pubDate>Fri, 29 Mar 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_4/</guid>
-      <description>
-        
-          
-            A variety of tricks, with different degrees of readability and legality.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240329-00/?p=109592 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Code Maze Weekly #207</title>
-      <link>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_5/</link>
-      <pubDate>Fri, 29 Mar 2024 09:56:02 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_5/</guid>
-      <description>
-        
-          
-            Issue #207 of the Code Maze weekly. Check out what’s new this week and enjoy the read. .NET and C# Top Picks C# 12: Alias Any Type [www.thomasclaudiushuber.com] Aliasing types and namespaces has been around for the longest time. With C# that feature has been extended and now we can alias almost any type out […] The post Code Maze Weekly #207 appeared first on Code Maze.
-Link to article: https://code-maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Fastest Way to Check if a List is in Order in C#</title>
-      <link>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_6/</link>
-      <pubDate>Fri, 29 Mar 2024 07:38:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_6/</guid>
-      <description>
-        
-          
-            In this article, we’ll examine different techniques to check whether or not a list is in order in C#. We’ll begin by examining several techniques, including parallel processing. Finally, we’ll run a series of benchmarks to help us choose which option fits best in our use case. So, let’s begin! Initial Setup Before we start […] The post Fastest Way to Check if a List is in Order in C# appeared first on Code Maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Image manipulation experiments for Mobile Read Hero Images(MRHI) compatibility</title>
-      <link>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_7/</link>
-      <pubDate>Fri, 29 Mar 2024 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_7/</guid>
-      <description>
-        
-          
-            The Consumer-packaged goods industry relies on multiple channels for selling the products and aims to provide a seamless buying experience for the consumer. With the advent of omni-channel retailing, CPGs (Consumer packaged goods) and retailers are striving towards providing the best possible experience to the customer alongside working on providing the most available information on the product they are selling on these touch points. On an e-commerce Channel which sells multiple products, the need for a compliant SKU image is key.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Navigating the Challenges and Opportunities of Synthetic Voices</title>
-      <link>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_8/</link>
-      <pubDate>Fri, 29 Mar 2024 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_03_2024/29_03_2024_8/</guid>
-      <description>
-        
-          
-            We’re sharing lessons from a small scale preview of Voice Engine, a model for creating custom voices.
-Link to article: https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices 
           
           
         
