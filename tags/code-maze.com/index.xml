@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 07 Apr 2024 07:07:23 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/code-maze.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Apr 2024 05:56:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/code-maze.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Handling Circular References When Working With JSON in .NET</title>
+      <link>https://www.dotnetramblings.com/post/08_04_2024/08_04_2024_1/</link>
+      <pubDate>Mon, 08 Apr 2024 05:56:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_04_2024/08_04_2024_1/</guid>
+      <description>
+        
+          
+            When working with JSON (JavaScript Object Notation) in .NET applications, developers often encounter challenges related to circular references, where objects circularly reference each other. In this article, we’ll explore common scenarios involving circular references in .NET applications and discuss techniques for effectively handling them. We will use System.Text.Json for serialization and deserialization, one of the […] The post Handling Circular References When Working With JSON in .NET appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Best Way to Assign an Initial Value to Auto-Properties in C#</title>
       <link>https://www.dotnetramblings.com/post/07_04_2024/07_04_2024_0/</link>
