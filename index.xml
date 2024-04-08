@@ -7,7 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 07 Apr 2024 07:07:23 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Apr 2024 06:10:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java on Visual Studio Code Update – March 2024</title>
+      <link>https://www.dotnetramblings.com/post/08_04_2024/08_04_2024_0/</link>
+      <pubDate>Mon, 08 Apr 2024 06:10:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_04_2024/08_04_2024_0/</guid>
+      <description>
+        
+          
+            Hi everyone, welcome to the March update for Visual Studio Code for Java! In this blog we are going to share several new Spring Boot features as well as testing coverage updates, so let’s get started! Spring Boot Feature Updates New Refactoring Preview available for version upgrades The feature to automatically upgrade your projects to the latest Spring Boot version now allows you to choose between applying those changes directly to your project or previewing them in a refactoring preview.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Java on Visual Studio Code的更新 – 2024年3月</title>
+      <link>https://www.dotnetramblings.com/post/08_04_2024/08_04_2024_1/</link>
+      <pubDate>Mon, 08 Apr 2024 05:52:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_04_2024/08_04_2024_1/</guid>
+      <description>
+        
+          
+            大家好，欢迎来到2024年3月的Visual Studio Code Java更新！在本篇博客中，我们将分享大量Spring有关的新功能以及测试覆盖率的更新，让我们开始吧！ Spring Boot 相关功能更新 自动升级或重构功能中新增的预览视图 在Spring Boot的插件包中，我们提供了功能帮助用户将项目自动升级到最新的 Spring Boot 版本，或是帮助用户重构代码符合Spring更好的规范。在最新的版本中，我们新增了预览功能，重构预览为您提供了升级或重构过程产生的所有更改的差异，并允许您选择应用哪些更改。请注意，目前所有更改默认都未选中，因此您需要手动选择要应用的更改。 要重构 Spring Boot 项目或将 Spring Boot 项目升级到更新的版本，您可以直接右键单击 Visual Studio Code 中 Spring 项目中的 POM.xml，然后单击“Refactor Spring Boot Projects”或者“Upgrade Spring Boot Projects“，操作方法如下： 您还可以观看这段短视频，了解所有功能的完整演示。 即时更改日志级别 如果您在项目类路径中具有Spring Boot Actuator并在 Visual Studio Code 中启动了Spring应用，则 Visual Studio Code 中的 Spring 工具会显示来自正在运行的 Spring Boot 应用程序的实时信息。Spring的最新插件包可以让用户在此功能中即时查看和更改日志级别。在命令面板中（&amp;gt;Spring Boot: Set Log Levels）可以选择正在运行的 Spring Boot 应用程序，搜索活动日志级别列表，并允许您直接在运行的应用程序中更改它们。更改仅在运行的应用程序中有效。下次启动应用程序时，默认日志级别设置会恢复。 直接从 pom.xml 文件中添加 Spring Boot Starters 在 pom.xml 文件的依赖部分中将显示一个新链接，该链接允许您直接调用命令以添加其他 Spring Boot starters。我们希望这个功能可以让您方便地从 pom.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>BFF secured ASP.NET Core application using downstream API and an OAuth client credentials JWT</title>
+      <link>https://www.dotnetramblings.com/post/08_04_2024/08_04_2024_2/</link>
+      <pubDate>Mon, 08 Apr 2024 05:43:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_04_2024/08_04_2024_2/</guid>
+      <description>
+        
+          
+            This article shows how to implement a web application using backend for frontend security architecture for authentication and consumes data from a downstream API protected using a JWT access token which can only be accessed using an app-to-app access token. The access token is acquired using the OAuth2 client credentials flow and the API does […]
+Link to article: https://damienbod.com/2024/04/08/bff-secured-asp-net-core-application-using-downstream-api-and-an-oauth-client-credentials-jwt/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Best Way to Assign an Initial Value to Auto-Properties in C#</title>
       <link>https://www.dotnetramblings.com/post/07_04_2024/07_04_2024_0/</link>
