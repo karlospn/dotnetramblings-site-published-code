@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 08 Apr 2024 05:43:18 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/damienbod.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Apr 2024 05:03:13 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/damienbod.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implement a secure Blazor Web application using OpenID Connect and security headers</title>
+      <link>https://www.dotnetramblings.com/post/15_04_2024/15_04_2024_0/</link>
+      <pubDate>Mon, 15 Apr 2024 05:03:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_04_2024/15_04_2024_0/</guid>
+      <description>
+        
+          
+            This article shows how to implement a secure .NET 8 Blazor Web application using OpenID Connect and security headers with CSP nonces. The NetEscapades.AspNetCore.SecurityHeaders nuget package is used to implement the security headers and OpenIddict is used to implement the OIDC server. Code: https://github.com/damienbod/BlazorWebOidc OpenIddict is used as the identity provider and an OpenID connect […]
+Link to article: https://damienbod.com/2024/04/15/implement-a-secure-blazor-web-application-using-openid-connect-and-security-headers/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>BFF secured ASP.NET Core application using downstream API and an OAuth client credentials JWT</title>
       <link>https://www.dotnetramblings.com/post/08_04_2024/08_04_2024_11/</link>
