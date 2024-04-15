@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 08 Apr 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Apr 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computing code coverage for a .NET project</title>
+      <link>https://www.dotnetramblings.com/post/15_04_2024/15_04_2024_0/</link>
+      <pubDate>Mon, 15 Apr 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_04_2024/15_04_2024_0/</guid>
+      <description>
+        
+          
+            In an older post, I wrote about how to compute code coverage for a .NET Core project with Coverlet. In this post, I&#39;ll show you how to get code coverage without any additional dependency. Indeed, the .NET SDK 8 now includes all you need to compute code coverage. Microsoft also provides a .NET tool to process the coverage files. Let&#39;s start by creating a new xUnit project and removing the dependency on…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Creating ico files from multiple images in .NET</title>
       <link>https://www.dotnetramblings.com/post/08_04_2024/08_04_2024_6/</link>
