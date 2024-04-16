@@ -7,13 +7,114 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 16 Apr 2024 13:00:52 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Apr 2024 17:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Microsoft Graph API for SharePoint Pages is now generally available</title>
+      <title>Build &amp; test resilient apps in .NET with Dev Proxy</title>
       <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_0/</link>
-      <pubDate>Tue, 16 Apr 2024 13:00:52 +0000</pubDate>
+      <pubDate>Tue, 16 Apr 2024 17:05:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_0/</guid>
+      <description>
+        
+          
+            Learn how to build and test resilient apps in .NET with Dev Proxy to simulate API failures, different network conditions, and a lot more from your local machine.
+Link to article: https://devblogs.microsoft.com/dotnet/build-test-resilient-apps-dotnet-dev-proxy 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Distributed training and efficient scaling with the Amazon SageMaker Model Parallel and Data Parallel Libraries</title>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_1/</link>
+      <pubDate>Tue, 16 Apr 2024 16:18:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_1/</guid>
+      <description>
+        
+          
+            In this post, we explore the performance benefits of Amazon SageMaker (including SMP and SMDDP), and how you can use the library to train large models efficiently on SageMaker. We demonstrate the performance of SageMaker with benchmarks on ml.p4d.24xlarge clusters up to 128 instances, and FSDP mixed precision with bfloat16 for the Llama 2 model.
+Link to article: https://aws.amazon.com/blogs/machine-learning/distributed-training-and-efficient-scaling-with-the-amazon-sagemaker-model-parallel-and-data-parallel-libraries/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Manage your Amazon Lex bot via AWS CloudFormation templates</title>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_2/</link>
+      <pubDate>Tue, 16 Apr 2024 16:11:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_2/</guid>
+      <description>
+        
+          
+            Amazon Lex is a fully managed artificial intelligence (AI) service with advanced natural language models to design, build, test, and deploy conversational interfaces in applications. It employs advanced deep learning technologies to understand user input, enabling developers to create chatbots, virtual assistants, and other applications that can interact with users in natural language. Managing your […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/manage-your-amazon-lex-bot-via-aws-cloudformation-templates/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>A secure approach to generative AI with AWS</title>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_3/</link>
+      <pubDate>Tue, 16 Apr 2024 16:00:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_3/</guid>
+      <description>
+        
+          
+            Generative artificial intelligence (AI) is transforming the customer experience in industries across the globe. Customers are building generative AI applications using large language models (LLMs) and other foundation models (FMs), which enhance customer experiences, transform operations, improve employee productivity, and create new revenue channels. The biggest concern we hear from customers as they explore the advantages of generative AI is how to protect their highly sensitive data and investments. At AWS, our top priority is safeguarding the security and confidentiality of our customers&#39; workloads.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>In search of the Ballmer Peak, and other results from SIGBOVIK 2024</title>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_4/</link>
+      <pubDate>Tue, 16 Apr 2024 14:00:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_4/</guid>
+      <description>
+        
+          
+            Continuing studies in silliness.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20240416-01/?p=109672 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Dubious security vulnerability: Program allows its output to be exfiltrated</title>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_5/</link>
+      <pubDate>Tue, 16 Apr 2024 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_5/</guid>
+      <description>
+        
+          
+            Once the output is generated, the program can&#39;t control where it goes.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20240416-00/?p=109668 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Microsoft Graph API for SharePoint Pages is now generally available</title>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_6/</link>
+      <pubDate>Tue, 16 Apr 2024 13:00:52 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_6/</guid>
       <description>
         
           
@@ -27,10 +128,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/microsoft-graph-
     
     <item>
       <title>AI Trends Report 2024: AI’s Growing Role in Software Development</title>
-      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_7/</link>
       <pubDate>Tue, 16 Apr 2024 13:00:20 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_7/</guid>
       <description>
         
           
@@ -44,10 +145,10 @@ Link to article: https://www.docker.com/blog/ai-trends-report-2024/
     
     <item>
       <title>Announcing the Podcast Copilot with Azure OpenAI Service, .NET, and Power Platform Workshop</title>
-      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_8/</link>
       <pubDate>Tue, 16 Apr 2024 12:42:52 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_8/</guid>
       <description>
         
           
@@ -61,10 +162,10 @@ Link to article: https://devblogs.microsoft.com/powerplatform/announcing-the-pod
     
     <item>
       <title>How to use GitHub Copilot Chat in Visual Studio</title>
-      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_9/</link>
       <pubDate>Tue, 16 Apr 2024 10:00:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_9/</guid>
       <description>
         
           
@@ -78,10 +179,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/how-to-use-github-c
     
     <item>
       <title>Rendering Math in HTML: MathML, MathML Core, and AsciiMath</title>
-      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_11/</link>
       <pubDate>Tue, 16 Apr 2024 09:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_11/</guid>
       <description>
         
           
@@ -95,10 +196,10 @@ Link to article: https://andrewlock.net/rendering-math-in-html-mathml-mathml-cor
     
     <item>
       <title>Code It Any Way You Want: Checking Strings for Null</title>
-      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_12/</link>
       <pubDate>Tue, 16 Apr 2024 08:01:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_12/</guid>
       <description>
         
           
@@ -112,10 +213,10 @@ Link to article: https://dotnettips.wordpress.com/2024/04/16/code-it-any-way-you
     
     <item>
       <title>Hangfire: A Feature-Rich Approach to Task Scheduling in .NET</title>
-      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_7/</link>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_13/</link>
       <pubDate>Tue, 16 Apr 2024 08:00:17 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_13/</guid>
       <description>
         
           
@@ -129,10 +230,10 @@ Link to article: https://goatreview.com/hangfire-feature-rich-approach-task-sche
     
     <item>
       <title>Getting started with OpenTelemetry and distributed tracing in .NET</title>
-      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_10/</link>
       <pubDate>Tue, 16 Apr 2024 09:30:51 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_10/</guid>
       <description>
         
           
@@ -146,10 +247,10 @@ Link to article: https://www.mytechramblings.com/posts/getting-started-with-open
     
     <item>
       <title>Introduction to Strawberry Shake and GraphQL in .NET</title>
-      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_8/</link>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_14/</link>
       <pubDate>Tue, 16 Apr 2024 05:31:47 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_14/</guid>
       <description>
         
           
@@ -162,10 +263,10 @@ Link to article: https://www.mytechramblings.com/posts/getting-started-with-open
     
     <item>
       <title>Multi-resource metrics query support in the Azure Monitor Query libraries</title>
-      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_9/</link>
+      <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_15/</link>
       <pubDate>Tue, 16 Apr 2024 00:43:09 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_15/</guid>
       <description>
         
           
