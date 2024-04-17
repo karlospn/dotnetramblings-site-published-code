@@ -7,13 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 17 Apr 2024 05:33:46 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Apr 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Difference Between Invariance, Contravariance and Covariance in Generics in C#</title>
+      <title>String Performance: Appending a Character using the StringBuilder</title>
       <link>https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_0/</link>
-      <pubDate>Wed, 17 Apr 2024 05:33:46 +0000</pubDate>
+      <pubDate>Wed, 17 Apr 2024 08:01:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_0/</guid>
+      <description>
+        
+          
+            The use of a single character with a StringBuilder from an ObjectPool can improve performance. Benchmark results show similar overall performance, but without an ObjectPool, using a character becomes more significant. It is recommended to use a character in such cases. EditorConfig setup can check for this issue using dotnet_diagnostic.CA1834.severity = warning.
+Link to article: https://dotnettips.wordpress.com/2024/04/17/string-performance-appending-a-character-using-the-stringbuilder/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>利用 Redis 使 AI 驱动的 .NET 应用程序更加一致和智能</title>
+      <link>https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_1/</link>
+      <pubDate>Wed, 17 Apr 2024 07:42:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_1/</guid>
+      <description>
+        
+          
+            本篇翻译于Catherine Wang的Making AI powered .NET apps more consistent and intelligent with Redis – .NET Blog (microsoft.com) Redis 是一种流行的内存数据存储，可用于解决构建和扩展智能应用程序的关键挑战。 在本文中，你将了解如何使用Redis的 Azure 缓存来提高使用 Azure OpenAI 的应用程序的效率。 Redis 的Azure 缓存不受最近的 Redis 许可证更新的影响： “我们将持续的合作以确保 Azure 客户能够无缝地利用 Azure Cache for Redis的所有层级。 Azure Cache for Redis、Azure Cache for Redis Enterprise 和 Enterprise Flash 服务不会中断，客户将收到及时的更新和错误修复，以保持最佳性能。” – Julia Liuson，开发部总裁 本博客包括两个示例应用程序： 第一个是基于.NET 揭秘检索增强生成的演示聊天语义内核（Semantic Kernel）应用程序。我添加了使用 Redis 保存额外知识并启用聊天历史记录的功能。 完整示例位于 Chat App with Redis 第二个是一个演示应用程序，它在 .NET 8 中使用 Redis OM dotnet 进行 Redis 输出缓存，以提高生成式 AI 的一致性和弹性。 完整示例位于 OpenAI 的输出缓存中 Redis 为 OpenAI 模型提供了额外的知识 像 GPT 这样的 OpenAI 模型在大多数情况下都经过训练且知识渊博，但它们无法了解您公司的内部文档或最近的博客文章。 这就是为什么您需要 Redis 作为附加知识的语义内存存储。 语义内存存储有两个基本要求： 智能应用程序无法直接读取文本 blob、图像、视频等非结构化数据。语义内存存储需要支持向量嵌入的有效保存。 智能应用程序需要执行总结、比较、异常检测等任务。语义内存存储需要支持搜索功能。 这意味着用于查找相关数据的索引、距离算法和搜索查询。 Redis Enterprise 提供了 RediSearch 模块来满足这些需求。 您可以使用内置的 FLAT 和 HNSW 索引算法、余弦等距离算法以及 KNN 搜索查询在 Redis 中保存向量嵌入。 语义内核（ Semantic Kernel ）为 Redis 语义内存存储提供了一个连接器。 在语义内核中使用 Redis 作为语义内存存储的代码可能如下所示（来自 ChatAppRedis）： //Initialize the Redis connection ConnectionMultiplexer connectionMultiplexer = await ConnectionMultiplexer.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Difference Between Invariance, Contravariance and Covariance in Generics in C#</title>
+      <link>https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_2/</link>
+      <pubDate>Wed, 17 Apr 2024 05:33:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_2/</guid>
       <description>
         
           

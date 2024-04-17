@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 16 Apr 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Apr 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>String Performance: Appending a Character using the StringBuilder</title>
+      <link>https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_0/</link>
+      <pubDate>Wed, 17 Apr 2024 08:01:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_0/</guid>
+      <description>
+        
+          
+            The use of a single character with a StringBuilder from an ObjectPool can improve performance. Benchmark results show similar overall performance, but without an ObjectPool, using a character becomes more significant. It is recommended to use a character in such cases. EditorConfig setup can check for this issue using dotnet_diagnostic.CA1834.severity = warning.
+Link to article: https://dotnettips.wordpress.com/2024/04/17/string-performance-appending-a-character-using-the-stringbuilder/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Code It Any Way You Want: Checking Strings for Null</title>
       <link>https://www.dotnetramblings.com/post/16_04_2024/16_04_2024_13/</link>
