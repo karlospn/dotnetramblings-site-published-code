@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>利用 Redis 使 AI 驱动的 .NET 应用程序更加一致和智能 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="本篇翻译于Catherine Wang的Making AI powered .NET apps more consistent and intelligent with Redis – .NET Blog (microsoft.com) Redis 是一种流行的内存数据存储，可用于解决构建和扩展智能应用程序的关键挑战。 …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="利用 Redis 使 AI 驱动的 .NET 应用程序更加一致和智能" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_6/" />
+<meta property="og:title" content="利用 Redis 使 AI 驱动的 .NET 应用程序更加一致和智能" />
+<meta property="og:description" content="本篇翻译于Catherine Wang的Making AI powered .NET apps more consistent and intelligent with Redis – .NET Blog (microsoft.com) Redis 是一种流行的内存数据存储，可用于解决构建和扩展智能应用程序的关键挑战。 …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_6/">
 
 
 
@@ -125,19 +126,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/cppblog/time-travel-debugging-team-uses-copilot-chat-for-c" title="Time Travel Debugging team uses Copilot Chat for C&#43;&#43;">Time Travel Debugging team uses Copilot Chat for C++</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">利用 Redis 使 AI 驱动的 .NET 应用程序更加一致和智能</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -145,253 +137,27 @@
 </svg>
 </span>
     <span class="post_date">
-      Apr 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Apr 17, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Time Travel Debugging team uses Copilot Chat for C&#43;&#43;"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Ken Sykes and Juan Carlos Arevalo Baeza (JCAB) are both Principal Software Engineers who work on the Time Travel Debugging team at Microsoft, which is the team that maintains and develops the Windows Debugger (WinDbg) and related technologies. Their codebase is developed with C++ and CMake,
-Link to article: …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/cppblog/time-travel-debugging-team-uses-copilot-chat-for-c" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/next-level-error-handling/" title="Next-Level Error Handling: How Docker Desktop 4.29 Aims to Simplify Developer Challenges">Next-Level Error Handling: How Docker Desktop 4.29 Aims to Simplify Developer Challenges</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>本篇翻译于Catherine Wang的Making AI powered .NET apps more consistent and intelligent with Redis – .NET Blog (microsoft.com)  Redis 是一种流行的内存数据存储，可用于解决构建和扩展智能应用程序的关键挑战。 在本文中，你将了解如何使用Redis的 Azure 缓存来提高使用 Azure OpenAI 的应用程序的效率。  Redis 的Azure 缓存不受最近的 Redis 许可证更新的影响：  “我们将持续的合作以确保 Azure 客户能够无缝地利用 Azure Cache for Redis的所有层级。 Azure Cache for Redis、Azure Cache for Redis Enterprise 和 Enterprise Flash 服务不会中断，客户将收到及时的更新和错误修复，以保持最佳性能。” – Julia Liuson，开发部总裁  本博客包括两个示例应用程序：  第一个是基于.NET 揭秘检索增强生成的演示聊天语义内核（Semantic Kernel）应用程序。我添加了使用 Redis 保存额外知识并启用聊天历史记录的功能。 完整示例位于 Chat App with Redis  第二个是一个演示应用程序，它在 .NET 8 中使用 Redis OM dotnet 进行 Redis 输出缓存，以提高生成式 AI 的一致性和弹性。 完整示例位于 OpenAI 的输出缓存中  Redis 为 OpenAI 模型提供了额外的知识  像 GPT 这样的 OpenAI 模型在大多数情况下都经过训练且知识渊博，但它们无法了解您公司的内部文档或最近的博客文章。 这就是为什么您需要 Redis 作为附加知识的语义内存存储。  语义内存存储有两个基本要求：  智能应用程序无法直接读取文本 blob、图像、视频等非结构化数据。语义内存存储需要支持向量嵌入的有效保存。  智能应用程序需要执行总结、比较、异常检测等任务。语义内存存储需要支持搜索功能。 这意味着用于查找相关数据的索引、距离算法和搜索查询。  Redis Enterprise 提供了 RediSearch 模块来满足这些需求。 您可以使用内置的 FLAT 和 HNSW 索引算法、余弦等距离算法以及 KNN 搜索查询在 Redis 中保存向量嵌入。  语义内核（ Semantic Kernel ）为 Redis 语义内存存储提供了一个连接器。 在语义内核中使用 Redis 作为语义内存存储的代码可能如下所示（来自 ChatAppRedis）：  //Initialize the Redis connection ConnectionMultiplexer connectionMultiplexer = await ConnectionMultiplexer.ConnectAsync(redisConnection);</p>
+<ul>
+<li>Link to article: <a href="https://devblogs.microsoft.com/dotnet-ch/%e5%88%a9%e7%94%a8-redis-%e4%bd%bf-ai-%e9%a9%b1%e5%8a%a8%e7%9a%84-net-%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e6%9b%b4%e5%8a%a0%e4%b8%80%e8%87%b4%e5%92%8c%e6%99%ba%e8%83%bd">https://devblogs.microsoft.com/dotnet-ch/%e5%88%a9%e7%94%a8-redis-%e4%bd%bf-ai-%e9%a9%b1%e5%8a%a8%e7%9a%84-net-%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e6%9b%b4%e5%8a%a0%e4%b8%80%e8%87%b4%e5%92%8c%e6%99%ba%e8%83%bd</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Next-Level Error Handling: How Docker Desktop 4.29 Aims to Simplify Developer Challenges"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In the Docker Desktop 4.29 release, we've embarked on an ambitious journey to elevate the user experience by fundamentally redefining error management. Learn more about this intuitive new prompt that sheds light on the mysterious seas of error messages.
-Link to article: …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/next-level-error-handling/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/docker-desktop-4-29/" title="Docker Desktop 4.29: Docker Socket Mount Permissions in ECI, Advanced Error Management, Moby 26, and New Beta Features">Docker Desktop 4.29: Docker Socket Mount Permissions in ECI, Advanced Error Management, Moby 26, and New Beta Features</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Docker Desktop 4.29: Docker Socket Mount Permissions in ECI, Advanced Error Management, Moby 26, and New Beta Features"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Docker Desktop 4.29 introduces enhancements to secure and streamline the development process and to improve error management and workflow efficiency. With the integration of Enhanced Container Isolation (ECI) with Docker socket mount permissions, the debut of Moby 26 within Docker Desktop, and exciting features such as …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/docker-desktop-4-29/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20240410-00/?p=109632" title="How can I find out which process has locked me out of the clipboard?">How can I find out which process has locked me out of the clipboard?</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How can I find out which process has locked me out of the clipboard?"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>You can ask for the clipboard opener.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20240410-00/?p=109632">https://devblogs.microsoft.com/oldnewthing/20240410-00/?p=109632</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20240410-00/?p=109632" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -415,9 +181,8 @@ Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20240410-00
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
