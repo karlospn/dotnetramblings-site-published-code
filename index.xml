@@ -7,13 +7,129 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 18 Apr 2024 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Apr 2024 17:57:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Adding state to the update notification pattern, part 2</title>
+      <title>Generate customized, compliant application IaC scripts for AWS Landing Zone using Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_0/</link>
-      <pubDate>Thu, 18 Apr 2024 14:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 Apr 2024 17:57:26 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_0/</guid>
+      <description>
+        
+          
+            As you navigate the complexities of cloud migration, the need for a structured, secure, and compliant environment is paramount. AWS Landing Zone addresses this need by offering a standardized approach to deploying AWS resources. This makes sure your cloud foundation is built according to AWS best practices from the start. With AWS Landing Zone, you eliminate the guesswork in security configurations, resource provisioning, and account management. It’s particularly beneficial for organizations looking to scale without compromising on governance or control, providing a clear path to a robust and efficient cloud setup.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Live Meeting Assistant with Amazon Transcribe, Amazon Bedrock, and Knowledge Bases for Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_1/</link>
+      <pubDate>Thu, 18 Apr 2024 17:08:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_1/</guid>
+      <description>
+        
+          
+            You’ve likely experienced the challenge of taking notes during a meeting while trying to pay attention to the conversation. You’ve probably also experienced the need to quickly fact-check something that’s been said, or look up information to answer a question that’s just been asked in the call. Or maybe you have a team member that always joins meetings late, and expects you to send them a quick summary over chat to catch them up.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing: Azure Developers – .NET Day</title>
+      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_2/</link>
+      <pubDate>Thu, 18 Apr 2024 17:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_2/</guid>
+      <description>
+        
+          
+            Join us on April 30th for a full day of online training and discover the latest services and features in Azure designed specifically for .NET developers.
+Link to article: https://devblogs.microsoft.com/dotnet/announcing-azure-developers-dotnet-day-2024 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Meta Llama 3 models are now available in Amazon SageMaker JumpStart</title>
+      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_3/</link>
+      <pubDate>Thu, 18 Apr 2024 16:31:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_3/</guid>
+      <description>
+        
+          
+            Today, we are excited to announce that Meta Llama 3 foundation models are available through Amazon SageMaker JumpStart to deploy and run inference. The Llama 3 models are a collection of pre-trained and fine-tuned generative text models. In this post, we walk through how to discover and deploy Llama 3 models via SageMaker JumpStart. What is […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/meta-llama-3-models-are-now-available-in-amazon-sagemaker-jumpstart/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Vector Search Optimization via KMeans, Voronoi Cells and Inverted File Index (aka “Cell-Probing”)</title>
+      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_4/</link>
+      <pubDate>Thu, 18 Apr 2024 16:13:59 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_4/</guid>
+      <description>
+        
+          
+            In a previous article I already mentioned how vectors can be easily stored in Azure SQL already and how to calculate dot product and cosine distance using just T-SQL. In this article I will show how to improve the performance in vector search by using a technique that has many name but is really based on something very well know already: KMeans Clustering.
+Link to article: https://devblogs.microsoft.com/azure-sql/vector-search-optimization-via-kmeans-voronoi-cells-and-inverted-file-index-aka-cell-probing 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Python Kernel Updates: A Closer Look at Our Redesigned Plugin and Function Integration</title>
+      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_5/</link>
+      <pubDate>Thu, 18 Apr 2024 15:56:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_5/</guid>
+      <description>
+        
+          
+            As we approach a stable v1.0 version of the Python Semantic Kernel SDK, we analysed the methods used to add plugins and functions to the kernel. We realised that the variety of available methods might confuse developers. For instance, when should one use import_plugin_from_object() versus import_native_plugin_from_directory()?
+Link to article: https://devblogs.microsoft.com/semantic-kernel/python-kernel-updates-a-closer-look-at-our-redesigned-plugin-and-function-integration 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Google Service Weaver is a Bad idea</title>
+      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_6/</link>
+      <pubDate>Thu, 18 Apr 2024 15:53:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_6/</guid>
+      <description>
+        
+          
+            Writing distributed applications like microservices can be challenging. I know, surprise, surprise. Performance, versioning, testing, and the list goes on are all aspects that make it difficult. So there’s got to be an answer in the form of tooling that can make this easier. Maybe there is with Google Service Weaver? YouTube Check out my YouTube… Read More »Google Service Weaver is a Bad idea The post Google Service Weaver is a Bad idea appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Adding state to the update notification pattern, part 2</title>
+      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_7/</link>
+      <pubDate>Thu, 18 Apr 2024 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_7/</guid>
       <description>
         
           
@@ -27,10 +143,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240418-00/?p=10968
     
     <item>
       <title>Slack delivers native and secure generative AI powered by Amazon SageMaker JumpStart</title>
-      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_8/</link>
       <pubDate>Thu, 18 Apr 2024 12:00:08 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_8/</guid>
       <description>
         
           
@@ -43,10 +159,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240418-00/?p=10968
     
     <item>
       <title>API Key Authentication Middleware In ASP NET Core – A How To Guide</title>
-      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_9/</link>
       <pubDate>Thu, 18 Apr 2024 12:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_9/</guid>
       <description>
         
           
@@ -60,15 +176,32 @@ Link to article: https://www.devleader.ca/2024/04/18/api-key-authentication-midd
     
     <item>
       <title>Baseline Styling in BenchmarkDotNet</title>
-      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_10/</link>
       <pubDate>Thu, 18 Apr 2024 05:38:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_10/</guid>
       <description>
         
           
             In this article, we will learn how to set a baseline for our benchmark in BenchmarkDotNet and discuss styling the baseline results. As software developers, benchmarking the performance of our methods is a crucial part of our day-to-day activities. With the BenchmarkDotNet library, we can accurately perform this operation. When we use this library for […] The post Baseline Styling in BenchmarkDotNet appeared first on Code Maze.
 Link to article: https://code-maze.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Stop Debugging and Start Running in Visual Studio</title>
+      <link>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_11/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_04_2024/18_04_2024_11/</guid>
+      <description>
+        
+          
+            NOTE: Watch the video above to see actual timings of starting with and without debugging. Vote for this feature request to make Run vs Debug…
+Link to article: https://ardalis.com/stop-debugging-start-running-visual-studio/ 
           
           
         
