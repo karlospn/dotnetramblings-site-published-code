@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 19 Apr 2024 15:07:02 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Apr 2024 17:07:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Scale AI training and inference for drug discovery through Amazon EKS and Karpenter</title>
+      <title>Sign up for the Microsoft Developers AI Learning Hackathon and Compete for $10,000 in Prizes!</title>
       <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_0/</link>
-      <pubDate>Fri, 19 Apr 2024 15:07:02 +0000</pubDate>
+      <pubDate>Fri, 19 Apr 2024 17:07:25 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_0/</guid>
+      <description>
+        
+          
+            Are you ready to learn about building your very own AI apps in Azure? Participate in the Microsoft Developers AI Learning Hackathon and discover how to build your own custom AI copilot using Azure Cosmos DB for MongoDB and the Azure OpenAI API.
+Link to article: https://devblogs.microsoft.com/cosmosdb/sign-up-for-the-microsoft-developers-ai-learning-hackathon-and-compete-for-10000-in-prizes 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Use Kubernetes Operators for new inference capabilities in Amazon SageMaker that reduce LLM deployment costs by 50% on average</title>
+      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_1/</link>
+      <pubDate>Fri, 19 Apr 2024 16:55:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_1/</guid>
+      <description>
+        
+          
+            We are excited to announce a new version of the Amazon SageMaker Operators for Kubernetes using the AWS Controllers for Kubernetes (ACK). ACK is a framework for building Kubernetes custom controllers, where each controller communicates with an AWS service API. These controllers allow Kubernetes users to provision AWS resources like buckets, databases, or message queues […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/use-kubernetes-operators-for-new-inference-capabilities-in-amazon-sagemaker-that-reduce-llm-deployment-costs-by-50-on-average/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Cosmos DB design patterns – Part 9: Schema versioning</title>
+      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_2/</link>
+      <pubDate>Fri, 19 Apr 2024 15:28:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_2/</guid>
+      <description>
+        
+          
+            Welcome to Part 9 of our Azure Cosmos DB Design Patterns series, focusing on Schema Versioning. This edition is particularly useful for those new to NoSQL databases or looking to understand Azure Cosmos DB’s unique capabilities. Here, we will explore how schema versioning can help manage and evolve your database schema efficiently,
+Link to article: https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-design-patterns-part-9-schema-versioning 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Talk to your slide deck using multimodal foundation models hosted on Amazon Bedrock and Amazon SageMaker – Part 2</title>
+      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_3/</link>
+      <pubDate>Fri, 19 Apr 2024 15:15:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_3/</guid>
+      <description>
+        
+          
+            In Part 1 of this series, we presented a solution that used the Amazon Titan Multimodal Embeddings model to convert individual slides from a slide deck into embeddings. We stored the embeddings in a vector database and then used the Large Language-and-Vision Assistant (LLaVA 1.5-7b) model to generate text responses to user questions based on […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/talk-to-your-slide-deck-using-multimodal-foundation-models-hosted-on-amazon-bedrock-and-amazon-sagemaker-part-2/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Scale AI training and inference for drug discovery through Amazon EKS and Karpenter</title>
+      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_4/</link>
+      <pubDate>Fri, 19 Apr 2024 15:07:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_4/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/scale-ai-training
     
     <item>
       <title>Modernize an existing Windows service to a .NET 8 gRPC service with Amazon ECS</title>
-      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_5/</link>
       <pubDate>Fri, 19 Apr 2024 14:08:46 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_5/</guid>
       <description>
         
           
@@ -43,11 +111,45 @@ Link to article: https://aws.amazon.com/blogs/dotnet/modernize-an-existing-windo
     </item>
     
     <item>
+      <title>Adding state to the update notification pattern, part 3</title>
+      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_6/</link>
+      <pubDate>Fri, 19 Apr 2024 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_6/</guid>
+      <description>
+        
+          
+            Abandoning the background work if we know that it is pointless.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20240419-00/?p=109689 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>API Gateways in Zuplo – Creating an ASCII Art API</title>
+      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_7/</link>
+      <pubDate>Fri, 19 Apr 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_7/</guid>
+      <description>
+        
+          
+            The post API Gateways in Zuplo – Creating an ASCII Art API appeared first on Dev Leader.Just how easy is it to make an API gateway in Zuplo? Zuper eazy. Check out how I&#39;m making an ASCII art API with Zuplo as my API gateway! The post API Gateways in Zuplo – Creating an ASCII Art API appeared first on Dev Leader.
+Link to article: https://www.devleader.ca/2024/04/19/api-gateways-in-zuplo-creating-an-ascii-art-api/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Code Maze Weekly #210</title>
-      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_8/</link>
       <pubDate>Fri, 19 Apr 2024 08:51:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_8/</guid>
       <description>
         
           
@@ -61,10 +163,10 @@ Link to article: https://code-maze.
     
     <item>
       <title>Profiling Docker Compose services through Visual Studio</title>
-      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_9/</link>
       <pubDate>Fri, 19 Apr 2024 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_9/</guid>
       <description>
         
           
@@ -78,10 +180,10 @@ Link to article: https://devblogs.microsoft.com/ise/profiling-docker-compose-ser
     
     <item>
       <title>How to Check the Total Number of Items Defined in an Enum</title>
-      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_10/</link>
       <pubDate>Fri, 19 Apr 2024 05:43:51 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_10/</guid>
       <description>
         
           
@@ -93,11 +195,11 @@ Link to article: https://devblogs.microsoft.com/ise/profiling-docker-compose-ser
     </item>
     
     <item>
-      <title>Navigating the Edges of Technology in Software Development: Bleeding, Leading, and Rusting</title>
-      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_5/</link>
+      <title>Navigating the Edges of Technology in Software Development: Bleeding, Leading, Dull, and Rusting</title>
+      <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_11/</link>
       <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_11/</guid>
       <description>
         
           
