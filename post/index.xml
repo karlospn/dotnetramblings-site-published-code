@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 19 Apr 2024 17:07:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Distributed Tracing With OpenTelemetry in .NET</title>
+      <link>https://www.dotnetramblings.com/post/20_04_2024/20_04_2024_0/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_04_2024/20_04_2024_0/</guid>
+      <description>
+        
+          
+            Distributed systems offer flexibility but introduce complexity, making troubleshooting a headache. Understanding how requests flow through your system is crucial for debugging and performance optimization. OpenTelemetry is an open-source observability framework that makes this possible.
+Link to article: https://www.milanjovanovic.tech/blog/introduction-to-distributed-tracing-with-opentelemetry-in-dotnet 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Sign up for the Microsoft Developers AI Learning Hackathon and Compete for $10,000 in Prizes!</title>
       <link>https://www.dotnetramblings.com/post/19_04_2024/19_04_2024_0/</link>
@@ -1229,141 +1246,6 @@ Link to article: https://devblogs.microsoft.com/java/java-on-azure-tooling-updat
         
           
             The “using” directive in C# helps us reduce boilerplate code when referencing types and members that sit outside the context of our class. C# 12 further expanded on the using directive, allowing it to be used for additional types. In this article, we’ll start by looking at how “using” has been used so far in […] The post Improvements in the Using Directive for Additional Types in C# appeared first on Code Maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>MSVC Address Sanitizer adoption in .NET’s CoreCLR</title>
-      <link>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_0/</link>
-      <pubDate>Fri, 12 Apr 2024 19:39:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_0/</guid>
-      <description>
-        
-          
-            Collaboration to improve the reliability and security of .NET, from the perspective of an MSVC Address Sanitizer Developer Introduction .NET (on GitHub) is a cross-platform, open-source, and general-purpose development platform with widespread adoption. A core component of .NET is the Core Common Language Runtime (CoreCLR),
-Link to article: https://devblogs.microsoft.com/cppblog/msvc-address-sanitizer-adoption-in-nets-coreclr 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing the Upcoming Deprecation of MSAL.NET for Xamarin and UWP</title>
-      <link>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_1/</link>
-      <pubDate>Fri, 12 Apr 2024 16:56:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_1/</guid>
-      <description>
-        
-          
-            Announcing the deprecation of the Xamarin and UWP versions of MSAL.NET starting with MSAL.NET 4.61.0.
-Link to article: https://devblogs.microsoft.com/identity/uwp-xamarin-msal-net-deprecation 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Reduce TCO with Azure Cosmos DB for MongoDB</title>
-      <link>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_2/</link>
-      <pubDate>Fri, 12 Apr 2024 16:31:46 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_2/</guid>
-      <description>
-        
-          
-            Azure Cosmos DB for MongoDB is a fully managed MongoDB compatible cloud database service. Built on top of a proprietary engine to provide scale, performance and availability guarantees, the service eliminates the operational overhead of running self-hosted MongoDB instances. In this blog,
-Link to article: https://devblogs.microsoft.com/cosmosdb/reduce-tco-with-azure-cosmos-db-for-mongodb 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The case of the string being copied from a mysterious pointer to invalid memory</title>
-      <link>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_3/</link>
-      <pubDate>Fri, 12 Apr 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_3/</guid>
-      <description>
-        
-          
-            Using AppVerifier to deduce the heap allocation history.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240412-00/?p=109636 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>April 2024: A look at the latest Microsoft Entra key feature releases, announcements, and updates</title>
-      <link>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_4/</link>
-      <pubDate>Fri, 12 Apr 2024 13:58:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_4/</guid>
-      <description>
-        
-          
-            An overview of the latest updates in Microsoft Entra for April 2024. Discover how these new capabilities can be integrated into your projects for optimal performance and security.
-Link to article: https://devblogs.microsoft.com/identity/eng-connect-apr-24 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Code Maze Weekly #209</title>
-      <link>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_5/</link>
-      <pubDate>Fri, 12 Apr 2024 08:58:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_5/</guid>
-      <description>
-        
-          
-            Issue #209 of the Code Maze weekly. Check out what’s new this week and enjoy the read. .NET and C# Top Picks 6 Types of Constructors in C# [codingsonata.com] Let’s go over the basics and see which constructors we have available in C# with Aram Tchekrekjian. Can you name them all (think C#12 as well)? […] The post Code Maze Weekly #209 appeared first on Code Maze.
-Link to article: https://code-maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Testing VSCode Extensions with TypeScript</title>
-      <link>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_6/</link>
-      <pubDate>Fri, 12 Apr 2024 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_6/</guid>
-      <description>
-        
-          
-            Due to the nature of VS Code, testing extensions can be quite complex. In this blog post, we explore various ways to write unit tests for VS Code extensions, as well as strategies for writing more sufficient integration tests.
-Link to article: https://devblogs.microsoft.com/ise/testing-vscode-extensions-with-typescript 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Test gRPC Services in ASP.NET Core</title>
-      <link>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_7/</link>
-      <pubDate>Fri, 12 Apr 2024 05:29:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_04_2024/12_04_2024_7/</guid>
-      <description>
-        
-          
-            gRPC is a popular way to create fast and scalable API’s in the .NET world. In this article, we explore how to test gRPC Services in .NET applications, and set up both unit and integration tests to ensure the reliability and performance of gRPC services. So let’s start. What is gRPC? In general, gRPC is […] The post How to Test gRPC Services in ASP.NET Core appeared first on Code Maze.
           
           
         
