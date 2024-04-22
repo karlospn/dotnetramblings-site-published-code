@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Dotnettips.wordpress.com | .NET Ramblings</title>
+<title>Collection Performance: Creating a List&lt;&gt; Using The Task.Parallel Library | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,24 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="The post discusses alternative approaches to adding items to a collection using For() or ForEach() from the Task Parallel Library.
+Link to article: …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Dotnettips.wordpress.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/" />
-<meta property="og:title" content="Dotnettips.wordpress.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Collection Performance: Creating a List&lt;&gt; Using The Task.Parallel Library" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/22_04_2024/22_04_2024_0/" />
+<meta property="og:title" content="Collection Performance: Creating a List&lt;&gt; Using The Task.Parallel Library" />
+<meta property="og:description" content="The post discusses alternative approaches to adding items to a collection using For() or ForEach() from the Task Parallel Library.
+Link to article: …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/22_04_2024/22_04_2024_0/">
 
 
 
@@ -125,19 +128,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/04/22/collection-performance-creating-a-list-using-the-task-parallel-library/" title="Collection Performance: Creating a List&lt;&gt; Using The Task.Parallel Library">Collection Performance: Creating a List&lt;&gt; Using The Task.Parallel Library</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Collection Performance: Creating a List&lt;&gt; Using The Task.Parallel Library</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -150,286 +144,29 @@
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Collection Performance: Creating a List&amp;lt;&amp;gt; Using The Task.Parallel Library"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The post discusses alternative approaches to adding items to a collection using For() or ForEach() from the Task Parallel Library.
-Link to article: <a href="https://dotnettips.wordpress.com/2024/04/22/collection-performance-creating-a-list-using-the-task-parallel-library/">https://dotnettips.wordpress.com/2024/04/22/collection-performance-creating-a-list-using-the-task-parallel-library/</a></p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/04/22/collection-performance-creating-a-list-using-the-task-parallel-library/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/04/17/string-performance-appending-a-character-using-the-stringbuilder/" title="String Performance: Appending a Character using the StringBuilder">String Performance: Appending a Character using the StringBuilder</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 17, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>The post discusses alternative approaches to adding items to a collection using For() or ForEach() from the Task Parallel Library.</p>
+<ul>
+<li>Link to article: <a href="https://dotnettips.wordpress.com/2024/04/22/collection-performance-creating-a-list-using-the-task-parallel-library/">https://dotnettips.wordpress.com/2024/04/22/collection-performance-creating-a-list-using-the-task-parallel-library/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="String Performance: Appending a Character using the StringBuilder"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The use of a single character with a StringBuilder from an ObjectPool can improve performance. Benchmark results show similar overall performance, but without an ObjectPool, using a character becomes more significant. It is recommended to use a character in such cases. EditorConfig setup can check for this issue using …</p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/04/17/string-performance-appending-a-character-using-the-stringbuilder/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/04/16/code-it-any-way-you-want-checking-strings-for-null/" title="Code It Any Way You Want: Checking Strings for Null">Code It Any Way You Want: Checking Strings for Null</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Code It Any Way You Want: Checking Strings for Null"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The article discusses best practices for checking strings for null in coding. It outlines three common methods: using == null, is null, or string.IsNullOrEmpty().
-Link to article: <a href="https://dotnettips.wordpress.com/2024/04/16/code-it-any-way-you-want-checking-strings-for-null/">https://dotnettips.wordpress.com/2024/04/16/code-it-any-way-you-want-checking-strings-for-null/</a></p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/04/16/code-it-any-way-you-want-checking-strings-for-null/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/04/15/general-performance-tips/" title="General Performance Tips">General Performance Tips</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 15, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="General Performance Tips"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>These articles delves into indispensable tips that should consistently be integrated into your coding practices. Though these tips may seem small, their cumulative impact becomes pronounced, particularly when handling high message volumes. Embracing these fundamental practices can yield substantial benefits for overall …</p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/04/15/general-performance-tips/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/04/15/reference-type-structure-performance-hashing-classes-records-and-structures/" title="Reference Type &amp; Structure Performance: Hashing Classes, Records, and Structures">Reference Type &amp; Structure Performance: Hashing Classes, Records, and Structures</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 15, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Reference Type &amp;amp; Structure Performance: Hashing Classes, Records, and Structures"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>A SHA256 hash can be generated for a class, record, or structure using a specific code. Performance analysis shows that hashing a class is 1.032 times faster than a structure and 1.048 times more efficient than a record. The memory allocations for record, reference, and value types are also provided in bytes.
-Link to …</p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/04/15/reference-type-structure-performance-hashing-classes-records-and-structures/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -446,9 +183,8 @@ Link to …</p>
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
