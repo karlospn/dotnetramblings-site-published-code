@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 24 Apr 2024 04:52:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Apr 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HSTS Header Implementation in ASP.NET Core</title>
+      <title>General Performance: Choosing Between GetValueOrDefault() and Coalesce Operator for Nullable Integers</title>
       <link>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_0/</link>
-      <pubDate>Wed, 24 Apr 2024 04:52:09 +0000</pubDate>
+      <pubDate>Wed, 24 Apr 2024 08:01:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_0/</guid>
+      <description>
+        
+          
+            In dealing with nullable integers and the need for default values, two common approaches are the coalesce operator (??) and GetValueOrDefault(). Alternatively, utilizing HasValue with the conditional operator is demonstrated.
+Link to article: https://dotnettips.wordpress.com/2024/04/24/general-performance-choosing-between-getvalueordefault-and-coalesce-operator-for-nullable-integers/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>HSTS Header Implementation in ASP.NET Core</title>
+      <link>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_1/</link>
+      <pubDate>Wed, 24 Apr 2024 04:52:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_1/</guid>
       <description>
         
           
