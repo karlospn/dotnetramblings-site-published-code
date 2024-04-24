@@ -4,13 +4,12 @@
   lang="en"
   data-figures=""
   
-    class="home"
+    class="page"
   
   
   >
   <head>
-	<meta name="generator" content="Hugo 0.125.3">
-<title>.NET Ramblings</title>
+<title>How to upload a file with Blazor SSR in .NET 8? | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,25 +27,23 @@
 
 <meta property="og:locale" content="en" />
 
-<meta property="og:type" content="website">
-<meta name="description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
+<meta property="og:type" content="article">
+<meta name="description" content="Blazor has built-in support for handling file uploads. If you’re using one of the interactive render modes (or .NET 7 or earlier) you can use the dedicated …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content=".NET Ramblings" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/" />
-<meta property="og:title" content=".NET Ramblings" />
-<meta property="og:description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="How to upload a file with Blazor SSR in .NET 8?" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_4/" />
+<meta property="og:title" content="How to upload a file with Blazor SSR in .NET 8?" />
+<meta property="og:description" content="Blazor has built-in support for handling file uploads. If you’re using one of the interactive render modes (or .NET 7 or earlier) you can use the dedicated …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/index.xml" title=".NET Ramblings" />
-<link rel="alternate" type="application/json" href="https://www.dotnetramblings.com/index.json" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_4/">
 
 
 
@@ -90,7 +87,7 @@
       
         
 
-  <div class="nav_parent nav_active">
+  <div class="nav_parent">
     <a href="https://www.dotnetramblings.com/" class="nav_item" title="Home">Home </a>
   </div>
   <div class="nav_parent">
@@ -129,21 +126,10 @@
 </header>
 
     <main>
-
   
-
-
-
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/04/17/string-performance-appending-a-character-using-the-stringbuilder/" title="String Performance: Appending a Character using the StringBuilder">String Performance: Appending a Character using the StringBuilder</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">How to upload a file with Blazor SSR in .NET 8?</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -151,260 +137,94 @@
 </svg>
 </span>
     <span class="post_date">
-      Apr 17, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
+      Apr 24, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jonhilton.net/' title="jonhilton.net" class="post_tag button button_translucent">jonhilton.net
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="String Performance: Appending a Character using the StringBuilder"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The use of a single character with a StringBuilder from an ObjectPool can improve performance. Benchmark results show similar overall performance, but without an ObjectPool, using a character becomes more significant. It is recommended to use a character in such cases. EditorConfig setup can check for this issue using …</p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/04/17/string-performance-appending-a-character-using-the-stringbuilder/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/education/2024/04/17/10-strategies-for-launching-students-into-the-software-industry/" title="Livestream: 10 Strategies for Launching Students Into the Software Industry">Livestream: 10 Strategies for Launching Students Into the Software Industry</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 17, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Blazor has built-in support for handling file uploads.
+If you’re using one of the interactive render modes (or .NET 7 or earlier) you can use the dedicated InputFile component and use that to get hold of a file from the user.
+You can then save that file somewhere (to disk, or the cloud).
+Here’s a basic example using Blazor Server.
+@page &quot;/FileUpload/InteractiveServer&quot;
+@rendermode InteractiveServer</p>
+<InputFile OnChange="UploadFile" class="form-control"/>
+@code {
+<p>private async Task UploadFile(InputFileChangeEventArgs e)
+{
+var saveFolder = Path.Combine(&quot;C:\Temp\Files&quot;);
+var filePath = Path.Combine(saveFolder, e.File.Name);
+Directory.CreateDirectory(saveFolder);</p>
+<p>await using FileStream fs = new(filePath, FileMode.Create);
+await e.File.OpenReadStream().CopyToAsync(fs);
+}</p>
+<p>}
+Blazor’s built-in InputFile component takes the uploaded file and calls the UpoloadFile method.
+UpoloadFile creates a new FileStream (for writing the file contents to disk), and opens a ReadStream for the file (to read its contents).
+It then copies the file data from the read stream to the file stream and the file is saved.
+Making it work with static server-side rendering
+.NET 8 offers an alternative way to render Razor components, using static server-side rendering.
+With SSR you can render your Razor components on the server. The resulting HTML is then sent as the response to the browser.
+In this mode there is no long-running, ongoing interactivity. The component is rendered once, then its job is done.
+As a result, we can’t wire up handlers to events such as OnChange (see previous example) because the component isn’t actually running anywhere by the time we’re viewing it in the browser.
+The alternative? Turn to the tried and tested way of getting data from user to server, the humble form.
+With SSR, we can use a form and the standard HTML file element to take uploaded file data and access it in our component.
+First we need the form itself.
+@page &quot;/FileUpload&quot;</p>
+<h3>Upload File</h3>
+<form method="post" enctype="multipart/form-data" @formname="UploadFile">
+ <input type="file" name="file" class="form-control"/>
+ <button type="submit" class="btn btn-primary mt-3">Upload File</button>
+ <AntiforgeryToken/>
+</form>
+This is a standard HTML form, with a couple of Blazor specific tweaks.
+The form needs a @formname
+This is so Blazor knows where to route the posted form data when the form is submitted.
+Blazor will take the incoming POST request and attempt to locate the corresponding component (based on that formname).
+But how to then access that data in our component’s logic?
+@code {
+<p>[SupplyParameterFromForm] public IFormFile? File { get; set; }</p>
+<p>protected override async Task OnInitializedAsync()
+{
+_thing = File?.FileName ?? &quot;No File&quot;;</p>
+<p>if (File == null)
+return;</p>
+<p>var saveFolder = Path.Combine(&quot;C:\Temp\Files&quot;);
+var filePath = Path.Combine(saveFolder, File.FileName);
+Directory.CreateDirectory(saveFolder);
+await using var stream = new FileStream(filePath, FileMode.Create);
+await File.CopyToAsync(stream);
+}</p>
+<p>}
+For that we can use the handy [SupplyParameterFromForm] attribute.
+With that we can take that incoming form data and bind it to a property in our component.
+In this case we’re going to try to bind the value for file in the form data, and bind it to the File property.
+When the form is submitted Blazor will locate this component and render it.
+At that point the OnIntiializedAsync method will be invoked.
+Blazor’s Model binding ensures File has been populated with the details of the uploaded file.
+Then we can create a new FileStream and copy the contents of the uploaded file to it, effectively saving the file to the local filesystem (on the server, where the component is running).</p>
+<ul>
+<li>Link to article: <a href="https://jonhilton.net/upload-file-ssr/">https://jonhilton.net/upload-file-ssr/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Livestream: 10 Strategies for Launching Students Into the Software Industry"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>JetBrains Academy has started a series of livestreams crafted especially for teachers and educators. Join us on Tuesday, April 23, at 4:00 pm UTC for the first livestream of the series with our Developer Advocate, Garth Gilmour. He’ll discuss how to ensure students are well-equipped for success in the real world of the …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/education/2024/04/17/10-strategies-for-launching-students-into-the-software-industry/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/dotnet-ch/%e5%88%a9%e7%94%a8-redis-%e4%bd%bf-ai-%e9%a9%b1%e5%8a%a8%e7%9a%84-net-%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e6%9b%b4%e5%8a%a0%e4%b8%80%e8%87%b4%e5%92%8c%e6%99%ba%e8%83%bd" title="利用 Redis 使 AI 驱动的 .NET 应用程序更加一致和智能">利用 Redis 使 AI 驱动的 .NET 应用程序更加一致和智能</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 17, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="利用 Redis 使 AI 驱动的 .NET 应用程序更加一致和智能"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>本篇翻译于Catherine Wang的Making AI powered .NET apps more consistent and intelligent with Redis – .NET Blog (microsoft.com) Redis 是一种流行的内存数据存储，可用于解决构建和扩展智能应用程序的关键挑战。 在本文中，你将了解如何使用Redis的 Azure 缓存来提高使用 Azure OpenAI 的应用程序的效率。 Redis 的Azure 缓存不受最近的 Redis 许可证更新的影响： “我们将持续的合作以确保 Azure 客户能够无缝地利用 Azure Cache for Redis的所有层级。 Azure …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/dotnet-ch/%e5%88%a9%e7%94%a8-redis-%e4%bd%bf-ai-%e9%a9%b1%e5%8a%a8%e7%9a%84-net-%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e6%9b%b4%e5%8a%a0%e4%b8%80%e8%87%b4%e5%92%8c%e6%99%ba%e8%83%bd" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://code-maze.com/csharp-the-difference-between-invariance-contravariance-and-covariance-in-generics/" title="The Difference Between Invariance, Contravariance and Covariance in Generics in C#">The Difference Between Invariance, Contravariance and Covariance in Generics in C#</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 17, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="The Difference Between Invariance, Contravariance and Covariance in Generics in C#"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this article, we will explore the role, significance, usage, and impact of invariance , contravariance and covariance in our C# generics programming. Generics in C# enable us to design flexible, reusable classes and methods, providing type safety without the need for excessive casting or the risk of runtime errors. …</p>
-          
-          <br>
-          <a href="https://code-maze.com/csharp-the-difference-between-invariance-contravariance-and-covariance-in-generics/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope=''>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -421,9 +241,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>

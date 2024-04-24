@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 24 Apr 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Apr 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>General Performance: Choosing Between GetValueOrDefault() and Coalesce Operator for Nullable Integers</title>
+      <title>MudBlazor with Blazor SSR – What You Need To Know</title>
       <link>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_0/</link>
-      <pubDate>Wed, 24 Apr 2024 08:01:00 +0000</pubDate>
+      <pubDate>Wed, 24 Apr 2024 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_0/</guid>
+      <description>
+        
+          
+            The post MudBlazor with Blazor SSR – What You Need To Know appeared first on Dev Leader.Learn how to use MudBlazor with Blazor SSR! Blazor&#39;s Server Side Rendering can be used alongside this awesome control library for building your next Blazor app! The post MudBlazor with Blazor SSR – What You Need To Know appeared first on Dev Leader.
+Link to article: https://www.devleader.ca/2024/04/24/mudblazor-with-blazor-ssr-what-you-need-to-know/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Securing identity: Exploring application types and authentication flows</title>
+      <link>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_1/</link>
+      <pubDate>Wed, 24 Apr 2024 10:27:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_1/</guid>
+      <description>
+        
+          
+            Building on the foundations laid out in an earlier blog post on IAM basics, this blog post dives into the world of application types and authentication flows.
+Link to article: https://devblogs.microsoft.com/identity/app-types-and-auth-flows 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>General Performance: Choosing Between GetValueOrDefault() and Coalesce Operator for Nullable Integers</title>
+      <link>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_2/</link>
+      <pubDate>Wed, 24 Apr 2024 08:01:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_2/</guid>
       <description>
         
           
@@ -27,15 +61,32 @@ Link to article: https://dotnettips.wordpress.com/2024/04/24/general-performance
     
     <item>
       <title>HSTS Header Implementation in ASP.NET Core</title>
-      <link>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_3/</link>
       <pubDate>Wed, 24 Apr 2024 04:52:09 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_3/</guid>
       <description>
         
           
             In this article, we are going to learn how to implement the HSTS header in ASP.NET Core applications. So let’s get going. What Is HSTS HTTP Strict Transport Security (HSTS) is a web security mechanism that forces browsers to access a website using only secure HTTPS connections. When enabled, the browser automatically upgrades any HTTP […] The post HSTS Header Implementation in ASP.NET Core appeared first on Code Maze.
 Link to article: https://code-maze.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to upload a file with Blazor SSR in .NET 8?</title>
+      <link>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_4/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_04_2024/24_04_2024_4/</guid>
+      <description>
+        
+          
+            Blazor has built-in support for handling file uploads. If you’re using one of the interactive render modes (or .NET 7 or earlier) you can use the dedicated InputFile component and use that to get hold of a file from the user. You can then save that file somewhere (to disk, or the cloud). Here’s a basic example using Blazor Server. @page &amp;quot;/FileUpload/InteractiveServer&amp;quot; @rendermode InteractiveServer
+@code { private async Task UploadFile(InputFileChangeEventArgs e) { var saveFolder = Path.
           
           
         
