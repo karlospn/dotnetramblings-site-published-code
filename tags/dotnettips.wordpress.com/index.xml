@@ -59,22 +59,5 @@ Link to article: https://dotnettips.wordpress.com/2024/04/22/collection-performa
       </description>
     </item>
     
-    <item>
-      <title>String Performance: Appending a Character using the StringBuilder</title>
-      <link>https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_9/</link>
-      <pubDate>Wed, 17 Apr 2024 08:01:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_04_2024/17_04_2024_9/</guid>
-      <description>
-        
-          
-            The use of a single character with a StringBuilder from an ObjectPool can improve performance. Benchmark results show similar overall performance, but without an ObjectPool, using a character becomes more significant. It is recommended to use a character in such cases. EditorConfig setup can check for this issue using dotnet_diagnostic.CA1834.severity = warning.
-Link to article: https://dotnettips.wordpress.com/2024/04/17/string-performance-appending-a-character-using-the-stringbuilder/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
