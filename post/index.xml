@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 26 Apr 2024 05:12:51 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Apr 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Create a Zip File in Memory In C#</title>
+      <title>Collection Performance: Is LINQ Always the Most Performant Choice?</title>
       <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_0/</link>
-      <pubDate>Fri, 26 Apr 2024 05:12:51 +0000</pubDate>
+      <pubDate>Fri, 26 Apr 2024 08:01:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_0/</guid>
+      <description>
+        
+          
+            The article explores the performance implications of using LINQ for collection queries, finding that a conventional foreach() loop outperforms LINQ by 1.75 times in identifying items matching a given query. The conclusion suggests benchmarking to determine the optimal approach based on the nature of the query and elements being sought.
+Link to article: https://dotnettips.wordpress.com/2024/04/26/collection-performance-is-linq-always-the-most-performant-choice/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Development Containers Simplified</title>
+      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_1/</link>
+      <pubDate>Fri, 26 Apr 2024 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_1/</guid>
+      <description>
+        
+          
+            This post talks about the concept of development containers and how it can help us to solve the challenges we face when setting up our development environment or onboarding a new team member.
+Link to article: https://devblogs.microsoft.com/ise/dev-containers 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Create a Zip File in Memory In C#</title>
+      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_2/</link>
+      <pubDate>Fri, 26 Apr 2024 05:12:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_2/</guid>
       <description>
         
           
