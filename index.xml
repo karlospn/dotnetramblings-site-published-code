@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 29 Apr 2024 17:47:40 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Apr 2024 19:20:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cohere Command R and R&#43; are now available in Amazon SageMaker JumpStart</title>
+      <title>Filters in Semantic Kernel</title>
       <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_0/</link>
-      <pubDate>Mon, 29 Apr 2024 17:47:40 +0000</pubDate>
+      <pubDate>Mon, 29 Apr 2024 19:20:44 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_0/</guid>
+      <description>
+        
+          
+            It’s important to understand how the application behaves and have the ability to override that behavior in runtime based on some conditions. For example, we don’t want to send malicious prompt to LLM, and we don’t want to expose more information than needed to the end users.
+Link to article: https://devblogs.microsoft.com/semantic-kernel/filters-in-semantic-kernel 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Develop and train large models cost-efficiently with Metaflow and AWS Trainium</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_1/</link>
+      <pubDate>Mon, 29 Apr 2024 19:20:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_1/</guid>
+      <description>
+        
+          
+            This is a guest post co-authored with Ville Tuulos (Co-founder and CEO) and Eddie Mattia (Data Scientist) of Outerbounds. To build a production-grade AI system today (for example, to do multilingual sentiment analysis of customer support conversations), what are the primary technical challenges? Historically, natural language processing (NLP) would be a primary research and development […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/develop-and-train-large-models-cost-efficiently-with-metaflow-and-aws-trainium/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Journey to Accessible Apps: Keyboard Accessibility and .NET MAUI</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_2/</link>
+      <pubDate>Mon, 29 Apr 2024 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_2/</guid>
+      <description>
+        
+          
+            Are your apps keyboard accessible? Learn more about keyboard traps and find out how you can ensure your .NET MAUI apps are keyboard accessible.
+Link to article: https://devblogs.microsoft.com/dotnet/the-journey-to-accessible-apps-keyboard-accessible 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Managed RunCommand Artifacts</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_3/</link>
+      <pubDate>Mon, 29 Apr 2024 18:10:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_3/</guid>
+      <description>
+        
+          
+            As most of you may know from the current Managed RunCommand documentation there are multiple ways your script may be specified. Through the Script parameter. You can inline your entire script in this manner, though we don’t recommend the practice if your script contains confidential information.
+Link to article: https://devblogs.microsoft.com/azure-vm-runtime/introducing-managed-runcommand-artifacts 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Cohere Command R and R&#43; are now available in Amazon SageMaker JumpStart</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_4/</link>
+      <pubDate>Mon, 29 Apr 2024 17:47:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_4/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/cohere-command-r-
     
     <item>
       <title>Encrypting secrets locally</title>
-      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_5/</link>
       <pubDate>Mon, 29 Apr 2024 15:57:26 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_5/</guid>
       <description>
         
           
@@ -44,10 +112,10 @@ Link to article: https://devblogs.microsoft.com/powershell-community/encrypting-
     
     <item>
       <title>Revolutionizing large language model training with Arcee and AWS Trainium</title>
-      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_6/</link>
       <pubDate>Mon, 29 Apr 2024 15:21:20 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_6/</guid>
       <description>
         
           
@@ -60,11 +128,28 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/revolutionizing-l
     </item>
     
     <item>
+      <title>PHP Annotated – April 2024</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_7/</link>
+      <pubDate>Mon, 29 Apr 2024 15:09:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_7/</guid>
+      <description>
+        
+          
+            Welcome to the April edition of PHP Annotated! We’ll recap the most interesting developments in the PHP community over the past couple of months, featuring handpicked news, articles, tools, and videos. Highlights PHP statement on glibc/iconv vulnerability The hype around CVE-2024-2961 in relation to PHP was extremely exaggerated. Many people were under the impression that […]
+Link to article: https://blog.jetbrains.com/phpstorm/2024/04/php-annotated-april-2024/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Pure Virtual C&#43;&#43; 2024 is Tomorrow</title>
-      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_8/</link>
       <pubDate>Mon, 29 Apr 2024 15:06:24 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_8/</guid>
       <description>
         
           
@@ -78,10 +163,10 @@ Link to article: https://devblogs.microsoft.com/cppblog/pure-virtual-c-2024-is-t
     
     <item>
       <title>Awaiting a set of handles in C&#43;&#43;/WinRT</title>
-      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_9/</link>
       <pubDate>Mon, 29 Apr 2024 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_9/</guid>
       <description>
         
           
@@ -95,10 +180,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240429-00/?p=10970
     
     <item>
       <title>Phi-3: Microsoft Redefines Small Language Models (SLMs)</title>
-      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_10/</link>
       <pubDate>Mon, 29 Apr 2024 12:42:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_10/</guid>
       <description>
         
           
@@ -111,11 +196,28 @@ Link to article: https://build5nines.
     </item>
     
     <item>
+      <title>Ask Me Anything Session With the JetBrains Academy Team</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_11/</link>
+      <pubDate>Mon, 29 Apr 2024 12:26:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_11/</guid>
+      <description>
+        
+          
+            We’d like to invite you to our very first free Ask Me Anything session on Discord with JetBrains Academy! Send us any questions you may have about JetBrains Academy courses, how to start a career in IT, teaching opportunities, our offline programs, or any other topic you’re interested in. We’ll kick off the chatting session […]
+Link to article: https://blog.jetbrains.com/education/2024/04/29/ask-me-anything-session-with-the-jetbrains-academy-team/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Break into Big Tech – My Journey from Startup to Microsoft</title>
-      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_12/</link>
       <pubDate>Mon, 29 Apr 2024 12:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_12/</guid>
       <description>
         
           
@@ -129,10 +231,10 @@ Link to article: https://www.devleader.ca/2024/04/29/break-into-big-tech-my-jour
     
     <item>
       <title>Collection Performance: Detecting Items in a ConcurrentBag&lt;&gt;</title>
-      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_7/</link>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_13/</link>
       <pubDate>Mon, 29 Apr 2024 08:01:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_13/</guid>
       <description>
         
           
@@ -146,10 +248,10 @@ Link to article: https://dotnettips.wordpress.com/2024/04/29/collection-performa
     
     <item>
       <title>Dev Proxy v0.17 includes integration with Azure API Center</title>
-      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_8/</link>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_14/</link>
       <pubDate>Mon, 29 Apr 2024 07:00:58 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_14/</guid>
       <description>
         
           
