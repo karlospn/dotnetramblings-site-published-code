@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 28 Apr 2024 12:47:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Apr 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collection Performance: Detecting Items in a ConcurrentBag&lt;&gt;</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_0/</link>
+      <pubDate>Mon, 29 Apr 2024 08:01:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_0/</guid>
+      <description>
+        
+          
+            The comparison between using the Count property and the IsEmpty() method in a ConcurrentBag reveals that IsEmpty() is 2.95 times more efficient based on benchmark results. This indicates a significant performance advantage for utilizing IsEmpty().
+Link to article: https://dotnettips.wordpress.com/2024/04/29/collection-performance-detecting-items-in-a-concurrentbag/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Dev Proxy v0.17 includes integration with Azure API Center</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_1/</link>
+      <pubDate>Mon, 29 Apr 2024 07:00:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_1/</guid>
+      <description>
+        
+          
+            We&#39;re excited to share the launch of Dev Proxy v0.17 to help you to build robust apps connected to APIs.
+Link to article: https://devblogs.microsoft.com/microsoft365dev/dev-proxy-v0-17-includes-integration-with-azure-api-center 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>What is a Cloud Engineer and How to Become one?</title>
       <link>https://www.dotnetramblings.com/post/28_04_2024/28_04_2024_0/</link>
