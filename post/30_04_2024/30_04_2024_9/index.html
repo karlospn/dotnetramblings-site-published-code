@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Docker and JFrog partner to further secure Docker Hub and remove millions of imageless repos with malicious links | .NET Ramblings</title>
+<title>MSTest SDK：.NET 8的测试配置与灵活性新篇 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,24 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Docker and JFrog partner further secure Docker Hub by removing millions of imageless repos with malicious links.
-Link to article: …" />
+<meta name="description" content="本篇翻译于Marco Rossignoli 和Amaury Levé 的Introducing MSTest SDK – Improved Configuration &amp; Flexibility。 我们很高兴地宣布，基于 MSBuild Project SDK 系统构建的全新 MSTest SDK已推出。它旨在 …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Docker and JFrog partner to further secure Docker Hub and remove millions of imageless repos with malicious links" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_3/" />
-<meta property="og:title" content="Docker and JFrog partner to further secure Docker Hub and remove millions of imageless repos with malicious links" />
-<meta property="og:description" content="Docker and JFrog partner further secure Docker Hub by removing millions of imageless repos with malicious links.
-Link to article: …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
+<meta name="twitter:title" content="MSTest SDK：.NET 8的测试配置与灵活性新篇" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_9/" />
+<meta property="og:title" content="MSTest SDK：.NET 8的测试配置与灵活性新篇" />
+<meta property="og:description" content="本篇翻译于Marco Rossignoli 和Amaury Levé 的Introducing MSTest SDK – Improved Configuration &amp; Flexibility。 我们很高兴地宣布，基于 MSBuild Project SDK 系统构建的全新 MSTest SDK已推出。它旨在 …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_3/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_9/">
 
 
 
@@ -131,7 +129,7 @@ Link to article: …" />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Docker and JFrog partner to further secure Docker Hub and remove millions of imageless repos with malicious links</h1>
+    <h1 class="post_title">MSTest SDK：.NET 8的测试配置与灵活性新篇</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -139,14 +137,14 @@ Link to article: …" />
 </svg>
 </span>
     <span class="post_date">
-      Apr 30, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Apr 30, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Docker and JFrog partner further secure Docker Hub by removing millions of imageless repos with malicious links.</p>
+    <div class="post_body"><p>本篇翻译于Marco Rossignoli 和Amaury Levé 的Introducing MSTest SDK – Improved Configuration &amp; Flexibility。 我们很高兴地宣布，基于 MSBuild Project SDK 系统构建的全新 MSTest SDK已推出。它旨在通过合理的默认值和灵活的选项使项目配置更加容易，从而为您提供更好的 MSTest 测试体验。  这种新体验是建立在最近推出的 MSTest 运行程序的基础上（请查看公告）https://devblogs.microsoft.com/dotnet/introducing-ms-test-runner/，以进一步提高您的体验。 这个新的运行程序是一种轻量级、可靠且高性能的运行 MSTest 测试的方式，作为 MSTest.TestAdapter NuGet 包的依赖项发布。该运行器及其扩展由多个 NuGet 包组成，以提供可扩展、灵活且可配置的测试运行体验。然而，可定制性可能会导致许多问题：推荐的扩展是什么？正确的默认值是什么？如何对齐版本？ 这就是 MSTest SDK 的用武之地。  MSTest SDK 入门  开始使用新的 MSTest SDK 非常简单。 只需创建一个 MSTest 项目（或更新现有的 MSTest 项目）并将 .csproj 文件的内容替换为以下内容： <Project Sdk="MSTest.Sdk/3.3.1"></p>
 <ul>
-<li>Link to article: <a href="https://www.docker.com/blog/docker-jfrog-partner-to-further-secure-docker-hub/">https://www.docker.com/blog/docker-jfrog-partner-to-further-secure-docker-hub/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/dotnet-ch/mstest-sdk%ef%bc%9a-net-8%e7%9a%84%e6%b5%8b%e8%af%95%e9%85%8d%e7%bd%ae%e4%b8%8e%e7%81%b5%e6%b4%bb%e6%80%a7%e6%96%b0%e7%af%87">https://devblogs.microsoft.com/dotnet-ch/mstest-sdk%ef%bc%9a-net-8%e7%9a%84%e6%b5%8b%e8%af%95%e9%85%8d%e7%bd%ae%e4%b8%8e%e7%81%b5%e6%b4%bb%e6%80%a7%e6%96%b0%e7%af%87</a></li>
 </ul>
 
     </div>
