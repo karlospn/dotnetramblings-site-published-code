@@ -7,13 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 30 Apr 2024 02:46:17 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Apr 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>使用 .NET 为 Microsoft AI 构建可扩展网关</title>
+      <title>Code It Any Way You Want: Optimizing Span Operations – Clear vs. Fill</title>
       <link>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_0/</link>
-      <pubDate>Tue, 30 Apr 2024 02:46:17 +0000</pubDate>
+      <pubDate>Tue, 30 Apr 2024 08:01:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_0/</guid>
+      <description>
+        
+          
+            This article compares two key search methods in dictionaries: using Contains() on the Keys collection and ContainsKey() method directly on the dictionary. It demonstrates examples for both approaches, highlighting Microsoft&#39;s recommendation of using ContainsKey(). The article suggests further examination of the performance aspect of these methods.
+Link to article: https://dotnettips.wordpress.com/2024/04/30/code-it-any-way-you-want-optimizing-span-operations-clear-vs-fill-2/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MSTest SDK：.NET 8的测试配置与灵活性新篇</title>
+      <link>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_1/</link>
+      <pubDate>Tue, 30 Apr 2024 07:32:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_1/</guid>
+      <description>
+        
+          
+            本篇翻译于Marco Rossignoli 和Amaury Levé 的Introducing MSTest SDK – Improved Configuration &amp;amp; Flexibility。 我们很高兴地宣布，基于 MSBuild Project SDK 系统构建的全新 MSTest SDK已推出。它旨在通过合理的默认值和灵活的选项使项目配置更加容易，从而为您提供更好的 MSTest 测试体验。 这种新体验是建立在最近推出的 MSTest 运行程序的基础上（请查看公告）https://devblogs.microsoft.com/dotnet/introducing-ms-test-runner/，以进一步提高您的体验。 这个新的运行程序是一种轻量级、可靠且高性能的运行 MSTest 测试的方式，作为 MSTest.TestAdapter NuGet 包的依赖项发布。该运行器及其扩展由多个 NuGet 包组成，以提供可扩展、灵活且可配置的测试运行体验。然而，可定制性可能会导致许多问题：推荐的扩展是什么？正确的默认值是什么？如何对齐版本？ 这就是 MSTest SDK 的用武之地。 MSTest SDK 入门 开始使用新的 MSTest SDK 非常简单。 只需创建一个 MSTest 项目（或更新现有的 MSTest 项目）并将 .csproj 文件的内容替换为以下内容： Link to article: https://devblogs.microsoft.com/dotnet-ch/mstest-sdk%ef%bc%9a-net-8%e7%9a%84%e6%b5%8b%e8%af%95%e9%85%8d%e7%bd%ae%e4%b8%8e%e7%81%b5%e6%b4%bb%e6%80%a7%e6%96%b0%e7%af%87 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>使用 .NET 为 Microsoft AI 构建可扩展网关</title>
+      <link>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_2/</link>
+      <pubDate>Tue, 30 Apr 2024 02:46:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_2/</guid>
       <description>
         
           
