@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 29 Apr 2024 19:20:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Apr 2024 02:46:17 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 .NET 为 Microsoft AI 构建可扩展网关</title>
+      <link>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_0/</link>
+      <pubDate>Tue, 30 Apr 2024 02:46:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_0/</guid>
+      <description>
+        
+          
+            本篇翻译于Kara Saucerman的Building a scalable gateway with .NET for Microsoft AI – .NET Blog Microsoft AI 团队构建了全面的内容、服务、平台和技术，以便消费者在任何设备上、任何地方获取他们想要的信息，并为企业改善客户和员工的体验。我们的团队支持多种体验，包括 Bing、Copilot、广告、地图和 Edge，并通过 Edge 新标签页、Windows 10 和 11 等入口点呈现，这些入口点每月有超过 10 亿活跃用户。我们意识到需要一个高性能且可靠的网关作为 Microsoft AI 的前端和入口层。这将使多个团队能够利用我们开发的通用功能来帮助运营业务并专注于客户体验和功能。在本文中，我们将介绍在 .NET 8 上借助 YARP 构建网关（代号为 CETO）的过程。 反向代理 在开始编写 CETO 之前，我们必须决定使用反向代理。 我们应该使用外部的还是尝试自己制作？ 这些外部的能涵盖我们所有的用例吗？ 我们还必须考虑定制这些代理的高成本和持续维护。 我们的需求包括支持 HTTP/2、HTTP/3、WebSocket 等流协议、简单的可扩展性等等。 当我们开始了解 Microsoft 其他内部团队正在做的事情时，我们遇到了 YARP 项目。 YARP 代表：“又一个反向代理”。 该项目使用 ASP.NET 和 .NET（.NET 6 及更高版本）提供一个灵活的解决方案，可以通过 .NET 代码进行修改。这有多方便呢？ 事实证明这正是我们所需要的。 Bing 运行着世界上最大、高性能且可靠的 .NET 应用程序之一。 我们依赖于与 .NET 团队的密切合作关系，并且是每个 .NET 版本的早期采用者。 通过尝试并升级到每个新版本，我们可以向 .
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Filters in Semantic Kernel</title>
       <link>https://www.dotnetramblings.com/post/29_04_2024/29_04_2024_0/</link>
