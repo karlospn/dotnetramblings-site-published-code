@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 03 May 2024 16:10:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing API Gateway Authentication With YARP</title>
+      <link>https://www.dotnetramblings.com/post/04_05_2024/04_05_2024_0/</link>
+      <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_05_2024/04_05_2024_0/</guid>
+      <description>
+        
+          
+            In this newsletter, we&#39;ll explore how you can implement API gateway authentication using YARP (Yet Another Reverse Proxy), a powerful and flexible reverse proxy library for .NET applications.
+Link to article: https://www.milanjovanovic.tech/blog/implementing-api-gateway-authentication-with-yarp 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>New Checks Since Visual Studio 2022 17.8</title>
       <link>https://www.dotnetramblings.com/post/03_05_2024/03_05_2024_0/</link>
@@ -1350,260 +1367,6 @@ Link to article: https://www.
           
             When building distributed systems with .NET, direct calls between services can create tight coupling. The request-response messaging pattern can allow distributed services to communicate in a loosely coupled way.
 Link to article: https://www.milanjovanovic.tech/blog/request-response-messaging-pattern-with-masstransit 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Databricks DBRX is now available in Amazon SageMaker JumpStart</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_0/</link>
-      <pubDate>Fri, 26 Apr 2024 19:52:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_0/</guid>
-      <description>
-        
-          
-            Today, we are excited to announce that the DBRX model, an open, general-purpose large language model (LLM) developed by Databricks, is available for customers through Amazon SageMaker JumpStart to deploy with one click for running inference. The DBRX LLM employs a fine-grained mixture-of-experts (MoE) architecture, pre-trained on 12 trillion tokens of carefully curated data and […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/databricks-dbrx-is-now-available-in-amazon-sagemaker-jumpstart/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Knowledge Bases in Amazon Bedrock now simplifies asking questions on a single document</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_1/</link>
-      <pubDate>Fri, 26 Apr 2024 19:12:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_1/</guid>
-      <description>
-        
-          
-            At AWS re:Invent 2023, we announced the general availability of Knowledge Bases for Amazon Bedrock. With Knowledge Bases for Amazon Bedrock, you can securely connect foundation models (FMs) in Amazon Bedrock to your company data for fully managed Retrieval Augmented Generation (RAG). In previous posts, we covered new capabilities like hybrid search support, metadata filtering […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/knowledge-bases-in-amazon-bedrock-now-simplifies-asking-questions-on-a-single-document/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>OData .NET 8 Preview Release</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_2/</link>
-      <pubDate>Fri, 26 Apr 2024 18:38:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_2/</guid>
-      <description>
-        
-          
-            We would like to announce that we are planning a new major release of OData .NET core libraries in June. Ahead of this release, we have released preview versions of the libraries to get some early feedback from the community. Specifically,
-Link to article: https://devblogs.microsoft.com/odata/odata-net-8-preview-release 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Usability Improvements in the Visual Studio Connection Manager</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_3/</link>
-      <pubDate>Fri, 26 Apr 2024 15:11:38 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_3/</guid>
-      <description>
-        
-          
-            In Visual Studio 2022 17.10 Preview 2, we’ve introduced some UX updates and usability improvements to the Connection Manager. With these updates we provide a more seamless experience when connecting to remote systems and/or debugging failed connections. Please install the latest Preview to try it out.
-Link to article: https://devblogs.microsoft.com/cppblog/usability-improvements-in-the-visual-studio-connection-manager 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Breaking changes to Microsoft Graph presence and online meeting basic change notifications</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_4/</link>
-      <pubDate>Fri, 26 Apr 2024 15:00:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_4/</guid>
-      <description>
-        
-          
-            The change removes data about the changed resource from the notifications and applies the established pattern for change notifications to presence and online meeting resources.
-Link to article: https://devblogs.microsoft.com/microsoft365dev/breaking-changes-to-microsoft-graph-presence-and-online-meeting-basic-change-notifications 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Boosting Dev Experience with Serverless Rust in RustRover</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_5/</link>
-      <pubDate>Fri, 26 Apr 2024 14:24:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_5/</guid>
-      <description>
-        
-          
-            Serverless computing and the Rust programming language together offer a promising path for developers to build efficient and scalable applications without the traditional barriers of infrastructure management. In our latest livestream session with James Eastham, a senior cloud architect at AWS, we explored the synergies between Rust and serverless architecture, particularly focusing on AWS Lambda. […]
-Link to article: https://blog.jetbrains.com/rust/2024/04/26/boosting-dev-experience-with-serverless-rust-in-rustrover/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Adding state to the update notification pattern, part 8</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_6/</link>
-      <pubDate>Fri, 26 Apr 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_6/</guid>
-      <description>
-        
-          
-            Comparing the two algorithms.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240426-00/?p=109705 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>WebStorm 2024.1.2 Is Now Available</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_7/</link>
-      <pubDate>Fri, 26 Apr 2024 12:51:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_7/</guid>
-      <description>
-        
-          
-            WebStorm 2024.1.2, the second update for WebStorm 2024.1, is now available! It contains improvements for Angular and adds ESLint 9 support. You can update to v2024.1.2 by using the Toolbox App, installing it right from the IDE, or downloading it from our website. Angular improvements This update introduces new support for Angular 17.2 syntax output() […]
-Link to article: https://blog.jetbrains.com/webstorm/2024/04/webstorm-2024-1-2/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Terraform: Modules using Git Branch as Source</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_8/</link>
-      <pubDate>Fri, 26 Apr 2024 12:26:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_8/</guid>
-      <description>
-        
-          
-            HashiCorp Terraform empowers DevOps Engineers and SREs to manage cloud resources efficiently. One of its standout features is the Terraform Modules support, allowing users to organize and reuse infrastructure code effectively as reusable modules. While Terraform’s native module registry serves as a central hub for sharing modules, sometimes you may prefer hosting modules in your […] The article Terraform: Modules using Git Branch as Source appeared first on Build5Nines.
-Link to article: https://build5nines.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>MPS 2022.2.3 Is Ready for Download</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_9/</link>
-      <pubDate>Fri, 26 Apr 2024 12:10:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_9/</guid>
-      <description>
-        
-          
-            For MPS users still on version 2022.2, we’ve prepared another bug-fix release with several fixes and improvements. Check them out and see how they can make your life easier. DOWNLOAD MPS 2022.2.3 Your JetBrains MPS team
-Link to article: https://blog.jetbrains.com/mps/2024/04/mps-2022-2-2-has-been-released-2/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Plugin Spotlight on JetBrains Marketplace</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_10/</link>
-      <pubDate>Fri, 26 Apr 2024 11:55:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_10/</guid>
-      <description>
-        
-          
-            JetBrains Marketplace is a thriving ecosystem where developers can discover plugins that enhance their coding experience and implement and share their plugins with others. While many users find plugins through targeted searches, some may not be aware of tools and integrations that extend beyond programming to general productivity. To draw attention to this trove of […]
-Link to article: https://blog.jetbrains.com/platform/2024/04/plugin-spotlight-on-jetbrains-marketplace/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Code Maze Weekly #211</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_11/</link>
-      <pubDate>Fri, 26 Apr 2024 09:11:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_11/</guid>
-      <description>
-        
-          
-            Issue #211 of the Code Maze weekly. Check out what’s new this week and enjoy the read. .NET and C# Top Picks Unit testing BlobServiceClient with Azure blobs and NSubstitute [blog.elmah.io] If you rely on Azure Blob in your projects, here’s an excellent article by Thomas Ardal that can help you understand it better and […] The post Code Maze Weekly #211 appeared first on Code Maze.
-Link to article: https://code-maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Collection Performance: Is LINQ Always the Most Performant Choice?</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_12/</link>
-      <pubDate>Fri, 26 Apr 2024 08:01:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_12/</guid>
-      <description>
-        
-          
-            The article explores the performance implications of using LINQ for collection queries, finding that a conventional foreach() loop outperforms LINQ by 1.75 times in identifying items matching a given query. The conclusion suggests benchmarking to determine the optimal approach based on the nature of the query and elements being sought.
-Link to article: https://dotnettips.wordpress.com/2024/04/26/collection-performance-is-linq-always-the-most-performant-choice/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Development Containers Simplified</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_13/</link>
-      <pubDate>Fri, 26 Apr 2024 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_13/</guid>
-      <description>
-        
-          
-            This post talks about the concept of development containers and how it can help us to solve the challenges we face when setting up our development environment or onboarding a new team member.
-Link to article: https://devblogs.microsoft.com/ise/dev-containers 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Create a Zip File in Memory In C#</title>
-      <link>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_14/</link>
-      <pubDate>Fri, 26 Apr 2024 05:12:51 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_04_2024/26_04_2024_14/</guid>
-      <description>
-        
-          
-            In this article, we will look at how we create In-Memory Zip files in C#. Previously, we discussed how to create and read Zip files in .NET in our Working With Zip Files in C#/.NET article, so we recommend taking a look at that to familiarize yourself with working with Zip files. Let’s delve in. […] The post How to Create a Zip File in Memory In C# appeared first on Code Maze.
           
           
         
