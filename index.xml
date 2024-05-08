@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 07 May 2024 20:20:08 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 May 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>String Performance: Checking for a Character</title>
+      <link>https://www.dotnetramblings.com/post/08_05_2024/08_05_2024_0/</link>
+      <pubDate>Wed, 08 May 2024 08:01:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_05_2024/08_05_2024_0/</guid>
+      <description>
+        
+          
+            The article compares two methods of checking for the presence of a specific character in a string in C#. Benchmark results reveal that using a character in the search is 3.57 times more efficient than using a string, and Contains() outperforms StringComparison.Ordinal and StringComparison.OrdinalIgnoreCase in terms of speed.
+Link to article: https://dotnettips.wordpress.com/2024/05/08/string-performance-checking-for-a-character-2/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Update an Item in a List in C#</title>
+      <link>https://www.dotnetramblings.com/post/08_05_2024/08_05_2024_1/</link>
+      <pubDate>Wed, 08 May 2024 05:45:42 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_05_2024/08_05_2024_1/</guid>
+      <description>
+        
+          
+            In this article, we’ll look at how to update an item in a List in C#, using a simple library management system as an example. We’ll explore the intricacies of this common operation and learn how to manipulate lists in our C# applications effectively. Let’s start. Understand List in C# In the world of C#, […] The post How to Update an Item in a List in C# appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Announcing Data Wrangler: Code-centric viewing and cleaning of tabular data in Visual Studio Code</title>
       <link>https://www.dotnetramblings.com/post/07_05_2024/07_05_2024_0/</link>

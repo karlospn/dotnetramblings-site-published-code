@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 07 May 2024 17:17:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 May 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>String Performance: Checking for a Character</title>
+      <link>https://www.dotnetramblings.com/post/08_05_2024/08_05_2024_0/</link>
+      <pubDate>Wed, 08 May 2024 08:01:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_05_2024/08_05_2024_0/</guid>
+      <description>
+        
+          
+            The article compares two methods of checking for the presence of a specific character in a string in C#. Benchmark results reveal that using a character in the search is 3.57 times more efficient than using a string, and Contains() outperforms StringComparison.Ordinal and StringComparison.OrdinalIgnoreCase in terms of speed.
+Link to article: https://dotnettips.wordpress.com/2024/05/08/string-performance-checking-for-a-character-2/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>dotNetDave Rocks The Austin .NET User Group (2024)</title>
       <link>https://www.dotnetramblings.com/post/07_05_2024/07_05_2024_6/</link>
