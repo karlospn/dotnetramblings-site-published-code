@@ -244,39 +244,5 @@ Link to article: https://dotnettips.wordpress.com/2024/05/01/general-performance
       </description>
     </item>
     
-    <item>
-      <title>Reference Type &amp; Structure Performance</title>
-      <link>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_0/</link>
-      <pubDate>Tue, 30 Apr 2024 20:59:51 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_0/</guid>
-      <description>
-        
-          
-            These articles delve into strategies for optimizing the performance of your reference types and structures, also known as user-defined types. Both exhibit distinct behaviors, given that reference types are instantiated on the memory heap, overseen by the Garbage Collector, while structures are created on the memory stack, offering potentially superior performance.
-Link to article: https://dotnettips.wordpress.com/2024/04/30/reference-type-structure-performance/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Code It Any Way You Want: Optimizing Span Operations – Clear vs. Fill</title>
-      <link>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_13/</link>
-      <pubDate>Tue, 30 Apr 2024 08:01:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_04_2024/30_04_2024_13/</guid>
-      <description>
-        
-          
-            This article compares two key search methods in dictionaries: using Contains() on the Keys collection and ContainsKey() method directly on the dictionary. It demonstrates examples for both approaches, highlighting Microsoft&#39;s recommendation of using ContainsKey(). The article suggests further examination of the performance aspect of these methods.
-Link to article: https://dotnettips.wordpress.com/2024/04/30/code-it-any-way-you-want-optimizing-span-operations-clear-vs-fill-2/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
