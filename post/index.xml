@@ -7,13 +7,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 13 May 2024 05:57:13 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 May 2024 08:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Using SonarCloud with ASP.NET Core, Angular and github actions</title>
+      <title>Collection Performance: Optimizing Sequence Comparison</title>
       <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_0/</link>
-      <pubDate>Mon, 13 May 2024 05:57:13 +0000</pubDate>
+      <pubDate>Mon, 13 May 2024 08:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_0/</guid>
+      <description>
+        
+          
+            The article discusses different methods for comparing two collections for identity in programming. It introduces the use of the SequenceEqual() method for comparing sequences in the LINQ extension methods, as well as the StructuralSequenceEqual() method, which is beneficial for comparing custom classes based on the values of their elements rather than object references.
+Link to article: https://dotnettips.wordpress.com/2024/05/13/collection-performance-optimizing-sequence-comparison/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>无障碍应用程序之旅：键盘可访问性和 .NET MAUI</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_1/</link>
+      <pubDate>Mon, 13 May 2024 07:40:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_1/</guid>
+      <description>
+        
+          
+            本篇翻译于Rachel Kang (SHE/HER) 的 The Journey to Accessible Apps: Keyboard Accessibility and .NET MAUI 首先让我们一起来看看您的应用程序是否支持键盘访问： 启动您的其中一个应用。 如果您的设备尚未连接物理键盘，请连接物理键盘。 像平常一样导航您的应用程序，并且仅使用键盘来执行此操作。 这次体验如何？是否轻松？是否与您通常使用应用程序的体验相匹配？ 确保您的应用程序体验在仅通过键盘导航时同样出色，这对于构建一个对所有人都包容且可访问的应用程序体验至关重要。 Web内容可访问性指南 (WCAG) 若要了解键盘可访问性的详细信息，可以从 Web 内容可访问性指南 (WCAG) 开始。 WCAG 是一组针对 Web 可访问性的技术标准，被广泛引用，并扩展到 Web 以外的各种应用程序和平台。 它已成为全球标准和法律基准，并随着技术的发展而不断发展。 在各种指南中，有一个经常被忽视的是指南第2.1条，该指南表明开发人员应“使所有功能可通过键盘访问”。 这包括四个成功标准： 成功标准 2.1.1 键盘 内容的所有功能都可以通过键盘界面操作，而无需对单个按键的时间进行特定的控制，除非底层功能需要依赖用户移动路径而不仅仅是端点的输入。 成功标准 2.1.2 无键盘陷阱 如果您可以使用键盘界面将键盘焦点移动到页面的某个组件，那么您只需使用键盘界面就可以将焦点从该组件移开，并且如果它需要的不仅仅是未修改的箭头或 Tab 键或其他标准退出方法，则用户会被告知移动焦点的方法。 成功标准 2.1.3 键盘（无例外） 内容的所有功能都可以通过键盘界面进行操作，无需为各个按键分配特定的时间。 成功标准 2.1.4 字符快捷键 如果您在仅使用字母(包括大写和小写字母)、标点符号、数字或符号字符的内容中实现键盘快捷键，则至少满足以下条件之一： 关闭 有一种机制可以关闭快捷方式； 重新映射 有一种机制可以重新映射快捷键，使其包含一个或多个不可打印的键盘键（例如 Ctrl、Alt）； 仅在焦点上活动 用户界面组件的键盘快捷键仅在该组件具有焦点时活动。 对这些标准的基本理解将有助于您开始开发键盘可访问的应用程序。 键盘可访问性和 .NET MAUI 除了各种其他考虑因素之外，.NET MAUI的设计目标之一是实现更轻松地开发键盘可访问的体验。 因此，熟悉Xamarin.Forms键盘行为的开发人员注意到了一些改进，以提高他们应用程序中的键盘可访问性。 对于可通过键盘界面操作的所有功能，所有交互式控件都必须是键盘可聚焦的（可以接收键盘焦点）和键盘可导航的（可以使用键盘进行导航）。 这也包括避免让不可见的内容键盘可访问。 正如我们应该期望可见控件可以通过键盘进行聚焦和导航一样，我们应该期望不可见/不存在的控件无法通过键盘访问或呈现。 为了避免键盘陷阱，我们确保可以通过键盘导航进入、内部和外部当前视图内的所有相关控件。 例如，如果您导航具有多个 CollectionView 的屏幕，.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Call an Action From Another Controller in ASP.NET Core</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_2/</link>
+      <pubDate>Mon, 13 May 2024 06:59:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_2/</guid>
+      <description>
+        
+          
+            In this article, we will learn how to call an action from another controller in .NET MVC. We sometimes need to call an action method from another action method within the same controller or a different controller class. So, let’s see how to do that. Why We Need to Call the Action From Another Controller? […] The post How to Call an Action From Another Controller in ASP.NET Core appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using SonarCloud with ASP.NET Core, Angular and github actions</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_3/</link>
+      <pubDate>Mon, 13 May 2024 05:57:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_3/</guid>
       <description>
         
           
