@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 06 May 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 May 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to avoid conflicts when testing your dotnet templates locally</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_1/</link>
+      <pubDate>Mon, 13 May 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_1/</guid>
+      <description>
+        
+          
+            When you author a dotnet template, you can use the dotnet install and dotnet new commands to create a new project based on your local template. However, dotnet install may conflict with a previous installation of the template published as a NuGet package. In this post, I describe how to avoid this conflict and how to test your template locally. dotnet has a few hidden arguments that you can use to debug…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How to check if a DLL  and an exe is a .NET assembly</title>
       <link>https://www.dotnetramblings.com/post/06_05_2024/06_05_2024_4/</link>

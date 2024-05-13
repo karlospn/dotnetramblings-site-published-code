@@ -7,13 +7,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 13 May 2024 08:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 May 2024 12:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Collection Performance: Optimizing Sequence Comparison</title>
+      <title>Configure Scheduled Trigger in GitHub Actions using Cron expression</title>
       <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_0/</link>
-      <pubDate>Mon, 13 May 2024 08:00:00 +0000</pubDate>
+      <pubDate>Mon, 13 May 2024 12:01:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_0/</guid>
+      <description>
+        
+          
+            There are many times when scheduled triggers are very useful when configuring GitHub Actions workflows. Luckily, GitHub Actions supports the ability to configure scheduled triggers that includes support for using cron expressions to define the schedule timing. In this article, we’ll look at configuring scheduled triggers on GitHub Actions workflows and a few tips on […] The article Configure Scheduled Trigger in GitHub Actions using Cron expression appeared first on Build5Nines.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to avoid conflicts when testing your dotnet templates locally</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_1/</link>
+      <pubDate>Mon, 13 May 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_1/</guid>
+      <description>
+        
+          
+            When you author a dotnet template, you can use the dotnet install and dotnet new commands to create a new project based on your local template. However, dotnet install may conflict with a previous installation of the template published as a NuGet package. In this post, I describe how to avoid this conflict and how to test your template locally. dotnet has a few hidden arguments that you can use to debug…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Collection Performance: Optimizing Sequence Comparison</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_2/</link>
+      <pubDate>Mon, 13 May 2024 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_2/</guid>
       <description>
         
           
@@ -27,10 +59,10 @@ Link to article: https://dotnettips.wordpress.com/2024/05/13/collection-performa
     
     <item>
       <title>无障碍应用程序之旅：键盘可访问性和 .NET MAUI</title>
-      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_3/</link>
       <pubDate>Mon, 13 May 2024 07:40:20 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_3/</guid>
       <description>
         
           
@@ -43,10 +75,10 @@ Link to article: https://dotnettips.wordpress.com/2024/05/13/collection-performa
     
     <item>
       <title>How to Call an Action From Another Controller in ASP.NET Core</title>
-      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_4/</link>
       <pubDate>Mon, 13 May 2024 06:59:51 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_4/</guid>
       <description>
         
           
@@ -59,10 +91,10 @@ Link to article: https://dotnettips.wordpress.com/2024/05/13/collection-performa
     
     <item>
       <title>Using SonarCloud with ASP.NET Core, Angular and github actions</title>
-      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_5/</link>
       <pubDate>Mon, 13 May 2024 05:57:13 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_5/</guid>
       <description>
         
           
