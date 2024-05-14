@@ -24,21 +24,5 @@
       </description>
     </item>
     
-    <item>
-      <title>How to check if a DLL  and an exe is a .NET assembly</title>
-      <link>https://www.dotnetramblings.com/post/06_05_2024/06_05_2024_4/</link>
-      <pubDate>Mon, 06 May 2024 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_05_2024/06_05_2024_4/</guid>
-      <description>
-        
-          
-            Recently, I needed to check if a file was a .NET assembly without loading the assembly. .NET uses the Portable Executable (PE) format to store assemblies. The PE format is a file format for executables or DLLs on Windows, but .NET also uses it on Linux and MacOS. Hopefully, .NET provides the PEReader class to read the file header. This class can parse the content of a file to extract PE information.
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
