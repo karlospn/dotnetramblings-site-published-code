@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>RAG architecture with Voyage AI embedding models on Amazon SageMaker JumpStart and Anthropic Claude 3 models | .NET Ramblings</title>
+<title>Copy-on-Write performance and debugging | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="In this post, we provide an overview of the state-of-the-art embedding models by Voyage AI and show a RAG implementation with Voyage AI’s text embedding model …" />
+<meta name="description" content="This is a follow-up to our previous coverage of Dev Drive and copy-on-write (CoW) linking. See our previous articles from May 24, 2023, October 13, 2023, and …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="RAG architecture with Voyage AI embedding models on Amazon SageMaker JumpStart and Anthropic Claude 3 models" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
+<meta name="twitter:title" content="Copy-on-Write performance and debugging" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_0/" />
-<meta property="og:title" content="RAG architecture with Voyage AI embedding models on Amazon SageMaker JumpStart and Anthropic Claude 3 models" />
-<meta property="og:description" content="In this post, we provide an overview of the state-of-the-art embedding models by Voyage AI and show a RAG implementation with Voyage AI’s text embedding model …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
+<meta property="og:title" content="Copy-on-Write performance and debugging" />
+<meta property="og:description" content="This is a follow-up to our previous coverage of Dev Drive and copy-on-write (CoW) linking. See our previous articles from May 24, 2023, October 13, 2023, and …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -129,7 +129,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">RAG architecture with Voyage AI embedding models on Amazon SageMaker JumpStart and Anthropic Claude 3 models</h1>
+    <h1 class="post_title">Copy-on-Write performance and debugging</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -137,14 +137,14 @@
 </svg>
 </span>
     <span class="post_date">
-      May 14, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
+      May 14, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>In this post, we provide an overview of the state-of-the-art embedding models by Voyage AI and show a RAG implementation with Voyage AI’s text embedding model on Amazon SageMaker Jumpstart, Anthropic’s Claude 3 model on Amazon Bedrock, and Amazon OpenSearch Service. Voyage AI’s embedding models are the preferred embedding models for Anthropic. In addition to general-purpose embedding models, Voyage AI offers domain-specific embedding models that are tuned to a particular domain.</p>
+    <div class="post_body"><p>This is a follow-up to our previous coverage of Dev Drive and copy-on-write (CoW) linking. See our previous articles from May 24, 2023, October 13, 2023, and November 2, 2023. Dev Drive was released in Windows 11 in October, 2023, and will be part of Windows Server 2025 this fall,</p>
 <ul>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/rag-architecture-with-voyage-ai-embedding-models-on-amazon-sagemaker-jumpstart-and-anthropic-claude-3-models/">https://aws.amazon.com/blogs/machine-learning/rag-architecture-with-voyage-ai-embedding-models-on-amazon-sagemaker-jumpstart-and-anthropic-claude-3-models/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/engineering-at-microsoft/copy-on-write-performance-and-debugging">https://devblogs.microsoft.com/engineering-at-microsoft/copy-on-write-performance-and-debugging</a></li>
 </ul>
 
     </div>
