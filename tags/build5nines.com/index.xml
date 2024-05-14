@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 13 May 2024 21:35:11 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/build5nines.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 May 2024 12:05:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/build5nines.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using AzAPI Terraform Provider Dynamic Properties Feature instead of jsonencode</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_0/</link>
+      <pubDate>Tue, 14 May 2024 12:05:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_0/</guid>
+      <description>
+        
+          
+            The AzAPI Terraform provider for Microsoft Azure has introduced a feature known as dynamic properties. This feature simplifies resource definitions by enabling the use of HCL (HashiCorp Configuration Language) blocks instead of JSON blocks that would previously require the use of JSON encoding (via jsonencode) and decoding (via jsondecode). This is a great improvement to […] The article Using AzAPI Terraform Provider Dynamic Properties Feature instead of jsonencode appeared first on Build5Nines.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>OpenAI GTP-4o Now Available in Azure OpenAI Service</title>
       <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_0/</link>

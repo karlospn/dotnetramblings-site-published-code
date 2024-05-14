@@ -7,13 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 14 May 2024 09:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 May 2024 12:05:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>An introduction to primary constructors in C#12</title>
+      <title>Using AzAPI Terraform Provider Dynamic Properties Feature instead of jsonencode</title>
       <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_0/</link>
-      <pubDate>Tue, 14 May 2024 09:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 May 2024 12:05:47 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_0/</guid>
+      <description>
+        
+          
+            The AzAPI Terraform provider for Microsoft Azure has introduced a feature known as dynamic properties. This feature simplifies resource definitions by enabling the use of HCL (HashiCorp Configuration Language) blocks instead of JSON blocks that would previously require the use of JSON encoding (via jsonencode) and decoding (via jsondecode). This is a great improvement to […] The article Using AzAPI Terraform Provider Dynamic Properties Feature instead of jsonencode appeared first on Build5Nines.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How To Use IServiceCollection in Console Applications – What You Need To Know</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_1/</link>
+      <pubDate>Tue, 14 May 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_1/</guid>
+      <description>
+        
+          
+            The post How To Use IServiceCollection in Console Applications – What You Need To Know appeared first on Dev Leader.How can you use an IServiceCollection in console applications to get dependency injection? Is this a viable option if you don&#39;t want to use Autofac? The post How To Use IServiceCollection in Console Applications – What You Need To Know appeared first on Dev Leader.
+Link to article: https://www.devleader.ca/2024/05/14/how-to-use-iservicecollection-in-console-applications-what-you-need-to-know/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>An introduction to primary constructors in C#12</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_2/</link>
+      <pubDate>Tue, 14 May 2024 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_2/</guid>
       <description>
         
           
@@ -27,10 +60,10 @@ Link to article: https://andrewlock.net/an-introduction-to-primary-constructors-
     
     <item>
       <title>Code It Any Way You Want: Performance Considerations for Sealed and Internal Classes</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_3/</link>
       <pubDate>Tue, 14 May 2024 08:01:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_3/</guid>
       <description>
         
           
@@ -44,10 +77,10 @@ Link to article: https://dotnettips.wordpress.com/2024/05/14/code-it-any-way-you
     
     <item>
       <title>Unit Test your Architecture (and more) with ArchUnit</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_4/</link>
       <pubDate>Tue, 14 May 2024 08:00:24 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_4/</guid>
       <description>
         
           
@@ -61,10 +94,10 @@ Link to article: https://goatreview.com/unit-test-architecture-with-archunit/
     
     <item>
       <title>Azure CI/CD: Govern seamlessly from start to finish</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_5/</link>
       <pubDate>Tue, 14 May 2024 07:59:46 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_5/</guid>
       <description>
         
           
@@ -78,10 +111,10 @@ Link to article: https://devblogs.microsoft.com/premier-developer/azure-ci-cd-go
     
     <item>
       <title>Azure Machine Learning Service for Kubernetes Architects: Deploy Your First Model on AKS with AZ CLI v2</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_6/</link>
       <pubDate>Tue, 14 May 2024 07:41:06 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_6/</guid>
       <description>
         
           
@@ -95,10 +128,10 @@ Link to article: https://devblogs.microsoft.com/premier-developer/azure-machine-
     
     <item>
       <title>Using the Result Pattern in .NET Web API</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_7/</link>
       <pubDate>Tue, 14 May 2024 04:06:24 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_7/</guid>
       <description>
         
           
@@ -111,10 +144,10 @@ Link to article: https://devblogs.microsoft.com/premier-developer/azure-machine-
     
     <item>
       <title>How to Get Started using Semantic Kernel .NET</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_8/</link>
       <pubDate>Tue, 14 May 2024 01:37:06 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2024/14_05_2024_8/</guid>
       <description>
         
           
