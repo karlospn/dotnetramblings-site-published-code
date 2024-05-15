@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Jeremydmiller.com | .NET Ramblings</title>
+<title>Change Default and per Request Timeout in HttpClient | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="In this article, we’ll demonstrate how to set a default request timeout for all requests and configure specific request timeout settings for individual requests …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Jeremydmiller.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/jeremydmiller.com/" />
-<meta property="og:title" content="Jeremydmiller.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Change Default and per Request Timeout in HttpClient" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/15_05_2024/15_05_2024_16/" />
+<meta property="og:title" content="Change Default and per Request Timeout in HttpClient" />
+<meta property="og:description" content="In this article, we’ll demonstrate how to set a default request timeout for all requests and configure specific request timeout settings for individual requests …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/jeremydmiller.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/jeremydmiller.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/15_05_2024/15_05_2024_16/">
 
 
 
@@ -125,19 +126,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://jeremydmiller.com/2024/05/15/scheduled-message-delivery-with-wolverine/" title="Scheduled Message Delivery with Wolverine">Scheduled Message Delivery with Wolverine</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Change Default and per Request Timeout in HttpClient</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -145,231 +137,35 @@
 </svg>
 </span>
     <span class="post_date">
-      May 15, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jeremydmiller.com/' title="jeremydmiller.com" class="post_tag button button_translucent">jeremydmiller.com
+      May 15, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Scheduled Message Delivery with Wolverine"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Wolverine has the ability to schedule the delivery of messages for a later time. While Wolverine certainly isn’t trying to be Hangfire or Quartz.Net, the message scheduling in Wolverine today is valuable for “timeout” messages in sagas, or “retry this evening” type scenarios, or reminders of all sorts. If using the …</p>
-          
-          <br>
-          <a href="https://jeremydmiller.com/2024/05/15/scheduled-message-delivery-with-wolverine/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://jeremydmiller.com/2024/05/13/wolverines-http-model-does-more-for-you/" title="Wolverine’s HTTP Model Does More For You">Wolverine’s HTTP Model Does More For You</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 13, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jeremydmiller.com/' title="jeremydmiller.com" class="post_tag button button_translucent">jeremydmiller.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>In this article, we’ll demonstrate how to set a default request timeout for all requests and configure specific request timeout settings for individual requests using HttpClient. In modern software development, managing HTTP requests efficiently is vital for keeping our applications fast and reliable. The HttpClient enables us to effectively execute HTTP calls in .NET applications. […]
+The post Change Default and per Request Timeout in HttpClient appeared first on Code Maze.</p>
+<ul>
+<li>Link to article: <a href="https://code-maze.com/aspnetcore-change-default-and-per-request-timeout-in-httpclient/">https://code-maze.com/aspnetcore-change-default-and-per-request-timeout-in-httpclient/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Wolverine’s HTTP Model Does More For You"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>One of the things I’m wrestling with right now is frankly how to sell Wolverine as a server side toolset. Yes, it’s technically a message library like MassTransit or NServiceBus. It can also be used as “just” a mediator tool like MediatR. With Wolverine.HTTP, it’s even an alternative HTTP endpoint framework that’s …</p>
-          
-          <br>
-          <a href="https://jeremydmiller.com/2024/05/13/wolverines-http-model-does-more-for-you/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://jeremydmiller.com/2024/05/09/controlling-parallelism-with-wolverine-background-processing/" title="Controlling Parallelism with Wolverine Background Processing">Controlling Parallelism with Wolverine Background Processing</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jeremydmiller.com/' title="jeremydmiller.com" class="post_tag button button_translucent">jeremydmiller.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Controlling Parallelism with Wolverine Background Processing"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>A couple weeks back I started a new blog series meant to explore Wolverine’s capabilities for background processing. Working in very small steps and only one new concept at a time, the first time out just showed how to set up Wolverine inside a new ASP.Net Core web api service and immediately use it for offloading some …</p>
-          
-          <br>
-          <a href="https://jeremydmiller.com/2024/05/09/controlling-parallelism-with-wolverine-background-processing/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://jeremydmiller.com/2024/05/08/scaling-marten-with-postgresql-read-replicas/" title="Scaling Marten with PostgreSQL Read Replicas">Scaling Marten with PostgreSQL Read Replicas</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 8, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jeremydmiller.com/' title="jeremydmiller.com" class="post_tag button button_translucent">jeremydmiller.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Scaling Marten with PostgreSQL Read Replicas"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>JasperFx Software is open for business and offering consulting services (like helping you craft scalability strategies!) and support contracts for both Marten and Wolverine so you know you can feel secure taking a big technical bet on these tools and reap all the advantages they give for productive and maintainable …</p>
-          
-          <br>
-          <a href="https://jeremydmiller.com/2024/05/08/scaling-marten-with-postgresql-read-replicas/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -386,9 +182,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>

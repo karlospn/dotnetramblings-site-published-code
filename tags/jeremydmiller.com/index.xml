@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 13 May 2024 21:00:28 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/jeremydmiller.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 May 2024 22:22:13 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/jeremydmiller.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scheduled Message Delivery with Wolverine</title>
+      <link>https://www.dotnetramblings.com/post/15_05_2024/15_05_2024_1/</link>
+      <pubDate>Wed, 15 May 2024 22:22:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_05_2024/15_05_2024_1/</guid>
+      <description>
+        
+          
+            Wolverine has the ability to schedule the delivery of messages for a later time. While Wolverine certainly isn’t trying to be Hangfire or Quartz.Net, the message scheduling in Wolverine today is valuable for “timeout” messages in sagas, or “retry this evening” type scenarios, or reminders of all sorts. If using the Azure Service Bus transport, … Continue reading Scheduled Message Delivery with Wolverine →
+Link to article: https://jeremydmiller.com/2024/05/15/scheduled-message-delivery-with-wolverine/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Wolverine’s HTTP Model Does More For You</title>
       <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_1/</link>
