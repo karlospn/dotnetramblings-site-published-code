@@ -4,13 +4,12 @@
   lang="en"
   data-figures=""
   
-    class="home"
+    class="page"
   
   
   >
   <head>
-	<meta name="generator" content="Hugo 0.126.1">
-<title>.NET Ramblings</title>
+<title>Change Default and per Request Timeout in HttpClient | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,25 +27,23 @@
 
 <meta property="og:locale" content="en" />
 
-<meta property="og:type" content="website">
-<meta name="description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
+<meta property="og:type" content="article">
+<meta name="description" content="In this article, we’ll demonstrate how to set a default request timeout for all requests and configure specific request timeout settings for individual requests …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content=".NET Ramblings" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/" />
-<meta property="og:title" content=".NET Ramblings" />
-<meta property="og:description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Change Default and per Request Timeout in HttpClient" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/15_05_2024/15_05_2024_3/" />
+<meta property="og:title" content="Change Default and per Request Timeout in HttpClient" />
+<meta property="og:description" content="In this article, we’ll demonstrate how to set a default request timeout for all requests and configure specific request timeout settings for individual requests …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/index.xml" title=".NET Ramblings" />
-<link rel="alternate" type="application/json" href="https://www.dotnetramblings.com/index.json" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/15_05_2024/15_05_2024_3/">
 
 
 
@@ -90,7 +87,7 @@
       
         
 
-  <div class="nav_parent nav_active">
+  <div class="nav_parent">
     <a href="https://www.dotnetramblings.com/" class="nav_item" title="Home">Home </a>
   </div>
   <div class="nav_parent">
@@ -129,21 +126,10 @@
 </header>
 
     <main>
-
   
-
-
-
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/stack-overflow-upset-over-users-deleting-answers-after-openai-partnership/" title="Stack Overflow Upset Over Users Deleting Answers After OpenAI Partnership">Stack Overflow Upset Over Users Deleting Answers After OpenAI Partnership</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Change Default and per Request Timeout in HttpClient</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -151,375 +137,35 @@
 </svg>
 </span>
     <span class="post_date">
-      May 8, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
+      May 15, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Stack Overflow Upset Over Users Deleting Answers After OpenAI Partnership"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/devops.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this ever changing and evolving world of user generated versus AI generated content, the recent announcement of Stack Overflow partnering with OpenAI recently has been met with some backlash by the community. There are reports today that several users have attempted to delete their content (questions and answers) …</p>
-          
-          <br>
-          <a href="https://build5nines.com/stack-overflow-upset-over-users-deleting-answers-after-openai-partnership/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/run-your-own-local-chatgpt-with-ollama-and-openwebui-llama3-phi3-gemma-mistral-and-more/" title="Run Your Own Local, Private, ChatGPT-like AI Experience with Ollama and OpenWebUI (Llama3, Phi3, Gemma, Mistral, and more LLMs!)">Run Your Own Local, Private, ChatGPT-like AI Experience with Ollama and OpenWebUI (Llama3, Phi3, Gemma, Mistral, and more LLMs!)</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 8, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>In this article, we’ll demonstrate how to set a default request timeout for all requests and configure specific request timeout settings for individual requests using HttpClient. In modern software development, managing HTTP requests efficiently is vital for keeping our applications fast and reliable. The HttpClient enables us to effectively execute HTTP calls in .NET applications. […]
+The post Change Default and per Request Timeout in HttpClient appeared first on Code Maze.</p>
+<ul>
+<li>Link to article: <a href="https://code-maze.com/aspnetcore-change-default-and-per-request-timeout-in-httpclient/">https://code-maze.com/aspnetcore-change-default-and-per-request-timeout-in-httpclient/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Run Your Own Local, Private, ChatGPT-like AI Experience with Ollama and OpenWebUI (Llama3, Phi3, Gemma, Mistral, and more LLMs!)"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/devops.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Over the last couple years the emergence of Large Language Models (LLMs) has revolutionized the way we interact with Artificial Intelligence (AI) systems, enabling them to generate human-like text responses with remarkable accuracy. From powering chatbots and virtual assistants to aiding in natural language processing …</p>
-          
-          <br>
-          <a href="https://build5nines.com/run-your-own-local-chatgpt-with-ollama-and-openwebui-llama3-phi3-gemma-mistral-and-more/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/webstorm/2024/05/2024-2-roadmap/" title="What’s Next: The WebStorm 2024.2 Roadmap">What’s Next: The WebStorm 2024.2 Roadmap</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 8, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="What’s Next: The WebStorm 2024.2 Roadmap"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In April this year, we released WebStorm 2024.1, our first major update for 2024. Thank you to everyone who is already using it and providing us with feedback. With April now behind us, we’d like to announce what we’ve got planned for the next release of WebStorm, which is scheduled for the end of July, […]
-Link to …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/webstorm/2024/05/2024-2-roadmap/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/research/2024/05/developer-ecosystem-survey-insights-a-comparative-look-at-students-and-professionals/" title="Developer Ecosystem Survey Insights: A Comparative Look at Students and Professionals">Developer Ecosystem Survey Insights: A Comparative Look at Students and Professionals</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 8, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Developer Ecosystem Survey Insights: A Comparative Look at Students and Professionals"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Our series exploring how market and user research is done at JetBrains continues. Want to learn more about research insights and take part in future JetBrains studies? Join our JetBrains Tech Insights Lab! The world of IT is a rapidly growing industry, attracting more and more people with a passion for creative and …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/research/2024/05/developer-ecosystem-survey-insights-a-comparative-look-at-students-and-professionals/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/05/08/string-performance-checking-for-a-character-2/" title="String Performance: Checking for a Character">String Performance: Checking for a Character</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 8, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="String Performance: Checking for a Character"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The article compares two methods of checking for the presence of a specific character in a string in C#. Benchmark results reveal that using a character in the search is 3.57 times more efficient than using a string, and Contains() outperforms StringComparison.Ordinal and StringComparison.OrdinalIgnoreCase in terms of …</p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/05/08/string-performance-checking-for-a-character-2/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://code-maze.com/csharp-update-list-item/" title="How to Update an Item in a List in C#">How to Update an Item in a List in C#</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 8, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How to Update an Item in a List in C#"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this article, we’ll look at how to update an item in a List in C#, using a simple library management system as an example. We’ll explore the intricacies of this common operation and learn how to manipulate lists in our C# applications effectively. Let’s start. Understand List in C# In the world of C#, […] The post …</p>
-          
-          <br>
-          <a href="https://code-maze.com/csharp-update-list-item/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope=''>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -536,9 +182,8 @@ Link to …</p>
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
