@@ -93,22 +93,5 @@ Link to article: https://dotnettips.wordpress.com/2024/05/09/reference-type-stru
       </description>
     </item>
     
-    <item>
-      <title>String Performance: Checking for a Character</title>
-      <link>https://www.dotnetramblings.com/post/08_05_2024/08_05_2024_14/</link>
-      <pubDate>Wed, 08 May 2024 08:01:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_05_2024/08_05_2024_14/</guid>
-      <description>
-        
-          
-            The article compares two methods of checking for the presence of a specific character in a string in C#. Benchmark results reveal that using a character in the search is 3.57 times more efficient than using a string, and Contains() outperforms StringComparison.Ordinal and StringComparison.OrdinalIgnoreCase in terms of speed.
-Link to article: https://dotnettips.wordpress.com/2024/05/08/string-performance-checking-for-a-character-2/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
