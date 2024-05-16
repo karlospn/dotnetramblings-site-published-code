@@ -4,13 +4,12 @@
   lang="en"
   data-figures=""
   
-    class="home"
+    class="page"
   
   
   >
   <head>
-	<meta name="generator" content="Hugo 0.126.1">
-<title>.NET Ramblings</title>
+<title>Code It Any Way You Want: Performance Difference Between Static and Non-Static Methods | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,25 +27,25 @@
 
 <meta property="og:locale" content="en" />
 
-<meta property="og:type" content="website">
-<meta name="description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
+<meta property="og:type" content="article">
+<meta name="description" content="The article explores the performance disparity between static and non-static methods, commonly recommended for efficiency by code analysis tools.
+Link to …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content=".NET Ramblings" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/" />
-<meta property="og:title" content=".NET Ramblings" />
-<meta property="og:description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Code It Any Way You Want: Performance Difference Between Static and Non-Static Methods" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/16_05_2024/16_05_2024_0/" />
+<meta property="og:title" content="Code It Any Way You Want: Performance Difference Between Static and Non-Static Methods" />
+<meta property="og:description" content="The article explores the performance disparity between static and non-static methods, commonly recommended for efficiency by code analysis tools.
+Link to …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/index.xml" title=".NET Ramblings" />
-<link rel="alternate" type="application/json" href="https://www.dotnetramblings.com/index.json" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/16_05_2024/16_05_2024_0/">
 
 
 
@@ -90,7 +89,7 @@
       
         
 
-  <div class="nav_parent nav_active">
+  <div class="nav_parent">
     <a href="https://www.dotnetramblings.com/" class="nav_item" title="Home">Home </a>
   </div>
   <div class="nav_parent">
@@ -129,21 +128,10 @@
 </header>
 
     <main>
-
   
-
-
-
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/best-practices-to-promote-from-dev-to-prod-environments-with-hashicorp-terraform-using-workspaces-and-folders/" title="Best Practices to Promote from DEV to PROD Environments with HashiCorp Terraform using Workspaces and Folders">Best Practices to Promote from DEV to PROD Environments with HashiCorp Terraform using Workspaces and Folders</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Code It Any Way You Want: Performance Difference Between Static and Non-Static Methods</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -151,261 +139,34 @@
 </svg>
 </span>
     <span class="post_date">
-      May 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
+      May 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Best Practices to Promote from DEV to PROD Environments with HashiCorp Terraform using Workspaces and Folders"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/iac.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>When using HashiCorp Terraform to manage infrastructure as code (IaC), promoting changes from the development (DEV) environment to the production (PROD) environment is critical to the process of managing the development lifecycle of the infrastructure for a system. Most often, organizations will also have test (TEST) …</p>
-          
-          <br>
-          <a href="https://build5nines.com/best-practices-to-promote-from-dev-to-prod-environments-with-hashicorp-terraform-using-workspaces-and-folders/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/blog/2024/05/09/apply-for-an-ide-research-integration-grant/" title="Apply for an IDE Research Integration Grant">Apply for an IDE Research Integration Grant</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>The article explores the performance disparity between static and non-static methods, commonly recommended for efficiency by code analysis tools.</p>
+<ul>
+<li>Link to article: <a href="https://dotnettips.wordpress.com/2024/05/16/code-it-any-way-you-want-performance-difference-between-static-and-non-static-methods/">https://dotnettips.wordpress.com/2024/05/16/code-it-any-way-you-want-performance-difference-between-static-and-non-static-methods/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Apply for an IDE Research Integration Grant"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>JetBrains is devoted to bringing the latest ideas and technologies to developers worldwide. Many innovations are born in academia, and researchers are often looking for practical applications for their projects. We are introducing the IDE Research Integration Grant Program, aimed at computer science researchers who …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/blog/2024/05/09/apply-for-an-ide-research-integration-grant/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/05/09/reference-type-structure-performance-constant-vs-read-only-property/" title="Reference Type &amp; Structure Performance: Constant vs. Read-only Property">Reference Type &amp; Structure Performance: Constant vs. Read-only Property</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Reference Type &amp;amp; Structure Performance: Constant vs. Read-only Property"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>This content discusses the performance of using a constant vs. a read-only property.
-Link to article: <a href="https://dotnettips.wordpress.com/2024/05/09/reference-type-structure-performance-constant-vs-read-only-property/">https://dotnettips.wordpress.com/2024/05/09/reference-type-structure-performance-constant-vs-read-only-property/</a></p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/05/09/reference-type-structure-performance-constant-vs-read-only-property/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://code-maze.com/csharp-count-the-number-of-vowels-in-a-string/" title="Count the Number of Vowels in a String in C#">Count the Number of Vowels in a String in C#</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Count the Number of Vowels in a String in C#"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this article, we will take a closer look at the techniques we can use to count the number of vowels in a string in C#. We will go through the code and learn more about each approach. Let’s get started. Prepare Our Counters Application First, let’s create a VowelCounters console application and update the […] The …</p>
-          
-          <br>
-          <a href="https://code-maze.com/csharp-count-the-number-of-vowels-in-a-string/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope=''>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -422,9 +183,8 @@ Link to article: <a href="https://dotnettips.wordpress.com/2024/05/09/reference-
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
