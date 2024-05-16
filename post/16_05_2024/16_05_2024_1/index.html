@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Build5nines.com | .NET Ramblings</title>
+<title>Upload File from URL to Azure Blob Storage using Azure CLI with Bash and PowerShell | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="The Azure CLI az storage blob upload command can be used to upload a local file into Azure Blob Storage. However, there are times when it would be easier to …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Build5nines.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/build5nines.com/" />
-<meta property="og:title" content="Build5nines.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Upload File from URL to Azure Blob Storage using Azure CLI with Bash and PowerShell" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/azure.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/16_05_2024/16_05_2024_1/" />
+<meta property="og:title" content="Upload File from URL to Azure Blob Storage using Azure CLI with Bash and PowerShell" />
+<meta property="og:description" content="The Azure CLI az storage blob upload command can be used to upload a local file into Azure Blob Storage. However, there are times when it would be easier to …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/azure.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/build5nines.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/build5nines.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/16_05_2024/16_05_2024_1/">
 
 
 
@@ -125,19 +126,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/upload-file-from-url-to-azure-blob-storage-using-azure-cli-with-bash-and-powershell/" title="Upload File from URL to Azure Blob Storage using Azure CLI with Bash and PowerShell">Upload File from URL to Azure Blob Storage using Azure CLI with Bash and PowerShell</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Upload File from URL to Azure Blob Storage using Azure CLI with Bash and PowerShell</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -150,511 +142,30 @@
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Upload File from URL to Azure Blob Storage using Azure CLI with Bash and PowerShell"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The Azure CLI az storage blob upload command can be used to upload a local file into Azure Blob Storage. However, there are times when it would be easier to upload a file straight from the HTTP(S) URL into Azure Blob Storage. Unfortunately the Azure CLI does not have a command for this specific scenario, […] The …</p>
-          
-          <br>
-          <a href="https://build5nines.com/upload-file-from-url-to-azure-blob-storage-using-azure-cli-with-bash-and-powershell/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/empowering-devops-engineers-with-generative-ai-through-technologies-like-azure-openai/" title="Empowering DevOps Engineers with Generative AI through technologies like Azure OpenAI">Empowering DevOps Engineers with Generative AI through technologies like Azure OpenAI</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 15, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>The Azure CLI az storage blob upload command can be used to upload a local file into Azure Blob Storage. However, there are times when it would be easier to upload a file straight from the HTTP(S) URL into Azure Blob Storage. Unfortunately the Azure CLI does not have a command for this specific scenario, […]
+The article Upload File from URL to Azure Blob Storage using Azure CLI with Bash and PowerShell appeared first on Build5Nines.</p>
+<ul>
+<li>Link to article: <a href="https://build5nines.com/upload-file-from-url-to-azure-blob-storage-using-azure-cli-with-bash-and-powershell/">https://build5nines.com/upload-file-from-url-to-azure-blob-storage-using-azure-cli-with-bash-and-powershell/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Empowering DevOps Engineers with Generative AI through technologies like Azure OpenAI"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In the ever-evolving landscape of technology, the role of DevOps Engineers is becoming increasingly complex and critical. As organizations strive for higher reliability and performance, increased automation workflows, and smoother release processes, the integration of generative AI technologies, such as those offered …</p>
-          
-          <br>
-          <a href="https://build5nines.com/empowering-devops-engineers-with-generative-ai-through-technologies-like-azure-openai/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/using-azapi-terraform-provider-dynamic-properties-feature-instead-of-jsonencode/" title="Using AzAPI Terraform Provider Dynamic Properties Feature instead of jsonencode">Using AzAPI Terraform Provider Dynamic Properties Feature instead of jsonencode</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 14, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Using AzAPI Terraform Provider Dynamic Properties Feature instead of jsonencode"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The AzAPI Terraform provider for Microsoft Azure has introduced a feature known as dynamic properties. This feature simplifies resource definitions by enabling the use of HCL (HashiCorp Configuration Language) blocks instead of JSON blocks that would previously require the use of JSON encoding (via jsonencode) and …</p>
-          
-          <br>
-          <a href="https://build5nines.com/using-azapi-terraform-provider-dynamic-properties-feature-instead-of-jsonencode/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/openai-gtp-4o-now-available-in-azure-openai-service/" title="OpenAI GTP-4o Now Available in Azure OpenAI Service">OpenAI GTP-4o Now Available in Azure OpenAI Service</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 13, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="OpenAI GTP-4o Now Available in Azure OpenAI Service"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Today, OpenAI announced the the new GPT-4o multi-modal model that integrates text, video, and audio capabilities. This new GPT-4o version raises the standard for generative and conversational AI. This new version has some really amazing AI features, like real-time speech translation, and conversational interaction …</p>
-          
-          <br>
-          <a href="https://build5nines.com/openai-gtp-4o-now-available-in-azure-openai-service/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/configure-scheduled-trigger-in-github-actions-using-cron-expression/" title="Configure Scheduled Trigger in GitHub Actions using Cron expression">Configure Scheduled Trigger in GitHub Actions using Cron expression</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 13, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Configure Scheduled Trigger in GitHub Actions using Cron expression"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>There are many times when scheduled triggers are very useful when configuring GitHub Actions workflows. Luckily, GitHub Actions supports the ability to configure scheduled triggers that includes support for using cron expressions to define the schedule timing. In this article, we’ll look at configuring scheduled …</p>
-          
-          <br>
-          <a href="https://build5nines.com/configure-scheduled-trigger-in-github-actions-using-cron-expression/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/read-and-write-azure-blob-storage-with-c/" title="Read and Write Azure Blob Storage with C#">Read and Write Azure Blob Storage with C#</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 12, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Read and Write Azure Blob Storage with C#"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this article, we’ll explore how to integrate the Azure Storage SDK into a .NET application. We’ll cover the steps to read and write blobs from Azure Storage, and we’ll also discuss how to obtain your Storage Account Key. By the end of this guide, you’ll have a simple command-line application that can interact with …</p>
-          
-          <br>
-          <a href="https://build5nines.com/read-and-write-azure-blob-storage-with-c/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/read-and-write-azure-blob-storage-with-javascript/" title="Read and Write Azure Blob Storage with Javascript">Read and Write Azure Blob Storage with Javascript</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 11, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Read and Write Azure Blob Storage with Javascript"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this article, we’ll explore how to integrate the Azure Storage client library for Javascript into a Node.js application. We’ll cover the steps to read and write blobs from Azure Storage, and we’ll also discuss how to obtain your Storage Account Key. By the end of this guide, you’ll have javascript code that can …</p>
-          
-          <br>
-          <a href="https://build5nines.com/read-and-write-azure-blob-storage-with-javascript/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/using-terraform-string-replace-function-for-regex-string-replacement/" title="Using Terraform String ‘replace’ Function  for RegEx String Replacement">Using Terraform String ‘replace’ Function  for RegEx String Replacement</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Using Terraform String ‘replace’ Function  for RegEx String Replacement"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/iac.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>HashiCorp Terraform offers a lot of powerful functions that can be used for string manipulation within your Infrastructure as Code (IaC) projects. Among these functions is the versatile replace function, which enables users to perform both simple string replacements as well as regular expressions (RegEx) based string …</p>
-          
-          <br>
-          <a href="https://build5nines.com/using-terraform-string-replace-function-for-regex-string-replacement/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/best-practices-to-promote-from-dev-to-prod-environments-with-hashicorp-terraform-using-workspaces-and-folders/" title="Best Practices to Promote from DEV to PROD Environments with HashiCorp Terraform using Workspaces and Folders">Best Practices to Promote from DEV to PROD Environments with HashiCorp Terraform using Workspaces and Folders</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Best Practices to Promote from DEV to PROD Environments with HashiCorp Terraform using Workspaces and Folders"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/iac.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>When using HashiCorp Terraform to manage infrastructure as code (IaC), promoting changes from the development (DEV) environment to the production (PROD) environment is critical to the process of managing the development lifecycle of the infrastructure for a system. Most often, organizations will also have test (TEST) …</p>
-          
-          <br>
-          <a href="https://build5nines.com/best-practices-to-promote-from-dev-to-prod-environments-with-hashicorp-terraform-using-workspaces-and-folders/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -671,9 +182,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
