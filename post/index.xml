@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 17 May 2024 07:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 May 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Simplified State Management</title>
+      <title>Collection Performance: Exercise Caution When Using Take() with a Basic Count</title>
       <link>https://www.dotnetramblings.com/post/17_05_2024/17_05_2024_0/</link>
-      <pubDate>Fri, 17 May 2024 07:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 May 2024 08:01:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/17_05_2024/17_05_2024_0/</guid>
+      <description>
+        
+          
+            The article advises caution when using the LINQ method Take() with a basic count, suggesting that a range might be recommended by code analyzers. However, benchmark results indicate that using Take() with a simple count is 1.63 times faster than employing a range in such cases.
+Link to article: https://dotnettips.wordpress.com/2024/05/17/collection-performance-exercise-caution-when-using-take-with-a-basic-count/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Simplified State Management</title>
+      <link>https://www.dotnetramblings.com/post/17_05_2024/17_05_2024_1/</link>
+      <pubDate>Fri, 17 May 2024 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_05_2024/17_05_2024_1/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://devblogs.microsoft.com/ise/simplified-state-management
     
     <item>
       <title>Using Source Generators to Validate IOptions in ASP.NET Core</title>
-      <link>https://www.dotnetramblings.com/post/17_05_2024/17_05_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/17_05_2024/17_05_2024_2/</link>
       <pubDate>Fri, 17 May 2024 02:53:30 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/17_05_2024/17_05_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/17_05_2024/17_05_2024_2/</guid>
       <description>
         
           
