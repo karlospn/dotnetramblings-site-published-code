@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 20 May 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 May 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>General Performance Tip: Retrieving the Nullable Value from a Reference Type</title>
+      <title>Dapper And Strongly Typed IDs – How To Dynamically Register Mappings</title>
       <link>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_0/</link>
-      <pubDate>Mon, 20 May 2024 08:01:00 +0000</pubDate>
+      <pubDate>Mon, 20 May 2024 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_0/</guid>
+      <description>
+        
+          
+            The post Dapper And Strongly Typed IDs – How To Dynamically Register Mappings appeared first on Dev Leader.How can we use Dapper and strongly typed IDs from the StronglyTypedId package? Let&#39;s see if we can generalize the guidance from the original author! The post Dapper And Strongly Typed IDs – How To Dynamically Register Mappings appeared first on Dev Leader.
+Link to article: https://www.devleader.ca/2024/05/20/dapper-and-strongly-typed-ids-how-to-dynamically-register-mappings/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Roslyn analyzers: How to</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_1/</link>
+      <pubDate>Mon, 20 May 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_1/</guid>
+      <description>
+        
+          
+            This post contains a collection of samples for writing Roslyn analyzers. It&#39;s a living document that I will update over time. Find an IMethodSymbol from a compilation var type = compilation.GetTypeByMetadataName(&amp;quot;System.Threading.Tasks.Task&amp;quot;) var methods = type.GetMembers(&amp;quot;GetAwaiter&amp;quot;).OfType(); If you want a specific method when there are multiple overloads, you can use the…
+Link to article: https://www.meziantou.net/roslyn-analyzers-how-to.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>GitHub Certifications – Prove Your Expertise</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_2/</link>
+      <pubDate>Mon, 20 May 2024 11:19:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_2/</guid>
+      <description>
+        
+          
+            Keeping up with GitHub requires lots of skill mastery. GitHub is a platform used by over 100 million developers worldwide and offers a suite of certifications designed to elevate your development prowess and demonstrate your mastery of its powerful tools. Whether you’re a software developer, DevOps Engineer, SRE, security specialist, or IT professional, GitHub’s certifications […] The article GitHub Certifications – Prove Your Expertise appeared first on Build5Nines.
+Link to article: https://build5nines.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>General Performance Tip: Retrieving the Nullable Value from a Reference Type</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_3/</link>
+      <pubDate>Mon, 20 May 2024 08:01:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_3/</guid>
       <description>
         
           
@@ -27,10 +78,10 @@ Link to article: https://dotnettips.wordpress.com/2024/05/20/general-performance
     
     <item>
       <title>How to Filter a List Based on Another List In C#</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_4/</link>
       <pubDate>Mon, 20 May 2024 05:51:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_4/</guid>
       <description>
         
           
