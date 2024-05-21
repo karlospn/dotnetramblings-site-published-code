@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 21 May 2024 14:00:13 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 15:00:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Announcing General Availability of Azure Cosmos DB Integration with Vercel</title>
+      <title>Cross-region replication in vCore-based Azure Cosmos DB for MongoDB</title>
       <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_0/</link>
-      <pubDate>Tue, 21 May 2024 14:00:13 +0000</pubDate>
+      <pubDate>Tue, 21 May 2024 15:00:50 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_0/</guid>
+      <description>
+        
+          
+            A modern managed database service such as Azure Cosmos DB for MongoDB has a growing list of requirements in today’s world. Prompt recovery of the database availability when its region becomes unavailable is one of such critical functions. When a region is experiencing outage,
+Link to article: https://devblogs.microsoft.com/cosmosdb/cross-region-replication-in-vcore-based-azure-cosmos-db-for-mongodb 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What’s New in vCore-based Azure Cosmos DB for MongoDB</title>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_1/</link>
+      <pubDate>Tue, 21 May 2024 15:00:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_1/</guid>
+      <description>
+        
+          
+            We are excited to share some significant enhancements and new features in our vCore-based Azure Cosmos DB for MongoDB. keeping with our commitment to continually improve Azure Cosmos DB. Let’s dive into the details: Support for Mongo Version 7.0 We are excited to share that we will soon be expanding our support for MongoDB to include Version 7.0!
+Link to article: https://devblogs.microsoft.com/cosmosdb/whats-new-in-vcore-based-azure-cosmos-db-for-mongodb 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Simplifying your Azure Cosmos DB migration: From Serverless to Provisioned throughput (preview)</title>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_2/</link>
+      <pubDate>Tue, 21 May 2024 15:00:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_2/</guid>
+      <description>
+        
+          
+            Azure Cosmos DB offers a range of options to fit the diverse needs of cloud applications, including the choice between serverless and provisioned throughput accounts. The serverless option is ideal for workloads with unpredictable patterns, but there are instances when transitioning to a provisioned throughput account is advantageous for enhanced performance and more efficient cost management.
+Link to article: https://devblogs.microsoft.com/cosmosdb/simplifying-your-azure-cosmos-db-migration-from-serverless-to-provisioned-throughput-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing the stable release of the Azure Cosmos DB client library for Go</title>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_3/</link>
+      <pubDate>Tue, 21 May 2024 15:00:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_3/</guid>
+      <description>
+        
+          
+            We’re excited to announce the stable release of the Azure Cosmos DB client library for Go, a native Go library that enables you to interact with Azure Cosmos DB for NoSQL accounts from your Go applications. The Azure Cosmos DB client library for Go provides an idiomatic API for you to perform operations on databases,
+Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-the-stable-release-of-the-azure-cosmos-db-client-library-for-go 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing General Availability of Azure Cosmos DB Integration with Vercel</title>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_4/</link>
+      <pubDate>Tue, 21 May 2024 14:00:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_4/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-general-avai
     
     <item>
       <title>Connect Logic Apps’ 1,400 connectors to Semantic Kernel</title>
-      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_5/</link>
       <pubDate>Tue, 21 May 2024 13:28:11 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_5/</guid>
       <description>
         
           
@@ -44,10 +112,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/connect-logic-ap
     
     <item>
       <title>Meet the Semantic Kernel Team at Microsoft BUILD</title>
-      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_6/</link>
       <pubDate>Tue, 21 May 2024 12:47:43 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_6/</guid>
       <description>
         
           
@@ -61,10 +129,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/meet-the-semanti
     
     <item>
       <title>Customer Case Study: Fujitsu Composite AI and Semantic Kernel</title>
-      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_7/</link>
       <pubDate>Tue, 21 May 2024 12:00:43 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_7/</guid>
       <description>
         
           
@@ -78,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/customer-case-st
     
     <item>
       <title>Zero Trust Security Principles for Generative AI &amp; LLMs in the Enterprise</title>
-      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_8/</link>
       <pubDate>Tue, 21 May 2024 11:05:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_8/</guid>
       <description>
         
           
@@ -94,10 +162,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/customer-case-st
     
     <item>
       <title>Adding branded URLs to authentication with Microsoft Entra External ID Custom URL Domains</title>
-      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_9/</link>
       <pubDate>Tue, 21 May 2024 10:16:06 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_9/</guid>
       <description>
         
           
@@ -111,10 +179,10 @@ Link to article: https://devblogs.microsoft.com/identity/custom-url-domains
     
     <item>
       <title>Thoughts about primary constructors: 3 pros and 5 cons</title>
-      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_10/</link>
       <pubDate>Tue, 21 May 2024 09:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_10/</guid>
       <description>
         
           
@@ -128,10 +196,10 @@ Link to article: https://andrewlock.net/thoughts-about-primary-constructors-3-pr
     
     <item>
       <title>Code It Any Way You Want: Expression-Bodied Methods vs. Traditional Methods</title>
-      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_8/</link>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_12/</link>
       <pubDate>Tue, 21 May 2024 08:01:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_12/</guid>
       <description>
         
           
@@ -145,10 +213,10 @@ Link to article: https://dotnettips.wordpress.com/2024/05/21/code-it-any-way-you
     
     <item>
       <title>Choosing the Best Immutable Dictionary for Your C# Projects</title>
-      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_9/</link>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_13/</link>
       <pubDate>Tue, 21 May 2024 08:00:46 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_13/</guid>
       <description>
         
           
@@ -162,10 +230,10 @@ Link to article: https://goatreview.com/choosing-best-immutable-dictionary-cshar
     
     <item>
       <title>HTTP Error 500.19 - Internal Server Error</title>
-      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_7/</link>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_11/</link>
       <pubDate>Tue, 21 May 2024 08:12:56 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_11/</guid>
       <description>
         
           
@@ -179,10 +247,10 @@ Link to article: https://blog.elmah.io/http-error-500-19-internal-server-error/
     
     <item>
       <title>Real-Time .NET Error Reporting With Exceptionless</title>
-      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_10/</link>
+      <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_14/</link>
       <pubDate>Tue, 21 May 2024 05:56:01 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_14/</guid>
       <description>
         
           
