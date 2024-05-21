@@ -25,21 +25,5 @@ Link to article: https://www.meziantou.net/roslyn-analyzers-how-to.htm?utm_mediu
       </description>
     </item>
     
-    <item>
-      <title>How to avoid conflicts when testing your dotnet templates locally</title>
-      <link>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_10/</link>
-      <pubDate>Mon, 13 May 2024 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_05_2024/13_05_2024_10/</guid>
-      <description>
-        
-          
-            When you author a dotnet template, you can use the dotnet install and dotnet new commands to create a new project based on your local template. However, dotnet install may conflict with a previous installation of the template published as a NuGet package. In this post, I describe how to avoid this conflict and how to test your template locally. dotnet has a few hidden arguments that you can use to debug…
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
