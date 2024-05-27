@@ -4,12 +4,10 @@
   lang="en"
   data-figures=""
   
-    class="page"
-  
   
   >
   <head>
-<title>How to test a Roslyn analyzer | .NET Ramblings</title>
+<title>Blog.jetbrains.com | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +26,23 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="When you write a Roslyn analyzer, you should also write tests for it. The Roslyn SDK provides a set of NuGet packages that you can use to test your analyzers. …" />
+<meta name="description" content="" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="How to test a Roslyn analyzer" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/27_05_2024/27_05_2024_4/" />
-<meta property="og:title" content="How to test a Roslyn analyzer" />
-<meta property="og:description" content="When you write a Roslyn analyzer, you should also write tests for it. The Roslyn SDK provides a set of NuGet packages that you can use to test your analyzers. …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta name="twitter:title" content="Blog.jetbrains.com" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/tags/blog.jetbrains.com/" />
+<meta property="og:title" content="Blog.jetbrains.com" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/27_05_2024/27_05_2024_4/">
+<link rel="canonical" href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/">
+<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" title=".NET Ramblings" />
 
 
 
@@ -126,10 +125,19 @@
 </header>
 
     <main>
-  
+
+
+
 <div class="grid-inverse wrap content">
-  <article class="post_content">
-    <h1 class="post_title">How to test a Roslyn analyzer</h1>
+  <div>
+    <ul class="posts" id="posts">
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://blog.jetbrains.com/clion/2024/05/clion-2024-2-eap-open/" title="The CLion 2024.2 Early Access Program Is Open">The CLion 2024.2 Early Access Program Is Open</a>
+      </h3>
+      
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -137,34 +145,174 @@
 </svg>
 </span>
     <span class="post_date">
-      May 27, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
+      May 27, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>When you write a Roslyn analyzer, you should also write tests for it. The Roslyn SDK provides a set of NuGet packages that you can use to test your analyzers. In this post, I describe how to test a Roslyn analyzer using the Roslyn SDK NuGet packages. First, Roslyn SDK NuGet packages are not available on NuGet.org. You need to add the following package source to your project file:…</p>
-<ul>
-<li>Link to article: <a href="https://www.meziantou.net/how-to-test-a-roslyn-analyzer.htm?utm_medium=social&utm_source=syndication">https://www.meziantou.net/how-to-test-a-roslyn-analyzer.htm?utm_medium=social&utm_source=syndication</a></li>
-</ul>
+    </div>
+    <div class="excerpt_footer partition">
+      <div class="excerpt_thumbnail"><figure>
+    <picture>
+  
+      
+        
+          
+          
+          
+          
+          
+          
+      <img
+        loading="lazy"
+        decoding="async"
+        alt="The CLion 2024.2 Early Access Program Is Open"
+        
+          class="image_figure image_thumbnail image_internal image_unprocessed"
+          src="https://www.dotnetramblings.com/images/misc.png"
+        
+        
+      />
+  
+      </picture>
+  </figure>
+      </div>
+      
+        <div class="pale">
+          
+            <p>We recently shared our plans and directions for v2024.2. In this roadmap, our team identified the following key objectives for the 2024.2 version of CLion: Today, we are happy to announce that we’ve taken the first step on this journey by launching the CLion 2024.2 Early Access Program (EAP)! This program enables the …</p>
+          
+          <br>
+          <a href="https://blog.jetbrains.com/clion/2024/05/clion-2024-2-eap-open/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://blog.jetbrains.com/dotnet/2024/05/27/learn-unity-and-godot-game-development-with-jetbrains/" title="Learn Unity and Godot Game Development with JetBrains">Learn Unity and Godot Game Development with JetBrains</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      May 27, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+        </a>
+    </span>
+  </div>
 
     </div>
-<div class="post_comments">
+    <div class="excerpt_footer partition">
+      <div class="excerpt_thumbnail"><figure>
+    <picture>
   
+      
+        
+          
+          
+          
+          
+          
+          
+      <img
+        loading="lazy"
+        decoding="async"
+        alt="Learn Unity and Godot Game Development with JetBrains"
+        
+          class="image_figure image_thumbnail image_internal image_unprocessed"
+          src="https://www.dotnetramblings.com/images/dotnet.png"
+        
+        
+      />
   
+      </picture>
+  </figure>
+      </div>
+      
+        <div class="pale">
+          
+            <p>Over the last several years, we’ve worked hard, making the best game development tools available to creators worldwide. Large AAA studios to indie game darlings have loved writing their C# and C++ code using JetBrains Rider. Honestly, it looks like a blast! What better time to be making video games than right now? In …</p>
+          
+          <br>
+          <a href="https://blog.jetbrains.com/dotnet/2024/05/27/learn-unity-and-godot-game-development-with-jetbrains/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://blog.jetbrains.com/space/2024/05/27/the-future-of-space/" title="The Future of Space">The Future of Space</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      May 27, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+        </a>
+    </span>
+  </div>
+
+    </div>
+    <div class="excerpt_footer partition">
+      <div class="excerpt_thumbnail"><figure>
+    <picture>
   
-</div>
-
-
-
-
-  </article>
+      
+        
+          
+          
+          
+          
+          
+          
+      <img
+        loading="lazy"
+        decoding="async"
+        alt="The Future of Space"
+        
+          class="image_figure image_thumbnail image_internal image_unprocessed"
+          src="https://www.dotnetramblings.com/images/misc.png"
+        
+        
+      />
+  
+      </picture>
+  </figure>
+      </div>
+      
+        <div class="pale">
+          
+            <p>When we set out to create Space, we envisioned a system that would provide an all-in-one solution for IT companies. It was intended to be a tool that would not only provide everything your company needs for software development, including projects, Git hosting, code reviews, and issue tracking, but also enable …</p>
+          
+          <br>
+          <a href="https://blog.jetbrains.com/space/2024/05/27/the-future-of-space/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+      <li>
+      </li>
+    </ul>
+  </div>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -181,8 +329,9 @@
   </section>
 </aside>
 
-  
 </div>
+
+
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
