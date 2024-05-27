@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 26 May 2024 10:19:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 May 2024 05:50:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implement a Microsoft Entra ID external authentication method using ASP.NET Core and OpenIddict</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2024/27_05_2024_0/</link>
+      <pubDate>Mon, 27 May 2024 05:50:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2024/27_05_2024_0/</guid>
+      <description>
+        
+          
+            The article shows how to implement a Microsoft Entra ID external authentication method (EAM) using ASP.NET Core, OpenIddict and FIDO2/passkeys. The application using ASP.NET Core Identity to manage the accounts and the passkeys. Code: https://github.com/damienbod/MfaServer The following flow diagram from the Microsoft docs explains how EAM works. Refer to the documentation for a full explanation. […]
+Link to article: https://damienbod.com/2024/05/27/implement-a-microsoft-entra-id-external-authentication-method-using-asp-net-core-and-openiddict/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Compare Two Dictionaries in C#</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2024/27_05_2024_1/</link>
+      <pubDate>Mon, 27 May 2024 05:27:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2024/27_05_2024_1/</guid>
+      <description>
+        
+          
+            In this article, we will first explore several ways to compare two dictionaries in C#. Then, we will compare and rank the performance of these approaches using the BenchmarkDotNet library. When we work with Dictionary objects in C#, checking their equality is a common task we’re likely to encounter. Without further ado, let’s get started. […] The post How to Compare Two Dictionaries in C# appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Configure Custom 404 Not Found Page with Azure Static Web Apps</title>
       <link>https://www.dotnetramblings.com/post/26_05_2024/26_05_2024_0/</link>
