@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 21 May 2024 09:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/andrewlock.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2024 09:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/andrewlock.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blocking primary constructor member capture using a Roslyn Analyzer</title>
+      <link>https://www.dotnetramblings.com/post/28_05_2024/28_05_2024_1/</link>
+      <pubDate>Tue, 28 May 2024 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_05_2024/28_05_2024_1/</guid>
+      <description>
+        
+          
+            In this post I describe a Rosyln analyzer you can use to enforce that primary constructors are only used for initialization and never to capture as fields
+Link to article: https://andrewlock.net/blocking-primary-constructor-member-capture-using-an-analyzer/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Thoughts about primary constructors: 3 pros and 5 cons</title>
       <link>https://www.dotnetramblings.com/post/21_05_2024/21_05_2024_15/</link>
