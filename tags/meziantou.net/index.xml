@@ -25,22 +25,5 @@ Link to article: https://www.
       </description>
     </item>
     
-    <item>
-      <title>Roslyn analyzers: How to</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_9/</link>
-      <pubDate>Mon, 20 May 2024 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2024/20_05_2024_9/</guid>
-      <description>
-        
-          
-            This post contains a collection of samples for writing Roslyn analyzers. It&#39;s a living document that I will update over time. Find an IMethodSymbol from a compilation var type = compilation.GetTypeByMetadataName(&amp;quot;System.Threading.Tasks.Task&amp;quot;) var methods = type.GetMembers(&amp;quot;GetAwaiter&amp;quot;).OfType(); If you want a specific method when there are multiple overloads, you can use the…
-Link to article: https://www.meziantou.net/roslyn-analyzers-how-to.htm?utm_medium=social&amp;utm_source=syndication 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
