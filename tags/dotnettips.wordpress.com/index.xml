@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 27 May 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 May 2024 08:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft .NET Code Analysis: Exercise Caution When Employing ContainsKey() with Dictionary Types</title>
+      <link>https://www.dotnetramblings.com/post/29_05_2024/29_05_2024_0/</link>
+      <pubDate>Wed, 29 May 2024 08:01:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_05_2024/29_05_2024_0/</guid>
+      <description>
+        
+          
+            The article highlights the potential performance issues of using ContainsKey() with Dictionary types in Microsoft .NET, advocating for the adoption of TryGetValue() instead. By employing TryGetValue(), the double lookup process is avoided, resulting in improved efficiency and code readability, as demonstrated through benchmark results and recommendations for custom dictionary types.
+Link to article: https://dotnettips.wordpress.com/2024/05/29/microsoft-net-code-analysis-exercise-caution-when-employing-containskey-with-dictionary-types/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Optimizing Collection Examination: A Comparative Analysis of Predicate Methods in C#</title>
       <link>https://www.dotnetramblings.com/post/27_05_2024/27_05_2024_4/</link>
