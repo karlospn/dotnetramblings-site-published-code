@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 31 May 2024 19:53:46 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vertical Slice Architecture: Structuring Vertical Slices</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2024/01_06_2024_0/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2024/01_06_2024_0/</guid>
+      <description>
+        
+          
+            Are you tired of organizing your project across layers? Vertical Slice Architecture is a compelling alternative to traditional layered architectures.
+Link to article: https://www.milanjovanovic.tech/blog/vertical-slice-architecture-structuring-vertical-slices 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>What’s New in vcpkg (May 2024): Dedicated Pages for Each Package on vcpkg.io</title>
       <link>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_0/</link>
@@ -1197,174 +1214,6 @@ Link to article: https://www.devleader.ca/2024/05/25/feedback-is-deeper-than-you
           
             In this newsletter, we&#39;ll explore how architecture testing can safeguard our project&#39;s architecture. Architecture tests can help us shift left and detect architectural issues faster.
 Link to article: https://www.milanjovanovic.tech/blog/shift-left-with-architecture-testing-in-dotnet 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>RNW 0.74 Launches: A Gallery Glow-up and Fabric Foundations!</title>
-      <link>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_0/</link>
-      <pubDate>Fri, 24 May 2024 19:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_0/</guid>
-      <description>
-        
-          
-            We&#39;ve recently released React Native 0.74! Alongside all the fantastic features from React Native, we&#39;ve been hard at work enhancing the Windows experience, refreshing our Gallery App, and setting the stage for Fabric support.
-Link to article: https://devblogs.microsoft.com/react-native/2024-05-24-improved-gallery-fabric-0-74 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft Graph town hall APIs now available in beta</title>
-      <link>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_1/</link>
-      <pubDate>Fri, 24 May 2024 15:28:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_1/</guid>
-      <description>
-        
-          
-            With the retirement of Teams live events in favor of Teams town hall, we’re announcing the preview (beta) release of new Microsoft Graph town hall APIs.
-Link to article: https://devblogs.microsoft.com/microsoft365dev/microsoft-graph-town-hall-apis-now-available-in-beta 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Setting the contents of a Windows Runtime Vector from C&#43;&#43;/WinRT in one call</title>
-      <link>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_2/</link>
-      <pubDate>Fri, 24 May 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_2/</guid>
-      <description>
-        
-          
-            The one-stop shop for updating a Windows Runtime Vector.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240524-00/?p=109804 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft Copilot Internal Architecture Explained</title>
-      <link>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_3/</link>
-      <pubDate>Fri, 24 May 2024 11:02:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_3/</guid>
-      <description>
-        
-          
-            Microsoft Copilot is an advanced, Generative AI-powered assistant designed to enhance productivity by integrating with various Microsoft applications and services. It leverages large language models (LLMs) and the extensive data network of Microsoft Graph to provide contextual and intelligent assistance in real-time. FYI, this is not an official write up of the architecture of Microsoft […] The article Microsoft Copilot Internal Architecture Explained appeared first on Build5Nines.
-Link to article: https://build5nines.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Enhancing Enum Handling in Spargine: Beyond Enums and into Versatility</title>
-      <link>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_4/</link>
-      <pubDate>Fri, 24 May 2024 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_4/</guid>
-      <description>
-        
-          
-            This content explains the usage of Enums in programming, cautioning against relying solely on Enum values for human-readable names from databases due to potential performance issues. It introduces EnumHelper and EnumExtensions in Spargine, providing methods like GetValues() and GetDescription(). The article also discusses the Enumeration class as a solution to surpass Enum limitations, offering flexibility for custom names and methods like FromDisplayName. This extends Enum functionality and provides more versatility when Enum&#39;s constraints are exceeded.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>宣布 Java on Azure 开发工具支持 Java on Azure Container Apps</title>
-      <link>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_5/</link>
-      <pubDate>Fri, 24 May 2024 07:49:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_5/</guid>
-      <description>
-        
-          
-            在Build 2024 期间宣布，Azure Container Apps 现在可为 Java 开发人员提供丰富的操作功能。(详细内容请参见本博客）。 我们很高兴地与大家分享，Azure Toolkit for IntelliJ 为 Azure Container Apps（Java on ACA）提供了支持，并提供了灵活的部署选项。有了这项支持，Java 开发人员可以使用 GitHub 代码库中的源代码或本地工件构建和部署他们的应用程序，用于新的 ACA 应用程序或现有的 ACA 应用程序。这将增强开发人员在云中运行容器化 Java 应用程序的能力，并加强安全态势，更好地调整容器环境的内存配置。 观看下面的演示，构建并部署您的第一个 Java on ACA 应用程序, 资源 以下是有助于进一步了解 Java on Azure Container Apps 链接列表： Java on Azure Container Apps 概述 Azure Toolkit for IntelliJ 文档
-Link to article: https://devblogs.microsoft.com/java-ch/java-on-azure-aca 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Start Simple, Scale Fast: Azure Storage for Distributed Computing</title>
-      <link>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_6/</link>
-      <pubDate>Fri, 24 May 2024 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_6/</guid>
-      <description>
-        
-          
-            Azure Storage Accounts are one of the simplest resources on Azure, but simultaneously one of the most useful and reused building blocks across the Microsoft Cloud ecosystem. Blobs, leases, and queues are fundamental components that enable powerful patterns. Let&#39;s dig into why Storage Accounts should be in your Azure toolkit.
-Link to article: https://devblogs.microsoft.com/ise/azure-storage-for-distributed-computing 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Does the Default ASP.NET Core Identity Password Hasher Work?</title>
-      <link>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_7/</link>
-      <pubDate>Fri, 24 May 2024 05:35:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_7/</guid>
-      <description>
-        
-          
-            In this article, we will delve into the default ASP.NET Core Identity Password Hasher. We will focus on understanding how it transforms plain text passwords into secure hashes and highlighting its security features. Let’s dive in. How the Password Hashing Process Works When discussing password hashing, we typically consider two scenarios. Firstly, when a user […] The post How Does the Default ASP.NET Core Identity Password Hasher Work? appeared first on Code Maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing Java on Azure Container Apps Support for Java on Azure Developer Tools</title>
-      <link>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_8/</link>
-      <pubDate>Fri, 24 May 2024 04:17:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_8/</guid>
-      <description>
-        
-          
-            During Build 2024, it was announced that Azure Container Apps now offers a rich set of operational capabilities for Java Developers. (Full details on this blog). We are excited to share that Azure Toolkit for IntelliJ has provided support for Java on Azure Container Apps(Java on ACA) with flexible deployment options.
-Link to article: https://devblogs.microsoft.com/java/java-on-azure-aca 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Effectively Sharing Resources Between Modules in a Modular Monolith</title>
-      <link>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_9/</link>
-      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/24_05_2024/24_05_2024_9/</guid>
-      <description>
-        
-          
-            One of the key challenges in developing a modular monolith is managing the communication between different modules, especially when it comes…
-Link to article: https://ardalis.com/effectively-sharing-resources-between-modules-modular-monolith/ 
           
           
         
