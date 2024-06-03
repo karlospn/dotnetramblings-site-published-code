@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 27 May 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jun 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a multi-arch Docker image for a .NET application</title>
+      <link>https://www.dotnetramblings.com/post/03_06_2024/03_06_2024_0/</link>
+      <pubDate>Mon, 03 Jun 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_06_2024/03_06_2024_0/</guid>
+      <description>
+        
+          
+            We are in a transition period where x64 architectures are not the only architectures available. Apple has switched to ARM with the M1 chip, and Microsoft is also pushing for ARM now. If you want to run your application on ARM64 and x64 architectures, you need to create a Docker image for each architecture. Docker supports multi-arch images, which allow you to create a single image that can run on multiple…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How to test a Roslyn analyzer</title>
       <link>https://www.dotnetramblings.com/post/27_05_2024/27_05_2024_2/</link>
