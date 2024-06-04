@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Modernize ASP.NET Web Forms applications in-place using DotVVM | .NET Ramblings</title>
+<title>How to Mock IConfiguration.GetValue in ASP.NET Core | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="This post was co-authored by Alok Bhatnagar, Technical Account Manager, AWS, and Tomáš Herceg, founder of DotVVM, an open-source framework that simplifies …" />
+<meta name="description" content="In this article, we’ll take a closer look at how we can mock IConfiguration.GetValue when writing unit tests in ASP.NET Core. Let’s start! Mock …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Modernize ASP.NET Web Forms applications in-place using DotVVM" />
+<meta name="twitter:title" content="How to Mock IConfiguration.GetValue in ASP.NET Core" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/04_06_2024/04_06_2024_1/" />
-<meta property="og:title" content="Modernize ASP.NET Web Forms applications in-place using DotVVM" />
-<meta property="og:description" content="This post was co-authored by Alok Bhatnagar, Technical Account Manager, AWS, and Tomáš Herceg, founder of DotVVM, an open-source framework that simplifies …" />
+<meta property="og:url" content="https://www.dotnetramblings.com/post/04_06_2024/04_06_2024_11/" />
+<meta property="og:title" content="How to Mock IConfiguration.GetValue in ASP.NET Core" />
+<meta property="og:description" content="In this article, we’ll take a closer look at how we can mock IConfiguration.GetValue when writing unit tests in ASP.NET Core. Let’s start! Mock …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -43,7 +43,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/04_06_2024/04_06_2024_1/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/04_06_2024/04_06_2024_11/">
 
 
 
@@ -129,7 +129,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Modernize ASP.NET Web Forms applications in-place using DotVVM</h1>
+    <h1 class="post_title">How to Mock IConfiguration.GetValue in ASP.NET Core</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -137,14 +137,15 @@
 </svg>
 </span>
     <span class="post_date">
-      Jun 4, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/dotnet/' title="aws.amazon.com/blogs/dotnet" class="post_tag button button_translucent">aws.amazon.com/blogs/dotnet
+      Jun 4, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>This post was co-authored by Alok Bhatnagar, Technical Account Manager, AWS, and Tomáš Herceg, founder of DotVVM, an open-source framework that simplifies creating line-of-business web applications for .NET developers.  Since the genesis of the .NET Framework, ASP.NET Web Forms has been a popular choice for building websites. Even to this day, there are thousands of […]</p>
+    <div class="post_body"><p>In this article, we’ll take a closer look at how we can mock IConfiguration.GetValue when writing unit tests in ASP.NET Core. Let’s start! Mock IConfiguration.GetValue in ASP.NET Core Before we start mocking, we need a class that utilizes IConfiguration: public class FinanceService(IConfiguration configuration) : IFinanceService { public double CalculateTotalAmount(double hours) { var hourlyRate = configuration.GetValue<double>(&quot;FinanceSettings:HourlyRate&quot;); […]
+The post How to Mock IConfiguration.GetValue in ASP.NET Core appeared first on Code Maze.</p>
 <ul>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/dotnet/modernize-asp-net-web-forms-applications-in-place-using-dotvvm/">https://aws.amazon.com/blogs/dotnet/modernize-asp-net-web-forms-applications-in-place-using-dotvvm/</a></li>
+<li>Link to article: <a href="https://code-maze.com/aspnetcore-mock-iconfiguration-getvalue/">https://code-maze.com/aspnetcore-mock-iconfiguration-getvalue/</a></li>
 </ul>
 
     </div>
