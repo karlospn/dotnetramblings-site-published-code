@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Why does Global­Lock max out at 255 locks? | .NET Ramblings</title>
+<title>How to Mock IConfiguration.GetValue in ASP.NET Core | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,24 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Because that&#39;s how many bits were available for reporting the lock count.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240604-00/?p=109847 " />
+<meta name="description" content="In this article, we’ll take a closer look at how we can mock IConfiguration.GetValue when writing unit tests in ASP.NET Core. Let’s start! Mock …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Why does Global­Lock max out at 255 locks?" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/04_06_2024/04_06_2024_9/" />
-<meta property="og:title" content="Why does Global­Lock max out at 255 locks?" />
-<meta property="og:description" content="Because that&#39;s how many bits were available for reporting the lock count.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240604-00/?p=109847 " />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta name="twitter:title" content="How to Mock IConfiguration.GetValue in ASP.NET Core" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/04_06_2024/04_06_2024_17/" />
+<meta property="og:title" content="How to Mock IConfiguration.GetValue in ASP.NET Core" />
+<meta property="og:description" content="In this article, we’ll take a closer look at how we can mock IConfiguration.GetValue when writing unit tests in ASP.NET Core. Let’s start! Mock …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/04_06_2024/04_06_2024_9/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/04_06_2024/04_06_2024_17/">
 
 
 
@@ -131,7 +129,7 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240604-00/?p=10984
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Why does Global­Lock max out at 255 locks?</h1>
+    <h1 class="post_title">How to Mock IConfiguration.GetValue in ASP.NET Core</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -139,14 +137,15 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240604-00/?p=10984
 </svg>
 </span>
     <span class="post_date">
-      Jun 4, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jun 4, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Because that's how many bits were available for reporting the lock count.</p>
+    <div class="post_body"><p>In this article, we’ll take a closer look at how we can mock IConfiguration.GetValue when writing unit tests in ASP.NET Core. Let’s start! Mock IConfiguration.GetValue in ASP.NET Core Before we start mocking, we need a class that utilizes IConfiguration: public class FinanceService(IConfiguration configuration) : IFinanceService { public double CalculateTotalAmount(double hours) { var hourlyRate = configuration.GetValue<double>(&quot;FinanceSettings:HourlyRate&quot;); […]
+The post How to Mock IConfiguration.GetValue in ASP.NET Core appeared first on Code Maze.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20240604-00/?p=109847">https://devblogs.microsoft.com/oldnewthing/20240604-00/?p=109847</a></li>
+<li>Link to article: <a href="https://code-maze.com/aspnetcore-mock-iconfiguration-getvalue/">https://code-maze.com/aspnetcore-mock-iconfiguration-getvalue/</a></li>
 </ul>
 
     </div>
