@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 03 Jun 2024 20:02:39 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jun 2024 05:26:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Mock IConfiguration.GetValue in ASP.NET Core</title>
+      <link>https://www.dotnetramblings.com/post/04_06_2024/04_06_2024_0/</link>
+      <pubDate>Tue, 04 Jun 2024 05:26:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_06_2024/04_06_2024_0/</guid>
+      <description>
+        
+          
+            In this article, we’ll take a closer look at how we can mock IConfiguration.GetValue when writing unit tests in ASP.NET Core. Let’s start! Mock IConfiguration.GetValue in ASP.NET Core Before we start mocking, we need a class that utilizes IConfiguration: public class FinanceService(IConfiguration configuration) : IFinanceService { public double CalculateTotalAmount(double hours) { var hourlyRate = configuration.GetValue(&amp;quot;FinanceSettings:HourlyRate&amp;quot;); […] The post How to Mock IConfiguration.GetValue in ASP.NET Core appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>256 Seconds with dotNetDave: Handling Exceptions Part 1 – Reusable Assemblies</title>
       <link>https://www.dotnetramblings.com/post/03_06_2024/03_06_2024_0/</link>
