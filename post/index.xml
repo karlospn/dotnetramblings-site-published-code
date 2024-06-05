@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 05 Jun 2024 17:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jun 2024 18:23:17 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MSTest 3.4 is here with WinUI support and new analyzers!</title>
+      <title>Combat impersonation using Face Check with Microsoft Entra Verified ID</title>
       <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_0/</link>
-      <pubDate>Wed, 05 Jun 2024 17:05:00 +0000</pubDate>
+      <pubDate>Wed, 05 Jun 2024 18:23:17 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_0/</guid>
+      <description>
+        
+          
+            This blog post highlights the need for better identity verification methods to prevent fraud and impersonation. Microsoft Entra Verified ID&#39;s Face Check, showcased at Microsoft Build 2024, enhances security by comparing live selfies with trusted photos, effectively preventing unauthorized access and detecting spoofing techniques.
+Link to article: https://devblogs.microsoft.com/identity/verified-id-face-check 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MSTest 3.4 is here with WinUI support and new analyzers!</title>
+      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_1/</link>
+      <pubDate>Wed, 05 Jun 2024 17:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_1/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/introducing-mstest-34
     
     <item>
       <title>Integrating C&#43;&#43; header units into Office using MSVC (3/n)</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_2/</link>
       <pubDate>Wed, 05 Jun 2024 16:30:47 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_2/</guid>
       <description>
         
           
@@ -44,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/cppblog/integrating-c-header-uni
     
     <item>
       <title>How Skyflow creates technical content in days using Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_3/</link>
       <pubDate>Wed, 05 Jun 2024 15:57:34 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_3/</guid>
       <description>
         
           
@@ -61,10 +78,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/how-skyflow-creat
     
     <item>
       <title>Giving our Azure marketplace images a makeover</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_4/</link>
       <pubDate>Wed, 05 Jun 2024 14:00:02 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_4/</guid>
       <description>
         
           
@@ -78,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/giving-our-visual-s
     
     <item>
       <title>How 16-bit Windows cached INI files for performance</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_5/</link>
       <pubDate>Wed, 05 Jun 2024 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_5/</guid>
       <description>
         
           
@@ -94,62 +111,11 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240605-00/?p=10985
     </item>
     
     <item>
-      <title>View and Delete Multiple Items at once in Azure Cosmos DB with Data Explorer</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_5/</link>
-      <pubDate>Wed, 05 Jun 2024 12:00:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_5/</guid>
-      <description>
-        
-          
-            One common task that developers need to perform when working with Azure Cosmos DB is deleting and viewing items from a container. Whether it’s for cleaning up test data, removing obsolete records, or complying with data retention policies, deleting items is an essential operation that should be easy and efficient.
-Link to article: https://devblogs.microsoft.com/cosmosdb/delete-items-azure-cosmos-db-data-explorer 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Rider 2024.2 Roadmap</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_6/</link>
-      <pubDate>Wed, 05 Jun 2024 10:38:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_6/</guid>
-      <description>
-        
-          
-            With the first Rider 2024.2 Early Access Program (EAP) build just around the corner, we thought we’d give you an idea of what we’re working on for the next major update. The following is a list of our priorities for the next release. Note that these are the features we’re working on, however some might […]
-Link to article: https://blog.jetbrains.com/dotnet/2024/06/05/rider-2024-2-roadmap/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Java Annotated Monthly – June 2024</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_7/</link>
-      <pubDate>Wed, 05 Jun 2024 08:47:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_7/</guid>
-      <description>
-        
-          
-            The latest edition of Java Annotated Monthly is here! This month, we’re thrilled to welcome Tom Cools to share some of the interesting things he’s found of late in our Featured Content section. As always, we bring you the latest Java news, highlighting the key JEPs set to be available in Java 23. You’ll also […]
-Link to article: https://blog.jetbrains.com/idea/2024/06/java-annotated-monthly-june-2024/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Creating and downloading a PDF or DOCX in ASP.NET Core</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_8/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_6/</link>
       <pubDate>Wed, 05 Jun 2024 06:06:14 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_6/</guid>
       <description>
         
           
@@ -163,10 +129,10 @@ Link to article: https://damienbod.com/2024/06/05/creating-and-downloading-a-pdf
     
     <item>
       <title>Comparing ExecuteAsync() and StartAsync() Methods from the BackgroundService Class in .NET</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_9/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_7/</link>
       <pubDate>Wed, 05 Jun 2024 05:56:59 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_7/</guid>
       <description>
         
           
@@ -179,10 +145,10 @@ Link to article: https://damienbod.com/2024/06/05/creating-and-downloading-a-pdf
     
     <item>
       <title>Unleashing the Potential of Generative AI in Azure SQL Database</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_10/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_8/</link>
       <pubDate>Wed, 05 Jun 2024 03:54:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2024/05_06_2024_8/</guid>
       <description>
         
           
