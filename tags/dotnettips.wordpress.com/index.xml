@@ -59,22 +59,5 @@ Link to article: https://dotnettips.wordpress.com/2024/05/30/code-it-any-way-you
       </description>
     </item>
     
-    <item>
-      <title>Microsoft .NET Code Analysis: Exercise Caution When Employing ContainsKey() with Dictionary Types</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2024/29_05_2024_15/</link>
-      <pubDate>Wed, 29 May 2024 08:01:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2024/29_05_2024_15/</guid>
-      <description>
-        
-          
-            The article highlights the potential performance issues of using ContainsKey() with Dictionary types in Microsoft .NET, advocating for the adoption of TryGetValue() instead. By employing TryGetValue(), the double lookup process is avoided, resulting in improved efficiency and code readability, as demonstrated through benchmark results and recommendations for custom dictionary types.
-Link to article: https://dotnettips.wordpress.com/2024/05/29/microsoft-net-code-analysis-exercise-caution-when-employing-containskey-with-dictionary-types/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
