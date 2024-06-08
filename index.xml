@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 07 Jun 2024 21:37:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caching in ASP.NET Core: Improving Application Performance</title>
+      <link>https://www.dotnetramblings.com/post/08_06_2024/08_06_2024_0/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_06_2024/08_06_2024_0/</guid>
+      <description>
+        
+          
+            Caching is one of the simplest techniques to significantly improve your application&#39;s performance. In this newsletter, we will explore how to implement caching in ASP.NET Core applications.
+Link to article: https://www.milanjovanovic.tech/blog/caching-in-aspnetcore-improving-application-performance 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Configuring GitHub Actions to Run Jobs on Specific Branches</title>
       <link>https://www.dotnetramblings.com/post/07_06_2024/07_06_2024_0/</link>
@@ -1280,140 +1297,6 @@ Link to article: https://www.devleader.ca/2024/06/01/a-letter-to-junior-develope
           
             Are you tired of organizing your project across layers? Vertical Slice Architecture is a compelling alternative to traditional layered architectures.
 Link to article: https://www.milanjovanovic.tech/blog/vertical-slice-architecture-structuring-vertical-slices 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What’s New in vcpkg (May 2024): Dedicated Pages for Each Package on vcpkg.io</title>
-      <link>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_0/</link>
-      <pubDate>Fri, 31 May 2024 19:53:46 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_0/</guid>
-      <description>
-        
-          
-            This blog post summarizes changes to the vcpkg package manager as part of the 2024.05.24 release as well as changes to vcpkg documentation throughout May. This month’s update also includes individual pages for each package on the vcpkg website as well as several new documentation articles.
-Link to article: https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-may-2024-dedicated-pages-for-each-package-on-vcpkg-io 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Fluid Framework 2 generally available in June</title>
-      <link>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_1/</link>
-      <pubDate>Fri, 31 May 2024 16:19:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_1/</guid>
-      <description>
-        
-          
-            Learn about the exciting new features in Fluid Framework 2 including SharedTree DDS, SharePoint Embedded support, Fluid DevTools, and more.
-Link to article: https://devblogs.microsoft.com/microsoft365dev/fluid-framework-2-generally-available-in-june 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Pre-training genomic language models using AWS HealthOmics and Amazon SageMaker</title>
-      <link>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_2/</link>
-      <pubDate>Fri, 31 May 2024 16:15:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_2/</guid>
-      <description>
-        
-          
-            Genomic language models are a new and exciting field in the application of large language models to challenges in genomics. In this blog post and open source project, we show you how you can pre-train a genomics language model, HyenaDNA, using your genomic data in the AWS Cloud. Here, we use AWS HealthOmics storage as […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/pre-training-genomic-language-models-using-aws-healthomics-and-amazon-sagemaker/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Falcon 2 11B is now available on Amazon SageMaker JumpStart</title>
-      <link>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_3/</link>
-      <pubDate>Fri, 31 May 2024 15:55:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_3/</guid>
-      <description>
-        
-          
-            Today, we are excited to announce that the first model in the next generation Falcon 2 family, the Falcon 2 11B foundation model (FM) from Technology Innovation Institute (TII), is available through Amazon SageMaker JumpStart to deploy and run inference. Falcon 2 11B is a trained dense decoder model on a 5.5 trillion token dataset […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/falcon-2-11b-is-now-available-on-amazon-sagemaker-jumpstart/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Implementing Knowledge Bases for Amazon Bedrock in support of GDPR (right to be forgotten) requests</title>
-      <link>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_4/</link>
-      <pubDate>Fri, 31 May 2024 15:06:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_4/</guid>
-      <description>
-        
-          
-            The General Data Protection Regulation (GDPR) right to be forgotten, also known as the right to erasure, gives individuals the right to request the deletion of their personally identifiable information (PII) data held by organizations. This means that individuals can ask companies to erase their personal data from their systems and from the systems of […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/implementing-knowledge-bases-for-amazon-bedrock-in-support-of-gdpr-right-to-be-forgotten-requests/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A graphical depiction of the steps in building a C&#43;&#43; executable, with XAML and packaging</title>
-      <link>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_5/</link>
-      <pubDate>Fri, 31 May 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_5/</guid>
-      <description>
-        
-          
-            Fleshing out the diagram.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240531-00/?p=109825 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Set the Exit Code for a Console Application in .NET</title>
-      <link>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_6/</link>
-      <pubDate>Fri, 31 May 2024 05:19:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_6/</guid>
-      <description>
-        
-          
-            In this article, we will learn how to set the exit code for a console application in .NET. Let’s dive in. What Are Exit Codes Exit codes are integer values we return after executing a process. A zero exit code usually indicates success, while a non-zero code indicates an error. For a complete list of […] The post How to Set the Exit Code for a Console Application in .NET appeared first on Code Maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PowerShell: Automate Terraform Install on Windows</title>
-      <link>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_7/</link>
-      <pubDate>Fri, 31 May 2024 03:45:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_05_2024/31_05_2024_7/</guid>
-      <description>
-        
-          
-            While HashiCorp Terraform is a single executable, it’s really useful to install it on the local machine so the terraform.exe executable can be run from anywhere. To do this, Terraform needs to be downloaded, placed somewhere on the local machine, and then that path must be added to the system PATH environment variable. I’ve done […] The article PowerShell: Automate Terraform Install on Windows was originally published on Build5Nines. To stay up-to-date, Subscribe to the Build5Nines Newsletter.
           
           
         
