@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>Retrying Failed HttpClient Requests in .NET Using Polly | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="In this article, we will explore the different approaches to retrying failed HttpClient requests using Polly. We will also discuss the advantages and …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Retrying Failed HttpClient Requests in .NET Using Polly" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/10_06_2024/10_06_2024_7/" />
+<meta property="og:title" content="Retrying Failed HttpClient Requests in .NET Using Polly" />
+<meta property="og:description" content="In this article, we will explore the different approaches to retrying failed HttpClient requests using Polly. We will also discuss the advantages and …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/10_06_2024/10_06_2024_7/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/java/java-on-visual-studio-code-update-may-2024" title="Java on Visual Studio Code Update – May 2024">Java on Visual Studio Code Update – May 2024</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Retrying Failed HttpClient Requests in .NET Using Polly</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,312 +140,28 @@
 </svg>
 </span>
     <span class="post_date">
-      Jun 3, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jun 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Java on Visual Studio Code Update – May 2024"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Hi everyone, welcome to the May update for Visual Studio Code for Java! In this blog we are going to share an exciting new AI related feature for Java developers on Visual Studio Code. In addition, there will be several important Spring updates,
-Link to article: …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/java/java-on-visual-studio-code-update-may-2024" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/java-ch/java-on-visual-studio-code-2024-05" title="Java on Visual Studio Code的更新 – 2024年5月">Java on Visual Studio Code的更新 – 2024年5月</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 3, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>In this article, we will explore the different approaches to retrying failed HttpClient requests using Polly. We will also discuss the advantages and disadvantages of each retry strategy, from simplest to most sophisticated. Let’s start. Reasons for HttpClient Request Failures We like to think of the Internet as a reliable data transmission medium. Sadly, this […]
+The post Retrying Failed HttpClient Requests in .NET Using Polly appeared first on Code Maze.</p>
+<ul>
+<li>Link to article: <a href="https://code-maze.com/retrying-failed-httpclient-requests-dotnet-polly/">https://code-maze.com/retrying-failed-httpclient-requests-dotnet-polly/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Java on Visual Studio Code的更新 – 2024年5月"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>大家好，欢迎来到 Visual Studio Code 的 Java 五月更新！在本篇博客中，我们将分享一个令人兴奋的与AI相关的新功能，专门Visual Studio Code上的Java开发者准备。另外，还会有几个重要的Spring的重要更新，让我们开始吧！ 基于Github Copilot优化并重构Java代码 当我们的代码更新迭代，我们的业务逻辑会不断变复杂。与此同时，Java的版本也在不同地升级。我们一些旧的代码通常可以用一些更好的新的代码去替代，不仅可以提升它们的效率，也可以使代码更美观和简洁。这些事情之前可能都需要我们人为去做，而随着AI的普及，慢慢很多任务都可以用AI相关工具去处理，而伴随Build大会2024的各 …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/java-ch/java-on-visual-studio-code-2024-05" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/06/03/serializing-objects-efficient-serialization-and-deserialization-of-collections-with-jsonserializer/" title="Serializing Objects: Efficient Serialization and Deserialization of Collections with JsonSerializer">Serializing Objects: Efficient Serialization and Deserialization of Collections with JsonSerializer</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 3, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Serializing Objects: Efficient Serialization and Deserialization of Collections with JsonSerializer"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The article demonstrates the ease of serializing and deserializing collections using JsonSerializer.
-Link to article: <a href="https://dotnettips.wordpress.com/2024/06/03/serializing-objects-efficient-serialization-and-deserialization-of-collections-with-jsonserializer/">https://dotnettips.wordpress.com/2024/06/03/serializing-objects-efficient-serialization-and-deserialization-of-collections-with-jsonserializer/</a></p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/06/03/serializing-objects-efficient-serialization-and-deserialization-of-collections-with-jsonserializer/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://code-maze.com/dotnet-embedded-resources/" title="Embedded Resources in .NET">Embedded Resources in .NET</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 3, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Embedded Resources in .NET"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>We’ve covered resources in a couple of our previous articles. In Localization in ASP.NET Core, we delved into .NET localization, touching upon resources since XML files utilized for localization fall under .NET resources. We also discussed resources in our article, How to Read a String From a .resx (Resource) File in …</p>
-          
-          <br>
-          <a href="https://code-maze.com/dotnet-embedded-resources/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/dotnet-ch/%e5%8a%a0%e5%85%a5-microsoft-build-2024-%e7%9a%84-net-%e5%9b%a2%e9%98%9f%ef%bc%81" title="加入 Microsoft Build 2024 的 .NET 团队！">加入 Microsoft Build 2024 的 .NET 团队！</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 3, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="加入 Microsoft Build 2024 的 .NET 团队！"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>本篇翻译于Mehul Harry的 Join the .NET Team at Microsoft Build 2024! 倒计时已经开始！ Microsoft Build 2024 即将到来，如果您是 .NET 爱好者，请准备好迎接一系列精彩的会议。 无论您是经验丰富的开发人员还是刚刚开始您的开发之旅，每个人都能找到适合自己的东西。 活动形式：混合体验 无论您是在西雅图还是在舒适的家中，都可以加入我们。 通过现场和在线会议的相结合，您不会错过任何精彩内容。 深入了解 .NET：不容错过的会议 请查看下面的会议，了解即将到来的活动。 如需了解更多详情并预订席位，请务必访问会议链接。 时间（太平洋夏令时间） …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/dotnet-ch/%e5%8a%a0%e5%85%a5-microsoft-build-2024-%e7%9a%84-net-%e5%9b%a2%e9%98%9f%ef%bc%81" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -477,9 +185,8 @@ Link to article: <a href="https://dotnettips.wordpress.com/2024/06/03/serializin
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
