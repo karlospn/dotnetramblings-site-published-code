@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 04 Jun 2024 08:00:41 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/goatreview.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jun 2024 10:40:08 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/goatreview.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stopping Using Exception Use Result Monad Instead</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2024/11_06_2024_0/</link>
+      <pubDate>Tue, 11 Jun 2024 10:40:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2024/11_06_2024_0/</guid>
+      <description>
+        
+          
+            Introduction Error handling is an inevitable part of software development. Traditionally, exceptions are the primary method for signaling that something has gone awry. However, the exception mechanism is fraught with issues: unpredictable control flow, performance bottlenecks, and challenges in debugging. Imagine a world where error handling is graceful, predictable, and
+Link to article: https://goatreview.com/stopping_using_exception_use_monad/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Streamline Testing Processes with Contract Testing and Pact in .NET</title>
       <link>https://www.dotnetramblings.com/post/04_06_2024/04_06_2024_16/</link>
