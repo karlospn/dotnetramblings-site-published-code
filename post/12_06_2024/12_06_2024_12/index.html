@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Lock-free reference-counting a TLS slot using atomics, part 1 | .NET Ramblings</title>
+<title>Comparing Unit Testable Code with Maintainable Code | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,16 +28,16 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="First, we do it with locks.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240612-00/?p=109887 " />
+<meta name="description" content="Writing maintainable code should be a goal in most software engineering projects. Although definitions and especially hard measurements of…
+Link to article: …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Lock-free reference-counting a TLS slot using atomics, part 1" />
+<meta name="twitter:title" content="Comparing Unit Testable Code with Maintainable Code" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/12_06_2024/12_06_2024_7/" />
-<meta property="og:title" content="Lock-free reference-counting a TLS slot using atomics, part 1" />
-<meta property="og:description" content="First, we do it with locks.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240612-00/?p=109887 " />
+<meta property="og:url" content="https://www.dotnetramblings.com/post/12_06_2024/12_06_2024_12/" />
+<meta property="og:title" content="Comparing Unit Testable Code with Maintainable Code" />
+<meta property="og:description" content="Writing maintainable code should be a goal in most software engineering projects. Although definitions and especially hard measurements of…
+Link to article: …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -45,7 +45,7 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240612-00/?p=10988
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/12_06_2024/12_06_2024_7/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/12_06_2024/12_06_2024_12/">
 
 
 
@@ -134,7 +134,7 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240612-00/?p=10988
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Lock-free reference-counting a TLS slot using atomics, part 1</h1>
+    <h1 class="post_title">Comparing Unit Testable Code with Maintainable Code</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +142,14 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240612-00/?p=10988
 </svg>
 </span>
     <span class="post_date">
-      Jun 12, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jun 12, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/ardalis.com/blog/' title="ardalis.com/blog" class="post_tag button button_translucent">ardalis.com/blog
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>First, we do it with locks.</p>
+    <div class="post_body"><p>Writing maintainable code should be a goal in most software engineering projects. Although definitions and especially hard measurements of…</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20240612-00/?p=109887">https://devblogs.microsoft.com/oldnewthing/20240612-00/?p=109887</a></li>
+<li>Link to article: <a href="https://ardalis.com/comparing-unit-testable-code-with-maintainable-code/">https://ardalis.com/comparing-unit-testable-code-with-maintainable-code/</a></li>
 </ul>
 
     </div>
