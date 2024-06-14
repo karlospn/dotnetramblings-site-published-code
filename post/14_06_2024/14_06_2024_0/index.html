@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Debugger Upskill: Debug Without Breakpoints | .NET Ramblings</title>
+<title>Lock-free reference-counting a TLS slot using atomics, part 3 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,16 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="In a typical debugging scenario, you would set breakpoints to tell the debugger when to suspend your program. A breakpoint usually corresponds to the moment …" />
+<meta name="description" content="Keeping track of two things at once.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20240614-00/?p=109902 " />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Debugger Upskill: Debug Without Breakpoints" />
+<meta name="twitter:title" content="Lock-free reference-counting a TLS slot using atomics, part 3" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_0/" />
-<meta property="og:title" content="Debugger Upskill: Debug Without Breakpoints" />
-<meta property="og:description" content="In a typical debugging scenario, you would set breakpoints to tell the debugger when to suspend your program. A breakpoint usually corresponds to the moment …" />
+<meta property="og:title" content="Lock-free reference-counting a TLS slot using atomics, part 3" />
+<meta property="og:description" content="Keeping track of two things at once.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20240614-00/?p=109902 " />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -132,7 +134,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Debugger Upskill: Debug Without Breakpoints</h1>
+    <h1 class="post_title">Lock-free reference-counting a TLS slot using atomics, part 3</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +142,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Jun 14, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Jun 14, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>In a typical debugging scenario, you would set breakpoints to tell the debugger when to suspend your program. A breakpoint usually corresponds to the moment that marks the starting point for further investigation. Deciding where to set a breakpoint can be challenging. There might be situations where the exact line is unclear, or you might […]</p>
+    <div class="post_body"><p>Keeping track of two things at once.</p>
 <ul>
-<li>Link to article: <a href="https://blog.jetbrains.com/idea/2024/06/debugger-upskill-debug-without-breakpoints/">https://blog.jetbrains.com/idea/2024/06/debugger-upskill-debug-without-breakpoints/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20240614-00/?p=109902">https://devblogs.microsoft.com/oldnewthing/20240614-00/?p=109902</a></li>
 </ul>
 
     </div>
