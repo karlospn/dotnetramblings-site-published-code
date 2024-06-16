@@ -4,13 +4,12 @@
   lang="en"
   data-figures=""
   
-    class="home"
+    class="page"
   
   
   >
   <head>
-	<meta name="generator" content="Hugo 0.127.0">
-<title>.NET Ramblings</title>
+<title>Collection Performance: Introducing FrozenSet in .NET 8: Benefits and Benchmark PerformanceCollection Performance | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,25 +27,23 @@
 
 <meta property="og:locale" content="en" />
 
-<meta property="og:type" content="website">
-<meta name="description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
+<meta property="og:type" content="article">
+<meta name="description" content=".NET version 8 introduced the FrozenSet type, offering immutable and hashable set collection with benefits including improved performance, memory efficiency, …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content=".NET Ramblings" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/" />
-<meta property="og:title" content=".NET Ramblings" />
-<meta property="og:description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Collection Performance: Introducing FrozenSet in .NET 8: Benefits and Benchmark PerformanceCollection Performance" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/16_06_2024/16_06_2024_0/" />
+<meta property="og:title" content="Collection Performance: Introducing FrozenSet in .NET 8: Benefits and Benchmark PerformanceCollection Performance" />
+<meta property="og:description" content=".NET version 8 introduced the FrozenSet type, offering immutable and hashable set collection with benefits including improved performance, memory efficiency, …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/index.xml" title=".NET Ramblings" />
-<link rel="alternate" type="application/json" href="https://www.dotnetramblings.com/index.json" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/16_06_2024/16_06_2024_0/">
 
 
 
@@ -90,7 +87,7 @@
       
         
 
-  <div class="nav_parent nav_active">
+  <div class="nav_parent">
     <a href="https://www.dotnetramblings.com/" class="nav_item" title="Home">Home </a>
   </div>
   <div class="nav_parent">
@@ -132,21 +129,10 @@
 </header>
 
     <main>
-
   
-
-
-
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/cosmosdb/mastering-azure-cosmos-db-a-comprehensive-guide-from-prototype-to-production" title="Mastering Azure Cosmos DB: A Comprehensive Guide from Prototype to Production">Mastering Azure Cosmos DB: A Comprehensive Guide from Prototype to Production</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Collection Performance: Introducing FrozenSet in .NET 8: Benefits and Benchmark PerformanceCollection Performance</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -154,488 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Jun 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jun 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Mastering Azure Cosmos DB: A Comprehensive Guide from Prototype to Production"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Over the past couple of years, we have collaborated with numerous customers to tackle performance, scaling, and cost issues that arise when transitioning their Azure Cosmos DB for NoSQL API based applications to production. In many cases, these challenges stem from a lack of understanding of key Azure Cosmos DB …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/cosmosdb/mastering-azure-cosmos-db-a-comprehensive-guide-from-prototype-to-production" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20240610-00/?p=109872" title="How do I get the name of a SID, and what does it mean when the conversion fails?">How do I get the name of a SID, and what does it mean when the conversion fails?</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>.NET version 8 introduced the FrozenSet type, offering immutable and hashable set collection with benefits including improved performance, memory efficiency, and thread safety. Benchmarks show comparable performance to List, outperforming HashSet and ImmutableHashSet. However, it is slightly slower than the latter in lookups. FrozenSet offers significant advantages for concurrent applications and memory optimization.</p>
+<ul>
+<li>Link to article: <a href="https://dotnettips.wordpress.com/2024/06/16/collection-performance-introducing-frozenset-in-net-8-benefits-and-benchmark-performancecollection-performance/">https://dotnettips.wordpress.com/2024/06/16/collection-performance-introducing-frozenset-in-net-8-benefits-and-benchmark-performancecollection-performance/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How do I get the name of a SID, and what does it mean when the conversion fails?"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Most places will do it for you, or at least try.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20240610-00/?p=109872">https://devblogs.microsoft.com/oldnewthing/20240610-00/?p=109872</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20240610-00/?p=109872" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.meziantou.net/sharing-the-renovate-configuration-across-multiple-projects.htm?utm_medium=social&amp;utm_source=syndication" title="Sharing the Renovate configuration across multiple projects">Sharing the Renovate configuration across multiple projects</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Sharing the Renovate configuration across multiple projects"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Renovate is a tool that helps you to keep your dependencies up-to-date. You can configure Renovate using a configuration file at the root of the repository. In this post, I describe how to share the Renovate configuration across multiple projects. Developers don't like to maintain the same configuration in multiple …</p>
-          
-          <br>
-          <a href="https://www.meziantou.net/sharing-the-renovate-configuration-across-multiple-projects.htm?utm_medium=social&amp;utm_source=syndication" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/identity/ai-agent-graph-api" title="Allow your AI Agent to call Microsoft Graph APIs securely with Microsoft Entra ID">Allow your AI Agent to call Microsoft Graph APIs securely with Microsoft Entra ID</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Allow your AI Agent to call Microsoft Graph APIs securely with Microsoft Entra ID"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Discover an exciting new plugin in the Chat Copilot sample app from the Semantic Kernel team. This plugin lets an AI Agent call Microsoft Graph APIs secured by Microsoft Entra ID using the On-Behalf-Of (OBO) flow.
-Link to article: <a href="https://devblogs.microsoft.com/identity/ai-agent-graph-api">https://devblogs.microsoft.com/identity/ai-agent-graph-api</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/identity/ai-agent-graph-api" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/devops/test-feedback-extension-v3" title="Test &amp; Feedback Extension in Manifest V3">Test &amp; Feedback Extension in Manifest V3</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Test &amp;amp; Feedback Extension in Manifest V3"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>We are excited to announce a new update to the Azure DevOps Test and Feedback extension! This update brings essential implementation changes, upgrading from manifest version 2 to version 3. Following Google’s announcement of their Manifest V2 deprecation schedule, we have been actively working on our implementation of …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/devops/test-feedback-extension-v3" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://code-maze.com/retrying-failed-httpclient-requests-dotnet-polly/" title="Retrying Failed HttpClient Requests in .NET Using Polly">Retrying Failed HttpClient Requests in .NET Using Polly</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Retrying Failed HttpClient Requests in .NET Using Polly"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this article, we will explore the different approaches to retrying failed HttpClient requests using Polly. We will also discuss the advantages and disadvantages of each retry strategy, from simplest to most sophisticated. Let’s start. Reasons for HttpClient Request Failures We like to think of the Internet as a …</p>
-          
-          <br>
-          <a href="https://code-maze.com/retrying-failed-httpclient-requests-dotnet-polly/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/build-a-generative-ai-rag-app-in-c-with-phi-3-onnx-and-sharpvector/" title="Build a Generative AI &#43; RAG App in C# with Phi-3, ONNX, and SharpVector">Build a Generative AI + RAG App in C# with Phi-3, ONNX, and SharpVector</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Build a Generative AI &#43; RAG App in C# with Phi-3, ONNX, and SharpVector"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>By combining Retrieval Augmented Generation (RAG) with Generative AI, you can create a more intelligent and context aware AI solution that can more accurately generate text responses. I’ve previously written about building a generative AI application using C#, Phi-3 and the ONNX Runtime. This article will take the …</p>
-          
-          <br>
-          <a href="https://build5nines.com/build-a-generative-ai-rag-app-in-c-with-phi-3-onnx-and-sharpvector/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/06/09/collection-performance-enhancing-dictionary-performance-with-frozendictionary/" title="Collection Performance: Enhancing Dictionary Performance with FrozenDictionary">Collection Performance: Enhancing Dictionary Performance with FrozenDictionary</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Collection Performance: Enhancing Dictionary Performance with FrozenDictionary"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The FrozenDictionary is a thread-safe, immutable, read-only dictionary optimized for fast lookups. It outperforms the Dictionary, reducing iteration and lookup times significantly.
-Link to article: <a href="https://dotnettips.wordpress.com/2024/06/09/collection-performance-enhancing-dictionary-performance-with-frozendictionary/">https://dotnettips.wordpress.com/2024/06/09/collection-performance-enhancing-dictionary-performance-with-frozendictionary/</a> …</p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/06/09/collection-performance-enhancing-dictionary-performance-with-frozendictionary/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope=''>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -652,9 +184,8 @@ Link to article: <a href="https://dotnettips.wordpress.com/2024/06/09/collection
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
