@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 21 Jun 2024 19:46:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What You Need To Know About EF Core Bulk Updates</title>
+      <link>https://www.dotnetramblings.com/post/22_06_2024/22_06_2024_0/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_06_2024/22_06_2024_0/</guid>
+      <description>
+        
+          
+            EF Core 7 introduced two powerful new methods, ExecuteUpdate and ExecuteDelete. However, there&#39;s an important caveat: these bulk operations bypass the EF Core Change Tracker.
+Link to article: https://www.milanjovanovic.tech/blog/what-you-need-to-know-about-ef-core-bulk-updates 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Manage Amazon SageMaker JumpStart foundation model access with private hubs</title>
       <link>https://www.dotnetramblings.com/post/21_06_2024/21_06_2024_0/</link>
@@ -1180,107 +1197,6 @@ Link to article: https://www.devleader.ca/2024/06/15/ai-dos-and-donts-for-develo
           
             Transaction Scripts organizes business logic by procedures where each procedure handles a single request from the presentation.
 Link to article: https://www.milanjovanovic.tech/blog/from-transaction-scripts-to-domain-models-a-refactoring-journey 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Rider 2024.2 EAP 3 Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_0/</link>
-      <pubDate>Fri, 14 Jun 2024 20:21:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_0/</guid>
-      <description>
-        
-          
-            The latest installment in the Rider 2024.2 Early Access Program has just been released! Let’s take a look at the changes. Bundled .NET Watch Run Configuration plugin dotnet-watch is a .NET global tool specifically designed to monitor file changes during development and promptly reload or restart the target command. One of the standout features of […]
-Link to article: https://blog.jetbrains.com/dotnet/2024/06/14/rider-2024-2-eap-3/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Lock-free reference-counting a TLS slot using atomics, part 3</title>
-      <link>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_1/</link>
-      <pubDate>Fri, 14 Jun 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_1/</guid>
-      <description>
-        
-          
-            Keeping track of two things at once.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240614-00/?p=109902 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Debugger Upskill: Debug Without Breakpoints</title>
-      <link>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_2/</link>
-      <pubDate>Fri, 14 Jun 2024 11:45:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_2/</guid>
-      <description>
-        
-          
-            In a typical debugging scenario, you would set breakpoints to tell the debugger when to suspend your program. A breakpoint usually corresponds to the moment that marks the starting point for further investigation. Deciding where to set a breakpoint can be challenging. There might be situations where the exact line is unclear, or you might […]
-Link to article: https://blog.jetbrains.com/idea/2024/06/debugger-upskill-debug-without-breakpoints/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>C#12新功能合集三：使用任意类型别名重构C#代码</title>
-      <link>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_3/</link>
-      <pubDate>Fri, 14 Jun 2024 08:44:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_3/</guid>
-      <description>
-        
-          
-            本文翻译于David Pine的这篇文章: Refactor your code using alias any type。 这篇文章是四篇系列文章中的第三篇，主要探讨C# 12的各种功能。在这篇文章中，我们将深入探讨“别名任何类型”功能，该功能允许您使用 using 指令为任何类型创建别名。这个系列已经初具规模： 使用主构造函数重构 C# 代码 使用集合表达式重构 C# 代码 使用任意类型别名重构 C# 代码（本篇文章） 重构 C# 代码以使用默认 lambda 参数 所有这些功能都将继续我们的旅程，使我们的代码更具可读性和可维护性，这些被认为是开发人员应该知道的“日常 C#”功能。让我们深入了解吧！ 别名任意类型*️⃣ C# 12 引入了使用 using 指令为任意类型添加别名的功能。此功能允许您指定映射到其他类型的别名。这包括元组类型、指针类型、数组类型，甚至非开放泛型类型，所有这些类型都可以在您的代码中使用。此功能在以下场景特别有用： 当使用长或复杂的类型名称时。 当消除类型歧义并解决潜在的命名冲突时。 当定义要在程序集中共享的值元组类型时。 当希望通过使用更具描述性的名称来增加代码的清晰度时。 官方 C# 文档提供了很多有关如何使用此功能的示例，但我并不想在此重复这些示例，而是决定编写一个演示应用程序来示范该功能的各个方面。 可空引用类型 此功能支持大多数类型，但可空引用类型除外。也就是说，您无法为可空引用类型设置别名， C# 编译器会报告错误 CS9132：使用的别名不能是可空引用类型。以下内容摘自功能说明，以帮助澄清这一点： // This is not legal.
-Link to article: https://devblogs.microsoft.com/dotnet-ch/c12%e6%96%b0%e5%8a%9f%e8%83%bd%e5%90%88%e9%9b%86%e4%b8%89%ef%bc%9a%e4%bd%bf%e7%94%a8%e4%bb%bb%e6%84%8f%e7%b1%bb%e5%9e%8b%e7%9a%84%e5%88%ab%e5%90%8d%e9%87%8d%e6%9e%84c%e4%bb%a3%e7%a0%81 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Next-Level Boilerplate: An Inside Look Into Our .Net Clean Architecture Repo</title>
-      <link>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_4/</link>
-      <pubDate>Fri, 14 Jun 2024 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_4/</guid>
-      <description>
-        
-          
-            In this article, we will take an inner look at the clean architecture boilerplate and how it helps kickstart our projects rapidly.
-Link to article: https://devblogs.microsoft.com/ise/next-level-clean-architecture-boilerplate 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Find Differences Between Collections With the LINQ Except Method in C#</title>
-      <link>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_5/</link>
-      <pubDate>Fri, 14 Jun 2024 06:27:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_06_2024/14_06_2024_5/</guid>
-      <description>
-        
-          
-            When working with collections in C#, we sometimes need to manipulate them by performing operations such as comparisons, mergers, or finding set differences between them. The LINQ Except method comes in handy when we want to find the set difference between two sequences, as it returns a new sequence containing elements in the first sequence […] The post Find Differences Between Collections With the LINQ Except Method in C# appeared first on Code Maze.
           
           
         
