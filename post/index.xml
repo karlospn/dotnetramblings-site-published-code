@@ -1235,22 +1235,5 @@ Link to article: https://code-maze.
       </description>
     </item>
     
-    <item>
-      <title>Collection Performance: Introducing FrozenSet in .NET 8: Benefits and Benchmark PerformanceCollection Performance</title>
-      <link>https://www.dotnetramblings.com/post/16_06_2024/16_06_2024_0/</link>
-      <pubDate>Sun, 16 Jun 2024 08:01:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_06_2024/16_06_2024_0/</guid>
-      <description>
-        
-          
-            .NET version 8 introduced the FrozenSet type, offering immutable and hashable set collection with benefits including improved performance, memory efficiency, and thread safety. Benchmarks show comparable performance to List, outperforming HashSet and ImmutableHashSet. However, it is slightly slower than the latter in lookups. FrozenSet offers significant advantages for concurrent applications and memory optimization.
-Link to article: https://dotnettips.wordpress.com/2024/06/16/collection-performance-introducing-frozenset-in-net-8-benefits-and-benchmark-performancecollection-performance/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
