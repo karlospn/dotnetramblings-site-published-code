@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 25 Jun 2024 20:32:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jun 2024 00:37:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jakarta EE on Azure – June 2024</title>
+      <link>https://www.dotnetramblings.com/post/26_06_2024/26_06_2024_0/</link>
+      <pubDate>Wed, 26 Jun 2024 00:37:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_06_2024/26_06_2024_0/</guid>
+      <description>
+        
+          
+            Hi everyone, welcome to the June 2024 update for Jakarta EE on Azure. The June update covers the following topics: The newly published High Availability and Disaster Recovery tutorials, which demonstrate how to implement HA/DR for different Jakarta EE applications on Azure using a simple and effective method.
+Link to article: https://devblogs.microsoft.com/java/jakarta-ee-on-azure-june-2024 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI21 Labs Jamba-Instruct model is now available in Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/25_06_2024/25_06_2024_0/</link>
@@ -1261,258 +1278,6 @@ Link to article: https://dotnettips.wordpress.com/2024/06/19/256-seconds-with-do
           
             This year at Microsoft Build 2024 we announced a new set of Windows devices, Copilot+ PCs. Copilot+ PCs are a new class of Windows 11 PCs, including Arm-powered devices that are powered by the Snapdragon® X Series. These new Arm devices have cutting-edge new processing power coming from the CPU,
 Link to article: https://devblogs.microsoft.com/directx/step-forward-for-gaming-on-arm-devices-2024 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Improving air quality with generative AI</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_0/</link>
-      <pubDate>Tue, 18 Jun 2024 17:23:33 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_0/</guid>
-      <description>
-        
-          
-            This post presents a solution that uses a generative artificial intelligence (AI) to standardize air quality data from low-cost sensors in Africa, specifically addressing the air quality data integration problem of low-cost sensors. The solution harnesses the capabilities of generative AI, specifically Large Language Models (LLMs), to address the challenges posed by diverse sensor data and automatically generate Python functions based on various data formats. The fundamental objective is to build a manufacturer-agnostic database, leveraging generative AI’s ability to standardize sensor outputs, synchronize data, and facilitate precise corrections.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Use zero-shot large language models on Amazon Bedrock for custom named entity recognition</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_1/</link>
-      <pubDate>Tue, 18 Jun 2024 17:15:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_1/</guid>
-      <description>
-        
-          
-            Name entity recognition (NER) is the process of extracting information of interest, called entities, from structured or unstructured text. Manually identifying all mentions of specific types of information in documents is extremely time-consuming and labor-intensive. Some examples include extracting players and positions in an NFL game summary, products mentioned in an AWS keynote transcript, or […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/use-zero-shot-large-language-models-on-amazon-bedrock-for-custom-named-entity-recognition/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Safeguard a generative AI travel agent with prompt engineering and Guardrails for Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_2/</link>
-      <pubDate>Tue, 18 Jun 2024 17:13:02 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_2/</guid>
-      <description>
-        
-          
-            In this post, we explore a comprehensive solution for addressing the challenges of securing a virtual travel agent powered by generative AI. We provide an end-to-end example and its accompanying code to demonstrate how to implement prompt engineering techniques, content moderation, and various guardrails to make sure the assistant operates within predefined boundaries by relying on Guardrails for Amazon Bedrock. Additionally, we delve into monitoring strategies to track the activation of these safeguards, enabling proactive identification and mitigation of potential issues.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Streamline financial workflows with generative AI for email automation</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_3/</link>
-      <pubDate>Tue, 18 Jun 2024 17:04:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_3/</guid>
-      <description>
-        
-          
-            This post explains a generative artificial intelligence (AI) technique to extract insights from business emails and attachments. It examines how AI can optimize financial workflow processes by automatically summarizing documents, extracting data, and categorizing information from email attachments. This enables companies to serve more clients, direct employees to higher-value tasks, speed up processes, lower expenses, enhance data accuracy, and increase efficiency.
-Link to article: https://aws.amazon.com/blogs/machine-learning/streamline-financial-workflows-with-generative-ai-for-email-automation/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Privacy and security improvements in .NET modernization tooling</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_4/</link>
-      <pubDate>Tue, 18 Jun 2024 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_4/</guid>
-      <description>
-        
-          
-            Learn about the latest privacy and security-related updates to Azure Migrate application and code assessment and .NET Upgrade Assistant.
-Link to article: https://devblogs.microsoft.com/dotnet/dotnet-modernization-privacy-security-improvements 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Easily navigate code delegates while debugging</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_5/</link>
-      <pubDate>Tue, 18 Jun 2024 15:34:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_5/</guid>
-      <description>
-        
-          
-            Delegates are everywhere in modern code; a delegate is a type that represents references to methods with a particular parameter list and return type. Developers use delegates to pass methods as arguments to other methods. One example you may be familiar with is with event handlers.
-Link to article: https://devblogs.microsoft.com/visualstudio/easily-navigate-code-delegates-while-debugging 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>JetBrains to Integrate Google’s Gemini Models Into AI Assistant</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_6/</link>
-      <pubDate>Tue, 18 Jun 2024 15:00:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_6/</guid>
-      <description>
-        
-          
-            JetBrains is planning to soon leverage Google Cloud’s Vertex AI by integrating Google’s Gemini models into its AI-powered coding tool, AI Assistant. This makes JetBrains AI Assistant the first of its kind to use multiple large language models (LLMs). JetBrains AI Assistant AI Assistant helps developers stay focused on creative challenges by handling routine tasks. […]
-Link to article: https://blog.jetbrains.com/ai/2024/06/jetbrains-to-integrate-google-s-gemini-models-into-ai-assistant/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The time smart quotes prevented the entire Office division from committing code</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_7/</link>
-      <pubDate>Tue, 18 Jun 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_7/</guid>
-      <description>
-        
-          
-            Breaking your tools with your tools.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240618-00/?p=109910 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Code Style for Better Productivity – Tips and Tools from the Metalama Team</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_8/</link>
-      <pubDate>Tue, 18 Jun 2024 11:50:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_8/</guid>
-      <description>
-        
-          
-            While it may seem trivial, one of the first steps in creating a maintainable, team-friendly codebase is reaching a consensus on code style and ensuring its strict enforcement. This includes code formatting (spaces, blank lines, parentheses, and brackets), naming (casings, prefixes, suffixes, etc.), and usage of this, var and more. The ultimate goal? Make running […]
-Link to article: https://blog.jetbrains.com/dotnet/2024/06/18/code-style-for-better-productivity-tips-and-tools-from-the-metalama-team/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Understand your C&#43;&#43; symbols using Copilot in Visual Studio’s Quick Info</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_10/</link>
-      <pubDate>Tue, 18 Jun 2024 09:00:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_10/</guid>
-      <description>
-        
-          
-            Navigating your codebase and forget what exactly that method does? Looking for quick, easy-to-digest information on your code at any point in your development journey? We are excited to announce that now when you hover over symbols in your codebase, you’ll be able to invoke Copilot conveniently within the Quick Info dialog to learn more about a given symbol and enhance existing or lacking code documentation.
-Link to article: https://devblogs.microsoft.com/cppblog/understand-your-c-symbols-using-copilot-in-visual-studios-quick-info 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Exploring the generated code: List&lt;T&gt; and fallback cases: Behind the scenes of collection expressions - Part 2</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_11/</link>
-      <pubDate>Tue, 18 Jun 2024 09:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_11/</guid>
-      <description>
-        
-          
-            In this post I look at the code generated when you use collection expressions with List or with types that can be used with collection initializers
-Link to article: https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-2-exploring-the-generated-code-list-and-fallback-cases/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Efficiently Handling Stored Procedures in EFCore: Practical Solutions</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_12/</link>
-      <pubDate>Tue, 18 Jun 2024 08:00:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_12/</guid>
-      <description>
-        
-          
-            Discover proven strategies and practical solutions for efficiently handling stored procedures in Entity Framework Core (EFCore) and optimize your database interactions.
-Link to article: https://goatreview.com/efficiently-handling-stored-procedures-efcore-practical-solutions/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>&amp;quot;Secret&amp;quot; elmah.io features #5 - Breadcrumbs leading up to errors</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_9/</link>
-      <pubDate>Tue, 18 Jun 2024 09:36:31 +0200</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_9/</guid>
-      <description>
-        
-          
-            It&#39;s time for a new post in the series about &amp;quot;secret&amp;quot; elmah.io features. This is the series where I highlight features that some of you may already know while others don&#39;t. For today&#39;s post, I want to highlight a feature that asd
-Link to article: https://blog.elmah.io/secret-elmah-io-features-5-breadcrumbs-leading-up-to-errors/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Ignore a Property in AutoMapper</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_13/</link>
-      <pubDate>Tue, 18 Jun 2024 05:34:41 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_13/</guid>
-      <description>
-        
-          
-            In this article, we will explore key techniques to ignore property in AutoMapper. We will use the Ignore() method, the Ignore attribute, and the DoNotValidate() method. We will also discuss when and how to use each of the methods mentioned. Without further ado, let’s start! When to Ignore a Property in AutoMapper Ignoring properties during […] The post How to Ignore a Property in AutoMapper appeared first on Code Maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Getting started with Load testing with K6 on Windows 11</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_14/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2024/18_06_2024_14/</guid>
-      <description>
-        
-          
-            Can your system withstand heavy loads? You can answer this question by running Load Tests. Maybe, using K6 as a free tool.
-Link to article: https://www.code4it.dev/blog/k6-load-testing/ 
           
           
         
