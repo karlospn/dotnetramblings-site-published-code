@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 26 Jun 2024 19:50:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jun 2024 00:35:53 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What’s New in vcpkg (June 2024)</title>
+      <link>https://www.dotnetramblings.com/post/27_06_2024/27_06_2024_0/</link>
+      <pubDate>Thu, 27 Jun 2024 00:35:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_06_2024/27_06_2024_0/</guid>
+      <description>
+        
+          
+            This blog post summarizes changes to the vcpkg package manager as part of the 2024.06.15 release, 2024-06-10 tool release, as well as changes to vcpkg documentation throughout June. This month’s release includes some error message improvements and bug fixes. Some stats for this period: There are now 2,441 total ports available in the vcpkg public registry.
+Link to article: https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-june-2024 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Fluid Framework 2 is now production ready</title>
       <link>https://www.dotnetramblings.com/post/26_06_2024/26_06_2024_0/</link>
@@ -307,108 +324,6 @@ Link to article: https://devblogs.microsoft.com/dotnet/announcing-api-map-suppor
           
             Looking for constructors that take a character count.
 Link to article: https://devblogs.microsoft.com/oldnewthing/20240620-00/?p=109922 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>June 2024: A look at the latest Microsoft Entra key feature releases, announcements, and updates</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_1/</link>
-      <pubDate>Wed, 19 Jun 2024 19:44:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_1/</guid>
-      <description>
-        
-          
-            An overview of the latest updates in Microsoft Entra for Jun 2024. Discover how these new capabilities can be integrated into your projects for optimal performance and security.
-Link to article: https://devblogs.microsoft.com/identity/eng-connect-jun-24 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Evaluating cat qubits for fault-tolerant quantum computing using Azure Quantum Resource Estimator</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_3/</link>
-      <pubDate>Wed, 19 Jun 2024 17:31:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_3/</guid>
-      <description>
-        
-          
-            Introduction This blog post highlights a recent collaboration between Microsoft and Alice &amp;amp; Bob, a French startup whose goal is to build a fault-tolerant quantum computer by leveraging a superconducting qubit called a cat qubit. In this collaboration, Alice &amp;amp; Bob uses the new extensibility mechanisms of Microsoft’s Resource Estimator to obtain resource estimates for their cat qubit architecture.
-Link to article: https://devblogs.microsoft.com/qsharp/evaluating-cat-qubits-for-fault-tolerant-quantum-computing-using-azure-quantum-resource-estimator 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Keep Visual Studio automatically updated and secure through Microsoft Update</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_4/</link>
-      <pubDate>Wed, 19 Jun 2024 17:30:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_4/</guid>
-      <description>
-        
-          
-            Visual Studio is coming to Microsoft Update! We’re pleased to announce that starting in August 2024, developers who are not part of an organization managed by an IT administrator can choose to receive monthly Visual Studio security updates through the Microsoft Update (MU) system on “patch Tuesdays”.
-Link to article: https://devblogs.microsoft.com/visualstudio/automatically-install-visual-studio-security-updates-through-microsoft-update 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using Phi-3 &amp; C# with ONNX for text and vision samples</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_5/</link>
-      <pubDate>Wed, 19 Jun 2024 17:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_5/</guid>
-      <description>
-        
-          
-            Harness the power of Phi-3 SLMs and ONNX for AI-driven .NET applications, showcasing C# integration for advanced tasks like image analysis and interactive Q&amp;amp;A.
-Link to article: https://devblogs.microsoft.com/dotnet/using-phi3-csharp-with-onnx-for-text-and-vision-samples-md 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>On the sadness of treating counted strings as null-terminated strings</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_11/</link>
-      <pubDate>Wed, 19 Jun 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_11/</guid>
-      <description>
-        
-          
-            You&#39;re throwing away perfectly good data, there.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240619-00/?p=109915 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A Step Forward for Gaming on Arm Devices</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_16/</link>
-      <pubDate>Wed, 19 Jun 2024 02:57:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_16/</guid>
-      <description>
-        
-          
-            This year at Microsoft Build 2024 we announced a new set of Windows devices, Copilot+ PCs. Copilot+ PCs are a new class of Windows 11 PCs, including Arm-powered devices that are powered by the Snapdragon® X Series. These new Arm devices have cutting-edge new processing power coming from the CPU,
-Link to article: https://devblogs.microsoft.com/directx/step-forward-for-gaming-on-arm-devices-2024 
           
           
         

@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 26 Jun 2024 19:50:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jun 2024 00:35:53 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What’s New in vcpkg (June 2024)</title>
+      <link>https://www.dotnetramblings.com/post/27_06_2024/27_06_2024_0/</link>
+      <pubDate>Thu, 27 Jun 2024 00:35:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_06_2024/27_06_2024_0/</guid>
+      <description>
+        
+          
+            This blog post summarizes changes to the vcpkg package manager as part of the 2024.06.15 release, 2024-06-10 tool release, as well as changes to vcpkg documentation throughout June. This month’s release includes some error message improvements and bug fixes. Some stats for this period: There are now 2,441 total ports available in the vcpkg public registry.
+Link to article: https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-june-2024 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Tentative Roadmap for Wolverine 3.0</title>
+      <link>https://www.dotnetramblings.com/post/27_06_2024/27_06_2024_1/</link>
+      <pubDate>Thu, 27 Jun 2024 00:18:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_06_2024/27_06_2024_1/</guid>
+      <description>
+        
+          
+            By the way, JasperFx Software offers support contracts or tailored consulting engagements to help your shop maximize your success with Wolverine. It’s an unfortunate fact of long running software tooling projects like Wolverine that decisions made years earlier won’t hold up perfectly as the usage requirements, underlying platform, and other tools it’s integrated with change … Continue reading Tentative Roadmap for Wolverine 3.0 →
+Link to article: https://jeremydmiller.com/2024/06/26/tentative-roadmap-for-wolverine-3-0/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Fluid Framework 2 is now production ready</title>
       <link>https://www.dotnetramblings.com/post/26_06_2024/26_06_2024_0/</link>
@@ -1195,292 +1229,6 @@ Link to article: https://blog.jetbrains.com/fleet/2024/06/custom-fleet-plugins-f
           
             In this article, we are going to discuss the null! statement in C#. First, we will explore its construct, and function in our programs. Then, we will examine various situations where we can use this statement in our applications. Let’s dive in. A Little Bit of History – The Different Types of Objects in C# […] The post What Does the null! Statement Do? appeared first on Code Maze.
 Link to article: https://code-maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Enums aren’t evil. Conditional statements everywhere are</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_0/</link>
-      <pubDate>Wed, 19 Jun 2024 22:54:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_0/</guid>
-      <description>
-        
-          
-            Are you seeing the same conditional statements (if/switch) against enums littered everywhere? There are different ways of handling that, but a lot of it comes down to your context. Conditionals around type checking, extension methods, Inheritance, and Polymorphism are all options. YouTube Check out my YouTube channel, where I post all kinds of content accompanying my posts,… Read More »Enums aren’t evil. Conditional statements everywhere are The post Enums aren’t evil.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>June 2024: A look at the latest Microsoft Entra key feature releases, announcements, and updates</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_1/</link>
-      <pubDate>Wed, 19 Jun 2024 19:44:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_1/</guid>
-      <description>
-        
-          
-            An overview of the latest updates in Microsoft Entra for Jun 2024. Discover how these new capabilities can be integrated into your projects for optimal performance and security.
-Link to article: https://devblogs.microsoft.com/identity/eng-connect-jun-24 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The 7Rs of Cloud Migration: Guide to a Seamless Migration Strategy</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_2/</link>
-      <pubDate>Wed, 19 Jun 2024 18:52:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_2/</guid>
-      <description>
-        
-          
-            Cloud computing has revolutionized how organizations manage and deploy their IT resources, offering unparalleled scalability, flexibility, and cost-efficiency. As businesses increasingly migrate their applications and data to the cloud, understanding the best migration strategies becomes crucial. This article introduces the 7 Rs of cloud migration, a comprehensive framework designed to guide organizations through the complexities […] The article The 7Rs of Cloud Migration: Guide to a Seamless Migration Strategy was originally published on Build5Nines.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Evaluating cat qubits for fault-tolerant quantum computing using Azure Quantum Resource Estimator</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_3/</link>
-      <pubDate>Wed, 19 Jun 2024 17:31:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_3/</guid>
-      <description>
-        
-          
-            Introduction This blog post highlights a recent collaboration between Microsoft and Alice &amp;amp; Bob, a French startup whose goal is to build a fault-tolerant quantum computer by leveraging a superconducting qubit called a cat qubit. In this collaboration, Alice &amp;amp; Bob uses the new extensibility mechanisms of Microsoft’s Resource Estimator to obtain resource estimates for their cat qubit architecture.
-Link to article: https://devblogs.microsoft.com/qsharp/evaluating-cat-qubits-for-fault-tolerant-quantum-computing-using-azure-quantum-resource-estimator 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Keep Visual Studio automatically updated and secure through Microsoft Update</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_4/</link>
-      <pubDate>Wed, 19 Jun 2024 17:30:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_4/</guid>
-      <description>
-        
-          
-            Visual Studio is coming to Microsoft Update! We’re pleased to announce that starting in August 2024, developers who are not part of an organization managed by an IT administrator can choose to receive monthly Visual Studio security updates through the Microsoft Update (MU) system on “patch Tuesdays”.
-Link to article: https://devblogs.microsoft.com/visualstudio/automatically-install-visual-studio-security-updates-through-microsoft-update 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using Phi-3 &amp; C# with ONNX for text and vision samples</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_5/</link>
-      <pubDate>Wed, 19 Jun 2024 17:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_5/</guid>
-      <description>
-        
-          
-            Harness the power of Phi-3 SLMs and ONNX for AI-driven .NET applications, showcasing C# integration for advanced tasks like image analysis and interactive Q&amp;amp;A.
-Link to article: https://devblogs.microsoft.com/dotnet/using-phi3-csharp-with-onnx-for-text-and-vision-samples-md 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Retiring Lamar and the Ghost of IoC Containers Past</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_6/</link>
-      <pubDate>Wed, 19 Jun 2024 16:42:52 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_6/</guid>
-      <description>
-        
-          
-            If you’re not familiar with it, Lamar is an IoC/DI container for .NET. It was originally built to be a faster, modernized, ASP.Net Core-compliant replacement for the much older StructureMap IoC library and also as a necessary subsystem of what is now Wolverine. First off, if you have a vested investment in continuing to use … Continue reading Retiring Lamar and the Ghost of IoC Containers Past →
-Link to article: https://jeremydmiller.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>CLion 2024.1.4 Is Out! Nova Now Available by Default for New Users</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_7/</link>
-      <pubDate>Wed, 19 Jun 2024 16:26:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_7/</guid>
-      <description>
-        
-          
-            Since November 2023, our team has been diligently working on the implementation of the ReSharper C++/Rider C++ language engine. This project was initiated with a clear focus on our users, aiming to address the long-standing performance and quality issues of CLion, which were caused by the usage of the slowly performing engine. The most notable […]
-Link to article: https://blog.jetbrains.com/clion/2024/06/2024-1-4-update-is-out/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Maximize your Amazon Translate architecture using strategic caching layers</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_8/</link>
-      <pubDate>Wed, 19 Jun 2024 15:56:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_8/</guid>
-      <description>
-        
-          
-            In this post, we explain how setting up a cache for frequently accessed translations can benefit organizations that need scalable, multi-language translation across large volumes of content. You’ll learn how to build a simple caching mechanism for Amazon Translate to accelerate turnaround times.
-Link to article: https://aws.amazon.com/blogs/machine-learning/maximize-your-amazon-translate-architecture-using-strategic-caching-layers/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>WebStorm 2024.2 EAP Digest #2: New TypeScript Engine, Ability to Run .ts Files, Git and Markdown Improvements</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_9/</link>
-      <pubDate>Wed, 19 Jun 2024 14:37:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_9/</guid>
-      <description>
-        
-          
-            We’re halfway through the Early Access Program for WebStorm 2024.2! It’s been a while since we walked you through the latest improvements and features in this release, so it’s about time for an update. Read on to learn about the key changes that made it into the EAP builds in the past few weeks. For […]
-Link to article: https://blog.jetbrains.com/webstorm/2024/06/webstorm-2024-2-eap2/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deploy a Slack gateway for Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_10/</link>
-      <pubDate>Wed, 19 Jun 2024 14:06:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_10/</guid>
-      <description>
-        
-          
-            In today’s fast-paced digital world, streamlining workflows and boosting productivity are paramount. That’s why we’re thrilled to share an exciting integration that will take your team’s collaboration to new heights. Get ready to unlock the power of generative artificial intelligence (AI) and bring it directly into your Slack workspace. Imagine the possibilities: Quick and efficient […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/deploy-a-slack-gateway-for-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>On the sadness of treating counted strings as null-terminated strings</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_11/</link>
-      <pubDate>Wed, 19 Jun 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_11/</guid>
-      <description>
-        
-          
-            You&#39;re throwing away perfectly good data, there.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240619-00/?p=109915 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Let’s Bring Science Into API Documentation</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_12/</link>
-      <pubDate>Wed, 19 Jun 2024 13:23:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_12/</guid>
-      <description>
-        
-          
-            In today’s fast-paced development environment, effective API documentation is not just a nice-to-have, but a necessity. This blog post explores how understanding pattern recognition and learning styles can revolutionize the way we create API documentation. By examining the different types of knowledge present in API references and recognizing diverse developer learning strategies, we can create […]
-Link to article: https://blog.jetbrains.com/writerside/2024/06/let-s-bring-science-into-api-documentation/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Move From pandas to Polars</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_13/</link>
-      <pubDate>Wed, 19 Jun 2024 11:48:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_13/</guid>
-      <description>
-        
-          
-            This is a guest post from Cheuk Ting Ho, a data scientist who contributes to multiple open-source libraries, such as pandas and Polars. You’ve probably heard about Polars – it is now firmly in the spotlight in the data science community. Are you still using pandas and would like to try out Polars? Are you […]
-Link to article: https://blog.jetbrains.com/pycharm/2024/06/how-to-move-from-pandas-to-polars/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>256 Seconds with dotNetDave: Documenting Code with Visual Studio and Copilot</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_14/</link>
-      <pubDate>Wed, 19 Jun 2024 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_14/</guid>
-      <description>
-        
-          
-            In this episode of 256 Seconds with dotNetDave, learn to use Visual Studio and GitHub Copilot to swiftly create detailed XML comments for Microsoft .NET projects. Detailed commands for documenting classes are shared, along with a call to vote for displaying code examples in IntelliSense. Watch the demonstration here: https://player.vimeo.com/video/961522552?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
-Link to article: https://dotnettips.wordpress.com/2024/06/19/256-seconds-with-dotnetdave-documenting-code-with-visual-studio-and-copilot/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Use FakeLogger to Test Logging Code in .NET</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_15/</link>
-      <pubDate>Wed, 19 Jun 2024 06:21:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_15/</guid>
-      <description>
-        
-          
-            In software development, logging, and unit testing serve as foundational tools, each actively contributing to the reliability and functionality of our applications. While unit testing promptly alerts us to changes in our application’s business logic, logging actively monitors errors, performance metrics, and runtime execution flow. Despite their significance, many development workflows often overlook their incorporation. […] The post How to Use FakeLogger to Test Logging Code in .NET appeared first on Code Maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A Step Forward for Gaming on Arm Devices</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_16/</link>
-      <pubDate>Wed, 19 Jun 2024 02:57:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2024/19_06_2024_16/</guid>
-      <description>
-        
-          
-            This year at Microsoft Build 2024 we announced a new set of Windows devices, Copilot+ PCs. Copilot+ PCs are a new class of Windows 11 PCs, including Arm-powered devices that are powered by the Snapdragon® X Series. These new Arm devices have cutting-edge new processing power coming from the CPU,
-Link to article: https://devblogs.microsoft.com/directx/step-forward-for-gaming-on-arm-devices-2024 
           
           
         
