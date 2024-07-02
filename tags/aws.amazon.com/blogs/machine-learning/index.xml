@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 02 Jul 2024 17:04:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2024 17:19:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Access control for vector stores using metadata filtering with Knowledge Bases for Amazon Bedrock</title>
+      <title>Accelerated PyTorch inference with torch.compile on AWS Graviton processors</title>
       <link>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_0/</link>
-      <pubDate>Tue, 02 Jul 2024 17:04:10 +0000</pubDate>
+      <pubDate>Tue, 02 Jul 2024 17:19:26 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_0/</guid>
+      <description>
+        
+          
+            Originally PyTorch used an eager mode where each PyTorch operation that forms the model is run independently as soon as it’s reached. PyTorch 2.0 introduced torch.compile to speed up PyTorch code over the default eager mode. In contrast to eager mode, the torch.compile pre-compiles the entire model into a single graph in a manner that’s optimal for […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/accelerated-pytorch-inference-with-torch-compile-on-aws-graviton-processors/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Access control for vector stores using metadata filtering with Knowledge Bases for Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_2/</link>
+      <pubDate>Tue, 02 Jul 2024 17:04:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_2/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/access-control-fo
     
     <item>
       <title>Accenture creates a custom memory-persistent conversational user experience using Amazon Q Business</title>
-      <link>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_3/</link>
       <pubDate>Tue, 02 Jul 2024 16:53:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_3/</guid>
       <description>
         
           
@@ -44,10 +61,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/accenture-creates
     
     <item>
       <title>Create an end-to-end serverless digital assistant for semantic search with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_4/</link>
       <pubDate>Tue, 02 Jul 2024 16:47:03 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_4/</guid>
       <description>
         
           
