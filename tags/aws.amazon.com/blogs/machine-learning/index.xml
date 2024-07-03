@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 02 Jul 2024 17:19:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jul 2024 00:30:56 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improve productivity when processing scanned PDFs using Amazon Q Business</title>
+      <link>https://www.dotnetramblings.com/post/03_07_2024/03_07_2024_0/</link>
+      <pubDate>Wed, 03 Jul 2024 00:30:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_07_2024/03_07_2024_0/</guid>
+      <description>
+        
+          
+            Amazon Q Business is a generative AI-powered assistant that can answer questions, provide summaries, generate content, and extract insights directly from the content in digital as well as scanned PDF documents in your enterprise data sources without needing to extract the text first. Customers across industries such as finance, insurance, healthcare life sciences, and more need […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/improve-productivity-when-processing-scanned-pdfs-using-amazon-q-business/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Accelerated PyTorch inference with torch.compile on AWS Graviton processors</title>
       <link>https://www.dotnetramblings.com/post/02_07_2024/02_07_2024_2/</link>
@@ -205,89 +222,6 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/automate-derivati
           
             This post is a follow-up to Generative AI and multi-modal agents in AWS: The key to unlocking new value in financial markets. This blog is part of the series, Generative AI and AI/ML in Capital Markets and Financial Services. Financial analysts and research analysts in capital markets distill business insights from financial and non-financial data, […]
 Link to article: https://aws.amazon.com/blogs/machine-learning/ai-powered-assistants-for-investment-research-with-multi-modal-data-an-application-of-agents-for-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AI21 Labs Jamba-Instruct model is now available in Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2024/25_06_2024_0/</link>
-      <pubDate>Tue, 25 Jun 2024 20:32:47 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_06_2024/25_06_2024_0/</guid>
-      <description>
-        
-          
-            We are excited to announce the availability of the Jamba-Instruct large language model (LLM) in Amazon Bedrock. Jamba-Instruct is built by AI21 Labs, and most notably supports a 256,000-token context window, making it especially useful for processing large documents and complex Retrieval Augmented Generation (RAG) applications. What is Jamba-Instruct Jamba-Instruct is an instruction-tuned version of […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/ai21-labs-jamba-instruct-model-is-now-available-in-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Scale and simplify ML workload monitoring on Amazon EKS with AWS Neuron Monitor container</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2024/25_06_2024_2/</link>
-      <pubDate>Tue, 25 Jun 2024 19:36:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_06_2024/25_06_2024_2/</guid>
-      <description>
-        
-          
-            Amazon Web Services is excited to announce the launch of the AWS Neuron Monitor container, an innovative tool designed to enhance the monitoring capabilities of AWS Inferentia and AWS Trainium chips on Amazon Elastic Kubernetes Service (Amazon EKS). This solution simplifies the integration of advanced monitoring tools such as Prometheus and Grafana, enabling you to […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/scale-and-simplify-ml-workload-monitoring-on-amazon-eks-with-aws-neuron-monitor-container/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build an automated insight extraction framework for customer feedback analysis with Amazon Bedrock and Amazon QuickSight</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2024/25_06_2024_5/</link>
-      <pubDate>Tue, 25 Jun 2024 16:29:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_06_2024/25_06_2024_5/</guid>
-      <description>
-        
-          
-            In this post, we explore how to integrate LLMs into enterprise applications to harness their generative capabilities. We delve into the technical aspects of workflow implementation and provide code samples that you can quickly deploy or modify to suit your specific requirements. Whether you’re a developer seeking to incorporate LLMs into your existing systems or a business owner looking to take advantage of the power of NLP, this post can serve as a quick jumpstart.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build safe and responsible generative AI applications with guardrails</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2024/25_06_2024_6/</link>
-      <pubDate>Tue, 25 Jun 2024 16:23:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_06_2024/25_06_2024_6/</guid>
-      <description>
-        
-          
-            Large language models (LLMs) enable remarkably human-like conversations, allowing builders to create novel applications. LLMs find use in chatbots for customer service, virtual assistants, content generation, and much more. However, the implementation of LLMs without proper caution can lead to the dissemination of misinformation, manipulation of individuals, and the generation of undesirable outputs such as […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-safe-and-responsible-generative-ai-applications-with-guardrails/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Improve visibility into Amazon Bedrock usage and performance with Amazon CloudWatch</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2024/25_06_2024_7/</link>
-      <pubDate>Tue, 25 Jun 2024 16:04:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_06_2024/25_06_2024_7/</guid>
-      <description>
-        
-          
-            In this blog post, we will share some of capabilities to help you get quick and easy visibility into Amazon Bedrock workloads in context of your broader application. We will use the contextual conversational assistant example in the Amazon Bedrock GitHub repository to provide examples of how you can customize these views to further enhance visibility, tailored to your use case. Specifically, we will describe how you can use the new automatic dashboard in Amazon CloudWatch to get a single pane of glass visibility into the usage and performance of Amazon Bedrock models and gain end-to-end visibility by customizing dashboards with widgets that provide visibility and insights into components and operations such as Retrieval Augmented Generation in your application.
           
           
         
