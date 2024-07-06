@@ -7,6 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 04 Jul 2024 12:33:24 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/codeopinion.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2024 15:18:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/codeopinion.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avoiding long-running HTTP API requests</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2024/06_07_2024_0/</link>
+      <pubDate>Sat, 06 Jul 2024 15:18:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2024/06_07_2024_0/</guid>
+      <description>
+        
+          
+            How do you handle long-running HTTP requests that take long to complete? For example, how would you design an HTTP API that needs to generate a transcript for a specific video (by ID)? Deeper into that question, you can assume that won’t be a fast request/response, so how can we better manage this? Using asynchronous… Read More »Avoiding long-running HTTP API requests The post Avoiding long-running HTTP API requests appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>

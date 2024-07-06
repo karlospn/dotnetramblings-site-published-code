@@ -7,13 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 06 Jul 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2024 15:18:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Build vs Buy: The Age-old Dev Debate – Dev Leader Weekly 51</title>
+      <title>Avoiding long-running HTTP API requests</title>
       <link>https://www.dotnetramblings.com/post/06_07_2024/06_07_2024_0/</link>
-      <pubDate>Sat, 06 Jul 2024 12:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Jul 2024 15:18:26 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/06_07_2024/06_07_2024_0/</guid>
+      <description>
+        
+          
+            How do you handle long-running HTTP requests that take long to complete? For example, how would you design an HTTP API that needs to generate a transcript for a specific video (by ID)? Deeper into that question, you can assume that won’t be a fast request/response, so how can we better manage this? Using asynchronous… Read More »Avoiding long-running HTTP API requests The post Avoiding long-running HTTP API requests appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build vs Buy: The Age-old Dev Debate – Dev Leader Weekly 51</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2024/06_07_2024_1/</link>
+      <pubDate>Sat, 06 Jul 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2024/06_07_2024_1/</guid>
       <description>
         
           
@@ -27,10 +43,10 @@ Link to article: https://www.devleader.ca/2024/07/06/build-vs-buy-the-age-old-de
     
     <item>
       <title>Service Discovery in Microservices With .NET and Consul</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2024/06_07_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2024/06_07_2024_2/</link>
       <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2024/06_07_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2024/06_07_2024_2/</guid>
       <description>
         
           
