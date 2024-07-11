@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 11 Jul 2024 00:49:02 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Jul 2024 16:09:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improve RAG accuracy with fine-tuned embedding models on Amazon SageMaker</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_0/</link>
+      <pubDate>Thu, 11 Jul 2024 16:09:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_0/</guid>
+      <description>
+        
+          
+            This post demonstrates how to use Amazon SageMaker to fine tune a Sentence Transformer embedding model and deploy it with an Amazon SageMaker Endpoint. The code from this post and more examples are available in the GitHub repo.
+Link to article: https://aws.amazon.com/blogs/machine-learning/improve-rag-accuracy-with-fine-tuned-embedding-models-on-amazon-sagemaker/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How BRIA AI used distributed training in Amazon SageMaker to train latent diffusion foundation models for commercial use</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_1/</link>
+      <pubDate>Thu, 11 Jul 2024 15:52:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_1/</guid>
+      <description>
+        
+          
+            This post is co-written with Bar Fingerman from BRIA AI. This post explains how BRIA AI trained BRIA AI 2.0, a high-resolution (1024×1024) text-to-image diffusion model, on a dataset comprising petabytes of licensed images quickly and economically. Amazon SageMaker training jobs and Amazon SageMaker distributed training libraries took on the undifferentiated heavy lifting associated with infrastructure […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-bria-ai-used-distributed-training-in-amazon-sagemaker-to-train-latent-diffusion-foundation-models-for-commercial-use/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Create custom images for geospatial analysis with Amazon SageMaker Distribution in Amazon SageMaker Studio</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_2/</link>
+      <pubDate>Thu, 11 Jul 2024 15:42:38 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_2/</guid>
+      <description>
+        
+          
+            This post shows you how to extend Amazon SageMaker Distribution with additional dependencies to create a custom container image tailored for geospatial analysis. Although the example in this post focuses on geospatial data science, the methodology presented can be applied to any kind of custom image based on SageMaker Distribution.
+Link to article: https://aws.amazon.com/blogs/machine-learning/create-custom-images-for-geospatial-analysis-with-amazon-sagemaker-distribution-in-amazon-sagemaker-studio/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Automating model customization in Amazon Bedrock with AWS Step Functions workflow</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_3/</link>
+      <pubDate>Thu, 11 Jul 2024 15:27:29 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_3/</guid>
+      <description>
+        
+          
+            Large language models have become indispensable in generating intelligent and nuanced responses across a wide variety of business use cases. However, enterprises often have unique data and use cases that require customizing large language models beyond their out-of-the-box capabilities. Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models (FMs) […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/automating-model-customization-in-amazon-bedrock-with-aws-step-functions-workflow/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Knowledge Bases for Amazon Bedrock now supports advanced parsing, chunking, and query reformulation giving greater control of accuracy in RAG based applications</title>
-      <link>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_11/</link>
       <pubDate>Thu, 11 Jul 2024 00:49:02 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_07_2024/11_07_2024_11/</guid>
       <description>
         
           
