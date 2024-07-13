@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 12 Jul 2024 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Your First Use Case With Clean Architecture</title>
+      <link>https://www.dotnetramblings.com/post/13_07_2024/13_07_2024_0/</link>
+      <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_07_2024/13_07_2024_0/</guid>
+      <description>
+        
+          
+            This is a question I often hear: how do I design my use case with Clean Architecture? In this article, we&#39;ll explore a practical example of how to apply Clean Architecture principles by building a user registration feature.
+Link to article: https://www.milanjovanovic.tech/blog/building-your-first-use-case-with-clean-architecture 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Creating an already-completed asynchronous activity in C&#43;&#43;/WinRT, part 4</title>
       <link>https://www.dotnetramblings.com/post/12_07_2024/12_07_2024_0/</link>
@@ -1052,176 +1069,6 @@ Link to article: https://www.devleader.ca/2024/07/06/build-vs-buy-the-age-old-de
           
             Service discovery is a pattern that allows developers to use logical names to refer to external services, instead of physical IP addresses and ports. In this week&#39;s issue, we&#39;ll see how to implement service discovery in your .NET microservices with Consul.
 Link to article: https://www.milanjovanovic.tech/blog/service-discovery-in-microservices-with-net-and-consul 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PHP Annotated – June 2024</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_0/</link>
-      <pubDate>Fri, 05 Jul 2024 15:25:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_0/</guid>
-      <description>
-        
-          
-            Welcome to the June edition of PHP Annotated! We’ll recap the most interesting developments in the PHP community over the past couple of months, featuring handpicked news, articles, tools, and videos. Highlights PHP 8.1.29, PHP 8.2.20, and PHP 8.3.8 released ❗️These security updates fix CVE-2024-4577, CVE-2024-5458, CVE-2024-5585, and vulnerability in openssl_private_decrypt() function known as the […]
-Link to article: https://blog.jetbrains.com/phpstorm/2024/07/php-annotated-june-2024/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to use Turbo in your Rails apps with RubyMine</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_1/</link>
-      <pubDate>Fri, 05 Jul 2024 14:03:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_1/</guid>
-      <description>
-        
-          
-            Hello everyone! The RubyMine team is constantly striving to provide support for new technologies for Ruby and Rails. One of the most exciting recent additions to Rails is undoubtedly Hotwire, so we’ve prepared an overview of this suite of frameworks and a tutorial on how to use the most important Turbo and Stimulus features in […]
-Link to article: https://blog.jetbrains.com/ruby/2024/07/how-to-use-turbo-in-your-rails-apps-with-rubymine/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How do I produce a Windows Runtime asynchronous activity from C&#43;&#43;/WinRT?</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_2/</link>
-      <pubDate>Fri, 05 Jul 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_2/</guid>
-      <description>
-        
-          
-            Somebody that deals with them natively.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240705-00/?p=109957 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Zero Data Science Platform Downtime – neXDos Says It’s Real With Datalore</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_3/</link>
-      <pubDate>Fri, 05 Jul 2024 09:48:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_3/</guid>
-      <description>
-        
-          
-            JupyterHub Hosting Hurdles neXDos heavily relies on diverse data sources – from stock market APIs to in-house PostgreSQL data – to inform their bespoke investment strategies. Previously, neXDos prototyped, backtested, and future-proofed their trading algorithms by hosting JupyterLab and JupyterHub. But this approach was problematic due to complexity in many areas, including managing the server […]
-Link to article: https://blog.jetbrains.com/datalore/2024/07/05/zero-data-science-platform-downtime-nexdos-says-it-s-real-with-datalore/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Per-Minute macOS Sonoma M2 Agents in TeamCity Cloud</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_4/</link>
-      <pubDate>Fri, 05 Jul 2024 08:03:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_4/</guid>
-      <description>
-        
-          
-            We recently introduced per-minute macOS agents in TeamCity Cloud. Now, we’re switching the macOS agents to macOS Sonoma M2, offering you more power efficiency and greater performance when running your builds on TeamCity. We’re offering a 50% discount on the new per-minute macOS build agents in TeamCity Cloud until January 1, 2025. Enjoy the power […]
-Link to article: https://blog.jetbrains.com/teamcity/2024/07/macos-sonoma-agents-teamcity-cloud/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>From Fear to Triumph: My 30-Year Journey in Public Speaking</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_5/</link>
-      <pubDate>Fri, 05 Jul 2024 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_5/</guid>
-      <description>
-        
-          
-            This content chronicles my 30-year journey in public speaking, from an unexpected start to embracing challenges and speaking at major conferences. Overcoming fears, I found career success and enriched personal connections. I encourage aspiring speakers to refine their craft and seize opportunities for growth and impact in both professional and personal spheres.
-Link to article: https://dotnettips.wordpress.com/2024/07/05/from-fear-to-triumph-my-30-year-journey-in-public-speaking/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Copilot Studio – Prompt Response Times</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_6/</link>
-      <pubDate>Fri, 05 Jul 2024 07:43:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_6/</guid>
-      <description>
-        
-          
-            Tahir Naveed walks through how to measure prompt response times with Microsoft Copilot Studio and explores considerations that factor into the overall performance of these requests. Building custom copilots (GenAI chatbots) in Microsoft Copilot Studio is amazing. Especially with the new functionalities which were released in Microsoft Build 2024.
-Link to article: https://devblogs.microsoft.com/premier-developer/copilot-studio-prompt-response-times 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Java Annotated Monthly – July 2024</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_7/</link>
-      <pubDate>Fri, 05 Jul 2024 07:33:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_7/</guid>
-      <description>
-        
-          
-            Welcome to the July edition of Java Annotated Monthly! We’re excited to feature insights from the ever-brilliant Trisha Gee, who’s been busy curating some top-class content over the past month. This edition is packed with Java news and tips, including a spotlight on the upcoming Java 23. You’ll also find articles on Kotlin, Spring, AI, […]
-Link to article: https://blog.jetbrains.com/idea/2024/07/java-annotated-monthly-july-2024/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure IoT Operations Data Processor Pipelines: Unlocking Efficiency in the Industrial Metaverse</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_8/</link>
-      <pubDate>Fri, 05 Jul 2024 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_8/</guid>
-      <description>
-        
-          
-            In this post we explore the implementation of Azure IoT Operations Data Processor pipelines in a manufacturing context, focusing on data processing at the edge.
-Link to article: https://devblogs.microsoft.com/ise/aio-data-processor-pipelines-unlocking-efficiency-industrial-metaverse 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>dotInsights | July 2024</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_9/</link>
-      <pubDate>Fri, 05 Jul 2024 06:59:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2024/05_07_2024_9/</guid>
-      <description>
-        
-          
-            Did you know? The BinaryFormatter class was traditionally used in .NET for serializing and deserializing objects into a binary format. However, it has been deprecated in 2020 due to serious security vulnerabilities that can allow for remote code execution when deserializing untrusted data. Welcome to dotInsights by JetBrains! This newsletter is the home for recent […]
-Link to article: https://blog.jetbrains.com/dotnet/2024/07/05/dotinsights-july-2024/ 
           
           
         
