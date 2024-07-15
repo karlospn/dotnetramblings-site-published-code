@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meziantou.net on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/meziantou.net/</link>
+    <description>Recent content in Meziantou.net on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Mon, 15 Jul 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable NuGet auditing for your .NET projects</title>
+      <link>https://www.dotnetramblings.com/post/15_07_2024/15_07_2024_0/</link>
+      <pubDate>Mon, 15 Jul 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_07_2024/15_07_2024_0/</guid>
+      <description>
+        
+          
+            A security audit for package managers like NuGet is indeed a critical process for ensuring the security of software projects. NuGet has a feature to assist with this process. It can run a security audit with the dotnet restore command, which checks your dependencies against a list of known vulnerabilities from the GitHub Advisory Database. If vulnerabilities are found, you can update the affected packages…
+Link to article: https://www.meziantou.net/enable-nuget-auditing-for-your-dotnet-projects.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
