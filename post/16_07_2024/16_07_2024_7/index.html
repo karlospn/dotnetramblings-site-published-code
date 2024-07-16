@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Disambiguating types with the same name with extern alias | .NET Ramblings</title>
+<title>C# Tip: Mark a class as Sealed to prevent subclasses creation | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,24 +28,24 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="In this post I describe how to solve Error CS0433, where you have two types with the exact same name and namespace coming from two different packages
-Link to …" />
+<meta name="description" content="The sealed keyword is often ignored, yet it can be important to define a proper class design.
+Link to article: …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Disambiguating types with the same name with extern alias" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/16_07_2024/16_07_2024_4/" />
-<meta property="og:title" content="Disambiguating types with the same name with extern alias" />
-<meta property="og:description" content="In this post I describe how to solve Error CS0433, where you have two types with the exact same name and namespace coming from two different packages
-Link to …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta name="twitter:title" content="C# Tip: Mark a class as Sealed to prevent subclasses creation" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/16_07_2024/16_07_2024_7/" />
+<meta property="og:title" content="C# Tip: Mark a class as Sealed to prevent subclasses creation" />
+<meta property="og:description" content="The sealed keyword is often ignored, yet it can be important to define a proper class design.
+Link to article: …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/16_07_2024/16_07_2024_4/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/16_07_2024/16_07_2024_7/">
 
 
 
@@ -134,7 +134,7 @@ Link to …" />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Disambiguating types with the same name with extern alias</h1>
+    <h1 class="post_title">C# Tip: Mark a class as Sealed to prevent subclasses creation</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +142,14 @@ Link to …" />
 </svg>
 </span>
     <span class="post_date">
-      Jul 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/andrewlock.net/' title="andrewlock.net" class="post_tag button button_translucent">andrewlock.net
+      Jul 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code4it.dev/' title="code4it.dev" class="post_tag button button_translucent">code4it.dev
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>In this post I describe how to solve Error CS0433, where you have two types with the exact same name and namespace coming from two different packages</p>
+    <div class="post_body"><p>The sealed keyword is often ignored, yet it can be important to define a proper class design.</p>
 <ul>
-<li>Link to article: <a href="https://andrewlock.net/disambiguating-types-with-the-same-name-with-extern-alias/">https://andrewlock.net/disambiguating-types-with-the-same-name-with-extern-alias/</a></li>
+<li>Link to article: <a href="https://www.code4it.dev/csharptips/sealed-classes/">https://www.code4it.dev/csharptips/sealed-classes/</a></li>
 </ul>
 
     </div>
