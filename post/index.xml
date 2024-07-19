@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 18 Jul 2024 21:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jul 2024 06:10:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Test IServiceCollection Registrations in .NET</title>
+      <link>https://www.dotnetramblings.com/post/19_07_2024/19_07_2024_0/</link>
+      <pubDate>Fri, 19 Jul 2024 06:10:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_07_2024/19_07_2024_0/</guid>
+      <description>
+        
+          
+            Unit testing IServiceCollection registrations in .NET enables us to test our application’s IServiceCollection to confirm that the setup of dependency injection is correct, allowing us to catch errors early in development. E.g. if we fail to register a service or register a service incorrectly with the wrong lifetime, we would be able to detect such […] The post How to Test IServiceCollection Registrations in .NET appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Introducing CoreWCF and WCF Client Azure Queue Storage bindings for .NET</title>
       <link>https://www.dotnetramblings.com/post/18_07_2024/18_07_2024_0/</link>
