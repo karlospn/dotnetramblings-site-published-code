@@ -25,22 +25,5 @@ Link to article: https://www.meziantou.net/stop-the-script-when-an-error-occurs-
       </description>
     </item>
     
-    <item>
-      <title>Enable NuGet auditing for your .NET projects</title>
-      <link>https://www.dotnetramblings.com/post/15_07_2024/15_07_2024_10/</link>
-      <pubDate>Mon, 15 Jul 2024 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/15_07_2024/15_07_2024_10/</guid>
-      <description>
-        
-          
-            A security audit for package managers like NuGet is indeed a critical process for ensuring the security of software projects. NuGet has a feature to assist with this process. It can run a security audit with the dotnet restore command, which checks your dependencies against a list of known vulnerabilities from the GitHub Advisory Database. If vulnerabilities are found, you can update the affected packages…
-Link to article: https://www.meziantou.net/enable-nuget-auditing-for-your-dotnet-projects.htm?utm_medium=social&amp;utm_source=syndication 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
