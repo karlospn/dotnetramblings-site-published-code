@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>Template Method Design Pattern in C# | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="In this article, we will talk about a behavioral design pattern, the Template Method Pattern. We are going to see how this pattern helps deal with certain …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Template Method Design Pattern in C#" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/29_07_2024/29_07_2024_2/" />
+<meta property="og:title" content="Template Method Design Pattern in C#" />
+<meta property="og:description" content="In this article, we will talk about a behavioral design pattern, the Template Method Pattern. We are going to see how this pattern helps deal with certain …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/29_07_2024/29_07_2024_2/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20240722-00/?p=110026" title="Organizing the five creation dispositions of the Create­File function">Organizing the five creation dispositions of the Create­File function</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Template Method Design Pattern in C#</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,308 +140,28 @@
 </svg>
 </span>
     <span class="post_date">
-      Jul 22, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jul 29, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Organizing the five creation dispositions of the Create­File function"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Six possibilities, but only five useful ones.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20240722-00/?p=110026">https://devblogs.microsoft.com/oldnewthing/20240722-00/?p=110026</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20240722-00/?p=110026" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.meziantou.net/stop-the-script-when-an-error-occurs-in-powershell.htm?utm_medium=social&amp;utm_source=syndication" title="Stop a script when an error occurs in PowerShell">Stop a script when an error occurs in PowerShell</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 22, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>In this article, we will talk about a behavioral design pattern, the Template Method Pattern. We are going to see how this pattern helps deal with certain design problems and how to implement it in C#. If you want to read more about design patterns in C#, you can inspect our C# Design Patterns page. Let’s start. […]
+The post Template Method Design Pattern in C# appeared first on Code Maze.</p>
+<ul>
+<li>Link to article: <a href="https://code-maze.com/csharp-template-method-design-pattern/">https://code-maze.com/csharp-template-method-design-pattern/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Stop a script when an error occurs in PowerShell"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>By default, PowerShell doesn't stop the script when an error occurs. Instead, it writes the error to the error stream and continues executing the script. You can change this behavior by setting the $ErrorActionPreference variable to Stop. When you do this, PowerShell stops the script when an error occurs. PowerShell …</p>
-          
-          <br>
-          <a href="https://www.meziantou.net/stop-the-script-when-an-error-occurs-in-powershell.htm?utm_medium=social&amp;utm_source=syndication" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/idea/2024/07/using-dev-containers-in-jetbrains-ides-part-1/" title="Using Dev Containers in JetBrains IDEs – Part 1">Using Dev Containers in JetBrains IDEs – Part 1</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 22, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Using Dev Containers in JetBrains IDEs – Part 1"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>As cloud technologies and containerization evolve, we enter a new era of software development where flexibility, scalability, and efficiency become key requirements for any project. Dev Containers, or development containers, represent an approach to creating developer workspaces that allows you to focus on the code …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/idea/2024/07/using-dev-containers-in-jetbrains-ides-part-1/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/dotnet-ch/c12%e6%96%b0%e5%8a%9f%e8%83%bd%e5%90%88%e9%9b%86%e5%9b%9b%ef%bc%9a%e4%bd%bf%e7%94%a8%e9%bb%98%e8%ae%a4-lambda-%e5%8f%82%e6%95%b0%e9%87%8d%e6%9e%84c%e4%bb%a3%e7%a0%81" title="C#12新功能合集四：使用默认 lambda 参数重构C#代码">C#12新功能合集四：使用默认 lambda 参数重构C#代码</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 22, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="C#12新功能合集四：使用默认 lambda 参数重构C#代码"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>本文翻译于David Pine的这篇文章:Refactor your code with default lambda parameters 。 本文是探讨 C# 12的各种功能的四篇系列文章中的最后一篇。在这篇文章中，我们将探讨“默认 lambda 参数”功能，使开发人员能够在 lambda 表达式中使用默认参数值。本系列涵盖了很多内容： 使用主构造函数重构 C# 代码 使用集合表达式重构 C# 代码 使用任意类型别名重构 C# 代码 使用默认 lambda 参数重构C#代码（本篇文章） 这些功能是我们不断努力提高代码可读性和可维护性的一部分。让我们详细探索它们！ 默认 Lambda 参数🧮 默认 lambda 参数是 C# 12 …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/dotnet-ch/c12%e6%96%b0%e5%8a%9f%e8%83%bd%e5%90%88%e9%9b%86%e5%9b%9b%ef%bc%9a%e4%bd%bf%e7%94%a8%e9%bb%98%e8%ae%a4-lambda-%e5%8f%82%e6%95%b0%e9%87%8d%e6%9e%84c%e4%bb%a3%e7%a0%81" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://code-maze.com/csharp-convert-a-stream-to-a-file/" title="How to Convert a Stream to a File in C#">How to Convert a Stream to a File in C#</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 22, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How to Convert a Stream to a File in C#"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this article, we’ll discuss how to convert a stream to a file in C#. We will demonstrate different ways to do that, discuss the advantages and disadvantages of each, and see when one way could be more suitable. Let’s dive in. What Is a Stream A stream is an abstraction of a sequence of […] The post How to Convert a …</p>
-          
-          <br>
-          <a href="https://code-maze.com/csharp-convert-a-stream-to-a-file/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -473,9 +185,8 @@ Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20240722-00
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
