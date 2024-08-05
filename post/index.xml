@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 05 Aug 2024 05:30:11 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Aug 2024 06:20:05 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Implementing the Saga Pattern Using Rebus and RabbitMQ</title>
+      <title>.NET 9 预览版 6：新功能抢先看</title>
       <link>https://www.dotnetramblings.com/post/05_08_2024/05_08_2024_0/</link>
-      <pubDate>Mon, 05 Aug 2024 05:30:11 +0000</pubDate>
+      <pubDate>Mon, 05 Aug 2024 06:20:05 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/05_08_2024/05_08_2024_0/</guid>
+      <description>
+        
+          
+            本篇翻译于.NET Team的.NET 9 Preview 6 is now available! 现在是了解最新 .NET 9 预览版的好时机！我们刚刚发布了第六个预览版，在之前预览版的基础上添加了一些很棒的功能，并对 .NET Runtime、SDK、库、C# 和框架（包括 ASP.NET Core、Blazor 和 .NET MAUI）进行了重大改进。请查看下面链接的完整发行说明并立即开始使用。 下载 .NET 9 Preview 6 此版本包含以下改进： 📚库： 对System.Numerics 的改进 支持日志源生成器中的主构造函数 System.Text.Json 增强功能包括新的 JsonSchemaExporter、可为null的注释识别、需要非可选构造函数参数、对JsonObject 属性进行排序以及新的契约元数据 API [GeneratedRegex] 现在可以在属性上使用 Regex 的新 EnumerateSplits 方法可拆分更多集合类型 引入泛型 OrderedDictionary，包括 OrderedDictionary&amp;lt;TKey,
+Link to article: https://devblogs.microsoft.com/dotnet-ch/net-9-%e9%a2%84%e8%a7%88%e7%89%88-6%ef%bc%9a%e6%96%b0%e5%8a%9f%e8%83%bd%e6%8a%a2%e5%85%88%e7%9c%8b 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Implementing the Saga Pattern Using Rebus and RabbitMQ</title>
+      <link>https://www.dotnetramblings.com/post/05_08_2024/05_08_2024_1/</link>
+      <pubDate>Mon, 05 Aug 2024 05:30:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_08_2024/05_08_2024_1/</guid>
       <description>
         
           
