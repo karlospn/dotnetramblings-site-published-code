@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 25 Aug 2024 12:57:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Aug 2024 05:38:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamically Change the ServiceLifetime of a Registered Service in .NET</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2024/26_08_2024_0/</link>
+      <pubDate>Mon, 26 Aug 2024 05:38:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2024/26_08_2024_0/</guid>
+      <description>
+        
+          
+            Managing dependencies is essential in modern application development. .NET provides a powerful Dependency Injection (DI) system, with ServiceCollection at its core. Typically, we register a service and use it as is. However, there are instances when we need to change the ServiceLifetime of services after registration. This article explores methods for changing ServiceLifeTime, providing practical […] The post Dynamically Change the ServiceLifetime of a Registered Service in .NET appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>.NET Observability with OpenTelemetry – Part 3: Distributed Tracing using AWS X-Ray</title>
       <link>https://www.dotnetramblings.com/post/25_08_2024/25_08_2024_0/</link>
