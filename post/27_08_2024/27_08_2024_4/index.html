@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Devblogs.microsoft.com | .NET Ramblings</title>
+<title>C# Tip: 2 ways to use custom equality rules in a HashSet | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,24 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="With HashSet, you can get a list of different items in a performant way. What if you need a custom way to define when two objects are equal?
+Link to article: …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Devblogs.microsoft.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/" />
-<meta property="og:title" content="Devblogs.microsoft.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="C# Tip: 2 ways to use custom equality rules in a HashSet" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/27_08_2024/27_08_2024_4/" />
+<meta property="og:title" content="C# Tip: 2 ways to use custom equality rules in a HashSet" />
+<meta property="og:description" content="With HashSet, you can get a list of different items in a performant way. What if you need a custom way to define when two objects are equal?
+Link to article: …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/27_08_2024/27_08_2024_4/">
 
 
 
@@ -128,19 +131,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/visualstudio/new-c-features-in-visual-studio-v17-11" title="New C&#43;&#43; features in Visual Studio v17.11">New C++ features in Visual Studio v17.11</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">C# Tip: 2 ways to use custom equality rules in a HashSet</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,370 +142,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 21, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Aug 27, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code4it.dev/' title="code4it.dev" class="post_tag button button_translucent">code4it.dev
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="New C&#43;&#43; features in Visual Studio v17.11"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Visual Studio 2022 version 17.11 is here and comes with a host of new features for C++ developers. We’ve made improvements across our toolchain, Unreal Engine support, Build Insights, CMake debugger, and more. This post gives a quick overview of what’s available;
-Link to article: …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/visualstudio/new-c-features-in-visual-studio-v17-11" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/devops/new-boards-hub-rollout-update-2" title="New Boards Hub Rollout Update">New Boards Hub Rollout Update</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 20, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>With HashSet, you can get a list of different items in a performant way. What if you need a custom way to define when two objects are equal?</p>
+<ul>
+<li>Link to article: <a href="https://www.code4it.dev/csharptips/hashset-custom-equality/">https://www.code4it.dev/csharptips/hashset-custom-equality/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="New Boards Hub Rollout Update"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Back in March, we shared an update on our initiative to make the New Boards Hub the default experience for all organizations. However, that rollout was delayed as we shifted priorities for several months. Today, we’re excited to announce that the rollout of the New Boards Hub is back on track.
-Link to article: …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/devops/new-boards-hub-rollout-update-2" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/semantic-kernel/customer-case-study-kpmg-clara-ai-and-microsofts-semantic-kernel" title="Customer Case Study: KPMG Clara AI and Microsoft’s Semantic Kernel">Customer Case Study: KPMG Clara AI and Microsoft’s Semantic Kernel</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 20, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Customer Case Study: KPMG Clara AI and Microsoft’s Semantic Kernel"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Today we’re featuring KPMG on our Semantic Kernel blog for their work on Clara AI in KPMG. You can learn more about the solution here: KPMG Partnership with Microsoft’s Semantic Kernel Here’s a quote from KPMG on the partnership, “Microsoft and KPMG entered a strategic alliance to modernize the work of KPMG …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/semantic-kernel/customer-case-study-kpmg-clara-ai-and-microsofts-semantic-kernel" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20240820-00/?p=110152" title="Another tribute to Microsoft history hiding in Building 41">Another tribute to Microsoft history hiding in Building 41</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 20, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Another tribute to Microsoft history hiding in Building 41"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Logo touches.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20240820-00/?p=110152">https://devblogs.microsoft.com/oldnewthing/20240820-00/?p=110152</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20240820-00/?p=110152" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/microsoft365dev/public-preview-of-sharepoint-framework-1-20-first-release-of-upcoming-features" title="Public preview of SharePoint Framework 1.20 – First release of upcoming features">Public preview of SharePoint Framework 1.20 – First release of upcoming features</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 20, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Public preview of SharePoint Framework 1.20 – First release of upcoming features"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>We are excited to announce the first preview of the upcoming SharePoint Framework 1.20. This time focus is primarily on the Microsoft Viva platform capabilities.
-Link to article: <a href="https://devblogs.microsoft.com/microsoft365dev/public-preview-of-sharepoint-framework-1-20-first-release-of-upcoming-features">https://devblogs.microsoft.com/microsoft365dev/public-preview-of-sharepoint-framework-1-20-first-release-of-upcoming-features</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/microsoft365dev/public-preview-of-sharepoint-framework-1-20-first-release-of-upcoming-features" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/visualstudio/new-debugging-and-diagnostic-features" title="New debugging and diagnostic features">New debugging and diagnostic features</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 20, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="New debugging and diagnostic features"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Debugging and diagnostics are vital skills for any developer, but they can also be difficult and time-consuming to get proficient . That’s why we’ve added some fantastic new features and enhancements to Visual Studio 2022 v17.11 that will help you find and resolve bugs faster and easier than ever before.
-Link to …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/visualstudio/new-debugging-and-diagnostic-features" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -528,9 +186,8 @@ Link to …</p>
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
