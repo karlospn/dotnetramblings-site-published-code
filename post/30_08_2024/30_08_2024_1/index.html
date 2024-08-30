@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>使用 MSTest.Analyzers 增强您的测试体验 | .NET Ramblings</title>
+<title>Announcing ASP.NET Core OData 9 Official Release | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="本篇翻译于Jakub Jareš的Supercharge your testing experience with MSTest.Analyzers – .NET Blog (microsoft.com) MSTest 附带一组分析器，用于检查您的测试代码并指出常见的错误和陷阱。这些错误可能很微妙，并导致测试框架完全忽 …" />
+<meta name="description" content="We’re happy to announce that ASP.NET Core OData 9 has been officially released and is available on NuGet: Microsoft.AspNetCore.OData 9.0.0 The major highlight …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="使用 MSTest.Analyzers 增强您的测试体验" />
+<meta name="twitter:title" content="Announcing ASP.NET Core OData 9 Official Release" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/30_08_2024/30_08_2024_1/" />
-<meta property="og:title" content="使用 MSTest.Analyzers 增强您的测试体验" />
-<meta property="og:description" content="本篇翻译于Jakub Jareš的Supercharge your testing experience with MSTest.Analyzers – .NET Blog (microsoft.com) MSTest 附带一组分析器，用于检查您的测试代码并指出常见的错误和陷阱。这些错误可能很微妙，并导致测试框架完全忽 …" />
+<meta property="og:title" content="Announcing ASP.NET Core OData 9 Official Release" />
+<meta property="og:description" content="We’re happy to announce that ASP.NET Core OData 9 has been officially released and is available on NuGet: Microsoft.AspNetCore.OData 9.0.0 The major highlight …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">使用 MSTest.Analyzers 增强您的测试体验</h1>
+    <h1 class="post_title">Announcing ASP.NET Core OData 9 Official Release</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -145,9 +145,9 @@
     </span>
   </div>
 
-    <div class="post_body"><p>本篇翻译于Jakub Jareš的Supercharge your testing experience with MSTest.Analyzers – .NET Blog (microsoft.com)  MSTest 附带一组分析器，用于检查您的测试代码并指出常见的错误和陷阱。这些错误可能很微妙，并导致测试框架完全忽略您的测试。  我们从 3.2.0 版本就开始提供这些分析器了，但在最新的 3.5.1 版本中，我们添加了一些我们认为您不应错过的分析器。  遗漏的测试  一个常见问题是当您忘记在类上添加 [TestClass] 时。MSTest 将无法知道类中有测试，也不会运行它们：  public class MyTests { [TestMethod] public async Task TestMethod1() { Assert.Fail(); } } 如果没有 MSTest.Analyzers，此代码在构建时不会出现警告或信息提示。运行测试时也不会出现测试失败的情况。由于类上没有 [TestClass] 属性，MSTest 会出于性能原因跳过整个类，并且您的测试将永远不会被找到。  但是使用分析器时您会在构建过程中收到一条信息提示：  我们建议将此信息提示升级为警告，甚至是构建错误。可以通过在 .editorconfig 文件中添加以下这行代码来实现  [*.cs] # MSTEST0030: Type containing '[TestMethod]' should be marked with '[TestClass]' dotnet_diagnostic.MSTEST0030.severity = warning 为什么默认情况下这不是警告？  您可能会问为什么 MSTEST0030 默认是一条信息提示而不是默认的警告。原因是我们不能在 MSTest v3 中引入重大变更，而上述代码是一个常见的模式，用于从基类重用测试。  public class MyTestsBase { [TestMethod] public async Task CommonTestMethod() { } } [TestClass] public class MyTests : MyTestsBase { [TestMethod] public async Task TestMethod1() { Assert.Fail();</p>
+    <div class="post_body"><p>We’re happy to announce that ASP.NET Core OData 9 has been officially released and is available on NuGet: Microsoft.AspNetCore.OData 9.0.0 The major highlight of this release is the update of the OData .NET dependencies to the 8.x major version. By updating the dependencies,</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/dotnet-ch/%e4%bd%bf%e7%94%a8-mstest-analyzers-%e5%a2%9e%e5%bc%ba%e6%82%a8%e7%9a%84%e6%b5%8b%e8%af%95%e4%bd%93%e9%aa%8c">https://devblogs.microsoft.com/dotnet-ch/%e4%bd%bf%e7%94%a8-mstest-analyzers-%e5%a2%9e%e5%bc%ba%e6%82%a8%e7%9a%84%e6%b5%8b%e8%af%95%e4%bd%93%e9%aa%8c</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/odata/announcing-asp-net-core-odata-9-official-release">https://devblogs.microsoft.com/odata/announcing-asp-net-core-odata-9-official-release</a></li>
 </ul>
 
     </div>
