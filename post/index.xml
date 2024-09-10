@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 10 Sep 2024 08:28:12 +0200</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Sep 2024 10:00:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Caching Strategies in ASP.NET Core</title>
+      <title>Break for Async User-Unhandled exceptions in the Visual Studio Debugger</title>
       <link>https://www.dotnetramblings.com/post/10_09_2024/10_09_2024_0/</link>
-      <pubDate>Tue, 10 Sep 2024 08:28:12 +0200</pubDate>
+      <pubDate>Tue, 10 Sep 2024 10:00:16 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/10_09_2024/10_09_2024_0/</guid>
+      <description>
+        
+          
+            Before .NET 9, the debugger was unable to track exceptions thrown from user-code async methods into non-user code framework methods, such as ASP.NET middleware. We are pleased to announce that you will now start seeing the debugger stop for these user-unhandled exceptions in your ASP.NET applications, as well as anywhere else this might happen! Summary […]
+Link to article: https://devblogs.microsoft.com/visualstudio/break-for-async-user-unhandled-exceptions-in-the-visual-studio-debugger 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Caching Strategies in ASP.NET Core</title>
+      <link>https://www.dotnetramblings.com/post/10_09_2024/10_09_2024_1/</link>
+      <pubDate>Tue, 10 Sep 2024 08:28:12 +0200</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_09_2024/10_09_2024_1/</guid>
       <description>
         
           
