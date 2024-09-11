@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 10 Sep 2024 20:26:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Sep 2024 00:13:33 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Genomics England uses Amazon SageMaker to predict cancer subtypes and patient survival from multi-modal data</title>
+      <link>https://www.dotnetramblings.com/post/11_09_2024/11_09_2024_0/</link>
+      <pubDate>Wed, 11 Sep 2024 00:13:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_09_2024/11_09_2024_0/</guid>
+      <description>
+        
+          
+            In this post, we detail our collaboration in creating two proof of concept (PoC) exercises around multi-modal machine learning for survival analysis and cancer sub-typing, using genomic (gene expression, mutation and copy number variant data) and imaging (histopathology slides) data. We provide insights on interpretability, robustness, and best practices of architecting complex ML workflows on AWS with Amazon SageMaker. These multi-modal pipelines are being used on the Genomics England cancer cohort to enhance our understanding of cancer biomarkers and biology.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Wolverine meets RavenDb</title>
       <link>https://www.dotnetramblings.com/post/10_09_2024/10_09_2024_0/</link>
@@ -1105,244 +1121,6 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240904-00/?p=11021
           
             Hey, did you know that JasperFx Software offers both consulting services and support plans for the “Critter Stack” tools? The new feature shown in this post was done at the behest of a JasperFx support customer. And of course, we’re also more than happy to help you with any kind of .NET backend development:) Wolverine‘s … Continue reading Wolverine’s New Message Batching →
 Link to article: https://jeremydmiller.com/2024/09/03/wolverines-new-message-batching/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Enhance Your Cloud Development Skills at ‘Azure Developers – .NET Aspire Day 2024’</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_0/</link>
-      <pubDate>Tue, 03 Sep 2024 22:30:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_0/</guid>
-      <description>
-        
-          
-            Join us at the Azure Developers - .NET Aspire Day 2024, a virtual event happening on September 18, 2024
-Link to article: https://devblogs.microsoft.com/dotnet/enhance-your-cloud-development-skills-at-azure-developers-dotnet-aspire-day-2024 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build a generative AI image description application with Anthropic’s Claude 3.5 Sonnet on Amazon Bedrock and AWS CDK</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_1/</link>
-      <pubDate>Tue, 03 Sep 2024 21:13:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_1/</guid>
-      <description>
-        
-          
-            In this post, we delve into the process of building and deploying a sample application capable of generating multilingual descriptions for multiple images with a Streamlit UI, AWS Lambda powered with the Amazon Bedrock SDK, and AWS AppSync driven by the open source Generative AI CDK Constructs.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-generative-ai-image-description-application-with-anthropics-claude-3-5-sonnet-on-amazon-bedrock-and-aws-cdk/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Use LangChain with PySpark to process documents at massive scale with Amazon SageMaker Studio and Amazon EMR Serverless</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_2/</link>
-      <pubDate>Tue, 03 Sep 2024 19:05:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_2/</guid>
-      <description>
-        
-          
-            In this post, we explore how to build a scalable and efficient Retrieval Augmented Generation (RAG) system using the new EMR Serverless integration, Spark’s distributed processing, and an Amazon OpenSearch Service vector database powered by the LangChain orchestration framework. This solution enables you to process massive volumes of textual data, generate relevant embeddings, and store them in a powerful vector database for seamless retrieval and generation.
-Link to article: https://aws.amazon.com/blogs/machine-learning/use-langchain-with-pyspark-to-process-documents-at-massive-scale-with-amazon-sagemaker-studio-and-amazon-emr-serverless/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Load optimization in Azure Fluid Relay using Managed Prometheus</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_3/</link>
-      <pubDate>Tue, 03 Sep 2024 16:51:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_3/</guid>
-      <description>
-        
-          
-            Read how Azure Fluid Relay leverages Prometheus metrics in determining cluster load and can restrict the cluster from taking in additional traffic once it reaches certain thresholds.
-Link to article: https://devblogs.microsoft.com/microsoft365dev/load-optimization-in-azure-fluid-relay-using-managed-prometheus 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>dotInsights | September 2024</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_4/</link>
-      <pubDate>Tue, 03 Sep 2024 14:48:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_4/</guid>
-      <description>
-        
-          
-            Did you know? In C#, you can use a feature called caller info attributes to obtain information about the caller of a method. This can be incredibly useful for logging, debugging, or tracing. The attributes CallerMemberName, CallerFilePath, and CallerLineNumber provide information such as the name of the calling method, the path to the source file […]
-Link to article: https://blog.jetbrains.com/dotnet/2024/09/03/dotinsights-september-2024/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Enhancing your Visual Studio authentication experience</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_5/</link>
-      <pubDate>Tue, 03 Sep 2024 14:17:03 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_5/</guid>
-      <description>
-        
-          
-            The current cyber security climate demands that applications not only provide outstanding features but also prioritize the security of user data. Applications like Visual Studio rely on token-based authentication to access resources on your behalf. While effective, token-based authentication can be susceptible to attacks if not properly protected. Today, we are happy to announce that […]
-Link to article: https://devblogs.microsoft.com/visualstudio/enhancing-your-visual-studio-authentication-experience 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>New Docker Desktop Enterprise Admin Features: MSI Installer and Login Enforcement Alternative</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_6/</link>
-      <pubDate>Tue, 03 Sep 2024 14:02:47 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_6/</guid>
-      <description>
-        
-          
-            We&#39;re excited to launch the general availability for two significant updates: the Docker Desktop MSI installer and a new sign-in enforcement alternative. These updates aim to streamline administration, improve security, and ensure users can take full advantage of Docker Business subscription features.
-Link to article: https://www.docker.com/blog/docker-desktop-msi-installer-login-enforcement-alternatives/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docker Desktop 4.34: MSI Installer GA, Upgraded Host Networking, and Powerful Enhancements for Boosted Productivity &amp; Administration</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_7/</link>
-      <pubDate>Tue, 03 Sep 2024 14:00:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_7/</guid>
-      <description>
-        
-          
-            Discover Docker Desktop 4.34&#39;s enhancements that boost security, scalability, and productivity for developers. This release includes a readily available MSI installer for simpler Windows deployment, improved authentication processes, smart storage compaction for WSL2, and seamless NVIDIA AI Workbench integration for streamlined model training and local development.
-Link to article: https://www.docker.com/blog/docker-desktop-4-34/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why did Windows 95 use blue screen error messages instead of hard error messages?</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_8/</link>
-      <pubDate>Tue, 03 Sep 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_8/</guid>
-      <description>
-        
-          
-            You may not able to get there from here.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240903-00/?p=110205 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>JetBrains Academy: New in September</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_9/</link>
-      <pubDate>Tue, 03 Sep 2024 10:26:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_9/</guid>
-      <description>
-        
-          
-            A new academic season brings fresh opportunities, and at JetBrains Academy, we’re ready to help you make the most of them. With a new compelling project, and fresh educational topics, this September is packed with everything you need to proceed on your coding journey. Let’s take a closer look at these updates. Python 🆕 Project: […]
-Link to article: https://blog.jetbrains.com/education/2024/09/03/jetbrains-academy-new-in-september/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Working with tar files in .NET 8</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_10/</link>
-      <pubDate>Tue, 03 Sep 2024 09:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_10/</guid>
-      <description>
-        
-          
-            In this post I show how to create, extract, and list tar files using the built-in tar support introduced in .NET 7, and discuss some of the limitations
-Link to article: https://andrewlock.net/working-with-tar-files-in-dotnet/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Object Calisthenics #4: Implementations explanations</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_11/</link>
-      <pubDate>Tue, 03 Sep 2024 08:00:27 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_11/</guid>
-      <description>
-        
-          
-            The application of code rules is often conveyed as unidirectional and one-size-fits-all. In other words, when we learn to develop, we tend to read that there is only one way to produce quality code, and only one way to implement rules or patterns.With this series of articles, we aim
-Link to article: https://goatreview.com/object-calisthenics-9-rules-clean-code-explanations/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Object Calisthenics #3: Bringing Order to Chaos by Yoan</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_12/</link>
-      <pubDate>Tue, 03 Sep 2024 07:59:38 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_12/</guid>
-      <description>
-        
-          
-            Object Calisthenics, a set of programming exercises designed to improve code quality and object-oriented design, can be a powerful tool when refactoring existing codebases. To see how they work, Pierre and I decided to do the exercise on our own, without influencing each other.If you haven&#39;t read
-Link to article: https://goatreview.com/object-calisthenics-9-rules-clean-code-implementation-yoan/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Object Calisthenics #2: Bringing Order to Chaos by Pierre</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_13/</link>
-      <pubDate>Tue, 03 Sep 2024 07:58:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_13/</guid>
-      <description>
-        
-          
-            Object Calisthenics, a set of programming exercises designed to improve code quality and object-oriented design, can be a powerful tool when refactoring existing codebases. To see how they work, Yoan and I decided to do the exercise on our own, without influencing each other.If you haven&#39;t read
-Link to article: https://goatreview.com/object-calisthenics-9-rules-clean-code-implementation-pierre/ 
           
           
         

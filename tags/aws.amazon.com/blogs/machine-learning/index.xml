@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 09 Sep 2024 22:40:48 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Sep 2024 00:13:33 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Genomics England uses Amazon SageMaker to predict cancer subtypes and patient survival from multi-modal data</title>
+      <link>https://www.dotnetramblings.com/post/11_09_2024/11_09_2024_0/</link>
+      <pubDate>Wed, 11 Sep 2024 00:13:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_09_2024/11_09_2024_0/</guid>
+      <description>
+        
+          
+            In this post, we detail our collaboration in creating two proof of concept (PoC) exercises around multi-modal machine learning for survival analysis and cancer sub-typing, using genomic (gene expression, mutation and copy number variant data) and imaging (histopathology slides) data. We provide insights on interpretability, robustness, and best practices of architecting complex ML workflows on AWS with Amazon SageMaker. These multi-modal pipelines are being used on the Genomics England cancer cohort to enhance our understanding of cancer biomarkers and biology.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Align Meta Llama 3 to human preferences with DPO, Amazon SageMaker Studio, and Amazon SageMaker Ground Truth</title>
       <link>https://www.dotnetramblings.com/post/09_09_2024/09_09_2024_0/</link>
@@ -205,40 +221,6 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/build-an-ecommerc
         
           
             In this post, we show you how Thomson Reuters Labs (TR Labs) was able to develop an efficient, flexible, and powerful MLOps process by adopting a standardized MLOps framework that uses AWS SageMaker, SageMaker Experiments, SageMaker Model Registry, and SageMaker Pipelines. The goal being to accelerate how quickly teams can experiment and innovate using AI and machine learning (ML)—whether using natural language processing (NLP), generative AI, or other techniques. We discuss how this has helped decrease the time to market for fresh ideas and helped build a cost-efficient machine learning lifecycle.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build a generative AI image description application with Anthropic’s Claude 3.5 Sonnet on Amazon Bedrock and AWS CDK</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_1/</link>
-      <pubDate>Tue, 03 Sep 2024 21:13:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_1/</guid>
-      <description>
-        
-          
-            In this post, we delve into the process of building and deploying a sample application capable of generating multilingual descriptions for multiple images with a Streamlit UI, AWS Lambda powered with the Amazon Bedrock SDK, and AWS AppSync driven by the open source Generative AI CDK Constructs.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-generative-ai-image-description-application-with-anthropics-claude-3-5-sonnet-on-amazon-bedrock-and-aws-cdk/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Use LangChain with PySpark to process documents at massive scale with Amazon SageMaker Studio and Amazon EMR Serverless</title>
-      <link>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_2/</link>
-      <pubDate>Tue, 03 Sep 2024 19:05:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_09_2024/03_09_2024_2/</guid>
-      <description>
-        
-          
-            In this post, we explore how to build a scalable and efficient Retrieval Augmented Generation (RAG) system using the new EMR Serverless integration, Spark’s distributed processing, and an Amazon OpenSearch Service vector database powered by the LangChain orchestration framework. This solution enables you to process massive volumes of textual data, generate relevant embeddings, and store them in a powerful vector database for seamless retrieval and generation.
-Link to article: https://aws.amazon.com/blogs/machine-learning/use-langchain-with-pyspark-to-process-documents-at-massive-scale-with-amazon-sagemaker-studio-and-amazon-emr-serverless/ 
           
           
         
