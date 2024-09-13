@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 13 Sep 2024 03:29:40 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Sep 2024 08:12:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Java on Visual Studio Code的更新 – 2024年8月</title>
+      <title>Java on Azure Tooling的更新 – 2024年8月</title>
       <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_0/</link>
-      <pubDate>Fri, 13 Sep 2024 03:29:40 +0000</pubDate>
+      <pubDate>Fri, 13 Sep 2024 08:12:37 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_0/</guid>
+      <description>
+        
+          
+            大家好，欢迎阅读 Java on Azure 开发者工具8月份更新。在本次更新中，我们将介绍在 IntelliJ IDEA 中 Azure Toolkit 对 Azure App Service 提供托管身份支持（Managed Identity），以及宣布 Java 在 Azure 容器应用程序体验上正式发布。我们希望您喜欢这些更新，并享受使用 Azure 工具包的流畅体验。请下载并安装 IntelliJ 的 Azure 工具包。让我们开始吧！ Azure Toolkit for IntelliJ 提升 在Azure App Service 上支持 Managed Identity 托管身份是 Azure 中的一项功能，可简化应用程序的凭证管理。有关详细信息，请访问这篇文档。 在最新版本中，我们在工具包中为 Azure Web 应用程序添加了托管身份支持。该功能为开发人员提供了使用托管身份进行身份验证和访问 Azure 存储等 Azure 资源的灵活性，而无需直接管理凭据。它有助于降低凭证暴露的风险，并简化各种服务的安全集成。在我们的工具包中将 Java 应用程序部署到 Azure 应用服务时，系统会提示您分配角色以访问 Azure 资源。下面是一个简短的演示。 […]
+Link to article: https://devblogs.microsoft.com/java-ch/java-on-azure-tooling-update-august-2024 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Java on Azure Tooling Update – August 2024</title>
+      <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_1/</link>
+      <pubDate>Fri, 13 Sep 2024 07:58:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_1/</guid>
+      <description>
+        
+          
+            Hi everyone, welcome to the August update of Java on Azure developer tools. In this update, we will introduce our Managed Identity Support for Azure App Service in Azure toolkit, and General Availability of Java experiences on Azure Container Apps. We hope you enjoy these updates and have a smooth experience with our Azure toolkit. […]
+Link to article: https://devblogs.microsoft.com/java/java-on-azure-tooling-update-august-2024 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Java on Visual Studio Code的更新 – 2024年8月</title>
+      <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_2/</link>
+      <pubDate>Fri, 13 Sep 2024 03:29:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_2/</guid>
       <description>
         
           
