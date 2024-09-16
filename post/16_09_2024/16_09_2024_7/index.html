@@ -4,13 +4,12 @@
   lang="en"
   data-figures=""
   
-    class="home"
+    class="page"
   
   
   >
   <head>
-	<meta name="generator" content="Hugo 0.131.0">
-<title>.NET Ramblings</title>
+<title>Mediator Design Pattern in C# | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,25 +27,23 @@
 
 <meta property="og:locale" content="en" />
 
-<meta property="og:type" content="website">
-<meta name="description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
+<meta property="og:type" content="article">
+<meta name="description" content="In this article, we are going to talk about a popular design pattern, the Mediator Pattern. We will see how this pattern helps address some design problems and …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content=".NET Ramblings" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/" />
-<meta property="og:title" content=".NET Ramblings" />
-<meta property="og:description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Mediator Design Pattern in C#" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_7/" />
+<meta property="og:title" content="Mediator Design Pattern in C#" />
+<meta property="og:description" content="In this article, we are going to talk about a popular design pattern, the Mediator Pattern. We will see how this pattern helps address some design problems and …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/index.xml" title=".NET Ramblings" />
-<link rel="alternate" type="application/json" href="https://www.dotnetramblings.com/index.json" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_7/">
 
 
 
@@ -90,7 +87,7 @@
       
         
 
-  <div class="nav_parent nav_active">
+  <div class="nav_parent">
     <a href="https://www.dotnetramblings.com/" class="nav_item" title="Home">Home </a>
   </div>
   <div class="nav_parent">
@@ -132,21 +129,10 @@
 </header>
 
     <main>
-
   
-
-
-
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/qa/2024/09/celebrate-tester-s-day-with-jetbrains-aqua-50-off/" title="Celebrate Tester’s Day With JetBrains Aqua – 50% OFF!">Celebrate Tester’s Day With JetBrains Aqua – 50% OFF!</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Mediator Design Pattern in C#</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -154,374 +140,35 @@
 </svg>
 </span>
     <span class="post_date">
-      Sep 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Sep 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Celebrate Tester’s Day With JetBrains Aqua – 50% OFF!"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>JetBrains Aqua is proud to join the global tech community in celebrating International Tester’s Day on September 9. This day recognizes the crucial contributions of QA professionals, who ensure that the software we rely on functions flawlessly and delivers a superior user experience. Buy Aqua – 50% OFF Why testers are …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/qa/2024/09/celebrate-tester-s-day-with-jetbrains-aqua-50-off/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/fleet/2024/09/fleet-1-40-is-here-with-compose-preview-for-android-inlay-hints-for-generating-documentation-for-php-and-groovy-and-other-improvements/" title="Fleet 1.40 Is Here With Compose Preview for Android, Inlay Hints for Generating Documentation for PHP and Groovy, and Other Improvements">Fleet 1.40 Is Here With Compose Preview for Android, Inlay Hints for Generating Documentation for PHP and Groovy, and Other Improvements</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p> In this article, we are going to talk about a popular design pattern, the Mediator Pattern. We will see how this pattern helps address some design problems and how to implement it in C#. Let’s start. What is The Mediator Design Pattern? Mediator is a behavioral design pattern that promotes loose coupling by eliminating chaotic […]
+The post Mediator Design Pattern in C# appeared first on Code Maze.</p>
+<ul>
+<li>Link to article: <a href="https://code-maze.com/csharp-mediator-design-pattern/">https://code-maze.com/csharp-mediator-design-pattern/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Fleet 1.40 Is Here With Compose Preview for Android, Inlay Hints for Generating Documentation for PHP and Groovy, and Other Improvements"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Fleet 1.40 is now available! In this release, we’ve introduced some new features while also focusing on many important bug fixes. Your feedback is vital to making Fleet even better. Please report any problems you encounter to our issue tracker, or add a vote to an existing issue to express your support. You can update …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/fleet/2024/09/fleet-1-40-is-here-with-compose-preview-for-android-inlay-hints-for-generating-documentation-for-php-and-groovy-and-other-improvements/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/ise/earning-agentic-complexity" title="Earning Agentic (and LangChain) Complexity">Earning Agentic (and LangChain) Complexity</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Earning Agentic (and LangChain) Complexity"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>This post examines the challenges of adopting complex technologies like LangChain and agentic solutions in production environments, emphasizing the importance of understanding the necessity of such complexity. It provides insights on how to evaluate these technologies carefully, manage dependencies, and adhere to best …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/ise/earning-agentic-complexity" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://damienbod.com/2024/09/09/implement-openid-connect-back-channel-logout-using-asp-net-core-keycloak-and-net-aspire/" title="Implement OpenID Connect Back-Channel Logout using ASP.NET Core, Keycloak and .NET Aspire">Implement OpenID Connect Back-Channel Logout using ASP.NET Core, Keycloak and .NET Aspire</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/damienbod.com/' title="damienbod.com" class="post_tag button button_translucent">damienbod.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Implement OpenID Connect Back-Channel Logout using ASP.NET Core, Keycloak and .NET Aspire"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>This post shows how to implement an OpenID Connect back-channel logout using Keycloak, ASP.NET Core and .NET Aspire. The Keycloak and the Redis cache are run as containers using .NET Aspire. Two ASP.NET Core UI applications are used to demonstrate the server logout. Code: …</p>
-          
-          <br>
-          <a href="https://damienbod.com/2024/09/09/implement-openid-connect-back-channel-logout-using-asp-net-core-keycloak-and-net-aspire/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://code-maze.com/csharp-simd-accelerated-numeric-types/" title="SIMD Accelerated Numeric Types in C#">SIMD Accelerated Numeric Types in C#</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="SIMD Accelerated Numeric Types in C#"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this article, let’s explore the various SIMD (Single Instruction, Multiple Data) accelerated numeric types in .NET. We’ll start by examining what SIMD stands for and how it works in .NET. Then, we’ll look at the different SIMD accelerated numeric types available in .NET. To conclude, we’ll implement a benchmark to …</p>
-          
-          <br>
-          <a href="https://code-maze.com/csharp-simd-accelerated-numeric-types/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/phpstorm/2024/09/php-annotated-september-2024/" title="PHP Annotated – September 2024">PHP Annotated – September 2024</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="PHP Annotated – September 2024"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Welcome to the September edition of PHP Annotated! After a brief summer break, we’re back with all things PHP. This recap is carefully handcrafted and brings you the most interesting developments in the PHP community over the past couple of months, so you don’t have to sift through the noise—we’ve done it for you. …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/phpstorm/2024/09/php-annotated-september-2024/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope=''>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -538,9 +185,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
