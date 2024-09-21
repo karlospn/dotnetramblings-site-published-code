@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 20 Sep 2024 22:04:48 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Implemented Full-Text Search On My Website</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2024/21_09_2024_0/</link>
+      <pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2024/21_09_2024_0/</guid>
+      <description>
+        
+          
+            This article walks you through how I used Lunr.js to add powerful search capabilities to a Next.js static site, dealing with challenges like client-side processing and optimizing for performance along the way.
+Link to article: https://www.milanjovanovic.tech/blog/how-i-implemented-full-text-search-on-my-website 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Integrate dynamic web content in your generative AI application using a web search API and Amazon Bedrock Agents</title>
       <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_0/</link>
@@ -1089,159 +1106,6 @@ Link to article: https://dotnettips.wordpress.com/2024/09/15/boost-your-net-proj
           
             .NET Aspire promises to revolutionize cloud-native development for .NET applications, but does it live up to the hype? In this hands-on review, I&#39;ll share my experience migrating a real project to Aspire, exploring its strengths, limitations, and potential impact on how we build distributed systems.
 Link to article: https://www.milanjovanovic.tech/blog/dotnet-aspire-a-game-changer-for-cloud-native-development 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Unlock AWS Cost and Usage insights with generative AI powered by Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_0/</link>
-      <pubDate>Fri, 13 Sep 2024 18:49:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_0/</guid>
-      <description>
-        
-          
-            In this post, we explore a solution that uses generative artificial intelligence (AI) to generate a SQL query from a user’s question in natural language. This solution can simplify the process of querying CUR data stored in an Amazon Athena database using SQL query generation, running the query on Athena, and representing it on a web portal for ease of understanding.
-Link to article: https://aws.amazon.com/blogs/machine-learning/unlock-aws-cost-and-usage-insights-with-generative-ai-powered-by-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Streamline workflow orchestration of a system of enterprise APIs using chaining with Amazon Bedrock Agents</title>
-      <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_1/</link>
-      <pubDate>Fri, 13 Sep 2024 18:46:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_1/</guid>
-      <description>
-        
-          
-            In this post, we explore how chaining domain-specific agents using Amazon Bedrock Agents can transform a system of complex API interactions into streamlined, adaptive workflows, empowering your business to operate with agility and precision.
-Link to article: https://aws.amazon.com/blogs/machine-learning/streamline-workflow-orchestration-of-a-system-of-enterprise-apis-using-chaining-with-amazon-bedrock-agents/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build ultra-low latency multimodal generative AI applications using sticky session routing in Amazon SageMaker</title>
-      <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_2/</link>
-      <pubDate>Fri, 13 Sep 2024 18:39:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_2/</guid>
-      <description>
-        
-          
-            In this post, we explained how the new sticky routing feature in Amazon SageMaker allows you to achieve ultra-low latency and enhance your end-user experience when serving multi-modal models.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-ultra-low-latency-multimodal-generative-ai-applications-using-sticky-session-routing-in-amazon/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The case of the fail-fast crashes coming from the power management system</title>
-      <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_3/</link>
-      <pubDate>Fri, 13 Sep 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_3/</guid>
-      <description>
-        
-          
-            Understanding why it decided to fail fast.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240913-00/?p=110257 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Java on Visual Studio Code Update – August 2024</title>
-      <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_4/</link>
-      <pubDate>Fri, 13 Sep 2024 10:18:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_4/</guid>
-      <description>
-        
-          
-            Hi everyone, welcome to the August update for Visual Studio Code for Java! In this blog, we will cover important Gradle updates, more user experience improvements, and an improved getting started experience, let’s get started! Gradle Updates Adding Gradle for Java into Extension Pack for Java Some of our users might have noticed that recently […]
-Link to article: https://devblogs.microsoft.com/java/java-on-visual-studio-code-update-august-2024 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introduction to Htmx for Spring Boot Developers</title>
-      <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_5/</link>
-      <pubDate>Fri, 13 Sep 2024 09:51:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_5/</guid>
-      <description>
-        
-          
-            Starting a new project can be both exciting and challenging at the same time. Choosing what technologies will help you deliver your solution comes with the cost associated with those choices. Each additional technology can bring issues and dependencies that can lead to incremental decreases in progress that can grind your project to a stop. […]
-Link to article: https://blog.jetbrains.com/idea/2024/09/introduction-to-htmx-for-spring-boot-developers/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Java on Azure Tooling的更新 – 2024年8月</title>
-      <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_6/</link>
-      <pubDate>Fri, 13 Sep 2024 08:12:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_6/</guid>
-      <description>
-        
-          
-            大家好，欢迎阅读 Java on Azure 开发者工具8月份更新。在本次更新中，我们将介绍在 IntelliJ IDEA 中 Azure Toolkit 对 Azure App Service 提供托管身份支持（Managed Identity），以及宣布 Java 在 Azure 容器应用程序体验上正式发布。我们希望您喜欢这些更新，并享受使用 Azure 工具包的流畅体验。请下载并安装 IntelliJ 的 Azure 工具包。让我们开始吧！ Azure Toolkit for IntelliJ 提升 在Azure App Service上支持Managed Identity 托管身份是 Azure 中的一项功能，可简化应用程序的凭证管理。有关详细信息，请访问这篇文档。 在最新版本中，我们在工具包中为 Azure Web 应用程序添加了托管身份支持。该功能为开发人员提供了使用托管身份进行身份验证和访问 Azure 存储等 Azure 资源的灵活性，而无需直接管理凭据。它有助于降低凭证暴露的风险，并简化各种服务的安全集成。在我们的工具包中将 Java 应用程序部署到 Azure 应用服务时，系统会提示您分配角色以访问 Azure 资源。下面是一个简短的演示。 宣布 Java体验在Azure Container […]
-Link to article: https://devblogs.microsoft.com/java-ch/java-on-azure-tooling-update-august-2024 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Java on Azure Tooling Update – August 2024</title>
-      <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_7/</link>
-      <pubDate>Fri, 13 Sep 2024 07:58:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_7/</guid>
-      <description>
-        
-          
-            Hi everyone, welcome to the August update of Java on Azure developer tools. In this update, we will introduce our Managed Identity Support for Azure App Service in Azure toolkit, and General Availability of Java experiences on Azure Container Apps. We hope you enjoy these updates and have a smooth experience with our Azure toolkit. […]
-Link to article: https://devblogs.microsoft.com/java/java-on-azure-tooling-update-august-2024 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Java on Visual Studio Code的更新 – 2024年8月</title>
-      <link>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_8/</link>
-      <pubDate>Fri, 13 Sep 2024 03:29:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_09_2024/13_09_2024_8/</guid>
-      <description>
-        
-          
-            大家好，欢迎来到 Visual Studio Code for Java 八月更新！在这篇博客中，我们将涵盖重要Gradle 更新、更多用户体验改进以及更好的入门体验，马上开始吧！ Gradle 更新 将 Gradle for Java 添加到 Java 插件包中 一些用户可能已经注意到，最近在 Java 插件包中添加了一个名为“Gradle for Java”的插件，我们想介绍一下这一改动背后的故事。 Gradle for Java 插件是一个专门为 Visual Studio Code 提供 Gradle 支持的工具。长期以来，我们已经在这个插件中陆续了加入新功能，包括 Gradle 的构建服务器。不过，由于它是一个独立的插件，很多 Gradle / Java 开发者很难发现它。因此，我们收集了关于该扩展的反馈，最终决定在最近的版本中将其添加到 Java 插件包中。 然而，在将其添加到插件包之前，我们发现该插件的架构需要一些改进。具体来说，该插件会启动多个 JVM 进程来提供不同的功能，这会占用过多的计算资源。因此，我们决定进行一些优化——简单来说，我们将这些不同的 JVM 进程合并为一个，从而减少了 JVM 进程的数量，并显著降低了使用该扩展时的内存消耗。以下是不同项目大小下的内存消耗对比。 中型项目 大型项目 我们希望您喜欢我们在该扩展中提供的 Gradle 功能，如果有任何问题，请随时通过提交问题告诉我们！ 将“调试测试”委托给 Gradle 在我们之前的博客中，我们提到支持将测试委托给 […]
-Link to article: https://devblogs.microsoft.com/java-ch/java-on-visual-studio-code-2024-08 
           
           
         
