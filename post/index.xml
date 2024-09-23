@@ -7,13 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 23 Sep 2024 10:00:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Level up your collaborations with the pull request experience in Visual Studio</title>
+      <title>Using Mutex&lt;T&gt; to synchronize access to a shared resource</title>
       <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_0/</link>
-      <pubDate>Mon, 23 Sep 2024 10:00:47 +0000</pubDate>
+      <pubDate>Mon, 23 Sep 2024 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_0/</guid>
+      <description>
+        
+          
+            When you need to access a shared resource, you can use the lock statement or a synchronization primitive such as a Mutex to synchronize access to the resource. However, it&#39;s easy to forget it in complex code. When you need to synchronize access to a single resource, you can use a var obj = new object(); var value = 42; lock (obj) { // You need to ensure you use lock everywhere you access the shared…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Level up your collaborations with the pull request experience in Visual Studio</title>
+      <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_1/</link>
+      <pubDate>Mon, 23 Sep 2024 10:00:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_1/</guid>
       <description>
         
           
@@ -27,10 +43,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/level-up-your-colla
     
     <item>
       <title>Implement a Geo-distance search using .NET Aspire, Elasticsearch and ASP.NET Core</title>
-      <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_2/</link>
       <pubDate>Mon, 23 Sep 2024 08:56:43 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_2/</guid>
       <description>
         
           
@@ -44,10 +60,10 @@ Link to article: https://damienbod.com/2024/09/23/implement-a-geo-distance-searc
     
     <item>
       <title>Introduction to Code Analysis in IntelliJ IDEA</title>
-      <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_3/</link>
       <pubDate>Mon, 23 Sep 2024 06:49:46 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_3/</guid>
       <description>
         
           
@@ -61,10 +77,10 @@ Link to article: https://blog.jetbrains.com/idea/2024/09/introduction-to-code-an
     
     <item>
       <title>How to Use the REPR (Request-Endpoint-Response) Pattern in .NET</title>
-      <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_4/</link>
       <pubDate>Mon, 23 Sep 2024 05:46:52 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_4/</guid>
       <description>
         
           
@@ -77,10 +93,10 @@ Link to article: https://blog.jetbrains.com/idea/2024/09/introduction-to-code-an
     
     <item>
       <title>Multi-Tenancy in Wolverine Messaging</title>
-      <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_5/</link>
       <pubDate>Mon, 23 Sep 2024 02:47:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_5/</guid>
       <description>
         
           
