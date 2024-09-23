@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>Multi-Tenancy in Wolverine Messaging | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Building and maintaining a large, hosted system that requires multi-tenancy comes with a fair number of technical challenges. JasperFx Software has helped …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Multi-Tenancy in Wolverine Messaging" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_0/" />
+<meta property="og:title" content="Multi-Tenancy in Wolverine Messaging" />
+<meta property="og:description" content="Building and maintaining a large, hosted system that requires multi-tenancy comes with a fair number of technical challenges. JasperFx Software has helped …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_0/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/visualstudio/understanding-the-behavior-of-the-xaml-designer-with-abstract-base-classes" title="Understanding the behavior of the XAML Designer with abstract base classes">Understanding the behavior of the XAML Designer with abstract base classes</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Multi-Tenancy in Wolverine Messaging</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,364 +140,27 @@
 </svg>
 </span>
     <span class="post_date">
-      Sep 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Sep 23, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jeremydmiller.com/' title="jeremydmiller.com" class="post_tag button button_translucent">jeremydmiller.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Understanding the behavior of the XAML Designer with abstract base classes"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Visual Studio 2022 introduced a new XAML designer for building WPF apps, with a goal of increasing the performance and reliability of the designer. The new designer can quickly open a XAML file by using WPF’s built-in parser and display. This new design has a nuanced behavior when the root XAML element derives from an …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/visualstudio/understanding-the-behavior-of-the-xaml-designer-with-abstract-base-classes" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/idea/2024/09/new-livestream-java-22-and-intellij-ideanew-livestream/" title="New Livestream: Developing Spring Boot Applications With Joy">New Livestream: Developing Spring Boot Applications With Joy</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Building and maintaining a large, hosted system that requires multi-tenancy comes with a fair number of technical challenges. JasperFx Software has helped several of our clients achieve better results with their particular multi-tenancy challenges with Marten and Wolverine, and we’re available to do the same for your shop! Drop us a message on our Discord … Continue reading Multi-Tenancy in Wolverine Messaging →</p>
+<ul>
+<li>Link to article: <a href="https://jeremydmiller.com/2024/09/22/multi-tenancy-in-wolverine-messaging/">https://jeremydmiller.com/2024/09/22/multi-tenancy-in-wolverine-messaging/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="New Livestream: Developing Spring Boot Applications With Joy"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Join us for a new IntelliJ IDEA Livestream episode, where we will explore how to build modern Spring Boot applications using IntelliJ IDEA Ultimate with Siva Reddy. Date: September 26, 2024 Time: 3:00 pm – 4:00 pm UTC REGISTER FOR THE LIVESTREAM Session abstract Spring Boot is the most popular application framework in …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/idea/2024/09/new-livestream-java-22-and-intellij-ideanew-livestream/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.meziantou.net/waiting-for-a-manualreseteventslim-to-be-set-asynchronously.htm?utm_medium=social&amp;utm_source=syndication" title="Waiting for a ManualResetEventSlim to be set asynchronously">Waiting for a ManualResetEventSlim to be set asynchronously</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Waiting for a ManualResetEventSlim to be set asynchronously"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>ManualResetEventSlim represents a thread synchronization event that, when signaled, must be reset manually. This is a common synchronization primitive. However, it doesn't expose a method to wait asynchronously. Hopefully, it's not too complicated to create an extension method using …</p>
-          
-          <br>
-          <a href="https://www.meziantou.net/waiting-for-a-manualreseteventslim-to-be-set-asynchronously.htm?utm_medium=social&amp;utm_source=syndication" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/pycharm/2024/09/7-ways-to-use-jupyter-notebooks-inside-pycharm/" title="7 Ways To Use Jupyter Notebooks inside PyCharm">7 Ways To Use Jupyter Notebooks inside PyCharm</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="7 Ways To Use Jupyter Notebooks inside PyCharm"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Jupyter notebooks allow you to tell stories by creating and sharing data, equations, and visualizations sequentially, with a supporting narrative as you go through the notebook. Jupyter notebooks in PyCharm Professional provide functionality above and beyond that of browser-based Jupyter notebooks, such as code …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/pycharm/2024/09/7-ways-to-use-jupyter-notebooks-inside-pycharm/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://damienbod.com/2024/09/16/using-elasticsearch-with-net-aspire/" title="Using Elasticsearch with .NET Aspire">Using Elasticsearch with .NET Aspire</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/damienbod.com/' title="damienbod.com" class="post_tag button button_translucent">damienbod.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Using Elasticsearch with .NET Aspire"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>This post shows how to use Elasticsearch in .NET Aspire. Elasticsearch is setup to use HTTPS with the dotnet developer certificates and and simple client can be implemented to query the data. Code: <a href="https://github.com/damienbod/keycloak-backchannel">https://github.com/damienbod/keycloak-backchannel</a> Setup Two services are setup to run in .NET Aspire. The first service is …</p>
-          
-          <br>
-          <a href="https://damienbod.com/2024/09/16/using-elasticsearch-with-net-aspire/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://code-maze.com/csharp-mediator-design-pattern/" title="Mediator Design Pattern in C#">Mediator Design Pattern in C#</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Mediator Design Pattern in C#"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this article, we are going to talk about a popular design pattern, the Mediator Pattern. We will see how this pattern helps address some design problems and how to implement it in C#. Let’s start. What is The Mediator Design Pattern? Mediator is a behavioral design pattern that promotes loose coupling by eliminating …</p>
-          
-          <br>
-          <a href="https://code-maze.com/csharp-mediator-design-pattern/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -529,9 +184,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
