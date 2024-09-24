@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 23 Sep 2024 21:52:43 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Sep 2024 00:22:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft Dev Box regional availability</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2024/24_09_2024_0/</link>
+      <pubDate>Tue, 24 Sep 2024 00:22:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2024/24_09_2024_0/</guid>
+      <description>
+        
+          
+            We’ve received some questions recently about where Microsoft Dev Box is available. While you can always check the latest list at https://aka.ms/devbox/regions, for a quick reference, here’s the current regional availability for Dev Box: Dev Box regions West US 2 West Europe Central India West US 3 North Europe Southeast Asia Central US UK South […]
+Link to article: https://devblogs.microsoft.com/develop-from-the-cloud/microsoft-dev-box-regional-availability 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Enhancing Just Walk Out technology with multi-modal AI</title>
       <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_0/</link>
@@ -1240,176 +1257,6 @@ Link to article: https://blog.jetbrains.com/blog/2024/09/17/introducing-codecanv
           
             Debjyoti Ganguly shares insights on the security benefits and configuration of GHAS Code Scanning with Azure DevOps. Boosting Azure DevOps Security with GHAS Code Scanning Code scanning, a pipeline-based tool available in GitHub Advanced Security, is designed to detect code vulnerabilities and bugs within the source code of ADO (Azure DevOps) repositories. Utilizing CodeQL as […]
 Link to article: https://devblogs.microsoft.com/premier-developer/boosting-azure-devops-security-with-ghas-code-scanning 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>CRISPR-Cas9 guide RNA efficiency prediction with efficiently tuned models in Amazon SageMaker</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_0/</link>
-      <pubDate>Mon, 16 Sep 2024 22:52:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_0/</guid>
-      <description>
-        
-          
-            The clustered regularly interspaced short palindromic repeat (CRISPR) technology holds the promise to revolutionize gene editing technologies, which is transformative to the way we understand and treat diseases. This technique is based in a natural mechanism found in bacteria that allows a protein coupled to a single guide RNA (gRNA) strand to locate and make […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/crispr-cas9-guide-rna-efficiency-prediction-with-efficiently-tuned-models-in-amazon-sagemaker/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Improve RAG performance using Cohere Rerank</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_1/</link>
-      <pubDate>Mon, 16 Sep 2024 19:52:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_1/</guid>
-      <description>
-        
-          
-            In this post, we show you how to use Cohere Rerank to improve search efficiency and accuracy in Retrieval Augmented Generation (RAG) systems.
-Link to article: https://aws.amazon.com/blogs/machine-learning/improve-rag-performance-using-cohere-rerank/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Secure by Design for AI: Building Resilient Systems from the Ground Up</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_2/</link>
-      <pubDate>Mon, 16 Sep 2024 14:23:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_2/</guid>
-      <description>
-        
-          
-            Dive into the “Secure by Design” approach essential for AI systems, focusing on embedding security features from the start to fortify AI against emerging threats.
-Link to article: https://www.docker.com/blog/secure-by-design-for-ai/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Some notes on Win32 carets</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_3/</link>
-      <pubDate>Mon, 16 Sep 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_3/</guid>
-      <description>
-        
-          
-            Assorted notes and musings.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240916-00/?p=110272 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Understanding the behavior of the XAML Designer with abstract base classes</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_4/</link>
-      <pubDate>Mon, 16 Sep 2024 13:49:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_4/</guid>
-      <description>
-        
-          
-            Visual Studio 2022 introduced a new XAML designer for building WPF apps, with a goal of increasing the performance and reliability of the designer. The new designer can quickly open a XAML file by using WPF’s built-in parser and display. This new design has a nuanced behavior when the root XAML element derives from an […]
-Link to article: https://devblogs.microsoft.com/visualstudio/understanding-the-behavior-of-the-xaml-designer-with-abstract-base-classes 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>New Livestream: Developing Spring Boot Applications With Joy</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_5/</link>
-      <pubDate>Mon, 16 Sep 2024 12:05:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_5/</guid>
-      <description>
-        
-          
-            Join us for a new IntelliJ IDEA Livestream episode, where we will explore how to build modern Spring Boot applications using IntelliJ IDEA Ultimate with Siva Reddy. Date: September 26, 2024 Time: 3:00 pm – 4:00 pm UTC REGISTER FOR THE LIVESTREAM Session abstract Spring Boot is the most popular application framework in the Java […]
-Link to article: https://blog.jetbrains.com/idea/2024/09/new-livestream-java-22-and-intellij-ideanew-livestream/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Waiting for a ManualResetEventSlim to be set asynchronously</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_6/</link>
-      <pubDate>Mon, 16 Sep 2024 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_6/</guid>
-      <description>
-        
-          
-            ManualResetEventSlim represents a thread synchronization event that, when signaled, must be reset manually. This is a common synchronization primitive. However, it doesn&#39;t expose a method to wait asynchronously. Hopefully, it&#39;s not too complicated to create an extension method using ThreadPool.RegisterWaitForSingleObject and TaskCompletionSource. static class Extensions { public static Task WaitAsync(this…
-Link to article: https://www.meziantou.net/waiting-for-a-manualreseteventslim-to-be-set-asynchronously.htm?utm_medium=social&amp;utm_source=syndication 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>7 Ways To Use Jupyter Notebooks inside PyCharm</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_7/</link>
-      <pubDate>Mon, 16 Sep 2024 10:48:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_7/</guid>
-      <description>
-        
-          
-            Jupyter notebooks allow you to tell stories by creating and sharing data, equations, and visualizations sequentially, with a supporting narrative as you go through the notebook. Jupyter notebooks in PyCharm Professional provide functionality above and beyond that of browser-based Jupyter notebooks, such as code completion, dynamic plots, and quick statistics, to help you explore and […]
-Link to article: https://blog.jetbrains.com/pycharm/2024/09/7-ways-to-use-jupyter-notebooks-inside-pycharm/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using Elasticsearch with .NET Aspire</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_8/</link>
-      <pubDate>Mon, 16 Sep 2024 04:24:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_8/</guid>
-      <description>
-        
-          
-            This post shows how to use Elasticsearch in .NET Aspire. Elasticsearch is setup to use HTTPS with the dotnet developer certificates and and simple client can be implemented to query the data. Code: https://github.com/damienbod/keycloak-backchannel Setup Two services are setup to run in .NET Aspire. The first service is the official Elasticsearch docker container and deployed […]
-Link to article: https://damienbod.com/2024/09/16/using-elasticsearch-with-net-aspire/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Mediator Design Pattern in C#</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_9/</link>
-      <pubDate>Mon, 16 Sep 2024 02:55:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_9/</guid>
-      <description>
-        
-          
-            In this article, we are going to talk about a popular design pattern, the Mediator Pattern. We will see how this pattern helps address some design problems and how to implement it in C#. Let’s start. What is The Mediator Design Pattern? Mediator is a behavioral design pattern that promotes loose coupling by eliminating chaotic […] The post Mediator Design Pattern in C# appeared first on Code Maze.
-Link to article: https://code-maze.
           
           
         

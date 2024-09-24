@@ -24,22 +24,5 @@
       </description>
     </item>
     
-    <item>
-      <title>Waiting for a ManualResetEventSlim to be set asynchronously</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_6/</link>
-      <pubDate>Mon, 16 Sep 2024 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_09_2024/16_09_2024_6/</guid>
-      <description>
-        
-          
-            ManualResetEventSlim represents a thread synchronization event that, when signaled, must be reset manually. This is a common synchronization primitive. However, it doesn&#39;t expose a method to wait asynchronously. Hopefully, it&#39;s not too complicated to create an extension method using ThreadPool.RegisterWaitForSingleObject and TaskCompletionSource. static class Extensions { public static Task WaitAsync(this…
-Link to article: https://www.meziantou.net/waiting-for-a-manualreseteventslim-to-be-set-asynchronously.htm?utm_medium=social&amp;utm_source=syndication 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
