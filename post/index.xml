@@ -7,13 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 25 Sep 2024 17:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Sep 2024 19:11:28 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Getting started with testing and .NET Aspire</title>
+      <title>IntelliJ IDEA 2024.2.3 Is Out</title>
       <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_0/</link>
-      <pubDate>Wed, 25 Sep 2024 17:05:00 +0000</pubDate>
+      <pubDate>Wed, 25 Sep 2024 19:11:28 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_0/</guid>
+      <description>
+        
+          
+            We’ve just released the next minor version for IntelliJ IDEA – 2024.2.3. You can update to this version from inside the IDE, via the Toolbox App, or by using snaps for Ubuntu. You can also download it from our website. Here are the most notable updates: To find out more about the resolved issues, please […]
+Link to article: https://blog.jetbrains.com/idea/2024/09/intellij-idea-2024-2-3/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Critter Stack 2025</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_1/</link>
+      <pubDate>Wed, 25 Sep 2024 19:08:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_1/</guid>
+      <description>
+        
+          
+            I realize the title sounds a little too similar to somebody else’s 2025 platform proposals, but let’s please just overlook that This is a “vision board” document I wrote up and shared with our core team (Anne, JT, Babu, and Jeffry) as well as some friendly users and JasperFx Software customers. I dearly want to … Continue reading Critter Stack 2025 →
+Link to article: https://jeremydmiller.com/2024/09/25/critter-stack-2025/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Common annotated security keys</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_2/</link>
+      <pubDate>Wed, 25 Sep 2024 18:50:15 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_2/</guid>
+      <description>
+        
+          
+            In April 2021, GitHub announced changes to their security token format that significantly enhanced security. The improvement leveraged two straightforward techniques: a fixed signature in the generated token and a checksum – both of which are highly effective in eliminating false positives (noise) and false negatives (missed findings). Microsoft also implements these techniques widely in […]
+Link to article: https://devblogs.microsoft.com/engineering-at-microsoft/common-annotated-security-keys 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Llama 3.2 models from Meta are now available in Amazon SageMaker JumpStart</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_3/</link>
+      <pubDate>Wed, 25 Sep 2024 18:26:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_3/</guid>
+      <description>
+        
+          
+            In this post, we show how you can discover and deploy the Llama 3.2 11B Vision model using SageMaker JumpStart. We also share the supported instance types and context for all the Llama 3.2 models available in SageMaker JumpStart.
+Link to article: https://aws.amazon.com/blogs/machine-learning/llama-3-2-models-from-meta-are-now-available-in-amazon-sagemaker-jumpstart/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Vision use cases with Llama 3.2 11B and 90B models from Meta</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_4/</link>
+      <pubDate>Wed, 25 Sep 2024 18:23:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_4/</guid>
+      <description>
+        
+          
+            This is the first time that the Llama models from Meta have been released with vision capabilities. These new capabilities expand the usability of Llama models from their traditional text-only applications. In this post, we demonstrate how you can use Llama 3.2 11B and 90B models for a variety of vision-based use cases.
+Link to article: https://aws.amazon.com/blogs/machine-learning/vision-use-cases-with-llama-3-2-11b-and-90b-models-from-meta/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting started with testing and .NET Aspire</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_5/</link>
+      <pubDate>Wed, 25 Sep 2024 17:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_5/</guid>
       <description>
         
           
@@ -26,45 +111,11 @@ Link to article: https://devblogs.microsoft.com/dotnet/getting-started-with-test
     </item>
     
     <item>
-      <title>Run VCF private clouds in Azure VMware Solution with support for portable VCF subscriptions</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_1/</link>
-      <pubDate>Wed, 25 Sep 2024 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_1/</guid>
-      <description>
-        
-          
-            Microsoft’s Azure VMware Solution (AVS) is a fast and easy way to seamlessly migrate VMware-based workloads to Azure, using familiar VMware tools and skills. The post Run VCF private clouds in Azure VMware Solution with support for portable VCF subscriptions appeared first on Microsoft Azure Blog.
-Link to article: https://azure.microsoft.com/en-us/blog/run-vcf-private-clouds-in-azure-vmware-solution-with-support-for-portable-vcf-subscriptions/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>UC Berkeley enhances computer science education with Azure OpenAI Service</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_2/</link>
-      <pubDate>Wed, 25 Sep 2024 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_2/</guid>
-      <description>
-        
-          
-            Discover how UC Berkeley uses Azure OpenAI Service to enhance computer science education and prepare students for their future careers. The post UC Berkeley enhances computer science education with Azure OpenAI Service appeared first on Microsoft Azure Blog.
-Link to article: https://www.microsoft.com/en-us/education/blog/2024/09/uc-berkeley-enhances-computer-science-education-with-azure-openai-service/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Live Stream: How to Migrate Your Kotlin Plugin to K2 Mode</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_6/</link>
       <pubDate>Wed, 25 Sep 2024 15:37:52 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_6/</guid>
       <description>
         
           
@@ -78,10 +129,10 @@ Link to article: https://blog.jetbrains.com/platform/2024/09/live-stream-how-to-
     
     <item>
       <title>Microsoft 365 Certification control spotlight: Secure software development and deployment</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_7/</link>
       <pubDate>Wed, 25 Sep 2024 14:30:56 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_7/</guid>
       <description>
         
           
@@ -95,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/microsoft-365-ce
     
     <item>
       <title>Integrating AI into Business Processes with the Process Framework</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_8/</link>
       <pubDate>Wed, 25 Sep 2024 14:30:34 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_8/</guid>
       <description>
         
           
@@ -112,10 +163,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/integrating-ai-i
     
     <item>
       <title>Announcing the GA of Dynamic Scaling (Per Region and Per Partition Autoscale)</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_9/</link>
       <pubDate>Wed, 25 Sep 2024 14:00:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_9/</guid>
       <description>
         
           
@@ -129,10 +180,10 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-the-ga-of-dy
     
     <item>
       <title>Announcing Cost and Performance Improvements with Azure Cosmos DB’s Binary Encoding</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_7/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_10/</link>
       <pubDate>Wed, 25 Sep 2024 14:00:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_10/</guid>
       <description>
         
           
@@ -146,10 +197,10 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-cost-and-per
     
     <item>
       <title>Another example of the Windows Runtime interop pattern: Using the UserConsentVerifier from a Win32 program</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_8/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_11/</link>
       <pubDate>Wed, 25 Sep 2024 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_11/</guid>
       <description>
         
           
@@ -163,10 +214,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240925-00/?p=11031
     
     <item>
       <title>Sep 2024: A look at the latest Microsoft Entra key feature releases, announcements, and updates</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_9/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_12/</link>
       <pubDate>Wed, 25 Sep 2024 11:29:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_12/</guid>
       <description>
         
           
@@ -180,10 +231,10 @@ Link to article: https://devblogs.microsoft.com/identity/eng-connect-sep-24
     
     <item>
       <title>Organize Your Breakpoints like a pro</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_10/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_13/</link>
       <pubDate>Wed, 25 Sep 2024 10:00:50 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_13/</guid>
       <description>
         
           
@@ -197,10 +248,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/organize-your-break
     
     <item>
       <title>Security Update: Changes to URI Expiry Time in Azure Notification Hubs</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_11/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_14/</link>
       <pubDate>Wed, 25 Sep 2024 09:35:26 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_14/</guid>
       <description>
         
           

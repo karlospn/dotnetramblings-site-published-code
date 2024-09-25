@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 25 Sep 2024 17:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Sep 2024 18:50:15 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Common annotated security keys</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_2/</link>
+      <pubDate>Wed, 25 Sep 2024 18:50:15 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_2/</guid>
+      <description>
+        
+          
+            In April 2021, GitHub announced changes to their security token format that significantly enhanced security. The improvement leveraged two straightforward techniques: a fixed signature in the generated token and a checksum – both of which are highly effective in eliminating false positives (noise) and false negatives (missed findings). Microsoft also implements these techniques widely in […]
+Link to article: https://devblogs.microsoft.com/engineering-at-microsoft/common-annotated-security-keys 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Getting started with testing and .NET Aspire</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_0/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_5/</link>
       <pubDate>Wed, 25 Sep 2024 17:05:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_0/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_5/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/getting-started-with-test
     
     <item>
       <title>Microsoft 365 Certification control spotlight: Secure software development and deployment</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_7/</link>
       <pubDate>Wed, 25 Sep 2024 14:30:56 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_7/</guid>
       <description>
         
           
@@ -44,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/microsoft-365-ce
     
     <item>
       <title>Integrating AI into Business Processes with the Process Framework</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_8/</link>
       <pubDate>Wed, 25 Sep 2024 14:30:34 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_8/</guid>
       <description>
         
           
@@ -61,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/integrating-ai-i
     
     <item>
       <title>Announcing the GA of Dynamic Scaling (Per Region and Per Partition Autoscale)</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_9/</link>
       <pubDate>Wed, 25 Sep 2024 14:00:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_9/</guid>
       <description>
         
           
@@ -78,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-the-ga-of-dy
     
     <item>
       <title>Announcing Cost and Performance Improvements with Azure Cosmos DB’s Binary Encoding</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_7/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_10/</link>
       <pubDate>Wed, 25 Sep 2024 14:00:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_10/</guid>
       <description>
         
           
@@ -95,10 +112,10 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-cost-and-per
     
     <item>
       <title>Another example of the Windows Runtime interop pattern: Using the UserConsentVerifier from a Win32 program</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_8/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_11/</link>
       <pubDate>Wed, 25 Sep 2024 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_11/</guid>
       <description>
         
           
@@ -112,10 +129,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20240925-00/?p=11031
     
     <item>
       <title>Sep 2024: A look at the latest Microsoft Entra key feature releases, announcements, and updates</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_9/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_12/</link>
       <pubDate>Wed, 25 Sep 2024 11:29:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_12/</guid>
       <description>
         
           
@@ -129,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/identity/eng-connect-sep-24
     
     <item>
       <title>Organize Your Breakpoints like a pro</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_10/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_13/</link>
       <pubDate>Wed, 25 Sep 2024 10:00:50 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_13/</guid>
       <description>
         
           
@@ -146,10 +163,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/organize-your-break
     
     <item>
       <title>Security Update: Changes to URI Expiry Time in Azure Notification Hubs</title>
-      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_11/</link>
+      <link>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_14/</link>
       <pubDate>Wed, 25 Sep 2024 09:35:26 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_09_2024/25_09_2024_14/</guid>
       <description>
         
           
