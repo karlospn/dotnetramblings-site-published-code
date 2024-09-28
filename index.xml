@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 27 Sep 2024 21:57:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breaking It Down: How to Migrate Your Modular Monolith to Microservices</title>
+      <link>https://www.dotnetramblings.com/post/28_09_2024/28_09_2024_0/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_09_2024/28_09_2024_0/</guid>
+      <description>
+        
+          
+            Transitioning from a modular monolith to microservices can significantly enhance your system&#39;s scalability and your team&#39;s productivity, but it&#39;s a journey that requires careful planning and execution. In this practical guide, I&#39;ll walk you through the key steps of this migration process, from preparing your monolith and selecting the right module to extract, to implementing effective inter-service communication and data migration strategies, all based on real-world experience with .NET applications.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Architecture to AWS CloudFormation code using Anthropic’s Claude 3 on Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/27_09_2024/27_09_2024_0/</link>
@@ -1325,192 +1341,6 @@ Link to article: https://www.devleader.ca/2024/09/21/so-you-failed-your-intervie
           
             This article walks you through how I used Lunr.js to add powerful search capabilities to a Next.js static site, dealing with challenges like client-side processing and optimizing for performance along the way.
 Link to article: https://www.milanjovanovic.tech/blog/how-i-implemented-full-text-search-on-my-website 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Integrate dynamic web content in your generative AI application using a web search API and Amazon Bedrock Agents</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_0/</link>
-      <pubDate>Fri, 20 Sep 2024 22:04:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_0/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to use Amazon Bedrock Agents with a web search API to integrate dynamic web content in your generative AI application.
-Link to article: https://aws.amazon.com/blogs/machine-learning/integrate-dynamic-web-content-in-your-generative-ai-application-using-a-web-search-api-and-amazon-bedrock-agents/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build a generative AI assistant to enhance employee experience using Amazon Q Business</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_1/</link>
-      <pubDate>Fri, 20 Sep 2024 19:46:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_1/</guid>
-      <description>
-        
-          
-            In this blog post, we explore how you can use Amazon Q Business to build generative AI assistants that enhance employee experience and boost productivity. Amazon Q Business seamlessly integrates with internal data sources, knowledge bases, and productivity tools to equip your workforce with instant access to information, automated tasks, and personalized support.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-generative-ai-assistant-to-enhance-employee-experience-using-amazon-q-business/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing document-level sync reports: Enhanced data sync visibility in Amazon Kendra</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_2/</link>
-      <pubDate>Fri, 20 Sep 2024 19:36:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_2/</guid>
-      <description>
-        
-          
-            In this post, we show you how the new document-level report in Amazon Kendra provides enhanced visibility and observability into the document processing lifecycle during data source sync jobs.
-Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-document-level-sync-reports-enhanced-data-sync-visibility-in-amazon-kendra/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Debunking Kafka Top 5 Use Cases</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_3/</link>
-      <pubDate>Fri, 20 Sep 2024 16:45:52 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_3/</guid>
-      <description>
-        
-          
-            Infographics are easy and quick to look at and they are posted everywhere. But are they actually correct? Not really. Here’s an example of the “Top 5 use cases for Kafka” that aren’t actually valid use-cases at all. YouTube Check out my YouTube channel, where I post all kinds of content accompanying my posts, including this video… Read More »Debunking Kafka Top 5 Use Cases The post Debunking Kafka Top 5 Use Cases appeared first on CodeOpinion.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How can I check that all the changes in a git branch have been cherry-picked or rebased into its upstream branch?</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_4/</link>
-      <pubDate>Fri, 20 Sep 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_4/</guid>
-      <description>
-        
-          
-            You can pretend to merge it and see if anything happens.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20240920-00/?p=110287 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What’s New in PyCharm 2024.2.2!</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_5/</link>
-      <pubDate>Fri, 20 Sep 2024 11:33:32 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_5/</guid>
-      <description>
-        
-          
-            PyCharm 2024.2.2 is here with many key updates, including Python support improvements, new Django features, and enhancements to the Data View tool window! Visit our What’s New page for more details on all these features and to explore many others. You can download the latest version from our download page or update your current version […]
-Link to article: https://blog.jetbrains.com/pycharm/2024/09/pycharm-2024-2-2/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Learn Rust in 2024: A Complete Beginner’s Guide to Mastering Rust Programming</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_6/</link>
-      <pubDate>Fri, 20 Sep 2024 11:14:38 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_6/</guid>
-      <description>
-        
-          
-            So, you’re thinking about choosing Rust as your next programming language to learn. You already know what it means to write code and have some experience with at least one programming language, probably Python or JavaScript. You’ve heard about Rust here and there. People say it’s a modern systems programming language that brings safety and […]
-Link to article: https://blog.jetbrains.com/rust/2024/09/20/how-to-learn-rust/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Autogen RAG</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_7/</link>
-      <pubDate>Fri, 20 Sep 2024 07:00:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_7/</guid>
-      <description>
-        
-          
-            Linkai Yu explores the retrieval-augemented generation pattern with Azure OpenAI Assistants API. The Retrieval-Augmented Generation (RAG) pattern is the standard for integrating ground AI with local data. One powerful way to implement RAG is through the function call or tool call feature in the Function Call API. When examining the samples provided by the Azure […]
-Link to article: https://devblogs.microsoft.com/premier-developer/autogen-rag 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ReSharper 2024.3 Starts its Early Access Program!</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_8/</link>
-      <pubDate>Fri, 20 Sep 2024 04:58:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_8/</guid>
-      <description>
-        
-          
-            Say hello to the first build of ReSharper 2024.3 Early Access Program! This build is mostly about improving C++ support, but it still has something new for C# developers as well. Let’s have a look! ReSharper Code Cleanup Now you can substitute a default Code Cleanup profile with another one for particular files via .editorconfig […]
-Link to article: https://blog.jetbrains.com/dotnet/2024/09/20/resharper-2024-3-eap/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ReSharper C&#43;&#43; 2024.3 Starts its Early Access Program!</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_9/</link>
-      <pubDate>Fri, 20 Sep 2024 04:58:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_9/</guid>
-      <description>
-        
-          
-            The Early Access Program for ReSharper C++ 2024.3 has just begun! Move to Folder The Move to Folder refactoring now also handles C++ files (RSCPP-17126). After moving selected files to the new location, the refactoring will update the #include directives that reference the moved files. Language support ReSharper now supports the following new language features: […]
-Link to article: https://blog.jetbrains.com/rscpp/2024/09/20/resharper-cpp-2024-3-eap/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Rider 2024.3 Early Access Program Is Here!</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_10/</link>
-      <pubDate>Fri, 20 Sep 2024 04:58:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2024/20_09_2024_10/</guid>
-      <description>
-        
-          
-            Let’s start the last Early Access Program for JetBrains Rider this year! Rider 2024.3 EAP brings the following updates: Support for hot reloading C++ with Live++ We’ve been working with the folks at Live++ to bring seamless C++ hot reloading support to Rider! There’s no new UI, but the user experience will be a lot […]
-Link to article: https://blog.jetbrains.com/dotnet/2024/09/20/rider-2024-3-eap/ 
           
           
         
