@@ -25,21 +25,5 @@ Link to article: https://www.meziantou.net/avoid-hsts-issues-on-localhost.htm?ut
       </description>
     </item>
     
-    <item>
-      <title>Using Mutex&lt;T&gt; to synchronize access to a shared resource</title>
-      <link>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_11/</link>
-      <pubDate>Mon, 23 Sep 2024 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_09_2024/23_09_2024_11/</guid>
-      <description>
-        
-          
-            When you need to access a shared resource, you can use the lock statement or a synchronization primitive such as a Mutex to synchronize access to the resource. However, it&#39;s easy to forget it in complex code. When you need to synchronize access to a single resource, you can use a var obj = new object(); var value = 42; lock (obj) { // You need to ensure you use lock everywhere you access the shared…
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
