@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 01 Oct 2024 07:18:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 13:10:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dev Proxy v0.21 with simulating authentication and authorization</title>
+      <title>High-Resolution Timers on Windows</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2024/01_10_2024_0/</link>
+      <pubDate>Tue, 01 Oct 2024 13:10:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2024/01_10_2024_0/</guid>
+      <description>
+        
+          
+            The Go Windows port added support for high-resolution timers in Go 1.23, boosting the resolution of time.Sleep from ~15.6ms to ~0.5ms.
+Link to article: https://devblogs.microsoft.com/go/high-resolution-timers-windows 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Deprecation of the macOS-12 Hosted Pipeline Image</title>
       <link>https://www.dotnetramblings.com/post/01_10_2024/01_10_2024_2/</link>
-      <pubDate>Tue, 01 Oct 2024 07:18:00 +0000</pubDate>
+      <pubDate>Tue, 01 Oct 2024 12:44:03 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/01_10_2024/01_10_2024_2/</guid>
+      <description>
+        
+          
+            Azure DevOps is starting the deprecation process for the macOS-12 (Monterey) hosted pilelines image. While the image is being deprecated, you may experience longer queue times during peak usage hours. Deprecation will begin on October 7 and the image will be fully unsupported by December 3. Pipeline jobs using the macOS-12 image label should be […]
+Link to article: https://devblogs.microsoft.com/devops/upcoming-deprecation-of-macos-12-hosted-pipeline-image 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Dev Proxy v0.21 with simulating authentication and authorization</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2024/01_10_2024_6/</link>
+      <pubDate>Tue, 01 Oct 2024 07:18:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2024/01_10_2024_6/</guid>
       <description>
         
           
