@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>A popular but wrong way to convert a string to uppercase or lowercase | .NET Ramblings</title>
+<title>Preventing double clicks in Blazor components | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,24 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Converting character by character isn&#39;t good enough any more.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241007-00/?p=110345 " />
+<meta name="description" content="I’ve built a number of online stores over the years and one thing remains true… Customers get pretty annoyed if you charge them twice for the same thing. So how …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="A popular but wrong way to convert a string to uppercase or lowercase" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/07_10_2024/07_10_2024_2/" />
-<meta property="og:title" content="A popular but wrong way to convert a string to uppercase or lowercase" />
-<meta property="og:description" content="Converting character by character isn&#39;t good enough any more.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241007-00/?p=110345 " />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta name="twitter:title" content="Preventing double clicks in Blazor components" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/blazor.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/07_10_2024/07_10_2024_8/" />
+<meta property="og:title" content="Preventing double clicks in Blazor components" />
+<meta property="og:description" content="I’ve built a number of online stores over the years and one thing remains true… Customers get pretty annoyed if you charge them twice for the same thing. So how …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/blazor.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/07_10_2024/07_10_2024_2/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/07_10_2024/07_10_2024_8/">
 
 
 
@@ -134,7 +132,7 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20241007-00/?p=11034
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">A popular but wrong way to convert a string to uppercase or lowercase</h1>
+    <h1 class="post_title">Preventing double clicks in Blazor components</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,45 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20241007-00/?p=11034
 </svg>
 </span>
     <span class="post_date">
-      Oct 7, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Oct 7, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jonhilton.net/' title="jonhilton.net" class="post_tag button button_translucent">jonhilton.net
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Converting character by character isn't good enough any more.</p>
+    <div class="post_body"><p>I’ve built a number of online stores over the years and one thing remains true…
+Customers get pretty annoyed if you charge them twice for the same thing.
+So how can you avoid such calamity?
+Well you probably want to architect your backend to reduce the chances of an operation being called twice.
+For example you might use a session id and block an order from being created/placed if another one has already been created for that session id.
+But what about at the UI level?
+The risk there is that the user clicks the same button twice, either through impatience or by accident.
+In a Blazor app you can use a little bit of UI logic to disable a button once the user has clicked it.
+The typical pattern is to toggle a flag when the user clicks the button, then toggle that flag back again after the operation completes.
+Here’s a simple example.
+@page &quot;/buttonTest&quot;
+@rendermode InteractiveServer</p>
+<p>&lt;button @onclick=&quot;HandleClick&quot;
+disabled=&quot;@_isLoading&quot;
+class=&quot;@(_isLoading ? &quot;loading&quot; : &quot;&quot;)&quot;&gt;
+@ButtonText
+</button>
+@code {
+private bool _isLoading = false;
+private string ButtonText =&gt;
+_isLoading ? &quot;Processing...&quot; : &quot;Click me&quot;;</p>
+<p>private async Task HandleClick()
+{
+_isLoading = true;</p>
+<p>await Task.Delay(3000); // Simulating a long-running operation</p>
+<p>_isLoading = false;
+}
+}
+As soon as the button is clicked, we toggle the _isLoading flag to true.
+A little bit of conditional logic then sets the button to disabled (and, optionally, toggles a class on the button called loading).
+Once the operation completes, we set the _isLoading flag back to false.
+Simple, but effective.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20241007-00/?p=110345">https://devblogs.microsoft.com/oldnewthing/20241007-00/?p=110345</a></li>
+<li>Link to article: <a href="https://jonhilton.net/prevent-double-clicks-blazor/">https://jonhilton.net/prevent-double-clicks-blazor/</a></li>
 </ul>
 
     </div>
