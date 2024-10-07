@@ -43,6 +43,22 @@ Link to article: https://damienbod.com/2024/10/07/microsoft-entra-id-app-to-app-
     </item>
     
     <item>
+      <title>Preventing double clicks in Blazor components</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2024/07_10_2024_2/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2024/07_10_2024_2/</guid>
+      <description>
+        
+          
+            I’ve built a number of online stores over the years and one thing remains true… Customers get pretty annoyed if you charge them twice for the same thing. So how can you avoid such calamity? Well you probably want to architect your backend to reduce the chances of an operation being called twice. For example you might use a session id and block an order from being created/placed if another one has already been created for that session id.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Harnessing Spargine: Simplifying Real-World Data Generation for .NET Benchmarking and Testing</title>
       <link>https://www.dotnetramblings.com/post/06_10_2024/06_10_2024_0/</link>
       <pubDate>Sun, 06 Oct 2024 08:00:00 +0000</pubDate>
