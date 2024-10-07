@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 06 Oct 2024 13:38:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Oct 2024 07:25:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft Entra ID App-to-App security architecture</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2024/07_10_2024_0/</link>
+      <pubDate>Mon, 07 Oct 2024 07:25:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2024/07_10_2024_0/</guid>
+      <description>
+        
+          
+            This article looks at the different setups when using App-to-App security with Microsoft Entra ID (OAuth client credentials). Microsoft Entra App registrations are used to configure the OAuth clients and resources. For each tenant, an Enterprise application is created for the client App registration when the consent is granted. The claims in the access token […]
+Link to article: https://damienbod.com/2024/10/07/microsoft-entra-id-app-to-app-security-architecture/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Harnessing Spargine: Simplifying Real-World Data Generation for .NET Benchmarking and Testing</title>
       <link>https://www.dotnetramblings.com/post/06_10_2024/06_10_2024_0/</link>
