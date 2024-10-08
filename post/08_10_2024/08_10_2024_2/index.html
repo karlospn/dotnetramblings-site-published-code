@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Revisiting improved HTTP logging in ASP.NET Core 8 | .NET Ramblings</title>
+<title>Replacing Exceptions-as-flow-control with the result pattern: Working with the result pattern - Part 1 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,17 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="A few years ago, I had a play with HTTP logging added in ASP.NET Core 6. ASP.NET Core 8 introduced a set of additional configuration options that I believe are …" />
+<meta name="description" content="In this post I discuss why you might want to use the result pattern, demonstrate it with a simple example and show a naïve, ugly, solution
+Link to article: …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Revisiting improved HTTP logging in ASP.NET Core 8" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta name="twitter:title" content="Replacing Exceptions-as-flow-control with the result pattern: Working with the result pattern - Part 1" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/08_10_2024/08_10_2024_2/" />
-<meta property="og:title" content="Revisiting improved HTTP logging in ASP.NET Core 8" />
-<meta property="og:description" content="A few years ago, I had a play with HTTP logging added in ASP.NET Core 6. ASP.NET Core 8 introduced a set of additional configuration options that I believe are …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
+<meta property="og:title" content="Replacing Exceptions-as-flow-control with the result pattern: Working with the result pattern - Part 1" />
+<meta property="og:description" content="In this post I discuss why you might want to use the result pattern, demonstrate it with a simple example and show a naïve, ugly, solution
+Link to article: …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +134,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Revisiting improved HTTP logging in ASP.NET Core 8</h1>
+    <h1 class="post_title">Replacing Exceptions-as-flow-control with the result pattern: Working with the result pattern - Part 1</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +142,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Oct 8, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.elmah.io/' title="blog.elmah.io" class="post_tag button button_translucent">blog.elmah.io
+      Oct 8, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/andrewlock.net/' title="andrewlock.net" class="post_tag button button_translucent">andrewlock.net
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>A few years ago, I had a play with HTTP logging added in ASP.NET Core 6. ASP.NET Core 8 introduced a set of additional configuration options that I believe are essential to make this feature usable. I will recap the details from the previous post below, but for asd</p>
+    <div class="post_body"><p>In this post I discuss why you might want to use the result pattern, demonstrate it with a simple example and show a naïve, ugly, solution</p>
 <ul>
-<li>Link to article: <a href="https://blog.elmah.io/revisiting-improved-http-logging-in-asp-net-core-8/">https://blog.elmah.io/revisiting-improved-http-logging-in-asp-net-core-8/</a></li>
+<li>Link to article: <a href="https://andrewlock.net/working-with-the-result-pattern-part-1-replacing-exceptions-as-control-flow/">https://andrewlock.net/working-with-the-result-pattern-part-1-replacing-exceptions-as-control-flow/</a></li>
 </ul>
 
     </div>
