@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>What’s New in vcpkg (September 2024) | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="This blog post summarizes changes to the vcpkg package manager as part of the 2024.09.23 and 2024.09.30 releases, 2024-09-18 and 2024-09-30 tool releases, as …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="What’s New in vcpkg (September 2024)" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/09_10_2024/09_10_2024_4/" />
+<meta property="og:title" content="What’s New in vcpkg (September 2024)" />
+<meta property="og:description" content="This blog post summarizes changes to the vcpkg package manager as part of the 2024.09.23 and 2024.09.30 releases, 2024-09-18 and 2024-09-30 tool releases, as …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/09_10_2024/09_10_2024_4/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/microsoft365dev/unlocking-the-power-of-app-analytics-for-isvs-in-the-developer-portal" title="Unlocking the power of app analytics for ISVs in the Developer Portal">Unlocking the power of app analytics for ISVs in the Developer Portal</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">What’s New in vcpkg (September 2024)</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,367 +140,27 @@
 </svg>
 </span>
     <span class="post_date">
-      Oct 2, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Oct 9, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Unlocking the power of app analytics for ISVs in the Developer Portal"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Read about the updated app analytics capabilities in the Microsoft 365 Developer Portal.
-Link to article: <a href="https://devblogs.microsoft.com/microsoft365dev/unlocking-the-power-of-app-analytics-for-isvs-in-the-developer-portal">https://devblogs.microsoft.com/microsoft365dev/unlocking-the-power-of-app-analytics-for-isvs-in-the-developer-portal</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/microsoft365dev/unlocking-the-power-of-app-analytics-for-isvs-in-the-developer-portal" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/cppblog/latest-enhancements-to-copilot-workflows-in-visual-studio-move-seamlessly-from-copilot-in-quick-info-and-more" title="Latest enhancements to Copilot workflows in Visual Studio: Move seamlessly from Copilot in Quick Info and more…">Latest enhancements to Copilot workflows in Visual Studio: Move seamlessly from Copilot in Quick Info and more…</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 2, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>This blog post summarizes changes to the vcpkg package manager as part of the 2024.09.23 and 2024.09.30 releases, 2024-09-18 and 2024-09-30 tool releases, as well as changes to vcpkg documentation throughout September. This month’s release includes some minor changes and bug fixes, 18 new ports, and 319 updates to existing ports. When updating vcpkg, we […]</p>
+<ul>
+<li>Link to article: <a href="https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-september-2024">https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-september-2024</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Latest enhancements to Copilot workflows in Visual Studio: Move seamlessly from Copilot in Quick Info and more…"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>There have been new integrations added to Copilot workflows in Visual Studio to make it even more seamless to navigate between in-editor activities and the Chat window that has context of global workspace, conversational history, and more to get the most out of Copilot, wherever you are. With the latest updates, you …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/cppblog/latest-enhancements-to-copilot-workflows-in-visual-studio-move-seamlessly-from-copilot-in-quick-info-and-more" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/idea/2024/10/intellij-idea-2024-3-eap-4/" title="IntelliJ IDEA 2024.3 EAP 4: Updated Run Widget, Support for Maven’s Split Local Repositories, and More">IntelliJ IDEA 2024.3 EAP 4: Updated Run Widget, Support for Maven’s Split Local Repositories, and More</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 2, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="IntelliJ IDEA 2024.3 EAP 4: Updated Run Widget, Support for Maven’s Split Local Repositories, and More"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>IntelliJ IDEA 2024.3 EAP 4 is now available! You can download this version from our website, update directly from within the IDE, use the free Toolbox App, or install it via snap packages for Ubuntu. Download IntelliJ IDEA 2024.3 EAP 4 If you missed our previous overviews of the newly added features, visit the IntelliJ …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/idea/2024/10/intellij-idea-2024-3-eap-4/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20241002-00/?p=110333" title="A function for creating an absolute security descriptor from a self-relative one">A function for creating an absolute security descriptor from a self-relative one</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 2, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="A function for creating an absolute security descriptor from a self-relative one"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Just wrap it up.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20241002-00/?p=110333">https://devblogs.microsoft.com/oldnewthing/20241002-00/?p=110333</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20241002-00/?p=110333" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/visualstudio/discover-hidden-insights-with-profilers-external-code-decompilation" title="Discover Hidden Insights with Profiler’s External Code Decompilation">Discover Hidden Insights with Profiler’s External Code Decompilation</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 2, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Discover Hidden Insights with Profiler’s External Code Decompilation"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Have you ever wondered what’s happening under the hood of your .NET application? Do you want to quickly and easily identify and fix performance bottlenecks? If so, Visual Studio has the perfect tool for you: the profiler. The profiler allows you to analyze your code’s performance, pinpoint hot paths, detect memory …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/visualstudio/discover-hidden-insights-with-profilers-external-code-decompilation" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/pycharm/2024/10/prompt-ai-directly-in-the-editor/" title="Prompt AI Directly in the Editor">Prompt AI Directly in the Editor</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 2, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Prompt AI Directly in the Editor"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>With PyCharm, you now have the support of AI Assistant at your fingertips. You can interact with it right where you do most of your work – in the editor. Stuck with an error in your code? Need to add documentation or tests? Just start typing your request on a new line in the editor, […]
-Link to article: …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/pycharm/2024/10/prompt-ai-directly-in-the-editor/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -532,9 +184,8 @@ Link to article: …</p>
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
