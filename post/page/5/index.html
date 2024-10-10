@@ -4,12 +4,10 @@
   lang="en"
   data-figures=""
   
-    class="page"
-  
   
   >
   <head>
-<title>Java on Visual Studio Code的更新 – 2024年9月 | .NET Ramblings</title>
+<title>Posts | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +26,23 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="大家好，欢迎来到 Visual Studio Code for Java 的九月更新！在本篇博客中，我们将介绍一些重要的 Spring 功能更新和 Gradle 增强功能，让我们开始吧！ Spring 更新 使用 GitHub Copilot 解释 SpEL 表达式、查询语句和 AOP 切入点表达式 SpEL 表达式、 …" />
+<meta name="description" content="" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Java on Visual Studio Code的更新 – 2024年9月" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/vs.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/10_10_2024/10_10_2024_9/" />
-<meta property="og:title" content="Java on Visual Studio Code的更新 – 2024年9月" />
-<meta property="og:description" content="大家好，欢迎来到 Visual Studio Code for Java 的九月更新！在本篇博客中，我们将介绍一些重要的 Spring 功能更新和 Gradle 增强功能，让我们开始吧！ Spring 更新 使用 GitHub Copilot 解释 SpEL 表达式、查询语句和 AOP 切入点表达式 SpEL 表达式、 …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/vs.png" />
+<meta name="twitter:title" content="Posts" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
+<meta property="og:title" content="Posts" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/10_10_2024/10_10_2024_9/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/">
+<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
 
 
 
@@ -129,10 +128,19 @@
 </header>
 
     <main>
-  
+
+
+
 <div class="grid-inverse wrap content">
-  <article class="post_content">
-    <h1 class="post_title">Java on Visual Studio Code的更新 – 2024年9月</h1>
+  <div>
+    <ul class="posts" id="posts">
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://devblogs.microsoft.com/oldnewthing/20241003-00/?p=110336" title="How can I detect whether the user is running as an elevated administrator (as opposed to a natural administrator)?">How can I detect whether the user is running as an elevated administrator (as opposed to a natural administrator)?</a>
+      </h3>
+      
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,27 +148,83 @@
 </svg>
 </span>
     <span class="post_date">
-      Oct 10, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Oct 3, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>大家好，欢迎来到 Visual Studio Code for Java 的九月更新！在本篇博客中，我们将介绍一些重要的 Spring 功能更新和 Gradle 增强功能，让我们开始吧！ Spring 更新 使用 GitHub Copilot 解释 SpEL 表达式、查询语句和 AOP 切入点表达式 SpEL 表达式、查询语句和 AOP 切入点表达式有时编写起来比较复杂，但如果你在 Visual Studio Code 环境中使用 GitHub Copilot，Spring 工具现在会在这些表达式上方显示CodeLense，让你快速让 GitHub Copilot 为你解释这些语句。相应的提示会先提供一个简短的摘要，随后是更详细的解释。这里有一个演示。 CRON 表达式的语法高亮和验证 当 CRON 表达式用于 @Scheduler 注解时，现在可以显示语法高亮，并且如果语法不正确，还会出现错误标记。演示如下。 查询参数名称的新嵌入提示 使用序号引用查询特定参数，现在会显示一个嵌入提示，告诉你该序号所引用的已解析方法参数的名称。 更多 Spring 注解获得内容辅助、跳转定义和查找引用支持 在 Java 源代码中使用 Spring 注解的工作每次发布都会变得更加快捷和轻松。最新的 Spring Boot 工具添加了以下注解的高级功能： […]</p>
-<ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/java-ch/java-on-visual-studio-code-2024-09">https://devblogs.microsoft.com/java-ch/java-on-visual-studio-code-2024-09</a></li>
-</ul>
-
     </div>
-<div class="post_comments">
+    <div class="excerpt_footer partition">
+      <div class="excerpt_thumbnail"><figure>
+    <picture>
   
+      
+        
+          
+          
+          
+          
+          
+          
+      <img
+        loading="lazy"
+        decoding="async"
+        alt="How can I detect whether the user is running as an elevated administrator (as opposed to a natural administrator)?"
+        
+          class="image_figure image_thumbnail image_internal image_unprocessed"
+          src="https://www.dotnetramblings.com/images/misc.png"
+        
+        
+      />
   
-  
-</div>
-
-
-
-
-  </article>
+      </picture>
+  </figure>
+      </div>
+      
+        <div class="pale">
+          
+            <p>You can ask for the elevation type.
+Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20241003-00/?p=110336">https://devblogs.microsoft.com/oldnewthing/20241003-00/?p=110336</a></p>
+          
+          <br>
+          <a href="https://devblogs.microsoft.com/oldnewthing/20241003-00/?p=110336" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+      <li>
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 5" class="page-link" role="button">5</a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+      </li>
+    </ul>
+  </div>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -184,8 +248,9 @@
   </section>
 </aside>
 
-  
 </div>
+
+
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
