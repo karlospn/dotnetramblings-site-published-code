@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 11 Oct 2024 19:47:24 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling the Outbox Pattern (2B&#43; messages per day)</title>
+      <link>https://www.dotnetramblings.com/post/12_10_2024/12_10_2024_0/</link>
+      <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_10_2024/12_10_2024_0/</guid>
+      <description>
+        
+          
+            Learn how to supercharge your Outbox pattern implementation, scaling to 30,500 messages per second. Through strategic optimizations in database queries, message publishing, and parallel processing, I&#39;ll show you how to handle over 2.8 billion messages daily while maintaining system reliability.
+Link to article: https://www.milanjovanovic.tech/blog/scaling-the-outbox-pattern 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Boost productivity by using AI in cloud operational health management</title>
       <link>https://www.dotnetramblings.com/post/11_10_2024/11_10_2024_0/</link>
@@ -1241,176 +1258,6 @@ Link to article: https://dotnettips.wordpress.com/2024/10/05/unleashing-net-9-ke
           
             Discover how the Outbox pattern solves the dual-write problem in distributed systems, ensuring data consistency between your database and external components. This article provides practical strategies for implementing and scaling the Outbox pattern in .NET applications.
 Link to article: https://www.milanjovanovic.tech/blog/implementing-the-outbox-pattern 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Add Retrieval Augmented Generation (RAG) to your .NET applications with Amazon Bedrock Knowledge Bases</title>
-      <link>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_0/</link>
-      <pubDate>Fri, 04 Oct 2024 20:33:46 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_0/</guid>
-      <description>
-        
-          
-            Introduction When interacting with a large language model (LLM), its knowledge comes from data used during its training, which is often mostly from public sources. As a result, the model’s knowledge may not fully reflect the most current information. This leads to three main issues: outdated information, no access to internal company data, and potential […]
-Link to article: https://aws.amazon.com/blogs/dotnet/add-retrieval-augmented-generation-rag-to-your-net-applications-with-amazon-bedrock-knowledge-bases/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Create your fashion assistant application using Amazon Titan models and Amazon Bedrock Agents</title>
-      <link>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_1/</link>
-      <pubDate>Fri, 04 Oct 2024 19:53:52 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_1/</guid>
-      <description>
-        
-          
-            In this post, we implement a fashion assistant agent using Amazon Bedrock Agents and the Amazon Titan family models. The fashion assistant provides a personalized, multimodal conversational experience.
-Link to article: https://aws.amazon.com/blogs/machine-learning/create-your-fashion-assistant-application-using-amazon-titan-models-and-amazon-bedrock-agents/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing Azure Cosmos DB Integration with LangChain.js!</title>
-      <link>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_2/</link>
-      <pubDate>Fri, 04 Oct 2024 17:59:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_2/</guid>
-      <description>
-        
-          
-            Announcing Azure Cosmos DB Vector Store Integration with LangChain.js! We’re simplifying AI app development by integrating Azure Cosmos DB’s cost-effective and scalable vector search directly with LangChain.js! This powerful combination empowers JavaScript developers to efficiently manage fast and accurate data retrieval with Azure Cosmos DB’s scalability and efficient vector search capabilities. This offers a powerful […]
-Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-azure-cosmos-db-integration-with-langchain-js 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Scale Your Database Workloads with Multishard Clusters in vCore-based Azure Cosmos DB for MongoDB</title>
-      <link>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_3/</link>
-      <pubDate>Fri, 04 Oct 2024 17:55:33 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_3/</guid>
-      <description>
-        
-          
-            We’re excited to introduce significant enhancements to vCore-based Azure Cosmos DB for MongoDB with the release of multishard clusters preview, designed to take scalability and performance to the next level. This update brings several new capabilities that address the needs of demanding database workloads, making it easier than ever to manage large datasets and handle high-throughput […]
-Link to article: https://devblogs.microsoft.com/cosmosdb/scale-your-database-workloads-with-multishard-clusters-in-vcore-based-azure-cosmos-db-for-mongodb 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Python in Visual Studio Code – October 2024 Release</title>
-      <link>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_4/</link>
-      <pubDate>Fri, 04 Oct 2024 14:21:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_4/</guid>
-      <description>
-        
-          
-            The October 2024 release of the Python and Jupyter extensions for Visual Studio Code are now available. This month&#39;s updates include Python test coverage support and a default Python problem matcher. Keep reading to learn more!
-Link to article: https://devblogs.microsoft.com/python/python-in-visual-studio-code-october-2024-release 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How does the linker decide whether to call WinMain or wWinMain?</title>
-      <link>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_5/</link>
-      <pubDate>Fri, 04 Oct 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_5/</guid>
-      <description>
-        
-          
-            If you don&#39;t tell it, it will try to figure it out.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241004-00/?p=110338 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Complete the Un-Completable: The State of AI Completion in JetBrains IDEs</title>
-      <link>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_6/</link>
-      <pubDate>Fri, 04 Oct 2024 13:21:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_6/</guid>
-      <description>
-        
-          
-            Code completion has always been a standout feature in JetBrains IDEs, helping developers code faster, smarter, and with fewer mistakes. But what if it could do even more? What if it could predict not just the next element but entire lines of code – or even complete blocks? That’s exactly what we’ve been working on. […]
-Link to article: https://blog.jetbrains.com/ai/2024/10/complete-the-un-completable-the-state-of-ai-completion-in-jetbrains-ides/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Support for SLNX Solution Files</title>
-      <link>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_7/</link>
-      <pubDate>Fri, 04 Oct 2024 12:40:29 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_7/</guid>
-      <description>
-        
-          
-            For nearly twenty years, the .NET community has enjoyed working with solution files (*.sln). Due to their tooling-centered format, manually changing these files has always been challenging. Merge conflicts in solution files—much like merging CSPROJ files—were commonplace and often resulted in corrupted files or lost changes. The structure of SLN files is overly verbose—an empty […]
-Link to article: https://blog.jetbrains.com/dotnet/2024/10/04/support-for-slnx-solution-files/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Java Annotated Monthly – October 2024</title>
-      <link>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_8/</link>
-      <pubDate>Fri, 04 Oct 2024 11:17:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_8/</guid>
-      <description>
-        
-          
-            Hey, Java fans! Get ready for a treat – it’s time for our October 2024 Java Annotated Monthly! We’re buzzing with excitement about Java 23, and we’ve got a bunch of ace articles and videos to keep you updated about the newest features. We’re also exploring some tech stuff beyond Java, and IntelliJ IDEA is […]
-Link to article: https://blog.jetbrains.com/idea/2024/10/java-annotated-monthly-october-2024/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Streamlining Error Handling in Power Automate for Better Workflow Performance</title>
-      <link>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_9/</link>
-      <pubDate>Fri, 04 Oct 2024 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_10_2024/04_10_2024_9/</guid>
-      <description>
-        
-          
-            This post explores effective error handling strategies in Power Automate to enhance workflow reliability and maintainability through practical techniques and integrations.
-Link to article: https://devblogs.microsoft.com/ise/power-automate-error-handling 
           
           
         
