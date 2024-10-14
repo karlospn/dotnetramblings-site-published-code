@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Understanding OverloadResolutionPriority attribute in C# 13 | .NET Ramblings</title>
+<title>How to Prevent Concurrent Execution of a Hangfire Job | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="C# 13 adds support for a new attribute: [OverloadResolutionPriority]. This attribute is niche, so most of you won&#39;t use it. However, it&#39;s a nice addition to the …" />
+<meta name="description" content="In this article, we will see how we can prevent the concurrent execution of a Hangfire job. Hangfire is a wonderful tool for scheduling recurring background …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Understanding OverloadResolutionPriority attribute in C# 13" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_0/" />
-<meta property="og:title" content="Understanding OverloadResolutionPriority attribute in C# 13" />
-<meta property="og:description" content="C# 13 adds support for a new attribute: [OverloadResolutionPriority]. This attribute is niche, so most of you won&#39;t use it. However, it&#39;s a nice addition to the …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
+<meta name="twitter:title" content="How to Prevent Concurrent Execution of a Hangfire Job" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_1/" />
+<meta property="og:title" content="How to Prevent Concurrent Execution of a Hangfire Job" />
+<meta property="og:description" content="In this article, we will see how we can prevent the concurrent execution of a Hangfire job. Hangfire is a wonderful tool for scheduling recurring background …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_0/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_1/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Understanding OverloadResolutionPriority attribute in C# 13</h1>
+    <h1 class="post_title">How to Prevent Concurrent Execution of a Hangfire Job</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,15 @@
 </svg>
 </span>
     <span class="post_date">
-      Oct 14, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
+      Oct 14, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code-maze.com/' title="code-maze.com" class="post_tag button button_translucent">code-maze.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>C# 13 adds support for a new attribute: [OverloadResolutionPriority]. This attribute is niche, so most of you won't use it. However, it's a nice addition to the language, and it's worth knowing about it if you are writing libraries. Let's consider this simple example: Sample.Test(); // Print: Test 1 static class Sample { public static void Test() =&gt; Console.WriteLine(&quot;Test 1&quot;); } Now, you want to update…</p>
+    <div class="post_body"><p>In this article, we will see how we can prevent the concurrent execution of a Hangfire job. Hangfire is a wonderful tool for scheduling recurring background jobs. But, if we are not careful, we can encounter strange or intermittent errors caused by concurrent execution of a given job. We will first discuss potential problems related […]
+The post How to Prevent Concurrent Execution of a Hangfire Job appeared first on Code Maze.</p>
 <ul>
-<li>Link to article: <a href="https://www.meziantou.net/understanding-overloadresolutionpriority-attribute-in-csharp-13.htm?utm_medium=social&utm_source=syndication">https://www.meziantou.net/understanding-overloadresolutionpriority-attribute-in-csharp-13.htm?utm_medium=social&utm_source=syndication</a></li>
+<li>Link to article: <a href="https://code-maze.com/aspnetcore-prevent-concurrent-execution-of-a-hangfire-job/">https://code-maze.com/aspnetcore-prevent-concurrent-execution-of-a-hangfire-job/</a></li>
 </ul>
 
     </div>

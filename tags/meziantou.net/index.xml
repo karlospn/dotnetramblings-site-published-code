@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meziantou.net on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/meziantou.net/</link>
+    <description>Recent content in Meziantou.net on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Mon, 14 Oct 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding OverloadResolutionPriority attribute in C# 13</title>
+      <link>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_0/</link>
+      <pubDate>Mon, 14 Oct 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_0/</guid>
+      <description>
+        
+          
+            C# 13 adds support for a new attribute: [OverloadResolutionPriority]. This attribute is niche, so most of you won&#39;t use it. However, it&#39;s a nice addition to the language, and it&#39;s worth knowing about it if you are writing libraries. Let&#39;s consider this simple example: Sample.Test(); // Print: Test 1 static class Sample { public static void Test() =&amp;gt; Console.WriteLine(&amp;quot;Test 1&amp;quot;); } Now, you want to update…
+Link to article: https://www.meziantou.net/understanding-overloadresolutionpriority-attribute-in-csharp-13.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
