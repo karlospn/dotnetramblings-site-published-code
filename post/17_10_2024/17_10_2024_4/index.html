@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>加入 .NET 智能组件生态系统 | .NET Ramblings</title>
+<title>Evaluating tail call elimination in the face of return address protection, part 1 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,17 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="本篇翻译于首席产品经理 Daniel Roth 的Join the .NET Smart Components ecosystem – .NET Blog (microsoft.com) .NET 智能组件是一组示例嵌入式 UI 组件，使得在应用中轻松添加 AI 启用的功能变得更加简单，例如从剪贴板数据自动填写表单、智 …" />
+<meta name="description" content="Reusing the activation frame.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20241017-00/?p=110380 " />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="加入 .NET 智能组件生态系统" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta name="twitter:title" content="Evaluating tail call elimination in the face of return address protection, part 1" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/17_10_2024/17_10_2024_4/" />
-<meta property="og:title" content="加入 .NET 智能组件生态系统" />
-<meta property="og:description" content="本篇翻译于首席产品经理 Daniel Roth 的Join the .NET Smart Components ecosystem – .NET Blog (microsoft.com) .NET 智能组件是一组示例嵌入式 UI 组件，使得在应用中轻松添加 AI 启用的功能变得更加简单，例如从剪贴板数据自动填写表单、智 …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
+<meta property="og:title" content="Evaluating tail call elimination in the face of return address protection, part 1" />
+<meta property="og:description" content="Reusing the activation frame.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20241017-00/?p=110380 " />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +134,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">加入 .NET 智能组件生态系统</h1>
+    <h1 class="post_title">Evaluating tail call elimination in the face of return address protection, part 1</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -145,9 +147,9 @@
     </span>
   </div>
 
-    <div class="post_body"><p>本篇翻译于首席产品经理 Daniel Roth 的Join the .NET Smart Components ecosystem – .NET Blog (microsoft.com)  .NET 智能组件是一组示例嵌入式 UI 组件，使得在应用中轻松添加 AI 启用的功能变得更加简单，例如从剪贴板数据自动填写表单、智能文本补全以及语义搜索等场景。.NET 智能组件演示了如何将基于 AI 的功能预先打包成可重用的组件，从而更容易将这些功能集成到现有应用程序中。我们将 .NET 智能组件源代码作为参考示例实现提供，以帮助启动一个充满活力的可重用 .NET AI 驱动组件生态系统。  现已开源  .NET 智能组件在 GitHub 上的 dotnet/smartcomponents repo 中有了新家，其中包含实现源代码、文档和示例应用程序。库作者可以使用示例组件来获得灵感，并将其作为如何打包 AI 驱动功能以方便使用的参考实现。如果您对如何改进 .NET 智能组件有想法，或者对希望添加的新 AI 组件有想法，请通过在 GitHub 上提出问题与我们分享。  使用语义内核的局部嵌入  .NET 智能组件包含用于在您的服务器上本地计算嵌入 (LocalEmbeddings)的示例便捷 API。这些API可用于比较文本的语义相似性。这些 API 现已更新，以将基于 ONNX 的嵌入支持包装在语义内核中，然后演示如何在其基础上构建更多功能，例如自动模型获取、简化的语义搜索和替代嵌入表示。如果您发现这些附加功能有用，则可以将它们包含在您自己的应用程序和库中。否则，您可以直接使用语义内核 API。  来自流行组件供应商的智能组件  一些流行的组件供应商已经开始投资构建自己的智能组件，以 .NET 智能组件中的理念为基础，并添加自己独特的创新和功能。让我们来看看他们正在研究的几个例子。  […]</p>
+    <div class="post_body"><p>Reusing the activation frame.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/dotnet-ch/%e5%8a%a0%e5%85%a5-net-%e6%99%ba%e8%83%bd%e7%bb%84%e4%bb%b6%e7%94%9f%e6%80%81%e7%b3%bb%e7%bb%9f">https://devblogs.microsoft.com/dotnet-ch/%e5%8a%a0%e5%85%a5-net-%e6%99%ba%e8%83%bd%e7%bb%84%e4%bb%b6%e7%94%9f%e6%80%81%e7%b3%bb%e7%bb%9f</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20241017-00/?p=110380">https://devblogs.microsoft.com/oldnewthing/20241017-00/?p=110380</a></li>
 </ul>
 
     </div>
