@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Evaluating tail call elimination in the face of return address protection, part 1 | .NET Ramblings</title>
+<title>Summarize call transcriptions securely with Amazon Transcribe and Amazon Bedrock Guardrails | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,17 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Reusing the activation frame.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241017-00/?p=110380 " />
+<meta name="description" content="In this post, we show you how to use Amazon Transcribe to get near real-time transcriptions of calls sent to Amazon Bedrock for summarization and sensitive data …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Evaluating tail call elimination in the face of return address protection, part 1" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta name="twitter:title" content="Summarize call transcriptions securely with Amazon Transcribe and Amazon Bedrock Guardrails" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/17_10_2024/17_10_2024_4/" />
-<meta property="og:title" content="Evaluating tail call elimination in the face of return address protection, part 1" />
-<meta property="og:description" content="Reusing the activation frame.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241017-00/?p=110380 " />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta property="og:title" content="Summarize call transcriptions securely with Amazon Transcribe and Amazon Bedrock Guardrails" />
+<meta property="og:description" content="In this post, we show you how to use Amazon Transcribe to get near real-time transcriptions of calls sent to Amazon Bedrock for summarization and sensitive data …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -134,7 +132,7 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20241017-00/?p=11038
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Evaluating tail call elimination in the face of return address protection, part 1</h1>
+    <h1 class="post_title">Summarize call transcriptions securely with Amazon Transcribe and Amazon Bedrock Guardrails</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,14 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20241017-00/?p=11038
 </svg>
 </span>
     <span class="post_date">
-      Oct 17, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Oct 17, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Reusing the activation frame.</p>
+    <div class="post_body"><p>In this post, we show you how to use Amazon Transcribe to get near real-time transcriptions of calls sent to Amazon Bedrock for summarization and sensitive data redaction. We’ll walk through an architecture that uses AWS Step Functions to orchestrate the process, providing seamless integration and efficient processing</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20241017-00/?p=110380">https://devblogs.microsoft.com/oldnewthing/20241017-00/?p=110380</a></li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/summarize-call-transcriptions-securely-with-amazon-transcribe-and-amazon-bedrock-guardrails/">https://aws.amazon.com/blogs/machine-learning/summarize-call-transcriptions-securely-with-amazon-transcribe-and-amazon-bedrock-guardrails/</a></li>
 </ul>
 
     </div>
