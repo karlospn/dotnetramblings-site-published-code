@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 21 Oct 2024 23:00:20 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Oct 2024 00:07:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java OpenJDK October 2024 Patch &amp; Security Updates</title>
+      <link>https://www.dotnetramblings.com/post/22_10_2024/22_10_2024_0/</link>
+      <pubDate>Tue, 22 Oct 2024 00:07:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_10_2024/22_10_2024_0/</guid>
+      <description>
+        
+          
+            Hello Java customers! We are happy to announce the latest October 2024 patch &amp;amp; security update release for the Microsoft Build of OpenJDK. Download and install the binaries today. OpenJDK 21.0.5 OpenJDK 17.0.13 OpenJDK 11.0.25 Check our release notes page for details on fixes and enhancements. The source code of our builds is available now […]
+Link to article: https://devblogs.microsoft.com/java/java-openjdk-oct-2024-patch-security-updates 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Customer Case Study: How Microsoft streamlined regulatory compliance with GenAI</title>
       <link>https://www.dotnetramblings.com/post/21_10_2024/21_10_2024_0/</link>
@@ -1122,141 +1139,6 @@ Link to article: https://blog.elmah.io/whats-new-in-net-9-cryptography-improveme
           
             When working with Lists in C#, you are working on a data structure that implements both ICollection and IEnumerable. What’s the difference between ICollection and IEnumerable? Why should you care about them, especially when exposing functionalities to external clients?
 Link to article: https://www.code4it.dev/csharptips/ienumerable-vs-icollection/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Developer CLI (azd) – October 2024</title>
-      <link>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_0/</link>
-      <pubDate>Mon, 14 Oct 2024 19:39:03 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_0/</guid>
-      <description>
-        
-          
-            This post announces the October release of the Azure Developer CLI (azd), including configurable api-version for ACA.
-Link to article: https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-october-2024 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Create a multimodal chatbot tailored to your unique dataset with Amazon Bedrock FMs</title>
-      <link>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_1/</link>
-      <pubDate>Mon, 14 Oct 2024 17:27:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_1/</guid>
-      <description>
-        
-          
-            In this post, we show how to create a multimodal chat assistant on Amazon Web Services (AWS) using Amazon Bedrock models, where users can submit images and questions, and text responses will be sourced from a closed set of proprietary documents.
-Link to article: https://aws.amazon.com/blogs/machine-learning/create-a-multimodal-chatbot-tailored-to-your-unique-dataset-with-amazon-bedrock-fms/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Design secure generative AI application workflows with Amazon Verified Permissions and Amazon Bedrock Agents</title>
-      <link>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_2/</link>
-      <pubDate>Mon, 14 Oct 2024 17:25:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_2/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to design fine-grained access controls using Verified Permissions for a generative AI application that uses Amazon Bedrock Agents to answer questions about insurance claims that exist in a claims review system using textual prompts as inputs and outputs.
-Link to article: https://aws.amazon.com/blogs/machine-learning/design-secure-generative-ai-application-workflows-with-amazon-verified-permissions-and-amazon-bedrock-agents/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Catch the highlights from Azure Developers – .NET Aspire Day 2024!</title>
-      <link>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_3/</link>
-      <pubDate>Mon, 14 Oct 2024 17:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_3/</guid>
-      <description>
-        
-          
-            Watch the top sessions on demand for insights and practical guidance on building distributed applications with .NET Aspire!
-Link to article: https://devblogs.microsoft.com/dotnet/azure-developers-dotnet-aspire-day-recap 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The ultimate chatbot?</title>
-      <link>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_4/</link>
-      <pubDate>Mon, 14 Oct 2024 15:15:29 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_4/</guid>
-      <description>
-        
-          
-            RAG – Retrieval Augmented Generation – is by far one of the most common patterns today as it enables the creation of chatbots that can chat on your own data, as I described in my previous “Retrieval Augmented Generation with Azure SQL” blog post. As soon as you start to use it excitement grows, as […]
-Link to article: https://devblogs.microsoft.com/azure-sql/the-ultimate-chatbot 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>On naming things: The tension between naming something for what it is, what it does, or how it is used</title>
-      <link>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_5/</link>
-      <pubDate>Mon, 14 Oct 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_5/</guid>
-      <description>
-        
-          
-            You are guaranteed to make someone upset.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241014-00/?p=110368 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Understanding OverloadResolutionPriority attribute in C# 13</title>
-      <link>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_6/</link>
-      <pubDate>Mon, 14 Oct 2024 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_6/</guid>
-      <description>
-        
-          
-            C# 13 adds support for a new attribute: [OverloadResolutionPriority]. This attribute is niche, so most of you won&#39;t use it. However, it&#39;s a nice addition to the language, and it&#39;s worth knowing about it if you are writing libraries. Let&#39;s consider this simple example: Sample.Test(); // Print: Test 1 static class Sample { public static void Test() =&amp;gt; Console.WriteLine(&amp;quot;Test 1&amp;quot;); } Now, you want to update…
-Link to article: https://www.meziantou.net/understanding-overloadresolutionpriority-attribute-in-csharp-13.htm?utm_medium=social&amp;utm_source=syndication 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Prevent Concurrent Execution of a Hangfire Job</title>
-      <link>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_7/</link>
-      <pubDate>Mon, 14 Oct 2024 05:51:09 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_10_2024/14_10_2024_7/</guid>
-      <description>
-        
-          
-            In this article, we will see how we can prevent the concurrent execution of a Hangfire job. Hangfire is a wonderful tool for scheduling recurring background jobs. But, if we are not careful, we can encounter strange or intermittent errors caused by concurrent execution of a given job. We will first discuss potential problems related […] The post How to Prevent Concurrent Execution of a Hangfire Job appeared first on Code Maze.
           
           
         
