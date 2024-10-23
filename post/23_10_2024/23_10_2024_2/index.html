@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Devblogs.microsoft.com | .NET Ramblings</title>
+<title>How do I create a Windows Runtime IRandom­Access­Stream around a bunch of bytes or a classic COM IStream? | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,24 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Another wrapper function.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20241023-00/?p=110411 " />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Devblogs.microsoft.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/" />
-<meta property="og:title" content="Devblogs.microsoft.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="How do I create a Windows Runtime IRandom­Access­Stream around a bunch of bytes or a classic COM IStream?" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/23_10_2024/23_10_2024_2/" />
+<meta property="og:title" content="How do I create a Windows Runtime IRandom­Access­Stream around a bunch of bytes or a classic COM IStream?" />
+<meta property="og:description" content="Another wrapper function.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20241023-00/?p=110411 " />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/23_10_2024/23_10_2024_2/">
 
 
 
@@ -128,19 +131,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/dotnet-ch/%e5%8a%a0%e5%85%a5-net-%e6%99%ba%e8%83%bd%e7%bb%84%e4%bb%b6%e7%94%9f%e6%80%81%e7%b3%bb%e7%bb%9f" title="加入 .NET 智能组件生态系统">加入 .NET 智能组件生态系统</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">How do I create a Windows Runtime IRandom­Access­Stream around a bunch of bytes or a classic COM IStream?</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,425 +142,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Oct 17, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Oct 23, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="加入 .NET 智能组件生态系统"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>本篇翻译于首席产品经理 Daniel Roth 的Join the .NET Smart Components ecosystem – .NET Blog (microsoft.com) .NET 智能组件是一组示例嵌入式 UI 组件，使得在应用中轻松添加 AI 启用的功能变得更加简单，例如从剪贴板数据自动填写表单、智能文本补全以及语义搜索等场景。.NET 智能组件演示了如何将基于 AI 的功能预先打包成可重用的组件，从而更容易将这些功能集成到现有应用程序中。我们将 .NET 智能组件源代码作为参考示例实现提供，以帮助启动一个充满活力的可重用 .NET AI 驱动组件生态系统。 现已开源 .NET 智能组件在 GitHub …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/dotnet-ch/%e5%8a%a0%e5%85%a5-net-%e6%99%ba%e8%83%bd%e7%bb%84%e4%bb%b6%e7%94%9f%e6%80%81%e7%b3%bb%e7%bb%9f" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/dotnet-ch/%e6%8e%a8%e5%87%ba%e9%80%82%e7%94%a8%e4%ba%8e-net-%e7%9a%84%e5%ae%98%e6%96%b9openai%e5%ba%93%e7%9a%84%e7%a8%b3%e5%ae%9a%e7%89%88%e6%9c%ac" title="推出适用于 .NET 的官方OpenAI库的稳定版本">推出适用于 .NET 的官方OpenAI库的稳定版本</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 17, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Another wrapper function.</p>
+<ul>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20241023-00/?p=110411">https://devblogs.microsoft.com/oldnewthing/20241023-00/?p=110411</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="推出适用于 .NET 的官方OpenAI库的稳定版本"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>本篇翻译于.NET 团队的Announcing the stable release of the official OpenAI library for .NET – .NET Blog (microsoft.com) 早在 6 月份，我们就推出了适用于 .NET 的OpenAI 库的第一个测试版，使开发人员能够将高级 AI 模型集成到他们的应用程序中。今天，我们很高兴地宣布，适用于.NET 的官方 OpenAI 库的稳定版本现已上线。此版本可确保开发人员在其 .NET 应用程序中使用 OpenAI 和 Azure OpenAI 服务时获得顺畅可靠的集成体验。 主要特点 适用于.NET 的官方 OpenAI 库提供了强大的工具，可 …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/dotnet-ch/%e6%8e%a8%e5%87%ba%e9%80%82%e7%94%a8%e4%ba%8e-net-%e7%9a%84%e5%ae%98%e6%96%b9openai%e5%ba%93%e7%9a%84%e7%a8%b3%e5%ae%9a%e7%89%88%e6%9c%ac" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/devops/introducing-pull-request-annotation-for-codeql-and-dependency-scanning-in-github-advanced-security-for-azure-devops" title="Introducing Pull Request Annotation for CodeQL and Dependency Scanning in GitHub Advanced Security for Azure DevOps">Introducing Pull Request Annotation for CodeQL and Dependency Scanning in GitHub Advanced Security for Azure DevOps</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 17, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Introducing Pull Request Annotation for CodeQL and Dependency Scanning in GitHub Advanced Security for Azure DevOps"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In the world of software development, security is paramount. As developers, we strive to write clean, efficient, and most importantly, secure code. GitHub Advanced Security for Azure DevOps has always been at the forefront of providing tools that make it easier to build and release high-quality software. Today, we’re …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/devops/introducing-pull-request-annotation-for-codeql-and-dependency-scanning-in-github-advanced-security-for-azure-devops" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/visualstudio/improve-your-debugger-game-with-editable-expressions" title="Improve your debugger game with editable expressions">Improve your debugger game with editable expressions</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Improve your debugger game with editable expressions"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Do you ever wish you could quickly test different queries on your collections or datasets while debugging? Do you want to save time and avoid writing code just to inspect your data? If you answered yes, then you will love the new editable expression feature in the Visual Studio debugger. This feature allows you to […] …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/visualstudio/improve-your-debugger-game-with-editable-expressions" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/dotnet/building-github-copilot-into-visual-studio" title="How we build GitHub Copilot into Visual Studio">How we build GitHub Copilot into Visual Studio</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How we build GitHub Copilot into Visual Studio"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Find out how Visual Studio integrates GitHub Copilot, architectural detail, .NET implementation, and the importance of the indexing service for providing context-aware AI code suggestions.
-Link to article: <a href="https://devblogs.microsoft.com/dotnet/building-github-copilot-into-visual-studio">https://devblogs.microsoft.com/dotnet/building-github-copilot-into-visual-studio</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/dotnet/building-github-copilot-into-visual-studio" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/microsoft365dev/microsoft-365-control-spotlight-information-security-risk-management" title="Microsoft 365 control spotlight: Information security risk management">Microsoft 365 control spotlight: Information security risk management</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Microsoft 365 control spotlight: Information security risk management"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Read how Microsoft 365 Certification verifies information security risk management.
-Link to article: <a href="https://devblogs.microsoft.com/microsoft365dev/microsoft-365-control-spotlight-information-security-risk-management">https://devblogs.microsoft.com/microsoft365dev/microsoft-365-control-spotlight-information-security-risk-management</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/microsoft365dev/microsoft-365-control-spotlight-information-security-risk-management" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20241016-00/?p=110378" title="Effects of classic return address tricks on hardware-assisted return address protection">Effects of classic return address tricks on hardware-assisted return address protection</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 16, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Effects of classic return address tricks on hardware-assisted return address protection"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Return address manipulations that are possibly even more impermissible than they already were.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20241016-00/?p=110378">https://devblogs.microsoft.com/oldnewthing/20241016-00/?p=110378</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20241016-00/?p=110378" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -583,9 +186,8 @@ Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20241016-00
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
