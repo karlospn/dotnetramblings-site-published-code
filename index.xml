@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 25 Oct 2024 21:27:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing Idempotent REST APIs in ASP.NET Core</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2024/26_10_2024_0/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2024/26_10_2024_0/</guid>
+      <description>
+        
+          
+            Learn how to implement idempotency in ASP.NET Core Web APIs to improve reliability and prevent duplicate operations in distributed systems.
+Link to article: https://www.milanjovanovic.tech/blog/implementing-idempotent-rest-apis-in-aspnetcore 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Process Framework gets Python support and more!</title>
       <link>https://www.dotnetramblings.com/post/25_10_2024/25_10_2024_0/</link>
@@ -1275,57 +1292,6 @@ Link to article: https://www.devleader.ca/2024/10/19/4-lessons-from-building-a-s
           
             Discover how to leverage Problem Details in ASP.NET Core to create consistent, informative API error responses that enhance developer experience and comply with RFC 9457. This comprehensive guide explores the latest features in .NET 8 and 9, demonstrating how to implement custom exception handlers, utilize IProblemDetailsService, and apply best practices for robust error handling in your APIs.
 Link to article: https://www.milanjovanovic.tech/blog/problem-details-for-aspnetcore-apis 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Train, optimize, and deploy models on edge devices using Amazon SageMaker and Qualcomm AI Hub</title>
-      <link>https://www.dotnetramblings.com/post/18_10_2024/18_10_2024_0/</link>
-      <pubDate>Fri, 18 Oct 2024 20:01:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_10_2024/18_10_2024_0/</guid>
-      <description>
-        
-          
-            In this post we introduce an innovative solution for end-to-end model customization and deployment at the edge using Amazon SageMaker and Qualcomm AI Hub.
-Link to article: https://aws.amazon.com/blogs/machine-learning/train-optimize-and-deploy-models-on-edge-devices-using-amazon-sagemaker-and-qualcomm-ai-hub/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>.NET Conf 2024 Student Zone</title>
-      <link>https://www.dotnetramblings.com/post/18_10_2024/18_10_2024_1/</link>
-      <pubDate>Fri, 18 Oct 2024 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_10_2024/18_10_2024_1/</guid>
-      <description>
-        
-          
-            The .NET Conf Student Zone is a beginner-friendly, virtual event where experts will teach you how to build amazing projects - all using C# and .NET!
-Link to article: https://devblogs.microsoft.com/dotnet/dotnetconf-2024-student-zone 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Evaluating tail call elimination in the face of return address protection, part 2</title>
-      <link>https://www.dotnetramblings.com/post/18_10_2024/18_10_2024_2/</link>
-      <pubDate>Fri, 18 Oct 2024 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_10_2024/18_10_2024_2/</guid>
-      <description>
-        
-          
-            Rewriting the activation frame.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241018-00/?p=110385 
           
           
         
