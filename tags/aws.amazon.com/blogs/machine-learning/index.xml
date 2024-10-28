@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 25 Oct 2024 16:51:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Oct 2024 17:22:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Customized model monitoring for near real-time batch inference with Amazon SageMaker</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_0/</link>
+      <pubDate>Mon, 28 Oct 2024 17:22:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_0/</guid>
+      <description>
+        
+          
+            In this post, we present a framework to customize the use of Amazon SageMaker Model Monitor for handling multi-payload inference requests for near real-time inference scenarios. SageMaker Model Monitor monitors the quality of SageMaker ML models in production. Early and proactive detection of deviations in model quality enables you to take corrective actions, such as retraining models, auditing upstream systems, or fixing quality issues without having to monitor models manually or build additional tooling.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How Planview built a scalable AI Assistant for portfolio and project management using Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/25_10_2024/25_10_2024_2/</link>
