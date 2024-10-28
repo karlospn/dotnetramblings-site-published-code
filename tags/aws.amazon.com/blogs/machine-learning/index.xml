@@ -7,13 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 28 Oct 2024 17:22:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Oct 2024 18:38:28 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Import data from Google Cloud Platform BigQuery for no-code machine learning with Amazon SageMaker Canvas</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_1/</link>
+      <pubDate>Mon, 28 Oct 2024 18:38:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_1/</guid>
+      <description>
+        
+          
+            This post presents an architectural approach to extract data from different cloud environments, such as Google Cloud Platform (GCP) BigQuery, without the need for data movement. This minimizes the complexity and overhead associated with moving data between cloud environments, enabling organizations to access and utilize their disparate data assets for ML projects. We highlight the process of using Amazon Athena Federated Query to extract data from GCP BigQuery, using Amazon SageMaker Data Wrangler to perform data preparation, and then using the prepared data to build ML models within Amazon SageMaker Canvas, a no-code ML interface.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Customized model monitoring for near real-time batch inference with Amazon SageMaker</title>
-      <link>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_0/</link>
+      <link>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_2/</link>
       <pubDate>Mon, 28 Oct 2024 17:22:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_0/</guid>
+      <guid>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_2/</guid>
       <description>
         
           
