@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 29 Oct 2024 16:23:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2024 19:41:58 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automate Amazon Bedrock batch inference: Building a scalable and efficient pipeline</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_0/</link>
+      <pubDate>Tue, 29 Oct 2024 19:41:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_0/</guid>
+      <description>
+        
+          
+            Although batch inference offers numerous benefits, it’s limited to 10 batch inference jobs submitted per model per Region. To address this consideration and enhance your use of batch inference, we’ve developed a scalable solution using AWS Lambda and Amazon DynamoDB. This post guides you through implementing a queue management system that automatically monitors available job slots and submits new jobs as slots become available.
+Link to article: https://aws.amazon.com/blogs/machine-learning/automate-amazon-bedrock-batch-inference-building-a-scalable-and-efficient-pipeline/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build a video insights and summarization engine using generative AI with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_6/</link>
       <pubDate>Tue, 29 Oct 2024 16:23:09 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_6/</guid>
       <description>
         
           
@@ -26,10 +43,10 @@
     
     <item>
       <title>Automate document processing with Amazon Bedrock Prompt Flows (preview)</title>
-      <link>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_8/</link>
+      <link>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_9/</link>
       <pubDate>Tue, 29 Oct 2024 15:53:43 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_9/</guid>
       <description>
         
           
@@ -42,10 +59,10 @@
     
     <item>
       <title>Governing the ML lifecycle at scale: Centralized observability with Amazon SageMaker and Amazon CloudWatch</title>
-      <link>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_9/</link>
+      <link>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_10/</link>
       <pubDate>Tue, 29 Oct 2024 15:50:21 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_10_2024/29_10_2024_10/</guid>
       <description>
         
           
