@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 30 Oct 2024 19:15:36 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Oct 2024 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What has case distinction but is neither uppercase nor lowercase?</title>
+      <link>https://www.dotnetramblings.com/post/31_10_2024/31_10_2024_0/</link>
+      <pubDate>Thu, 31 Oct 2024 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/31_10_2024/31_10_2024_0/</guid>
+      <description>
+        
+          
+            It has one foot in each world but belongs to neither.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20241031-00/?p=110443 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building a Multi-tenant GenAI gateway using APIM</title>
+      <link>https://www.dotnetramblings.com/post/31_10_2024/31_10_2024_2/</link>
+      <pubDate>Thu, 31 Oct 2024 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/31_10_2024/31_10_2024_2/</guid>
+      <description>
+        
+          
+            This blog shares insights on developing a GenAI gateway with multi-tenancy and quota management capabilities implemented using Azure APIM where customers can access the GenAI resources across different service tiers like Freemium, Basic, and Premium with each tier having it&#39;s own quota and rate limits. The solution used the concept of &amp;quot;Products&amp;quot; to group APIs related to specific entitlements and using Product Policies, simplifying the overall design and ensuring scalability.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Announcing Microsoft.PowerShell.PlatyPS 1.0.0-Preview1</title>
       <link>https://www.dotnetramblings.com/post/30_10_2024/30_10_2024_1/</link>
