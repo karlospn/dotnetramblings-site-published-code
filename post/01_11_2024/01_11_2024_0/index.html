@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>Allow your customers to access your copilots by integrating Copilot Studio with Microsoft Entra External ID | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Learn how to securely integrate Microsoft Entra External ID with Copilot-powered applications in this step-by-step tutorial. Using the Generic OAuth 2.0 service …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Allow your customers to access your copilots by integrating Copilot Studio with Microsoft Entra External ID" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/ai.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/01_11_2024/01_11_2024_0/" />
+<meta property="og:title" content="Allow your customers to access your copilots by integrating Copilot Studio with Microsoft Entra External ID" />
+<meta property="og:description" content="Learn how to securely integrate Microsoft Entra External ID with Copilot-powered applications in this step-by-step tutorial. Using the Generic OAuth 2.0 service …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/ai.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/01_11_2024/01_11_2024_0/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/10/27/boost-your-net-projects-unleashing-the-power-of-spargines-ienumerable-extension-methods/" title="Boost Your .NET Projects: Unleashing the Power of Spargine’s IEnumerable Extension Methods">Boost Your .NET Projects: Unleashing the Power of Spargine’s IEnumerable Extension Methods</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Allow your customers to access your copilots by integrating Copilot Studio with Microsoft Entra External ID</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,482 +140,27 @@
 </svg>
 </span>
     <span class="post_date">
-      Oct 27, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
+      Nov 1, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Boost Your .NET Projects: Unleashing the Power of Spargine’s IEnumerable Extension Methods"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Spargine is an open-source library of assemblies and NuGet packages for .NET 8, enhancing IEnumerable collections with various utility methods. It includes functionalities like adding distinct items, counting elements, and verifying uniqueness. Community involvement is encouraged for project improvement.
-Link to …</p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/10/27/boost-your-net-projects-unleashing-the-power-of-spargines-ienumerable-extension-methods/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2024/10/26/how-codebases-become-spaghetti-dev-leader-weekly-67/" title="How Codebases Become Spaghetti – Dev Leader Weekly 67">How Codebases Become Spaghetti – Dev Leader Weekly 67</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 26, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Learn how to securely integrate Microsoft Entra External ID with Copilot-powered applications in this step-by-step tutorial. Using the Generic OAuth 2.0 service provider in Copilot Studio, this guide shows you how to grant customers seamless access to your AI copilots.</p>
+<ul>
+<li>Link to article: <a href="https://devblogs.microsoft.com/identity/integrate-copilot-studio-with-external-id">https://devblogs.microsoft.com/identity/integrate-copilot-studio-with-external-id</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How Codebases Become Spaghetti – Dev Leader Weekly 67"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The post How Codebases Become Spaghetti – Dev Leader Weekly 67 appeared first on Dev Leader.Welcome to another issue of Dev Leader Weekly! In this issue, I discuss how codebases grow in complexity with an example -- AND what to do! The post How Codebases Become Spaghetti – Dev Leader Weekly 67 appeared first on Dev …</p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2024/10/26/how-codebases-become-spaghetti-dev-leader-weekly-67/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.milanjovanovic.tech/blog/implementing-idempotent-rest-apis-in-aspnetcore" title="Implementing Idempotent REST APIs in ASP.NET Core">Implementing Idempotent REST APIs in ASP.NET Core</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 26, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Implementing Idempotent REST APIs in ASP.NET Core"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Learn how to implement idempotency in ASP.NET Core Web APIs to improve reliability and prevent duplicate operations in distributed systems.
-Link to article: <a href="https://www.milanjovanovic.tech/blog/implementing-idempotent-rest-apis-in-aspnetcore">https://www.milanjovanovic.tech/blog/implementing-idempotent-rest-apis-in-aspnetcore</a></p>
-          
-          <br>
-          <a href="https://www.milanjovanovic.tech/blog/implementing-idempotent-rest-apis-in-aspnetcore" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/semantic-kernel/process-framework-gets-python-support-and-more" title="Process Framework gets Python support and more!">Process Framework gets Python support and more!</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 25, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Process Framework gets Python support and more!"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>As we continue to empower developers in embedding AI into their workflows, we are thrilled to announce significant updates to the Microsoft Semantic Kernel’s Process Framework. Building on our introductory blog, we’ve made enhancements that further streamline business process automation and AI integration and help you …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/semantic-kernel/process-framework-gets-python-support-and-more" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/semantic-kernel/ai-digital-transformation-discovering-romes-hidden-treasures-with-an-ai-virtual-assistant-and-semantic-kernel" title="AI Digital Transformation Discovering Rome’s hidden treasures with an AI virtual assistant and Semantic Kernel">AI Digital Transformation Discovering Rome’s hidden treasures with an AI virtual assistant and Semantic Kernel</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 25, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="AI Digital Transformation Discovering Rome’s hidden treasures with an AI virtual assistant and Semantic Kernel"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Today we want to highlight a customer story featuring Semantic Kernel here: Discovering Rome’s hidden treasures with an AI virtual assistant – Source EMEA On a sunny Monday morning in late September, a river of travelers flowed slowly through the Piazza della Rotonda. The focal point of the piazza is the Pantheon, the …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/semantic-kernel/ai-digital-transformation-discovering-romes-hidden-treasures-with-an-ai-virtual-assistant-and-semantic-kernel" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://aws.amazon.com/blogs/machine-learning/how-planview-built-a-scalable-ai-assistant-for-portfolio-and-project-management-using-amazon-bedrock/" title="How Planview built a scalable AI Assistant for portfolio and project management using Amazon Bedrock">How Planview built a scalable AI Assistant for portfolio and project management using Amazon Bedrock</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 25, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How Planview built a scalable AI Assistant for portfolio and project management using Amazon Bedrock"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/aws.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this post, we explore how Planview was able to develop a generative AI assistant to address complex work management process by adopting Amazon Bedrock.
-Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/how-planview-built-a-scalable-ai-assistant-for-portfolio-and-project-management-using-amazon-bedrock/">https://aws.amazon.com/blogs/machine-learning/how-planview-built-a-scalable-ai-assistant-for-portfolio-and-project-management-using-amazon-bedrock/</a></p>
-          
-          <br>
-          <a href="https://aws.amazon.com/blogs/machine-learning/how-planview-built-a-scalable-ai-assistant-for-portfolio-and-project-management-using-amazon-bedrock/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20241025-00/?p=110420" title="How can I explicitly specialize a templated C&#43;&#43; constructor, follow-up notes">How can I explicitly specialize a templated C++ constructor, follow-up notes</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 25, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How can I explicitly specialize a templated C&#43;&#43; constructor, follow-up notes"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>You can use a maker function, but that doesn't let you escape the problem.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20241025-00/?p=110420">https://devblogs.microsoft.com/oldnewthing/20241025-00/?p=110420</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20241025-00/?p=110420" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/blog/2024/10/25/ide-services-cloud-release-and-floating-license-server-end-of-life-announcements/" title="IDE Services Cloud Release and Floating License Server End-of-Life Announcements">IDE Services Cloud Release and Floating License Server End-of-Life Announcements</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 25, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="IDE Services Cloud Release and Floating License Server End-of-Life Announcements"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>JetBrains IDE Services, the enterprise suite of products dedicated to improving developer productivity across an entire organization, is now available in the cloud! By offering a JetBrains-managed service, IDE Services Cloud simplifies license management, enhances security, and provides seamless scalability, ensuring …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/blog/2024/10/25/ide-services-cloud-release-and-floating-license-server-end-of-life-announcements/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -647,9 +184,8 @@ Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20241025-00
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
