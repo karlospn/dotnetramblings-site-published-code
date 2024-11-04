@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Docker Desktop 4.35: Organization Access Tokens, Docker Home, Volumes Export, and Terminal in Docker Desktop | .NET Ramblings</title>
+<title>.NET 9 中System.Text.Json 的新增功能 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Docker Desktop 4.35 includes organization access tokens, a new Docker product home page, terminal enhancements, Docker Desktop for Red Hat Enterprise Linux, and …" />
+<meta name="description" content="本篇翻译于Eirik Tsarpalis的 What’s new in System.Text.Json in .NET 9 – .NET Blog System.Text.Json的9.0 版本包含许多功能，主要侧重于 JSON 架构和智能应用程序支持。它还包括一些备受期待的增强功能，例如可空引用类型支持、自定义枚举 …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Docker Desktop 4.35: Organization Access Tokens, Docker Home, Volumes Export, and Terminal in Docker Desktop" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/04_11_2024/04_11_2024_1/" />
-<meta property="og:title" content="Docker Desktop 4.35: Organization Access Tokens, Docker Home, Volumes Export, and Terminal in Docker Desktop" />
-<meta property="og:description" content="Docker Desktop 4.35 includes organization access tokens, a new Docker product home page, terminal enhancements, Docker Desktop for Red Hat Enterprise Linux, and …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
+<meta name="twitter:title" content=".NET 9 中System.Text.Json 的新增功能" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/04_11_2024/04_11_2024_12/" />
+<meta property="og:title" content=".NET 9 中System.Text.Json 的新增功能" />
+<meta property="og:description" content="本篇翻译于Eirik Tsarpalis的 What’s new in System.Text.Json in .NET 9 – .NET Blog System.Text.Json的9.0 版本包含许多功能，主要侧重于 JSON 架构和智能应用程序支持。它还包括一些备受期待的增强功能，例如可空引用类型支持、自定义枚举 …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/04_11_2024/04_11_2024_1/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/04_11_2024/04_11_2024_12/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Docker Desktop 4.35: Organization Access Tokens, Docker Home, Volumes Export, and Terminal in Docker Desktop</h1>
+    <h1 class="post_title">.NET 9 中System.Text.Json 的新增功能</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Nov 4, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Nov 4, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Docker Desktop 4.35 includes organization access tokens, a new Docker product home page, terminal enhancements, Docker Desktop for Red Hat Enterprise Linux, and improved performance on macOS.</p>
+    <div class="post_body"><p>本篇翻译于Eirik Tsarpalis的 What’s new in System.Text.Json in .NET 9 – .NET Blog  System.Text.Json的9.0 版本包含许多功能，主要侧重于 JSON 架构和智能应用程序支持。它还包括一些备受期待的增强功能，例如可空引用类型支持、自定义枚举成员名称、无序元数据反序列化和自定义序列化缩进。  获取最新信息  您可以通过引用 System.Text.Json NuGet 包的最新版本或 .NET 9 的最新 SDK 来尝试新功能。  JSON 架构导出器  新的 JsonSchemaExporter 类可以使用 JsonSerializerOptions 或 JsonTypeInfo 实例从 .NET 类型中提取 JSON 架构文档：  using System.Text.Json.Schema; JsonSerializerOptions options = JsonSerializerOptions.Default; JsonNode schema = options.GetJsonSchemaAsNode(typeof(Person)); Console.WriteLine(schema.ToString()); //{ // &quot;type&quot;: [&quot;object&quot;, &quot;null&quot;], // […]</p>
 <ul>
-<li>Link to article: <a href="https://www.docker.com/blog/docker-desktop-4-35/">https://www.docker.com/blog/docker-desktop-4-35/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/dotnet-ch/net-9-%e4%b8%adsystem-text-json-%e7%9a%84%e6%96%b0%e5%a2%9e%e5%8a%9f%e8%83%bd">https://devblogs.microsoft.com/dotnet-ch/net-9-%e4%b8%adsystem-text-json-%e7%9a%84%e6%96%b0%e5%a2%9e%e5%8a%9f%e8%83%bd</a></li>
 </ul>
 
     </div>
