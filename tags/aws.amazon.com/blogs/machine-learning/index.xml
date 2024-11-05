@@ -277,37 +277,5 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/governing-the-ml-
       </description>
     </item>
     
-    <item>
-      <title>Import data from Google Cloud Platform BigQuery for no-code machine learning with Amazon SageMaker Canvas</title>
-      <link>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_3/</link>
-      <pubDate>Mon, 28 Oct 2024 18:38:28 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_3/</guid>
-      <description>
-        
-          
-            This post presents an architectural approach to extract data from different cloud environments, such as Google Cloud Platform (GCP) BigQuery, without the need for data movement. This minimizes the complexity and overhead associated with moving data between cloud environments, enabling organizations to access and utilize their disparate data assets for ML projects. We highlight the process of using Amazon Athena Federated Query to extract data from GCP BigQuery, using Amazon SageMaker Data Wrangler to perform data preparation, and then using the prepared data to build ML models within Amazon SageMaker Canvas, a no-code ML interface.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Customized model monitoring for near real-time batch inference with Amazon SageMaker</title>
-      <link>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_4/</link>
-      <pubDate>Mon, 28 Oct 2024 17:22:57 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/28_10_2024/28_10_2024_4/</guid>
-      <description>
-        
-          
-            In this post, we present a framework to customize the use of Amazon SageMaker Model Monitor for handling multi-payload inference requests for near real-time inference scenarios. SageMaker Model Monitor monitors the quality of SageMaker ML models in production. Early and proactive detection of deviations in model quality enables you to take corrective actions, such as retraining models, auditing upstream systems, or fixing quality issues without having to monitor models manually or build additional tooling.
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
