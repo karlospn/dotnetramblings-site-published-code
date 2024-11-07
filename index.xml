@@ -7,18 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 07 Nov 2024 06:06:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Nov 2024 07:20:01 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What’s New in vcpkg (October 2024)</title>
+      <title>Debugging a managed identity connection to Azure SQL in Azure App Service using containers</title>
       <link>https://www.dotnetramblings.com/post/07_11_2024/07_11_2024_0/</link>
-      <pubDate>Thu, 07 Nov 2024 06:06:12 +0000</pubDate>
+      <pubDate>Thu, 07 Nov 2024 07:20:01 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/07_11_2024/07_11_2024_0/</guid>
       <description>
         
           
+            Dominique St-Amand explores how to debug a managed identity connection from a container-based App Service to Azure SQL. So you’ve been eager to deploy your containerized web application that you’ve been working on for a while, to Azure App Service. You follow the best security practices which means you’ve setup your connection to your Azure […]
+Link to article: https://devblogs.microsoft.com/premier-developer/debugging-a-managed-identity-connection-to-azure-sql-in-azure-app-service-using-containers 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What’s New in vcpkg (October 2024)</title>
+      <link>https://www.dotnetramblings.com/post/07_11_2024/07_11_2024_1/</link>
+      <pubDate>Thu, 07 Nov 2024 06:06:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_11_2024/07_11_2024_1/</guid>
+      <description>
+        
+          
             This blog post summarizes changes to the vcpkg package manager as part of the 2024.10.21 registry release, 2024-10-18 tool release, as well as changes to vcpkg documentation throughout October. This release adds support for Azure universal packages as a binary caching provider and other minor improvements. CppCon Talk on Managing C++ Dependencies I also gave […]
 Link to article: https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-october-2024 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>RAG with SQL Vector Store: A Low-Code/No-Code Approach using Azure Logic Apps</title>
+      <link>https://www.dotnetramblings.com/post/07_11_2024/07_11_2024_2/</link>
+      <pubDate>Thu, 07 Nov 2024 05:49:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_11_2024/07_11_2024_2/</guid>
+      <description>
+        
+          
+            Data is at the heart of every AI application, and efficient data ingestion is critical for success. With over 1,400 enterprise connectors, Logic Apps offers unmatched access to a diverse range of systems, applications, and databases, whether hosted in the cloud or on-premises. These connectors give businesses the flexibility to keep their data where it […]
+Link to article: https://devblogs.microsoft.com/azure-sql/sql-vector-store-data-ingestion-and-retrieval-using-azure-logic-apps 
           
           
         
