@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 09 Nov 2024 05:29:46 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Nov 2024 15:27:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Better GitHub Copilot completions for C#</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2024/11_11_2024_0/</link>
+      <pubDate>Mon, 11 Nov 2024 15:27:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2024/11_11_2024_0/</guid>
+      <description>
+        
+          
+            We’re excited to announce a significant enhancement to GitHub Copilot that elevates your C# coding experience. Introducing the new update: GitHub Copilot code completions now provide more accurate and relevant autocomplete suggestions by incorporating additional C# context. Previously, GitHub Copilot generated suggestions based on the content of your currently active file and any other open […]
+Link to article: https://devblogs.microsoft.com/visualstudio/better-github-copilot-completions-for-c 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Debugger breakpoints are usually implemented by patching the in-memory copy of the code</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2024/11_11_2024_2/</link>
+      <pubDate>Mon, 11 Nov 2024 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2024/11_11_2024_2/</guid>
+      <description>
+        
+          
+            The code in memory may not match what the debugger shows you if the debugger is itself is doing the changing.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20241111-00/?p=110503 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>GitHub Copilot Tip: Interactive Debugging with GitHub Copilot Chat</title>
       <link>https://www.dotnetramblings.com/post/09_11_2024/09_11_2024_1/</link>
