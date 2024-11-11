@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jonhilton.net on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/jonhilton.net/</link>
+    <description>Recent content in Jonhilton.net on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/jonhilton.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make sure users get the latest version of your stylesheet</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2024/11_11_2024_3/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2024/11_11_2024_3/</guid>
+      <description>
+        
+          
+            Ever made a change to your Blazor app’s CSS only to find, when you publish your app, it seems to be stuck using the old styles? Modern browsers love to cache static assets like stylesheets. It speeds up performance and saves re-fetching the same thing multiple times from the server. The problem comes when you make changes to the stylesheet and push out a new version. Unless you change the filename of the stylesheet, the browser sees that your site is requesting a file it’s already cached and diligently serves the contents from the cache.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
