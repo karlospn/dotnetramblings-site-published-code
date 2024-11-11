@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Make sure users get the latest version of your stylesheet | .NET Ramblings</title>
+<title>Boosting Your Coding Projects With JetBrains AI Assistant: My Journey to Build a Flask Web App | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Ever made a change to your Blazor app’s CSS only to find, when you publish your app, it seems to be stuck using the old styles? Modern browsers love to cache …" />
+<meta name="description" content="TL;DR: In this post, I walk through the process of enhancing a chatbot project from Hyperskill by adding a web interface with Flask, JavaScript, and HTML. I …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Make sure users get the latest version of your stylesheet" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta name="twitter:title" content="Boosting Your Coding Projects With JetBrains AI Assistant: My Journey to Build a Flask Web App" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/ai.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/11_11_2024/11_11_2024_5/" />
-<meta property="og:title" content="Make sure users get the latest version of your stylesheet" />
-<meta property="og:description" content="Ever made a change to your Blazor app’s CSS only to find, when you publish your app, it seems to be stuck using the old styles? Modern browsers love to cache …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
+<meta property="og:title" content="Boosting Your Coding Projects With JetBrains AI Assistant: My Journey to Build a Flask Web App" />
+<meta property="og:description" content="TL;DR: In this post, I walk through the process of enhancing a chatbot project from Hyperskill by adding a web interface with Flask, JavaScript, and HTML. I …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/ai.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Make sure users get the latest version of your stylesheet</h1>
+    <h1 class="post_title">Boosting Your Coding Projects With JetBrains AI Assistant: My Journey to Build a Flask Web App</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,47 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Nov 11, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jonhilton.net/' title="jonhilton.net" class="post_tag button button_translucent">jonhilton.net
+      Nov 11, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Ever made a change to your Blazor app’s CSS only to find, when you publish your app, it seems to be stuck using the old styles?
-Modern browsers love to cache static assets like stylesheets.
-It speeds up performance and saves re-fetching the same thing multiple times from the server.
-The problem comes when you make changes to the stylesheet and push out a new version.
-Unless you change the filename of the stylesheet, the browser sees that your site is requesting a file it’s already cached and diligently serves the contents from the cache.
-One low-tech way to manage is to change the filename every time your publish your app.
-One common technique is to append a “fake” querystring value to the filename.</p>
-<head>
- <link href="css/app.css?version=2" rel="stylesheet"/>
-</head>
-This works, but requires you to manually tweak this version for every deploy (easily forgotten in the rush to get a new deployment out the door).
-It also falls apart when you have a team working on the app, with multiple developers trying to make sure their version is picked up.
-.NET 9 solves this problem with its new and improved static asset handling.
-Here’s how it works.
-First you need to configure your app to use the new static file handling middleware.
-Program.cs
-// remove the old call to use static assets
-// app.UseStaticFiles();
-<p>// add this
-app.MapStaticAssets();
-By itself this won’t do much so the next step is to update your stylesheet references, typically in App.razor.
-App.razor</p>
-<head>
- <!-- <link rel="stylesheet" href="app.css" /> -->
- <link rel="stylesheet" href="@Assets["app.css"]"/>
-</head>
-Note how we’re using the new @Assets directive.
-Under the hood Blazor will render this link using a unique filename, based on the contents of the file.
-Here’s an example of how it looks in the browser.
-<head>
- <link rel="stylesheet" href="app.khy4lop6wu.css" />
-</head>
-With this your users will always get the latest version of your styles, and you can stop wrestling with your teammates over made-up version number query string values! 😜
-– Jon
+    <div class="post_body"><p>TL;DR: In this post, I walk through the process of enhancing a chatbot project from Hyperskill by adding a web interface with Flask, JavaScript, and HTML. I tried out JetBrains AI Assistant and documented how it helped me with common coding tasks like installing frameworks, debugging, and generating code snippets, streamlining my development workflow.  From […]</p>
 <ul>
-<li>Link to article: <a href="https://jonhilton.net/cache-bust-blazor-css/">https://jonhilton.net/cache-bust-blazor-css/</a></li>
+<li>Link to article: <a href="https://blog.jetbrains.com/ai/2024/11/boosting-your-coding-projects-with-jetbrains-ai-assistant/">https://blog.jetbrains.com/ai/2024/11/boosting-your-coding-projects-with-jetbrains-ai-assistant/</a></li>
 </ul>
 
     </div>
