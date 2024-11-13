@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>.NET 9 improves JavaScript module importing for Blazor | .NET Ramblings</title>
+<title>Remote Development in Rider 2024.3 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="So you’ve set out to build your shiny new web app using Blazor. Blazor’s component model is more than up to the task and you spend a few weeks happily building …" />
+<meta name="description" content="Remote development has long held promise for developers seeking flexibility. However, only in recent years has it become an indispensable part of modern …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content=".NET 9 improves JavaScript module importing for Blazor" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta name="twitter:title" content="Remote Development in Rider 2024.3" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/ai.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/13_11_2024/13_11_2024_21/" />
-<meta property="og:title" content=".NET 9 improves JavaScript module importing for Blazor" />
-<meta property="og:description" content="So you’ve set out to build your shiny new web app using Blazor. Blazor’s component model is more than up to the task and you spend a few weeks happily building …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
+<meta property="og:title" content="Remote Development in Rider 2024.3" />
+<meta property="og:description" content="Remote development has long held promise for developers seeking flexibility. However, only in recent years has it become an indispensable part of modern …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/ai.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">.NET 9 improves JavaScript module importing for Blazor</h1>
+    <h1 class="post_title">Remote Development in Rider 2024.3</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,72 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Nov 13, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jonhilton.net/' title="jonhilton.net" class="post_tag button button_translucent">jonhilton.net
+      Nov 13, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>So you’ve set out to build your shiny new web app using Blazor.
-Blazor’s component model is more than up to the task and you spend a few weeks happily building out UI to meet your requirements.
-But then you run into a requirement to integrate with a JavaScript library.
-Curse it! Now you have to figure out how to make calls to a JavaScript library from your Blazor app.
-This is exactly the kind of requirement that can get complicated, pretty quickly.
-Especially if the JS dependency is packaged up as a JavaScript module.
-Thankfully, importing JS modules into your Blazor app has become easier with recent releases, and .NET 9 addresses one of the biggest challenges.
-Say we have a small JS module for showing a ’toast’ notification.
-// JS/toast.js</p>
-<p>export class NotificationHelper {
-async showToast(message, type = 'info', options = {}) {
-// details omitted
-}
-}</p>
-<p>export default new NotificationHelper();
-In your Blazor component, if you’re using Blazor WASM or Blazor Server, you can import this module and invoke its methods like this:
-@inject IJSRuntime JSRuntime;</p>
-<p>&lt;button @onclick=&quot;@(()=&gt;ShowNotification(&quot;Hello World&quot;))&quot;&gt;
-Show Notification
-</button>
-@code {</p>
-<p>async Task ShowNotification(string message)
-{
-var module = await
-JSRuntime.InvokeAsync<IJSObjectReference>
-(&quot;import&quot;, &quot;./js/toast.js&quot;);</p>
-<p>await module.InvokeVoidAsync(
-&quot;default.showToast&quot;, message, &quot;success&quot;);
-}</p>
-<p>}
-When a user clicks the button this will:</p>
-<p>Load the contents of toast.js and import it as a JS module.
-invoke the showToast method on the default export from that JS module (NotificationHelper)</p>
-<p>But what if you make changes to that JS script and re-deploy your app.
-Just as we saw last time with stylesheets, the browser will try to cache the JS module and your users will likely find themselves stuck with an old version.
-Cue chaos and confusion!
-Thankfully .NET 9 has a solution.
-When you switch to the new static asset middleware:
-app.MapStaticAssets();
-You can also add something called ImportMap to your App.razor page.</p>
-<head>
- <!-- existing code-->
- <ImportMap />
-</head>
-Run this in the browser, view the page source, and you’ll see that Blazor has identified all the JS modules in your app, and created an import map for them.
-<script type="importmap">{
- "imports": {
- // other imports
- "./js/toast.js": "./js/toast.voa2fr9sx9.js",
- }
-}</script>
-When you publish your app .NET 9 creates a fingerprinted version of your JS modules, with a unique filename based on their contents.
-./js/toast.voa2fr9sx9.js in this example.
-The import map then ensures any attempt to import these modules is redirected to the fingerprinted version.
-You can see this in the browser dev tools (assuming the component is running via Blazor WASM).
-<p>Note how the request for the JS file is using the fingerprinted filename.
-With this your users will always get the latest version.
-Oh, and its worth noting the new static asset middleware compresses these resources by default too, so the browser gets to download significantly smaller JS and CSS files.
-– Jon</p>
+    <div class="post_body"><p>Remote development has long held promise for developers seeking flexibility. However, only in recent years has it become an indispensable part of modern development workflows that prioritize collaboration and scalability. Nowadays, developer teams often need to work from different locations while leveraging high-performance, shared environments that feel as reliable as their local setups. With JetBrains […]</p>
 <ul>
-<li>Link to article: <a href="https://jonhilton.net/import-js-modules/">https://jonhilton.net/import-js-modules/</a></li>
+<li>Link to article: <a href="https://blog.jetbrains.com/dotnet/2024/11/13/remote-development-in-rider-2024-3/">https://blog.jetbrains.com/dotnet/2024/11/13/remote-development-in-rider-2024-3/</a></li>
 </ul>
 
     </div>
