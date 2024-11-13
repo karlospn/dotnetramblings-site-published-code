@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Jonhilton.net | .NET Ramblings</title>
+<title>.NET 9 improves JavaScript module importing for Blazor | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="So you’ve set out to build your shiny new web app using Blazor. Blazor’s component model is more than up to the task and you spend a few weeks happily building …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Jonhilton.net" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/jonhilton.net/" />
-<meta property="og:title" content="Jonhilton.net" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content=".NET 9 improves JavaScript module importing for Blazor" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/13_11_2024/13_11_2024_1/" />
+<meta property="og:title" content=".NET 9 improves JavaScript module importing for Blazor" />
+<meta property="og:description" content="So you’ve set out to build your shiny new web app using Blazor. Blazor’s component model is more than up to the task and you spend a few weeks happily building …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/jonhilton.net/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/jonhilton.net/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/13_11_2024/13_11_2024_1/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://jonhilton.net/import-js-modules/" title=".NET 9 improves JavaScript module importing for Blazor">.NET 9 improves JavaScript module importing for Blazor</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">.NET 9 improves JavaScript module importing for Blazor</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -153,112 +145,87 @@
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt=".NET 9 improves JavaScript module importing for Blazor"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>So you’ve set out to build your shiny new web app using Blazor. Blazor’s component model is more than up to the task and you spend a few weeks happily building out UI to meet your requirements. But then you run into a requirement to integrate with a JavaScript library. Curse it! Now you have to figure out how to make …</p>
-          
-          <br>
-          <a href="https://jonhilton.net/import-js-modules/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://jonhilton.net/cache-bust-blazor-css/" title="Make sure users get the latest version of your stylesheet">Make sure users get the latest version of your stylesheet</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 11, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jonhilton.net/' title="jonhilton.net" class="post_tag button button_translucent">jonhilton.net
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>So you’ve set out to build your shiny new web app using Blazor.
+Blazor’s component model is more than up to the task and you spend a few weeks happily building out UI to meet your requirements.
+But then you run into a requirement to integrate with a JavaScript library.
+Curse it! Now you have to figure out how to make calls to a JavaScript library from your Blazor app.
+This is exactly the kind of requirement that can get complicated, pretty quickly.
+Especially if the JS dependency is packaged up as a JavaScript module.
+Thankfully, importing JS modules into your Blazor app has become easier with recent releases, and .NET 9 addresses one of the biggest challenges.
+Say we have a small JS module for showing a ’toast’ notification.
+// JS/toast.js</p>
+<p>export class NotificationHelper {
+async showToast(message, type = 'info', options = {}) {
+// details omitted
+}
+}</p>
+<p>export default new NotificationHelper();
+In your Blazor component, if you’re using Blazor WASM or Blazor Server, you can import this module and invoke its methods like this:
+@inject IJSRuntime JSRuntime;</p>
+<p>&lt;button @onclick=&quot;@(()=&gt;ShowNotification(&quot;Hello World&quot;))&quot;&gt;
+Show Notification
+</button>
+@code {</p>
+<p>async Task ShowNotification(string message)
+{
+var module = await
+JSRuntime.InvokeAsync<IJSObjectReference>
+(&quot;import&quot;, &quot;./js/toast.js&quot;);</p>
+<p>await module.InvokeVoidAsync(
+&quot;default.showToast&quot;, message, &quot;success&quot;);
+}</p>
+<p>}
+When a user clicks the button this will:</p>
+<p>Load the contents of toast.js and import it as a JS module.
+invoke the showToast method on the default export from that JS module (NotificationHelper)</p>
+<p>But what if you make changes to that JS script and re-deploy your app.
+Just as we saw last time with stylesheets, the browser will try to cache the JS module and your users will likely find themselves stuck with an old version.
+Cue chaos and confusion!
+Thankfully .NET 9 has a solution.
+When you switch to the new static asset middleware:
+app.MapStaticAssets();
+You can also add something called ImportMap to your App.razor page.</p>
+<head>
+ <!-- existing code-->
+ <ImportMap />
+</head>
+Run this in the browser, view the page source, and you’ll see that Blazor has identified all the JS modules in your app, and created an import map for them.
+<script type="importmap">{
+ "imports": {
+ // other imports
+ "./js/toast.js": "./js/toast.voa2fr9sx9.js",
+ }
+}</script>
+When you publish your app .NET 9 creates a fingerprinted version of your JS modules, with a unique filename based on their contents.
+./js/toast.voa2fr9sx9.js in this example.
+The import map then ensures any attempt to import these modules is redirected to the fingerprinted version.
+You can see this in the browser dev tools (assuming the component is running via Blazor WASM).
+<p>Note how the request for the JS file is using the fingerprinted filename.
+With this your users will always get the latest version.
+Oh, and its worth noting the new static asset middleware compresses these resources by default too, so the browser gets to download significantly smaller JS and CSS files.
+– Jon</p>
+<ul>
+<li>Link to article: <a href="https://jonhilton.net/import-js-modules/">https://jonhilton.net/import-js-modules/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Make sure users get the latest version of your stylesheet"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Ever made a change to your Blazor app’s CSS only to find, when you publish your app, it seems to be stuck using the old styles? Modern browsers love to cache static assets like stylesheets. It speeds up performance and saves re-fetching the same thing multiple times from the server. The problem comes when you make …</p>
-          
-          <br>
-          <a href="https://jonhilton.net/cache-bust-blazor-css/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+  
+</div>
+
+
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -275,9 +242,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
