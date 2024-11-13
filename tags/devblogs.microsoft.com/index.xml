@@ -94,6 +94,23 @@ Link to article: https://devblogs.microsoft.com/visualstudio/first-preview-of-vi
     </item>
     
     <item>
+      <title>The puzzle of trying to put an object into a std::optional</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2024/13_11_2024_17/</link>
+      <pubDate>Wed, 13 Nov 2024 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2024/13_11_2024_17/</guid>
+      <description>
+        
+          
+            The C++ standard library template type std::optional has one of two states. It could be empty (not contain anything), or it could contain a T. Suppose you start with an empty std::optional. How do you put a T into it? One of my colleagues tried to do it in what seemed to be the most […]
+Link to article: https://devblogs.microsoft.com/oldnewthing/20241113-00/?p=110516 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>GitHub Copilot Tip: Interactive Debugging with GitHub Copilot Chat</title>
       <link>https://www.dotnetramblings.com/post/09_11_2024/09_11_2024_1/</link>
       <pubDate>Sat, 09 Nov 2024 05:29:46 +0000</pubDate>
