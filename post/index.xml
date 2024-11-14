@@ -7,13 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 14 Nov 2024 14:58:20 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Nov 2024 16:04:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Understanding prompt engineering: Unlock the creative potential of Stability AI models on AWS</title>
+      <title>Centralize model governance with SageMaker Model Registry Resource Access Manager sharing</title>
       <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_0/</link>
-      <pubDate>Thu, 14 Nov 2024 14:58:20 +0000</pubDate>
+      <pubDate>Thu, 14 Nov 2024 16:04:07 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_0/</guid>
+      <description>
+        
+          
+            We recently announced the general availability of cross-account sharing of Amazon SageMaker Model Registry using AWS Resource Access Manager (AWS RAM), making it easier to securely share and discover machine learning (ML) models across your AWS accounts. In this post, we will show you how to use this new cross-account model sharing feature to build your own centralized model governance capability, which is often needed for centralized model approval, deployment, auditing, and monitoring workflows.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Revolutionize trip planning with Amazon Bedrock and Amazon Location Service</title>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_1/</link>
+      <pubDate>Thu, 14 Nov 2024 15:52:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_1/</guid>
+      <description>
+        
+          
+            In this post, we show you how to build a generative AI-powered trip-planning service that revolutionizes the way travelers discover and explore destinations. By using advanced AI technology and Amazon Location Service, the trip planner lets users translate inspiration into personalized travel itineraries. This innovative service goes beyond traditional trip planning methods, offering real-time interaction through a chat-based interface and maintaining scalability, reliability, and data security through AWS native services.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Simplify automotive damage processing with Amazon Bedrock and vector databases</title>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_2/</link>
+      <pubDate>Thu, 14 Nov 2024 15:41:59 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_2/</guid>
+      <description>
+        
+          
+            This post explores a solution that uses the power of AWS generative AI capabilities like Amazon Bedrock and OpenSearch vector search to perform damage appraisals for insurers, repair shops, and fleet managers.
+Link to article: https://aws.amazon.com/blogs/machine-learning/simplify-automotive-damage-processing-with-amazon-bedrock-and-vector-databases/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Why Testcontainers Cloud Is a Game-Changer Compared to Docker-in-Docker for Testing Scenarios</title>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_3/</link>
+      <pubDate>Thu, 14 Nov 2024 15:39:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_3/</guid>
+      <description>
+        
+          
+            Learn why Testcontainers Cloud is a transformative alternative to Docker-in-Docker that&#39;s reshaping container-based testing.
+Link to article: https://www.docker.com/blog/testcontainers-cloud-vs-docker-in-docker-for-testing-scenarios/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Understanding prompt engineering: Unlock the creative potential of Stability AI models on AWS</title>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_4/</link>
+      <pubDate>Thu, 14 Nov 2024 14:58:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_4/</guid>
       <description>
         
           
@@ -27,10 +93,10 @@ Link to article: https://aws.
     
     <item>
       <title>Introducing Stable Diffusion 3.5 Large in Amazon SageMaker JumpStart</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_5/</link>
       <pubDate>Thu, 14 Nov 2024 14:58:08 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_5/</guid>
       <description>
         
           
@@ -44,10 +110,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-stabl
     
     <item>
       <title>Unveiling Game Development in Rust with Bevy: Key Insights from Herbert Wolverson’s Livestream</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_6/</link>
       <pubDate>Thu, 14 Nov 2024 14:12:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_6/</guid>
       <description>
         
           
@@ -61,10 +127,10 @@ Link to article: https://blog.jetbrains.com/rust/2024/11/14/unveiling-game-devel
     
     <item>
       <title>Discover DataGrip 2024.3: New AI Assistant Features and More</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_7/</link>
       <pubDate>Thu, 14 Nov 2024 14:11:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_7/</guid>
       <description>
         
           
@@ -78,10 +144,10 @@ Link to article: https://blog.jetbrains.com/datagrip/2024/11/14/discover-datagri
     
     <item>
       <title>Inline AI Prompting, Coding Assistance for the dataclass_transform Decorator (PEP 681), and More in PyCharm 2024.3!</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_8/</link>
       <pubDate>Thu, 14 Nov 2024 13:42:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_8/</guid>
       <description>
         
           
@@ -95,10 +161,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2024/11/pycharm-2024-3/
     
     <item>
       <title>PhpStorm 2024.3 Is Now Available</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_9/</link>
       <pubDate>Thu, 14 Nov 2024 11:26:48 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_9/</guid>
       <description>
         
           
@@ -112,10 +178,10 @@ Link to article: https://blog.jetbrains.com/phpstorm/2024/11/phpstorm-2024-3-is-
     
     <item>
       <title>Fix code with GitHub Copilot</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_10/</link>
       <pubDate>Thu, 14 Nov 2024 11:00:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_10/</guid>
       <description>
         
           
@@ -129,10 +195,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/fix-code-with-githu
     
     <item>
       <title>GoLand 2024.3 Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_7/</link>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_11/</link>
       <pubDate>Thu, 14 Nov 2024 10:41:35 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_11/</guid>
       <description>
         
           
@@ -146,10 +212,10 @@ Link to article: https://blog.jetbrains.com/go/2024/11/14/goland-2024-3-is-out/
     
     <item>
       <title>dotNetDave’s Faster or Not!: Optimizing Base64 Decoding in .NET</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_8/</link>
+      <link>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_12/</link>
       <pubDate>Thu, 14 Nov 2024 09:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_11_2024/14_11_2024_12/</guid>
       <description>
         
           
