@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 11 Nov 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Nov 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embeded languages in string values supported by Roslyn</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_0/</link>
+      <pubDate>Mon, 18 Nov 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_0/</guid>
+      <description>
+        
+          
+            In a recent post, I shared how to highlight C# code in string values. Roslyn provides more built-in highlighters / code-completions in string values. Most of the supported languages are available as constants of the StringSyntaxAttribute class. To indicate the language, you can use the lang or language comment or the [StringSyntax] attribute. The languages mentioned in this post are handled by Roslyn (VS,…
+Link to article: https://www.meziantou.net/embeded-languages-in-string-values-supported-by-roslyn.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Stop using diagnostic verbosity in MSBuild</title>
       <link>https://www.dotnetramblings.com/post/11_11_2024/11_11_2024_4/</link>
