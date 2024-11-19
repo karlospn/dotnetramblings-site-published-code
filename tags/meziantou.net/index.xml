@@ -25,22 +25,5 @@ Link to article: https://www.meziantou.net/embeded-languages-in-string-values-su
       </description>
     </item>
     
-    <item>
-      <title>Stop using diagnostic verbosity in MSBuild</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2024/11_11_2024_4/</link>
-      <pubDate>Mon, 11 Nov 2024 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2024/11_11_2024_4/</guid>
-      <description>
-        
-          
-            On CI, some projects use the msbuild diagnostic verbosity to get more information about the build. This is useful to troubleshoot build issues. However, this verbosity level has some drawbacks. In this post, I describe how to use the binary log feature of MSBuild to get the same information in a more efficient way. Diagnostic verbosity vs binary log The msbuild diagnostic verbosity is the most verbose…
-Link to article: https://www.
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
