@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/jonhilton.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/jonhilton.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finally! Improved Blazor Server reconnection UX</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2024/20_11_2024_0/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2024/20_11_2024_0/</guid>
+      <description>
+        
+          
+            Caution! If you’ve built web apps with Blazor Server the following may cause distress! 😅 Attempting to reconnect to the server… Reconnection failed. Try reloading the page if you’re unable to reconnect. These are the standard Blazor error messages your users have likely complained about as they interact with your Blazor application. These errors occur because of the connected nature of Blazor server apps. A circuit runs on the server (for a given user interaction), and a SignalR (websocket) connection is maintained between the user’s browser and said circuit.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>.NET 9 improves JavaScript module importing for Blazor</title>
       <link>https://www.dotnetramblings.com/post/13_11_2024/13_11_2024_25/</link>
