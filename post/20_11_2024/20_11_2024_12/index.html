@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Finally! Improved Blazor Server reconnection UX | .NET Ramblings</title>
+<title>Deploying Go Apps with Kubernetes | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Caution! If you’ve built web apps with Blazor Server the following may cause distress! 😅 Attempting to reconnect to the server… Reconnection failed. Try …" />
+<meta name="description" content="We live in a world where things change at a rapid pace, and the latest and greatest quickly becomes outdated. The same goes for deploying applications to …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Finally! Improved Blazor Server reconnection UX" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta name="twitter:title" content="Deploying Go Apps with Kubernetes" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/20_11_2024/20_11_2024_12/" />
-<meta property="og:title" content="Finally! Improved Blazor Server reconnection UX" />
-<meta property="og:description" content="Caution! If you’ve built web apps with Blazor Server the following may cause distress! 😅 Attempting to reconnect to the server… Reconnection failed. Try …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
+<meta property="og:title" content="Deploying Go Apps with Kubernetes" />
+<meta property="og:description" content="We live in a world where things change at a rapid pace, and the latest and greatest quickly becomes outdated. The same goes for deploying applications to …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Finally! Improved Blazor Server reconnection UX</h1>
+    <h1 class="post_title">Deploying Go Apps with Kubernetes</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,69 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Nov 20, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jonhilton.net/' title="jonhilton.net" class="post_tag button button_translucent">jonhilton.net
+      Nov 20, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Caution!
-If you’ve built web apps with Blazor Server the following may cause distress! 😅
-Attempting to reconnect to the server…
-Reconnection failed. Try reloading the page if you’re unable to reconnect.
-These are the standard Blazor error messages your users have likely complained about as they interact with your Blazor application.
-These errors occur because of the connected nature of Blazor server apps.
-A circuit runs on the server (for a given user interaction), and a SignalR (websocket) connection is maintained between the user’s browser and said circuit.
-Unfortunately this can mean your users end up being forcing to click a ‘Reload’ hyperlink to refresh the app, causing them to lose any unsaved work in the process.
-Improved error handling in .NET 9
-.NET 9 brings improvements in this area.
-First up, there’s a nicer default UI which is shown if connection is lost.</p>
-<p>You can’t see it here, but the blue circles are animated, and the timer counts down until a connection retry is attempted.
-In addition to the changed default UI, Blazor will now attempt to reconnect to the server using an exponential backoff strategy.
-In effect, this means it will try to reconnect a few times in quick succession, before gradually increasing the delay between retries.
-Furthermore, if a user navigates to an app with a disconnected circuit (for example, because they open a tab for your app after being away from it for a time) Blazor will attempt to reconnect immediately.
-In many cases this will seamlessly bring the disconnected app back to life.
-But if Blazor can’t reconnect to the original cricuit it will refresh the entire page automatically.
-Tweak the configuration
-While Blazor ships with standard logic, including how often to retry the connection, you can tweak this for your specific purposes.
-The trick is to override how Blazor starts.
-First by disabling autostart in your app.razor component.</p>
-<script src="_framework/blazor.web.js" autostart="false"></script>
-<p>Then by manually starting Blazor, passing your own configuration for the circuit reconnection logic.</p>
-<script>
- Blazor.start({
- circuit: {
- reconnectionOptions: {
- maxRetries: 6,
- retryIntervalMilliseconds: (previousAttempts, maxRetries) =>
- previousAttempts >= maxRetries
- ? null
- : previousAttempts * 1000
- },
- },
- });
-</script>
-<p>This indicates we want to attempt reconnection 6 times, with the delay between each attempt increasing by 1 second (1000 milliseconds) for every attempt.
-Finally, when previousAttempts hits (or exceeds) our value for max retries (6) we return null which halts the reconnection logic.
-You can also just pass an array of millisecond values if you prefer.</p>
-<script>
- Blazor.start({
- circuit: {
- reconnectionOptions: {
- retryIntervalMilliseconds:
- Array.prototype.at.bind(
- [0, 1000, 2000, 5000, 10000, 15000, 30000, 60000]
- ),
- },
- },
- });
-</script>
-<p>Here, retries will stop after the last specified retry interval (when the function returns undefined).
-In summary
-If you’re building a Blazor Server app (or an app with some interactivity using Blazor server) .NET 9 improves the default experience for handling server disconnects.
-The ‘out of the box’ defaults work well in most cases but, should you need to, you can also configure the retry logic for your specific app.
-– Jon</p>
+    <div class="post_body"><p>We live in a world where things change at a rapid pace, and the latest and greatest quickly becomes outdated. The same goes for deploying applications to servers. You used to have to physically travel to a data center to deploy your changes. Later on, we moved to VMs. Then containers came along and changed […]</p>
 <ul>
-<li>Link to article: <a href="https://jonhilton.net/blazor-server-reconnects/">https://jonhilton.net/blazor-server-reconnects/</a></li>
+<li>Link to article: <a href="https://blog.jetbrains.com/go/2024/11/20/deploying-go-apps-with-kubernetes/">https://blog.jetbrains.com/go/2024/11/20/deploying-go-apps-with-kubernetes/</a></li>
 </ul>
 
     </div>
