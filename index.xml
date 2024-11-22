@@ -7,13 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 22 Nov 2024 18:15:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Nov 2024 18:51:29 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Announcing TypeScript 5.7</title>
+      <title>Orchestrate generative AI workflows with Amazon Bedrock and AWS Step Functions</title>
       <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_0/</link>
-      <pubDate>Fri, 22 Nov 2024 18:15:19 +0000</pubDate>
+      <pubDate>Fri, 22 Nov 2024 18:51:29 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_0/</guid>
+      <description>
+        
+          
+            This post discusses how to use AWS Step Functions to efficiently coordinate multi-step generative AI workflows, such as parallelizing API calls to Amazon Bedrock to quickly gather answers to lists of submitted questions. We also touch on the usage of Retrieval Augmented Generation (RAG) to optimize outputs and provide an extra layer of precision, as well as other possible integrations through Step Functions.
+Link to article: https://aws.amazon.com/blogs/machine-learning/orchestrate-generative-ai-workflows-with-amazon-bedrock-and-aws-step-functions/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build generative AI applications on Amazon Bedrock with the AWS SDK for Python (Boto3)</title>
+      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_1/</link>
+      <pubDate>Fri, 22 Nov 2024 18:43:36 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_1/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to use Amazon Bedrock with the AWS SDK for Python (Boto3) to programmatically incorporate FMs. We explore invoking a specific FM and processing the generated text, showcasing the potential for developers to use these models in their applications for a variety of use cases
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-generative-ai-applications-on-amazon-bedrock-with-the-aws-sdk-for-python-boto3/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Improve factual consistency with LLM Debates</title>
+      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_2/</link>
+      <pubDate>Fri, 22 Nov 2024 18:40:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_2/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate the potential of large language model (LLM) debates using a supervised dataset with ground truth. In this post, we navigate the LLM debating technique with persuasive LLMs having two expert debater LLMs (Anthropic Claude 3 Sonnet and Mixtral 8X7B) and one judge LLM (Mistral 7B v2 to measure, compare, and contrast its performance against other techniques like self-consistency (with naive and expert judges) and LLM consultancy.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Governing the ML lifecycle at scale, Part 3: Setting up data governance at scale</title>
+      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_3/</link>
+      <pubDate>Fri, 22 Nov 2024 18:28:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_3/</guid>
+      <description>
+        
+          
+            This post dives deep into how to set up data governance at scale using Amazon DataZone for the data mesh. The data mesh is a modern approach to data management that decentralizes data ownership and treats data as a product. It enables different business units within an organization to create, share, and govern their own data assets, promoting self-service analytics and reducing the time required to convert data experiments into production-ready applications.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing TypeScript 5.7</title>
+      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_4/</link>
+      <pubDate>Fri, 22 Nov 2024 18:15:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_4/</guid>
       <description>
         
           
@@ -27,10 +93,10 @@ Link to article: https://devblogs.microsoft.com/typescript/announcing-typescript
     
     <item>
       <title>Amazon Bedrock Flows is now generally available with enhanced safety and traceability</title>
-      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_5/</link>
       <pubDate>Fri, 22 Nov 2024 18:09:56 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_5/</guid>
       <description>
         
           
@@ -44,10 +110,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-fl
     
     <item>
       <title>Implement secure API access to your Amazon Q Business applications with IAM federation user access management</title>
-      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_6/</link>
       <pubDate>Fri, 22 Nov 2024 18:02:28 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_6/</guid>
       <description>
         
           
@@ -61,10 +127,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/implement-secure-
     
     <item>
       <title>Docker Desktop 4.36: New Enterprise Administration Features, WSL 2, and ECI Enhancements</title>
-      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_7/</link>
       <pubDate>Fri, 22 Nov 2024 16:38:18 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_7/</guid>
       <description>
         
           
@@ -78,10 +144,10 @@ Link to article: https://www.docker.com/blog/docker-desktop-4-36/
     
     <item>
       <title>In C&#43;&#43;, how can I make a default parameter be the this pointer of the caller?, revisited</title>
-      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_8/</link>
       <pubDate>Fri, 22 Nov 2024 15:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_8/</guid>
       <description>
         
           
@@ -95,10 +161,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20241122-00/?p=11056
     
     <item>
       <title>JetBrains AI Assistant Integrates Google Gemini and Local LLMs</title>
-      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_9/</link>
       <pubDate>Fri, 22 Nov 2024 14:55:23 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_9/</guid>
       <description>
         
           
@@ -112,10 +178,10 @@ Link to article: https://blog.jetbrains.com/ai/2024/11/jetbrains-ai-assistant-in
     
     <item>
       <title>Top 5 GitHub Copilot Features in Visual Studio from Microsoft Ignite 2024</title>
-      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_10/</link>
       <pubDate>Fri, 22 Nov 2024 13:00:25 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_11_2024/22_11_2024_10/</guid>
       <description>
         
           
