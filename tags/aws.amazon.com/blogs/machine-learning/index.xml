@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 25 Nov 2024 16:01:36 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Nov 2024 00:37:42 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy Meta Llama 3.1 models cost-effectively in Amazon SageMaker JumpStart with AWS Inferentia and AWS Trainium</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_0/</link>
+      <pubDate>Tue, 26 Nov 2024 00:37:42 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_0/</guid>
+      <description>
+        
+          
+            We’re excited to announce the availability of Meta Llama 3.1 8B and 70B inference support on AWS Trainium and AWS Inferentia instances in Amazon SageMaker JumpStart. Trainium and Inferentia, enabled by the AWS Neuron software development kit (SDK), offer high performance and lower the cost of deploying Meta Llama 3.1 by up to 50%. In this post, we demonstrate how to deploy Meta Llama 3.1 on Trainium and Inferentia instances in SageMaker JumpStart.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AWS achieves ISO/IEC 42001:2023 Artificial Intelligence Management System accredited certification</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_1/</link>
+      <pubDate>Tue, 26 Nov 2024 00:11:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_1/</guid>
+      <description>
+        
+          
+            Amazon Web Services (AWS) is excited to be the first major cloud service provider to announce ISO/IEC 42001 accredited certification for the following AI services: Amazon Bedrock, Amazon Q Business, Amazon Textract, and Amazon Transcribe. ISO/IEC 42001 is an international management system standard that outlines requirements and controls for organizations to promote the responsible development and use of AI systems.
+Link to article: https://aws.amazon.com/blogs/machine-learning/aws-achieves-iso-iec-420012023-artificial-intelligence-management-system-accredited-certification/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How 123RF saved over 90% of their translation costs by switching to Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_4/</link>
@@ -438,123 +471,6 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/automate-emails-f
           
             Amazon Bedrock Guardrails helps implement safeguards for generative AI applications based on specific use cases and responsible AI policies. Amazon Bedrock Guardrails assists in controlling the interaction between users and foundation models (FMs) by detecting and filtering out undesirable and potentially harmful content, while maintaining safety and privacy. In this post, we explore a solution that automates building guardrails using a test-driven development approach.
 Link to article: https://aws.amazon.com/blogs/machine-learning/automate-building-guardrails-for-amazon-bedrock-using-test-driven-development/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build cost-effective RAG applications with Binary Embeddings in Amazon Titan Text Embeddings V2, Amazon OpenSearch Serverless, and Amazon Bedrock Knowledge Bases</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_1/</link>
-      <pubDate>Mon, 18 Nov 2024 20:09:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_1/</guid>
-      <description>
-        
-          
-            Today, we are happy to announce the availability of Binary Embeddings for Amazon Titan Text Embeddings V2 in Amazon Bedrock Knowledge Bases and Amazon OpenSearch Serverless. This post summarizes the benefits of this new binary vector support and gives you information on how you can get started.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-cost-effective-rag-applications-with-binary-embeddings-in-amazon-titan-text-embeddings-v2-amazon-opensearch-serverless-and-amazon-bedrock-knowledge-bases/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Automate cloud security vulnerability assessment and alerting using Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_2/</link>
-      <pubDate>Mon, 18 Nov 2024 20:08:11 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_2/</guid>
-      <description>
-        
-          
-            This post demonstrates a proactive approach for security vulnerability assessment of your accounts and workloads, using Amazon GuardDuty, Amazon Bedrock, and other AWS serverless technologies. This approach aims to identify potential vulnerabilities proactively and provide your users with timely alerts and recommendations, avoiding reactive escalations and other damages.
-Link to article: https://aws.amazon.com/blogs/machine-learning/automate-cloud-security-vulnerability-assessment-and-alerting-using-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>DXC transforms data exploration for their oil and gas customers with LLM-powered tools</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_3/</link>
-      <pubDate>Mon, 18 Nov 2024 20:05:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_3/</guid>
-      <description>
-        
-          
-            In this post, we show you how DXC and AWS collaborated to build an AI assistant using large language models (LLMs), enabling users to access and analyze different data types from a variety of data sources. The AI assistant is powered by an intelligent agent that routes user questions to specialized tools that are optimized for different data types such as text, tables, and domain-specific formats. It uses the LLM’s ability to understand natural language, write code, and reason about conversational context.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How MSD uses Amazon Bedrock to translate natural language into SQL for complex healthcare databases</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_5/</link>
-      <pubDate>Mon, 18 Nov 2024 18:57:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_5/</guid>
-      <description>
-        
-          
-            MSD, a leading pharmaceutical company, collaborates with AWS to implement a powerful text-to-SQL generative AI solution using Amazon Bedrock and Anthropic&#39;s Claude 3.5 Sonnet model. This approach streamlines data extraction from complex healthcare databases like DE-SynPUF, enabling analysts to generate SQL queries from natural language questions. The solution addresses challenges such as coded columns, non-intuitive names, and ambiguous queries, significantly reducing query time and democratizing data access.
-Link to article: https://aws.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Generate AWS Resilience Hub findings in natural language using Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_6/</link>
-      <pubDate>Mon, 18 Nov 2024 18:51:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_6/</guid>
-      <description>
-        
-          
-            This blog post discusses a solution that combines AWS Resilience Hub and Amazon Bedrock to generate architectural findings in natural language. By using the capabilities of Resilience Hub and Amazon Bedrock, you can share findings with C-suite executives, engineers, managers, and other personas within your corporation to provide better visibility over maintaining a resilient architecture.
-Link to article: https://aws.amazon.com/blogs/machine-learning/generate-aws-resilience-hub-findings-in-natural-language-using-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Generate and evaluate images in Amazon Bedrock with Amazon Titan Image Generator G1 v2 and Anthropic Claude 3.5 Sonnet</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_7/</link>
-      <pubDate>Mon, 18 Nov 2024 18:33:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_7/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to interact with the Amazon Titan Image Generator G1 v2 model on Amazon Bedrock to generate an image. Then, we show you how to use Anthropic’s Claude 3.5 Sonnet on Amazon Bedrock to describe it, evaluate it with a score from 1–10, explain the reason behind the given score, and suggest improvements to the image.
-Link to article: https://aws.amazon.com/blogs/machine-learning/generate-and-evaluate-images-in-amazon-bedrock-with-amazon-titan-image-generator-g1-v2-and-anthropic-claude-3-5-sonnet/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How InsuranceDekho transformed insurance agent interactions using Amazon Bedrock and generative AI</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_8/</link>
-      <pubDate>Mon, 18 Nov 2024 18:30:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_8/</guid>
-      <description>
-        
-          
-            In this post, we explain how InsuranceDekho harnessed the power of generative AI using Amazon Bedrock and Anthropic’s Claude to provide responses to customer queries on policy coverages, exclusions, and more. This let our customer care agents and POSPs confidently help our customers understand the policies without reaching out to insurance subject matter experts (SMEs) or memorizing complex plans while providing sales and after-sales services. The use of this solution has improved sales, cross-selling, and overall customer service experience.
           
           
         

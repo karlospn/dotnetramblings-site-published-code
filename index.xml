@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 25 Nov 2024 20:05:33 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Nov 2024 00:37:42 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy Meta Llama 3.1 models cost-effectively in Amazon SageMaker JumpStart with AWS Inferentia and AWS Trainium</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_0/</link>
+      <pubDate>Tue, 26 Nov 2024 00:37:42 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_0/</guid>
+      <description>
+        
+          
+            We’re excited to announce the availability of Meta Llama 3.1 8B and 70B inference support on AWS Trainium and AWS Inferentia instances in Amazon SageMaker JumpStart. Trainium and Inferentia, enabled by the AWS Neuron software development kit (SDK), offer high performance and lower the cost of deploying Meta Llama 3.1 by up to 50%. In this post, we demonstrate how to deploy Meta Llama 3.1 on Trainium and Inferentia instances in SageMaker JumpStart.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AWS achieves ISO/IEC 42001:2023 Artificial Intelligence Management System accredited certification</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_1/</link>
+      <pubDate>Tue, 26 Nov 2024 00:11:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_1/</guid>
+      <description>
+        
+          
+            Amazon Web Services (AWS) is excited to be the first major cloud service provider to announce ISO/IEC 42001 accredited certification for the following AI services: Amazon Bedrock, Amazon Q Business, Amazon Textract, and Amazon Transcribe. ISO/IEC 42001 is an international management system standard that outlines requirements and controls for organizations to promote the responsible development and use of AI systems.
+Link to article: https://aws.amazon.com/blogs/machine-learning/aws-achieves-iso-iec-420012023-artificial-intelligence-management-system-accredited-certification/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Solve Advent of Code 2024 Puzzles in Kotlin and Win Prizes</title>
       <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_0/</link>
@@ -1400,411 +1433,6 @@ Link to article: https://blog.elmah.io/schedule-background-job-using-quartz-net/
           
             Seq is one of the best Log Sinks out there : it’s easy to install and configure, and can be added to an ASP.NET application with just a line of code.
 Link to article: https://www.code4it.dev/blog/logging-with-ilogger-and-seq/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Busy Plugin Developers Newsletter – Q3 2024</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_0/</link>
-      <pubDate>Mon, 18 Nov 2024 20:39:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_0/</guid>
-      <description>
-        
-          
-            ⭐️ Community highlights JetBrains Plugin Developer Conf 2024: Kicking off our first event On November 7, we hosted the first-ever JetBrains Plugin Developer Conf, a virtual event dedicated entirely to plugin development for JetBrains products. The conference brought together JetBrains experts and plugin developers to explore a wide range of topics, including developing and launching […]
-Link to article: https://blog.jetbrains.com/platform/2024/11/busy-plugin-developers-newsletter-q3-2024/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build cost-effective RAG applications with Binary Embeddings in Amazon Titan Text Embeddings V2, Amazon OpenSearch Serverless, and Amazon Bedrock Knowledge Bases</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_1/</link>
-      <pubDate>Mon, 18 Nov 2024 20:09:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_1/</guid>
-      <description>
-        
-          
-            Today, we are happy to announce the availability of Binary Embeddings for Amazon Titan Text Embeddings V2 in Amazon Bedrock Knowledge Bases and Amazon OpenSearch Serverless. This post summarizes the benefits of this new binary vector support and gives you information on how you can get started.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-cost-effective-rag-applications-with-binary-embeddings-in-amazon-titan-text-embeddings-v2-amazon-opensearch-serverless-and-amazon-bedrock-knowledge-bases/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Automate cloud security vulnerability assessment and alerting using Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_2/</link>
-      <pubDate>Mon, 18 Nov 2024 20:08:11 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_2/</guid>
-      <description>
-        
-          
-            This post demonstrates a proactive approach for security vulnerability assessment of your accounts and workloads, using Amazon GuardDuty, Amazon Bedrock, and other AWS serverless technologies. This approach aims to identify potential vulnerabilities proactively and provide your users with timely alerts and recommendations, avoiding reactive escalations and other damages.
-Link to article: https://aws.amazon.com/blogs/machine-learning/automate-cloud-security-vulnerability-assessment-and-alerting-using-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>DXC transforms data exploration for their oil and gas customers with LLM-powered tools</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_3/</link>
-      <pubDate>Mon, 18 Nov 2024 20:05:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_3/</guid>
-      <description>
-        
-          
-            In this post, we show you how DXC and AWS collaborated to build an AI assistant using large language models (LLMs), enabling users to access and analyze different data types from a variety of data sources. The AI assistant is powered by an intelligent agent that routes user questions to specialized tools that are optimized for different data types such as text, tables, and domain-specific formats. It uses the LLM’s ability to understand natural language, write code, and reason about conversational context.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Customer Case Study: Fujitsu Kozuchi AI Agent Powered by Semantic Kernel</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_4/</link>
-      <pubDate>Mon, 18 Nov 2024 20:00:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_4/</guid>
-      <description>
-        
-          
-            Customer Case Study: Fujitsu Kozuchi AI Agent Powered by Semantic Kernel Japanese multinational Fujitsu, a pioneer of information and communications technology, has been transforming industries since 1935. With a workforce of 124,000 dedicated professionals across 50 countries, Fujitsu’s mission is to “make the world more sustainable by building trust in society through innovation.” After introducing […]
-Link to article: https://devblogs.microsoft.com/semantic-kernel/customer-case-study-fujitsu-kozuchi-ai-agent-powered-by-semantic-kernel 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How MSD uses Amazon Bedrock to translate natural language into SQL for complex healthcare databases</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_5/</link>
-      <pubDate>Mon, 18 Nov 2024 18:57:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_5/</guid>
-      <description>
-        
-          
-            MSD, a leading pharmaceutical company, collaborates with AWS to implement a powerful text-to-SQL generative AI solution using Amazon Bedrock and Anthropic&#39;s Claude 3.5 Sonnet model. This approach streamlines data extraction from complex healthcare databases like DE-SynPUF, enabling analysts to generate SQL queries from natural language questions. The solution addresses challenges such as coded columns, non-intuitive names, and ambiguous queries, significantly reducing query time and democratizing data access.
-Link to article: https://aws.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Generate AWS Resilience Hub findings in natural language using Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_6/</link>
-      <pubDate>Mon, 18 Nov 2024 18:51:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_6/</guid>
-      <description>
-        
-          
-            This blog post discusses a solution that combines AWS Resilience Hub and Amazon Bedrock to generate architectural findings in natural language. By using the capabilities of Resilience Hub and Amazon Bedrock, you can share findings with C-suite executives, engineers, managers, and other personas within your corporation to provide better visibility over maintaining a resilient architecture.
-Link to article: https://aws.amazon.com/blogs/machine-learning/generate-aws-resilience-hub-findings-in-natural-language-using-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Generate and evaluate images in Amazon Bedrock with Amazon Titan Image Generator G1 v2 and Anthropic Claude 3.5 Sonnet</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_7/</link>
-      <pubDate>Mon, 18 Nov 2024 18:33:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_7/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to interact with the Amazon Titan Image Generator G1 v2 model on Amazon Bedrock to generate an image. Then, we show you how to use Anthropic’s Claude 3.5 Sonnet on Amazon Bedrock to describe it, evaluate it with a score from 1–10, explain the reason behind the given score, and suggest improvements to the image.
-Link to article: https://aws.amazon.com/blogs/machine-learning/generate-and-evaluate-images-in-amazon-bedrock-with-amazon-titan-image-generator-g1-v2-and-anthropic-claude-3-5-sonnet/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How InsuranceDekho transformed insurance agent interactions using Amazon Bedrock and generative AI</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_8/</link>
-      <pubDate>Mon, 18 Nov 2024 18:30:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_8/</guid>
-      <description>
-        
-          
-            In this post, we explain how InsuranceDekho harnessed the power of generative AI using Amazon Bedrock and Anthropic’s Claude to provide responses to customer queries on policy coverages, exclusions, and more. This let our customer care agents and POSPs confidently help our customers understand the policies without reaching out to insurance subject matter experts (SMEs) or memorizing complex plans while providing sales and after-sales services. The use of this solution has improved sales, cross-selling, and overall customer service experience.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Extending the Interaction Between AI Agents and Editors</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_9/</link>
-      <pubDate>Mon, 18 Nov 2024 18:28:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_9/</guid>
-      <description>
-        
-          
-            We explore the interaction of AI agents and editors by mixing tool definitions with prompts using a simple Markdown-based canvas.
-Link to article: https://www.docker.com/blog/extending-the-interaction-between-ai-agents-and-editors/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Let’s meet at Slush 2024 in Helsinki!</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_10/</link>
-      <pubDate>Mon, 18 Nov 2024 18:26:29 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_10/</guid>
-      <description>
-        
-          
-            Meet with our JetBrains for Startups team at Slush 2024 in Helsinki on November 20–21! This November, our JetBrains team is returning for the third year in a row to the most founder-focused event on Earth. Join us at booth 7A2 to discuss how our tools can accelerate your startup’s growth, win exclusive swag, or […]
-Link to article: https://blog.jetbrains.com/blog/2024/11/18/let-s-meet-at-slush-2024-in-helsinki/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Enhance Your .NET Developer Productivity with GitHub Copilot</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_11/</link>
-      <pubDate>Mon, 18 Nov 2024 18:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_11/</guid>
-      <description>
-        
-          
-            Learn how to get started with GitHub Copilot for .NET development for AI assisted development in Visual Studio and Visual Studio Code
-Link to article: https://devblogs.microsoft.com/dotnet/enhance-your-dotnet-developer-productivity-with-github-copilot 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing the General Availability of Managed DevOps Pools (MDP) for Azure DevOps</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_12/</link>
-      <pubDate>Mon, 18 Nov 2024 17:39:02 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_12/</guid>
-      <description>
-        
-          
-            We are thrilled to announce that Managed DevOps Pools for Azure DevOps is now generally available! This milestone marks a significant advancement in our mission to improve developer productivity in the CI/CD loop, reduce your cloud bill for ES infra and to reduce the toil associated with creating and maintaining custom CI/CD infrastructure for your […]
-Link to article: https://devblogs.microsoft.com/devops/managed-devops-pools-ga 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Software is a team sport: Building the future of software development together</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_13/</link>
-      <pubDate>Mon, 18 Nov 2024 17:00:08 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_13/</guid>
-      <description>
-        
-          
-            At Microsoft, we strive to build the world’s most beloved developer tools and services. Our vision is to empower every developer to transform their concepts into reality, from idea to code to cloud, at lightning speed. The Visual Studio family, Azure, GitHub, and GitHub Copilot empower developers around the world to do just that. Since […]
-Link to article: https://devblogs.microsoft.com//building-the-future-of-software-development-together 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PowerShell 7.5 RC-1 is now available</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_14/</link>
-      <pubDate>Mon, 18 Nov 2024 15:57:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_14/</guid>
-      <description>
-        
-          
-            Availability of PowerShell 7.5 RC1
-Link to article: https://devblogs.microsoft.com/powershell/powershell-7-5-rc-1-is-now-available 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft’s Agentic Frameworks: AutoGen and Semantic Kernel</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_15/</link>
-      <pubDate>Mon, 18 Nov 2024 15:50:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_15/</guid>
-      <description>
-        
-          
-            Microsoft’s agentic AI frameworks, Semantic Kernel and AutoGen are deeply collaborating to provide the best-in-class agentic developer experience. With Semantic Kernel’s enterprise ready AI capabilities, customers can already use and get support for building agent applications and, moving forward, we’ll align the multi-agent runtime in AutoGen (called autogen-core) with Semantic Kernel, allowing customers to create […]
-Link to article: https://devblogs.microsoft.com/autogen/microsofts-agentic-frameworks-autogen-and-semantic-kernel 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Git tooling updates in Visual Studio 17.12</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_16/</link>
-      <pubDate>Mon, 18 Nov 2024 15:37:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_16/</guid>
-      <description>
-        
-          
-            We are thrilled to announce the latest updates to Git tooling in Visual Studio, designed to enhance your development experience and streamline your workflow. These new features are in direct response to user feedback, ensuring that you have the tools you need to be more productive and efficient. For the full list, check out the […]
-Link to article: https://devblogs.microsoft.com/visualstudio/git-tooling-updates-in-visual-studio-17-12 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The operations for reading and writing single elements for C&#43;&#43; standard library maps</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_17/</link>
-      <pubDate>Mon, 18 Nov 2024 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_17/</guid>
-      <description>
-        
-          
-            Breaking down the options.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241118-00/?p=110535 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>K2 Mode Becomes Stable</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_18/</link>
-      <pubDate>Mon, 18 Nov 2024 14:16:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_18/</guid>
-      <description>
-        
-          
-            In IntelliJ IDEA 2024.3, K2 mode is out of Beta and is now Stable and ready for general use. K2 mode significantly improves code analysis stability, memory consumption efficiency, and the IDE’s overall performance, and it supports Kotlin 2.1 language features. Background K2 mode in IntelliJ IDEA was developed to address limitations in the previous […]
-Link to article: https://blog.jetbrains.com/idea/2024/11/k2-mode-becomes-stable/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Qodana Case Studies: Preventing Critical Production Incidents with Moovit</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_19/</link>
-      <pubDate>Mon, 18 Nov 2024 13:03:28 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_19/</guid>
-      <description>
-        
-          
-            Moovit – a popular commuter app serving 1.5 billion users in over 3,500 cities – has become a critical part of people’s daily transit since its inception in 2012. As with any large-scale application, the Moovit team has to maintain a clean and sustainable codebase to limit outages and ensure a smooth and effective service […]
-Link to article: https://blog.jetbrains.com/qodana/2024/11/qodana-case-studies-moovit/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Embeded languages in string values supported by Roslyn</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_20/</link>
-      <pubDate>Mon, 18 Nov 2024 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_20/</guid>
-      <description>
-        
-          
-            In a recent post, I shared how to highlight C# code in string values. Roslyn provides more built-in highlighters / code-completions in string values. Most of the supported languages are available as constants of the StringSyntaxAttribute class. To indicate the language, you can use the lang or language comment or the [StringSyntax] attribute. The languages mentioned in this post are handled by Roslyn (VS,…
-Link to article: https://www.meziantou.net/embeded-languages-in-string-values-supported-by-roslyn.htm?utm_medium=social&amp;utm_source=syndication 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>New Livestream: The JUnit Crew Presents the Latest Features</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_21/</link>
-      <pubDate>Mon, 18 Nov 2024 09:50:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_21/</guid>
-      <description>
-        
-          
-            Join us for a new IntelliJ IDEA Livestream episode with JUnit team members to discover the most recent updates to the test automation framework. Date: November 27, 2024 Time: 3:00–4:00 pm UTC REGISTER FOR THE LIVESTREAM Session abstract In this session, the JUnit team will introduce the recent 5.11 release’s new features, as well as […]
-Link to article: https://blog.jetbrains.com/idea/2024/11/new-livestream-the-junit-crew-presents-the-latest-features/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Early Binding and Late Binding in C#</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_22/</link>
-      <pubDate>Mon, 18 Nov 2024 07:54:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_22/</guid>
-      <description>
-        
-          
-            In C#, method binding refers to associating a method call with the method’s code definition. When we invoke a method, the program determines which specific method to execute. This process, known as “binding,” can occur at two different times: during compile-time (early binding) or runtime (late binding). By using early binding, we can use compile-time […] The post Early Binding and Late Binding in C# appeared first on Code Maze.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ASP.NET Core BFF using OpenID Connect and Vue.js</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_23/</link>
-      <pubDate>Mon, 18 Nov 2024 07:07:02 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_11_2024/18_11_2024_23/</guid>
-      <description>
-        
-          
-            This article shows how to implement a secure web application using Vue.js and ASP.NET Core. The web application implements the backend for frontend security architecture (BFF) and deploys both technical stacks as one web application. HTTP only secure cookies are used to persist the session. OpenIddict is used as the identity provider and the token […]
-Link to article: https://damienbod.com/2024/11/18/asp-net-core-bff-using-openid-connect-and-vue-js/ 
           
           
         
