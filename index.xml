@@ -7,13 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 26 Nov 2024 09:09:14 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Nov 2024 17:05:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kotlin Roundup: Kodee’s Top Picks</title>
+      <title>Build a read-through semantic cache with Amazon OpenSearch Serverless and Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_0/</link>
-      <pubDate>Tue, 26 Nov 2024 09:09:14 +0000</pubDate>
+      <pubDate>Tue, 26 Nov 2024 17:05:50 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_0/</guid>
+      <description>
+        
+          
+            This post presents a strategy for optimizing LLM-based applications. Given the increasing need for efficient and cost-effective AI solutions, we present a serverless read-through caching blueprint that uses repeated data patterns. With this cache, developers can effectively save and access similar prompts, thereby enhancing their systems’ efficiency and response times.
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-read-through-semantic-cache-with-amazon-opensearch-serverless-and-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Rad AI reduces real-time inference latency by 50% using Amazon SageMaker</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_1/</link>
+      <pubDate>Tue, 26 Nov 2024 16:59:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_1/</guid>
+      <description>
+        
+          
+            This post is co-written with Ken Kao and Hasan Ali Demirci from Rad AI. Rad AI has reshaped radiology reporting, developing solutions that streamline the most tedious and repetitive tasks, and saving radiologists’ time. Since 2018, using state-of-the-art proprietary and open source large language models (LLMs), our flagship product—Rad AI Impressions— has significantly reduced the […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/rad-ai-reduces-real-time-inference-latency-by-50-using-amazon-sagemaker/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Read graphs, diagrams, tables, and scanned pages using multimodal prompts in Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_2/</link>
+      <pubDate>Tue, 26 Nov 2024 16:48:42 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_2/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to use models on Amazon Bedrock to retrieve information from images, tables, and scanned documents. We provide the following examples: 1/ performing object classification and object detection tasks, 2/ reading and querying graphs, and 3/ reading flowcharts and architecture diagrams (such as an AWS architecture diagram) and converting it to text.
+Link to article: https://aws.amazon.com/blogs/machine-learning/read-graphs-diagrams-tables-and-scanned-pages-using-multimodal-prompts-in-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Debugger and Diagnostics updates in Visual Studio 17.12</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_3/</link>
+      <pubDate>Tue, 26 Nov 2024 16:41:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_3/</guid>
+      <description>
+        
+          
+            We are thrilled to announce a host of exciting new features in Visual Studio 17.12, designed to enhance your development experience and boost your productivity. Our team has been working diligently to address some of the most popular requests from our developer community, and we are confident that these updates will significantly improve your workflow. […]
+Link to article: https://devblogs.microsoft.com/visualstudio/debugger-and-diagnostics-updates-in-visual-studio-17-12 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Crexi achieved ML models deployment on AWS at scale and boosted efficiency</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_4/</link>
+      <pubDate>Tue, 26 Nov 2024 16:35:15 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_4/</guid>
+      <description>
+        
+          
+            Commercial Real Estate Exchange, Inc. (Crexi), is a digital marketplace and platform designed to streamline commercial real estate transactions. In this post, we will review how Crexi achieved its business needs and developed a versatile and powerful framework for AI/ML pipeline creation and deployment. This customizable and scalable solution allows its ML models to be efficiently deployed and managed to meet diverse project requirements.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-crexi-achieved-ml-models-deployment-on-aws-at-scale-and-boosted-efficiency/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Kotlin Roundup: Kodee’s Top Picks</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_5/</link>
+      <pubDate>Tue, 26 Nov 2024 09:09:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_5/</guid>
       <description>
         
           
@@ -27,10 +112,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2024/11/kotlin-roundup-kodee-
     
     <item>
       <title>Object Calisthenics #5: Other points of views</title>
-      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_6/</link>
       <pubDate>Tue, 26 Nov 2024 09:00:52 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_6/</guid>
       <description>
         
           
@@ -44,10 +129,10 @@ Link to article: https://goatreview.com/object-calisthenics-5-other-points-of-vi
     
     <item>
       <title>Cross-Origin-Resource-Policy: preventing hotlinking and XSSI attacks: Understanding cross-origin security headers - Part 2</title>
-      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_7/</link>
       <pubDate>Tue, 26 Nov 2024 09:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_7/</guid>
       <description>
         
           
@@ -61,10 +146,10 @@ Link to article: https://andrewlock.net/understanding-security-headers-part-2-cr
     
     <item>
       <title>Enhancing .NET Security: A Guide to Secure Password Hashing with Spargine’s SHA256PasswordHasher</title>
-      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_8/</link>
       <pubDate>Tue, 26 Nov 2024 09:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_8/</guid>
       <description>
         
           
@@ -78,10 +163,10 @@ Link to article: https://dotnettips.wordpress.com/2024/11/26/enhancing-net-secur
     
     <item>
       <title>C# 13 Features: What&amp;#x27;s New and How to Use It</title>
-      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_9/</link>
       <pubDate>Tue, 26 Nov 2024 07:32:08 +0100</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_9/</guid>
       <description>
         
           
@@ -95,10 +180,10 @@ Link to article: https://blog.elmah.io/c-13-features-whats-new-and-how-to-use-it
     
     <item>
       <title>Deploy Meta Llama 3.1 models cost-effectively in Amazon SageMaker JumpStart with AWS Inferentia and AWS Trainium</title>
-      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_10/</link>
       <pubDate>Tue, 26 Nov 2024 00:37:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_10/</guid>
       <description>
         
           
@@ -111,10 +196,10 @@ Link to article: https://blog.elmah.io/c-13-features-whats-new-and-how-to-use-it
     
     <item>
       <title>AWS achieves ISO/IEC 42001:2023 Artificial Intelligence Management System accredited certification</title>
-      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_11/</link>
       <pubDate>Tue, 26 Nov 2024 00:11:26 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_11_2024/26_11_2024_11/</guid>
       <description>
         
           
