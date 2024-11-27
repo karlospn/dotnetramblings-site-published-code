@@ -7,13 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 27 Nov 2024 19:37:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Nov 2024 20:39:54 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Use Amazon Bedrock Agents for code scanning, optimization, and remediation</title>
+      <title>Efficiently train models with large sequence lengths using Amazon SageMaker model parallel</title>
       <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_0/</link>
-      <pubDate>Wed, 27 Nov 2024 19:37:47 +0000</pubDate>
+      <pubDate>Wed, 27 Nov 2024 20:39:54 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_0/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how the Amazon SageMaker model parallel library (SMP) addresses this need through support for new features such as 8-bit floating point (FP8) mixed-precision training for accelerated training performance and context parallelism for processing large input sequence lengths, expanding the list of its existing features.
+Link to article: https://aws.amazon.com/blogs/machine-learning/efficiently-train-models-with-large-sequence-lengths-using-amazon-sagemaker-model-parallel/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting started with Amazon Bedrock Agents custom orchestrator</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_1/</link>
+      <pubDate>Wed, 27 Nov 2024 20:32:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_1/</guid>
+      <description>
+        
+          
+            In this post, we explore how Amazon Bedrock Agents simplify the orchestration of generative AI workflows, particularly with the introduction of the custom orchestrator feature. You can use the custom orchestrator to fine-tune and optimize agentic workflows that align more closely with specific business and operational needs. We outline the feature’s key benefits, including full control over orchestration, real-time adjustments, and reusability, followed by a breakdown of how it manages state transitions and contract-based interactions between Amazon Bedrock Agents and AWS Lambda.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Use Amazon Bedrock Agents for code scanning, optimization, and remediation</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_2/</link>
+      <pubDate>Wed, 27 Nov 2024 19:37:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_2/</guid>
       <description>
         
           
@@ -26,10 +59,10 @@
     
     <item>
       <title>Create a generative AI assistant with Slack and Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_7/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_10/</link>
       <pubDate>Wed, 27 Nov 2024 14:57:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_10/</guid>
       <description>
         
           
