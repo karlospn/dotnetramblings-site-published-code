@@ -7,13 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 27 Nov 2024 21:25:18 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Nov 2024 23:03:18 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>So how many replicas should my VM Application use?</title>
+      <title>Embodied AI Chess with Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_0/</link>
-      <pubDate>Wed, 27 Nov 2024 21:25:18 +0000</pubDate>
+      <pubDate>Wed, 27 Nov 2024 23:03:18 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_0/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate Embodied AI Chess with Amazon Bedrock, bringing a new dimension to traditional chess through generative AI capabilities. Our setup features a smart chess board that can detect moves in real time, paired with two robotic arms executing those moves. Each arm is controlled by different FMs—base or custom. This physical implementation allows you to observe and experiment with how different generative AI models approach complex gaming strategies in real-world chess matches.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Properly cycling domain passwords with the JSonADDomain extension</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_1/</link>
+      <pubDate>Wed, 27 Nov 2024 22:59:29 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_1/</guid>
+      <description>
+        
+          
+            For those familiar with the JsonAdDomain extension, it provides an easy way to join VMs to your domain. However, one aspect that customers have been less crazy about is that the domain password must be shared in the protected settings (where it is at least encrypted) and, more importantly, the functionality of the extension doesn’t […]
+Link to article: https://devblogs.microsoft.com/azure-vm-runtime/properly-cycling-domain-passwords-with-the-jsonaddomain-extension 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>So how many replicas should my VM Application use?</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_2/</link>
+      <pubDate>Wed, 27 Nov 2024 21:25:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_2/</guid>
       <description>
         
           
@@ -27,10 +60,10 @@ Link to article: https://devblogs.microsoft.com/azure-vm-runtime/so-how-many-rep
     
     <item>
       <title>Azure SDK Release (November 2024)</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_3/</link>
       <pubDate>Wed, 27 Nov 2024 21:16:54 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_3/</guid>
       <description>
         
           
@@ -44,10 +77,10 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-nove
     
     <item>
       <title>Efficiently train models with large sequence lengths using Amazon SageMaker model parallel</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_4/</link>
       <pubDate>Wed, 27 Nov 2024 20:39:54 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_4/</guid>
       <description>
         
           
@@ -61,10 +94,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/efficiently-train
     
     <item>
       <title>Getting started with Amazon Bedrock Agents custom orchestrator</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_3/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_5/</link>
       <pubDate>Wed, 27 Nov 2024 20:32:26 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_5/</guid>
       <description>
         
           
@@ -77,10 +110,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/efficiently-train
     
     <item>
       <title>Use Amazon Bedrock Agents for code scanning, optimization, and remediation</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_4/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_6/</link>
       <pubDate>Wed, 27 Nov 2024 19:37:47 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_6/</guid>
       <description>
         
           
@@ -93,10 +126,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/efficiently-train
     
     <item>
       <title>Recordings from JetBrains Plugin Developer Conf 2024 Are Now Live</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_5/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_7/</link>
       <pubDate>Wed, 27 Nov 2024 19:28:16 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_7/</guid>
       <description>
         
           
@@ -110,10 +143,10 @@ Link to article: https://blog.jetbrains.com/platform/2024/11/recordings-from-jet
     
     <item>
       <title>Fleet 1.43 Is Here With Improved Branches Menu, Context Retrieval and Slash Commands in AI Chat, and More Enhancements</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_6/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_8/</link>
       <pubDate>Wed, 27 Nov 2024 16:27:26 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_8/</guid>
       <description>
         
           
@@ -127,10 +160,10 @@ Link to article: https://blog.jetbrains.com/fleet/2024/11/fleet-1-43-is-here-wit
     
     <item>
       <title>Kotlin 2.1.0 Released</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_7/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_9/</link>
       <pubDate>Wed, 27 Nov 2024 16:23:08 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_9/</guid>
       <description>
         
           
@@ -144,10 +177,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2024/11/kotlin-2-1-0-released
     
     <item>
       <title>Dramatically faster package restores with .NET 9’s new NuGet resolver</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_8/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_10/</link>
       <pubDate>Wed, 27 Nov 2024 16:15:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_10/</guid>
       <description>
         
           
@@ -161,10 +194,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/dotnet-9-nuget-resolver
     
     <item>
       <title>Checking whether a URI refers to a Web site root</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_10/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_12/</link>
       <pubDate>Wed, 27 Nov 2024 15:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_12/</guid>
       <description>
         
           
@@ -178,10 +211,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20241127-00/?p=11058
     
     <item>
       <title>Teams Toolkit for Visual Studio Code update – November 2024</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_9/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_11/</link>
       <pubDate>Wed, 27 Nov 2024 15:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_11/</guid>
       <description>
         
           
@@ -195,10 +228,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/teams-toolkit-fo
     
     <item>
       <title>Create a generative AI assistant with Slack and Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_11/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_13/</link>
       <pubDate>Wed, 27 Nov 2024 14:57:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_13/</guid>
       <description>
         
           
@@ -212,10 +245,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/create-a-generati
     
     <item>
       <title>IntelliJ IDEA 2024.2.5 Is Out</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_12/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_14/</link>
       <pubDate>Wed, 27 Nov 2024 13:26:21 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_14/</guid>
       <description>
         
           
@@ -229,10 +262,10 @@ Link to article: https://blog.jetbrains.com/idea/2024/11/intellij-idea-2024-2-5/
     
     <item>
       <title>Updates for C&#43;&#43; developers in Visual Studio 2022 17.12</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_13/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_15/</link>
       <pubDate>Wed, 27 Nov 2024 13:00:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_15/</guid>
       <description>
         
           
@@ -246,10 +279,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/updates-for-c-devel
     
     <item>
       <title>Discontinuation of the SpaceCode Private Preview</title>
-      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_14/</link>
+      <link>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_16/</link>
       <pubDate>Wed, 27 Nov 2024 09:37:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_14/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_11_2024/27_11_2024_16/</guid>
       <description>
         
           
