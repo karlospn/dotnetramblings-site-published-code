@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>C# Tip: 2 ways to generate realistic data using Bogus | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Bogus is a library that generates realistic values for your data. When populating fake user names, instead of Foo and Bar, you can have John and Sarah. Let’s …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="C# Tip: 2 ways to generate realistic data using Bogus" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_7/" />
+<meta property="og:title" content="C# Tip: 2 ways to generate realistic data using Bogus" />
+<meta property="og:description" content="Bogus is a library that generates realistic values for your data. When populating fake user names, instead of Foo and Bar, you can have John and Sarah. Let’s …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_7/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20241126-00/?p=110575" title="Microspeak: Real estate and Airspace">Microspeak: Real estate and Airspace</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">C# Tip: 2 ways to generate realistic data using Bogus</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,485 +140,27 @@
 </svg>
 </span>
     <span class="post_date">
-      Nov 26, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Dec 3, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code4it.dev/' title="code4it.dev" class="post_tag button button_translucent">code4it.dev
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Microspeak: Real estate and Airspace"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Space on the screen and negotiating control over it.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20241126-00/?p=110575">https://devblogs.microsoft.com/oldnewthing/20241126-00/?p=110575</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20241126-00/?p=110575" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/kotlin/2024/11/kotlin-roundup-kodee-s-top-picks/" title="Kotlin Roundup: Kodee’s Top Picks">Kotlin Roundup: Kodee’s Top Picks</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 26, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Bogus is a library that generates realistic values for your data. When populating fake user names, instead of Foo and Bar, you can have John and Sarah. Let’s see two ways to define and reuse a Faker definition.</p>
+<ul>
+<li>Link to article: <a href="https://www.code4it.dev/csharptips/bogus-data-generation/">https://www.code4it.dev/csharptips/bogus-data-generation/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Kotlin Roundup: Kodee’s Top Picks"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Hi everyone! Time flies, doesn’t it? It’s already my second edition of Kotlin Roundup, and I can’t wait to share the latest from the Kotlin ecosystem. Did you know that the JetBrains team regularly publishes a newsletter featuring major Kotlin ecosystem news? Sign up to stay up to date with all things Kotlin.
-Link to …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/kotlin/2024/11/kotlin-roundup-kodee-s-top-picks/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://goatreview.com/object-calisthenics-5-other-points-of-views/" title="Object Calisthenics #5: Other points of views">Object Calisthenics #5: Other points of views</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 26, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/goatreview.com/' title="goatreview.com" class="post_tag button button_translucent">goatreview.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Object Calisthenics #5: Other points of views"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>You've seen two implementations of calisthenics objects that differed in many ways, both in the way they applied the rules and in the solutions they proposed to meet the rules discussed in this article:Object Calisthenics #1: Elevating Code Quality with 9 Powerful RulesDiscover how Object Calisthenics
-Link to article: …</p>
-          
-          <br>
-          <a href="https://goatreview.com/object-calisthenics-5-other-points-of-views/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://andrewlock.net/understanding-security-headers-part-2-cross-origin-resource-policy-preventing-hotlinking/" title="Cross-Origin-Resource-Policy: preventing hotlinking and XSSI attacks: Understanding cross-origin security headers - Part 2">Cross-Origin-Resource-Policy: preventing hotlinking and XSSI attacks: Understanding cross-origin security headers - Part 2</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 26, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/andrewlock.net/' title="andrewlock.net" class="post_tag button button_translucent">andrewlock.net
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Cross-Origin-Resource-Policy: preventing hotlinking and XSSI attacks: Understanding cross-origin security headers - Part 2"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this post I describe how to use the Cross-Origin-Resource-Policy to block cross-origin requests that would normally be allowed, such as in tags
-Link to article: <a href="https://andrewlock.net/understanding-security-headers-part-2-cross-origin-resource-policy-preventing-hotlinking/">https://andrewlock.net/understanding-security-headers-part-2-cross-origin-resource-policy-preventing-hotlinking/</a></p>
-          
-          <br>
-          <a href="https://andrewlock.net/understanding-security-headers-part-2-cross-origin-resource-policy-preventing-hotlinking/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2024/11/26/enhancing-net-security-a-guide-to-secure-password-hashing-with-spargines-sha256passwordhasher/" title="Enhancing .NET Security: A Guide to Secure Password Hashing with Spargine’s SHA256PasswordHasher">Enhancing .NET Security: A Guide to Secure Password Hashing with Spargine’s SHA256PasswordHasher</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 26, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Enhancing .NET Security: A Guide to Secure Password Hashing with Spargine’s SHA256PasswordHasher"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Spargine is a collection of open-source .NET 8 assemblies and NuGet packages created for effective password hashing. The SHA256PasswordHasher class uses SHA-256 with unique salts to provide secure password management in applications. It includes methods for hashing and verifying passwords, promoting robust security …</p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2024/11/26/enhancing-net-security-a-guide-to-secure-password-hashing-with-spargines-sha256passwordhasher/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.elmah.io/c-13-features-whats-new-and-how-to-use-it/" title="C# 13 Features: What&amp;#x27;s New and How to Use It">C# 13 Features: What's New and How to Use It</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 26, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.elmah.io/' title="blog.elmah.io" class="post_tag button button_translucent">blog.elmah.io
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="C# 13 Features: What&amp;amp;#x27;s New and How to Use It"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>C# has always been one of the most popular programming languages among developers. It continuously evolves to meet timed features and trends. Its robustness and flexibility make it an all-purpose language and ideal for domains like desktop applications, enterprise systems, web development, games, and cross-platform and …</p>
-          
-          <br>
-          <a href="https://blog.elmah.io/c-13-features-whats-new-and-how-to-use-it/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://aws.amazon.com/blogs/machine-learning/deploy-meta-llama-3-1-models-cost-effectively-in-amazon-sagemaker-jumpstart-with-aws-inferentia-and-aws-trainium/" title="Deploy Meta Llama 3.1 models cost-effectively in Amazon SageMaker JumpStart with AWS Inferentia and AWS Trainium">Deploy Meta Llama 3.1 models cost-effectively in Amazon SageMaker JumpStart with AWS Inferentia and AWS Trainium</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 26, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Deploy Meta Llama 3.1 models cost-effectively in Amazon SageMaker JumpStart with AWS Inferentia and AWS Trainium"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/aws.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>We’re excited to announce the availability of Meta Llama 3.1 8B and 70B inference support on AWS Trainium and AWS Inferentia instances in Amazon SageMaker JumpStart. Trainium and Inferentia, enabled by the AWS Neuron software development kit (SDK), offer high performance and lower the cost of deploying Meta Llama 3.1 …</p>
-          
-          <br>
-          <a href="https://aws.amazon.com/blogs/machine-learning/deploy-meta-llama-3-1-models-cost-effectively-in-amazon-sagemaker-jumpstart-with-aws-inferentia-and-aws-trainium/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://aws.amazon.com/blogs/machine-learning/aws-achieves-iso-iec-420012023-artificial-intelligence-management-system-accredited-certification/" title="AWS achieves ISO/IEC 42001:2023 Artificial Intelligence Management System accredited certification">AWS achieves ISO/IEC 42001:2023 Artificial Intelligence Management System accredited certification</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 26, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="AWS achieves ISO/IEC 42001:2023 Artificial Intelligence Management System accredited certification"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/aws.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Amazon Web Services (AWS) is excited to be the first major cloud service provider to announce ISO/IEC 42001 accredited certification for the following AI services: Amazon Bedrock, Amazon Q Business, Amazon Textract, and Amazon Transcribe. ISO/IEC 42001 is an international management system standard that outlines …</p>
-          
-          <br>
-          <a href="https://aws.amazon.com/blogs/machine-learning/aws-achieves-iso-iec-420012023-artificial-intelligence-management-system-accredited-certification/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -650,9 +184,8 @@ Link to article: <a href="https://andrewlock.net/understanding-security-headers-
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
