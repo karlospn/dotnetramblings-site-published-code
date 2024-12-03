@@ -7,7 +7,88 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 02 Dec 2024 19:55:59 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Dec 2024 00:51:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speed up your AI inference workloads with new NVIDIA-powered capabilities in Amazon SageMaker</title>
+      <link>https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_0/</link>
+      <pubDate>Tue, 03 Dec 2024 00:51:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_0/</guid>
+      <description>
+        
+          
+            At re:Invent 2024, we are excited to announce new capabilities to speed up your AI inference workloads with NVIDIA accelerated computing and software offerings on Amazon SageMaker. In this post, we will explore how you can use these new capabilities to enhance your AI inference on Amazon SageMaker. We&#39;ll walk through the process of deploying NVIDIA NIM microservices from AWS Marketplace for SageMaker Inference. We&#39;ll then dive into NVIDIA’s model offerings on SageMaker JumpStart, showcasing how to access and deploy the Nemotron-4 model directly in the JumpStart interface.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Unlock cost savings with the new scale down to zero feature in SageMaker Inference</title>
+      <link>https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_1/</link>
+      <pubDate>Tue, 03 Dec 2024 00:51:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_1/</guid>
+      <description>
+        
+          
+            Today at AWS re:Invent 2024, we are excited to announce a new feature for Amazon SageMaker inference endpoints: the ability to scale SageMaker inference endpoints to zero instances. This long-awaited capability is a game changer for our customers using the power of AI and machine learning (ML) inference in the cloud.
+Link to article: https://aws.amazon.com/blogs/machine-learning/unlock-cost-savings-with-the-new-scale-down-to-zero-feature-in-amazon-sagemaker-inference/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Supercharge your auto scaling for generative AI inference – Introducing Container Caching in SageMaker Inference</title>
+      <link>https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_2/</link>
+      <pubDate>Tue, 03 Dec 2024 00:51:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_2/</guid>
+      <description>
+        
+          
+            Today at AWS re:Invent 2024, we are excited to announce the new Container Caching capability in Amazon SageMaker, which significantly reduces the time required to scale generative AI models for inference. This innovation allows you to scale your models faster, observing up to 56% reduction in latency when scaling a new model copy and up to 30% when adding a model copy on a new instance. In this post, we explore the new Container Caching feature for SageMaker inference, addressing the challenges of deploying and scaling large language models (LLMs).
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Fast Model Loader in SageMaker Inference: Accelerate autoscaling for your Large Language Models (LLMs) – part 1</title>
+      <link>https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_3/</link>
+      <pubDate>Tue, 03 Dec 2024 00:50:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_3/</guid>
+      <description>
+        
+          
+            Today at AWS re:Invent 2024, we are excited to announce a new capability in Amazon SageMaker Inference that significantly reduces the time required to deploy and scale LLMs for inference using LMI: Fast Model Loader. In this post, we delve into the technical details of Fast Model Loader, explore its integration with existing SageMaker workflows, discuss how you can get started with this powerful new feature, and share customer success stories.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Fast Model Loader in SageMaker Inference: Accelerate autoscaling for your Large Language Models (LLMs) – Part 2</title>
+      <link>https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_4/</link>
+      <pubDate>Tue, 03 Dec 2024 00:50:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_12_2024/03_12_2024_4/</guid>
+      <description>
+        
+          
+            In this post, we provide a detailed, hands-on guide to implementing Fast Model Loader in your LLM deployments. We explore two approaches: using the SageMaker Python SDK for programmatic implementation, and using the Amazon SageMaker Studio UI for a more visual, interactive experience. Whether you’re a developer who prefers working with code or someone who favors a graphical interface, you’ll learn how to take advantage of this powerful feature to accelerate your LLM deployments.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Update on nested app authentication and deprecation of Exchange Online legacy tokens</title>
       <link>https://www.dotnetramblings.com/post/02_12_2024/02_12_2024_0/</link>
@@ -1353,224 +1434,6 @@ Link to article: https://blog.elmah.io/c-13-features-whats-new-and-how-to-use-it
           
             Amazon Web Services (AWS) is excited to be the first major cloud service provider to announce ISO/IEC 42001 accredited certification for the following AI services: Amazon Bedrock, Amazon Q Business, Amazon Textract, and Amazon Transcribe. ISO/IEC 42001 is an international management system standard that outlines requirements and controls for organizations to promote the responsible development and use of AI systems.
 Link to article: https://aws.amazon.com/blogs/machine-learning/aws-achieves-iso-iec-420012023-artificial-intelligence-management-system-accredited-certification/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Solve Advent of Code 2024 Puzzles in Kotlin and Win Prizes</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_0/</link>
-      <pubDate>Mon, 25 Nov 2024 20:05:33 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_0/</guid>
-      <description>
-        
-          
-            TL;DRAdvent of Code is the perfect opportunity to level up your Kotlin skills, whether you are a beginner or looking to finally tackle that advanced Kotlin feature you’ve been curious about. Here’s what’s in store: So join in, solve some Advent of Code puzzles, and enjoy the holiday coding spirit with Kotlin! About Advent of […]
-Link to article: https://blog.jetbrains.com/kotlin/2024/11/advent-of-code-2024-in-kotlin/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>OpenAPI document generation in .NET 9</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_1/</link>
-      <pubDate>Mon, 25 Nov 2024 20:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_1/</guid>
-      <description>
-        
-          
-            Introducing the New OpenAPI Document Generation Feature in .NET 9. Let&#39;s take a look at what it is, how to use it, and how it streamlines API development in .NET.
-Link to article: https://devblogs.microsoft.com/dotnet/dotnet9-openapi 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft Semantic Kernel Office Hours Update</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_2/</link>
-      <pubDate>Mon, 25 Nov 2024 19:16:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_2/</guid>
-      <description>
-        
-          
-            Microsoft Semantic Kernel Office Hours Update Over the upcoming Holidays period there are several office hours sessions that we’ll be cancelling. Below is an updated view of our upcoming office hours availability. We will resume with regularly scheduled Office Hours on January 8th for our weekly and monthly sessions. Office Hours Session Date and Time […]
-Link to article: https://devblogs.microsoft.com/semantic-kernel/microsoft-semantic-kernel-office-hours-update 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Unlocking the Power of Memory: Announcing General Availability of Semantic Kernel’s Memory Packages</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_3/</link>
-      <pubDate>Mon, 25 Nov 2024 16:07:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_3/</guid>
-      <description>
-        
-          
-            We are thrilled to announce the General Availability (GA) of our Memory packages for .NET, Java, and Python! The Semantic Kernel team and our partners have been working hard to allow you to quickly connect to vector stores and make it easy for you to do embeddings and data retrieval between stores. Transforming Data Management […]
-Link to article: https://devblogs.microsoft.com/semantic-kernel/unlocking-the-power-of-memory-announcing-general-availability-of-semantic-kernels-memory-packages 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How 123RF saved over 90% of their translation costs by switching to Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_4/</link>
-      <pubDate>Mon, 25 Nov 2024 16:01:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_4/</guid>
-      <description>
-        
-          
-            This post explores how 123RF used Amazon Bedrock, Anthropic’s Claude 3 Haiku, and a vector store to efficiently translate content metadata, significantly reduce costs, and improve their global content discovery capabilities.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-123rf-saved-over-90-of-their-translation-costs-by-switching-to-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Connect SharePoint Online to Amazon Q Business using OAuth 2.0 ROPC flow authentication</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_5/</link>
-      <pubDate>Mon, 25 Nov 2024 15:59:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_5/</guid>
-      <description>
-        
-          
-            In this post, we explore how to integrate Amazon Q Business with SharePoint Online using the OAuth 2.0 ROPC flow authentication method. We provide both manual and automated approaches using PowerShell scripts for configuring the required Azure AD settings. Additionally, we demonstrate how to enter those details along with your SharePoint authentication credentials into the Amazon Q console to finalize the secure connection.
-Link to article: https://aws.amazon.com/blogs/machine-learning/connect-sharepoint-online-to-amazon-q-business-using-oauth-2-0-ropc-flow-authentication/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>John Snow Labs Medical LLMs are now available in Amazon SageMaker JumpStart</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_6/</link>
-      <pubDate>Mon, 25 Nov 2024 15:55:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_6/</guid>
-      <description>
-        
-          
-            Today, we are excited to announce that John Snow Labs’ Medical LLM – Small and Medical LLM – Medium large language models (LLMs) are now available on Amazon SageMaker Jumpstart. For medical doctors, this tool provides a rapid understanding of a patient’s medical journey, aiding in timely and informed decision-making from extensive documentation. This summarization capability not only boosts efficiency but also makes sure that no critical details are overlooked, thereby supporting optimal patient care and enhancing healthcare outcomes.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Copying error messages just got easier</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_7/</link>
-      <pubDate>Mon, 25 Nov 2024 15:19:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_7/</guid>
-      <description>
-        
-          
-            Have you ever been frustrated by the tedious process of copying error descriptions from the Error List? Previously with Visual Studio, copying an error would include all column headers and row values, which isn’t always what you want. If you were planning to search for the error online, it was a hassle to clean up […]
-Link to article: https://devblogs.microsoft.com/visualstudio/copying-error-messages-just-got-easier 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How can I know when a window has processed a message that I posted to it?</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_8/</link>
-      <pubDate>Mon, 25 Nov 2024 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_8/</guid>
-      <description>
-        
-          
-            Best would be to have it tell you.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241125-00/?p=110568 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Enhancing Container Security with Docker Scout and Secure Repositories</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_9/</link>
-      <pubDate>Mon, 25 Nov 2024 14:43:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_9/</guid>
-      <description>
-        
-          
-            Discover how Docker Scout integrates with secure container repositories to ensure vulnerability-free and compliant images in highly secure environments.
-Link to article: https://www.docker.com/blog/enhancing-container-security-with-docker-scout-and-secure-repositories/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to build ChatGPT-like enterprise search on your own data</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_10/</link>
-      <pubDate>Mon, 25 Nov 2024 12:57:28 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_10/</guid>
-      <description>
-        
-          
-            Do you find yourself drowning in company documentation, spending hours searching through SharePoint, knowledge bases, and contract repositories for one specific piece of information? You’re not alone. Organizations now have plenty of information – the challenge lies in finding the right information when you need it. We have built a packaged GitHub template that helps […]
-Link to article: https://devblogs.microsoft.com/all-things-azure/how-to-build-chatgpt-like-enterprise-search-on-your-own-data 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Design of Intelligent, Multi-Agent AI Systems</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_11/</link>
-      <pubDate>Mon, 25 Nov 2024 12:03:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_11/</guid>
-      <description>
-        
-          
-            Intelligent multi-agent AI systems stand out as a robust solution for solving problems requiring modularity, scalability, and specialized expertise. The rapid evolution of artificial intelligence has brought about the innovative approach of designing multi-agent AI systems that can tackle complex, dynamic, and distributed tasks. These systems rely on multiple AI agents collaborating to achieve goals […] The article Design of Intelligent, Multi-Agent AI Systems was originally published on Build5Nines. To stay up-to-date, Subscribe to the Build5Nines Newsletter.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Optimistic Locking vs Pessimistic Locking in .NET</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_12/</link>
-      <pubDate>Mon, 25 Nov 2024 05:56:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_11_2024/25_11_2024_12/</guid>
-      <description>
-        
-          
-            Since the invention of database systems, they have become the primary source of truth for almost every web application’s data. As user demands grow, applications scale, and so does the concurrency within the system. Ensuring data integrity and consistency along with effective locking mechanisms, becomes a major concern when multiple users attempt to access and […] The post Optimistic Locking vs Pessimistic Locking in .NET appeared first on Code Maze.
           
           
         
