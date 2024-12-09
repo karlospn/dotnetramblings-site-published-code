@@ -7,13 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 09 Dec 2024 06:56:56 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Dec 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chain of Responsibility Design Pattern in C#</title>
+      <title>Using the binary log to find the source of a .NET dependency</title>
       <link>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_0/</link>
-      <pubDate>Mon, 09 Dec 2024 06:56:56 +0000</pubDate>
+      <pubDate>Mon, 09 Dec 2024 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_0/</guid>
+      <description>
+        
+          
+            Understanding where a dependency comes from can be tedious. This is especially true when you have a large project with many dependencies. Recently, .NET brings a new tool dotnet nuget why to help you understand why a package is installed in your project. However, there is a better way to do it, and it doesn&#39;t requires a recent SDK. dotnet nuget why can explain why a package is included in your project:…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chain of Responsibility Design Pattern in C#</title>
+      <link>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_1/</link>
+      <pubDate>Mon, 09 Dec 2024 06:56:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_1/</guid>
       <description>
         
           
@@ -26,10 +42,10 @@
     
     <item>
       <title>Using Entra External ID with an Auth0 OpenID Connect identity provider</title>
-      <link>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_1/</link>
+      <link>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_2/</link>
       <pubDate>Mon, 09 Dec 2024 05:39:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_2/</guid>
       <description>
         
           
@@ -43,10 +59,10 @@ Link to article: https://damienbod.com/2024/12/09/using-entra-external-id-with-a
     
     <item>
       <title>Build Resilient Systems with Wolverine’s Transactional Outbox</title>
-      <link>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_2/</link>
+      <link>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_3/</link>
       <pubDate>Mon, 09 Dec 2024 03:31:28 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_3/</guid>
       <description>
         
           

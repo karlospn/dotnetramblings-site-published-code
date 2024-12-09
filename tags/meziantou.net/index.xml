@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 02 Dec 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Dec 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using the binary log to find the source of a .NET dependency</title>
+      <link>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_0/</link>
+      <pubDate>Mon, 09 Dec 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_12_2024/09_12_2024_0/</guid>
+      <description>
+        
+          
+            Understanding where a dependency comes from can be tedious. This is especially true when you have a large project with many dependencies. Recently, .NET brings a new tool dotnet nuget why to help you understand why a package is installed in your project. However, there is a better way to do it, and it doesn&#39;t requires a recent SDK. dotnet nuget why can explain why a package is included in your project:…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>NuGet Packages: security risks and best practices</title>
       <link>https://www.dotnetramblings.com/post/02_12_2024/02_12_2024_15/</link>
