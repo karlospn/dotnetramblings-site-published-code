@@ -7,7 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 12 Dec 2024 17:18:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Dec 2024 20:31:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Amazon trains sequential ensemble models at scale with Amazon SageMaker Pipelines</title>
+      <link>https://www.dotnetramblings.com/post/13_12_2024/13_12_2024_0/</link>
+      <pubDate>Fri, 13 Dec 2024 20:31:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_12_2024/13_12_2024_0/</guid>
+      <description>
+        
+          
+            Ensemble models are becoming popular within the ML communities. They generate more accurate predictions through combining the predictions of multiple models. Pipelines can quickly be used to create and end-to-end ML pipeline for ensemble models. This enables developers to build highly accurate models while maintaining efficiency, and reproducibility. In this post, we provide an example of an ensemble model that was trained and deployed using Pipelines.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-amazon-trains-sequential-ensemble-models-at-scale-with-amazon-sagemaker-pipelines/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Implementing login node load balancing in SageMaker HyperPod for enhanced multi-user experience</title>
+      <link>https://www.dotnetramblings.com/post/13_12_2024/13_12_2024_1/</link>
+      <pubDate>Fri, 13 Dec 2024 20:27:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_12_2024/13_12_2024_1/</guid>
+      <description>
+        
+          
+            In this post, we explore a solution for implementing load balancing across login nodes in Slurm-based HyperPod clusters. By distributing user activity evenly across all available nodes, this approach provides more consistent performance, better resource utilization, and a smoother experience for all users. We guide you through the setup process, providing practical steps to achieve effective load balancing in your HyperPod clusters.
+Link to article: https://aws.amazon.com/blogs/machine-learning/implementing-login-node-load-balancing-in-sagemaker-hyperpod-for-enhanced-multi-user-experience/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Clearwater Analytics is revolutionizing investment management with generative AI and Amazon SageMaker JumpStart</title>
+      <link>https://www.dotnetramblings.com/post/13_12_2024/13_12_2024_2/</link>
+      <pubDate>Fri, 13 Dec 2024 20:22:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_12_2024/13_12_2024_2/</guid>
+      <description>
+        
+          
+            In this post, we explore Clearwater Analytics’ foray into generative AI, how they’ve architected their solution with Amazon SageMaker, and dive deep into how Clearwater Analytics is using LLMs to take advantage of more than 18 years of experience within the investment management domain while optimizing model cost and performance.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-clearwater-analytics-is-revolutionizing-investment-management-with-generative-ai-and-amazon-sagemaker-jumpstart/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Twitch used agentic workflow with RAG on Amazon Bedrock to supercharge ad sales</title>
+      <link>https://www.dotnetramblings.com/post/13_12_2024/13_12_2024_3/</link>
+      <pubDate>Fri, 13 Dec 2024 20:20:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_12_2024/13_12_2024_3/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how we innovated to build a Retrieval Augmented Generation (RAG) application with agentic workflow and a knowledge base on Amazon Bedrock. We implemented the RAG pipeline in a Slack chat-based assistant to empower the Amazon Twitch ads sales team to move quickly on new sales opportunities.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-twitch-used-agentic-workflow-with-rag-on-amazon-bedrock-to-supercharge-ad-sales/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerate analysis and discovery of cancer biomarkers with Amazon Bedrock Agents</title>
+      <link>https://www.dotnetramblings.com/post/13_12_2024/13_12_2024_4/</link>
+      <pubDate>Fri, 13 Dec 2024 19:17:15 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_12_2024/13_12_2024_4/</guid>
+      <description>
+        
+          
+            Bedrock multi-agent collaboration enables developers to build, deploy, and manage multiple specialized agents working together seamlessly to address increasingly complex business workflows. In this post, we show you how agentic workflows with Amazon Bedrock Agents can help accelerate this journey for research scientists with a natural language interface. We define an example analysis pipeline, specifically for lung cancer survival with clinical, genomics, and imaging modalities of biomarkers. We showcase a variety of specialized agents including a biomarker database analyst, statistician, clinical evidence researcher, and medical imaging expert in collaboration with a supervisor agent.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Accelerate your ML lifecycle using the new and improved Amazon SageMaker Python SDK – Part 2: ModelBuilder</title>
       <link>https://www.dotnetramblings.com/post/12_12_2024/12_12_2024_2/</link>
