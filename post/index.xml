@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 13 Dec 2024 20:31:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Internal vs. Public APIs in Modular Monoliths</title>
+      <link>https://www.dotnetramblings.com/post/14_12_2024/14_12_2024_0/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_12_2024/14_12_2024_0/</guid>
+      <description>
+        
+          
+            Every article about modular monoliths tells you to use public APIs between modules, but they rarely explain why these APIs exist or how to design them properly. After building several large-scale modular monoliths, I&#39;ve learned that public APIs are not just about clean code - they&#39;re about controlling chaos.
+Link to article: https://www.milanjovanovic.tech/blog/internal-vs-public-apis-in-modular-monoliths 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How Amazon trains sequential ensemble models at scale with Amazon SageMaker Pipelines</title>
       <link>https://www.dotnetramblings.com/post/13_12_2024/13_12_2024_0/</link>
@@ -1252,159 +1269,6 @@ Link to article: https://dotnettips.wordpress.com/2024/12/08/boost-your-net-proj
           
             Managing NuGet packages across multiple .NET projects used to be a nightmare of version mismatches and maintenance headaches, but Central Package Management (CPM) offers a powerful solution by letting you control all package versions from a single source of truth. Learn how CPM can simplify your dependency management, prevent version conflicts, and make your .NET development workflow smoother.
 Link to article: https://www.milanjovanovic.tech/blog/central-package-management-in-net-simplify-nuget-dependencies 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Customer Case Study: How to use Elasticsearch Vector Store Connector for Microsoft Semantic Kernel for AI Agent development</title>
-      <link>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_0/</link>
-      <pubDate>Fri, 06 Dec 2024 19:32:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_0/</guid>
-      <description>
-        
-          
-            How to use Elasticsearch Vector Store Connector for Microsoft Semantic Kernel for AI Agent development Today we’re excited to feature the Elastic team to share more about their Semantic Kernel Elasticsearch Vector Store connector for Microsoft Semantic Kernel. Read the entire announcement here. I’ll turn it over to Srikanth Manvi and Florian Bernd to dive […]
-Link to article: https://devblogs.microsoft.com/semantic-kernel/customer-case-study-how-to-use-elasticsearch-vector-store-connector-for-microsoft-semantic-kernel-for-ai-agent-development 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Mistral-NeMo-Instruct-2407 and Mistral-NeMo-Base-2407 are now available on SageMaker JumpStart</title>
-      <link>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_1/</link>
-      <pubDate>Fri, 06 Dec 2024 18:32:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_1/</guid>
-      <description>
-        
-          
-            Today, we are excited to announce that Mistral-NeMo-Base-2407 and Mistral-NeMo-Instruct-2407 large language models from Mistral AI that excel at text generation, are available for customers through Amazon SageMaker JumpStart. In this post, we walk through how to discover, deploy and use the Mistral-NeMo-Instruct-2407 and Mistral-NeMo-Base-2407 models for a variety of real-world use cases.
-Link to article: https://aws.amazon.com/blogs/machine-learning/mistral-nemo-instruct-2407-and-mistral-nemo-base-2407-are-now-available-on-sagemaker-jumpstart/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deletion of Outdated Azul Zulu for Azure Container Images for Better Security</title>
-      <link>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_2/</link>
-      <pubDate>Fri, 06 Dec 2024 18:08:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_2/</guid>
-      <description>
-        
-          
-            We at Microsoft are committed to providing customers with a secure ecosystem of tools for building and deploying applications. As part of this commitment, we continuously update our Java container image offerings to ensure they meet the highest security standards. Back in January 2022, we announced the End of Updates for the Azul Zulu for Azure build of OpenJDK. As […]
-Link to article: https://devblogs.microsoft.com/java/deletion-of-outdated-azul-zulu-for-azure-container-images-for-better-security 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>MSVC Compiler Language Updates in Visual Studio 2022 version 17.12</title>
-      <link>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_3/</link>
-      <pubDate>Fri, 06 Dec 2024 17:32:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_3/</guid>
-      <description>
-        
-          
-            Introduction In alignment with the Visual Studio 2022 version 17.12 release, and based upon feedback received from the community, the MSVC compiler team would like to provide greater visibility into the C++ language-level fixes for customer-reported issues that made it into the release. This is similar to how the standard library team publishes regular changelogs […]
-Link to article: https://devblogs.microsoft.com/cppblog/msvc-compiler-language-updates-in-visual-studio-2022-version-17-12 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Boost your Microsoft 365 app performance: Introducing tree shaking in TeamsJS</title>
-      <link>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_4/</link>
-      <pubDate>Fri, 06 Dec 2024 15:00:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_4/</guid>
-      <description>
-        
-          
-            With Microsoft Teams JavaScript client library (TeamsJS) version 2.31.0, we’re excited to make the TeamsJS library fully tree-shakable.
-Link to article: https://devblogs.microsoft.com/microsoft365dev/boost-your-microsoft-365-app-performance-introducing-tree-shaking-in-teamsjs 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Learning to read C&#43;&#43; compiler errors: Nonsensical errors from a function declaration</title>
-      <link>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_5/</link>
-      <pubDate>Fri, 06 Dec 2024 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_5/</guid>
-      <description>
-        
-          
-            Look closely at what the error message is complaining about.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241206-00/?p=110614 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Livestream alert: Ace the CSAI Math Entrance Test</title>
-      <link>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_6/</link>
-      <pubDate>Fri, 06 Dec 2024 11:13:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_6/</guid>
-      <description>
-        
-          
-            Want to study computer science in Europe? Join the Computer Science and AI bachelor’s program at Neapolis University Pafos – with exclusive JetBrains scholarships up for grabs! On December 18, 2024, at 5:00 pm UTC, we’re hosting a special preparation session to help you ace the entrance test for this BSc. You’ll get tips from […]
-Link to article: https://blog.jetbrains.com/education/2024/12/06/livestream-alert-ace-the-csai-math-entrance-test/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Mastering Ruby Debugging: From puts to Professional Tools</title>
-      <link>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_7/</link>
-      <pubDate>Fri, 06 Dec 2024 08:55:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_7/</guid>
-      <description>
-        
-          
-            Hello, Ruby developers! Debugging is an essential skill in software development, and in this post, we’ll be looking at how to investigate the behavior of Ruby code. As the RubyMine team, we’ve accumulated considerable expertise in creating tools for Ruby developers, and we’re excited to share our experience and knowledge with you. Recently, at the […]
-Link to article: https://blog.jetbrains.com/ruby/2024/12/mastering_ruby_debugging/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Implementing Evaluation platform on Azure Machine Learning</title>
-      <link>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_8/</link>
-      <pubDate>Fri, 06 Dec 2024 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_8/</guid>
-      <description>
-        
-          
-            Azure Machine Learning is known for training and deploying models, but can also be used for running experiments. This blog post will show us how we have implemented our Evaluation platform on Azure Machine Learning.
-Link to article: https://devblogs.microsoft.com/ise/implement-evaluation-platform-on-aml 
           
           
         

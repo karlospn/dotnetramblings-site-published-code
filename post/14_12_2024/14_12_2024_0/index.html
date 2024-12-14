@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Implementing Evaluation platform on Azure Machine Learning | .NET Ramblings</title>
+<title>Internal vs. Public APIs in Modular Monoliths | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Azure Machine Learning is known for training and deploying models, but can also be used for running experiments. This blog post will show us how we have …" />
+<meta name="description" content="Every article about modular monoliths tells you to use public APIs between modules, but they rarely explain why these APIs exist or how to design them properly. …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Implementing Evaluation platform on Azure Machine Learning" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/azure.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_8/" />
-<meta property="og:title" content="Implementing Evaluation platform on Azure Machine Learning" />
-<meta property="og:description" content="Azure Machine Learning is known for training and deploying models, but can also be used for running experiments. This blog post will show us how we have …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/azure.png" />
+<meta name="twitter:title" content="Internal vs. Public APIs in Modular Monoliths" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/14_12_2024/14_12_2024_0/" />
+<meta property="og:title" content="Internal vs. Public APIs in Modular Monoliths" />
+<meta property="og:description" content="Every article about modular monoliths tells you to use public APIs between modules, but they rarely explain why these APIs exist or how to design them properly. …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/06_12_2024/06_12_2024_8/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/14_12_2024/14_12_2024_0/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Implementing Evaluation platform on Azure Machine Learning</h1>
+    <h1 class="post_title">Internal vs. Public APIs in Modular Monoliths</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Dec 6, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Dec 14, 2024</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Azure Machine Learning is known for training and deploying models, but can also be used for running experiments. This blog post will show us how we have implemented our Evaluation platform on Azure Machine Learning.</p>
+    <div class="post_body"><p>Every article about modular monoliths tells you to use public APIs between modules, but they rarely explain why these APIs exist or how to design them properly. After building several large-scale modular monoliths, I've learned that public APIs are not just about clean code - they're about controlling chaos.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/ise/implement-evaluation-platform-on-aml">https://devblogs.microsoft.com/ise/implement-evaluation-platform-on-aml</a></li>
+<li>Link to article: <a href="https://www.milanjovanovic.tech/blog/internal-vs-public-apis-in-modular-monoliths">https://www.milanjovanovic.tech/blog/internal-vs-public-apis-in-modular-monoliths</a></li>
 </ul>
 
     </div>
