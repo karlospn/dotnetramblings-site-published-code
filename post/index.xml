@@ -7,13 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 23 Dec 2024 04:47:32 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Dec 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Global Query Filters in Entity Framework Core</title>
+      <title>Reading USN Journal with .NET</title>
       <link>https://www.dotnetramblings.com/post/23_12_2024/23_12_2024_0/</link>
-      <pubDate>Mon, 23 Dec 2024 04:47:32 +0000</pubDate>
+      <pubDate>Mon, 23 Dec 2024 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/23_12_2024/23_12_2024_0/</guid>
+      <description>
+        
+          
+            If you want to detect when a file is created, modified, or deleted, you can use the FileSystemWatcher class in .NET. However, this is only available when the application is running. What if you want to detect changes that occurred while the application was not running? The USN Journal is a feature of the NTFS and ReFS file systems that keeps track of changes to files and directories. It allows…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Global Query Filters in Entity Framework Core</title>
+      <link>https://www.dotnetramblings.com/post/23_12_2024/23_12_2024_1/</link>
+      <pubDate>Mon, 23 Dec 2024 04:47:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_12_2024/23_12_2024_1/</guid>
       <description>
         
           
