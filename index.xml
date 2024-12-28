@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 27 Dec 2024 23:08:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Rewriting a 40-Year-Old Project Taught Me About Software Development</title>
+      <link>https://www.dotnetramblings.com/post/28_12_2024/28_12_2024_0/</link>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_12_2024/28_12_2024_0/</guid>
+      <description>
+        
+          
+            When tasked with modernizing a 40-year-old manufacturing system written in APL, I faced both technical complexity and organizational challenges that shaped my understanding of successful software development. This article shares key lessons learned during a four-year journey of rewriting critical legacy code while keeping a $10M business running smoothly.
+Link to article: https://www.milanjovanovic.tech/blog/what-rewriting-a-40-year-old-project-taught-me-about-software-development 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Marten V7.35 Drops for a Little Post Christmas Cheer</title>
       <link>https://www.dotnetramblings.com/post/27_12_2024/27_12_2024_0/</link>
@@ -388,107 +405,6 @@ Link to article: https://dotnettips.wordpress.com/2024/12/22/boost-your-net-proj
           
             Quartz.NET is a powerful job scheduling library, but integrating it properly with ASP.NET Core requires careful consideration. Here&#39;s what I learned about setting up Quartz.NET with proper observability, persistence, and job scheduling patterns.
 Link to article: https://www.milanjovanovic.tech/blog/scheduling-background-jobs-with-quartz-in-dotnet-advanced-concepts 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Unwrap some Semantic Kernel (Power)Toys this holiday season</title>
-      <link>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_0/</link>
-      <pubDate>Fri, 20 Dec 2024 16:10:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_0/</guid>
-      <description>
-        
-          
-            Windows PowerToys has always been one of my favorite productivity hacks, and its latest release adds Paste with Advanced AI, which takes it to a new level. This feature, powered by Semantic Kernel, transforms how you work with text, images, and data from your clipboard by applying AI-driven enhancements. What Does It Do? Advanced Paste uses […]
-Link to article: https://devblogs.microsoft.com/semantic-kernel/unwrap-some-semantic-kernel-powertoys-this-holiday-season 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The IntelliJ Scala Plugin in 2024</title>
-      <link>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_1/</link>
-      <pubDate>Fri, 20 Dec 2024 15:29:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_1/</guid>
-      <description>
-        
-          
-            The Year in Review Time flies. Only a year ago, we saw the release of Scala 3.4.0-RC1, and now we’re trying out Scala 3.6.2 with many new experimental features. The last 12 months have brought many new features to the IntelliJ Scala Plugin as well. A year ago we introduced X-Ray mode, which lets you […]
-Link to article: https://blog.jetbrains.com/scala/2024/12/20/the-intellij-scala-plugin-in-2024/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Recipe for Efficient Development: Simplify Collaboration and Security with Docker</title>
-      <link>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_2/</link>
-      <pubDate>Fri, 20 Dec 2024 13:23:32 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_2/</guid>
-      <description>
-        
-          
-            Docker empowers development teams to streamline collaboration, embed security, and accelerate delivery by simplifying workflows and providing tools like Docker Hub, Testcontainers Cloud, and Docker Scout for building high-quality, secure applications faster.
-Link to article: https://www.docker.com/blog/recipe-for-efficient-development-simplify-collaboration-security-with-docker/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>使用 Dependabot 管理 .NET SDK 更新</title>
-      <link>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_3/</link>
-      <pubDate>Fri, 20 Dec 2024 07:23:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_3/</guid>
-      <description>
-        
-          
-            本文翻译自微软高级软件工程师 Jamie Magee 的Using Dependabot to Manage .NET SDK Updates 保持 .NET SDK 处于最新版本对维护安全高效的应用程序至关重要。现在，Dependabot 可以更新 global.json 中的 .NET SDK 版本，这使您可以比以往更轻松地确保自己的应用程序始终运行最新的安全补丁和改进。 定期的更新 SDK非常重要，因为它们包含： 已知漏洞（CVE）的安全补丁 错误修复和性能改进 最新的开发工具和功能 使用 global.json 管理 SDK 版本 要管理您的 .NET SDK 版本，您通常会在项目中使用 global.json 文件。此文件会指定项目应使用哪个版本的 SDK。以下是一个简单的 global.json 文件示例： { &amp;quot;sdk&amp;quot;: { &amp;quot;version&amp;quot;: &amp;quot;9.0.100&amp;quot; } } 如果您正在使用 GitHub Actions以及 dotnet/setup-dotnet ，此文件将确保在您的 CI/CD 管道中使用了正确的 SDK 版本。 […]
-Link to article: https://devblogs.microsoft.com/dotnet-ch/%e4%bd%bf%e7%94%a8-dependabot-%e7%ae%a1%e7%90%86-net-sdk-%e6%9b%b4%e6%96%b0 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Critter Stack Year in Review for 2024</title>
-      <link>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_4/</link>
-      <pubDate>Fri, 20 Dec 2024 01:00:32 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_4/</guid>
-      <description>
-        
-          
-            Just for fun, here’s what I wrote as the My Technical Plans and Aspirations for 2024 detailing what I had hoped to accomplish this year. While there’s still just a handful of technical deliverables I’m trying to get out in this calendar year, I’m admittedly running on mental fumes rolling into the holiday season. Thinking back … Continue reading Critter Stack Year in Review for 2024 →
-Link to article: https://jeremydmiller.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Audio Processing Meets AI</title>
-      <link>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_5/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_12_2024/20_12_2024_5/</guid>
-      <description>
-        
-          
-            Ten years ago I wrote an article entitled Five Audio Processing Tasks that are a Lot Harder than you Think. It was borne out of my frustration that many users of my NAudio library had unrealistic expectations about what was achievable. But things have moved on a lot in a decade, and in particular the recent stunning advances in AI and machine learning have essentially solved many of these problems, and unlocked new possibilities I couldn&#39;t have imagined when I wrote that original post.
           
           
         
