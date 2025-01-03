@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 02 Jan 2025 16:20:33 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2025 05:55:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>探索Microsoft.Extensions.VectorData与Qdrant和Azure AI搜索的使用</title>
+      <link>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_0/</link>
+      <pubDate>Fri, 03 Jan 2025 05:55:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_0/</guid>
+      <description>
+        
+          
+            本文翻译自Bruno Capuano的Exploring Microsoft.Extensions.VectorData with Qdrant and Azure AI Search 了解如何使用 Microsoft.Extensions.VectorData并通过 Qdrant 和 Azure AI 搜索实现语义搜索。 使用 Microsoft.Extensions.VectorData 深入了解语义搜索：Qdrant 和 Azure AI 搜索 语义搜索正在改变应用程序查找和解释数据的方式，它专注于含义，而不仅仅是关键字匹配。随着 Microsoft.Extensions.VectorData 的发布，.NET 开发人员拥有了一组新的构建模块，用于将基于向量的搜索功能集成到其应用程序中。在本文中，我们将探讨使用本地Qdrant和Azure AI搜索这两种实现方式来进行语义搜索。 Microsoft.Extensions.VectorData 快速介绍 Microsoft.Extensions.VectorData 是一组 .NET代码库，旨在管理 .NET 应用程序中基于向量的数据。这些库为与向量存储交互提供了一个统一的 C# 抽象层，使开发人员能够有效地处理嵌入并执行向量相似性查询。 要详细了解该库的架构和功能，推荐阅读 Luis 的精彩博客文章。 在这篇博客文章中，我们将展示两个实际用例： 在本地使用 Qdrant 进行语义搜索。 利用 Azure AI 搜索进行企业级向量搜索。 要运行这些演示，您需要使用 Ollama 为生成嵌入提供的模型之一。在本示例中，使用的模型是 all-minilm。 安装 Ollama。 下载 all-minilm 模型。 准备一个符合 OCI 标准的容器运行时，例如： Docker Desktop 或 Podman。 使用 […]
+Link to article: https://devblogs.microsoft.com/dotnet-ch/%e6%8e%a2%e7%b4%a2microsoft-extensions-vectordata%e4%b8%8eqdrant%e5%92%8cazure-ai%e6%90%9c%e7%b4%a2%e7%9a%84%e4%bd%bf%e7%94%a8 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Vertical Slice Architecture isn’t technical</title>
       <link>https://www.dotnetramblings.com/post/02_01_2025/02_01_2025_0/</link>
@@ -305,40 +322,6 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20241227-00/?p=11068
           
             The .NET installers and archives distribution method is currently changing unexpectedly. This change may impact your development, CI, and production infrastructure. It is crucial to validate if you are affected and monitor for any downtime or disruptions.
 Link to article: https://devblogs.microsoft.com/dotnet/critical-dotnet-install-links-are-changing 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Optimizing costs of generative AI applications on AWS</title>
-      <link>https://www.dotnetramblings.com/post/26_12_2024/26_12_2024_0/</link>
-      <pubDate>Thu, 26 Dec 2024 16:04:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_12_2024/26_12_2024_0/</guid>
-      <description>
-        
-          
-            Optimizing costs of generative AI applications on AWS is critical for realizing the full potential of this transformative technology. The post outlines key cost optimization pillars, including model selection and customization, token usage, inference pricing plans, and vector database considerations.
-Link to article: https://aws.amazon.com/blogs/machine-learning/optimizing-costs-of-generative-ai-applications-on-aws/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why are Win32 resources strings bundled at all? And why bundles of 16?</title>
-      <link>https://www.dotnetramblings.com/post/26_12_2024/26_12_2024_1/</link>
-      <pubDate>Thu, 26 Dec 2024 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_12_2024/26_12_2024_1/</guid>
-      <description>
-        
-          
-            Balancing multiple performance factors.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241226-00/?p=110679 
           
           
         
