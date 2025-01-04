@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 03 Jan 2025 05:55:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forcing an ERROR_KEY_DELETED error when trying to open HKEY_CURRENT_USER\Software</title>
+      <link>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_0/</link>
+      <pubDate>Fri, 03 Jan 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_0/</guid>
+      <description>
+        
+          
+            Just an exercise to show that it can be done, even though it&#39;s highly unlikely to occur in practice.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250103-00/?p=110704 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>探索Microsoft.Extensions.VectorData与Qdrant和Azure AI搜索的使用</title>
-      <link>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_4/</link>
       <pubDate>Fri, 03 Jan 2025 05:55:09 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_4/</guid>
       <description>
         
           
@@ -155,40 +172,6 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20241230-00/?p=11069
           
             Finding the exact line of code where an issue is occurring can be like searching for a needle in a haystack. Whether you are debugging an error on line 43 of a file or diving into a specific section of code, you can efficiently jump to the right places with this newest addition to Code […]
 Link to article: https://devblogs.microsoft.com/visualstudio/go-to-line-anywhere-with-code-search-for-visual-studio-2022 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>In C&#43;&#43;, failure to meet the requirements does not always mean that you fail if you don’t meet the requirements</title>
-      <link>https://www.dotnetramblings.com/post/27_12_2024/27_12_2024_1/</link>
-      <pubDate>Fri, 27 Dec 2024 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/27_12_2024/27_12_2024_1/</guid>
-      <description>
-        
-          
-            Combining SFINAE/requires, standard layout, and overload resolution.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20241227-00/?p=110681 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Critical: .NET Install links are changing</title>
-      <link>https://www.dotnetramblings.com/post/27_12_2024/27_12_2024_2/</link>
-      <pubDate>Fri, 27 Dec 2024 03:15:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/27_12_2024/27_12_2024_2/</guid>
-      <description>
-        
-          
-            The .NET installers and archives distribution method is currently changing unexpectedly. This change may impact your development, CI, and production infrastructure. It is crucial to validate if you are affected and monitor for any downtime or disruptions.
-Link to article: https://devblogs.microsoft.com/dotnet/critical-dotnet-install-links-are-changing 
           
           
         
