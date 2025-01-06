@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 05 Jan 2025 18:02:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 07:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Evaluating the Parallel Processing of Collections in Microsoft .NET</title>
+      <link>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_0/</link>
+      <pubDate>Mon, 06 Jan 2025 07:01:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_0/</guid>
+      <description>
+        
+          
+            The article discusses the performance of various parallelism techniques for iterating over collections in .NET, comparing parallel methods such as Parallel.For and AsParallel() with traditional approaches. It highlights that while parallel methods can enhance performance for large collections, traditional methods often outperform them, particularly with smaller collections. Recommendations and a new method, FastModifyCollection, are introduced for efficient processing.
+Link to article: https://dotnettips.wordpress.com/2025/01/06/evaluating-the-parallel-processing-of-collections-in-microsoft-net/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Persist Values With AsyncLocal in C# Async Flow</title>
+      <link>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_1/</link>
+      <pubDate>Mon, 06 Jan 2025 05:55:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_1/</guid>
+      <description>
+        
+          
+            In this article, we’ll explain the AsyncLocal class and how to persist values across an async flow with the AsyncLocal class in C#. We’ll start by describing the challenge that AsyncLocal solves and continue with examples of how it does that. We’ll scratch the surface of the AsyncLocal inner workings and finish with the cases […] The post Persist Values With AsyncLocal in C# Async Flow appeared first on Code Maze.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>JasperFx Software in 2025</title>
       <link>https://www.dotnetramblings.com/post/05_01_2025/05_01_2025_0/</link>
