@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 06 Jan 2025 07:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Evaluating the Parallel Processing of Collections in Microsoft .NET</title>
+      <title>Exploring CollectionsMarshal for Dictionary</title>
       <link>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_0/</link>
-      <pubDate>Mon, 06 Jan 2025 07:01:00 +0000</pubDate>
+      <pubDate>Mon, 06 Jan 2025 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_0/</guid>
+      <description>
+        
+          
+            Unlike ConcurrentDictionary, Dictionary does not have a GetOrAdd method. This method is useful when you want to add a key-value pair to the dictionary if the key does not exist, or return the value if the key already exists. The naive implementation of this method looks like this: public static TValue GetOrAdd&amp;lt;TKey, TValue&amp;gt;(this Dictionary&amp;lt;TKey, TValue&amp;gt; dict, TKey key, TValue value) where TKey : notnull {…
+Link to article: https://www.meziantou.net/exploring-collectionsmarshal-for-dictionary.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Evaluating the Parallel Processing of Collections in Microsoft .NET</title>
+      <link>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_1/</link>
+      <pubDate>Mon, 06 Jan 2025 07:01:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_1/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://dotnettips.wordpress.com/2025/01/06/evaluating-the-para
     
     <item>
       <title>Persist Values With AsyncLocal in C# Async Flow</title>
-      <link>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_2/</link>
       <pubDate>Mon, 06 Jan 2025 05:55:32 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_2/</guid>
       <description>
         
           
