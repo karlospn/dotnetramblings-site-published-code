@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>État de la Science des Données 2024 : 6 tendances clés | .NET Ramblings</title>
+<title>IntelliJ IDEA 中更快的代码可交互时间 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="L’IA générative et les LLM ont fait la une des sujets de discussion en 2024, mais ont-ils eu un véritable impact sur les tendances en matière de science des …" />
+<meta name="description" content="IntelliJ IDEA 功能强、范围广，因此对资源有一定需求。 根据您正在处理的项目，IDE 可能会出现滞后，这自然会令人沮丧。 打开项目时也许是开发者需要等待的最常见场景。 IntelliJ IDEA 需要加载和同步项目、执行索引编制以及完成许多其他小任务才能启用所有实用功能。 在这篇博文中， …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="État de la Science des Données 2024 : 6 tendances clés" />
+<meta name="twitter:title" content="IntelliJ IDEA 中更快的代码可交互时间" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_8/" />
-<meta property="og:title" content="État de la Science des Données 2024 : 6 tendances clés" />
-<meta property="og:description" content="L’IA générative et les LLM ont fait la une des sujets de discussion en 2024, mais ont-ils eu un véritable impact sur les tendances en matière de science des …" />
+<meta property="og:url" content="https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_10/" />
+<meta property="og:title" content="IntelliJ IDEA 中更快的代码可交互时间" />
+<meta property="og:description" content="IntelliJ IDEA 功能强、范围广，因此对资源有一定需求。 根据您正在处理的项目，IDE 可能会出现滞后，这自然会令人沮丧。 打开项目时也许是开发者需要等待的最常见场景。 IntelliJ IDEA 需要加载和同步项目、执行索引编制以及完成许多其他小任务才能启用所有实用功能。 在这篇博文中， …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -43,7 +43,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_8/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_10/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">État de la Science des Données 2024 : 6 tendances clés</h1>
+    <h1 class="post_title">IntelliJ IDEA 中更快的代码可交互时间</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -145,9 +145,9 @@
     </span>
   </div>
 
-    <div class="post_body"><p>L’IA générative et les LLM ont fait la une des sujets de discussion en 2024, mais ont-ils eu un véritable impact sur les tendances en matière de science des données et de machine learning ? Quelles sont les nouvelles tendances de la science des données qui valent la peine d’être suivies ? Tous les ans, […]</p>
+    <div class="post_body"><p>IntelliJ IDEA 功能强、范围广，因此对资源有一定需求。 根据您正在处理的项目，IDE 可能会出现滞后，这自然会令人沮丧。 打开项目时也许是开发者需要等待的最常见场景。 IntelliJ IDEA 需要加载和同步项目、执行索引编制以及完成许多其他小任务才能启用所有实用功能。 在这篇博文中，我们将介绍在新版本 IntelliJ IDEA 中为提高性能而采取的措施，这些措施缩短了代码可交互时间并使 IDE 从启动开始就具有更高的响应速度。 立即下载 IntelliJ IDEA！ 我们的使命：改进代码可交互时间 对于 2023.2 之前的 IntelliJ IDEA 版本，IDE 必须等待项目的 Maven 或 Gradle 项目模型完全同步后才能开始编制索引。 然后，在等待索引编制完成时，IDE 的所有智能功能都被禁用，包括代码高亮显示和导航。 只有在索引编制完成后才能使用它们。 下面是相关组件的示意图： 项目越大，同步项目和编制项目索引所需的时间越长。 虽然这在意料之中，因为大型项目对于 IDE 来说更加复杂，但等待几分钟才能开始工作仍然有些糟糕。 然而，由于加载项目时要执行的步骤太多，即使是较小的步骤也会花费大量时间，让人感觉 IntelliJ IDEA 运行缓慢。 没人喜欢等待，尤其是您想要投入工作的时候。 因此，我们将改善这种状况作为一项高度优先的任务。 为了衡量我们的进度，我们决定跟踪我们所谓的“代码可交互时间”– 从应用程序启动或项目打开到可以在其中正常处理代码的时间。 我们的目标是尽可能缩短代码可交互时间。 改进项目打开流和体验 在 IntelliJ IDEA 中改进启动和项目打开的问题实际上非常复杂，因为它取决于多个组件及其互连。 不过，这种复杂性也有好处，因为它可以让我们从多个角度解决问题。 在等待技术改进方面的长期工作取得成果的同时，我们还调整了 IntelliJ […]</p>
 <ul>
-<li>Link to article: <a href="https://blog.jetbrains.com/pycharm/2025/01/etat-de-la-science-des-donnees-2024-6-tendances-cles">https://blog.jetbrains.com/pycharm/2025/01/etat-de-la-science-des-donnees-2024-6-tendances-cles</a></li>
+<li>Link to article: <a href="https://blog.jetbrains.com/idea/2025/01/faster-time-to-code-in-intellij-idea">https://blog.jetbrains.com/idea/2025/01/faster-time-to-code-in-intellij-idea</a></li>
 </ul>
 
     </div>
