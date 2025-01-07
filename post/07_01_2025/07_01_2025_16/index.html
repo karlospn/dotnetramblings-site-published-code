@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Fitness Functions in Software Architecture: measuring things to ensure prosperity | .NET Ramblings</title>
+<title>Passing images to LLMs in C# with Microsoft.Extensions.AI | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,17 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Non-functional requirements matter, but we often forget to validate them. You can measure them by setting up Fitness Functions.
-Link to article: …" />
+<meta name="description" content="I recently posted about how to get started calling LLMs with C# using the Microsoft.Extensions.AI NuGet package. The model we chose to use was gpt-4o-mini, …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Fitness Functions in Software Architecture: measuring things to ensure prosperity" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta name="twitter:title" content="Passing images to LLMs in C# with Microsoft.Extensions.AI" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/07_01_2025/07_01_2025_16/" />
-<meta property="og:title" content="Fitness Functions in Software Architecture: measuring things to ensure prosperity" />
-<meta property="og:description" content="Non-functional requirements matter, but we often forget to validate them. You can measure them by setting up Fitness Functions.
-Link to article: …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta property="og:title" content="Passing images to LLMs in C# with Microsoft.Extensions.AI" />
+<meta property="og:description" content="I recently posted about how to get started calling LLMs with C# using the Microsoft.Extensions.AI NuGet package. The model we chose to use was gpt-4o-mini, …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -134,7 +132,7 @@ Link to article: …" />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Fitness Functions in Software Architecture: measuring things to ensure prosperity</h1>
+    <h1 class="post_title">Passing images to LLMs in C# with Microsoft.Extensions.AI</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,42 @@ Link to article: …" />
 </svg>
 </span>
     <span class="post_date">
-      Jan 7, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code4it.dev/' title="code4it.dev" class="post_tag button button_translucent">code4it.dev
+      Jan 7, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/markheath.net/' title="markheath.net" class="post_tag button button_translucent">markheath.net
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Non-functional requirements matter, but we often forget to validate them. You can measure them by setting up Fitness Functions.</p>
+    <div class="post_body"><p>I recently posted about how to get started calling LLMs with C# using the Microsoft.Extensions.AI NuGet package.
+The model we chose to use was gpt-4o-mini, which has the advantage of being &quot;multimodal&quot;, as it can accept not only text input, but images as well.
+In this post I'll show how you can pass an image to this model using Microsoft.Extensions.AI and ask it to describe the image. It's relatively straightforward, but as always seems to be the case with these things, there was a gotcha I ran into.
+Adding a local image to a ChatMessage
+To pass in an image, you still create an instance of ChatMessage in the same way you do with text conversations, and you can add a text prompt as well. But then you can add the binary contents of an image file to the ChatMessage by appending an ImageContent object to the message contents.
+var message = new ChatMessage(ChatRole.User,
+&quot;Can you provide a brief, one-sentence description of this image.&quot;);
+var data = File.ReadAllBytes(@&quot;C:\temp\example.jpeg&quot;);
+message.Contents.Add(new ImageContent(data, &quot;image/jpeg&quot;));</p>
+<p>Adding an online image to a ChatMessage
+If instead your image is online, you still use ImageContent, but point to a URL instead...
+message.Contents.Add(
+new ImageContent(new Uri(&quot;https://example.net/image.jpg&quot;)));</p>
+<p>Submitting the message and testing it
+Submitting the chat message follows the same pattern demonstrated in my previous post. We add the ChatMessage to our history, and then use CompleteStreamingAsync to print the response as it is generated.
+chatHistory.Add(message);</p>
+<p>await foreach (var item in
+chatClient.CompleteStreamingAsync(chatHistory))
+{
+Console.Write(item.Text);
+}</p>
+<p>If all is configured correctly, then you'll get a response describing the image you submitted. I was very impressed with the small number of &quot;tokens&quot; required to pass the image in. My test photograph added only 70 tokens - the equivalent of a couple of paragraphs of text.</p>
+<p>A band is performing on stage, featuring instruments like electric guitars, drums, and a keyboard, with a colorful patterned backdrop behind them.</p>
+<p>Potential gotcha - rate limiting
+Unfortunately, when I initially tested this, it simply didn't work at all. I got no response from the model - it just hung. Eventually the root cause became apparent when I tried using the &quot;chat playground&quot; available at ai.azure.com. This told me that I was being rate limited.
+That was surprising as the default rate limit for a model is 10,000 tokens per minute, and 100 requests per minute, which I'm pretty sure I wasn't over. However, upping my limit to 40,000 tokens per minute in the Azure portal for my deployment enabled everything to start working again.
+Hopefully the library will be improved to be able to report if you are being rate-limited in the future.
+Summary
+The Microsoft.Extensions.AI package makes it very easy to attach an image to a chat message. And I recommend using ai.azure.com to test out your chats if you run into problems using these models programmatically.</p>
 <ul>
-<li>Link to article: <a href="https://www.code4it.dev/architecture-notes/fitness-functions/">https://www.code4it.dev/architecture-notes/fitness-functions/</a></li>
+<li>Link to article: <a href="https://markheath.net/post/passing-image-content">https://markheath.net/post/passing-image-content</a></li>
 </ul>
 
     </div>
