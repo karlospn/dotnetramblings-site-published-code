@@ -265,6 +265,23 @@ Link to article: https://blog.jetbrains.com/idea/2025/01/best-courses-for-java-d
     
     <item>
       <title>Fitness Functions in Software Architecture: measuring things to ensure prosperity</title>
+      <link>https://www.dotnetramblings.com/post/07_01_2025/07_01_2025_16/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_01_2025/07_01_2025_16/</guid>
+      <description>
+        
+          
+            Non-functional requirements matter, but we often forget to validate them. You can measure them by setting up Fitness Functions.
+Link to article: https://www.code4it.dev/architecture-notes/fitness-functions/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Passing images to LLMs in C# with Microsoft.Extensions.AI</title>
       <link>https://www.dotnetramblings.com/post/07_01_2025/07_01_2025_15/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
       
@@ -272,8 +289,7 @@ Link to article: https://blog.jetbrains.com/idea/2025/01/best-courses-for-java-d
       <description>
         
           
-            Non-functional requirements matter, but we often forget to validate them. You can measure them by setting up Fitness Functions.
-Link to article: https://www.code4it.dev/architecture-notes/fitness-functions/ 
+            I recently posted about how to get started calling LLMs with C# using the Microsoft.Extensions.AI NuGet package. The model we chose to use was gpt-4o-mini, which has the advantage of being &amp;quot;multimodal&amp;quot;, as it can accept not only text input, but images as well. In this post I&#39;ll show how you can pass an image to this model using Microsoft.Extensions.AI and ask it to describe the image. It&#39;s relatively straightforward, but as always seems to be the case with these things, there was a gotcha I ran into.
           
           
         
