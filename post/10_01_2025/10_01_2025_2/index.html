@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Devblogs.microsoft.com | .NET Ramblings</title>
+<title>通过 .NET Aspire 使用本地 AI 模型 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="本文翻译自Aaron Powell的Using Local AI models with .NET Aspire 使用本地 AI 模型是在您自己的计算机上进行实验的一个很好的方法，它无需将资源部署到云中。在本文中，我们将了解如何使用.NET Aspire 和 Ollama 在本地运行 AI 模型， …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Devblogs.microsoft.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/" />
-<meta property="og:title" content="Devblogs.microsoft.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="通过 .NET Aspire 使用本地 AI 模型" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/vs.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/10_01_2025/10_01_2025_2/" />
+<meta property="og:title" content="通过 .NET Aspire 使用本地 AI 模型" />
+<meta property="og:description" content="本文翻译自Aaron Powell的Using Local AI models with .NET Aspire 使用本地 AI 模型是在您自己的计算机上进行实验的一个很好的方法，它无需将资源部署到云中。在本文中，我们将了解如何使用.NET Aspire 和 Ollama 在本地运行 AI 模型， …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/vs.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/10_01_2025/10_01_2025_2/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-december-2024" title="What’s New in vcpkg (December 2024)">What’s New in vcpkg (December 2024)</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">通过 .NET Aspire 使用本地 AI 模型</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,367 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Jan 6, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jan 10, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="What’s New in vcpkg (December 2024)"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>This blog post summarizes changes to the vcpkg package manager as part of the 2024.12.16 registry release, 2024-12-09 tool release, as well as changes to vcpkg documentation throughout December. This release includes a command line option to force vcpkg to use classic mode even if a manifest file is found along with …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-december-2024" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20250106-00/?p=110715" title="How can I tell whether a change to a control was due to the user or due to my program?">How can I tell whether a change to a control was due to the user or due to my program?</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 6, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>本文翻译自Aaron Powell的Using Local AI models with .NET Aspire 使用本地 AI 模型是在您自己的计算机上进行实验的一个很好的方法，它无需将资源部署到云中。在本文中，我们将了解如何使用.NET Aspire 和 Ollama 在本地运行 AI 模型，同时使用 Microsoft.Extensions.AI 抽象使其在部署时过渡到云托管模型。 在 .NET Aspire 中设置 Ollama 我们需要某种方法来从 .NET Aspire 应用程序中使用 Ollama，最简单的方法就是使用 .NET Aspire 社区工具包中的 Ollama 托管集成。您可以通过 Visual Studio 工具、VS Code 工具或 .NET CLI 从 NuGet 安装 Ollama 托管集成。让我们看一下如何通过命令行将 Ollama 托管集成安装到我们的应用程序主机项目中： dotnet add package CommunityToolkit.Aspire.Hosting.Ollama 安装 Ollama 托管集成后，您可以在 Program.cs […]</p>
+<ul>
+<li>Link to article: <a href="https://devblogs.microsoft.com/dotnet-ch/%e9%80%9a%e8%bf%87-net-aspire-%e4%bd%bf%e7%94%a8%e6%9c%ac%e5%9c%b0-ai-%e6%a8%a1%e5%9e%8b">https://devblogs.microsoft.com/dotnet-ch/%e9%80%9a%e8%bf%87-net-aspire-%e4%bd%bf%e7%94%a8%e6%9c%ac%e5%9c%b0-ai-%e6%a8%a1%e5%9e%8b</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How can I tell whether a change to a control was due to the user or due to my program?"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>You know when it was done by your program because you did it.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250106-00/?p=110715">https://devblogs.microsoft.com/oldnewthing/20250106-00/?p=110715</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20250106-00/?p=110715" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/visualstudio/unlocking-insights-with-meter-histogram-in-the-profiler" title="Unlocking insights with Meter Histogram in the profiler">Unlocking insights with Meter Histogram in the profiler</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 6, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Unlocking insights with Meter Histogram in the profiler"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Are you struggling with performance bottlenecks in your applications? Look no further! Visual Studio 2022 introduces the Meter Histogram feature in its performance profiling suite, providing you with the tools to analyze and visualize histogram data like never before. The Meter Histogram is a key enhancement to Visual …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/visualstudio/unlocking-insights-with-meter-histogram-in-the-profiler" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/devops/important-switching-cdn-providers" title="Important: Switching CDN providers">Important: Switching CDN providers</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 5, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Important: Switching CDN providers"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The current content delivery network (CDN) provider Edgio, used by Azure DevOps is retiring. We’re urgently transitioning to a solution served by Akamai and Azure Front Door CDNs to maintain the responsiveness of our services. What this means for you For most of you, this transition will be seamless. To ensure that you …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/devops/important-switching-cdn-providers" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20250103-00/?p=110704" title="Forcing an ERROR_KEY_DELETED error when trying to open HKEY_CURRENT_USER\Software">Forcing an ERROR_KEY_DELETED error when trying to open HKEY_CURRENT_USER\Software</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 3, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Forcing an ERROR_KEY_DELETED error when trying to open HKEY_CURRENT_USER\Software"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Just an exercise to show that it can be done, even though it's highly unlikely to occur in practice.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250103-00/?p=110704">https://devblogs.microsoft.com/oldnewthing/20250103-00/?p=110704</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20250103-00/?p=110704" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/dotnet-ch/%e6%8e%a2%e7%b4%a2microsoft-extensions-vectordata%e4%b8%8eqdrant%e5%92%8cazure-ai%e6%90%9c%e7%b4%a2%e7%9a%84%e4%bd%bf%e7%94%a8" title="探索Microsoft.Extensions.VectorData与Qdrant和Azure AI搜索的使用">探索Microsoft.Extensions.VectorData与Qdrant和Azure AI搜索的使用</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 3, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="探索Microsoft.Extensions.VectorData与Qdrant和Azure AI搜索的使用"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>本文翻译自Bruno Capuano的Exploring Microsoft.Extensions.VectorData with Qdrant and Azure AI Search 了解如何使用 Microsoft.Extensions.VectorData并通过 Qdrant 和 Azure AI 搜索实现语义搜索。 使用 Microsoft.Extensions.VectorData 深入了解语义搜索：Qdrant 和 Azure AI 搜索 语义搜索正在改变应用程序查找和解释数据的方式，它专注于含义，而不仅仅是关键字匹配。随着 Microsoft.Extensions.VectorData 的发布，.NET 开发人员拥有了 …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/dotnet-ch/%e6%8e%a2%e7%b4%a2microsoft-extensions-vectordata%e4%b8%8eqdrant%e5%92%8cazure-ai%e6%90%9c%e7%b4%a2%e7%9a%84%e4%bd%bf%e7%94%a8" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -525,9 +184,8 @@ Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250103-00
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
