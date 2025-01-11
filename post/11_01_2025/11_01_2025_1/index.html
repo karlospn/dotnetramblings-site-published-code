@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Working with LLMs in .NET using Microsoft.Extensions.AI | .NET Ramblings</title>
+<title>Tracking Token Usage with Microsoft.Extensions.AI | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Microsoft.Extensions.AI provides a unified interface for integrating LLMs into .NET applications, allowing developers to switch between providers like Ollama, …" />
+<meta name="description" content="Continuing in my recent series of posts about calling LLMs with C# using the Microsoft.Extensions.AI NuGet package, in this post I want to discuss how to track …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Working with LLMs in .NET using Microsoft.Extensions.AI" />
+<meta name="twitter:title" content="Tracking Token Usage with Microsoft.Extensions.AI" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/11_01_2025/11_01_2025_1/" />
-<meta property="og:title" content="Working with LLMs in .NET using Microsoft.Extensions.AI" />
-<meta property="og:description" content="Microsoft.Extensions.AI provides a unified interface for integrating LLMs into .NET applications, allowing developers to switch between providers like Ollama, …" />
+<meta property="og:title" content="Tracking Token Usage with Microsoft.Extensions.AI" />
+<meta property="og:description" content="Continuing in my recent series of posts about calling LLMs with C# using the Microsoft.Extensions.AI NuGet package, in this post I want to discuss how to track …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Working with LLMs in .NET using Microsoft.Extensions.AI</h1>
+    <h1 class="post_title">Tracking Token Usage with Microsoft.Extensions.AI</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,87 @@
 </svg>
 </span>
     <span class="post_date">
-      Jan 11, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
+      Jan 11, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/markheath.net/' title="markheath.net" class="post_tag button button_translucent">markheath.net
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Microsoft.Extensions.AI provides a unified interface for integrating LLMs into .NET applications, allowing developers to switch between providers like Ollama, Azure, or OpenAI without changing application code. Through practical examples of chat completion, article summarization, and smart categorization, this article demonstrates how to leverage the library's features while running LLMs locally using Ollama.</p>
+    <div class="post_body"><p>Continuing in my recent series of posts about calling LLMs with C# using the Microsoft.Extensions.AI NuGet package, in this post I want to discuss how to track the cost of your API calls to AI models.
+Each AI provider will have its own pricing structure for the various models it offers. For example, here are pricing pages for Azure OpenAI service, OpenAI's own API, Anthropic's API, Google Gemini API, DeepSeek API, Amazon Bedrock, and xAI Grok. As you can see there is a huge choice available, but the pricing is always based on the number of &quot;tokens&quot; you use.
+Tokens
+Whenever you construct a chat message, the text (or image, etc) in your message is turned into a number of tokens representing your message. And if you're including the chat history, then those are additional tokens passed in as input, so if your chat goes on for a long time, each subsequent message will use more and more tokens. And then the response from the AI model also uses a number of tokens. So if you only need a short answer to reduce costs, your system prompt should probably say that.
+In previous posts I showed how you could create a List<ChatMessage> and pass that to IChatClient.CompleteStreamingAsync to receive the response from the model and display it as it is generated. But how can you keep track of how many tokens you are using? The Microsoft.Extensions.AI package exposes a UsageDetails object that can be got hold of very easily if you use CompleteAsync as that returns a ChatCompletion which has a usage property.
+Getting UsageDetails from CompleteStreamingAsync
+Things are slightly more complicated when calling CompleteStreamingAsync, as that returns a series of StreamingChatCompletionUpdate objects. Typically the final one of these will have an instance of UsageContent in its Contents property.
+In the following code example, I show how to get hold of this UsageContent so it can be printed out once the chat client's response has been received:
+async Task<ChatMessage> GetResponse(IChatClient chatClient,
+List<ChatMessage> chatHistory)
+{
+Console.WriteLine($&quot;AI Response started at {DateTime.Now}:&quot;);
+var response = &quot;&quot;;
+UsageDetails? usageDetails = null;
+await foreach (var item in
+chatClient.CompleteStreamingAsync(chatHistory))
+{
+Console.Write(item.Text);
+response += item.Text;</p>
+<pre><code>    var usage = item.Contents.OfType&lt;UsageContent&gt;()
+        .FirstOrDefault()?.Details;
+    if (usage != null) usageDetails = usage;
+}
+Console.WriteLine($&quot;\nAI Response completed at {DateTime.Now}:&quot;);
+
+ShowUsageDetails(usageDetails);
+return new ChatMessage(ChatRole.Assistant, response);
+</code></pre>
+<p>}</p>
+<p>Exploring UsageDetails
+UsageDetails includes properties for input and output token counts (along with the total), as well as an optional additional properties dictionary (which itself may contain further dictionaries), allowing different AI providers to include additional metadata that can help you understand pricing. For the Azure OpenAI service, this included a ReasoningTokenCount which was 0 in my tests using the gpt-4o-mini model, but the o1 and o1-mini models can be told how many &quot;reasoning tokens&quot; they are allowed to use for a particular request, so you might increase that for a particularly tricky problem.
+Here's my code to display the contents of the UsageDetails object:
+void ShowUsageDetails(UsageDetails? usage)
+{
+if (usage != null)
+{
+Console.WriteLine($&quot;  InputTokenCount: {usage.InputTokenCount}&quot;);
+Console.WriteLine($&quot;  OutputTokenCount: {usage.OutputTokenCount}&quot;);
+Console.WriteLine($&quot;  TotalTokenCount: {usage.TotalTokenCount}&quot;);
+if (usage.AdditionalProperties != null)
+{
+ShowNestedDictionary(usage.AdditionalProperties!, &quot;    &quot;);
+}
+}
+}</p>
+<p>void ShowNestedDictionary(IDictionary&lt;string, object&gt; dictionary, string indent)
+{
+foreach (var (key, value) in dictionary)
+{
+if (value is IDictionary&lt;string, object&gt; nestedDictionary)
+{
+Console.WriteLine($&quot;{indent}{key}:&quot;);
+ShowNestedDictionary(nestedDictionary, indent + &quot;    &quot;);
+}
+else
+{
+Console.WriteLine($&quot;{indent}{key}: {value}&quot;);
+}
+}
+}</p>
+<p>Testing it out
+Let's run a query through this code and see how many tokens we use. To keep costs to a minimum I'll guide the AI to give me a one word answer (with an extra hint just to make sure it gives me a good answer)!
+Your prompt:
+Who will win the world cup? 1 word answer. Must start with &quot;E&quot;
+AI Response started at 11/01/2025 16:52:05:
+England.
+AI Response completed at 11/01/2025 16:52:06:
+InputTokenCount: 43
+OutputTokenCount: 2
+TotalTokenCount: 45
+OutputTokenDetails:
+ReasoningTokenCount: 0</p>
+<p>Summary
+If you're planning to use an AI model in production, then its really important for you to keep track of cost. You want to minimize the number of tokens you use, and avoid the more expensive models if cheaper ones are capable of doing what you need. The UsageDetails capability of Microsoft.Extensions.AI allows you to know exactly how many tokens each of your interactions with the model used.</p>
 <ul>
-<li>Link to article: <a href="https://www.milanjovanovic.tech/blog/working-with-llms-in-dotnet-using-microsoft-extensions-ai">https://www.milanjovanovic.tech/blog/working-with-llms-in-dotnet-using-microsoft-extensions-ai</a></li>
+<li>Link to article: <a href="https://markheath.net/post/tracking-token-usage-microsoft-extensions-ai">https://markheath.net/post/tracking-token-usage-microsoft-extensions-ai</a></li>
 </ul>
 
     </div>
