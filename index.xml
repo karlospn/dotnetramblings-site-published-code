@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 10 Jan 2025 16:12:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with LLMs in .NET using Microsoft.Extensions.AI</title>
+      <link>https://www.dotnetramblings.com/post/11_01_2025/11_01_2025_0/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_01_2025/11_01_2025_0/</guid>
+      <description>
+        
+          
+            Microsoft.Extensions.AI provides a unified interface for integrating LLMs into .NET applications, allowing developers to switch between providers like Ollama, Azure, or OpenAI without changing application code. Through practical examples of chat completion, article summarization, and smart categorization, this article demonstrates how to leverage the library&#39;s features while running LLMs locally using Ollama.
+Link to article: https://www.milanjovanovic.tech/blog/working-with-llms-in-dotnet-using-microsoft-extensions-ai 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Major Azure Networking Outage in East US 2 Affecting VMs, App Service, and More! (Started January 8, 2025)</title>
       <link>https://www.dotnetramblings.com/post/10_01_2025/10_01_2025_0/</link>
@@ -978,91 +995,6 @@ Link to article: https://devblogs.microsoft.com/devops/important-switching-cdn-p
           
             Drawing from years of experience, I share my battle-tested approach to unit testing Clean Architecture use cases in .NET, focusing on the critical balance between code coverage and test quality. Through practical examples and real-world scenarios, I&#39;ll demonstrate how to write effective tests that not only catch bugs but also provide confidence in your code deployments.
 Link to article: https://www.milanjovanovic.tech/blog/unit-testing-clean-architecture-use-cases 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Forcing an ERROR_KEY_DELETED error when trying to open HKEY_CURRENT_USER\Software</title>
-      <link>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_0/</link>
-      <pubDate>Fri, 03 Jan 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_0/</guid>
-      <description>
-        
-          
-            Just an exercise to show that it can be done, even though it&#39;s highly unlikely to occur in practice.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250103-00/?p=110704 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Mastering Peak Software Development Efficiency with Docker</title>
-      <link>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_1/</link>
-      <pubDate>Fri, 03 Jan 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_1/</guid>
-      <description>
-        
-          
-            Get the key to mastering software development efficiency for your team with Docker.
-Link to article: https://www.docker.com/blog/mastering-software-development-efficiency/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Qodana 2024.3 Is Here Along With a Special Offer for New Users!</title>
-      <link>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_2/</link>
-      <pubDate>Fri, 03 Jan 2025 11:40:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_2/</guid>
-      <description>
-        
-          
-            Happy New Year! In case you missed it, the Qodana team ended 2024 with a bang and released Qodana 2024.3. What’s in the latest release? New security functionality, a fresh set of Android linter rules, and more to help your team prioritize code excellence. Let’s take a look at what’s available in more detail. To […]
-Link to article: https://blog.jetbrains.com/qodana/2025/01/qodana-2024-3-is-here-along-with-a-special-offer-for-new-users/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Updated System Requirements for  Linux GNU C Library (glibc)</title>
-      <link>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_3/</link>
-      <pubDate>Fri, 03 Jan 2025 10:28:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_3/</guid>
-      <description>
-        
-          
-            Starting with v2025.1, IntelliJ-based IDEs will require glibc 2.28 or higher on Linux x64 systems. This change is being made to address potential security vulnerabilities associated with building and running our software on outdated systems and to ensure our products evolve with modern frameworks and technologies. By enforcing a more recent glibc version, we aim to […]
-Link to article: https://blog.jetbrains.com/idea/2025/01/updated-system-requirements-for-linux-gnu-c-library-glibc/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>探索Microsoft.Extensions.VectorData与Qdrant和Azure AI搜索的使用</title>
-      <link>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_4/</link>
-      <pubDate>Fri, 03 Jan 2025 05:55:09 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_01_2025/03_01_2025_4/</guid>
-      <description>
-        
-          
-            本文翻译自Bruno Capuano的Exploring Microsoft.Extensions.VectorData with Qdrant and Azure AI Search 了解如何使用 Microsoft.Extensions.VectorData并通过 Qdrant 和 Azure AI 搜索实现语义搜索。 使用 Microsoft.Extensions.VectorData 深入了解语义搜索：Qdrant 和 Azure AI 搜索 语义搜索正在改变应用程序查找和解释数据的方式，它专注于含义，而不仅仅是关键字匹配。随着 Microsoft.Extensions.VectorData 的发布，.NET 开发人员拥有了一组新的构建模块，用于将基于向量的搜索功能集成到其应用程序中。在本文中，我们将探讨使用本地Qdrant和Azure AI搜索这两种实现方式来进行语义搜索。 Microsoft.Extensions.VectorData 快速介绍 Microsoft.Extensions.VectorData 是一组 .NET代码库，旨在管理 .NET 应用程序中基于向量的数据。这些库为与向量存储交互提供了一个统一的 C# 抽象层，使开发人员能够有效地处理嵌入并执行向量相似性查询。 要详细了解该库的架构和功能，推荐阅读 Luis 的精彩博客文章。 在这篇博客文章中，我们将展示两个实际用例： 在本地使用 Qdrant 进行语义搜索。 利用 Azure AI 搜索进行企业级向量搜索。 要运行这些演示，您需要使用 Ollama 为生成嵌入提供的模型之一。在本示例中，使用的模型是 all-minilm。 安装 Ollama。 下载 all-minilm 模型。 准备一个符合 OCI 标准的容器运行时，例如： Docker Desktop 或 Podman。 使用 […]
-Link to article: https://devblogs.microsoft.com/dotnet-ch/%e6%8e%a2%e7%b4%a2microsoft-extensions-vectordata%e4%b8%8eqdrant%e5%92%8cazure-ai%e6%90%9c%e7%b4%a2%e7%9a%84%e4%bd%bf%e7%94%a8 
           
           
         
