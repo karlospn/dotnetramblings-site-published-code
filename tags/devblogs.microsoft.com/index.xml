@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 10 Jan 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jan 2025 13:00:41 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enhanced Change Signature in C&#43;&#43;</title>
+      <link>https://www.dotnetramblings.com/post/13_01_2025/13_01_2025_1/</link>
+      <pubDate>Mon, 13 Jan 2025 13:00:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_01_2025/13_01_2025_1/</guid>
+      <description>
+        
+          
+            Change Signature allows you to modify a function’s parameters, including reordering, adding, removing, or altering them across various locations. Previously, the Change Signature feature in Visual Studio involved multiple clicks and nested pop-up windows. In Visual Studio 2022 version 17.12, we’ve reduced the number of clicks and eliminated these nested steps to streamline the process. […]
+Link to article: https://devblogs.microsoft.com/visualstudio/enhanced-change-signature-in-c 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Why does inadvertently passing a std::string instead of a char const* to a variadic function crash on x86-32 but not x86-64?</title>
       <link>https://www.dotnetramblings.com/post/10_01_2025/10_01_2025_2/</link>
