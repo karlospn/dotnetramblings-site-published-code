@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 06 Jan 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jan 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HSTS for HttpClient in .NET</title>
+      <link>https://www.dotnetramblings.com/post/13_01_2025/13_01_2025_0/</link>
+      <pubDate>Mon, 13 Jan 2025 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_01_2025/13_01_2025_0/</guid>
+      <description>
+        
+          
+            HTTP Strict Transport Security (HSTS) is a security feature that indicates a client to only connect to a website over HTTPS. Websites can set the Strict-Transport-Security header to inform the client to always use HTTPS. ASP.NET Core can easily set the header, but there is no built-in feature to enable HSTS for an HttpClient. In this post, I describe how to create an HttpClient that supports HSTS,…
+Link to article: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Exploring CollectionsMarshal for Dictionary</title>
       <link>https://www.dotnetramblings.com/post/06_01_2025/06_01_2025_7/</link>
