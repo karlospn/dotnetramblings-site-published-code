@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>通过 .NET Aspire 使用本地 AI 模型 | .NET Ramblings</title>
+<title>Scaling Monoliths: A Practical Guide for Growing Systems | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="本文翻译自Aaron Powell的Using Local AI models with .NET Aspire 使用本地 AI 模型是在您自己的计算机上进行实验的一个很好的方法，它无需将资源部署到云中。在本文中，我们将了解如何使用.NET Aspire 和 Ollama 在本地运行 AI 模型， …" />
+<meta name="description" content="A well-designed monolith can scale remarkably well, despite industry trends pushing toward microservices. From database sharding to message queues, learn …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="通过 .NET Aspire 使用本地 AI 模型" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/vs.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/10_01_2025/10_01_2025_5/" />
-<meta property="og:title" content="通过 .NET Aspire 使用本地 AI 模型" />
-<meta property="og:description" content="本文翻译自Aaron Powell的Using Local AI models with .NET Aspire 使用本地 AI 模型是在您自己的计算机上进行实验的一个很好的方法，它无需将资源部署到云中。在本文中，我们将了解如何使用.NET Aspire 和 Ollama 在本地运行 AI 模型， …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/vs.png" />
+<meta name="twitter:title" content="Scaling Monoliths: A Practical Guide for Growing Systems" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/18_01_2025/18_01_2025_0/" />
+<meta property="og:title" content="Scaling Monoliths: A Practical Guide for Growing Systems" />
+<meta property="og:description" content="A well-designed monolith can scale remarkably well, despite industry trends pushing toward microservices. From database sharding to message queues, learn …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/10_01_2025/10_01_2025_5/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/18_01_2025/18_01_2025_0/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">通过 .NET Aspire 使用本地 AI 模型</h1>
+    <h1 class="post_title">Scaling Monoliths: A Practical Guide for Growing Systems</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Jan 10, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jan 18, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>本文翻译自Aaron Powell的Using Local AI models with .NET Aspire 使用本地 AI 模型是在您自己的计算机上进行实验的一个很好的方法，它无需将资源部署到云中。在本文中，我们将了解如何使用.NET Aspire 和 Ollama 在本地运行 AI 模型，同时使用 Microsoft.Extensions.AI 抽象使其在部署时过渡到云托管模型。 在 .NET Aspire 中设置 Ollama 我们需要某种方法来从 .NET Aspire 应用程序中使用 Ollama，最简单的方法就是使用 .NET Aspire 社区工具包中的 Ollama 托管集成。您可以通过 Visual Studio 工具、VS Code 工具或 .NET CLI 从 NuGet 安装 Ollama 托管集成。让我们看一下如何通过命令行将 Ollama 托管集成安装到我们的应用程序主机项目中： dotnet add package CommunityToolkit.Aspire.Hosting.Ollama 安装 Ollama 托管集成后，您可以在 Program.cs […]</p>
+    <div class="post_body"><p>A well-designed monolith can scale remarkably well, despite industry trends pushing toward microservices. From database sharding to message queues, learn practical strategies to grow your monolithic system effectively.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/dotnet-ch/%e9%80%9a%e8%bf%87-net-aspire-%e4%bd%bf%e7%94%a8%e6%9c%ac%e5%9c%b0-ai-%e6%a8%a1%e5%9e%8b">https://devblogs.microsoft.com/dotnet-ch/%e9%80%9a%e8%bf%87-net-aspire-%e4%bd%bf%e7%94%a8%e6%9c%ac%e5%9c%b0-ai-%e6%a8%a1%e5%9e%8b</a></li>
+<li>Link to article: <a href="https://www.milanjovanovic.tech/blog/scaling-monoliths-a-practical-guide-for-growing-systems">https://www.milanjovanovic.tech/blog/scaling-monoliths-a-practical-guide-for-growing-systems</a></li>
 </ul>
 
     </div>
