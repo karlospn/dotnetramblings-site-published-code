@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/markheath.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/markheath.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Tools (Safely) with LLMs</title>
+      <link>https://www.dotnetramblings.com/post/18_01_2025/18_01_2025_1/</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_01_2025/18_01_2025_1/</guid>
+      <description>
+        
+          
+            In previous posts in this series I&#39;ve shown how to call LLMs with C# using the Microsoft.Extensions.AI NuGet package. In this post I want to look at how you can enable the LLM to make calls into your own C# code by giving it &amp;quot;tools&amp;quot; it can use. And we&#39;ll also discuss some of the security implications as this can open up a number of concerning attack vectors. There are a number of reasons you might want to give an LLM the ability to call a tool.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Tracking Token Usage with Microsoft.Extensions.AI</title>
       <link>https://www.dotnetramblings.com/post/11_01_2025/11_01_2025_1/</link>

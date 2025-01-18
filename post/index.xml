@@ -27,6 +27,23 @@ Link to article: https://www.devleader.ca/2025/01/18/ai-replacing-midlevel-engin
     
     <item>
       <title>Scaling Monoliths: A Practical Guide for Growing Systems</title>
+      <link>https://www.dotnetramblings.com/post/18_01_2025/18_01_2025_2/</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_01_2025/18_01_2025_2/</guid>
+      <description>
+        
+          
+            A well-designed monolith can scale remarkably well, despite industry trends pushing toward microservices. From database sharding to message queues, learn practical strategies to grow your monolithic system effectively.
+Link to article: https://www.milanjovanovic.tech/blog/scaling-monoliths-a-practical-guide-for-growing-systems 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using Tools (Safely) with LLMs</title>
       <link>https://www.dotnetramblings.com/post/18_01_2025/18_01_2025_1/</link>
       <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
       
@@ -34,8 +51,7 @@ Link to article: https://www.devleader.ca/2025/01/18/ai-replacing-midlevel-engin
       <description>
         
           
-            A well-designed monolith can scale remarkably well, despite industry trends pushing toward microservices. From database sharding to message queues, learn practical strategies to grow your monolithic system effectively.
-Link to article: https://www.milanjovanovic.tech/blog/scaling-monoliths-a-practical-guide-for-growing-systems 
+            In previous posts in this series I&#39;ve shown how to call LLMs with C# using the Microsoft.Extensions.AI NuGet package. In this post I want to look at how you can enable the LLM to make calls into your own C# code by giving it &amp;quot;tools&amp;quot; it can use. And we&#39;ll also discuss some of the security implications as this can open up a number of concerning attack vectors. There are a number of reasons you might want to give an LLM the ability to call a tool.
           
           
         
