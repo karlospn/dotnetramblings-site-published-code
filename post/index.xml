@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 24 Jan 2025 17:02:53 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing AES Encryption With C#</title>
+      <link>https://www.dotnetramblings.com/post/25_01_2025/25_01_2025_0/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_01_2025/25_01_2025_0/</guid>
+      <description>
+        
+          
+            Learn how to implement secure AES encryption in C# to protect sensitive application data like API keys and passwords, with practical code examples covering encryption, decryption, and key management best practices.
+Link to article: https://www.milanjovanovic.tech/blog/implementing-aes-encryption-with-csharp 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Security best practices to consider while fine-tuning models in Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/24_01_2025/24_01_2025_0/</link>
@@ -880,142 +897,6 @@ Link to article: https://www.milanjovanovic.tech/blog/scaling-monoliths-a-practi
         
           
             In previous posts in this series I&#39;ve shown how to call LLMs with C# using the Microsoft.Extensions.AI NuGet package. In this post I want to look at how you can enable the LLM to make calls into your own C# code by giving it &amp;quot;tools&amp;quot; it can use. And we&#39;ll also discuss some of the security implications as this can open up a number of concerning attack vectors. There are a number of reasons you might want to give an LLM the ability to call a tool.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Go 1.23.5-1 and 1.22.11-1 Microsoft builds now available</title>
-      <link>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_0/</link>
-      <pubDate>Fri, 17 Jan 2025 17:39:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_0/</guid>
-      <description>
-        
-          
-            A new set of Microsoft Go builds including security fixes is now available for download.
-Link to article: https://devblogs.microsoft.com/go/go-1-23-5-1-and-1-22-11-1-microsoft-builds-now-available 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Guest Blog: Leap Forward with Modern AI using Microsoft 365 Agents SDK and Semantic Kernel</title>
-      <link>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_1/</link>
-      <pubDate>Fri, 17 Jan 2025 17:20:52 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_1/</guid>
-      <description>
-        
-          
-            Leap Forward with Modern AI using Microsoft 365 Agents SDK and Semantic Kernel Today we’re featuring a guest author, Arafat Tehsin, who’s a Microsoft Most Valuable Professional (MVP) for AI. He’s written an article we’re sharing below, focused on how to Leap Forward with Modern AI using Microsoft 365 Agents SDK and Semantic Kernel. We’ll […]
-Link to article: https://devblogs.microsoft.com/semantic-kernel/guest-blog-leap-forward-with-modern-ai-using-microsoft-365-agents-sdk-and-semantic-kernel 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The case of the crash when trying to erase an element from a std::set</title>
-      <link>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_2/</link>
-      <pubDate>Fri, 17 Jan 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_2/</guid>
-      <description>
-        
-          
-            Another kind of fiasco.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250117-00/?p=110777 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The Early Access Program for ReSharper and the .NET Tools 2025.1 Is Here!</title>
-      <link>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_3/</link>
-      <pubDate>Fri, 17 Jan 2025 12:46:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_3/</guid>
-      <description>
-        
-          
-            We are excited to announce the launch of the Early Access Program (EAP) for the next major release of ReSharper and the .NET Tools! This initial EAP build is now available for download and offers a preview of the upcoming features and enhancements. Your feedback is crucial in helping us refine these updates, so we […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/01/17/resharper-2025-1-eap-1/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The Early Access Program for Rider 2025.1 Is Now Open!</title>
-      <link>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_4/</link>
-      <pubDate>Fri, 17 Jan 2025 12:46:08 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_4/</guid>
-      <description>
-        
-          
-            The Early Access Program for Rider 2025.1 has just begun. This is your chance to preview the new features and enhancements we’ve been working on and share your feedback to help us shape the future of JetBrains Rider. There are several ways for you to get your hands on the first preview build: To see […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/01/17/rider-2025-1-eap-1/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>New Files View in Solution Explorer</title>
-      <link>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_5/</link>
-      <pubDate>Fri, 17 Jan 2025 12:45:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_5/</guid>
-      <description>
-        
-          
-            In modern development, repositories are much more than just .NET solutions. From TypeScript end-to-end tests and Docker compose files to global.json and Playwright configs – your codebase contains numerous essential files that live outside of your C# projects.While these files are fully supported in Rider, they can be hard to find when viewing your solution […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/01/17/new-files-view-in-solution-explorer/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>.NET Aspire小贴示 – 管理容器和数据生命周期</title>
-      <link>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_6/</link>
-      <pubDate>Fri, 17 Jan 2025 11:01:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_6/</guid>
-      <description>
-        
-          
-            本文翻译自 James Montemagno 的 .NET Aspire Quick Tip – Managing Container &amp;amp; Data Lifetime .NET Aspire 凭借其强大的应用程序组合编排功能增强了本地开发流程。在 .NET Aspire 应用程序主机中，您可以在一个集中位置为应用程序指定所有项目、可执行文件、云资源和容器。当您运行应用程序主机项目时，.NET Aspire 将自动运行您的项目和可执行文件，根据需要配置云资源，并下载和运行应用程序依赖的容器。.NET Aspire 9 添加了新功能，让您可以更好地控制在本地计算机上管理容器生命周期的方式，从而在使用容器时加快开发速度。 .NET Aspire 容器 让我们看一个简单的 .NET Aspire 应用程序主机示例，该示例创建一个本地 Redis 容器资源，等待其可用后，为 Web 项目配置连接字符串： // Create a distributed application builder given the command line arguments. var builder = DistributedApplication.CreateBuilder(args); // Add a Redis server to […]
-Link to article: https://devblogs.microsoft.com/dotnet-ch/net-aspire%e5%b0%8f%e8%b4%b4%e7%a4%ba-%e7%ae%a1%e7%90%86%e5%ae%b9%e5%99%a8%e5%92%8c%e6%95%b0%e6%8d%ae%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The RubyMine 2025.1 Early Access Program Is Open!</title>
-      <link>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_7/</link>
-      <pubDate>Fri, 17 Jan 2025 10:46:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_01_2025/17_01_2025_7/</guid>
-      <description>
-        
-          
-            Hello everyone! We’re starting this year off with the opening of the RubyMine 2025.1 Early Access Program. In this blog post, you’ll find details about the new features and improvements we’ve been working on. What’s coming in RubyMine 2025.1? AI Assistant The 2024.3 release introduced enhanced cloud-based completion for Ruby code. The upcoming release will […]
-Link to article: https://blog.jetbrains.com/ruby/2025/01/the-rubymine-2025-1-early-access-program-is-open/ 
           
           
         
