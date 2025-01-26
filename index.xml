@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 25 Jan 2025 12:00:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jan 2025 13:40:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing Dictionary Performance in .NET: SortedDictionary vs. Dictionary</title>
+      <link>https://www.dotnetramblings.com/post/26_01_2025/26_01_2025_0/</link>
+      <pubDate>Sun, 26 Jan 2025 13:40:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_01_2025/26_01_2025_0/</guid>
+      <description>
+        
+          
+            The article analyzes performance issues in .NET code using SortedDictionary. It recommends using Dictionary for single sorting needs and compares various sorting techniques. Benchmark results reveal that sorting keys separately and iterating is fastest, while SortedDictionary excels with foreach loops. Careful choice of dictionary type affects performance and memory allocation.
+Link to article: https://dotnettips.wordpress.com/2025/01/26/optimizing-dictionary-performance-in-net-sorteddictionary-vs-dictionary/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How To Take Ownership - Dev Leader Weekly 80</title>
       <link>https://www.dotnetramblings.com/post/25_01_2025/25_01_2025_0/</link>
