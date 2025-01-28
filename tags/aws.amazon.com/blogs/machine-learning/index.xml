@@ -7,7 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 27 Jan 2025 17:35:18 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jan 2025 17:42:39 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Develop a RAG-based application using Amazon Aurora with Amazon Kendra</title>
+      <link>https://www.dotnetramblings.com/post/28_01_2025/28_01_2025_0/</link>
+      <pubDate>Tue, 28 Jan 2025 17:42:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_01_2025/28_01_2025_0/</guid>
+      <description>
+        
+          
+            RAG retrieves data from a preexisting knowledge base (your data), combines it with the LLM’s knowledge, and generates responses with more human-like language. However, in order for generative AI to understand your data, some amount of data preparation is required, which involves a big learning curve. In this post, we walk you through how to convert your existing Aurora data into an index without needing data preparation for Amazon Kendra to perform data search and implement RAG that combines your data along with LLM knowledge to produce accurate responses.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Optimizing AI responsiveness: A practical guide to Amazon Bedrock latency-optimized inference</title>
+      <link>https://www.dotnetramblings.com/post/28_01_2025/28_01_2025_1/</link>
+      <pubDate>Tue, 28 Jan 2025 17:35:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_01_2025/28_01_2025_1/</guid>
+      <description>
+        
+          
+            In this post, we explore how Amazon Bedrock latency-optimized inference can help address the challenges of maintaining responsiveness in LLM applications. We&#39;ll dive deep into strategies for optimizing application performance and improving user experience. Whether you&#39;re building a new AI application or optimizing an existing one, you&#39;ll find practical guidance on both the technical aspects of latency optimization and real-world implementation approaches. We begin by explaining latency in LLM applications.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Track LLM model evaluation using Amazon SageMaker managed MLflow and FMEval</title>
+      <link>https://www.dotnetramblings.com/post/28_01_2025/28_01_2025_2/</link>
+      <pubDate>Tue, 28 Jan 2025 17:31:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_01_2025/28_01_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we show how to use FMEval and Amazon SageMaker to programmatically evaluate LLMs. FMEval is an open source LLM evaluation library, designed to provide data scientists and machine learning (ML) engineers with a code-first experience to evaluate LLMs for various aspects, including accuracy, toxicity, fairness, robustness, and efficiency.
+Link to article: https://aws.amazon.com/blogs/machine-learning/track-llm-model-evaluation-using-amazon-sagemaker-managed-mlflow-and-fmeval/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Create a SageMaker inference endpoint with custom model &amp; extended container</title>
       <link>https://www.dotnetramblings.com/post/27_01_2025/27_01_2025_1/</link>
