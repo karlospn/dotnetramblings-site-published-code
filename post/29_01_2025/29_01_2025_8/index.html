@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>An Introduction to Django Views | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Views are central to Django’s architecture pattern, and having a solid grasp of how to work with them is essential for any developer working with the framework. …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="An Introduction to Django Views" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/29_01_2025/29_01_2025_8/" />
+<meta property="og:title" content="An Introduction to Django Views" />
+<meta property="og:description" content="Views are central to Django’s architecture pattern, and having a solid grasp of how to work with them is essential for any developer working with the framework. …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/29_01_2025/29_01_2025_8/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blogs.microsoft.com/blog/2025/01/21/microsoft-and-openai-evolve-partnership-to-drive-the-next-phase-of-ai/" title="Microsoft and OpenAI evolve partnership to drive the next phase of AI">Microsoft and OpenAI evolve partnership to drive the next phase of AI</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">An Introduction to Django Views</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,308 +140,27 @@
 </svg>
 </span>
     <span class="post_date">
-      Jan 22, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/azure.microsoft.com/en-us/blog/' title="azure.microsoft.com/en-us/blog" class="post_tag button button_translucent">azure.microsoft.com/en-us/blog
+      Jan 29, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Microsoft and OpenAI evolve partnership to drive the next phase of AI"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>We are thrilled to continue our strategic partnership with OpenAI and to partner on Stargate. Today’s announcement is complementary to what our two companies have been working on together since 2019. The key elements of our partnership remain in place for the duration of our contract through 2030, with our access to …</p>
-          
-          <br>
-          <a href="https://blogs.microsoft.com/blog/2025/01/21/microsoft-and-openai-evolve-partnership-to-drive-the-next-phase-of-ai/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/how-docker-streamlines-the-onboarding-process-and-sets-up-developers-for-success/" title="How Docker Streamlines the  Onboarding Process and Sets Up Developers for Success">How Docker Streamlines the  Onboarding Process and Sets Up Developers for Success</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 22, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Views are central to Django’s architecture pattern, and having a solid grasp of how to work with them is essential for any developer working with the framework. If you’re new to developing web apps with Django or just need a refresher on views, we’ve got you covered.  Gaining a better understanding of views will help […]</p>
+<ul>
+<li>Link to article: <a href="https://blog.jetbrains.com/pycharm/2025/01/django-views/">https://blog.jetbrains.com/pycharm/2025/01/django-views/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How Docker Streamlines the  Onboarding Process and Sets Up Developers for Success"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Learn how Docker streamlines developer onboarding and helps organizations set up the right guardrails to give developers the flexibility to innovate within the boundaries of company policies.
-Link to article: <a href="https://www.docker.com/blog/how-docker-streamlines-the-onboarding-process-and-sets-up-developers-for-success/">https://www.docker.com/blog/how-docker-streamlines-the-onboarding-process-and-sets-up-developers-for-success/</a></p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/how-docker-streamlines-the-onboarding-process-and-sets-up-developers-for-success/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/kotlin/2025/01/google-summer-of-code-2024-with-kotlin-results/" title="Results of Google Summer of Code 2024 With the Kotlin Foundation">Results of Google Summer of Code 2024 With the Kotlin Foundation</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 22, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Results of Google Summer of Code 2024 With the Kotlin Foundation"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>2024 marked another exciting year with respect to the Kotlin Foundation’s participation in Google Summer of Code (GSoC). GSoC is a global online program that introduces new contributors to open-source development. This year, contributors worked to expand the Kotlin ecosystem under the guidance of mentors from Google, …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/kotlin/2025/01/google-summer-of-code-2024-with-kotlin-results/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://azure.microsoft.com/en-us/blog/coldplay-evolves-the-fan-experience-with-microsoft-ai/" title="Coldplay evolves the fan experience with Microsoft AI">Coldplay evolves the fan experience with Microsoft AI</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 22, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/azure.microsoft.com/en-us/blog/' title="azure.microsoft.com/en-us/blog" class="post_tag button button_translucent">azure.microsoft.com/en-us/blog
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Coldplay evolves the fan experience with Microsoft AI"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>This fan remix experience was built with a collection of Azure AI services available in Azure AI Foundry, Microsoft’s unified AI platform announced a few months ago at Microsoft Ignite. It integrates advanced AI services like natural language processing, computer vision, and machine learning to help organizations …</p>
-          
-          <br>
-          <a href="https://azure.microsoft.com/en-us/blog/coldplay-evolves-the-fan-experience-with-microsoft-ai/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/pycharm/2025/01/anomaly-detection-in-time-series/" title="Anomaly Detection in Time Series">Anomaly Detection in Time Series</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 22, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Anomaly Detection in Time Series"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>How do you identify unusual patterns in data that might reveal critical issues or hidden opportunities? Anomaly detection helps identify data that deviates significantly from the norm. Time series data, which consists of data collected over time, often includes trends and seasonal patterns. Anomalies in time series …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/pycharm/2025/01/anomaly-detection-in-time-series/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -473,9 +184,8 @@ Link to article: <a href="https://www.docker.com/blog/how-docker-streamlines-the
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
