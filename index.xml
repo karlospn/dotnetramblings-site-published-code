@@ -7,13 +7,131 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 30 Jan 2025 15:48:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jan 2025 18:01:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Document build instructions and more with enhanced C&#43;&#43; awareness from Copilot Chat in Visual Studio</title>
+      <title>PIX 2501.30-preview: Application Specific Driver State, Recreate At GPUVA and Tight Alignment</title>
       <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_0/</link>
-      <pubDate>Thu, 30 Jan 2025 15:48:47 +0000</pubDate>
+      <pubDate>Thu, 30 Jan 2025 18:01:27 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_0/</guid>
+      <description>
+        
+          
+            Today we released PIX version 2501.30-preview, available for download here. This release has initial support for the exciting new D3D12 features that were released in a preview DirectX Agility SDK today. Please visit this blog post for more information about the Agility SDK release. 2501.30-preview is a preview version of PIX. It is identical to 2501.30 […]
+Link to article: https://devblogs.microsoft.com/pix/pix-2501-30-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>PIX 2501.30 – Support for Shader Hash Bypass, bug fixes, and everything in 2412.12</title>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_1/</link>
+      <pubDate>Thu, 30 Jan 2025 18:01:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_1/</guid>
+      <description>
+        
+          
+            Today we released PIX version 2501.30, which can be downloaded here. This release includes support for everything that was in the 2412.12 version of PIX, plus the following improvements: Support for Shader Hash Bypass PIX has full support for this new D3D12 feature that allows apps to bypass shader hash validation in D3D12 runtime by […]
+Link to article: https://devblogs.microsoft.com/pix/pix-2501-30 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agility SDK 1.716.0-preview: New D3D12 Video Encode Features</title>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_2/</link>
+      <pubDate>Thu, 30 Jan 2025 18:00:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_2/</guid>
+      <description>
+        
+          
+            Today DirectX 12 provides APIs to support GPU video encode acceleration for several applications, as detailed in D3D12 Video Encoding – Windows drivers | Microsoft Learn previous blog posts such as Announcing new DirectX 12 feature – Video Encoding! – DirectX Developer Blog. In this blog post we’re happy to announce a series of new features […]
+Link to article: https://devblogs.microsoft.com/directx/agility-sdk-1-716-0-new-d3d12-video-encode-features 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Streamline grant proposal reviews using Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_3/</link>
+      <pubDate>Thu, 30 Jan 2025 17:55:52 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_3/</guid>
+      <description>
+        
+          
+            The AWS Social Responsibility &amp;amp; Impact (SRI) team recognized an opportunity to augment this function using generative AI. The team developed an innovative solution to streamline grant proposal review and evaluation by using the natural language processing (NLP) capabilities of Amazon Bedrock. In this post, we explore the technical implementation details and key learnings from the team’s Amazon Bedrock powered grant proposal review solution, providing a blueprint for organizations seeking to optimize their grants management processes.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Aetion is using generative AI and Amazon Bedrock to unlock hidden insights about patient populations</title>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_4/</link>
+      <pubDate>Thu, 30 Jan 2025 17:51:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_4/</guid>
+      <description>
+        
+          
+            In this post, we review how Aetion’s Smart Subgroups Interpreter enables users to interact with Smart Subgroups using natural language queries. Powered by Amazon Bedrock and Anthropic’s Claude 3 large language models (LLMs), the interpreter responds to user questions expressed in conversational language about patient subgroups and provides insights to generate further hypotheses and evidence.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-aetion-is-using-generative-ai-and-amazon-bedrock-to-unlock-hidden-insights-about-patient-populations/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agility SDK 1.716.0-preview &amp; 1.615-retail: Shader hash bypass</title>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_5/</link>
+      <pubDate>Thu, 30 Jan 2025 17:28:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_5/</guid>
+      <description>
+        
+          
+            The D3D runtime as of 1.615 officially supports applications opting to bypass shader hash validation. The historical purpose of the hash that the DX shader compiler embeds in every shader binary was to give the D3D runtime to confidence that shaders being given to it are well formed. The assumption was that a hashed shader […]
+Link to article: https://devblogs.microsoft.com/directx/agility-sdk-1-716-0-preview-1-615-retail-shader-hash-bypass 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AgilitySDK 1.716.0-preview and 1.615-retail</title>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_6/</link>
+      <pubDate>Thu, 30 Jan 2025 17:27:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_6/</guid>
+      <description>
+        
+          
+            We are pleased to announce both a retail release of Shader hash bypass and a preview AgilitySDK release with several new features, available on Agility SDK Downloads today! You can find detailed information about all the features on the individual blog pages: 1.615 Shader hash bypass officially supports applications opting to bypass shader hash validation. It is […]
+Link to article: https://devblogs.microsoft.com/directx/agilitysdk-1-716-0-preview-and-1-615-retail 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Document build instructions and more with enhanced C&#43;&#43; awareness from Copilot Chat in Visual Studio</title>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_7/</link>
+      <pubDate>Thu, 30 Jan 2025 15:48:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_7/</guid>
       <description>
         
           
@@ -27,10 +145,10 @@ Link to article: https://devblogs.microsoft.com/cppblog/document-build-instructi
     
     <item>
       <title>Python Developer Advocate – Will Vincent</title>
-      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_8/</link>
       <pubDate>Thu, 30 Jan 2025 15:09:25 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_8/</guid>
       <description>
         
           
@@ -44,10 +162,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2025/01/python-developer-adv
     
     <item>
       <title>IntelliJ IDEA 2025.1 EAP 3: Kotlin K2 Mode Updates, Enhanced Logical Code Structure View, and More</title>
-      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_9/</link>
       <pubDate>Thu, 30 Jan 2025 14:07:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_9/</guid>
       <description>
         
           
@@ -61,10 +179,10 @@ Link to article: https://blog.jetbrains.com/idea/2025/01/intellij-idea-2025-1-ea
     
     <item>
       <title>DeepSeek-R1 on Azure with LangChain4j Demo</title>
-      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_10/</link>
       <pubDate>Thu, 30 Jan 2025 08:21:39 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_10/</guid>
       <description>
         
           
@@ -78,10 +196,10 @@ Link to article: https://devblogs.microsoft.com/java/deepseek-r1-on-azure-with-l
     
     <item>
       <title>Using Managed Identity on Logic App consumption</title>
-      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_11/</link>
       <pubDate>Thu, 30 Jan 2025 08:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_11/</guid>
       <description>
         
           
@@ -95,10 +213,10 @@ Link to article: https://devblogs.microsoft.com/ise/managed-identity-on-logic-ap
     
     <item>
       <title>Dev Proxy v0.24 with improved generating OpenAPI specs</title>
-      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_12/</link>
       <pubDate>Thu, 30 Jan 2025 07:52:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_12/</guid>
       <description>
         
           
@@ -112,10 +230,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/dev-proxy-v0-24-
     
     <item>
       <title>Retry on Errors in Wolverine</title>
-      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_13/</link>
       <pubDate>Thu, 30 Jan 2025 02:20:22 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_13/</guid>
       <description>
         
           
@@ -129,10 +247,10 @@ Link to article: https://jeremydmiller.com/2025/01/29/retry-on-errors-in-wolveri
     
     <item>
       <title>Deploy DeepSeek-R1 distilled Llama models with Amazon Bedrock Custom Model Import</title>
-      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_7/</link>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_14/</link>
       <pubDate>Thu, 30 Jan 2025 01:10:15 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_14/</guid>
       <description>
         
           
@@ -146,10 +264,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/deploy-deepseek-r
     
     <item>
       <title>Automating Developer Environments with Microsoft Dev Box and Teams Customizations</title>
-      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_15/</link>
       <pubDate>Thu, 30 Jan 2025 01:00:08 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_01_2025/30_01_2025_15/</guid>
       <description>
         
           
