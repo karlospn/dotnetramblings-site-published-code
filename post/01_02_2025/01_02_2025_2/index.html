@@ -4,13 +4,12 @@
   lang="en"
   data-figures=""
   
-    class="home"
+    class="page"
   
   
   >
   <head>
-	<meta name="generator" content="Hugo 0.131.0">
-<title>.NET Ramblings</title>
+<title>Overriding Default HTTP Resilience Handlers in .NET | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,25 +27,23 @@
 
 <meta property="og:locale" content="en" />
 
-<meta property="og:type" content="website">
-<meta name="description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
+<meta property="og:type" content="article">
+<meta name="description" content="While .NET 8&#39;s standard resilience handlers provide excellent defaults for HTTP clients, they lack built-in support for overriding these handlers for specific …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content=".NET Ramblings" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/" />
-<meta property="og:title" content=".NET Ramblings" />
-<meta property="og:description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Overriding Default HTTP Resilience Handlers in .NET" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/01_02_2025/01_02_2025_2/" />
+<meta property="og:title" content="Overriding Default HTTP Resilience Handlers in .NET" />
+<meta property="og:description" content="While .NET 8&#39;s standard resilience handlers provide excellent defaults for HTTP clients, they lack built-in support for overriding these handlers for specific …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/index.xml" title=".NET Ramblings" />
-<link rel="alternate" type="application/json" href="https://www.dotnetramblings.com/index.json" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/01_02_2025/01_02_2025_2/">
 
 
 
@@ -90,7 +87,7 @@
       
         
 
-  <div class="nav_parent nav_active">
+  <div class="nav_parent">
     <a href="https://www.dotnetramblings.com/" class="nav_item" title="Home">Home </a>
   </div>
   <div class="nav_parent">
@@ -132,21 +129,10 @@
 </header>
 
     <main>
-
   
-
-
-
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20250127-00/?p=110809" title="A pattern for obtaining a single value while holding a lock">A pattern for obtaining a single value while holding a lock</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Overriding Default HTTP Resilience Handlers in .NET</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -154,488 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Jan 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Feb 1, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="A pattern for obtaining a single value while holding a lock"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The immediately-invoked lambda that returns a value.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250127-00/?p=110809">https://devblogs.microsoft.com/oldnewthing/20250127-00/?p=110809</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20250127-00/?p=110809" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/azure-sql/introducing-change-event-streaming-join-the-azure-sql-database-private-preview-for-change-data-streaming" title="Introducing Change Event Streaming: Join the Azure SQL Database Private Preview for Change Data Streaming">Introducing Change Event Streaming: Join the Azure SQL Database Private Preview for Change Data Streaming</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>While .NET 8's standard resilience handlers provide excellent defaults for HTTP clients, they lack built-in support for overriding these handlers for specific endpoints that require different resilience strategies. This article demonstrates how to implement a custom solution for overriding default handlers and discusses upcoming improvements planned by the .NET team.</p>
+<ul>
+<li>Link to article: <a href="https://www.milanjovanovic.tech/blog/overriding-default-http-resilience-handlers-in-dotnet">https://www.milanjovanovic.tech/blog/overriding-default-http-resilience-handlers-in-dotnet</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Introducing Change Event Streaming: Join the Azure SQL Database Private Preview for Change Data Streaming"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In a world where digital transformation is accelerating, the ability to integrate and process real-time data from diverse sources is crucial for success. Organizations today depend on timely insights to enhance decision-making, improve operations, and foster innovation. To meet this need, we’re thrilled to announce the …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/azure-sql/introducing-change-event-streaming-join-the-azure-sql-database-private-preview-for-change-data-streaming" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/education/2025/01/27/livestream-alret-programming-prep-guide-for-the-csai-entrance-test/" title="Livestream alret: Programming Prep Guide for the CSAI Entrance Test">Livestream alret: Programming Prep Guide for the CSAI Entrance Test</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Livestream alret: Programming Prep Guide for the CSAI Entrance Test"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Want to study computer science in Europe? Enroll in the Computer Science and AI bachelor’s program at Neapolis University Pafos. Exclusive JetBrains scholarships are up for grabs! Join us on February 11, at 4:00 pm UTC, for a special preparation session to help you ace the entrance test for this program. You’ll get …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/education/2025/01/27/livestream-alret-programming-prep-guide-for-the-csai-entrance-test/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/fleet/2025/01/fleet-1-45-is-here-with-auto-import-for-gradle-improved-preview-for-markdown-and-more-enhancements/" title="Fleet 1.45 Is Here With Auto-Import for Gradle, Improved Preview for Markdown, and More Enhancements">Fleet 1.45 Is Here With Auto-Import for Gradle, Improved Preview for Markdown, and More Enhancements</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Fleet 1.45 Is Here With Auto-Import for Gradle, Improved Preview for Markdown, and More Enhancements"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Explore our latest release, which introduces many new features designed to improve your development experience. You can update to this version using our Toolbox App. Let’s take a closer look at the highlights. Download Fleet 1.45 New features Improvements Bug fixes We’ve also fixed several bugs: See the full release …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/fleet/2025/01/fleet-1-45-is-here-with-auto-import-for-gradle-improved-preview-for-markdown-and-more-enhancements/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://jeremydmiller.com/2025/01/26/introducing-the-jasperfx-software-youtube-channel/" title="Introducing the JasperFx Software YouTube Channel">Introducing the JasperFx Software YouTube Channel</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 26, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jeremydmiller.com/' title="jeremydmiller.com" class="post_tag button button_translucent">jeremydmiller.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Introducing the JasperFx Software YouTube Channel"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>JasperFx Software is in business to help our clients make the most of the “Critter Stack” tools, Event Sourcing, CQRS, Event Driven Architecture, Test Automation, and server side .NET development in general. We’d be happy to talk with your company and see how we could help you be more successful! Jeffry Gonzalez and I …</p>
-          
-          <br>
-          <a href="https://jeremydmiller.com/2025/01/26/introducing-the-jasperfx-software-youtube-channel/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2025/01/26/optimizing-dictionary-performance-in-net-sorteddictionary-vs-dictionary/" title="Optimizing Dictionary Performance in .NET: SortedDictionary vs. Dictionary">Optimizing Dictionary Performance in .NET: SortedDictionary vs. Dictionary</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 26, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Optimizing Dictionary Performance in .NET: SortedDictionary vs. Dictionary"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The article analyzes performance issues in .NET code using SortedDictionary. It recommends using Dictionary for single sorting needs and compares various sorting techniques. Benchmark results reveal that sorting keys separately and iterating is fastest, while SortedDictionary excels with foreach loops. Careful choice …</p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2025/01/26/optimizing-dictionary-performance-in-net-sorteddictionary-vs-dictionary/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2025/01/25/how-to-take-ownership-dev-leader-weekly-80" title="How To Take Ownership - Dev Leader Weekly 80">How To Take Ownership - Dev Leader Weekly 80</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 25, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How To Take Ownership - Dev Leader Weekly 80"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Welcome to another issue of Dev Leader Weekly! In this issue, I discuss how to take ownership as a software engineer.
-Link to article: <a href="https://www.devleader.ca/2025/01/25/how-to-take-ownership-dev-leader-weekly-80">https://www.devleader.ca/2025/01/25/how-to-take-ownership-dev-leader-weekly-80</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2025/01/25/how-to-take-ownership-dev-leader-weekly-80" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.milanjovanovic.tech/blog/implementing-aes-encryption-with-csharp" title="Implementing AES Encryption With C#">Implementing AES Encryption With C#</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 25, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Implementing AES Encryption With C#"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Learn how to implement secure AES encryption in C# to protect sensitive application data like API keys and passwords, with practical code examples covering encryption, decryption, and key management best practices.
-Link to article: <a href="https://www.milanjovanovic.tech/blog/implementing-aes-encryption-with-csharp">https://www.milanjovanovic.tech/blog/implementing-aes-encryption-with-csharp</a></p>
-          
-          <br>
-          <a href="https://www.milanjovanovic.tech/blog/implementing-aes-encryption-with-csharp" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope=''>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -652,9 +184,8 @@ Link to article: <a href="https://www.milanjovanovic.tech/blog/implementing-aes-
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
