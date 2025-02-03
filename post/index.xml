@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 03 Feb 2025 16:02:39 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Feb 2025 17:04:42 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Will Trump’s Tariffs Threaten U.S. Dominance in Artificial Intelligence?</title>
+      <title>Accelerate video Q&amp;A workflows using Amazon Bedrock Knowledge Bases, Amazon Transcribe, and thoughtful UX design</title>
       <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_0/</link>
-      <pubDate>Mon, 03 Feb 2025 16:02:39 +0000</pubDate>
+      <pubDate>Mon, 03 Feb 2025 17:04:42 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_0/</guid>
+      <description>
+        
+          
+            The solution presented in this post demonstrates a powerful pattern for accelerating video and audio review workflows while maintaining human oversight. By combining the power of AI models in Amazon Bedrock with human expertise, you can create tools that not only boost productivity but also maintain the critical element of human judgment in important decision-making processes.
+Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-video-qa-workflows-using-amazon-bedrock-knowledge-bases-amazon-transcribe-and-thoughtful-ux-design/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Boost team innovation, productivity, and knowledge sharing with Amazon Q Apps</title>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_1/</link>
+      <pubDate>Mon, 03 Feb 2025 16:59:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_1/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how Amazon Q Apps can help maximize the value of existing knowledge resources and improve productivity among various teams, ranging from finance to DevOps to support engineers. We share specific examples of how the generative AI assistant can enable surface relevant information, distill complex topics, generate custom content, and execute workflows—all while maintaining robust security and data governance controls.
+Link to article: https://aws.amazon.com/blogs/machine-learning/boost-team-innovation-productivity-and-knowledge-sharing-with-amazon-q-apps/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Stored Procedure Caching in Data API builder Now Supported</title>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_2/</link>
+      <pubDate>Mon, 03 Feb 2025 16:28:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_2/</guid>
+      <description>
+        
+          
+            Announcing Procedure Cache Data API builder (DAB) has long supported Level 1 cache for tables and views. Level 1 is an in-memory cache that automatically stores frequent queries or slow-changing data in the API layer, bypassing several database queries. Today, Data API builder (DAB) also supports Level 1 cache for stored procedures. This is important. […]
+Link to article: https://devblogs.microsoft.com/azure-sql/procedure-caching-in-data-api-builder-now-supported 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Update to Azure DevOps Allowed IP addresses</title>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_3/</link>
+      <pubDate>Mon, 03 Feb 2025 16:27:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_3/</guid>
+      <description>
+        
+          
+            We are excited to announce some important upgrades to our networking infrastructure that will enhance the performance and reliability of our service. As part of these infrastructure upgrades, we are introducing new IP addresses that you will need to allow list in your firewall configurations. What’s Changing And Why? We are transitioning from the current […]
+Link to article: https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Will Trump’s Tariffs Threaten U.S. Dominance in Artificial Intelligence?</title>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_4/</link>
+      <pubDate>Mon, 03 Feb 2025 16:02:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_4/</guid>
       <description>
         
           
@@ -26,10 +94,10 @@
     
     <item>
       <title>Customize your AI-generated git commit messages</title>
-      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_5/</link>
       <pubDate>Mon, 03 Feb 2025 16:00:58 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_5/</guid>
       <description>
         
           
@@ -42,11 +110,28 @@ Link to article: https://devblogs.microsoft.com/visualstudio/customize-your-ai-g
     </item>
     
     <item>
+      <title>On trying to log an exception as it leaves your scope</title>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_6/</link>
+      <pubDate>Mon, 03 Feb 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_6/</guid>
+      <description>
+        
+          
+            You can&#39;t watch it from an object on the outside.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250203-00/?p=110830 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>JetBrains Academy – January Digest</title>
-      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_7/</link>
       <pubDate>Mon, 03 Feb 2025 14:56:59 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_7/</guid>
       <description>
         
           
@@ -60,10 +145,10 @@ Link to article: https://blog.jetbrains.com/education/2025/02/03/jetbrains-acade
     
     <item>
       <title>TeamCity 2024.12.2 Bug Fix Is Now Available</title>
-      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_8/</link>
       <pubDate>Mon, 03 Feb 2025 13:43:14 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_8/</guid>
       <description>
         
           
@@ -77,10 +162,10 @@ Link to article: https://blog.jetbrains.com/teamcity/2025/02/teamcity-2024-12-2-
     
     <item>
       <title>Migrate from MSTest to xUnit using a Roslyn analyzer</title>
-      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_9/</link>
       <pubDate>Mon, 03 Feb 2025 12:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_9/</guid>
       <description>
         
           
@@ -93,10 +178,10 @@ Link to article: https://blog.jetbrains.com/teamcity/2025/02/teamcity-2024-12-2-
     
     <item>
       <title>New Livestream: Debugging GraalVM Native Images With IntelliJ IDEA</title>
-      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_10/</link>
       <pubDate>Mon, 03 Feb 2025 11:02:29 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_10/</guid>
       <description>
         
           
@@ -110,10 +195,10 @@ Link to article: https://blog.jetbrains.com/idea/2025/02/new-livestream-debuggin
     
     <item>
       <title>Introducing Qt Renderers in CLion’s Debugger</title>
-      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_11/</link>
       <pubDate>Mon, 03 Feb 2025 08:29:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_11/</guid>
       <description>
         
           
@@ -127,10 +212,10 @@ Link to article: https://blog.jetbrains.com/clion/2025/02/introducing-qt-rendere
     
     <item>
       <title>Multiple client sign-in customizations using Duende identity provider</title>
-      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_7/</link>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_12/</link>
       <pubDate>Mon, 03 Feb 2025 06:55:06 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_12/</guid>
       <description>
         
           

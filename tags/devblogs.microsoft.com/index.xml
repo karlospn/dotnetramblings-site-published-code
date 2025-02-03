@@ -7,18 +7,69 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 03 Feb 2025 16:00:58 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Feb 2025 16:28:30 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stored Procedure Caching in Data API builder Now Supported</title>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_2/</link>
+      <pubDate>Mon, 03 Feb 2025 16:28:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_2/</guid>
+      <description>
+        
+          
+            Announcing Procedure Cache Data API builder (DAB) has long supported Level 1 cache for tables and views. Level 1 is an in-memory cache that automatically stores frequent queries or slow-changing data in the API layer, bypassing several database queries. Today, Data API builder (DAB) also supports Level 1 cache for stored procedures. This is important. […]
+Link to article: https://devblogs.microsoft.com/azure-sql/procedure-caching-in-data-api-builder-now-supported 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Update to Azure DevOps Allowed IP addresses</title>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_3/</link>
+      <pubDate>Mon, 03 Feb 2025 16:27:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_3/</guid>
+      <description>
+        
+          
+            We are excited to announce some important upgrades to our networking infrastructure that will enhance the performance and reliability of our service. As part of these infrastructure upgrades, we are introducing new IP addresses that you will need to allow list in your firewall configurations. What’s Changing And Why? We are transitioning from the current […]
+Link to article: https://devblogs.microsoft.com/devops/update-to-ado-allowed-ip-addresses 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Customize your AI-generated git commit messages</title>
-      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_5/</link>
       <pubDate>Mon, 03 Feb 2025 16:00:58 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_5/</guid>
       <description>
         
           
             When it comes to collaborative software development, clear and effective communication is key. One area that often gets overlooked is the Git commit message. Poorly crafted commit messages can lead to confusion and inefficiencies within a team. That’s why we’ve built on the suggestions and feedback for the AI-generated commit messages, and now you can […]
 Link to article: https://devblogs.microsoft.com/visualstudio/customize-your-ai-generated-git-commit-messages 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>On trying to log an exception as it leaves your scope</title>
+      <link>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_6/</link>
+      <pubDate>Mon, 03 Feb 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_02_2025/03_02_2025_6/</guid>
+      <description>
+        
+          
+            You can&#39;t watch it from an object on the outside.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250203-00/?p=110830 
           
           
         
