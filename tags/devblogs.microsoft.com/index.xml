@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 04 Feb 2025 16:12:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2025 17:04:29 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Announcing the Kiota support for Dart, now in public preview</title>
+      <title>Full web support for conditional access policies across Azure DevOps and partner web properties</title>
       <link>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_0/</link>
-      <pubDate>Tue, 04 Feb 2025 16:12:50 +0000</pubDate>
+      <pubDate>Tue, 04 Feb 2025 17:04:29 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_0/</guid>
+      <description>
+        
+          
+            We’re happy to announce that we’ve made significant progress in updating our web authentication stack on Azure DevOps services and partner web properties to utilize Microsoft Entra tokens to handle web sessions. By replacing our previous cookies with Entra tokens, we’ve deepened the integration we have with Microsoft Entra ID on our web experience. This […]
+Link to article: https://devblogs.microsoft.com/devops/full-web-support-for-conditional-access-policies-across-azure-devops-and-partner-web-properties 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing the Kiota support for Dart, now in public preview</title>
+      <link>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_1/</link>
+      <pubDate>Tue, 04 Feb 2025 16:12:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_1/</guid>
       <description>
         
           
@@ -26,11 +43,28 @@ Link to article: https://devblogs.microsoft.com/openapi/kiota-dart-support
     </item>
     
     <item>
+      <title>Storing, querying and keeping embeddings updated: options and best practices</title>
+      <link>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_2/</link>
+      <pubDate>Tue, 04 Feb 2025 16:00:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_2/</guid>
+      <description>
+        
+          
+            Embeddings and vectors are becoming common terms not only for engineers involved in AI-related activities but also for those using databases. Some common points of discussion that frequently arise among users familiar with vectors and embeddings include: How can I quickly “vectorize” the content already present in my database? How can I keep the vectors […]
+Link to article: https://devblogs.microsoft.com/azure-sql/storing-querying-and-keeping-embeddings-updated-options-and-best-practices 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>The original name for Flexible Single Master Operations in Active Directory</title>
-      <link>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_3/</link>
       <pubDate>Tue, 04 Feb 2025 15:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_3/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250204-00/?p=11083
     
     <item>
       <title>Your fonts are now preserved when changing theme</title>
-      <link>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_6/</link>
       <pubDate>Tue, 04 Feb 2025 13:00:18 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_6/</guid>
       <description>
         
           
@@ -61,14 +95,14 @@ Link to article: https://devblogs.microsoft.com/visualstudio/your-fonts-are-now-
     
     <item>
       <title>Semantic Kernel Roadmap H1 2025: Accelerating Agents, Processes, and Integration</title>
-      <link>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_10/</link>
       <pubDate>Tue, 04 Feb 2025 05:24:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_10/</guid>
       <description>
         
           
-            As we move into the first half of 2025, I’m excited to share our ambitious roadmap that we hope will enable you to build even more sophisticated AI applications with Semantic Kernel. Agent Framework 1.0 By the end of Q1 2025, the SK Agent Framework will transition from preview to general availability (GA). This […]
+            As we move into the first half of 2025, I’m excited to share our ambitious roadmap that we hope will enable you to build even more sophisticated AI applications with Semantic Kernel. Agent Framework 1.0 By the end of Q1 2025, the SK Agent Framework will transition from preview to general availability (GA). This milestone […]
 Link to article: https://devblogs.microsoft.com/semantic-kernel/semantic-kernel-roadmap-h1-2025-accelerating-agents-processes-and-integration 
           
           
@@ -78,10 +112,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/semantic-kernel-
     
     <item>
       <title>Step-by-Step Guide: User Provisioning with SAML Authentication in GitHub Enterprise</title>
-      <link>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_9/</link>
+      <link>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_11/</link>
       <pubDate>Tue, 04 Feb 2025 02:48:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_02_2025/04_02_2025_11/</guid>
       <description>
         
           
