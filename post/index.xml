@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 07 Feb 2025 22:33:51 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop Conflating CQRS and MediatR</title>
+      <link>https://www.dotnetramblings.com/post/08_02_2025/08_02_2025_0/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_02_2025/08_02_2025_0/</guid>
+      <description>
+        
+          
+            The .NET ecosystem has gradually fused CQRS and MediatR together, creating a reflexive assumption that they&#39;re inseparable, but this mental shortcut has led teams down a path of unnecessary complexity. This article dispels common misconceptions by explaining how CQRS and MediatR are distinct tools solving different problems, and demonstrates how to implement CQRS effectively with or without MediatR.
+Link to article: https://www.milanjovanovic.tech/blog/stop-conflating-cqrs-and-mediatr 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Port .NET Framework workloads to Linux with Amazon Q Developer, Part 1: Class libraries</title>
       <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_0/</link>
@@ -1533,192 +1550,6 @@ Link to article: https://dotnettips.wordpress.com/2025/02/01/coding-faster-with-
           
             While .NET 8&#39;s standard resilience handlers provide excellent defaults for HTTP clients, they lack built-in support for overriding these handlers for specific endpoints that require different resilience strategies. This article demonstrates how to implement a custom solution for overriding default handlers and discusses upcoming improvements planned by the .NET team.
 Link to article: https://www.milanjovanovic.tech/blog/overriding-default-http-resilience-handlers-in-dotnet 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build Intelligent Apps with .NET and DeepSeek R1 Today!</title>
-      <link>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_0/</link>
-      <pubDate>Fri, 31 Jan 2025 20:51:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_0/</guid>
-      <description>
-        
-          
-            Learn how to easily integrate DeepSeek R1 with .NET applications using the Microsoft.Extensions.AI library.
-Link to article: https://devblogs.microsoft.com/dotnet/start-building-an-intelligent-app-with-dotnet-and-deep-seek 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A look into the new architecture on RNW 0.76 and 0.77!</title>
-      <link>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_1/</link>
-      <pubDate>Fri, 31 Jan 2025 20:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_1/</guid>
-      <description>
-        
-          
-            We&#39;ve recently released React Native Windows 0.76 and 0.77- marking the first time we invite developers to create RNW experiences on the new architecture.
-Link to article: https://devblogs.microsoft.com/react-native/2025-01-29-new-architecture-on-0-76-0-77 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Harnessing Amazon Bedrock generative AI for resilient supply chain</title>
-      <link>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_2/</link>
-      <pubDate>Fri, 31 Jan 2025 19:59:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_2/</guid>
-      <description>
-        
-          
-            By leveraging the generative AI capabilities and tooling of Amazon Bedrock, you can create an intelligent nerve center that connects diverse data sources, converts data into actionable insights, and creates a comprehensive plan to mitigate supply chain risks. This post walks through how Amazon Bedrock Flows connects your business systems, monitors medical device shortages, and provides mitigation strategies based on knowledge from Amazon Bedrock Knowledge Bases or data stored in Amazon S3 directly.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure SDK Release (January 2025)</title>
-      <link>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_3/</link>
-      <pubDate>Fri, 31 Jan 2025 17:35:03 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_3/</guid>
-      <description>
-        
-          
-            Azure SDK releases every month. In this post, you find this month&#39;s highlights and release notes.
-Link to article: https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-january-2025 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Travelers Insurance classified emails with Amazon Bedrock and prompt engineering</title>
-      <link>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_4/</link>
-      <pubDate>Fri, 31 Jan 2025 17:18:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_4/</guid>
-      <description>
-        
-          
-            In this post, we discuss how FMs can reliably automate the classification of insurance service emails through prompt engineering. When formulating the problem as a classification task, an FM can perform well enough for production environments, while maintaining extensibility into other tasks and getting up and running quickly. All experiments were conducted using Anthropic’s Claude models on Amazon Bedrock.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-travelers-insurance-classified-emails-with-amazon-bedrock-and-prompt-engineering/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerate digital pathology slide annotation workflows on AWS using H-optimus-0</title>
-      <link>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_5/</link>
-      <pubDate>Fri, 31 Jan 2025 17:10:08 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_5/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to use H-optimus-0 for two common digital pathology tasks: patch-level analysis for detailed tissue examination, and slide-level analysis for broader diagnostic assessment. Through practical examples, we show you how to adapt this FM to these specific use cases while optimizing computational resources.
-Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-digital-pathology-slide-annotation-workflows-on-aws-using-h-optimus-0/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Busy Plugin Developers Newsletter – Q4 2024</title>
-      <link>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_6/</link>
-      <pubDate>Fri, 31 Jan 2025 11:54:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_6/</guid>
-      <description>
-        
-          
-            ⭐️ Marketplace updates Granular plugin feedback In addition to the general star rating of plugins, we’re introducing detailed ratings for more granular feedback. Users can now rate plugins across five categories: Aggregated ratings are shown in the Reviews tab. Find more details in our documentation. Perpetual licenses for paid plugins JetBrains Marketplace now offers perpetual […]
-Link to article: https://blog.jetbrains.com/platform/2025/01/busy-plugin-developers-newsletter-q4-2024/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Top Java Conferences and Events in 2025</title>
-      <link>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_7/</link>
-      <pubDate>Fri, 31 Jan 2025 11:50:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_7/</guid>
-      <description>
-        
-          
-            Planning your 2025 tech calendar? Java conferences offer more than just technical sessions – they’re your gateway to connecting with a vibrant community of professionals and passionate Java fans, exploring new cities, and finding fresh inspiration. As the IDE of choice for professional development in Java and Kotlin, IntelliJ IDEA is built to support developers […]
-Link to article: https://blog.jetbrains.com/idea/2025/01/top-java-conferences-and-events-in-2025/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Faster Debugging for Massive C&#43;&#43; Projects in Rider</title>
-      <link>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_8/</link>
-      <pubDate>Fri, 31 Jan 2025 10:30:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_8/</guid>
-      <description>
-        
-          
-            If you work on large Unreal Engine projects in Rider, you’ve likely experienced the dreaded debug-step delay – hit F10 for Step Over, contemplate making coffee, then finally see the next line execute. These delays occur in LLDB Debugger, the engine behind Rider’s debugging capabilities for C++ and other native languages. After months of focused […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/01/31/faster-debugging-in-rider/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Global Developer Population Reaches 19.6 Million in 2024: Explore the Updates in Our Data Playground</title>
-      <link>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_9/</link>
-      <pubDate>Fri, 31 Jan 2025 10:13:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_9/</guid>
-      <description>
-        
-          
-            A year ago, we launched the Developer Ecosystem: Data Playground, an interactive dashboard offering insights into the global developer landscape. Today, we’re excited to introduce a significant update that enhances the dashboard with refined data, salary ranges, and even more granular insights into developer demographics and market trends. What’s New? To make it easier to […]
-Link to article: https://blog.jetbrains.com/research/2025/01/global-developer-population-2024/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>DeepSeek-R1 model now available in Amazon Bedrock Marketplace and Amazon SageMaker JumpStart</title>
-      <link>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_10/</link>
-      <pubDate>Fri, 31 Jan 2025 02:31:38 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_01_2025/31_01_2025_10/</guid>
-      <description>
-        
-          
-            DeepSeek-R1 is an advanced large language model that combines reinforcement learning, chain-of-thought reasoning, and a Mixture of Experts architecture to deliver efficient, interpretable responses while maintaining safety through Amazon Bedrock Guardrails integration.
-Link to article: https://aws.amazon.com/blogs/machine-learning/deepseek-r1-model-now-available-in-amazon-bedrock-marketplace-and-amazon-sagemaker-jumpstart/ 
           
           
         
