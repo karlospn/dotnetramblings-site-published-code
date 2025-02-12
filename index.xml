@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 12 Feb 2025 12:30:14 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Feb 2025 15:00:08 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Why and How JetBrains Built Mellum – the LLM Designed for Code Completion</title>
+      <title>External REST Endpoint Invocation in Azure SQL Managed Instance is now in Public Preview</title>
       <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_0/</link>
-      <pubDate>Wed, 12 Feb 2025 12:30:14 +0000</pubDate>
+      <pubDate>Wed, 12 Feb 2025 15:00:08 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_0/</guid>
+      <description>
+        
+          
+            External REST Endpoint Invocation is available in Azure SQL Managed Instance with the Always-up-to-date update policy configured. Call Azure Services such as functions, Azure OpenAI, event hubs, content safety and more! To enable this feature in Azure SQL Managed Instance, run the following code: sp_configure &#39;external rest endpoint enabled&#39;, 1; RECONFIGURE WITH OVERRIDE; To execute […]
+Link to article: https://devblogs.microsoft.com/azure-sql/external-rest-endpoint-invocation-in-mi-in-public-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>First preview of Visual Studio 2022 v17.14</title>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_1/</link>
+      <pubDate>Wed, 12 Feb 2025 14:45:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_1/</guid>
+      <description>
+        
+          
+            We are pleased to announce the release of Visual Studio 2022 v17.14 Preview 1, marking the initial preview of our next update to Visual Studio. This update prioritizes delivering exceptional developer experiences, with an emphasis on stability and security, as well as AI enhancements. Download the preview and see the full list of enhancements in […]
+Link to article: https://devblogs.microsoft.com/visualstudio/first-preview-of-visual-studio-2022-v17-14 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Why and How JetBrains Built Mellum – the LLM Designed for Code Completion</title>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_2/</link>
+      <pubDate>Wed, 12 Feb 2025 12:30:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_2/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://blog.jetbrains.com/ai/2025/02/why-and-how-jetbrains-bui
     
     <item>
       <title>Go 1.23.6-2 and 1.22.12-2 Microsoft builds now available</title>
-      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_3/</link>
       <pubDate>Wed, 12 Feb 2025 10:02:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_3/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/go/go-1-23-6-2-and-1-22-12-2-mic
     
     <item>
       <title>Faster Debugging for Massive MSVC-Based Projects in CLion</title>
-      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_4/</link>
       <pubDate>Wed, 12 Feb 2025 08:01:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_4/</guid>
       <description>
         
           
@@ -61,10 +95,10 @@ Link to article: https://blog.jetbrains.com/clion/2025/02/lldb-msvc-improvements
     
     <item>
       <title>Microsoft .NET Code Analysis: Leveraging Span-Based String Concatenation for Improved Performance</title>
-      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_5/</link>
       <pubDate>Wed, 12 Feb 2025 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_5/</guid>
       <description>
         
           
@@ -78,10 +112,10 @@ Link to article: https://dotnettips.wordpress.com/2025/02/12/microsoft-net-code-
     
     <item>
       <title>Unified manifest support for Word, Excel, and PowerPoint is available for preview</title>
-      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_6/</link>
       <pubDate>Wed, 12 Feb 2025 03:48:30 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_6/</guid>
       <description>
         
           
