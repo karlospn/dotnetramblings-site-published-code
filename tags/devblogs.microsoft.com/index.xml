@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 12 Feb 2025 18:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Feb 2025 21:34:13 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell 7.5 GA is now available</title>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_0/</link>
+      <pubDate>Wed, 12 Feb 2025 21:34:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_0/</guid>
+      <description>
+        
+          
+            We’re pleased to announce the release of PowerShell 7.5.0! For this release the focus has been on quality, security and stability of the platform. We greatly appreciate the enormous amount of community contributions in this release along with new cmdlets, experimental features and other quality of life additions. PowerShell 7.5 is built on top of […]
+Link to article: https://devblogs.microsoft.com/powershell/announcing-powershell-7-5-ga 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Announcing Generative AI for Beginners – .NET</title>
-      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_2/</link>
       <pubDate>Wed, 12 Feb 2025 18:05:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_2/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/announcing-generative-ai-
     
     <item>
       <title>Simplify your .NET data transfers with the new Azure Storage Data Movement library</title>
-      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_6/</link>
       <pubDate>Wed, 12 Feb 2025 17:34:48 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_6/</guid>
       <description>
         
           
@@ -44,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/simplify-your-net-data
     
     <item>
       <title>DocumentDB is Gaining Momentum in the Open-Source Database World</title>
-      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_10/</link>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_9/</link>
       <pubDate>Wed, 12 Feb 2025 15:55:48 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_9/</guid>
       <description>
         
           
@@ -61,15 +78,32 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/documentdb-is-gaining-m
     
     <item>
       <title>External REST Endpoint Invocation in Azure SQL Managed Instance is now in Public Preview</title>
-      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_11/</link>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_10/</link>
       <pubDate>Wed, 12 Feb 2025 15:00:08 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_10/</guid>
       <description>
         
           
             External REST Endpoint Invocation is available in Azure SQL Managed Instance with the Always-up-to-date update policy configured. Call Azure Services such as functions, Azure OpenAI, event hubs, content safety and more! To enable this feature in Azure SQL Managed Instance, run the following code: sp_configure &#39;external rest endpoint enabled&#39;, 1; RECONFIGURE WITH OVERRIDE; To execute […]
 Link to article: https://devblogs.microsoft.com/azure-sql/external-rest-endpoint-invocation-in-mi-in-public-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Async-Async revisited: What about cancellation?</title>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_11/</link>
+      <pubDate>Wed, 12 Feb 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_11/</guid>
+      <description>
+        
+          
+            Even the cancellation is async.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250212-00/?p=110857 
           
           
         
