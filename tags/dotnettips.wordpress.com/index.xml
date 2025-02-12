@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 09 Feb 2025 07:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Feb 2025 07:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft .NET Code Analysis: Leveraging Span-Based String Concatenation for Improved Performance</title>
+      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_0/</link>
+      <pubDate>Wed, 12 Feb 2025 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_0/</guid>
+      <description>
+        
+          
+            String concatenation in .NET can be optimized by using the Span type to enhance performance and reduce memory usage. By replacing traditional methods with AsSpan() and string.Concat(), memory allocations decrease significantly, yielding substantial performance gains. Adhering to best practices helps identify and rectify inefficient concatenation patterns.
+Link to article: https://dotnettips.wordpress.com/2025/02/12/microsoft-net-code-analysis-leveraging-span-based-string-concatenation-for-improved-performance/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Boost Your .NET Projects: Unleashing the Power of Spargine’s InMemoryCache</title>
       <link>https://www.dotnetramblings.com/post/09_02_2025/09_02_2025_0/</link>
