@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 13 Feb 2025 21:40:54 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Feb 2025 22:45:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Empowering .NET Developers: C# in Amazon SageMaker Jupyter Notebooks using Amazon Bedrock</title>
+      <title>New restrictions on package loading</title>
       <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_0/</link>
-      <pubDate>Thu, 13 Feb 2025 21:40:54 +0000</pubDate>
+      <pubDate>Thu, 13 Feb 2025 22:45:37 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_0/</guid>
+      <description>
+        
+          
+            As Visual Studio transitions its core packages and services to an async loading/retrieval model, we’ve identified bugs in both the initial async implementation and the existing synchronous package loading mechanism. While most of these bug fixes have been transparent to extenders, one requires attention due to changed constraints. This post highlights that change. Note that […]
+Link to article: https://devblogs.microsoft.com/visualstudio/new-restrictions-on-package-loading 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing TypeScript 5.8 RC</title>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_1/</link>
+      <pubDate>Thu, 13 Feb 2025 22:27:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_1/</guid>
+      <description>
+        
+          
+            Today we are excited to announce the Release Candidate (RC) of TypeScript 5.8! To get started using the Release Candidate, you can get it through npm with the following command: npm install -D typescript@rc Let’s take a look at what’s new in TypeScript 5.8! What’s New Since the Beta? Since our beta release, we have […]
+Link to article: https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-rc 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Empowering .NET Developers: C# in Amazon SageMaker Jupyter Notebooks using Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_2/</link>
+      <pubDate>Thu, 13 Feb 2025 21:40:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_2/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://aws.amazon.com/blogs/dotnet/empowering-net-developers-c
     
     <item>
       <title>Build a dynamic, role-based AI agent using Amazon Bedrock inline agents</title>
-      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_3/</link>
       <pubDate>Thu, 13 Feb 2025 20:56:28 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_3/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-dynamic-r
     
     <item>
       <title>Use language embeddings for zero-shot classification and semantic search with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_4/</link>
       <pubDate>Thu, 13 Feb 2025 20:53:32 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_4/</guid>
       <description>
         
           
@@ -61,10 +95,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/use-language-embe
     
     <item>
       <title>New Features for Enhanced Razor Productivity!</title>
-      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_5/</link>
       <pubDate>Thu, 13 Feb 2025 18:05:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_5/</guid>
       <description>
         
           
@@ -78,10 +112,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/enhancing-razor-productiv
     
     <item>
       <title>Database and AI: solutions for keeping embeddings updated</title>
-      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_6/</link>
       <pubDate>Thu, 13 Feb 2025 17:34:15 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_6/</guid>
       <description>
         
           
@@ -95,10 +129,10 @@ Link to article: https://devblogs.microsoft.com/azure-sql/database-and-ai-soluti
     
     <item>
       <title>A sample implementation of the weak reference pattern for COM callbacks</title>
-      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_7/</link>
       <pubDate>Thu, 13 Feb 2025 15:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_7/</guid>
       <description>
         
           
@@ -112,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250213-00/?p=11086
     
     <item>
       <title>Datalore 2025.1 Brings New Welcome Screen, Revamped Admin Panel for On-Premises, and Workspace Import From Git Repository</title>
-      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_8/</link>
       <pubDate>Thu, 13 Feb 2025 14:26:02 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_8/</guid>
       <description>
         
           
@@ -129,10 +163,10 @@ Link to article: https://blog.jetbrains.com/datalore/2025/02/13/datalore-2025-1-
     
     <item>
       <title>Ktor 3.1.0 Release</title>
-      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_7/</link>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_9/</link>
       <pubDate>Thu, 13 Feb 2025 12:48:01 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_9/</guid>
       <description>
         
           
@@ -146,10 +180,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2025/02/ktor-3-1-0-release/
     
     <item>
       <title>Go 1.24.0-1 Microsoft build now available</title>
-      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_10/</link>
       <pubDate>Thu, 13 Feb 2025 09:59:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_10/</guid>
       <description>
         
           
@@ -163,10 +197,10 @@ Link to article: https://devblogs.microsoft.com/go/go-1-24-0-1-microsoft-build-n
     
     <item>
       <title>Unlock Generative AI for Enterprise Scalability</title>
-      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_9/</link>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_11/</link>
       <pubDate>Thu, 13 Feb 2025 08:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_11/</guid>
       <description>
         
           
@@ -180,10 +214,10 @@ Link to article: https://devblogs.microsoft.com/ise/scaling-genai-projects
     
     <item>
       <title>GitHub Copilot for Eclipse: Code Completion Now in Public Preview</title>
-      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_10/</link>
+      <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_12/</link>
       <pubDate>Thu, 13 Feb 2025 02:46:39 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_12/</guid>
       <description>
         
           
