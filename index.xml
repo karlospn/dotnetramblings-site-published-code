@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 14 Feb 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Cursor Pagination and Why It&#39;s So Fast (Deep Dive)</title>
+      <link>https://www.dotnetramblings.com/post/15_02_2025/15_02_2025_0/</link>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_02_2025/15_02_2025_0/</guid>
+      <description>
+        
+          
+            While offset pagination is widely used, cursor-based pagination offers significant performance advantages - my tests show a 17x speedup when paginating through a million-record dataset in PostgreSQL. Let&#39;s take a deep dive into cursor pagination, compare it with offset pagination, and examine the SQL execution plans.
+Link to article: https://www.milanjovanovic.tech/blog/understanding-cursor-pagination-and-why-its-so-fast-deep-dive 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Investigating an argument-dependent lookup issue and working around it</title>
       <link>https://www.dotnetramblings.com/post/14_02_2025/14_02_2025_0/</link>
@@ -1256,225 +1273,6 @@ Link to article: https://www.devleader.ca/2025/02/08/weekly-recap-20250207
           
             The .NET ecosystem has gradually fused CQRS and MediatR together, creating a reflexive assumption that they&#39;re inseparable, but this mental shortcut has led teams down a path of unnecessary complexity. This article dispels common misconceptions by explaining how CQRS and MediatR are distinct tools solving different problems, and demonstrates how to implement CQRS effectively with or without MediatR.
 Link to article: https://www.milanjovanovic.tech/blog/stop-conflating-cqrs-and-mediatr 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Port .NET Framework workloads to Linux with Amazon Q Developer, Part 1: Class libraries</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_0/</link>
-      <pubDate>Fri, 07 Feb 2025 22:33:51 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_0/</guid>
-      <description>
-        
-          
-            Introduction In the .NET world, the modernization process for .NET Framework applications can be complex, presenting significant challenges for enterprise software development teams. Organizations with extensive .NET Framework codebases face critical decisions about migrating traditional applications to modern .NET and Linux, including careful analysis of dependencies and how to handle compatibility constraints. Existing libraries may […]
-Link to article: https://aws.amazon.com/blogs/dotnet/port-net-framework-workloads-to-linux-with-amazon-q-developer-part-1-class-libraries/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Developer CLI (azd) – February 2025</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_1/</link>
-      <pubDate>Fri, 07 Feb 2025 20:43:29 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_1/</guid>
-      <description>
-        
-          
-            This post announces the February release of the Azure Developer CLI (azd).
-Link to article: https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-february-2025 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Governing the ML lifecycle at scale, Part 4: Scaling MLOps with security and governance controls</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_2/</link>
-      <pubDate>Fri, 07 Feb 2025 20:25:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_2/</guid>
-      <description>
-        
-          
-            This post provides detailed steps for setting up the key components of a multi-account ML platform. This includes configuring the ML Shared Services Account, which manages the central templates, model registry, and deployment pipelines; sharing the ML Admin and SageMaker Projects Portfolios from the central Service Catalog; and setting up the individual ML Development Accounts where data scientists can build and train models.
-Link to article: https://aws.amazon.com/blogs/machine-learning/governing-the-ml-lifecycle-at-scale-part-4-scaling-mlops-with-security-and-governance-controls/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerate your Amazon Q implementation: starter kits for SMBs</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_3/</link>
-      <pubDate>Fri, 07 Feb 2025 17:29:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_3/</guid>
-      <description>
-        
-          
-            Starter kits are complete, deployable solutions that address common, repeatable business problems. They deploy the services that make up a solution according to best practices, helping you optimize costs and become familiar with these kinds of architectural patterns without a large investment in training. In this post, we showcase a starter kit for Amazon Q Business. If you have a repository of documents that you need to turn into a knowledge base quickly, or simply want to test out the capabilities of Amazon Q Business without a large investment of time at the console, then this solution is for you.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building the future of construction analytics: CONXAI’s AI inference on Amazon EKS</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_4/</link>
-      <pubDate>Fri, 07 Feb 2025 17:21:34 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_4/</guid>
-      <description>
-        
-          
-            CONXAI Technology GmbH is pioneering the development of an advanced AI platform for the Architecture, Engineering, and Construction (AEC) industry. In this post, we dive deep into how CONXAI hosts the state-of-the-art OneFormer segmentation model on AWS using Amazon Simple Storage Service (Amazon S3), Amazon Elastic Kubernetes Service (Amazon EKS), KServe, and NVIDIA Triton.
-Link to article: https://aws.amazon.com/blogs/machine-learning/building-the-future-of-construction-analytics-conxais-ai-inference-on-amazon-eks/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Untold Studios empowers artists with an AI assistant built on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_5/</link>
-      <pubDate>Fri, 07 Feb 2025 17:06:09 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_5/</guid>
-      <description>
-        
-          
-            Untold Studios is a tech-driven, leading creative studio specializing in high-end visual effects and animation. This post details how we used Amazon Bedrock to create an AI assistant (Untold Assistant), providing artists with a straightforward way to access our internal resources through a natural language interface integrated directly into their existing Slack workflow.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-untold-studios-empowers-artists-with-an-ai-assistant-built-on-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using alternate locales to get more interesting case mapping than the C</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_6/</link>
-      <pubDate>Fri, 07 Feb 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_6/</guid>
-      <description>
-        
-          
-            Looking for something better.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250207-00/?p=110848 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How is a Deep Research AI Agent Designed?</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_7/</link>
-      <pubDate>Fri, 07 Feb 2025 12:11:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_7/</guid>
-      <description>
-        
-          
-            A Deep Research AI Agent is an advanced AI-driven system designed to assist in conducting complex and large-scale research. It leverages cutting-edge artificial intelligence techniques such as natural language processing (NLP), machine learning (ML), and automation to analyze vast amounts of data, extract key insights, and generate summaries. These agents help professionals and organizations streamline […] The article How is a Deep Research AI Agent Designed? was originally published on Build5Nines.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The ReSharper and Rider 2024.3.5 Bug-Fix Updates Are Here</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_8/</link>
-      <pubDate>Fri, 07 Feb 2025 10:48:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_8/</guid>
-      <description>
-        
-          
-            The new bug fixes for the 2024.3 release are available to download. ReSharper 2024.3.5 This update comes with the following fixes: For the full list of issues resolved, please see our issue tracker. Rider 2024.3.5 Notable fixes We’ve addressed an issue in the 2024.3.4 release where the Go to Class feature (Ctrl+N) did not display […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/02/07/the-resharper-and-rider-2024-3-5/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Rider 2025.1 EAP 3: Enhancements for Blazor WASM, User Experience, and the Decompiler</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_9/</link>
-      <pubDate>Fri, 07 Feb 2025 08:25:57 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_9/</guid>
-      <description>
-        
-          
-            JetBrains Rider 2025.1 EAP 3 is out! You can now download this version from our website, update directly from within the IDE, use the free Toolbox App, or install it via snap packages for Ubuntu. Here’s what you can expect from this update: Proper support for Blazor WebAssembly publishing Rider 2025.1 EAP 3 introduces proper support for […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/02/07/rider-eap-3/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Kodee’s Kotlin Roundup: Fresh Picks to Begin 2025</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_10/</link>
-      <pubDate>Fri, 07 Feb 2025 06:07:52 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_10/</guid>
-      <description>
-        
-          
-            Hello, it’s Kodee! Missed me? I hope you had a fantastic break because it’s time for a new edition of Kodee’s Kotlin Roundup! I’ve got some exciting news from the past couple of months just for you. Kotlin YouTube spotlight Did you know there’s a Kotlin YouTube channel packed with awesome content? It’s been buzzing […]
-Link to article: https://blog.jetbrains.com/kotlin/2025/02/kodees-kotlin-roundup-fresh-picks/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>IntelliJ IDEA 2025.1 EAP 4: Improvements for Kotlin Development, Automatic Plugin Updates, and More</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_11/</link>
-      <pubDate>Fri, 07 Feb 2025 05:00:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_11/</guid>
-      <description>
-        
-          
-            IntelliJ IDEA 2025.1 EAP 4 is now available! You can download this version from our website, update directly from within the IDE, use the free Toolbox App, or install it via snap packages for Ubuntu. Download IntelliJ IDEA 2025.1 EAP 4 Read on to learn about this week’s additions. If you missed our previous overviews […]
-Link to article: https://blog.jetbrains.com/idea/2025/02/intellij-idea-2025-1-eap-4/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Protect your DeepSeek model deployments with Amazon Bedrock Guardrails</title>
-      <link>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_12/</link>
-      <pubDate>Fri, 07 Feb 2025 02:29:52 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_02_2025/07_02_2025_12/</guid>
-      <description>
-        
-          
-            This blog post provides a comprehensive guide to implementing robust safety protections for DeepSeek-R1 and other open weight models using Amazon Bedrock Guardrails. By following this guide, you&#39;ll learn how to use the advanced capabilities of DeepSeek models while maintaining strong security controls and promoting ethical AI practices.
-Link to article: https://aws.amazon.com/blogs/machine-learning/protect-your-deepseek-model-deployments-with-amazon-bedrock-guardrails/ 
           
           
         
