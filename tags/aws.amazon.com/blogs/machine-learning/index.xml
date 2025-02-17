@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 13 Feb 2025 20:56:28 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Feb 2025 16:51:45 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Amazon Rekognition to improve bicycle safety</title>
+      <link>https://www.dotnetramblings.com/post/17_02_2025/17_02_2025_1/</link>
+      <pubDate>Mon, 17 Feb 2025 16:51:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_02_2025/17_02_2025_1/</guid>
+      <description>
+        
+          
+            To better protect themselves, many cyclists are starting to ride with cameras mounted to the front or back of their bicycle. In this blog post, I will demonstrate a machine learning solution that cyclists can use to better identify close calls. The architecture of the solution uses Amazon Rekognition to detect vehicles in recorded bike ride videos. It then analyzes the video to determine if any vehicles are passing too close to the cyclist, within the 3-foot safe distance required by law.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build a dynamic, role-based AI agent using Amazon Bedrock inline agents</title>
       <link>https://www.dotnetramblings.com/post/13_02_2025/13_02_2025_3/</link>
