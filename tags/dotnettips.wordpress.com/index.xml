@@ -42,22 +42,5 @@ Link to article: https://dotnettips.wordpress.com/2025/02/16/boost-your-net-proj
       </description>
     </item>
     
-    <item>
-      <title>Microsoft .NET Code Analysis: Leveraging Span-Based String Concatenation for Improved Performance</title>
-      <link>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_17/</link>
-      <pubDate>Wed, 12 Feb 2025 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_02_2025/12_02_2025_17/</guid>
-      <description>
-        
-          
-            String concatenation in .NET can be optimized by using the Span type to enhance performance and reduce memory usage. By replacing traditional methods with AsSpan() and string.Concat(), memory allocations decrease significantly, yielding substantial performance gains. Adhering to best practices helps identify and rectify inefficient concatenation patterns.
-Link to article: https://dotnettips.wordpress.com/2025/02/12/microsoft-net-code-analysis-leveraging-span-based-string-concatenation-for-improved-performance/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
