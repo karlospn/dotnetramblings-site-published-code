@@ -7,7 +7,90 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 20 Feb 2025 17:24:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Feb 2025 17:08:18 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS and DXC collaborate to deliver customizable, near real-time voice-to-voice translation capabilities for Amazon Connect</title>
+      <link>https://www.dotnetramblings.com/post/21_02_2025/21_02_2025_0/</link>
+      <pubDate>Fri, 21 Feb 2025 17:08:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_02_2025/21_02_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we discuss how AWS and DXC used Amazon Connect and other AWS AI services to deliver near real-time V2V translation capabilities.
+Link to article: https://aws.amazon.com/blogs/machine-learning/aws-and-dxc-collaborate-to-deliver-customizable-near-real-time-voice-to-voice-translation-capabilities-for-amazon-connect/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Orchestrate an intelligent document processing workflow using tools in Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/21_02_2025/21_02_2025_1/</link>
+      <pubDate>Fri, 21 Feb 2025 16:44:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_02_2025/21_02_2025_1/</guid>
+      <description>
+        
+          
+            This intelligent document processing solution uses Amazon Bedrock FMs to orchestrate a sophisticated workflow for handling multi-page healthcare documents with mixed content types. The solution uses the FM’s tool use capabilities, accessed through the Amazon Bedrock Converse API. This enables the FMs to not just process text, but to actively engage with various external tools and APIs to perform complex document analysis tasks.
+Link to article: https://aws.amazon.com/blogs/machine-learning/orchestrate-an-intelligent-document-processing-workflow-using-tools-in-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reducing hallucinations in LLM agents with a verified semantic cache using Amazon Bedrock Knowledge Bases</title>
+      <link>https://www.dotnetramblings.com/post/21_02_2025/21_02_2025_2/</link>
+      <pubDate>Fri, 21 Feb 2025 16:36:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_02_2025/21_02_2025_2/</guid>
+      <description>
+        
+          
+            This post introduces a solution to reduce hallucinations in Large Language Models (LLMs) by implementing a verified semantic cache using Amazon Bedrock Knowledge Bases, which checks if user questions match curated and verified responses before generating new answers. The solution combines the flexibility of LLMs with reliable, verified answers to improve response accuracy, reduce latency, and lower costs while preventing potential misinformation in critical domains such as healthcare, finance, and legal services.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>LLM continuous self-instruct fine-tuning framework powered by a compound AI system on Amazon SageMaker</title>
+      <link>https://www.dotnetramblings.com/post/21_02_2025/21_02_2025_3/</link>
+      <pubDate>Fri, 21 Feb 2025 16:27:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_02_2025/21_02_2025_3/</guid>
+      <description>
+        
+          
+            In this post, we present the continuous self-instruct fine-tuning framework as a compound AI system implemented by the DSPy framework. The framework first generates a synthetic dataset from the domain knowledge base and documents for self-instruction, then drives model fine-tuning through SFT, and introduces the human-in-the-loop workflow to collect human and AI feedback to the model response, which is used to further improve the model performance by aligning human preference through reinforcement learning (RLHF/RLAIF).
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Maximize your file server data’s potential by using Amazon Q Business on Amazon FSx for Windows</title>
+      <link>https://www.dotnetramblings.com/post/21_02_2025/21_02_2025_5/</link>
+      <pubDate>Fri, 21 Feb 2025 16:17:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_02_2025/21_02_2025_5/</guid>
+      <description>
+        
+          
+            In this post, we show you how to connect Amazon Q, a generative AI-powered assistant, to Amazon FSx for Windows File Server to securely analyze, query, and extract insights from your file system data.
+Link to article: https://aws.amazon.com/blogs/machine-learning/maximize-your-file-server-datas-potential-by-using-amazon-q-business-on-amazon-fsx-for-windows/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Generate synthetic counterparty (CR) risk data with generative AI using Amazon Bedrock LLMs and RAG</title>
       <link>https://www.dotnetramblings.com/post/20_02_2025/20_02_2025_3/</link>
