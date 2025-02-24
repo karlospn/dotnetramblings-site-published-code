@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 17 Feb 2025 06:34:33 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/damienbod.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Feb 2025 06:43:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/damienbod.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use client assertions in OpenID Connect and ASP.NET Core</title>
+      <link>https://www.dotnetramblings.com/post/24_02_2025/24_02_2025_0/</link>
+      <pubDate>Mon, 24 Feb 2025 06:43:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_02_2025/24_02_2025_0/</guid>
+      <description>
+        
+          
+            Client assertions is a method of client authentication which can be used in OpenID Connect. This provides an alternative to client secrets. This approach enhances security by using signed tokens (JWTs) to authenticate clients during the token request process or the OAuth PAR request. In ASP.NET Core, client assertions is not supported per default, a […]
+Link to article: https://damienbod.com/2025/02/24/use-client-assertions-in-openid-connect-and-asp-net-core/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Customizing a single client sign-in using parameters in Duende IdentityServer</title>
       <link>https://www.dotnetramblings.com/post/17_02_2025/17_02_2025_8/</link>
