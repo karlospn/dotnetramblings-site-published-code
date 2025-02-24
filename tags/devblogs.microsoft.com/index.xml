@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 21 Feb 2025 16:19:01 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Feb 2025 17:03:51 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>std::generator: Standard Library Coroutine Support</title>
+      <link>https://www.dotnetramblings.com/post/24_02_2025/24_02_2025_0/</link>
+      <pubDate>Mon, 24 Feb 2025 17:03:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_02_2025/24_02_2025_0/</guid>
+      <description>
+        
+          
+            std::generator is a C++23 feature that enables you to write concise, straightforward functions that generate sequences of values on-demand without manually managing state. It builds upon C++20’s coroutines, providing some standard library support for this powerful, but complex, language feature. As of Visual Studio 2022 version 17.13, we ship an implementation of std::generator in our […]
+Link to article: https://devblogs.microsoft.com/cppblog/std-generator-standard-library-coroutine-support 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Hybrid Model Orchestration</title>
+      <link>https://www.dotnetramblings.com/post/24_02_2025/24_02_2025_1/</link>
+      <pubDate>Mon, 24 Feb 2025 17:00:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_02_2025/24_02_2025_1/</guid>
+      <description>
+        
+          
+            Hybrid model orchestration is a powerful technique that AI applications can use to intelligently select and switch between multiple models based on various criteria, all while being transparent to the calling code. This technique not only allows for model selection based on factors such as the prompt’s input token size and each model’s min/max token […]
+Link to article: https://devblogs.microsoft.com/semantic-kernel/hybrid-model-orchestration 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>MSVC Address Sanitizer updates in Visual Studio 2022 version 17.13</title>
       <link>https://www.dotnetramblings.com/post/21_02_2025/21_02_2025_5/</link>
