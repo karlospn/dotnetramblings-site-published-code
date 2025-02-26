@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 26 Feb 2025 19:09:17 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 21:24:52 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Azure SDK Release (February 2025)</title>
+      <title>Using Powershell7 with Managed Runcommand</title>
       <link>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_0/</link>
-      <pubDate>Wed, 26 Feb 2025 19:09:17 +0000</pubDate>
+      <pubDate>Wed, 26 Feb 2025 21:24:52 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_0/</guid>
+      <description>
+        
+          
+            Today, all scripts run through Managed RunCommand will by default use Powershell 5. What if you have a script that requires Powershell7? This is supported via a new feature, but you will need to specify the different script shell. Here’s what you need to do. Ensure your VM has Powershell7 Powershell7 is not installed by […]
+Link to article: https://devblogs.microsoft.com/azure-vm-runtime/using-powershell7-with-managed-runcommand 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure SDK Release (February 2025)</title>
+      <link>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_1/</link>
+      <pubDate>Wed, 26 Feb 2025 19:09:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_1/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-febr
     
     <item>
       <title>Terminal Chat now included in GitHub Copilot Free</title>
-      <link>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_2/</link>
       <pubDate>Wed, 26 Feb 2025 17:32:27 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_2/</guid>
       <description>
         
           
@@ -44,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/commandline/terminal-chat-now-in
     
     <item>
       <title>Exciting new T-SQL features: Regex support, Fuzzy string-matching, and bigint support in DATEADD – preview</title>
-      <link>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_6/</link>
       <pubDate>Wed, 26 Feb 2025 16:39:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_6/</guid>
       <description>
         
           
@@ -61,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/azure-sql/exciting-new-t-sql-fea
     
     <item>
       <title>C&#43;&#43;/WinRT implementation inheritance: Notes on winrt::implements, part 6</title>
-      <link>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_7/</link>
       <pubDate>Wed, 26 Feb 2025 15:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_7/</guid>
       <description>
         
           
@@ -78,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250226-00/?p=11090
     
     <item>
       <title>Announcing the Public Preview of the Azure Cosmos DB SDK for Rust!</title>
-      <link>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_9/</link>
       <pubDate>Wed, 26 Feb 2025 13:00:14 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_02_2025/26_02_2025_9/</guid>
       <description>
         
           
