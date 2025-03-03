@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Guest Blog: LLMAgentOps Toolkit for Semantic Kernel | .NET Ramblings</title>
+<title>Customize DeepSeek-R1 distilled models using Amazon SageMaker HyperPod recipes – Part 1 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Today the Semantic Kernel team is excited to welcome a guest author, Prabal Deb to share his work. LLMAgentOps Toolkit is repository that contains basic …" />
+<meta name="description" content="In this two-part series, we discuss how you can reduce the DeepSeek model customization complexity by using the pre-built fine-tuning workflows (also called …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Guest Blog: LLMAgentOps Toolkit for Semantic Kernel" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/ai.png"/>
+<meta name="twitter:title" content="Customize DeepSeek-R1 distilled models using Amazon SageMaker HyperPod recipes – Part 1" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/03_03_2025/03_03_2025_0/" />
-<meta property="og:title" content="Guest Blog: LLMAgentOps Toolkit for Semantic Kernel" />
-<meta property="og:description" content="Today the Semantic Kernel team is excited to welcome a guest author, Prabal Deb to share his work. LLMAgentOps Toolkit is repository that contains basic …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/ai.png" />
+<meta property="og:title" content="Customize DeepSeek-R1 distilled models using Amazon SageMaker HyperPod recipes – Part 1" />
+<meta property="og:description" content="In this two-part series, we discuss how you can reduce the DeepSeek model customization complexity by using the pre-built fine-tuning workflows (also called …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Guest Blog: LLMAgentOps Toolkit for Semantic Kernel</h1>
+    <h1 class="post_title">Customize DeepSeek-R1 distilled models using Amazon SageMaker HyperPod recipes – Part 1</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 3, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Mar 3, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Today the Semantic Kernel team is excited to welcome a guest author, Prabal Deb to share his work. LLMAgentOps Toolkit is repository that contains basic structure of LLM Agent based application built on top of the Semantic Kernel Python version. The toolkit is designed to be a starting point for data scientists and developers for experimentation […]</p>
+    <div class="post_body"><p>In this two-part series, we discuss how you can reduce the DeepSeek model customization complexity by using the pre-built fine-tuning workflows (also called “recipes”) for both DeepSeek-R1 model and its distilled variations, released as part of Amazon SageMaker HyperPod recipes. In this first post, we will build a solution architecture for fine-tuning DeepSeek-R1 distilled models and demonstrate the approach by providing a step-by-step example on customizing the DeepSeek-R1 Distill Qwen 7b model using recipes, achieving an average of 25% on all the Rouge scores, with a maximum of 49% on Rouge 2 score with both SageMaker HyperPod and SageMaker training jobs. The second part of the series will focus on fine-tuning the DeepSeek-R1 671b model itself.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/semantic-kernel/guest-blog-llmagentops-toolkit-for-semantic-kernel">https://devblogs.microsoft.com/semantic-kernel/guest-blog-llmagentops-toolkit-for-semantic-kernel</a></li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/customize-deepseek-r1-distilled-models-using-amazon-sagemaker-hyperpod-recipes-part-1/">https://aws.amazon.com/blogs/machine-learning/customize-deepseek-r1-distilled-models-using-amazon-sagemaker-hyperpod-recipes-part-1/</a></li>
 </ul>
 
     </div>
