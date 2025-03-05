@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 04 Mar 2025 22:11:35 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Mar 2025 07:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft .NET Code Analysis: Creating Empty Arrays</title>
+      <link>https://www.dotnetramblings.com/post/05_03_2025/05_03_2025_0/</link>
+      <pubDate>Wed, 05 Mar 2025 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_03_2025/05_03_2025_0/</guid>
+      <description>
+        
+          
+            Arrays are a key collection type in .NET. There are three methods to create empty arrays: new string[0], Array.Empty(), and the concise [] expression. Benchmark tests show the [] expression is the fastest and most memory-efficient option. For improved performance, developers should adopt this method in their codebases.
+Link to article: https://dotnettips.wordpress.com/2025/03/05/microsoft-net-code-analysis-creating-empty-arrays/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>DRY principle is why your codebase sucks?</title>
       <link>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_0/</link>
