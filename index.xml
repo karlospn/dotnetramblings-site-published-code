@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 09 Mar 2025 23:30:03 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Mar 2025 10:02:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing Disk Signature Collision in Azure VM After Cloning or Using Snapshots with Windows</title>
+      <link>https://www.dotnetramblings.com/post/10_03_2025/10_03_2025_0/</link>
+      <pubDate>Mon, 10 Mar 2025 10:02:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_03_2025/10_03_2025_0/</guid>
+      <description>
+        
+          
+            When moving or duplicating Azure Virtual Machines (VMs), you may encounter an issue where the VM’s disk is offline due to a signature collision. This commonly happens when: Since Windows assigns a unique identifier (disk signature) to each disk, if two disks have identical signatures, Windows prevents conflicts by marking one disk as Offline. The […] The article Fixing Disk Signature Collision in Azure VM After Cloning or Using Snapshots with Windows was originally published on Build5Nines.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Hidden Key to App Stability: Why Data Validation in Model Classes Matters</title>
       <link>https://www.dotnetramblings.com/post/09_03_2025/09_03_2025_0/</link>
