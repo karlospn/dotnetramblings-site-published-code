@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 11 Mar 2025 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2025 00:11:55 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Copilot Chat now available in public preview for Eclipse</title>
+      <link>https://www.dotnetramblings.com/post/12_03_2025/12_03_2025_0/</link>
+      <pubDate>Wed, 12 Mar 2025 00:11:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_03_2025/12_03_2025_0/</guid>
+      <description>
+        
+          
+            Today, GitHub Copilot Chat is available in public preview for Eclipse! This release follows the initial public preview of GitHub Copilot in Eclipse, which only supported code completions, and is available for all Eclipse users with access to GitHub Copilot. After installing or updating GitHub Copilot for Eclipse, click on in the bottom right corner […]
+Link to article: https://devblogs.microsoft.com/java/github-copilot-chat-now-available-in-public-preview-for-eclipse 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>.NET and .NET Framework March 2025 servicing releases updates</title>
       <link>https://www.dotnetramblings.com/post/11_03_2025/11_03_2025_0/</link>
@@ -1152,140 +1169,6 @@ Link to article: https://blog.jetbrains.com/dotnet/2025/03/05/dotinsights-march-
           
             Arrays are a key collection type in .NET. There are three methods to create empty arrays: new string[0], Array.Empty(), and the concise [] expression. Benchmark tests show the [] expression is the fastest and most memory-efficient option. For improved performance, developers should adopt this method in their codebases.
 Link to article: https://dotnettips.wordpress.com/2025/03/05/microsoft-net-code-analysis-creating-empty-arrays/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>DRY principle is why your codebase sucks?</title>
-      <link>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_0/</link>
-      <pubDate>Tue, 04 Mar 2025 22:11:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_0/</guid>
-      <description>
-        
-          
-            DRY Principle is seemingly advocated for or against. In reality, it’s not good or bad so as long as you understand why you’re applying it and for what purpose. Misunderstanding DRY is why your system can turn into a hard to change rats nest. YouTube Check out my YouTube channel, where I post all kinds of content… Read More »DRY principle is why your codebase sucks? The post DRY principle is why your codebase sucks?
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Upcoming Training on Modern .NET with Vertical Slice Architecture in Frankfurt</title>
-      <link>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_1/</link>
-      <pubDate>Tue, 04 Mar 2025 20:09:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_1/</guid>
-      <description>
-        
-          
-            It&#39;s training time again! I&#39;ve got another training event coming up focusing on Modern .NET with Vertical Slice Architecture in Frankfurt on June 25th-26th.Also similar to last year&#39;s edition of the course is an option for either a 2-day or 3-day version. The
-Link to article: https://www.jimmybogard.com/upcoming-training-on-modern-net-with-vertical-slice-architecture-in-frankfurt/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerate AWS Well-Architected reviews with Generative AI</title>
-      <link>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_2/</link>
-      <pubDate>Tue, 04 Mar 2025 16:28:03 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_2/</guid>
-      <description>
-        
-          
-            In this post, we explore a generative AI solution leveraging Amazon Bedrock to streamline the WAFR process. We demonstrate how to harness the power of LLMs to build an intelligent, scalable system that analyzes architecture documents and generates insightful recommendations based on AWS Well-Architected best practices. This solution automates portions of the WAFR report creation, helping solutions architects improve the efficiency and thoroughness of architectural assessments while supporting their decision-making process.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Dynamic metadata filtering for Amazon Bedrock Knowledge Bases with LangChain</title>
-      <link>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_3/</link>
-      <pubDate>Tue, 04 Mar 2025 16:19:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_3/</guid>
-      <description>
-        
-          
-            Amazon Bedrock Knowledge Bases has a metadata filtering capability that allows you to refine search results based on specific attributes of the documents, improving retrieval accuracy and the relevance of responses. These metadata filters can be used in combination with the typical semantic (or hybrid) similarity search. In this post, we discuss using metadata filters with Amazon Bedrock Knowledge Bases.
-Link to article: https://aws.amazon.com/blogs/machine-learning/dynamic-metadata-filtering-for-amazon-bedrock-knowledge-bases-with-langchain/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microspeak: Respin</title>
-      <link>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_4/</link>
-      <pubDate>Tue, 04 Mar 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_4/</guid>
-      <description>
-        
-          
-            Spin it up again, baby.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250304-00/?p=110929 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>On the Horizon: Top Three Updates Coming Soon From Qodana</title>
-      <link>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_5/</link>
-      <pubDate>Tue, 04 Mar 2025 14:05:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_5/</guid>
-      <description>
-        
-          
-            As we head deeper into Q1 of 2025, some exciting new developments are underway. From expanding Qodana’s integrations with new IDEs to consolidating organizational data, many more promising new projects are in the works to help increase code quality in your team. Let’s take a look at the top three! An organization-wide dashboard Insights into […]
-Link to article: https://blog.jetbrains.com/qodana/2025/03/qodana-roadmap-2025-q1/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Creating an analyzer to detect infinite loops caused by ThreadAbortExceptions</title>
-      <link>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_6/</link>
-      <pubDate>Tue, 04 Mar 2025 09:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_6/</guid>
-      <description>
-        
-          
-            In this post I describe a Roslyn Analyzer I created to detect code that can result in infinite loops if a ThreadAbortException is raised
-Link to article: https://andrewlock.net/creating-an-analyzer-to-detect-infinite-loops-caused-by-threadabortexception/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>MPS 2024.1.2 Is Now Available</title>
-      <link>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_7/</link>
-      <pubDate>Tue, 04 Mar 2025 07:38:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_03_2025/04_03_2025_7/</guid>
-      <description>
-        
-          
-            We’ve just released an update to MPS 2024.1, which corrects several problems, mainly in the UI, indexing, and migrations. DOWNLOAD MPS 2024.1.2 See the full list of fixed issues here. Download this latest version here. Your JetBrains MPS team
-Link to article: https://blog.jetbrains.com/mps/2025/03/mps-2024-1-2-is-out/ 
           
           
         
