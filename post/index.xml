@@ -7,17 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 12 Mar 2025 00:11:55 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2025 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GitHub Copilot Chat now available in public preview for Eclipse</title>
+      <title>Microsoft .NET Code Analysis: When CountAsync() Outperforms AnyAsync() in .NET</title>
       <link>https://www.dotnetramblings.com/post/12_03_2025/12_03_2025_0/</link>
-      <pubDate>Wed, 12 Mar 2025 00:11:55 +0000</pubDate>
+      <pubDate>Wed, 12 Mar 2025 06:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/12_03_2025/12_03_2025_0/</guid>
       <description>
         
           
-            Today, GitHub Copilot Chat is available in public preview for Eclipse! This release follows the initial public preview of GitHub Copilot in Eclipse, which only supported code completions, and is available for all Eclipse users with access to GitHub Copilot. After installing or updating GitHub Copilot for Eclipse, click on in the bottom right corner […]
+            The article critiques code analysis rule CA1828 in Microsoft .NET, which suggests using AnyAsync() over CountAsync() for checking item existence in IQueryable collections. Benchmark results indicate CountAsync() outperforms both AnyAsync() and LongCountAsync(), pointing to potential inefficiencies in following CA1828. The author recommends adjusting rule severity to optimize performance.
+Link to article: https://dotnettips.wordpress.com/2025/03/12/microsoft-net-code-analysis-when-countasync-outperforms-anyasync-in-net/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>GitHub Copilot Chat now available in public preview for Eclipse</title>
+      <link>https://www.dotnetramblings.com/post/12_03_2025/12_03_2025_1/</link>
+      <pubDate>Wed, 12 Mar 2025 00:11:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_03_2025/12_03_2025_1/</guid>
+      <description>
+        
+          
+            Today, GitHub Copilot Chat is available in public preview for Eclipse! This release follows the initial public preview of GitHub Copilot in Eclipse, which only supported code completions, and is available for all Eclipse users with access to GitHub Copilot. If you already have GitHub Copilot installed in your Eclipse IDE, you can find […]
 Link to article: https://devblogs.microsoft.com/java/github-copilot-chat-now-available-in-public-preview-for-eclipse 
           
           
