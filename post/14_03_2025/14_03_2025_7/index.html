@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Meet the JetBrains Team at GDC 2025 | .NET Ramblings</title>
+<title>The case of COM failing to pump messages in a single-threaded COM apartment | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="From March 17–21, 2025, the Game Developers Conference (GDC) will bring together professionals from across the game industry at the Moscone Center in San …" />
+<meta name="description" content="A customer encountered a hang caused by COM not pumping messages while waiting for a cross-thread operation to complete. They were using the task_sequencer …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Meet the JetBrains Team at GDC 2025" />
+<meta name="twitter:title" content="The case of COM failing to pump messages in a single-threaded COM apartment" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/14_03_2025/14_03_2025_7/" />
-<meta property="og:title" content="Meet the JetBrains Team at GDC 2025" />
-<meta property="og:description" content="From March 17–21, 2025, the Game Developers Conference (GDC) will bring together professionals from across the game industry at the Moscone Center in San …" />
+<meta property="og:title" content="The case of COM failing to pump messages in a single-threaded COM apartment" />
+<meta property="og:description" content="A customer encountered a hang caused by COM not pumping messages while waiting for a cross-thread operation to complete. They were using the task_sequencer …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Meet the JetBrains Team at GDC 2025</h1>
+    <h1 class="post_title">The case of COM failing to pump messages in a single-threaded COM apartment</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 14, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Mar 14, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>From March 17–21, 2025, the Game Developers Conference (GDC) will bring together professionals from across the game industry at the Moscone Center in San Francisco. JetBrains is excited to once again be part of this event, and we invite you to visit our booth to explore how our tools can enhance your game development workflow. […]</p>
+    <div class="post_body"><p>A customer encountered a hang caused by COM not pumping messages while waiting for a cross-thread operation to complete. They were using the task_sequencer class for serializing asynchronous operations on a UI thread they created to handle accessibility callbacks. The hang stack looked like this: ntdll!ZwWaitForMultipleObjects+0x4 KERNELBASE!WaitForMultipleObjectsEx+0xe0 combase!MTAThreadDispatchCrossApartmentCall+0x3a0 combase!CSyncClientCall::SendReceive2+0x65c combase!DefaultSendReceive+0x88 combase!CSyncClientCall::SendReceive+0x390 combase!CClientChannel::SendReceive+0xc0 combase!NdrExtpProxySendReceive+0x68 rpcrt4!NdrpClientCall3+0x764 combase!ObjectStublessClient+0x180 […]</p>
 <ul>
-<li>Link to article: <a href="https://blog.jetbrains.com/blog/2025/03/14/jetbrains-meets-gdc-2025/">https://blog.jetbrains.com/blog/2025/03/14/jetbrains-meets-gdc-2025/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250314-00/?p=110965">https://devblogs.microsoft.com/oldnewthing/20250314-00/?p=110965</a></li>
 </ul>
 
     </div>
