@@ -42,22 +42,5 @@ Link to article: https://dotnettips.wordpress.com/2025/03/16/boost-your-net-proj
       </description>
     </item>
     
-    <item>
-      <title>Microsoft .NET Code Analysis: When CountAsync() Outperforms AnyAsync() in .NET</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2025/12_03_2025_12/</link>
-      <pubDate>Wed, 12 Mar 2025 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_03_2025/12_03_2025_12/</guid>
-      <description>
-        
-          
-            The article critiques code analysis rule CA1828 in Microsoft .NET, which suggests using AnyAsync() over CountAsync() for checking item existence in IQueryable collections. Benchmark results indicate CountAsync() outperforms both AnyAsync() and LongCountAsync(), pointing to potential inefficiencies in following CA1828. The author recommends adjusting rule severity to optimize performance.
-Link to article: https://dotnettips.wordpress.com/2025/03/12/microsoft-net-code-analysis-when-countasync-outperforms-anyasync-in-net/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
