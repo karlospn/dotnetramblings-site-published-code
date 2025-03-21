@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Tags | .NET Ramblings</title>
+<title>引入对SLNX的支持，.NET CLI 中更简洁的解决方案文件格式 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="本文翻译自Chet Husk的Introducing support for SLNX, a new, simpler solution file format in the .NET CLI 多年来，解决方案文件已成为 .NET 和 Visual Studio 体验中的一部分，并且它们一直拥有相同的自定义格式。最 …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Tags" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/" />
-<meta property="og:title" content="Tags" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="引入对SLNX的支持，.NET CLI 中更简洁的解决方案文件格式" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/vs.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/21_03_2025/21_03_2025_1/" />
+<meta property="og:title" content="引入对SLNX的支持，.NET CLI 中更简洁的解决方案文件格式" />
+<meta property="og:description" content="本文翻译自Chet Husk的Introducing support for SLNX, a new, simpler solution file format in the .NET CLI 多年来，解决方案文件已成为 .NET 和 Visual Studio 体验中的一部分，并且它们一直拥有相同的自定义格式。最 …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/vs.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/21_03_2025/21_03_2025_1/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Devblogs.microsoft.com">Devblogs.microsoft.com</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">引入对SLNX的支持，.NET CLI 中更简洁的解决方案文件格式</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,623 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 21, 2025</span>
-    <span class="post_time"> · 0 min read</span>
+      Mar 21, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+        </a>
+    </span>
   </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Dotnettips.wordpress.com">Dotnettips.wordpress.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 21, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
+    <div class="post_body"><p>本文翻译自Chet Husk的Introducing support for SLNX, a new, simpler solution file format in the .NET CLI 多年来，解决方案文件已成为 .NET 和 Visual Studio 体验中的一部分，并且它们一直拥有相同的自定义格式。最近，Visual Studio 解决方案团队已开始预览一种新的基于 XML 格式的解决方案文件格式，称为 SLNX。从 .NET SDK 9.0.200 开始，dotnet CLI 支持生成这些文件并与之交互，其方式与使用现有解决方案文件的方式相同。在本文的其余部分，我们将展示如何迁移到新格式，探索 dotnet CLI 对该格式的新支持，并讨论该格式走向正式发布的后续计划。 快速开始 在 SDK 9.0.200 之前，创建 SLNX 文件的唯一方式是通过 Visual Studio 设置。勾选 环境 &gt; 预览功能 &gt; 使用解决方案文件持久性模型 设置后，用户可以将现有的 .sln 文件另存为新的 .slnx 格式。  […]</p>
+<ul>
+<li>Link to article: <a href="https://devblogs.microsoft.com/dotnet-ch/%e5%bc%95%e5%85%a5%e5%af%b9slnx%e7%9a%84%e6%94%af%e6%8c%81%ef%bc%8c-net-cli-%e4%b8%ad%e6%9b%b4%e7%ae%80%e6%b4%81%e7%9a%84%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88%e6%96%87%e4%bb%b6%e6%a0%bc%e5%bc%8f">https://devblogs.microsoft.com/dotnet-ch/%e5%bc%95%e5%85%a5%e5%af%b9slnx%e7%9a%84%e6%94%af%e6%8c%81%ef%bc%8c-net-cli-%e4%b8%ad%e6%9b%b4%e7%ae%80%e6%b4%81%e7%9a%84%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88%e6%96%87%e4%bb%b6%e6%a0%bc%e5%bc%8f</a></li>
+</ul>
 
     </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Aws.amazon.com/Blogs/Machine-Learning">Aws.amazon.com/Blogs/Machine-Learning</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 20, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
+<div class="post_comments">
+  
+  
+  
+</div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Blog.jetbrains.com">Blog.jetbrains.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 20, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Developer.microsoft.com/En-Us/Reactor">Developer.microsoft.com/En-Us/Reactor</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@Awsdevelopers">Youtube.com/@Awsdevelopers</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Build5nines.com">Build5nines.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@Dotnet">Youtube.com/@Dotnet</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@Visualstudio">Youtube.com/@Visualstudio</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Langchain.com">Langchain.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@Shanselman">Youtube.com/@Shanselman</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Codeopinion.com">Codeopinion.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@MicrosoftDeveloper">Youtube.com/@MicrosoftDeveloper</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Nedinthecloud.com">Nedinthecloud.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@TechWorldwithNana">Youtube.com/@TechWorldwithNana</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Ndcconferences.com">Ndcconferences.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@AzureAcademy">Youtube.com/@AzureAcademy</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@IBMTechnology">Youtube.com/@IBMTechnology</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Milanjovanovic.tech">Milanjovanovic.tech</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Infoq.com">Infoq.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 19, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -781,9 +184,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
