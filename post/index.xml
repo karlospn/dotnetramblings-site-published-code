@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 25 Mar 2025 22:23:36 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Mar 2025 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft .NET Code Analysis: Improving Performance with Count() and LongCount() vs Any()</title>
+      <link>https://www.dotnetramblings.com/post/26_03_2025/26_03_2025_0/</link>
+      <pubDate>Wed, 26 Mar 2025 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_03_2025/26_03_2025_0/</guid>
+      <description>
+        
+          
+            In Microsoft .NET, checking if an IEnumerable contains items can be done using Count(), LongCount(), or Any(). Despite Microsoft’s recommendation to use Any() for efficiency, benchmarks reveal Count() is faster. For optimal performance, it’s advised to benchmark methods contextually. Resources for further learning and performance optimization are provided.
+Link to article: https://dotnettips.wordpress.com/2025/03/26/microsoft-net-code-analysis-improving-performance-with-count-and-longcount-vs-any/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>VS Code C&#43;&#43; Extension Updates: 4x Faster Colorization &amp; 3.5x Faster Project Startup</title>
       <link>https://www.dotnetramblings.com/post/25_03_2025/25_03_2025_0/</link>
