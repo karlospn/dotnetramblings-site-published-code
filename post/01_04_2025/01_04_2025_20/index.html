@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Tags | .NET Ramblings</title>
+<title>Refactoring and Optimizing Code with GitHub Copilot | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="I&#39;m pleased to announce my latest Pluralsight course, Refactor and Optimize Code with GitHub Copilot, has just gone live. It will be part of a series of courses …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Tags" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/" />
-<meta property="og:title" content="Tags" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Refactoring and Optimizing Code with GitHub Copilot" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/01_04_2025/01_04_2025_20/" />
+<meta property="og:title" content="Refactoring and Optimizing Code with GitHub Copilot" />
+<meta property="og:description" content="I&#39;m pleased to announce my latest Pluralsight course, Refactor and Optimize Code with GitHub Copilot, has just gone live. It will be part of a series of courses …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/01_04_2025/01_04_2025_20/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Milanjovanovic.tech">Milanjovanovic.tech</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Refactoring and Optimizing Code with GitHub Copilot</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,563 +140,60 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 31, 2025</span>
-    <span class="post_time"> · 0 min read</span>
+      Apr 1, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/markheath.net/' title="markheath.net" class="post_tag button button_translucent">markheath.net
+        </a>
+    </span>
   </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Tv.ssw.com">Tv.ssw.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 31, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
+    <div class="post_body"><p>I'm pleased to announce my latest Pluralsight course, Refactor and Optimize Code with GitHub Copilot, has just gone live. It will be part of a series of courses covering various aspects of using GitHub Copilot, and my course focuses specifically on using Copilot to refactor, modernize and optimize code.
+This is an important topic as many of us are spending a lot of time working on existing legacy codebases, and learning to use GenAI effectively with these projects is a great investment of your time.
+Of course, it’s a somewhat daunting topic to teach on because things are changing so rapidly, and best practices are still emerging. However, as I tried out different challenges, I was impressed with the breadth of scenarios in which LLMs can be of assistance in the coding environment.
+Let me quickly share a few of the key lessons I learned while preparing for this course and that I tried to teach during it.
+Context matters
+LLMs know a lot of stuff - they've read pretty much the entire internet. But they don't know about your application, and your goals unless you tell they. So make use of the ability to drag in additional files to the context window, or use @workspace or #codebase. And you can give it more than code - make use of custom instructions or drag in additional documentation that's relevant.
+Try to think of Copilot like a new starter at your company. Even if they are very intelligent, they will need a lot of guidance to understand exactly how you want them to work, the big picture of what the application does, and the reasons behind the tasks you are giving them.
+Review and verify!
+Of course I hope it goes without saying that you should review and verify the changes that Copilot makes. It can be tempting to get lazy especially if Copilot is on a roll, getting things right more often than not. But remember it is your code, and Copilot is your assistant, not your replacement, so take responsibility for what you commit and ship.
+Copilot can and does make mistakes, so checkpoint your code frequently so you can roll back, and ensure that you have great unit test coverage (which of course Copilot can help you generate).
+Experiment with prompts and models
+I love the fact that GitHub Copilot gives you access to a variety of models from Open AI, Anthropic and Google. They are unfortunately confusingly named, making it hard to know which one you're &quot;supposed&quot; to use, but I'd recommend simply experimenting. Switch between models frequently and see which ones give you the best results.
+Also, if you're not getting the results you want, consider whether it might be your prompt that is the problem. Don't simply give up after the first attempt. Instead look for ways to be clearer about what you want, and provide additional context to guide it better.
+Using Copilot for code review
+You can (and should) ask Copilot to review your code, and it will really help if you are explicit about the kinds of thing you are looking for. Do you want suggestions for modernizing, or improving performance? Do you want it to suggest architectural patterns? Not every suggestion it comes back with will be worth acting on, but in my experience it can often come up with some really good ideas.
+Using Copilot for planning
+If your application uses a legacy technology and you want to modernize it, you might be tempted to see if Copilot can do the whole thing in one shot. But often you'll find that is too ambitious (although maybe that will change with agents).
+A better approach is to ask Copilot to come up with a plan. This will give you step by step instructions, and can often include things that you might have overlooked. You can then use Copilot again to help you implement each step of the plan. I was quite impressed with the detail of some of the migration plans it came up with while I was preparing for the course.
+Using LLMs for characterization tests
+The goal of refactoring is of course to improve the structure of the code, without modifying its functionality. Refactoring is risky because it can introduce bugs, so having thorough unit test coverage is really valuable.
+One great thing about Copilot is its willingness to generate tests. A &quot;characterization test&quot; is a test that simply discovers how the code currently behaves, and puts tests in place to ensure that it doesn't change. Copilot can generate these tests, and this gives you a very quick and easy way to roll back or fix a refactoring that introduces regressions.
+Using LLMs for performance improvements
+One of the topics I covered in the course was using GitHub Copilot for performance enhancements. You can of course just ask it to review your code and ask for performance-related suggestions, and sometimes it will come up with good ideas. But remember that it needs context - it won't automatically know which are the methods in your codebase that get called the most frequently, so supplying that information can help a lot.
+In one of my test scenarios, I wanted to validate the performance improvement by using BenchmarkDotNet. Copilot was very quickly able to generate me a new project for performance profiling, and even copied the old implementation into that project so I could get a side-by-side comparison of the improvement with minimal effort.
+Summary
+Although lots of GitHub Copilot demos focus on the amazing speed with which it can help you bootstrap a new application, that doesn't mean it can't help you on existing legacy codebases (which let's be honest, forms a large part of many of our daily jobs). If you're willing to put in a bit of time to
+learn how to use these AI tools effectively, you may just find that working on technical debt filled codebases isn't quite as painful as it used to be!</p>
+<ul>
+<li>Link to article: <a href="https://markheath.net/post/2025/4/1/refactor-optimize-code-github-copilot">https://markheath.net/post/2025/4/1/refactor-optimize-code-github-copilot</a></li>
+</ul>
 
     </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@Nickchapsas">Youtube.com/@Nickchapsas</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 31, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
+<div class="post_comments">
+  
+  
+  
+</div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Infoq.com">Infoq.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 31, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Jeremydmiller.com">Jeremydmiller.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 30, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Dotnettips.wordpress.com">Dotnettips.wordpress.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 30, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@Awsdevelopers">Youtube.com/@Awsdevelopers</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 29, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Devleader.ca">Devleader.ca</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 29, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@Dotnet">Youtube.com/@Dotnet</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 28, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@AzureCosmosDB">Youtube.com/@AzureCosmosDB</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@MicrosoftDeveloper">Youtube.com/@MicrosoftDeveloper</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Aws.amazon.com/Blogs/Dotnet">Aws.amazon.com/Blogs/Dotnet</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Codeopinion.com">Codeopinion.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@JamesMontemagno">Youtube.com/@JamesMontemagno</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Damienbod.com">Damienbod.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 25, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Blog.elmah.io">Blog.elmah.io</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 25, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Goatreview.com">Goatreview.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 25, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Code4it.dev">Code4it.dev</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 25, 2025</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/tags/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -721,9 +210,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
