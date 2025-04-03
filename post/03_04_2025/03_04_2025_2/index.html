@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Devblogs.microsoft.com | .NET Ramblings</title>
+<title>Data Validations with Great Expectations in MS Fabric | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,24 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="In this blog post, we will explore how to integrate GX within the Microsoft Fabric environment and use it to validate data programmatically.
+Link to article: …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Devblogs.microsoft.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/" />
-<meta property="og:title" content="Devblogs.microsoft.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Data Validations with Great Expectations in MS Fabric" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/03_04_2025/03_04_2025_2/" />
+<meta property="og:title" content="Data Validations with Great Expectations in MS Fabric" />
+<meta property="og:description" content="In this blog post, we will explore how to integrate GX within the Microsoft Fabric environment and use it to validate data programmatically.
+Link to article: …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/03_04_2025/03_04_2025_2/">
 
 
 
@@ -128,19 +131,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/dotnet-ch/%e4%b8%ba-net-%e7%9a%84-ai-%e8%af%84%e4%bc%b0%e8%a7%a3%e9%94%81%e6%96%b0%e7%9a%84%e5%8f%af%e8%83%bd%e6%80%a7" title="为 .NET 的 AI 评估解锁新的可能性">为 .NET 的 AI 评估解锁新的可能性</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Data Validations with Great Expectations in MS Fabric</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,426 +142,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 28, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Apr 3, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="为 .NET 的 AI 评估解锁新的可能性"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>本文翻译自Wendy Breiding的Unlock new possibilities for AI Evaluations for .NET Microsoft.Extensions.AI.Evaluations 库旨在简化AI评估流程与应用程序的集成。它提供了一个强大的框架，用于评估您的 AI 应用程序并自动评估其性能。 去年11月，我们发布了该库的公开预览版。今天，我们很高兴地宣布，它现已在 dotnet/Extensions 存储库中开源。该代码仓库中包含了一套提供开发生产就绪应用所需的常用功能的库。通过向所有人开放该资源，我们希望帮助开发者更高效地在项目中利用 AI 的强大能力。 …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/dotnet-ch/%e4%b8%ba-net-%e7%9a%84-ai-%e8%af%84%e4%bc%b0%e8%a7%a3%e9%94%81%e6%96%b0%e7%9a%84%e5%8f%af%e8%83%bd%e6%80%a7" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/azure-sql/sql-conf-2025-recap" title="SQL Conf() 2025 Highlights: So Much Developer Innovation!">SQL Conf() 2025 Highlights: So Much Developer Innovation!</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>In this blog post, we will explore how to integrate GX within the Microsoft Fabric environment and use it to validate data programmatically.</p>
+<ul>
+<li>Link to article: <a href="https://devblogs.microsoft.com/ise/data-validations-with-great-expectations-in-ms-fabric">https://devblogs.microsoft.com/ise/data-validations-with-great-expectations-in-ms-fabric</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="SQL Conf() 2025 Highlights: So Much Developer Innovation!"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>For decades, SQL Server has been a cornerstone of data management, evolving to meet the needs of modern developers. What began as a traditional relational engine is now a cloud-enabled, AI-integrated platform designed for building real-world applications. SQL Server continues to meet developers where they are—offering …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/azure-sql/sql-conf-2025-recap" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-march-2025" title="Azure SDK Release (March 2025)">Azure SDK Release (March 2025)</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Azure SDK Release (March 2025)"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Azure SDK releases every month. In this post, you find this month's highlights and release notes.
-Link to article: <a href="https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-march-2025">https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-march-2025</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-march-2025" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/develop-from-the-cloud/azure-devtest-labs-feedback-forum-has-a-new-home" title="Azure DevTest Labs’ feedback forum has a new home!">Azure DevTest Labs’ feedback forum has a new home!</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Azure DevTest Labs’ feedback forum has a new home!"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>We’re thrilled to announce that Azure DevTest Labs has joined the Visual Studio Developer Community to collect valuable feedback and suggestions from our customers. 🌟 This fantastic feedback portal is here to make your experience smoother and more engaging. It’s your go-to place to connect with the Azure DevTest Labs …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/develop-from-the-cloud/azure-devtest-labs-feedback-forum-has-a-new-home" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/microsoft365dev/microsoft-365-certification-control-spotlight-data-retention-back-up-and-disposal" title="Microsoft 365 Certification control spotlight: Data retention, back-up, and disposal">Microsoft 365 Certification control spotlight: Data retention, back-up, and disposal</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Microsoft 365 Certification control spotlight: Data retention, back-up, and disposal"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Learn how Microsoft 365 Certification validates data retention, back-up, and disposal controls for Microsoft 365 apps.
-Link to article: <a href="https://devblogs.microsoft.com/microsoft365dev/microsoft-365-certification-control-spotlight-data-retention-back-up-and-disposal">https://devblogs.microsoft.com/microsoft365dev/microsoft-365-certification-control-spotlight-data-retention-back-up-and-disposal</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/microsoft365dev/microsoft-365-certification-control-spotlight-data-retention-back-up-and-disposal" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20250327-00/?p=111009" title="On launching a dialog when a specific combo box item is selected">On launching a dialog when a specific combo box item is selected</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="On launching a dialog when a specific combo box item is selected"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Changing selections is not a good time to launch a dialog box.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250327-00/?p=111009">https://devblogs.microsoft.com/oldnewthing/20250327-00/?p=111009</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20250327-00/?p=111009" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/ise/using-opentelemetry-for-flexible-observability" title="Using OpenTelemetry for flexible observability">Using OpenTelemetry for flexible observability</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Using OpenTelemetry for flexible observability"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>OpenTelemetry offers flexible observability in distributed systems, this post looks at how to integrate multiple data sources when connected and disconnected from the internet.
-Link to article: <a href="https://devblogs.microsoft.com/ise/using-opentelemetry-for-flexible-observability">https://devblogs.microsoft.com/ise/using-opentelemetry-for-flexible-observability</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/ise/using-opentelemetry-for-flexible-observability" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -584,9 +186,8 @@ Link to article: <a href="https://devblogs.microsoft.com/ise/using-opentelemetry
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
