@@ -209,54 +209,5 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-gu
       </description>
     </item>
     
-    <item>
-      <title>Integrating custom dependencies in Amazon SageMaker Canvas workflows</title>
-      <link>https://www.dotnetramblings.com/post/27_03_2025/27_03_2025_1/</link>
-      <pubDate>Thu, 27 Mar 2025 19:00:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/27_03_2025/27_03_2025_1/</guid>
-      <description>
-        
-          
-            When implementing machine learning workflows in Amazon SageMaker Canvas, organizations might need to consider external dependencies required for their specific use cases. Although SageMaker Canvas provides powerful no-code and low-code capabilities for rapid experimentation, some projects might require specialized dependencies and libraries that aren’t included by default in SageMaker Canvas. This post provides an example of how to incorporate code that relies on external dependencies into your SageMaker Canvas workflows.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Generate training data and cost-effectively train categorical models with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/27_03_2025/27_03_2025_2/</link>
-      <pubDate>Thu, 27 Mar 2025 18:55:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/27_03_2025/27_03_2025_2/</guid>
-      <description>
-        
-          
-            In this post, we explore how you can use Amazon Bedrock to generate high-quality categorical ground truth data, which is crucial for training machine learning (ML) models in a cost-sensitive environment. Generative AI solutions can play an invaluable role during the model development phase by simplifying training and test data creation for multiclass classification supervised learning use cases. We dive deep into this process on how to use XML tags to structure the prompt and guide Amazon Bedrock in generating a balanced label dataset with high accuracy.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Enable Amazon Bedrock cross-Region inference in multi-account environments</title>
-      <link>https://www.dotnetramblings.com/post/27_03_2025/27_03_2025_5/</link>
-      <pubDate>Thu, 27 Mar 2025 15:03:57 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/27_03_2025/27_03_2025_5/</guid>
-      <description>
-        
-          
-            In this post, we explore how to modify your Regional access controls to specifically allow Amazon Bedrock cross-Region inference while maintaining broader Regional restrictions for other AWS services. We provide practical examples for both SCP modifications and AWS Control Tower implementations.
-Link to article: https://aws.amazon.com/blogs/machine-learning/enable-amazon-bedrock-cross-region-inference-in-multi-account-environments/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
