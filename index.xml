@@ -7,13 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 04 Apr 2025 12:45:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Apr 2025 14:42:45 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Big Thinkers: Anders Hejlsberg – The Architect Shaping the Cloud’s Programming Future from C# to TypeScript</title>
+      <title>Fine-tune large language models with reinforcement learning from human or AI feedback</title>
       <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_0/</link>
-      <pubDate>Fri, 04 Apr 2025 12:45:22 +0000</pubDate>
+      <pubDate>Fri, 04 Apr 2025 14:42:45 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we introduce a state-of-the-art method to fine-tune LLMs by reinforcement learning, reviewed the pros and cons of RLHF vs. RLAIF vs. DPO, and saw how to scale LLM fine-tuning efforts with RLAIF. We also see how to implement an end-to-end RLAIF pipeline on SageMaker using the Hugging Face Transformer and TRL libraries, and using either off-the-shelf toxicity reward models to align responses during PPO or by directly prompting an LLM to generate quantitative reward feedback during PPO.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Lumi streamlines loan approvals with Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_1/</link>
+      <pubDate>Fri, 04 Apr 2025 14:39:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_1/</guid>
+      <description>
+        
+          
+            Lumi is a leading Australian fintech lender empowering small businesses with fast, flexible, and transparent funding solutions. They use real-time data and machine learning (ML) to offer customized loans that fuel sustainable growth and solve the challenges of accessing capital. This post explores how Lumi uses Amazon SageMaker AI to meet this goal, enhance their transaction processing and classification capabilities, and ultimately grow their business by providing faster processing of loan applications, more accurate credit decisions, and improved customer experience.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From BASIC to Copilot: 50 Years of Microsoft Technology Innovation and Leadership</title>
+      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_2/</link>
+      <pubDate>Fri, 04 Apr 2025 14:22:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_2/</guid>
+      <description>
+        
+          
+            There are few companies in the history of technology — or business, for that matter — that can say they changed the world. Even fewer can say they did it more than once. As Microsoft marks its 50th anniversary, it’s hard not to marvel at just how much of our modern digital life bears its […] The article From BASIC to Copilot: 50 Years of Microsoft Technology Innovation and Leadership was originally published on Build5Nines.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Big Thinkers: Anders Hejlsberg – The Architect Shaping the Cloud’s Programming Future from C# to TypeScript</title>
+      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_3/</link>
+      <pubDate>Fri, 04 Apr 2025 12:45:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_3/</guid>
       <description>
         
           
@@ -26,10 +74,10 @@
     
     <item>
       <title>Azure AI Foundry Extension for Visual Studio Code is Available in Preview</title>
-      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_4/</link>
       <pubDate>Fri, 04 Apr 2025 09:29:13 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_4/</guid>
       <description>
         
           
@@ -43,10 +91,10 @@ Link to article: https://devblogs.microsoft.com/foundry/azure-ai-foundry-vscode-
     
     <item>
       <title>Introducing AI Red Teaming Agent: Accelerate Your Trustworthy AI Journey with Azure AI Foundry</title>
-      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_6/</link>
       <pubDate>Fri, 04 Apr 2025 09:29:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_6/</guid>
       <description>
         
           
@@ -60,10 +108,10 @@ Link to article: https://devblogs.microsoft.com/foundry/ai-red-teaming-agent-pre
     
     <item>
       <title>Unlocking the Power of Agentic Applications: New Evaluation Metrics for Quality and Safety</title>
-      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_5/</link>
       <pubDate>Fri, 04 Apr 2025 09:29:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_5/</guid>
       <description>
         
           
@@ -76,28 +124,11 @@ Link to article: https://devblogs.microsoft.com/foundry/evaluation-metrics-azure
     </item>
     
     <item>
-      <title>Java Annotated Monthly – April 2025</title>
-      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_4/</link>
-      <pubDate>Fri, 04 Apr 2025 07:43:58 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_4/</guid>
-      <description>
-        
-          
-            Welcome to the April edition of Java Annotated Monthly! Java 24 has landed, and we’ve got plenty to say about it. From fresh language features to smart tricks and must-try tutorials, there’s something for every curious developer. The cherry on top? Mala Gupta joins us as this month’s featured guest – don’t miss her insights! […]
-Link to article: https://blog.jetbrains.com/idea/2025/04/java-annotated-monthly-april-2025/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Microsoft .NET Code Analysis: Improve .NET Performance by Reusing Constant Arrays</title>
-      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_7/</link>
       <pubDate>Fri, 04 Apr 2025 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_7/</guid>
       <description>
         
           
