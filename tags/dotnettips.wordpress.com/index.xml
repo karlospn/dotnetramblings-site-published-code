@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 02 Apr 2025 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Apr 2025 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft .NET Code Analysis: Improve .NET Performance by Reusing Constant Arrays</title>
+      <link>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_0/</link>
+      <pubDate>Fri, 04 Apr 2025 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_04_2025/04_04_2025_0/</guid>
+      <description>
+        
+          
+            In optimizing the Spargine project, I improved performance by avoiding constant arrays as method arguments. Instead, using static readonly fields reduced memory allocations significantly. This change enhanced execution speed, yielding a 1.34x performance gain. I recommend enabling CA1856 warnings in .editorconfig to maintain performance-focused coding practices.
+Link to article: https://dotnettips.wordpress.com/2025/04/04/microsoft-net-code-analysis-improve-net-performance-by-reusing-constant-arrays/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Supporting Companies That Use Microsoft .NET</title>
       <link>https://www.dotnetramblings.com/post/02_04_2025/02_04_2025_12/</link>
