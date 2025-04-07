@@ -7,13 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 07 Apr 2025 17:45:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Apr 2025 21:56:23 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advanced tracing and evaluation of generative AI agents using LangChain and Amazon SageMaker AI MLFlow</title>
+      <title>Multi-tenancy in RAG applications in a single Amazon Bedrock knowledge base with metadata filtering</title>
+      <link>https://www.dotnetramblings.com/post/07_04_2025/07_04_2025_0/</link>
+      <pubDate>Mon, 07 Apr 2025 21:56:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_04_2025/07_04_2025_0/</guid>
+      <description>
+        
+          
+            This post demonstrates how Amazon Bedrock Knowledge Bases can help you scale your data management effectively while maintaining proper access controls on different management levels.
+Link to article: https://aws.amazon.com/blogs/machine-learning/multi-tenancy-in-rag-applications-in-a-single-amazon-bedrock-knowledge-base-with-metadata-filtering/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Effectively use prompt caching on Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/07_04_2025/07_04_2025_1/</link>
-      <pubDate>Mon, 07 Apr 2025 17:45:21 +0000</pubDate>
+      <pubDate>Mon, 07 Apr 2025 21:53:41 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/07_04_2025/07_04_2025_1/</guid>
+      <description>
+        
+          
+            Prompt caching, now generally available on Amazon Bedrock with Anthropic’s Claude 3.5 Haiku and Claude 3.7 Sonnet, along with Nova Micro, Nova Lite, and Nova Pro models, lowers response latency by up to 85% and reduces costs up to 90% by caching frequently used prompts across multiple API calls. This post provides a detailed overview of the prompt caching feature on Amazon Bedrock and offers guidance on how to effectively use this feature to achieve improved latency and cost savings.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Advanced tracing and evaluation of generative AI agents using LangChain and Amazon SageMaker AI MLFlow</title>
+      <link>https://www.dotnetramblings.com/post/07_04_2025/07_04_2025_3/</link>
+      <pubDate>Mon, 07 Apr 2025 17:45:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_04_2025/07_04_2025_3/</guid>
       <description>
         
           
