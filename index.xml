@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 09 Apr 2025 19:06:24 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Apr 2025 19:48:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>.NET and .NET Framework April 2025 servicing releases updates</title>
+      <title>Announcing Hybrid Search with Semantic Kernel for .NET</title>
       <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_0/</link>
-      <pubDate>Wed, 09 Apr 2025 19:06:24 +0000</pubDate>
+      <pubDate>Wed, 09 Apr 2025 19:48:37 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_0/</guid>
+      <description>
+        
+          
+            Today we’re thrilled to announce support for Hybrid search with Semantic Kernel Vector Stores for .NET. What is Hybrid Search? Hybrid search performs two parallel searches on a vector database. The union of the results of these two searches are then returned to callers with a combined rank, based on the rankings from each of […]
+Link to article: https://devblogs.microsoft.com/semantic-kernel/announcing-hybrid-search-with-semantic-kernel-for-net 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Implement human-in-the-loop confirmation with Amazon Bedrock Agents</title>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_1/</link>
+      <pubDate>Wed, 09 Apr 2025 19:46:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_1/</guid>
+      <description>
+        
+          
+            In this post, we focus specifically on enabling end-users to approve actions and provide feedback using built-in Amazon Bedrock Agents features, specifically HITL patterns for providing safe and effective agent operations. We explore the patterns available using a Human Resources (HR) agent example that helps employees requesting time off.
+Link to article: https://aws.amazon.com/blogs/machine-learning/implement-human-in-the-loop-confirmation-with-amazon-bedrock-agents/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>.NET and .NET Framework April 2025 servicing releases updates</title>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_2/</link>
+      <pubDate>Wed, 09 Apr 2025 19:06:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_2/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framewo
     
     <item>
       <title>How we ended up rewriting NuGet Restore in .NET 9</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_3/</link>
       <pubDate>Wed, 09 Apr 2025 17:05:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_3/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/rewriting-nuget-restore-i
     
     <item>
       <title>Boost team productivity with Amazon Q Business Insights</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_4/</link>
       <pubDate>Wed, 09 Apr 2025 16:10:30 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_4/</guid>
       <description>
         
           
@@ -61,10 +95,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/boost-team-produc
     
     <item>
       <title>Multi-LLM routing strategies for generative AI applications on AWS</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_5/</link>
       <pubDate>Wed, 09 Apr 2025 16:02:16 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_5/</guid>
       <description>
         
           
@@ -77,11 +111,11 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/multi-llm-routing
     </item>
     
     <item>
-      <title>.NET Aspire and Azure Functions integration preview</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_4/</link>
+      <title>Better Together: .NET Aspire, Azure Functions, and Visual Studio</title>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_6/</link>
       <pubDate>Wed, 09 Apr 2025 15:00:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_6/</guid>
       <description>
         
           
@@ -95,10 +129,10 @@ Link to article: https://devblogs.microsoft.com//net-aspire-and-azure-functions-
     
     <item>
       <title>Unlock Real-Time Insights: Power BI Integration with vCore-based Azure Cosmos DB for MongoDB Now in Public Preview!</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_7/</link>
       <pubDate>Wed, 09 Apr 2025 14:54:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_7/</guid>
       <description>
         
           
@@ -112,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/unlock-real-time-insigh
     
     <item>
       <title>Guest Blog: A Comprehensive Guide to Agentic AI with Semantic Kernel</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_8/</link>
       <pubDate>Wed, 09 Apr 2025 13:58:59 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_8/</guid>
       <description>
         
           
@@ -129,10 +163,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/guest-blog-a-com
     
     <item>
       <title>Introducing the agent debugging experience in Microsoft 365 Copilot</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_7/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_9/</link>
       <pubDate>Wed, 09 Apr 2025 13:58:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_9/</guid>
       <description>
         
           
@@ -146,10 +180,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/introducing-the-
     
     <item>
       <title>Run Gemma 3 with Docker Model Runner: Fully Local GenAI Developer Experience</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_10/</link>
       <pubDate>Wed, 09 Apr 2025 13:01:39 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_10/</guid>
       <description>
         
           
@@ -163,10 +197,10 @@ Link to article: https://www.docker.com/blog/run-gemma-3-locally-with-docker-mod
     
     <item>
       <title>Introducing Docker Model Runner: A Better Way to Build and Run GenAI Models Locally</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_9/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_11/</link>
       <pubDate>Wed, 09 Apr 2025 13:00:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_11/</guid>
       <description>
         
           
@@ -180,10 +214,10 @@ Link to article: https://www.docker.com/blog/introducing-docker-model-runner/
     
     <item>
       <title>April 2025: A look at the latest Microsoft Entra key feature releases, announcements, and updates</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_10/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_12/</link>
       <pubDate>Wed, 09 Apr 2025 12:53:04 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_12/</guid>
       <description>
         
           
@@ -196,11 +230,28 @@ Link to article: https://devblogs.microsoft.com/identity/eng-connect-apr-2025
     </item>
     
     <item>
+      <title>.NET Aspire and Azure Functions integration preview</title>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_13/</link>
+      <pubDate>Wed, 09 Apr 2025 12:00:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_13/</guid>
+      <description>
+        
+          
+            Have you ever struggled with integrating serverless technology into your existing .NET projects? The new update in Visual Studio has got you covered. Say hello to the powerful integration of .NET Aspire with Azure Functions, making your development process smoother than ever before. With this release of Visual Studio, Azure Functions developers can enlist in […]
+Link to article: https://devblogs.microsoft.com/visualstudio/net-aspire-and-azure-functions-integration-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>The Evolution of LLM Integration</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_11/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_14/</link>
       <pubDate>Wed, 09 Apr 2025 11:30:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_14/</guid>
       <description>
         
           
@@ -214,10 +265,10 @@ Link to article: https://dailydotnettips.com/the-evolution-of-llm-integration/
     
     <item>
       <title>Rider 2025.1 Release Candidate Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_12/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_15/</link>
       <pubDate>Wed, 09 Apr 2025 10:13:58 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_15/</guid>
       <description>
         
           
@@ -231,10 +282,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2025/04/09/rider-2025-1-rc/
     
     <item>
       <title>ReSharper and .NET Tools 2025.1 Release Candidates Are Now Available</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_13/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_16/</link>
       <pubDate>Wed, 09 Apr 2025 10:13:10 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_16/</guid>
       <description>
         
           
@@ -248,10 +299,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2025/04/09/resharper-2025-1-r
     
     <item>
       <title>Boost Your .NET Projects: Retry Logic Made Easy with Spargine’s ExecutionHelper</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_14/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_17/</link>
       <pubDate>Wed, 09 Apr 2025 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_14/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2025/09_04_2025_17/</guid>
       <description>
         
           
