@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 11 Apr 2025 00:49:33 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Apr 2025 15:31:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Getting insights from changes to items in Azure Cosmos DB just got easier!</title>
+      <title>Resolving Microsoft Graph PowerShell 2.26&#43; compatibility issues with Azure Runbooks</title>
+      <link>https://www.dotnetramblings.com/post/11_04_2025/11_04_2025_0/</link>
+      <pubDate>Fri, 11 Apr 2025 15:31:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_04_2025/11_04_2025_0/</guid>
+      <description>
+        
+          
+            We know how important Azure Automation workflows and appreciate the critical role played by automation runbooks. Some customers have experienced issues with the release of 2.26.1 of the Microsoft Graph PowerShell SDK, particularly when running PowerShell 7.2 runbooks in Azure Automation. The core challenge is a conflict around .NET 6 where fixing Runbooks would break […]
+Link to article: https://devblogs.microsoft.com/microsoft365dev/resolving-microsoft-graph-powershell-2-26-compatibility-issues-with-azure-runbooks 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The case of the UI thread that hung in a kernel call</title>
       <link>https://www.dotnetramblings.com/post/11_04_2025/11_04_2025_1/</link>
-      <pubDate>Fri, 11 Apr 2025 00:49:33 +0000</pubDate>
+      <pubDate>Fri, 11 Apr 2025 14:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/11_04_2025/11_04_2025_1/</guid>
+      <description>
+        
+          
+            I did tell you not to do that.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250411-00/?p=111066 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting insights from changes to items in Azure Cosmos DB just got easier!</title>
+      <link>https://www.dotnetramblings.com/post/11_04_2025/11_04_2025_3/</link>
+      <pubDate>Fri, 11 Apr 2025 00:49:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_04_2025/11_04_2025_3/</guid>
       <description>
         
           
