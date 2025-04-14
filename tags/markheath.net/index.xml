@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/markheath.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/markheath.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calling MCP Servers in C# with Microsoft.Extensions.AI</title>
+      <link>https://www.dotnetramblings.com/post/14_04_2025/14_04_2025_8/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_04_2025/14_04_2025_8/</guid>
+      <description>
+        
+          
+            I posted recently about how to allow LLMs to call tools using the Microsoft.Extensions.AI NuGet package in C#. Obviously, a common usage scenario would be to expose MCP servers as tools for your LLM to call. Thankfully, the new ModelContextProtocol NuGet package makes this straightforward. Note: This package is still in pre-release (as is Microsoft.Extensions.AI), so do check the release notes for any breaking changes to the API. I&#39;ve updated my demo application to support calling MCP tools, following the techniques demonstrated in Microsoft&#39;s Chat With Tools sample.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Using an MCP Server in GitHub Copilot</title>
       <link>https://www.dotnetramblings.com/post/10_04_2025/10_04_2025_17/</link>

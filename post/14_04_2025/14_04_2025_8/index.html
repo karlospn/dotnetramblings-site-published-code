@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Introducing Region Selection in Azure Cosmos DB Data Explorer for NoSQL Accounts | .NET Ramblings</title>
+<title>Calling MCP Servers in C# with Microsoft.Extensions.AI | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="You asked—we delivered! Users can now manually select the region Data Explorer sends requests to! When you use Entra Authentication with NoSQL accounts, you can …" />
+<meta name="description" content="I posted recently about how to allow LLMs to call tools using the Microsoft.Extensions.AI NuGet package in C#. Obviously, a common usage scenario would be to …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Introducing Region Selection in Azure Cosmos DB Data Explorer for NoSQL Accounts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/azure.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/14_04_2025/14_04_2025_0/" />
-<meta property="og:title" content="Introducing Region Selection in Azure Cosmos DB Data Explorer for NoSQL Accounts" />
-<meta property="og:description" content="You asked—we delivered! Users can now manually select the region Data Explorer sends requests to! When you use Entra Authentication with NoSQL accounts, you can …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/azure.png" />
+<meta name="twitter:title" content="Calling MCP Servers in C# with Microsoft.Extensions.AI" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/14_04_2025/14_04_2025_8/" />
+<meta property="og:title" content="Calling MCP Servers in C# with Microsoft.Extensions.AI" />
+<meta property="og:description" content="I posted recently about how to allow LLMs to call tools using the Microsoft.Extensions.AI NuGet package in C#. Obviously, a common usage scenario would be to …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/14_04_2025/14_04_2025_0/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/14_04_2025/14_04_2025_8/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Introducing Region Selection in Azure Cosmos DB Data Explorer for NoSQL Accounts</h1>
+    <h1 class="post_title">Calling MCP Servers in C# with Microsoft.Extensions.AI</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,45 @@
 </svg>
 </span>
     <span class="post_date">
-      Apr 14, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Apr 14, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/markheath.net/' title="markheath.net" class="post_tag button button_translucent">markheath.net
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>You asked—we delivered! Users can now manually select the region Data Explorer sends requests to! When you use Entra Authentication with NoSQL accounts, you can now enable the Region Selection option in settings. This new capability gives you precise control over where your requests are sent, helping you test, troubleshoot, and optimize performance by targeting […]</p>
+    <div class="post_body"><p>I posted recently about how to allow LLMs to call tools using the Microsoft.Extensions.AI NuGet package in C#.
+Obviously, a common usage scenario would be to expose MCP servers as tools for your LLM to call. Thankfully, the new ModelContextProtocol NuGet package makes this straightforward.
+Note: This package is still in pre-release (as is Microsoft.Extensions.AI), so do check the release notes for any breaking changes to the API.
+I've updated my demo application to support calling MCP tools, following the techniques demonstrated in Microsoft's Chat With Tools sample.
+The first step is simply to reference the ModelContextProtocol NuGet package. I had to also update the Microsoft.Extensions.AI versions as well. Here's the versions I used for my test:
+<PackageReference Include="Microsoft.Extensions.AI" Version="9.4.0-preview.1.25207.5" />
+<PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="9.4.0-preview.1.25207.5" />
+<PackageReference Include="ModelContextProtocol" Version="0.1.0-preview.8" /></p>
+<p>The next step is simply to connect to an MCP server. You can do this with the McpClientFactory. Here, we're using npx (which comes with Node) to run a simple example MCP server called the &quot;Everything&quot; server as it demonstrates the range of capabilities of an MCP server.
+var mcpClient = await McpClientFactory.CreateAsync(
+new StdioClientTransport(new()
+{
+Command = &quot;npx&quot;,
+Arguments = [&quot;-y&quot;, &quot;--verbose&quot;, &quot;@modelcontextprotocol/server-everything&quot;],
+Name = &quot;Everything&quot;,
+}));</p>
+<p>We can then use the MCP client to list the available tools:
+var tools = await mcpClient.ListToolsAsync();
+Console.WriteLine(&quot;Available tools:&quot;);
+foreach (var tool in tools)
+{
+Console.WriteLine($&quot;  {tool.Name}: {tool.Description}&quot;);
+}</p>
+<p>These tools are instances of McpClientTool, which inherits from AIFunction, meaning that we can pass them directly in as tools to an instance of  ChatOptions:
+var chatOptions = new ChatOptions
+{
+Tools = [..tools]
+};</p>
+<p>And then using the tools is simply a case of passing those options into the call to GetStreamingResponseAsync.
+await foreach (var item in chatClient.GetStreamingResponseAsync(
+chatHistory, chatOptions))</p>
+<p>Although it's early days for the MCP protocol, it's very pleasing to see how easy it is to get your LLM calling tools provided by an MCP server. For the full code sample, showing how to get this working with Azure OpenAI service, check my demo repo here.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/cosmosdb/introducing-region-selection-in-azure-cosmos-db-data-explorer-for-nosql-accounts">https://devblogs.microsoft.com/cosmosdb/introducing-region-selection-in-azure-cosmos-db-data-explorer-for-nosql-accounts</a></li>
+<li>Link to article: <a href="https://markheath.net/post/2025/4/14/calling-mcp-server-microsoft-extensions-ai">https://markheath.net/post/2025/4/14/calling-mcp-server-microsoft-extensions-ai</a></li>
 </ul>
 
     </div>
