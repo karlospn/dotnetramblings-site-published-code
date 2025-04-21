@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 21 Apr 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Apr 2025 16:02:59 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The ongoing story of seconds on the taskbar</title>
+      <title>Azure Cosmos DB with DiskANN Part 2: Scaling to 1 Billion Vectors with</title>
       <link>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_0/</link>
-      <pubDate>Mon, 21 Apr 2025 14:00:00 +0000</pubDate>
+      <pubDate>Mon, 21 Apr 2025 16:02:59 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_0/</guid>
+      <description>
+        
+          
+            Introduction In the first part of our series on Azure Cosmos DB Vector Search with DiskANN, we explored the fundamentals of vector indexing and search capabilities using Azure Cosmos DB for NoSQL and demonstrated a few early performance and cost characteristics. In Part 2, we’ll demonstrate how to scale to 1 billion vector datasets, while […]
+Link to article: https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-with-diskann-part-2-scaling-to-1-billion-vectors-with 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Predictable LLM results with Structured Output and sp_invoke_external_rest_endpoint</title>
+      <link>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_1/</link>
+      <pubDate>Mon, 21 Apr 2025 15:30:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_1/</guid>
+      <description>
+        
+          
+            OpenAI recently introduced a powerful new feature for developers: structured output using JSON Schema via the response_format parameter. This makes it possible to request responses from a GPT-4o model that strictly match a given schema—no free-text, no guesswork. If you’re working with Azure SQL, this is a game-changer. Combined with the sp_invoke_external_rest_endpoint stored procedure and […]
+Link to article: https://devblogs.microsoft.com/azure-sql/predictable-llm-output-with-sp_invoke_external_rest_endpoint 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The ongoing story of seconds on the taskbar</title>
+      <link>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_2/</link>
+      <pubDate>Mon, 21 Apr 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_2/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250421-00/?p=11109
     
     <item>
       <title>Extract Text from PDF Files with Python for use in Generative AI and RAG Solutions</title>
-      <link>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_3/</link>
       <pubDate>Mon, 21 Apr 2025 11:29:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_3/</guid>
       <description>
         
           
@@ -43,10 +77,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250421-00/?p=11109
     
     <item>
       <title>Introducing the Microsoft Graph API usage report</title>
-      <link>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_4/</link>
       <pubDate>Mon, 21 Apr 2025 09:29:04 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_4/</guid>
       <description>
         
           
@@ -60,10 +94,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/introducing-the-
     
     <item>
       <title>Implement client assertions for OAuth client credential flows in ASP.NET Core</title>
-      <link>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_5/</link>
       <pubDate>Mon, 21 Apr 2025 08:24:14 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_04_2025/21_04_2025_5/</guid>
       <description>
         
           
