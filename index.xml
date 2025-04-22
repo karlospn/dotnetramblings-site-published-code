@@ -127,28 +127,11 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250422-00/?p=11110
     </item>
     
     <item>
-      <title>A Practical Guide to Testing Spring Controllers With MockMvcTester</title>
-      <link>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_7/</link>
-      <pubDate>Tue, 22 Apr 2025 13:22:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_7/</guid>
-      <description>
-        
-          
-            Spring Framework 6.2 introduced MockMvcTester to support writing AssertJ style assertions using AssertJ under the hood. If you’re using Spring Boot, the spring-boot-starter-test dependency transitively adds the most commonly used testing libraries such as mockito, assertj, json-path, jsonassert, etc. So, if you’re using Spring Boot 3.4.0 (which uses Spring framework 6.2) or any later version, […]
-Link to article: https://blog.jetbrains.com/idea/2025/04/a-practical-guide-to-testing-spring-controllers-with-mockmvctester/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Dockerizing MCP – Bringing Discovery, Simplicity, and Trust to the Ecosystem</title>
-      <link>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_7/</link>
       <pubDate>Tue, 22 Apr 2025 13:02:14 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_7/</guid>
       <description>
         
           
@@ -161,84 +144,16 @@ Link to article: https://www.docker.com/blog/introducing-docker-mcp-catalog-and-
     </item>
     
     <item>
-      <title>CI/CD Security Best Practices</title>
-      <link>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_9/</link>
-      <pubDate>Tue, 22 Apr 2025 12:57:38 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_9/</guid>
-      <description>
-        
-          
-            Software development moves fast – really fast. It can also involve multiple teams working from different locations around the world. However, while speed and collaboration can be great for developers and businesses, they can also create security challenges. With more entry points and less time to catch potential threats, each commit, build, and deployment is […]
-Link to article: https://blog.jetbrains.com/teamcity/2025/04/ci-cd-security-best-practices/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Aqua Sunset</title>
-      <link>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_10/</link>
-      <pubDate>Tue, 22 Apr 2025 12:16:52 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_10/</guid>
-      <description>
-        
-          
-            Aqua was originally developed as a dedicated IDE for QA engineers working in automated testing. After carefully evaluating adoption rates, market trends, and user feedback, we have made the difficult decision to discontinue the product. While this was not an easy choice, Aqua did not reach the level of adoption we had anticipated. We believe […]
-Link to article: https://blog.jetbrains.com/qa/2025/04/aqua-sunset/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Qodana For Code Quality in STEM</title>
-      <link>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_11/</link>
-      <pubDate>Tue, 22 Apr 2025 10:37:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_11/</guid>
-      <description>
-        
-          
-            Your code drives discovery. Keep it precise. In STEM fields, software isn’t just a product, it underpins innovation, research, and life-critical infrastructure. Qodana brings advanced static code analysis to STEM software projects, helping ensure code quality, security, and compliance where it matters most. Qodana for STEM Why code quality matters in STEM Software in science, […]
-Link to article: https://blog.jetbrains.com/qodana/2025/04/qodana-for-code-quality-in-stem/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Going beyond singleton, scoped, and transient lifetimes—tenant, pooled, and drifter</title>
-      <link>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_12/</link>
+      <link>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_8/</link>
       <pubDate>Tue, 22 Apr 2025 09:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_8/</guid>
       <description>
         
           
             In this post I investigate some &#39;experimental&#39; dependency injection scopes that provide additional features over Singleton, Scoped, and Transient
 Link to article: https://andrewlock.net/going-beyond-singleton-scoped-and-transient-lifetimes/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Discord for WebStorm: Less Noise, More Signal</title>
-      <link>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_13/</link>
-      <pubDate>Tue, 22 Apr 2025 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_04_2025/22_04_2025_13/</guid>
-      <description>
-        
-          
-            TLDR: We’ve revamped the JetBrains Community Discord with dedicated WebStorm channels for announcements, discussions, help, and Q&amp;amp;As to create a more valuable community resource. We’ll have live office hours on April 23rd to connect directly with our team. Not part of our Discord community yet? Join the JetBrains Community Discord here to start connecting with […]
-Link to article: https://blog.jetbrains.com/webstorm/2025/04/discord-for-webstorm-less-noise-more-signal/ 
           
           
         
