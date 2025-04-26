@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 25 Apr 2025 21:42:30 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Refactoring Overgrown Bounded Contexts in Modular Monoliths</title>
+      <link>https://www.dotnetramblings.com/post/26_04_2025/26_04_2025_0/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_04_2025/26_04_2025_0/</guid>
+      <description>
+        
+          
+            Learn how to untangle bloated services and split them into clean, modular bounded contexts in a .NET modular monolith - one practical refactor at a time.
+Link to article: https://www.milanjovanovic.tech/blog/refactoring-overgrown-bounded-contexts-in-modular-monoliths 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Guest Blog: SemantiClip: A Practical Guide to Building Your Own AI Agent with Semantic Kernel</title>
       <link>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_0/</link>
@@ -1033,123 +1050,6 @@ Link to article: https://www.devleader.ca/2025/04/19/weekly-recap-20250418
           
             What are microservices, and why might they be the right architectural choice for your organization? Microservices offer independently deployable, domain-focused components that provide flexibility when applied correctly to solve the right organizational problems.
 Link to article: https://www.milanjovanovic.tech/blog/understanding-microservices-core-concepts-and-benefits 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Semantic Search in .NET / C# with Build5Nines.SharpVector</title>
-      <link>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_0/</link>
-      <pubDate>Fri, 18 Apr 2025 18:32:34 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_0/</guid>
-      <description>
-        
-          
-            As developers, we often find ourselves building smarter, more context-aware applications. Whether it’s powering a document search tool or implementing Retrieval-Augmented Generation (RAG), semantic search is a powerful capability to have in your toolbox. I recently found myself needing a lightweight, local, in-memory vector database for a .NET / C# project. At the time, there […] The article Semantic Search in .NET / C# with Build5Nines.SharpVector was originally published on Build5Nines.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Toolkit for IntelliJ: Introducing the enhanced Java Code Quality Analyzer!</title>
-      <link>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_1/</link>
-      <pubDate>Fri, 18 Apr 2025 17:49:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_1/</guid>
-      <description>
-        
-          
-            Discover the latest updates to the Azure Toolkit for IntelliJ, featuring an enhanced Java Code Quality Analyzer to help you write cleaner, safer, and more efficient Java code with Azure SDK client libraries.
-Link to article: https://devblogs.microsoft.com/azure-sdk/azure-toolkit-for-intellij-introducing-the-enhanced-java-code-quality-analyzer 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build a FinOps agent using Amazon Bedrock with multi-agent capability and Amazon Nova as the foundation model</title>
-      <link>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_2/</link>
-      <pubDate>Fri, 18 Apr 2025 17:38:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_2/</guid>
-      <description>
-        
-          
-            In this post, we use the multi-agent feature of Amazon Bedrock to demonstrate a powerful and innovative approach to AWS cost management. By using the advanced capabilities of Amazon Nova FMs, we’ve developed a solution that showcases how AI-driven agents can revolutionize the way organizations analyze, optimize, and manage their AWS costs.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-finops-agent-using-amazon-bedrock-with-multi-agent-capability-and-amazon-nova-as-the-foundation-model/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Stream ingest data from Kafka to Amazon Bedrock Knowledge Bases using custom connectors</title>
-      <link>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_3/</link>
-      <pubDate>Fri, 18 Apr 2025 17:21:58 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_3/</guid>
-      <description>
-        
-          
-            For this post, we implement a RAG architecture with Amazon Bedrock Knowledge Bases using a custom connector and topics built with Amazon Managed Streaming for Apache Kafka (Amazon MSK) for a user who may be interested to understand stock price trends.
-Link to article: https://aws.amazon.com/blogs/machine-learning/stream-ingest-data-from-kafka-to-amazon-bedrock-knowledge-bases-using-custom-connectors/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Boards &#43; GitHub: Recent Updates</title>
-      <link>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_4/</link>
-      <pubDate>Fri, 18 Apr 2025 14:19:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_4/</guid>
-      <description>
-        
-          
-            Over the past several months, we’ve delivered a series of improvements to the Azure Boards + GitHub integration. Whether you’re tracking code, managing pull requests, or connecting pipelines, these updates aim to simplify and strengthen the link between your work items and your GitHub activity. Here’s a recap of everything we’ve released (or are just […]
-Link to article: https://devblogs.microsoft.com/devops/azure-boards-github-recent-updates 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The case of the feature flag that didn’t stay on long enough, part 2</title>
-      <link>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_5/</link>
-      <pubDate>Fri, 18 Apr 2025 14:00:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_5/</guid>
-      <description>
-        
-          
-            Leaving everything the way you found it.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250418-43/?p=111081 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Software Innovation: Ruby on Rails – The Framework that Rewired The Web with MVC and Convention</title>
-      <link>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_6/</link>
-      <pubDate>Fri, 18 Apr 2025 11:41:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_04_2025/18_04_2025_6/</guid>
-      <description>
-        
-          
-            It wasn’t the first web framework. It may not be the flashiest these days in 2025. But Ruby on Rails was revolutionary when it hit the scene — and its fingerprints are still all over modern web development today. At a time when building web applications was often painful, verbose, and fractured across multiple layers […] The article Software Innovation: Ruby on Rails – The Framework that Rewired The Web with MVC and Convention was originally published on Build5Nines.
           
           
         
