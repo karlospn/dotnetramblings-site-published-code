@@ -7,13 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 28 Apr 2025 15:31:56 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Apr 2025 17:47:59 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Evaluate Amazon Bedrock Agents with Ragas and LLM-as-a-judge</title>
+      <title>Customize Amazon Nova models to improve tool usage</title>
       <link>https://www.dotnetramblings.com/post/28_04_2025/28_04_2025_1/</link>
-      <pubDate>Mon, 28 Apr 2025 15:31:56 +0000</pubDate>
+      <pubDate>Mon, 28 Apr 2025 17:47:59 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/28_04_2025/28_04_2025_1/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate model customization (fine-tuning) for tool use with Amazon Nova. We first introduce a tool usage use case, and gave details about the dataset. We walk through the details of Amazon Nova specific data formatting and showed how to do tool calling through the Converse and Invoke APIs in Amazon Bedrock. After getting the baseline results from Amazon Nova models, we explain in detail the fine-tuning process, hosting fine-tuned models with provisioned throughput, and using the fine-tuned Amazon Nova models for inference.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Evaluate Amazon Bedrock Agents with Ragas and LLM-as-a-judge</title>
+      <link>https://www.dotnetramblings.com/post/28_04_2025/28_04_2025_3/</link>
+      <pubDate>Mon, 28 Apr 2025 15:31:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_04_2025/28_04_2025_3/</guid>
       <description>
         
           
