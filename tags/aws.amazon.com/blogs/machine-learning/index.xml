@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 30 Apr 2025 19:00:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 May 2025 01:04:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon Bedrock Model Distillation: Boost function calling accuracy while reducing cost and latency</title>
+      <link>https://www.dotnetramblings.com/post/01_05_2025/01_05_2025_0/</link>
+      <pubDate>Thu, 01 May 2025 01:04:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_05_2025/01_05_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we highlight the advanced data augmentation techniques and performance improvements in Amazon Bedrock Model Distillation with Meta&#39;s Llama model family. This technique transfers knowledge from larger, more capable foundation models (FMs) that act as teachers to smaller, more efficient models (students), creating specialized models that excel at specific tasks.
+Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-model-distillation-boost-function-calling-accuracy-while-reducing-cost-and-latency/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build public-facing generative AI applications using Amazon Q Business for anonymous users</title>
       <link>https://www.dotnetramblings.com/post/30_04_2025/30_04_2025_1/</link>
@@ -188,40 +205,6 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/aws-field-experie
           
             In this post, we walk you through how to build a hybrid search solution using OpenSearch Service powered by multimodal embeddings from the Amazon Titan Multimodal Embeddings G1 model through Amazon Bedrock. This solution demonstrates how you can enable users to submit both text and images as queries to retrieve relevant results from a sample retail image dataset.
 Link to article: https://aws.amazon.com/blogs/machine-learning/combine-keyword-and-semantic-search-for-text-and-images-using-amazon-bedrock-and-amazon-opensearch-service/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build an AI-powered document processing platform with open source NER model and LLM on Amazon SageMaker</title>
-      <link>https://www.dotnetramblings.com/post/23_04_2025/23_04_2025_5/</link>
-      <pubDate>Wed, 23 Apr 2025 16:06:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_04_2025/23_04_2025_5/</guid>
-      <description>
-        
-          
-            In this post, we discuss how you can build an AI-powered document processing platform with open source NER and LLMs on SageMaker.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-document-processing-platform-with-open-source-ner-model-and-llm-on-amazon-sagemaker/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Protect sensitive data in RAG applications with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/23_04_2025/23_04_2025_6/</link>
-      <pubDate>Wed, 23 Apr 2025 16:00:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_04_2025/23_04_2025_6/</guid>
-      <description>
-        
-          
-            In this post, we explore two approaches for securing sensitive data in RAG applications using Amazon Bedrock. The first approach focused on identifying and redacting sensitive data before ingestion into an Amazon Bedrock knowledge base, and the second demonstrated a fine-grained RBAC pattern for managing access to sensitive information during retrieval. These solutions represent just two possible approaches among many for securing sensitive data in generative AI applications.
-Link to article: https://aws.
           
           
         
