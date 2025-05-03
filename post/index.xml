@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 02 May 2025 21:51:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event-Driven Architecture in .NET with RabbitMQ</title>
+      <link>https://www.dotnetramblings.com/post/03_05_2025/03_05_2025_0/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_05_2025/03_05_2025_0/</guid>
+      <description>
+        
+          
+            Learn how to implement flexible and resilient event-driven systems in .NET using RabbitMQ as a message broker with practical code examples for producers and consumers.
+Link to article: https://www.milanjovanovic.tech/blog/event-driven-architecture-in-dotnet-with-rabbitmq 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Port .NET Framework workloads to Linux with Amazon Q Developer, Part 4: MVC projects</title>
       <link>https://www.dotnetramblings.com/post/02_05_2025/02_05_2025_0/</link>
@@ -1220,124 +1237,6 @@ Link to article: https://www.devleader.ca/2025/04/26/weekly-recap-20250425
           
             Learn how to untangle bloated services and split them into clean, modular bounded contexts in a .NET modular monolith - one practical refactor at a time.
 Link to article: https://www.milanjovanovic.tech/blog/refactoring-overgrown-bounded-contexts-in-modular-monoliths 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Guest Blog: SemantiClip: A Practical Guide to Building Your Own AI Agent with Semantic Kernel</title>
-      <link>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_0/</link>
-      <pubDate>Fri, 25 Apr 2025 21:42:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_0/</guid>
-      <description>
-        
-          
-            Today we’re excited to welcome Vic Perdana, as a guest author on the Semantic Kernel blog today to cover his work on a SemantiClip: A Practical Guide to Building Your Own AI Agent with Semantic Kernel. We’ll turn it over to Vic to dive in further. Everywhere you look lately, the buzz is about AI agents. But […]
-Link to article: https://devblogs.microsoft.com/semantic-kernel/guest-blog-semanticlip-a-practical-guide-to-building-your-own-ai-agent-with-semantic-kernel 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure SDK Release (April 2025)</title>
-      <link>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_1/</link>
-      <pubDate>Fri, 25 Apr 2025 17:55:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_1/</guid>
-      <description>
-        
-          
-            Azure SDK releases every month. In this post, you find this month&#39;s highlights and release notes.
-Link to article: https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-april-2025 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Azure Cosmos DB Using the Python SDK</title>
-      <link>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_2/</link>
-      <pubDate>Fri, 25 Apr 2025 16:33:41 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_2/</guid>
-      <description>
-        
-          
-            If you’re new to Azure Cosmos DB and looking to build applications with Python, you’re in the right place. I’ve created a four-part video series designed to take you from the basics to practical, real-world querying techniques—no prior experience required. Whether you’re setting up your first database, learning how to model your data, or optimizing […]
-Link to article: https://devblogs.microsoft.com/cosmosdb/getting-started-with-azure-cosmos-db-using-the-python-sdk 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to build and deliver an MCP server for production</title>
-      <link>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_3/</link>
-      <pubDate>Fri, 25 Apr 2025 16:04:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_3/</guid>
-      <description>
-        
-          
-            In December of 2024, we published a blog with Anthropic about their totally new spec (back then) to run tools with AI agents: the Model Context Protocol, or MCP. Since then, we’ve seen an explosion in developer appetite to build, share, and run their tools with Agentic AI – all using MCP. We’ve seen new […]
-Link to article: https://www.docker.com/blog/build-to-prod-mcp-servers-with-docker/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Xi’an Jiaotong-Liverpool University scaled hands-on learning with Microsoft Dev Box</title>
-      <link>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_4/</link>
-      <pubDate>Fri, 25 Apr 2025 16:03:27 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_4/</guid>
-      <description>
-        
-          
-            As AI and data science rapidly reshape industries, universities worldwide are rethinking how they deliver hands-on learning. At Xi’an Jiaotong-Liverpool University (XJTLU) in China, the School of AI and Advanced Computing embraced Microsoft Dev Box to give students a modern, scalable, and real-world development environment—right from their first year. Here’s how XJTLU transformed their curriculum […]
-Link to article: https://devblogs.microsoft.com/develop-from-the-cloud/how-xian-jiaotong-liverpool-university-scaled-hands-on-learning-with-microsoft-dev-box 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>If we can have std::atomic&lt;std::shared_ptr&gt;, why not std::atomic&lt;com_ptr&gt;?</title>
-      <link>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_5/</link>
-      <pubDate>Fri, 25 Apr 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_5/</guid>
-      <description>
-        
-          
-            Controlling the reference count.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250425-00/?p=111118 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Big Thinkers: Douglas Crockford – The Man Behind JSON and JSLint</title>
-      <link>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_6/</link>
-      <pubDate>Fri, 25 Apr 2025 11:14:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_04_2025/25_04_2025_6/</guid>
-      <description>
-        
-          
-            Douglas Crockford is a renowned figure in the programming world, celebrated for his pivotal contributions to JavaScript and the creation of JSON (JavaScript Object Notation). While not traditionally categorized under cloud computing, his innovations have profoundly influenced web technologies that underpin modern cloud services. This profile delves into Crockford’s journey, highlighting his impact on the […] The article Big Thinkers: Douglas Crockford – The Man Behind JSON and JSLint was originally published on Build5Nines.
           
           
         
