@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meziantou.net on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/meziantou.net/</link>
+    <description>Recent content in Meziantou.net on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Mon, 05 May 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>StringComparison.InvariantCulture is not always invariant</title>
+      <link>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_1/</link>
+      <pubDate>Mon, 05 May 2025 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_1/</guid>
+      <description>
+        
+          
+            CultureInfo.InvariantCulture is not invariant for all operations. It is a special culture that is used for formatting and parsing operations that do not depend on any specific culture. For instance, this is well-suited to format values in order to persist them. However, it is not invariant for string comparisons. Comparing strings using InvariantCulture can lead to different results depending on the…
+Link to article: https://www.meziantou.net/stringcomparison-invariantculture-is-not-always-invariant.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

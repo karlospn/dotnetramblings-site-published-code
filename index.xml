@@ -7,13 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 05 May 2025 08:02:55 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 May 2025 12:12:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What’s Next for CLion: The 2025.2 Roadmap</title>
+      <title>Comparing Azure Front Door, Traffic Manager, and Load Balancer: Choosing the Right Tool for Global Application Delivery</title>
       <link>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_0/</link>
-      <pubDate>Mon, 05 May 2025 08:02:55 +0000</pubDate>
+      <pubDate>Mon, 05 May 2025 12:12:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_0/</guid>
+      <description>
+        
+          
+            Modern cloud architectures demand flexible, resilient, and scalable traffic distribution strategies. As workloads increasingly span multiple regions and hybrid environments, choosing the right load balancing service in Microsoft Azure becomes a strategic architectural decision. Among Azure’s suite of traffic distribution tools, Azure Front Door, Azure Traffic Manager, and Azure Load Balancer are commonly evaluated — […] The article Comparing Azure Front Door, Traffic Manager, and Load Balancer: Choosing the Right Tool for Global Application Delivery was originally published on Build5Nines.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>StringComparison.InvariantCulture is not always invariant</title>
+      <link>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_1/</link>
+      <pubDate>Mon, 05 May 2025 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_1/</guid>
+      <description>
+        
+          
+            CultureInfo.InvariantCulture is not invariant for all operations. It is a special culture that is used for formatting and parsing operations that do not depend on any specific culture. For instance, this is well-suited to format values in order to persist them. However, it is not invariant for string comparisons. Comparing strings using InvariantCulture can lead to different results depending on the…
+Link to article: https://www.meziantou.net/stringcomparison-invariantculture-is-not-always-invariant.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What’s Next for CLion: The 2025.2 Roadmap</title>
+      <link>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_2/</link>
+      <pubDate>Mon, 05 May 2025 08:02:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_2/</guid>
       <description>
         
           
@@ -27,10 +60,10 @@ Link to article: https://blog.jetbrains.com/clion/2025/05/2025-2-roadmap/
     
     <item>
       <title>New Livestream: Unleash the Power of Git with IntelliJ IDEA Version Control Tools</title>
-      <link>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_3/</link>
       <pubDate>Mon, 05 May 2025 08:01:15 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_3/</guid>
       <description>
         
           
