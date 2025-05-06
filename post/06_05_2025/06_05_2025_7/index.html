@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Devblogs.microsoft.com | .NET Ramblings</title>
+<title>Making WebStorm Faster: How We’re Improving Performance Behind the Scenes | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="At WebStorm, performance isn’t a side project – it’s a core part of what we do. Every millisecond counts when you’re deep in the flow, writing and navigating …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Devblogs.microsoft.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/" />
-<meta property="og:title" content="Devblogs.microsoft.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Making WebStorm Faster: How We’re Improving Performance Behind the Scenes" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/06_05_2025/06_05_2025_7/" />
+<meta property="og:title" content="Making WebStorm Faster: How We’re Improving Performance Behind the Scenes" />
+<meta property="og:description" content="At WebStorm, performance isn’t a side project – it’s a core part of what we do. Every millisecond counts when you’re deep in the flow, writing and navigating …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/06_05_2025/06_05_2025_7/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/develop-from-the-cloud/elevate-your-virtual-machine-management-with-multi-select-sorting-grouping-and-tags-in-azure-devtest-labs" title="Elevate Your Virtual Machine Management with Multi-Select, Sorting, Grouping, and Tags in Azure DevTest Labs">Elevate Your Virtual Machine Management with Multi-Select, Sorting, Grouping, and Tags in Azure DevTest Labs</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Making WebStorm Faster: How We’re Improving Performance Behind the Scenes</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,253 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Apr 29, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      May 6, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Elevate Your Virtual Machine Management with Multi-Select, Sorting, Grouping, and Tags in Azure DevTest Labs"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>We are thrilled to unveil exciting new enhancements in the My Virtual Machine view within Azure DevTest Labs that will revolutionize your VM management experience. With these updates, managing your virtual machines has never been easier or more efficient. Imagine being able to multi-select VMs to start, stop, restart, …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/develop-from-the-cloud/elevate-your-virtual-machine-management-with-multi-select-sorting-grouping-and-tags-in-azure-devtest-labs" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20250429-42/?p=111127" title="Protecting Windows users from Janet Jackson’s Rhythm Nation">Protecting Windows users from Janet Jackson’s Rhythm Nation</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 29, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>At WebStorm, performance isn’t a side project – it’s a core part of what we do. Every millisecond counts when you’re deep in the flow, writing and navigating code. We’ve heard your feedback loud and clear: performance issues break that flow, and they’re frustrating. That’s why improving speed, responsiveness, and reliability is one of our […]</p>
+<ul>
+<li>Link to article: <a href="https://blog.jetbrains.com/webstorm/2025/05/improving-webstorm-performance-behind-the-scenes/">https://blog.jetbrains.com/webstorm/2025/05/improving-webstorm-performance-behind-the-scenes/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Protecting Windows users from Janet Jackson’s Rhythm Nation"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Granting an exception to a system policy.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250429-42/?p=111127">https://devblogs.microsoft.com/oldnewthing/20250429-42/?p=111127</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20250429-42/?p=111127" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/foundry/whats-new-in-azure-ai-foundry-april-2025" title="What’s new in Azure AI Foundry | April 2025">What’s new in Azure AI Foundry | April 2025</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 29, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="What’s new in Azure AI Foundry | April 2025"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>This post highlights the latest features and updates in Azure AI Foundry for April 2025, focusing on new models, agents, and tools that enhance AI development capabilities.
-Link to article: <a href="https://devblogs.microsoft.com/foundry/whats-new-in-azure-ai-foundry-april-2025">https://devblogs.microsoft.com/foundry/whats-new-in-azure-ai-foundry-april-2025</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/foundry/whats-new-in-azure-ai-foundry-april-2025" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2025-is-tomorrow" title="Pure Virtual C&#43;&#43; 2025 is Tomorrow">Pure Virtual C++ 2025 is Tomorrow</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 29, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Pure Virtual C&#43;&#43; 2025 is Tomorrow"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Pure Virtual C++ is our free, one-day, virtual conference for the whole C++ community. It’s running live tomorrow, 30th April, from 14:00 to 16:30 UTC. The talks are: 14:00 UTC: Welcome to v1.0 of the meta::[[verse]]! with Inbal Levi 14:30 UTC: Proxy: Next Generation Polymorphism with Mingxin Wang 15:00 UTC: Making …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2025-is-tomorrow" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -411,9 +184,8 @@ Link to article: <a href="https://devblogs.microsoft.com/foundry/whats-new-in-az
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
