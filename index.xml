@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 11 May 2025 21:31:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 May 2025 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dotNetDave Says… Avoid Going Across the Wire Until Necessary!</title>
+      <link>https://www.dotnetramblings.com/post/12_05_2025/12_05_2025_0/</link>
+      <pubDate>Mon, 12 May 2025 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_05_2025/12_05_2025_0/</guid>
+      <description>
+        
+          
+            Network calls create significant performance bottlenecks in modern applications due to latency and unpredictability. Developers should prioritize chunky communication and batch requests to improve efficiency, as demonstrated through API development experiences. Monitoring usage and enforcing standards can enhance performance, emphasizing that optimal design must consider the entire stack, including network performance.
+Link to article: https://dotnettips.wordpress.com/2025/05/12/dotnetdave-says-avoid-going-across-the-wire-until-necessary/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Implement client assertions with client credentials flow using OAuth DPoP</title>
+      <link>https://www.dotnetramblings.com/post/12_05_2025/12_05_2025_1/</link>
+      <pubDate>Mon, 12 May 2025 05:42:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_05_2025/12_05_2025_1/</guid>
+      <description>
+        
+          
+            This blog looks at implementing client assertions for the client credentials flow using OAuth 2.0 Demonstration of Proof-of-Possession (DPoP). The client credentials flow is an OAuth 2.0 authorization grant type used for machine-to-machine authentication. DPoP further strengthens the security by ensuring that the client possesses a specific key at the time of the request, forcing […]
+Link to article: https://damienbod.com/2025/05/12/implement-client-assertions-with-client-credentials-flow-using-oauth-dpop/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Managing Auto Creation of Database or Message Broker Resources in the Critter Stack vNext</title>
       <link>https://www.dotnetramblings.com/post/11_05_2025/11_05_2025_0/</link>
