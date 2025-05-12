@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Meziantou.net | .NET Ramblings</title>
+<title>Implement client assertions with client credentials flow using OAuth DPoP | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="This blog looks at implementing client assertions for the client credentials flow using OAuth 2.0 Demonstration of Proof-of-Possession (DPoP). The client …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Meziantou.net" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/meziantou.net/" />
-<meta property="og:title" content="Meziantou.net" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Implement client assertions with client credentials flow using OAuth DPoP" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/12_05_2025/12_05_2025_3/" />
+<meta property="og:title" content="Implement client assertions with client credentials flow using OAuth DPoP" />
+<meta property="og:description" content="This blog looks at implementing client assertions for the client credentials flow using OAuth 2.0 Demonstration of Proof-of-Possession (DPoP). The client …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/meziantou.net/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/12_05_2025/12_05_2025_3/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.meziantou.net/use-csharp-14-extensions-to-simplify-enum-parsing.htm?utm_medium=social&amp;utm_source=syndication" title="Use C# 14 extensions to simplify enum Parsing">Use C# 14 extensions to simplify enum Parsing</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Implement client assertions with client credentials flow using OAuth DPoP</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,117 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      May 12, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
+      May 12, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/damienbod.com/' title="damienbod.com" class="post_tag button button_translucent">damienbod.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Use C# 14 extensions to simplify enum Parsing"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In .NET, many types provide a static Parse method to convert strings into their respective types. For example: int.Parse(&quot;123&quot;); double.Parse(&quot;123.45&quot;); DateTime.Parse(&quot;2023-01-01&quot;); IPAddress.Parse(&quot;192.168.0.1&quot;); However, enums require the use of the Enum.Parse method: …</p>
-          
-          <br>
-          <a href="https://www.meziantou.net/use-csharp-14-extensions-to-simplify-enum-parsing.htm?utm_medium=social&amp;utm_source=syndication" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.meziantou.net/stringcomparison-invariantculture-is-not-always-invariant.htm?utm_medium=social&amp;utm_source=syndication" title="StringComparison.InvariantCulture is not always invariant">StringComparison.InvariantCulture is not always invariant</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 5, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>This blog looks at implementing client assertions for the client credentials flow using OAuth 2.0 Demonstration of Proof-of-Possession (DPoP). The client credentials flow is an OAuth 2.0 authorization grant type used for machine-to-machine authentication. DPoP further strengthens the security by ensuring that the client possesses a specific key at the time of the request, forcing […]</p>
+<ul>
+<li>Link to article: <a href="https://damienbod.com/2025/05/12/implement-client-assertions-with-client-credentials-flow-using-oauth-dpop/">https://damienbod.com/2025/05/12/implement-client-assertions-with-client-credentials-flow-using-oauth-dpop/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="StringComparison.InvariantCulture is not always invariant"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>CultureInfo.InvariantCulture is not invariant for all operations. It is a special culture that is used for formatting and parsing operations that do not depend on any specific culture. For instance, this is well-suited to format values in order to persist them. However, it is not invariant for string comparisons. …</p>
-          
-          <br>
-          <a href="https://www.meziantou.net/stringcomparison-invariantculture-is-not-always-invariant.htm?utm_medium=social&amp;utm_source=syndication" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+  
+</div>
+
+
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -275,9 +184,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
