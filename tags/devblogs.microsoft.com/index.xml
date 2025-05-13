@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 12 May 2025 17:00:15 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 May 2025 10:00:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing the /forceInterlockedFunctions switch for ARM64</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_0/</link>
+      <pubDate>Tue, 13 May 2025 10:00:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_0/</guid>
+      <description>
+        
+          
+            In Visual Studio 2022 17.14, we are introducing the /forceInterlockedFunctions[-] switch, which generates and links with out-of-line atomics that select Armv8.1+ Large System Extension (LSE) atomic instructions based on CPU support. This switch is on by default for Armv8.0 and off for Armv8.1+. Outlining is necessary in Armv8.0 because this version’s interlocked intrinsics use exclusive […]
+Link to article: https://devblogs.microsoft.com/cppblog/introducing-the-forceinterlockedfunctions-switch-for-arm64 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Building Claude-Ready Entra ID-Protected MCP Servers with Azure API Management</title>
       <link>https://www.dotnetramblings.com/post/12_05_2025/12_05_2025_1/</link>

@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 13 May 2025 07:59:56 +0200</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 May 2025 10:00:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Soft deletes in EF Core: How to implement and query efficiently</title>
+      <title>Introducing the /forceInterlockedFunctions switch for ARM64</title>
       <link>https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_0/</link>
-      <pubDate>Tue, 13 May 2025 07:59:56 +0200</pubDate>
+      <pubDate>Tue, 13 May 2025 10:00:25 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_0/</guid>
+      <description>
+        
+          
+            In Visual Studio 2022 17.14, we are introducing the /forceInterlockedFunctions[-] switch, which generates and links with out-of-line atomics that select Armv8.1+ Large System Extension (LSE) atomic instructions based on CPU support. This switch is on by default for Armv8.0 and off for Armv8.1+. Outlining is necessary in Armv8.0 because this version’s interlocked intrinsics use exclusive […]
+Link to article: https://devblogs.microsoft.com/cppblog/introducing-the-forceinterlockedfunctions-switch-for-arm64 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>CodeCanvas 2025.1 With Free Tier and Toolbox Support</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_1/</link>
+      <pubDate>Tue, 13 May 2025 09:46:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_1/</guid>
+      <description>
+        
+          
+            In April, we released CodeCanvas 2025.1 with many important changes. The release brings improved infrastructure flexibility for easier multi-region setups, a new AWS CloudFormation installation option, enhanced environment logs, and more. Today, we want to highlight two major updates: See the full What’s New for the full details. Use CodeCanvas for free With the 2025.1 […]
+Link to article: https://blog.jetbrains.com/codecanvas/2025/05/codecanvas-2025-1-with-free-tier-and-toolbox-support/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Soft deletes in EF Core: How to implement and query efficiently</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_2/</link>
+      <pubDate>Tue, 13 May 2025 07:59:56 +0200</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_2/</guid>
       <description>
         
           
