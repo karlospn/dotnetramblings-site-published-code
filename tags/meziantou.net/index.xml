@@ -25,22 +25,5 @@ Link to article: https://www.meziantou.net/use-csharp-14-extensions-to-simplify-
       </description>
     </item>
     
-    <item>
-      <title>StringComparison.InvariantCulture is not always invariant</title>
-      <link>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_5/</link>
-      <pubDate>Mon, 05 May 2025 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_05_2025/05_05_2025_5/</guid>
-      <description>
-        
-          
-            CultureInfo.InvariantCulture is not invariant for all operations. It is a special culture that is used for formatting and parsing operations that do not depend on any specific culture. For instance, this is well-suited to format values in order to persist them. However, it is not invariant for string comparisons. Comparing strings using InvariantCulture can lead to different results depending on the…
-Link to article: https://www.meziantou.net/stringcomparison-invariantculture-is-not-always-invariant.htm?utm_medium=social&amp;utm_source=syndication 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
