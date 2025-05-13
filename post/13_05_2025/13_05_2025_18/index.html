@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>10 Years of Software Architecture: Best And Worst Decisions | .NET Ramblings</title>
+<title>Soft deletes in EF Core: How to implement and query efficiently | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="For the last 10 years, I’ve been developing a single product, greenfield, designing the architecture from scratch, and evolving it over time. Over this …" />
+<meta name="description" content="What does your application actually do with a record when a user deletes it? Can your application afford to delete a record permanently? One mistake can result …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="10 Years of Software Architecture: Best And Worst Decisions" />
+<meta name="twitter:title" content="Soft deletes in EF Core: How to implement and query efficiently" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_0/" />
-<meta property="og:title" content="10 Years of Software Architecture: Best And Worst Decisions" />
-<meta property="og:description" content="For the last 10 years, I’ve been developing a single product, greenfield, designing the architecture from scratch, and evolving it over time. Over this …" />
+<meta property="og:url" content="https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_18/" />
+<meta property="og:title" content="Soft deletes in EF Core: How to implement and query efficiently" />
+<meta property="og:description" content="What does your application actually do with a record when a user deletes it? Can your application afford to delete a record permanently? One mistake can result …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -43,7 +43,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_0/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/13_05_2025/13_05_2025_18/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">10 Years of Software Architecture: Best And Worst Decisions</h1>
+    <h1 class="post_title">Soft deletes in EF Core: How to implement and query efficiently</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,15 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      May 13, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/codeopinion.com/' title="codeopinion.com" class="post_tag button button_translucent">codeopinion.com
+      May 13, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.elmah.io/' title="blog.elmah.io" class="post_tag button button_translucent">blog.elmah.io
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>For the last 10 years, I’ve been developing a single product, greenfield, designing the architecture from scratch, and evolving it over time. Over this decade-long journey, I’ve made some architectural decisions I’m proud of—and some I definitely regret. Today, I want to share those experiences with you, diving deep into the good and bad decisions… Read More »10 Years of Software Architecture: Best And Worst Decisions
-The post 10 Years of Software Architecture: Best And Worst Decisions appeared first on CodeOpinion.</p>
+    <div class="post_body"><p>What does your application actually do with a record when a user deletes it? Can your application afford to delete a record permanently? One mistake can result in irreparable damage to the application. Today, I will shed light on D of the CRUD. Among all the CRUD operations, Delete is</p>
 <ul>
-<li>Link to article: <a href="https://codeopinion.com/10-years-of-software-architecture-best-and-worst-decisions/">https://codeopinion.com/10-years-of-software-architecture-best-and-worst-decisions/</a></li>
+<li>Link to article: <a href="https://blog.elmah.io/soft-deletes-in-ef-core-how-to-implement-and-query-efficiently/">https://blog.elmah.io/soft-deletes-in-ef-core-how-to-implement-and-query-efficiently/</a></li>
 </ul>
 
     </div>
