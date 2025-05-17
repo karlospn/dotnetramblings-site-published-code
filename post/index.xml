@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 16 May 2025 16:51:03 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CQRS Pattern the Way It Should&#39;ve Been From the Start</title>
+      <link>https://www.dotnetramblings.com/post/17_05_2025/17_05_2025_0/</link>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_05_2025/17_05_2025_0/</guid>
+      <description>
+        
+          
+            Learn how to implement CQRS in .NET without relying on MediatR. This guide walks you through a lightweight setup using simple interfaces, decorators, and DI — no frameworks required.
+Link to article: https://www.milanjovanovic.tech/blog/cqrs-pattern-the-way-it-should-have-been-from-the-start 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Set up a custom plugin on Amazon Q Business and authenticate with Amazon Cognito to interact with backend systems</title>
       <link>https://www.dotnetramblings.com/post/16_05_2025/16_05_2025_0/</link>
@@ -1219,157 +1236,6 @@ Link to article: https://www.devleader.ca/2025/05/10/weekly-recap-20250509
           
             A practical guide to transforming anemic domain models into behavior-rich aggregates in C# through incremental refactoring, enhancing code maintainability and business rule clarity.
 Link to article: https://www.milanjovanovic.tech/blog/from-anemic-models-to-behavior-driven-models-a-practical-ddd-refactor-in-csharp 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Office Is Modernizing Their App Suite’s UI using Windows App SDK and React Native</title>
-      <link>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_0/</link>
-      <pubDate>Fri, 09 May 2025 19:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_0/</guid>
-      <description>
-        
-          
-            An inside look at how Office has modernized their UI with WinAppSDK and React Native.
-Link to article: https://devblogs.microsoft.com/react-native/2025-05-09-office-modernize 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>SAST vs DAST: Differences And When to Use</title>
-      <link>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_1/</link>
-      <pubDate>Fri, 09 May 2025 16:49:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_1/</guid>
-      <description>
-        
-          
-            Anyone working in the software development field knows cybersecurity is a threat you cannot afford to downplay. A cyberattack on a product or service you’ve created carries a risk of serious financial and reputational damage, as well as regulatory penalties, depending on the industry and jurisdiction. Defending your software against cyberattacks means addressing security at […]
-Link to article: https://blog.jetbrains.com/teamcity/2025/05/sast-vs-dast/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Elevate marketing intelligence with Amazon Bedrock and LLMs for content creation, sentiment analysis, and campaign performance evaluation</title>
-      <link>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_2/</link>
-      <pubDate>Fri, 09 May 2025 16:36:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_2/</guid>
-      <description>
-        
-          
-            In the media and entertainment industry, understanding and predicting the effectiveness of marketing campaigns is crucial for success. Marketing campaigns are the driving force behind successful businesses, playing a pivotal role in attracting new customers, retaining existing ones, and ultimately boosting revenue. However, launching a campaign isn’t enough; to maximize their impact and help achieve […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/elevate-marketing-intelligence-with-amazon-bedrock-and-llms-for-content-creation-sentiment-analysis-and-campaign-performance-evaluation/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>May 2025: A look at the latest Microsoft Entra key feature releases, announcements, and updates</title>
-      <link>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_3/</link>
-      <pubDate>Fri, 09 May 2025 15:05:08 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_3/</guid>
-      <description>
-        
-          
-            Welcome to the May edition of our monthly newsletter, summarizing the latest news and developments in the exciting, ever-evolving world of Microsoft Entra.
-Link to article: https://devblogs.microsoft.com/identity/eng-connect-feb-25-2 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Kodee’s Kotlin Roundup: Compose Multiplatform for iOS is Stable (Plus AI, Web, and More!)</title>
-      <link>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_4/</link>
-      <pubDate>Fri, 09 May 2025 14:38:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_4/</guid>
-      <description>
-        
-          
-            Sit back, relax, and let the Kotlin vibes roll in. This roundup is overflowing with news: major moves in Kotlin Multiplatform (Compose Multiplatform for iOS is Stable 🎉), server-side upgrades, Kotlin for web, and smarter Kotlin development with JetBrains AI. Whether you’re building mobile apps, backend services, or playing with interactive notebooks, there’s something here […]
-Link to article: https://blog.jetbrains.com/kotlin/2025/05/kodees-kotlin-roundup-compose-multiplatform-for-ios-is-stable/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>CRUD APIs are Poor Design</title>
-      <link>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_5/</link>
-      <pubDate>Fri, 09 May 2025 14:28:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_5/</guid>
-      <description>
-        
-          
-            I’m convinced that CRUD APIs and CRUD-driven systems—meaning systems built around Create, Read, Update, and Delete operations—are, in the long run, the hardest to change and evolve. This might sound unintuitive at first, especially since many of us have read blog posts, watched videos, or taken courses on building HTTP APIs under the guise of… Read More »CRUD APIs are Poor Design The post CRUD APIs are Poor Design appeared first on CodeOpinion.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How can I wait for Clipboard History to recognize a clipboard change before I change it again?</title>
-      <link>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_6/</link>
-      <pubDate>Fri, 09 May 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_6/</guid>
-      <description>
-        
-          
-            Listen for the change event.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250509-00/?p=111169 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PIX 2505.09 – Revamped UX, Improved Usability, and Many New Features</title>
-      <link>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_7/</link>
-      <pubDate>Fri, 09 May 2025 13:05:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_7/</guid>
-      <description>
-        
-          
-            Today we released PIX on Windows version 2505.09, which can be downloaded here. Since our preview announcement at GDC, we have been working hard to deliver the changes we promised and more. Today’s release includes many new improvements to PIX, including big overall changes and changes specific to GPU Captures and Timing Captures. Other improvements, […]
-Link to article: https://devblogs.microsoft.com/pix/pix-2505-09 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Big Thinkers: From JavaScript to Cloud Privacy Pioneer</title>
-      <link>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_8/</link>
-      <pubDate>Fri, 09 May 2025 11:45:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_05_2025/09_05_2025_8/</guid>
-      <description>
-        
-          
-            Brendan Eich may be best known as the creator of JavaScript, but his influence extends well beyond programming languages into the very core of internet privacy and emerging cloud ecosystems. Today, as CEO of Brave Software, Eich is a key figure pushing for decentralized, privacy-first approaches to cloud services and digital advertising. His vision challenges […] The article Big Thinkers: From JavaScript to Cloud Privacy Pioneer was originally published on Build5Nines.
           
           
         
