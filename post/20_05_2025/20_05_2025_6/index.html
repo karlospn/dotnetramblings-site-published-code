@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>Performance Optimization in .NET Core with SSE and AVX2 Instructions | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="In the realm of high-performance development, SIMD (Single Instruction, Multiple Data) instructions represent a considerable optimization lever. This article …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Performance Optimization in .NET Core with SSE and AVX2 Instructions" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_6/" />
+<meta property="og:title" content="Performance Optimization in .NET Core with SSE and AVX2 Instructions" />
+<meta property="og:description" content="In the realm of high-performance development, SIMD (Single Instruction, Multiple Data) instructions represent a considerable optimization lever. This article …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_6/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20250513-00/?p=111176" title="What is the developer set-up for developing Windows for multiple processor architectures?">What is the developer set-up for developing Windows for multiple processor architectures?</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Performance Optimization in .NET Core with SSE and AVX2 Instructions</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,485 +140,29 @@
 </svg>
 </span>
     <span class="post_date">
-      May 13, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      May 20, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/goatreview.com/' title="goatreview.com" class="post_tag button button_translucent">goatreview.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="What is the developer set-up for developing Windows for multiple processor architectures?"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>You usually just pick one and count on your friends for the others.
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250513-00/?p=111176">https://devblogs.microsoft.com/oldnewthing/20250513-00/?p=111176</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20250513-00/?p=111176" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/rust/2025/05/13/is-rust-the-future-of-programming/" title="Is Rust the Future of Programming?">Is Rust the Future of Programming?</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 13, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>In the realm of high-performance development, SIMD (Single Instruction, Multiple Data) instructions represent a considerable optimization lever. This article explores how SSE and AVX2 extensions can radically transform the performance of your .NET Core applications by enabling parallel data processing.
+The Fundamentals of SSE and AVX2
+SSE (Streaming SIMD Extensions)</p>
+<ul>
+<li>Link to article: <a href="https://goatreview.com/using-sse-avx2-instructions-csharp/">https://goatreview.com/using-sse-avx2-instructions-csharp/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Is Rust the Future of Programming?"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Rust is rewriting the rules of modern software development as the fastest-growing programming language. Its unmatched performance, memory safety without garbage collection, and concurrency capabilities are capturing developers’ attention worldwide. According to our data, with 2,267,000 developers using Rust in the last …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/rust/2025/05/13/is-rust-the-future-of-programming/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/idea/2025/05/building-cloud-ready-apps-locally-spring-boot-aws-and-localstack-in-action/" title="Building Cloud-Ready Apps Locally: Spring Boot, AWS, and LocalStack in Action">Building Cloud-Ready Apps Locally: Spring Boot, AWS, and LocalStack in Action</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 13, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Building Cloud-Ready Apps Locally: Spring Boot, AWS, and LocalStack in Action"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/aws.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Developing an application with AWS services can introduce significant local‑development hurdles. Often, developers don’t receive timely AWS access, or a sysadmin inadvertently grants credentials for the wrong account – only to fix the error a week later. Then, when engineers discover they still lack permissions for …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/idea/2025/05/building-cloud-ready-apps-locally-spring-boot-aws-and-localstack-in-action/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/platform/2025/05/livestream-plugin-verifier-and-api-compatibility-maintenance/" title="Livestream: Plugin Verifier and API Compatibility Maintenance">Livestream: Plugin Verifier and API Compatibility Maintenance</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 13, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Livestream: Plugin Verifier and API Compatibility Maintenance"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Maintaining plugin compatibility across JetBrains IDEs can be tricky — but the Plugin Verifier is here to help. On Wednesday, May 21, at 2:00 PM UTC, join us for a live session with IntelliJ Platform Developer Advocates Róbert Novotný and Yann Cébron, focused on the Plugin Verifier and API compatibility maintenance. …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/platform/2025/05/livestream-plugin-verifier-and-api-compatibility-maintenance/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/identity/now-generally-available-apple-identity-provider-support-for-microsoft-entra-external-id" title="Now Generally Available: Apple identity provider support for Microsoft Entra External ID">Now Generally Available: Apple identity provider support for Microsoft Entra External ID</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 13, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Now Generally Available: Apple identity provider support for Microsoft Entra External ID"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>I'm excited to announce that &quot;Sign in with Apple&quot; is now generally available for external tenants in Entra External ID. The feature has been in public preview since February, and many customers have already integrated Apple as an identity provider for their applications.
-Link to article: …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/identity/now-generally-available-apple-identity-provider-support-for-microsoft-entra-external-id" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/codecanvas/2025/05/codecanvas-2025-1-with-free-tier-and-toolbox-support/" title="CodeCanvas 2025.1 With Free Tier and Toolbox Support">CodeCanvas 2025.1 With Free Tier and Toolbox Support</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 13, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="CodeCanvas 2025.1 With Free Tier and Toolbox Support"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/aws.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In April, we released CodeCanvas 2025.1 with many important changes. The release brings improved infrastructure flexibility for easier multi-region setups, a new AWS CloudFormation installation option, enhanced environment logs, and more. Today, we want to highlight two major updates: See the full What’s New for the …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/codecanvas/2025/05/codecanvas-2025-1-with-free-tier-and-toolbox-support/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://andrewlock.net/using-the-new-ai-template-to-create-a-chatbot-about-a-website/" title="Using the new AI template to create a chatbot about a website">Using the new AI template to create a chatbot about a website</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 13, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/andrewlock.net/' title="andrewlock.net" class="post_tag button button_translucent">andrewlock.net
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Using the new AI template to create a chatbot about a website"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this post I use the new Microsoft's new .NET AI template to ingest the contents of a website and create a chatbot that can answer questions with citations
-Link to article: <a href="https://andrewlock.net/using-the-new-ai-template-to-create-a-chatbot-about-a-website/">https://andrewlock.net/using-the-new-ai-template-to-create-a-chatbot-about-a-website/</a></p>
-          
-          <br>
-          <a href="https://andrewlock.net/using-the-new-ai-template-to-create-a-chatbot-about-a-website/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.elmah.io/soft-deletes-in-ef-core-how-to-implement-and-query-efficiently/" title="Soft deletes in EF Core: How to implement and query efficiently">Soft deletes in EF Core: How to implement and query efficiently</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 13, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.elmah.io/' title="blog.elmah.io" class="post_tag button button_translucent">blog.elmah.io
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Soft deletes in EF Core: How to implement and query efficiently"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>What does your application actually do with a record when a user deletes it? Can your application afford to delete a record permanently? One mistake can result in irreparable damage to the application. Today, I will shed light on D of the CRUD. Among all the CRUD operations, Delete is
-Link to article: …</p>
-          
-          <br>
-          <a href="https://blog.elmah.io/soft-deletes-in-ef-core-how-to-implement-and-query-efficiently/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -650,9 +186,8 @@ Link to article: …</p>
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
