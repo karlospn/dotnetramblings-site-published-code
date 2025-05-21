@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 21 May 2025 14:00:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 May 2025 15:00:20 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>General Availability of Change Streams in vCore-Based Azure Cosmos DB for MongoDB</title>
+      <title>Now in Preview: Azure Cosmos DB Fleets</title>
       <link>https://www.dotnetramblings.com/post/21_05_2025/21_05_2025_0/</link>
-      <pubDate>Wed, 21 May 2025 14:00:25 +0000</pubDate>
+      <pubDate>Wed, 21 May 2025 15:00:20 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/21_05_2025/21_05_2025_0/</guid>
+      <description>
+        
+          
+            We’re excited to announce the preview of Azure Cosmos DB fleets. Azure Cosmos DB fleets address common challenges that developers face when building and managing multi-tenant or Software as a Service (SaaS) applications. Today, many SaaS providers using Azure Cosmos DB isolate each tenant in a separate database account to meet strict performance and security […]
+Link to article: https://devblogs.microsoft.com/cosmosdb/now-in-preview-azure-cosmos-db-fleets 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Semantic Kernel and Microsoft.Extensions.AI: Better Together, Part 1</title>
+      <link>https://www.dotnetramblings.com/post/21_05_2025/21_05_2025_1/</link>
+      <pubDate>Wed, 21 May 2025 14:47:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_05_2025/21_05_2025_1/</guid>
+      <description>
+        
+          
+            This is the start of a series highlighting the integration between Microsoft Semantic Kernel and Microsoft.Extensions.AI. Future parts will provide detailed examples of using Semantic Kernel with Microsoft.Extensions.AI abstractions. The most common questions are: “Do Microsoft’s AI extensions replace Semantic Kernel?” “When should I use Microsoft’s AI extensions instead of Semantic Kernel?” This blog post […]
+Link to article: https://devblogs.microsoft.com/semantic-kernel/semantic-kernel-and-microsoft-extensions-ai-better-together-part-1 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Transitioning to new Extensions AI IEmbeddingGenerator interface</title>
+      <link>https://www.dotnetramblings.com/post/21_05_2025/21_05_2025_2/</link>
+      <pubDate>Wed, 21 May 2025 14:46:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_05_2025/21_05_2025_2/</guid>
+      <description>
+        
+          
+            As Semantic Kernel shifts its foundational abstractions to Microsoft.Extensions.AI, we are obsoleting and moving away from our experimental embeddings interfaces to the new standardized abstractions that provide a more consistent and powerful way to work with AI services across the .NET ecosystem. The Evolution of Embedding Generation in Semantic Kernel Semantic Kernel has always aimed […]
+Link to article: https://devblogs.microsoft.com/semantic-kernel/transitioning-to-new-iembeddinggenerator-interface 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Vector Data Extensions are now Generally Available (GA)</title>
+      <link>https://www.dotnetramblings.com/post/21_05_2025/21_05_2025_3/</link>
+      <pubDate>Wed, 21 May 2025 14:41:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_05_2025/21_05_2025_3/</guid>
+      <description>
+        
+          
+            We’re excited to announce the release of Microsoft.Extensions.VectorData.Abstractions, a foundational library providing exchange types and abstractions for vector stores when working with vector data in AI-powered applications. This release is the result of a close collaboration between the Semantic Kernel and .NET teams, combining expertise in AI and developer tooling to deliver a robust, extensible […]
+Link to article: https://devblogs.microsoft.com/semantic-kernel/vector-data-extensions-are-now-generally-available-ga 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>General Availability of Change Streams in vCore-Based Azure Cosmos DB for MongoDB</title>
+      <link>https://www.dotnetramblings.com/post/21_05_2025/21_05_2025_4/</link>
+      <pubDate>Wed, 21 May 2025 14:00:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_05_2025/21_05_2025_4/</guid>
       <description>
         
           
