@@ -7,18 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 22 May 2025 14:00:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 May 2025 15:04:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Microsoft Entra ID integration with Azure Cosmos DB for MongoDB (vCore)</title>
+      <title>Announcing TypeScript Native Previews</title>
       <link>https://www.dotnetramblings.com/post/22_05_2025/22_05_2025_0/</link>
-      <pubDate>Thu, 22 May 2025 14:00:04 +0000</pubDate>
+      <pubDate>Thu, 22 May 2025 15:04:21 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/22_05_2025/22_05_2025_0/</guid>
       <description>
         
           
+            This past March we unveiled our efforts to port the TypeScript compiler and toolset to native code. This port has achieved a 10x speed-up on most projects – not just by using a natively-compiled language (Go), but also through using shared memory parallelism and concurrency where we can benefit. Since then, we have made several […]
+Link to article: https://devblogs.microsoft.com/typescript/announcing-typescript-native-previews 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Microsoft Entra ID integration with Azure Cosmos DB for MongoDB (vCore)</title>
+      <link>https://www.dotnetramblings.com/post/22_05_2025/22_05_2025_1/</link>
+      <pubDate>Thu, 22 May 2025 14:00:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_05_2025/22_05_2025_1/</guid>
+      <description>
+        
+          
             Security is no longer a nice-to-have—it’s a foundational requirement for any cloud-native architecture. As organizations adopt managed database services to support mission-critical applications, they must prioritize robust, scalable, and centralized security. Azure Cosmos DB for MongoDB (vCore) delivers high performance and flexibility, but it provides the most value when paired with well-implemented security practices. Authentication […]
 Link to article: https://devblogs.microsoft.com/cosmosdb/microsoft-entra-id-integration-with-azure-cosmos-db-for-mongodb-vcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How can I create a window the size of the screen without it being treated as a fullscreen window?</title>
+      <link>https://www.dotnetramblings.com/post/22_05_2025/22_05_2025_2/</link>
+      <pubDate>Thu, 22 May 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_05_2025/22_05_2025_2/</guid>
+      <description>
+        
+          
+            You can declare that you aren&#39;t rude.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250522-00/?p=111211 
           
           
         
