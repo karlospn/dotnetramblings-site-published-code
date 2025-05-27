@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 27 May 2025 08:42:52 +0200</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 May 2025 10:51:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to run code coverage of .NET code on Azure DevOps</title>
+      <title>New Bug-Fix Releases Are Available for MPS – 2024.3.3, 2024.1.4, 2023.3.3, and 2023.2.3</title>
       <link>https://www.dotnetramblings.com/post/27_05_2025/27_05_2025_0/</link>
-      <pubDate>Tue, 27 May 2025 08:42:52 +0200</pubDate>
+      <pubDate>Tue, 27 May 2025 10:51:57 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/27_05_2025/27_05_2025_0/</guid>
+      <description>
+        
+          
+            We’ve released updates for multiple major MPS versions that fix several additional issues. DOWNLOAD MPS 2024.3.3 and others Before using an updated version of MPS, you should be warned about a change that might affect you. As a result of our work to fix an issue related to build plugin dependencies, the build language was […]
+Link to article: https://blog.jetbrains.com/mps/2025/05/mps-2024-3-3-has-been-released/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Run Qodana Directly on Your Local or CI Machine Without Docker Containers</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2025/27_05_2025_1/</link>
+      <pubDate>Tue, 27 May 2025 10:17:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2025/27_05_2025_1/</guid>
+      <description>
+        
+          
+            Until now, Qodana linters have run exclusively in Docker containers. While this approach provided consistency and isolation, it also required significant effort for environment configuration, particularly for complex project setups or highly secured systems. Users have had to rely on the bootstrap mechanism to set up custom environments inside the Docker container, often duplicating the […]
+Link to article: https://blog.jetbrains.com/qodana/2025/05/run-qodana-in-your-ci/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Converting a docker-compose file to .NET Aspire</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2025/27_05_2025_2/</link>
+      <pubDate>Tue, 27 May 2025 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2025/27_05_2025_2/</guid>
+      <description>
+        
+          
+            In this post I describe how I converted the deployment method of the mailing-list manager lismonk from a docker-compose.yml file to an Aspire app host project
+Link to article: https://andrewlock.net/converting-a-docker-compose-file-to-aspire/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to run code coverage of .NET code on Azure DevOps</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2025/27_05_2025_3/</link>
+      <pubDate>Tue, 27 May 2025 08:42:52 +0200</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2025/27_05_2025_3/</guid>
       <description>
         
           
