@@ -7,13 +7,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 28 May 2025 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 May 2025 13:18:24 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Coding Faster with dotNetTips Spargine: Validating Data Made Easy with Validator</title>
+      <title>Semantic Kernel and Microsoft.Extensions.AI: Better Together, Part 2</title>
       <link>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_0/</link>
-      <pubDate>Wed, 28 May 2025 06:00:00 +0000</pubDate>
+      <pubDate>Wed, 28 May 2025 13:18:24 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_0/</guid>
+      <description>
+        
+          
+            This is Part 2 of our series on integrating Microsoft.Extensions.AI with Semantic Kernel. In Part 1, we explored the relationship between these technologies and how they complement each other. Now, let’s dive into practical examples showing how to use Microsoft.Extensions.AI abstractions with Semantic Kernel in non-agent scenarios. Getting Started with Microsoft.Extensions.AI and Semantic Kernel Before we […]
+Link to article: https://devblogs.microsoft.com/semantic-kernel/semantic-kernel-and-microsoft-extensions-ai-better-together-part-2 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Rufus doubled their inference speed and handled Prime Day traffic with AWS AI chips and parallel decoding</title>
+      <link>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_1/</link>
+      <pubDate>Wed, 28 May 2025 13:00:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_1/</guid>
+      <description>
+        
+          
+            Rufus, an AI-powered shopping assistant, relies on many components to deliver its customer experience including a foundation LLM (for response generation) and a query planner (QP) model for query classification and retrieval enhancement. This post focuses on how the QP model used draft centric speculative decoding (SD)—also called parallel decoding—with AWS AI chips to meet the demands of Prime Day. By combining parallel decoding with AWS Trainium and Inferentia chips, Rufus achieved two times faster response times, a 50% reduction in inference costs, and seamless scalability during peak traffic.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Symbolically Important Wolverine 3.13.4 Release</title>
+      <link>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_2/</link>
+      <pubDate>Wed, 28 May 2025 12:53:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_2/</guid>
+      <description>
+        
+          
+            We were able to publish the Wolverine 3.13.4 release this morning with a handful of important fixes for error retries in a modular monolith architecture, recovering from Rabbit MQ connection interruptions, and Azure Service Bus, Kafka, and Amazon SQS fixes. The awesome part of this release was how much of it, including a huge fix … Continue reading Symbolically Important Wolverine 3.13.4 Release →
+Link to article: https://jeremydmiller.com/2025/05/28/symbolically-important-wolverine-3-13-4-release/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Coding Faster with dotNetTips Spargine: Validating Data Made Easy with Validator</title>
+      <link>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_3/</link>
+      <pubDate>Wed, 28 May 2025 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_3/</guid>
       <description>
         
           
@@ -27,10 +77,10 @@ Link to article: https://dotnettips.wordpress.com/2025/05/28/coding-faster-with-
     
     <item>
       <title>Stream Compacting in Marten 8.0</title>
-      <link>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_4/</link>
       <pubDate>Wed, 28 May 2025 00:59:27 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_4/</guid>
       <description>
         
           
