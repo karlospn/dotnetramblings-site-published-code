@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 27 May 2025 23:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 May 2025 00:59:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stream Compacting in Marten 8.0</title>
+      <link>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_0/</link>
+      <pubDate>Wed, 28 May 2025 00:59:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_05_2025/28_05_2025_0/</guid>
+      <description>
+        
+          
+            One of the earliest lessons I learned designing software systems is that reigning in unchecked growth of databases through judicious pruning and archiving can do wonders for system performance over time. As yet another tool in the toolbox for scaling Marten and in collaboration with a JasperFx Software customer, we’re adding an important feature in … Continue reading Stream Compacting in Marten 8.0 →
+Link to article: https://jeremydmiller.com/2025/05/27/stream-compacting-in-marten-8-0/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Azure AI Foundry MCP Server May 2025 Update: Adding Models, Knowledge &amp; Evaluation</title>
       <link>https://www.dotnetramblings.com/post/27_05_2025/27_05_2025_0/</link>
@@ -1291,244 +1308,6 @@ Link to article: https://dotnettips.wordpress.com/2025/05/21/boost-your-net-proj
           
             Discussions help communities evolve and thrive. The MPS community has been relying on the MPS Slack channel and the Zendesk community forum for many years. While Slack has served its purpose as a place for instantly exchanging advice and ideas, the forum has gradually fallen out of use. This is for good reason – the […]
 Link to article: https://blog.jetbrains.com/mps/2025/05/mps-forum-moved/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure MCP Server – May 2025 Release</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_0/</link>
-      <pubDate>Tue, 20 May 2025 19:40:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_0/</guid>
-      <description>
-        
-          
-            This post discusses the updates to the Azure MCP (Model Context Protocol) Server for Microsoft //build 2025.
-Link to article: https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-may-2025-release 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build a domain‐aware data preprocessing pipeline: A multi‐agent collaboration approach</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_1/</link>
-      <pubDate>Tue, 20 May 2025 18:40:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_1/</guid>
-      <description>
-        
-          
-            In this post, we introduce a multi-agent collaboration pipeline for processing unstructured insurance data using Amazon Bedrock, featuring specialized agents for classification, conversion, and metadata extraction. We demonstrate how this domain-aware approach transforms diverse data formats like claims documents, videos, and audio files into metadata-rich outputs that enable fraud detection, customer 360-degree views, and advanced analytics.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-domain%E2%80%90aware-data-preprocessing-pipeline-a-multi%E2%80%90agent-collaboration-approach/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Automating complex document processing: How Onity Group built an intelligent solution using Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_2/</link>
-      <pubDate>Tue, 20 May 2025 18:11:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_2/</guid>
-      <description>
-        
-          
-            In this post, we explore how Onity Group, a financial services company specializing in mortgage servicing and origination, transformed their document processing capabilities using Amazon Bedrock and other AWS services. The solution helped Onity achieve a 50% reduction in document extraction costs while improving overall accuracy by 20% compared to their previous OCR and AI/ML solution.
-Link to article: https://aws.amazon.com/blogs/machine-learning/automating-complex-document-processing-how-onity-group-built-an-intelligent-solution-using-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What’s next for Junie: building a smart and controllable AI coding agent</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_3/</link>
-      <pubDate>Tue, 20 May 2025 16:14:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_3/</guid>
-      <description>
-        
-          
-            For the last few months, our team has been on a thrilling journey, building the next generation of AI-assisted tools – Junie, the coding agent by JetBrains. After countless hours of experiments, collecting your feedback, and using Junie internally, we are convinced that coding agents bring a paradigm shift in how software is built. Today, […]
-Link to article: https://blog.jetbrains.com/junie/2025/05/what-s-next-for-junie-building-a-smart-and-controllable-ai-coding-agent/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing the Microsoft 365 Agents Toolkit</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_4/</link>
-      <pubDate>Tue, 20 May 2025 16:01:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_4/</guid>
-      <description>
-        
-          
-            Read how the Microsoft 365 Agents Toolkit, an evolution of Microsoft Teams Toolkit, is designed to help developers build agents and apps for Microsoft 365 Copilot, Microsoft Teams, and Microsoft 365.
-Link to article: https://devblogs.microsoft.com/microsoft365dev/introducing-the-microsoft-365-agents-toolkit 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure DevOps with GitHub Repositories – Your path to Agentic AI</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_5/</link>
-      <pubDate>Tue, 20 May 2025 16:00:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_5/</guid>
-      <description>
-        
-          
-            GitHub Copilot has evolved beyond a coding assistant in the IDE into an agentic teammate – providing actionable feedback on pull requests, fixing bugs and implementing new features, creating pull requests and responding to feedback, and much more. These new capabilities will transform every aspect of the software development lifecycle, as we are already seeing […]
-Link to article: https://devblogs.microsoft.com/blog/azure-devops-with-github-repositories-your-path-to-agentic-ai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing Azure Command Launcher for Java</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_6/</link>
-      <pubDate>Tue, 20 May 2025 14:00:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_6/</guid>
-      <description>
-        
-          
-            Optimizing JVM Configuration for Azure Deployments Tuning the Java Virtual Machine (JVM) for cloud deployments is notoriously challenging. Over 30% of developers tend to deploy Java workloads with no JVM configuration at all, therefore relying on the default settings of the HotSpot JVM. The default settings in OpenJDK are intentionally conservative, designed to work across […]
-Link to article: https://devblogs.microsoft.com/java/announcing-azure-command-launcher-for-java 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing new innovations for SAP on Microsoft Cloud</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_8/</link>
-      <pubDate>Tue, 20 May 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_8/</guid>
-      <description>
-        
-          
-            This week at SAP Sapphire 2025 we are excited to share several new announcements and key strategic updates from Microsoft and SAP for our joint customers. The post Announcing new innovations for SAP on Microsoft Cloud appeared first on Microsoft Azure Blog.
-Link to article: https://azure.microsoft.com/en-us/blog/announcing-new-innovations-for-sap-on-microsoft-cloud/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why does Windows report my processor speed twice, with slightly different values?</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_7/</link>
-      <pubDate>Tue, 20 May 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_7/</guid>
-      <description>
-        
-          
-            One is calculated. The other is self-promotion.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250520-00/?p=111201 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Kotlin and Azul: Collaboration for Enhanced Runtime Performance</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_9/</link>
-      <pubDate>Tue, 20 May 2025 13:00:09 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_9/</guid>
-      <description>
-        
-          
-            Striving for high application performance For many years, JetBrains has aimed to help developers write high-performance applications by providing tools for development and diagnostics. On the Kotlin team, we pay close attention to performance, offering language features such as inline functions and classes, optimizations in the standard library, thoughtful bytecode generation, and the Kotlin coroutines […]
-Link to article: https://blog.jetbrains.com/kotlin/2025/05/kotlin-and-azul-collaboration-for-enhanced-runtime-performance/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Pushing a whole stack of branches with a single Git command</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_11/</link>
-      <pubDate>Tue, 20 May 2025 09:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_11/</guid>
-      <description>
-        
-          
-            In this post I show how you can push push a whole stack of branches with a single command using a Git alias: git push-stack
-Link to article: https://andrewlock.net/pushing-a-whole-stack-of-branches-with-a-single-git-command/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>GitHub Copilot app modernization for Java 公共预览版发布</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_12/</link>
-      <pubDate>Tue, 20 May 2025 07:23:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_12/</guid>
-      <description>
-        
-          
-            现代化 Java 应用程序并将其迁移到云端，往往是一个复杂、耗时且碎片化的过程。GitHub Copilot app modernization for Java旨在简化并加速这一迁移过程，助力您顺利迈向云端。 该工具现已在 Visual Studio Code Marketplace 上以单一插件包形式公开预览。GitHub Copilot Java app modernization for Java为 Java 升级与现代化提供了智能、可指导的路径——可自动化重复性任务、提升一致性并降低风险。 六大核心价值 1. 智能问题分析与推荐现代化始于洞察。无论是升级 Java 运行时，还是迁移到 Azure，首要步骤是了解您的代码。该工具可分析项目当前状态并生成计划，结合 Azure Migrate 应用代码评估工具（AppCAT）提供上下文感知的修复建议和可操作的推荐，助您从诊断问题转向实际改造。AppCAT 也可作为独立 CLI 工具使用，详见 AppCAT for Java。 2. 专家驱动的代码转换在生成迁移计划后，GitHub Copilot app modernization for Java利用强大的代码转换引擎，融合专家制定的迁移策略与自动化 Java 升级流程。从 Java 8 升级到 Java 21，或迁移到 Azure 服务平台，Copilot 均可精准地应用结构化变更。 在云端现代化场景中，工具提供预定义的 […]
-Link to article: https://devblogs.microsoft.com/java-ch/github-copilot-app-modernization-for-java 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Storing JSON data in relational databases using EF Core</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_10/</link>
-      <pubDate>Tue, 20 May 2025 09:11:47 +0200</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_10/</guid>
-      <description>
-        
-          
-            JavaScript Object Notation (JSON) is a great fit when you are working with logs, configuration settings, or other flexible data structures. JSON represents data in a human-readable format that many modern applications can parse easily. In this article, you will learn how to store and manage JSON data in relational
-Link to article: https://blog.elmah.io/storing-json-data-in-relational-databases-using-ef-core/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Performance Optimization in .NET Core with SSE and AVX2 Instructions</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_13/</link>
-      <pubDate>Tue, 20 May 2025 07:01:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_05_2025/20_05_2025_13/</guid>
-      <description>
-        
-          
-            In the realm of high-performance development, SIMD (Single Instruction, Multiple Data) instructions represent a considerable optimization lever. This article explores how SSE and AVX2 extensions can radically transform the performance of your .NET Core applications by enabling parallel data processing. The Fundamentals of SSE and AVX2 SSE (Streaming SIMD Extensions)
-Link to article: https://goatreview.com/using-sse-avx2-instructions-csharp/ 
           
           
         
