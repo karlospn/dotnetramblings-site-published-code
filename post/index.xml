@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 02 Jun 2025 21:41:01 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Jun 2025 08:31:21 +0200</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IEnumerable vs. IAsyncEnumerable in .NET: Streaming vs. Buffering</title>
+      <link>https://www.dotnetramblings.com/post/03_06_2025/03_06_2025_0/</link>
+      <pubDate>Tue, 03 Jun 2025 08:31:21 +0200</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_06_2025/03_06_2025_0/</guid>
+      <description>
+        
+          
+            You&#39;ve likely used IEnumerable with EF Core while fetching data from a database. However, have you ever wondered how it loads data from your data set, and if IEnumerable will work fine when the application grows? To find answers, I will break down the core
+Link to article: https://blog.elmah.io/ienumerable-vs-iasyncenumerable-in-net-streaming-vs-buffering/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Making Event Sourcing with Marten Go Faster</title>
       <link>https://www.dotnetramblings.com/post/02_06_2025/02_06_2025_0/</link>
