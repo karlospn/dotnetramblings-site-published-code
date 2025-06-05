@@ -7,13 +7,115 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 05 Jun 2025 16:15:39 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jun 2025 17:08:48 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>API Caching Done Right</title>
+      <title>Restricting PAT Creation in Azure DevOps Is Now in Preview</title>
       <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_0/</link>
-      <pubDate>Thu, 05 Jun 2025 16:15:39 +0000</pubDate>
+      <pubDate>Thu, 05 Jun 2025 17:08:48 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_0/</guid>
+      <description>
+        
+          
+            As organizations continue to strengthen their security posture, restricting usage of personal access tokens (PATs) has become a critical area of focus. With the latest public preview of the
+Link to article: https://devblogs.microsoft.com/devops/restricting-pat-creation-in-azure-devops-is-now-in-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Microsoft and LangChain: Leading the Way in AI Security for Open Source on Azure</title>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_1/</link>
+      <pubDate>Thu, 05 Jun 2025 17:05:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_1/</guid>
+      <description>
+        
+          
+            For developers building in the field of AI, the industry moves so quickly that we often prioritise speed and execution over everything else. To keep up with the latest changes, many developers and enterpris
+Link to article: https://devblogs.microsoft.com//microsoft-and-langchain-leading-the-way-in-ai-security-for-open-source-on-azure 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Emit logs on-demand with log buffering</title>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_2/</link>
+      <pubDate>Thu, 05 Jun 2025 17:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_2/</guid>
+      <description>
+        
+          
+            Managing logs in production environments involves tricky trade-offs. You want detailed logs when things go wrong, but you don&#39;t want to pay storage costs for logs that never get examined. While log sampling helps reduce log volume by emitting only a percentage of
+Link to article: https://devblogs.microsoft.com/dotnet/emit-logs-on-demand-with-log-buffering 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Modernize and migrate on-premises fraud detection machine learning workflows to Amazon SageMaker</title>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_3/</link>
+      <pubDate>Thu, 05 Jun 2025 16:40:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_3/</guid>
+      <description>
+        
+          
+            Radial is the largest 3PL fulfillment provider, also offering integrated payment, fraud detection, and omnichannel solutions to mid-market and enterprise brands. In this post, we share how Radial optimized the cost and performance of their fraud detection machine learning (ML) applications by modernizing their ML workflow using Amazon SageMaker.
+Link to article: https://aws.amazon.com/blogs/machine-learning/modernize-and-migrate-on-premises-fraud-detection-machine-learning-workflows-to-amazon-sagemaker/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Contextual retrieval in Anthropic using Amazon Bedrock Knowledge Bases</title>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_4/</link>
+      <pubDate>Thu, 05 Jun 2025 16:30:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_4/</guid>
+      <description>
+        
+          
+            Contextual retrieval enhances traditional RAG by adding chunk-specific explanatory context to each chunk before generating embeddings. This approach enriches the vector representation with relevant contextual information, enabling more accurate retrieval of semantically related content when responding to user queries. In this post, we demonstrate how to use contextual retrieval with Anthropic and Amazon Bedrock Knowledge Bases.
+Link to article: https://aws.amazon.com/blogs/machine-learning/contextual-retrieval-in-anthropic-using-amazon-bedrock-knowledge-bases/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Run small language models cost-efficiently with AWS Graviton and Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_5/</link>
+      <pubDate>Thu, 05 Jun 2025 16:16:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_5/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to deploy a small language model on SageMaker AI by extending our pre-built containers to be compatible with AWS Graviton instances. We first provide an overview of the solution, and then provide detailed implementation steps to help you get started. You can find the example notebook in the GitHub repo.
+Link to article: https://aws.amazon.com/blogs/machine-learning/run-small-language-models-cost-efficiently-with-aws-graviton-and-amazon-sagemaker-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>API Caching Done Right</title>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_6/</link>
+      <pubDate>Thu, 05 Jun 2025 16:15:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_6/</guid>
       <description>
         
           
@@ -26,10 +128,10 @@
     
     <item>
       <title>How to filter C&#43;&#43; Build Insights by project</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_7/</link>
       <pubDate>Thu, 05 Jun 2025 15:37:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_7/</guid>
       <description>
         
           
@@ -43,10 +145,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/how-to-filter-c-bui
     
     <item>
       <title>Low Ceremony Railway Programming with Wolverine</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_8/</link>
       <pubDate>Thu, 05 Jun 2025 15:32:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_8/</guid>
       <description>
         
           
@@ -60,10 +162,10 @@ Link to article: https://jeremydmiller.
     
     <item>
       <title>Why do some Windows functions fail if I pass an unaligned Unicode string?</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_9/</link>
       <pubDate>Thu, 05 Jun 2025 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_9/</guid>
       <description>
         
           
@@ -77,10 +179,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250605-00/?p=11125
     
     <item>
       <title>Enhancing Plugin Metadata Management with SemanticPluginForge</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_10/</link>
       <pubDate>Thu, 05 Jun 2025 09:44:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_10/</guid>
       <description>
         
           
@@ -94,10 +196,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/enhancing-plugin
     
     <item>
       <title>Smarter SK Agents with Contextual Function Selection</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_11/</link>
       <pubDate>Thu, 05 Jun 2025 09:28:47 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_11/</guid>
       <description>
         
           
@@ -111,10 +213,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/smarter-sk-agent
     
     <item>
       <title>Dev Proxy v0.28 with LLM usage and costs tracking</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_12/</link>
       <pubDate>Thu, 05 Jun 2025 06:36:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_12/</guid>
       <description>
         
           
@@ -128,10 +230,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/dev-proxy-v0-28-
     
     <item>
       <title>Disrupting malicious uses of AI: June 2025</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_7/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_13/</link>
       <pubDate>Thu, 05 Jun 2025 02:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_13/</guid>
       <description>
         
           
@@ -145,10 +247,10 @@ Link to article: https://openai.com/global-affairs/disrupting-malicious-uses-of-
     
     <item>
       <title>Managing GenAI Coding Risk Like an Investment</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_14/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_14/</guid>
       <description>
         
           
