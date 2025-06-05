@@ -7,13 +7,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 05 Jun 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jun 2025 16:15:39 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Why do some Windows functions fail if I pass an unaligned Unicode string?</title>
+      <title>API Caching Done Right</title>
       <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_0/</link>
-      <pubDate>Thu, 05 Jun 2025 14:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Jun 2025 16:15:39 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_0/</guid>
+      <description>
+        
+          
+            When you need to scale your API, one of the first things developers often think about is, “Let’s just add a cache.” If API Caching were that simple. Adding caching introduces a whole new set of problems that you need to consider carefully to be successful with your caching strategy. In this article, I want… Read More »API Caching Done Right The post API Caching Done Right appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to filter C&#43;&#43; Build Insights by project</title>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_1/</link>
+      <pubDate>Thu, 05 Jun 2025 15:37:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_1/</guid>
+      <description>
+        
+          
+            Visual Studio 2022 version 17.14 comes with quality-of-life improvements to its C++ Build Insights integration that will make it easier for you to navigate large multi-project traces and handle long file names for your build inputs and artifacts.
+Link to article: https://devblogs.microsoft.com/visualstudio/how-to-filter-c-build-insights-by-project 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Low Ceremony Railway Programming with Wolverine</title>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_2/</link>
+      <pubDate>Thu, 05 Jun 2025 15:32:38 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_2/</guid>
+      <description>
+        
+          
+            Railway Programming is an idea that came out of the F# community as a way to develop for “sad path” exception cases without having to resort to throwing .NET Exceptions as a way of doing flow control. Railway Programming works by chaining together functions with a standardized response in such a way that it’s relatively easy to abort … Continue reading Low Ceremony Railway Programming with Wolverine →
+Link to article: https://jeremydmiller.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Why do some Windows functions fail if I pass an unaligned Unicode string?</title>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_3/</link>
+      <pubDate>Thu, 05 Jun 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_3/</guid>
       <description>
         
           
@@ -27,10 +77,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250605-00/?p=11125
     
     <item>
       <title>Enhancing Plugin Metadata Management with SemanticPluginForge</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_4/</link>
       <pubDate>Thu, 05 Jun 2025 09:44:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_4/</guid>
       <description>
         
           
@@ -44,10 +94,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/enhancing-plugin
     
     <item>
       <title>Smarter SK Agents with Contextual Function Selection</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_5/</link>
       <pubDate>Thu, 05 Jun 2025 09:28:47 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_5/</guid>
       <description>
         
           
@@ -61,10 +111,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/smarter-sk-agent
     
     <item>
       <title>Dev Proxy v0.28 with LLM usage and costs tracking</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_6/</link>
       <pubDate>Thu, 05 Jun 2025 06:36:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_6/</guid>
       <description>
         
           
@@ -78,10 +128,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/dev-proxy-v0-28-
     
     <item>
       <title>Disrupting malicious uses of AI: June 2025</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_7/</link>
       <pubDate>Thu, 05 Jun 2025 02:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_7/</guid>
       <description>
         
           
@@ -95,10 +145,10 @@ Link to article: https://openai.com/global-affairs/disrupting-malicious-uses-of-
     
     <item>
       <title>Managing GenAI Coding Risk Like an Investment</title>
-      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_8/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_06_2025/05_06_2025_8/</guid>
       <description>
         
           
