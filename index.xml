@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 06 Jun 2025 20:08:48 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debunking the &#34;Filter Early, JOIN Later&#34; SQL Performance Myth</title>
+      <link>https://www.dotnetramblings.com/post/07_06_2025/07_06_2025_0/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_06_2025/07_06_2025_0/</guid>
+      <description>
+        
+          
+            That viral SQL performance tip about filtering before joining? It is complete nonsense. Here is why query optimizers make it irrelevant.
+Link to article: https://www.milanjovanovic.tech/blog/debunking-the-filter-early-join-later-sql-performance-myth 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Go 1.24.4-1 and 1.23.10-1 Microsoft builds now available</title>
       <link>https://www.dotnetramblings.com/post/06_06_2025/06_06_2025_0/</link>
@@ -1308,277 +1325,6 @@ Link to article: https://www.devleader.ca/2025/05/31/weekly-recap-20250530
           
             In this article, we will compare the performance of YARP and Nginx, two popular reverse proxy solutions.
 Link to article: https://www.milanjovanovic.tech/blog/yarp-vs-nginx-a-quick-performance-comparison 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Powering Real-Time Messaging at Scale with Azure Cosmos DB</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_0/</link>
-      <pubDate>Fri, 30 May 2025 19:00:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_0/</guid>
-      <description>
-        
-          
-            Microsoft Teams, Copilot, Azure Communication Services and many other product offerings from Microsoft, rely on a unified messaging platform that powers real-time communication and collaboration at an unprecedented scale. This messaging platform has become critical for enabling boundary-less collaboration, supporting hundreds of millions of users worldwide. To ensure global discovery, durable storage and performance needed […]
-Link to article: https://devblogs.microsoft.com/cosmosdb/powering-real-time-messaging-at-scale-with-azure-cosmos-db 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deploy Amazon SageMaker Projects with Terraform Cloud</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_1/</link>
-      <pubDate>Fri, 30 May 2025 17:27:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_1/</guid>
-      <description>
-        
-          
-            In this post you define, deploy, and provision a SageMaker Project custom template purely in Terraform. With no dependencies on other IaC tools, you can now enable SageMaker Projects strictly within your Terraform Enterprise infrastructure.
-Link to article: https://aws.amazon.com/blogs/machine-learning/deploy-amazon-sagemaker-projects-with-terraform-cloud/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How ZURU improved the accuracy of floor plan generation by 109% using Amazon Bedrock and Amazon SageMaker</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_2/</link>
-      <pubDate>Fri, 30 May 2025 17:18:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_2/</guid>
-      <description>
-        
-          
-            ZURU collaborated with AWS Generative AI Innovation Center and AWS Professional Services to implement a more accurate text-to-floor plan generator using generative AI. In this post, we show you why a solution using a large language model (LLM) was chosen. We explore how model selection, prompt engineering, and fine-tuning can be used to improve results.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-zuru-improved-the-accuracy-of-floor-plan-generation-by-109-using-amazon-bedrock-and-amazon-sagemaker/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Going beyond AI assistants: Examples from Amazon.com reinventing industries with generative AI</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_3/</link>
-      <pubDate>Fri, 30 May 2025 17:10:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_3/</guid>
-      <description>
-        
-          
-            Non-conversational applications offer unique advantages such as higher latency tolerance, batch processing, and caching, but their autonomous nature requires stronger guardrails and exhaustive quality assurance compared to conversational applications, which benefit from real-time user feedback and supervision. This post examines four diverse Amazon.com examples of such generative AI applications.
-Link to article: https://aws.amazon.com/blogs/machine-learning/going-beyond-ai-assistants-examples-from-amazon-com-reinventing-industries-with-generative-ai/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Architect a mature generative AI foundation on AWS</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_4/</link>
-      <pubDate>Fri, 30 May 2025 17:02:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_4/</guid>
-      <description>
-        
-          
-            In this post, we give an overview of a well-established generative AI foundation, dive into its components, and present an end-to-end perspective. We look at different operating models and explore how such a foundation can operate within those boundaries. Lastly, we present a maturity model that helps enterprises assess their evolution path.
-Link to article: https://aws.amazon.com/blogs/machine-learning/architect-a-mature-generative-ai-foundation-on-aws/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>D3D12 Opacity Micromaps</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_5/</link>
-      <pubDate>Fri, 30 May 2025 17:00:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_5/</guid>
-      <description>
-        
-          
-            DirectX Raytracing (DXR) now supports Opacity Micromaps (OMMs), enabling hardware to handle alpha tested geometry more efficiently than relying only on costly AnyHit shader invocations. At GDC 2025 DXR 1.2 was announced including OMMs, and you can see it discussed in this: GDC DirectX State Of The Union YouTube Recording. In the video, Remedy showed […]
-Link to article: https://devblogs.microsoft.com/directx/omm 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>D3D12 Shader Execution Reordering</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_6/</link>
-      <pubDate>Fri, 30 May 2025 17:00:47 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_6/</guid>
-      <description>
-        
-          
-            Shader Execution Reordering (SER) is an addition to DirectX Raytracing that enables application shader code inform hardware how to find coherency across rays so they can be sorted to execute better in parallel. At GDC 2025 DXR 1.2 was announced including SER, and you can see it discussed in this: GDC DirectX State Of The […]
-Link to article: https://devblogs.microsoft.com/directx/ser 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PIX 2505.30 and 2505.30-preview: support for DXR 1.2, Cooperative Vectors and more</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_7/</link>
-      <pubDate>Fri, 30 May 2025 17:00:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_7/</guid>
-      <description>
-        
-          
-            Today we released two new versions of PIX, which can be downloaded here. These complement the new D3D12 Agility SDKs released today. The new versions of PIX are: PIX 2505.30 – supports the new retail D3D12 features released today in Agility SDK 1.616, including: Opacity Micromaps (OMMs) Tiled Resources Tier 4 PIX 2505.30-preview – supports the […]
-Link to article: https://devblogs.microsoft.com/pix/pix-2505-30-and-2505-30-preview 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Agility SDK 1.717-preview and 1.616-retail</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_8/</link>
-      <pubDate>Fri, 30 May 2025 16:59:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_8/</guid>
-      <description>
-        
-          
-            We are pleased to announce both a retail and preview Agility SDK release with several new features, available on Agility SDK Downloads today! As usual, the features in this release come with Day One PIX support. Please read the PIX blog post for more information. Agility SDK 1.717-preview features Cooperative Vectors unlocks powerful new hardware acceleration for vector […]
-Link to article: https://devblogs.microsoft.com/directx/agility-sdk-1-717-preview-and-1-616-retail 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using Amazon OpenSearch ML connector APIs</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_9/</link>
-      <pubDate>Fri, 30 May 2025 15:57:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_9/</guid>
-      <description>
-        
-          
-            OpenSearch offers a wide range of third-party machine learning (ML) connectors to support this augmentation. This post highlights two of these third-party ML connectors. The first connector we demonstrate is the Amazon Comprehend connector. In this post, we show you how to use this connector to invoke the LangDetect API to detect the languages of ingested documents. The second connector we demonstrate is the Amazon Bedrock connector to invoke the Amazon Titan Text Embeddings v2 model so that you can create embeddings from ingested documents and perform semantic search.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bridging the gap between development and production: Seamless model lifecycle management with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_10/</link>
-      <pubDate>Fri, 30 May 2025 15:53:09 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_10/</guid>
-      <description>
-        
-          
-            Amazon Bedrock Model Copy and Model Share features provide a powerful option for managing the lifecycle of an AI application from development to production. In this comprehensive blog post, we&#39;ll dive deep into the Model Share and Model Copy features, exploring their functionalities, benefits, and practical applications in a typical development-to-production scenario.
-Link to article: https://aws.amazon.com/blogs/machine-learning/bridging-the-gap-between-development-and-production-seamless-model-lifecycle-management-with-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PHP Annotated – May 2025</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_11/</link>
-      <pubDate>Fri, 30 May 2025 15:36:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_11/</guid>
-      <description>
-        
-          
-            Welcome to the May edition of PHP Annotated! It’s been a minute since the last edition. Turns out time flies when you’re deep in foundation work, and the occasional existential debugging session. But we are back. Here’s everything you might’ve missed in the PHP world, we dug through the noise so you can just enjoy […]
-Link to article: https://blog.jetbrains.com/phpstorm/2025/05/php-annotated-may-2025/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using an oracle to see where your code is producing the wrong output</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_12/</link>
-      <pubDate>Fri, 30 May 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_12/</guid>
-      <description>
-        
-          
-            If there is a reference implementation, then use it as a check.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250530-00/?p=111232 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Plugin Verifier and API Compatibility Maintenance: Livestream Recording &amp; Key Takeaways</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_13/</link>
-      <pubDate>Fri, 30 May 2025 13:34:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_13/</guid>
-      <description>
-        
-          
-            In a recent session, IntelliJ Platform Developer Advocate Róbert Novotný walked through the Plugin Verifier—one of the most important tools for maintaining plugin compatibility across JetBrains IDEs. The session focused on spotting breaking API changes, avoiding internal APIs, and verifying plugin behavior across IDE versions. If you couldn’t join us live, the full recording is […]
-Link to article: https://blog.jetbrains.com/platform/2025/05/plugin-verifier-and-api-compatibility-maintenance-livestream-recording-amp-key-takeaways/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The Future of Semantic Kernel: A Commitment to Innovation and Collaboration</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_14/</link>
-      <pubDate>Fri, 30 May 2025 13:15:06 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_14/</guid>
-      <description>
-        
-          
-            Semantic Kernel is Microsoft’s core framework for enterprise AI orchestration, remaining secure, stable, and rapidly evolving with unified multi-agent support and deep Azure integration, backed by ongoing investment and a clear long-term roadmap.
-Link to article: https://devblogs.microsoft.com/foundry/semantic-kernel-commitment-ai-innovation 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Efficient Ground Truth Generation for Search Evaluation</title>
-      <link>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_15/</link>
-      <pubDate>Fri, 30 May 2025 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_05_2025/30_05_2025_15/</guid>
-      <description>
-        
-          
-            This article discusses the challenges and methodologies for creating a reliable groundtruth dataset for search evaluation. It highlights the use of TREC Pooling and GPT-4o assisted ranking to overcome the labor-intensive process of manual labeling, ensuring high-quality search evaluations even with limited data.
-Link to article: https://devblogs.microsoft.com/ise/efficient-ground-truth-generation-search-evaluation 
           
           
         
