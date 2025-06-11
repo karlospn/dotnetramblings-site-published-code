@@ -7,7 +7,75 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 10 Jun 2025 20:12:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Jun 2025 12:16:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publishing AI models to Docker Hub</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_0/</link>
+      <pubDate>Wed, 11 Jun 2025 12:16:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_0/</guid>
+      <description>
+        
+          
+            When we first released Docker Model Runner, it came with built-in support for running AI models published and maintained by Docker on Docker Hub. This made it simple to pull a model like llama3.2 or gemma3 and start using it locally with familiar Docker-style commands. Model Runner now supports three new commands: tag, push, and...
+Link to article: https://www.docker.com/blog/publish-ai-models-on-docker-hub/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Build, Run, and Package AI Models Locally with Docker Model Runner</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_1/</link>
+      <pubDate>Wed, 11 Jun 2025 12:08:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_1/</guid>
+      <description>
+        
+          
+            Introduction As a Senior DevOps Engineer and Docker Captain, I’ve helped build AI systems for everything from retail personalization to medical imaging. One truth stands out: AI capabilities are core to modern infrastructure. This guide will show you how to run and package local AI models with Docker Model Runner — a lightweight, developer-friendly tool...
+Link to article: https://www.docker.com/blog/how-to-build-run-and-package-ai-models-locally-with-docker-model-runner/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>NVIDIA Nemotron Super 49B and Nano 8B reasoning models now available in Amazon Bedrock Marketplace and Amazon SageMaker JumpStart</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_2/</link>
+      <pubDate>Wed, 11 Jun 2025 12:00:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_2/</guid>
+      <description>
+        
+          
+            The Llama 3.3 Nemotron Super 49B V1 and Llama 3.1 Nemotron Nano 8B V1 are now available in Amazon Bedrock Marketplace and Amazon SageMaker JumpStart. With this launch, you can now deploy NVIDIA’s newest reasoning models to build, experiment, and responsibly scale your generative AI ideas on AWS.
+Link to article: https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-super-49b-and-nano-8b-reasoning-models-now-available-in-amazon-bedrock-marketplace-and-amazon-sagemaker-jumpstart/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Deploy JetBrains Mellum Your Way: Now Available via NVIDIA NIM</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_3/</link>
+      <pubDate>Wed, 11 Jun 2025 11:15:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_3/</guid>
+      <description>
+        
+          
+            Deploy Mellum as a production-grade LLM inside your own infrastructure – with NVIDIA. JetBrains Mellum – our open, focused LLM specialized on code completion – is now available to run as a containerized microservice on NVIDIA AI Factories. Using the new NVIDIA universal LLM NIM container, Mellum can be deployed in minutes on any NVIDIA-accelerated […]
+Link to article: https://blog.jetbrains.com/ai/2025/06/deploy-jetbrains-mellum-your-way-now-available-via-nvidia-nim/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>.NET and .NET Framework June 2025 servicing releases updates</title>
       <link>https://www.dotnetramblings.com/post/10_06_2025/10_06_2025_0/</link>

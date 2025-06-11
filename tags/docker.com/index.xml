@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 10 Jun 2025 16:35:01 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Jun 2025 12:16:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publishing AI models to Docker Hub</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_0/</link>
+      <pubDate>Wed, 11 Jun 2025 12:16:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_0/</guid>
+      <description>
+        
+          
+            When we first released Docker Model Runner, it came with built-in support for running AI models published and maintained by Docker on Docker Hub. This made it simple to pull a model like llama3.2 or gemma3 and start using it locally with familiar Docker-style commands. Model Runner now supports three new commands: tag, push, and...
+Link to article: https://www.docker.com/blog/publish-ai-models-on-docker-hub/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Build, Run, and Package AI Models Locally with Docker Model Runner</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_1/</link>
+      <pubDate>Wed, 11 Jun 2025 12:08:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2025/11_06_2025_1/</guid>
+      <description>
+        
+          
+            Introduction As a Senior DevOps Engineer and Docker Captain, I’ve helped build AI systems for everything from retail personalization to medical imaging. One truth stands out: AI capabilities are core to modern infrastructure. This guide will show you how to run and package local AI models with Docker Model Runner — a lightweight, developer-friendly tool...
+Link to article: https://www.docker.com/blog/how-to-build-run-and-package-ai-models-locally-with-docker-model-runner/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Docker Desktop 4.42: Native IPv6, Built-In MCP, and Better Model Packaging</title>
       <link>https://www.dotnetramblings.com/post/10_06_2025/10_06_2025_3/</link>
