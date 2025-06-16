@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 13 Jun 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jun 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing a helper class for generating a particular category of C callback wrappers around C&#43;&#43; methods</title>
+      <link>https://www.dotnetramblings.com/post/16_06_2025/16_06_2025_2/</link>
+      <pubDate>Mon, 16 Jun 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_06_2025/16_06_2025_2/</guid>
+      <description>
+        
+          
+            A common pattern for C callbacks is to accept a function pointer and a void*, and then the callback function receives that pointer in addition to the parameters specific to the callback. // Hypothetical callback typedef int (callback_t)( void context, int arg1, char const* arg2, double arg3); void Regi
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250616-00/?p=111271 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Thread pool threads are like preschool: Leave things the way you found them</title>
       <link>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_6/</link>
