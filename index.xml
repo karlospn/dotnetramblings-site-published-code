@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 15 Jun 2025 19:52:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jun 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatically Rerun Failed GitHub Actions Workflows</title>
+      <link>https://www.dotnetramblings.com/post/16_06_2025/16_06_2025_0/</link>
+      <pubDate>Mon, 16 Jun 2025 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_06_2025/16_06_2025_0/</guid>
+      <description>
+        
+          
+            GitHub Actions doesn&#39;t provide a built-in way to rerun a run automatically. If you have some flakiness in your jobs, this can be a pain as you have to rerun the workflow manually. Hopefully, you can use the workflow_run event to trigger a new workflow when a previous one fails. This allows you to rerun the failed workflow automatically. Note that the following sample workflow will only rerun the failed…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>New Livestream – Java Enable Preview: Vector API</title>
+      <link>https://www.dotnetramblings.com/post/16_06_2025/16_06_2025_1/</link>
+      <pubDate>Mon, 16 Jun 2025 10:18:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_06_2025/16_06_2025_1/</guid>
+      <description>
+        
+          
+            Join us for a new IntelliJ IDEA Livestream episode with Daniel Hinojosa and explore the Vector API – a powerful tool for writing high-performance code in Java. Date: June 25, 2025 Time: 3:00–4:00 pm UTC REGISTER FOR THE LIVESTREAM Session abstract In this session, we will discuss the Vector API in a preview in Java. […]
+Link to article: https://blog.jetbrains.com/idea/2025/06/new-livestream-new-livestream-new-livestream-java-enable-preview-vector-api/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>dotNetDave Says… Don’t Build Frankenstein’s Monster Applications!</title>
       <link>https://www.dotnetramblings.com/post/15_06_2025/15_06_2025_0/</link>
