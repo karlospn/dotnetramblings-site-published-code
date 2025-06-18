@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 12 Jun 2025 16:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Jun 2025 13:32:13 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Docker Chose OCI Artifacts for AI Model Packaging</title>
+      <link>https://www.dotnetramblings.com/post/18_06_2025/18_06_2025_1/</link>
+      <pubDate>Wed, 18 Jun 2025 13:32:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_06_2025/18_06_2025_1/</guid>
+      <description>
+        
+          
+            As AI development accelerates, developers need tools that let them move fast without having to reinvent their workflows. Docker Model Runner introduces a new specification for packaging large language models (LLMs) as OCI artifacts — a format developers already know and trust. It brings model sharing into the same workflows used for containers, with support...
+Link to article: https://www.docker.com/blog/why-docker-chose-oci-artifacts-for-ai-model-packaging/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Behind the scenes: How we designed Docker Model Runner and what’s next</title>
+      <link>https://www.dotnetramblings.com/post/18_06_2025/18_06_2025_2/</link>
+      <pubDate>Wed, 18 Jun 2025 13:30:29 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_06_2025/18_06_2025_2/</guid>
+      <description>
+        
+          
+            The last few years have made it clear that AI models will continue to be a fundamental component of many applications. The catch is that they’re also a fundamentally different type of component, with complex software and hardware requirements that don’t (yet) fit neatly into the constraints of container-oriented development lifecycles and architectures. To help...
+Link to article: https://www.docker.com/blog/behind-the-scenes-how-we-designed-docker-model-runner-and-whats-next/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How to Build, Run, and Package AI Models Locally with Docker Model Runner</title>
       <link>https://www.dotnetramblings.com/post/12_06_2025/12_06_2025_6/</link>
