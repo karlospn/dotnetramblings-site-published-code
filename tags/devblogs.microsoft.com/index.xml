@@ -7,18 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 19 Jun 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Jun 2025 15:55:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Learning to read C&#43;&#43; compiler errors: Ambiguous symbol errors after including a header file</title>
+      <title>Announcing General Availability of Native Vector Type &amp; Functions in Azure SQL</title>
       <link>https://www.dotnetramblings.com/post/19_06_2025/19_06_2025_0/</link>
-      <pubDate>Thu, 19 Jun 2025 14:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Jun 2025 15:55:22 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/19_06_2025/19_06_2025_0/</guid>
       <description>
         
           
+            We are happy to announce that Native vector support in Azure SQL Database and Azure SQL Managed Instance is moving to General Availability this summer. Deployments are already underway, and several regions have begun receiving the feature. What is going GA? Integrated Vector Data Type Azure SQL introduces a dedicated
+Link to article: https://devblogs.microsoft.com/azure-sql/announcing-general-availability-of-native-vector-type-functions-in-azure-sql 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Learning to read C&#43;&#43; compiler errors: Ambiguous symbol errors after including a header file</title>
+      <link>https://www.dotnetramblings.com/post/19_06_2025/19_06_2025_3/</link>
+      <pubDate>Thu, 19 Jun 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_06_2025/19_06_2025_3/</guid>
+      <description>
+        
+          
             A colleague added another header file to their project, and everything started blowing up with &amp;quot;ambiguous symbol&amp;quot; errors. #include &amp;quot;pch.h&amp;quot; #include &amp;quot;something.h&amp;quot; #include &amp;quot;newheader.h&amp;quot; #include &amp;lt;shlobj.h&amp;gt; ... This resulted in a build error in Visual Studi
 Link to article: https://devblogs.microsoft.com/oldnewthing/20250619-00/?p=111285 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>PACT Contract Testing - Because Not Everything Needs Full Integration Tests</title>
+      <link>https://www.dotnetramblings.com/post/19_06_2025/19_06_2025_7/</link>
+      <pubDate>Thu, 19 Jun 2025 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_06_2025/19_06_2025_7/</guid>
+      <description>
+        
+          
+            At Microsoft Industry Solutions Engineering, we are big fans of integration tests. They are the best way to test that your system works as a whole, but sometimes, integration tests are overkill or too complex to set up that the return on investment is just not worth it. That&#39;s the situation one of our teams has recently found themselves in.
+Link to article: https://devblogs.microsoft.com/ise/pact-contract-testing-because-not-everything-needs-full-integration-tests 
           
           
         
