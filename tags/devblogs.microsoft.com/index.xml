@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 18 Jun 2025 17:37:31 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Jun 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning to read C&#43;&#43; compiler errors: Ambiguous symbol errors after including a header file</title>
+      <link>https://www.dotnetramblings.com/post/19_06_2025/19_06_2025_0/</link>
+      <pubDate>Thu, 19 Jun 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_06_2025/19_06_2025_0/</guid>
+      <description>
+        
+          
+            A colleague added another header file to their project, and everything started blowing up with &amp;quot;ambiguous symbol&amp;quot; errors. #include &amp;quot;pch.h&amp;quot; #include &amp;quot;something.h&amp;quot; #include &amp;quot;newheader.h&amp;quot; #include &amp;lt;shlobj.h&amp;gt; ... This resulted in a build error in Visual Studi
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250619-00/?p=111285 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>MSSQL Extension for VS Code: Local Containers, GitHub Copilot Agent Mode and Connection Groups</title>
       <link>https://www.dotnetramblings.com/post/18_06_2025/18_06_2025_1/</link>
