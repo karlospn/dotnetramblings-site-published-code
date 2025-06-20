@@ -7,18 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 20 Jun 2025 16:06:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jun 2025 16:23:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>o-series Updates: New o3 pricing and o3-pro in Azure AI Foundry</title>
+      <title>codex-mini: Fast, Scalable Code Generation for the CLI Era</title>
       <link>https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_0/</link>
-      <pubDate>Fri, 20 Jun 2025 16:06:00 +0000</pubDate>
+      <pubDate>Fri, 20 Jun 2025 16:23:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_0/</guid>
       <description>
         
           
+            We’re announcing the general availability of Azure OpenAI’s codex-mini in Azure AI Foundry Models. codex-mini is a fine-tuned version of the o4-mini model, designed to deliver rapid, instruction-following performance for developers working in CLI workflows. Whether you&#39;r
+Link to article: https://devblogs.microsoft.com/foundry/codex-mini-fast-scalable-code-generation-for-the-cli-era 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>o-series Updates: New o3 pricing and o3-pro in Azure AI Foundry</title>
+      <link>https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_1/</link>
+      <pubDate>Fri, 20 Jun 2025 16:06:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_1/</guid>
+      <description>
+        
+          
             o-series Updates: New o3 pricing and o3-pro in Azure AI Foundry We are excited to announce the availability of o3-pro, the newest model in the Azure Ai Foundry via Azure OpenAI. o3-pro combines more compute with long context and multimodal input to deliver consistently better answers for complex tasks. o3-pro is available via the
 Link to article: https://devblogs.microsoft.com/foundry/azure-openai-o3-pro-ai-foundry 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The case of the invalid handle error when a handle is closed while a thread is waiting on it</title>
+      <link>https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_3/</link>
+      <pubDate>Fri, 20 Jun 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_3/</guid>
+      <description>
+        
+          
+            A customer tracked one of their crashes to an invalid handle exception being raised when one thread closed a handle that another thread was waiting for. Or at least that&#39;s how they presented the problem. The stack trace in the crash dump said ntdll!KiRaiseUserExceptionDispatcher+0x3a KERNELBASE!WaitForMultipleObjectsEx+0x
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250620-00/?p=111291 
           
           
         
