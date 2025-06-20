@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>IDC Business Value Study: A 306% ROI within 3 years using Ubuntu Linux on Azure | .NET Ramblings</title>
+<title>The case of the invalid handle error when a handle is closed while a thread is waiting on it | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Study participants shared that Azure provides a more efficient and effective platform for their Ubuntu workloads, maximizing their value in core business …" />
+<meta name="description" content="A customer tracked one of their crashes to an invalid handle exception being raised when one thread closed a handle that another thread was waiting for. Or at …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="IDC Business Value Study: A 306% ROI within 3 years using Ubuntu Linux on Azure" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/azure.png"/>
+<meta name="twitter:title" content="The case of the invalid handle error when a handle is closed while a thread is waiting on it" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_3/" />
-<meta property="og:title" content="IDC Business Value Study: A 306% ROI within 3 years using Ubuntu Linux on Azure" />
-<meta property="og:description" content="Study participants shared that Azure provides a more efficient and effective platform for their Ubuntu workloads, maximizing their value in core business …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/azure.png" />
+<meta property="og:title" content="The case of the invalid handle error when a handle is closed while a thread is waiting on it" />
+<meta property="og:description" content="A customer tracked one of their crashes to an invalid handle exception being raised when one thread closed a handle that another thread was waiting for. Or at …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">IDC Business Value Study: A 306% ROI within 3 years using Ubuntu Linux on Azure</h1>
+    <h1 class="post_title">The case of the invalid handle error when a handle is closed while a thread is waiting on it</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,15 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Jun 20, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/azure.microsoft.com/en-us/blog/' title="azure.microsoft.com/en-us/blog" class="post_tag button button_translucent">azure.microsoft.com/en-us/blog
+      Jun 20, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Study participants shared that Azure provides a more efficient and effective platform for their Ubuntu workloads, maximizing their value in core business functions and supporting new technology adoption.
-The post IDC Business Value Study: A 306% ROI within 3 years using Ubuntu Linux on Azure appeared first on Microsoft Azure Blog.</p>
+    <div class="post_body"><p>A customer tracked one of their crashes to an invalid handle exception being raised when one thread closed a handle that another thread was waiting for. Or at least that's how they presented the problem. The stack trace in the crash dump said ntdll!KiRaiseUserExceptionDispatcher+0x3a KERNELBASE!WaitForMultipleObjectsEx+0x</p>
 <ul>
-<li>Link to article: <a href="https://azure.microsoft.com/en-us/blog/idc-business-value-study-a-306-roi-within-3-years-using-ubuntu-linux-on-azure/">https://azure.microsoft.com/en-us/blog/idc-business-value-study-a-306-roi-within-3-years-using-ubuntu-linux-on-azure/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250620-00/?p=111291">https://devblogs.microsoft.com/oldnewthing/20250620-00/?p=111291</a></li>
 </ul>
 
     </div>
