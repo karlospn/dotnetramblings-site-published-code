@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>💻 Spring Cleaning for Dev Boxes: Mastering Manual &amp; Automatic Offboarding | .NET Ramblings</title>
+<title>The case of the invalid handle error when a handle is closed while a thread is waiting on it | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Let’s face it. Sometimes your Dev Box just… hangs around too long. Whether you’ve moved to a new project, left the company, want to create a new dev box with …" />
+<meta name="description" content="A customer tracked one of their crashes to an invalid handle exception being raised when one thread closed a handle that another thread was waiting for. Or at …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="💻 Spring Cleaning for Dev Boxes: Mastering Manual &amp; Automatic Offboarding" />
+<meta name="twitter:title" content="The case of the invalid handle error when a handle is closed while a thread is waiting on it" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_0/" />
-<meta property="og:title" content="💻 Spring Cleaning for Dev Boxes: Mastering Manual &amp; Automatic Offboarding" />
-<meta property="og:description" content="Let’s face it. Sometimes your Dev Box just… hangs around too long. Whether you’ve moved to a new project, left the company, want to create a new dev box with …" />
+<meta property="og:url" content="https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_3/" />
+<meta property="og:title" content="The case of the invalid handle error when a handle is closed while a thread is waiting on it" />
+<meta property="og:description" content="A customer tracked one of their crashes to an invalid handle exception being raised when one thread closed a handle that another thread was waiting for. Or at …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -43,7 +43,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_0/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_3/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">💻 Spring Cleaning for Dev Boxes: Mastering Manual &amp; Automatic Offboarding</h1>
+    <h1 class="post_title">The case of the invalid handle error when a handle is closed while a thread is waiting on it</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -145,9 +145,9 @@
     </span>
   </div>
 
-    <div class="post_body"><p>Let’s face it. Sometimes your Dev Box just… hangs around too long. Whether you’ve moved to a new project, left the company, want to create a new dev box with the latest tools, it's time to clean things up. 🎯 With Dev Box Auto-Deletion now in public preview, offboarding just got a whole lot easier. Here's everything</p>
+    <div class="post_body"><p>A customer tracked one of their crashes to an invalid handle exception being raised when one thread closed a handle that another thread was waiting for. Or at least that's how they presented the problem. The stack trace in the crash dump said ntdll!KiRaiseUserExceptionDispatcher+0x3a KERNELBASE!WaitForMultipleObjectsEx+0x</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/develop-from-the-cloud/%f0%9f%92%bb-spring-cleaning-for-dev-boxes-mastering-manual-automatic-offboarding">https://devblogs.microsoft.com/develop-from-the-cloud/%f0%9f%92%bb-spring-cleaning-for-dev-boxes-mastering-manual-automatic-offboarding</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250620-00/?p=111291">https://devblogs.microsoft.com/oldnewthing/20250620-00/?p=111291</a></li>
 </ul>
 
     </div>
