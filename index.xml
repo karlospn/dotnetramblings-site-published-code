@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 20 Jun 2025 19:51:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitoring .NET Applications with OpenTelemetry and Grafana</title>
+      <link>https://www.dotnetramblings.com/post/21_06_2025/21_06_2025_0/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_06_2025/21_06_2025_0/</guid>
+      <description>
+        
+          
+            Instrumenting your .NET apps with OpenTelemetry is easy. But what about actually seeing those metrics and traces in action? Here&#39;s how to stream observability data from your .NET services into Grafana — in just a few lines of code.
+Link to article: https://www.milanjovanovic.tech/blog/monitoring-dotnet-applications-with-opentelemetry-and-grafana 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>💻 Spring Cleaning for Dev Boxes: Mastering Manual &amp; Automatic Offboarding</title>
       <link>https://www.dotnetramblings.com/post/20_06_2025/20_06_2025_0/</link>
@@ -1069,142 +1086,6 @@ Link to article: https://www.devleader.ca/2025/06/14/weekly-recap-20250613
           
             With .NET 10, you can now run C# files directly. No project files, no Main method, just code. In this issue, I&#39;ll show you how to use the new dotnet run app.cs feature in practice: from quick one-liners to a real-world SQL seeding script.
 Link to article: https://www.milanjovanovic.tech/blog/run-csharp-scripts-with-dotnet-run-app-no-project-files-needed 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deploy Qwen models with Amazon Bedrock Custom Model Import</title>
-      <link>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_0/</link>
-      <pubDate>Fri, 13 Jun 2025 17:17:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_0/</guid>
-      <description>
-        
-          
-            You can now import custom weights for Qwen2, Qwen2_VL, and Qwen2_5_VL architectures, including models like Qwen 2, 2.5 Coder, Qwen 2.5 VL, and QwQ 32B. In this post, we cover how to deploy Qwen 2.5 models with Amazon Bedrock Custom Model Import, making them accessible to organizations looking to use state-of-the-art AI capabilities within the AWS infrastructure at an effective cost.
-Link to article: https://aws.amazon.com/blogs/machine-learning/deploy-qwen-models-with-amazon-bedrock-custom-model-import/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build generative AI solutions with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_1/</link>
-      <pubDate>Fri, 13 Jun 2025 16:06:41 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_1/</guid>
-      <description>
-        
-          
-            In this post, we show you how to build generative AI applications on Amazon Web Services (AWS) using the capabilities of Amazon Bedrock, highlighting how Amazon Bedrock can be used at each step of your generative AI journey. This guide is valuable for both experienced AI engineers and newcomers to the generative AI space, helping you use Amazon Bedrock to its fullest potential.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-generative-ai-solutions-with-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Netsertive built a scalable AI assistant to extract meaningful insights from real-time data using Amazon Bedrock and Amazon Nova</title>
-      <link>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_2/</link>
-      <pubDate>Fri, 13 Jun 2025 16:03:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_2/</guid>
-      <description>
-        
-          
-            In this post, we show how Netsertive introduced a generative AI-powered assistant into MLX, using Amazon Bedrock and Amazon Nova, to bring their next generation of the platform to life.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-netsertive-built-a-scalable-ai-assistant-to-extract-meaningful-insights-from-real-time-data-using-amazon-bedrock-and-amazon-nova/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Make videos accessible with automated audio descriptions using Amazon Nova</title>
-      <link>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_3/</link>
-      <pubDate>Fri, 13 Jun 2025 16:01:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_3/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how you can use services like Amazon Nova, Amazon Rekognition, and Amazon Polly to automate the creation of accessible audio descriptions for video content. This approach can significantly reduce the time and cost required to make videos accessible for visually impaired audiences.
-Link to article: https://aws.amazon.com/blogs/machine-learning/make-videos-accessible-with-automated-audio-descriptions-using-amazon-nova/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Training Llama 3.3 Swallow: A Japanese sovereign LLM on Amazon SageMaker HyperPod</title>
-      <link>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_4/</link>
-      <pubDate>Fri, 13 Jun 2025 15:54:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_4/</guid>
-      <description>
-        
-          
-            The Institute of Science Tokyo has successfully trained Llama 3.3 Swallow, a 70-billion-parameter large language model (LLM) with enhanced Japanese capabilities, using Amazon SageMaker HyperPod. The model demonstrates superior performance in Japanese language tasks, outperforming GPT-4o-mini and other leading models. This technical report details the training infrastructure, optimizations, and best practices developed during the project.
-Link to article: https://aws.amazon.com/blogs/machine-learning/training-llama-3-3-swallow-a-japanese-sovereign-llm-on-amazon-sagemaker-hyperpod/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>JetBrains Academy – June Digest</title>
-      <link>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_5/</link>
-      <pubDate>Fri, 13 Jun 2025 14:26:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_5/</guid>
-      <description>
-        
-          
-            This month, we’ve gathered fun plugins and a course to help you build your own, as well as AI updates, exciting news for C++ learners and professional developers. Dive in!
-Link to article: https://blog.jetbrains.com/education/2025/06/13/jetbrains-academy-june/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Thread pool threads are like preschool: Leave things the way you found them</title>
-      <link>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_6/</link>
-      <pubDate>Fri, 13 Jun 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_6/</guid>
-      <description>
-        
-          
-            A customer wanted to use the Windows thread pool, but they also wanted to use COM from their work item. They saw in the COM documentation that each thread must call Co­Initialize(Ex) before using COM, so they planned on doing something like this: thread_local bool isComInitialized = false; auto DoWork
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250613-00/?p=111268 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>JetBrains GameDev Days 2025 – Call for Speakers</title>
-      <link>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_7/</link>
-      <pubDate>Fri, 13 Jun 2025 09:48:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_7/</guid>
-      <description>
-        
-          
-            JetBrains GameDev Day is back! Join us online on October 21, 2025, for a day dedicated to all things game development. We’re looking for speakers who are eager to share their knowledge, experience, tools, or creative approaches across the gamedev community. What is GameDev Day? GameDev Day is a free, live, online event hosted by […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/06/13/jetbrains-gamedev-days-2025-call-for-speakers/ 
           
           
         

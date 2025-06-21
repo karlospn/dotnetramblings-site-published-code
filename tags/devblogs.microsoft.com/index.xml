@@ -416,22 +416,5 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250616-00/?p=11127
       </description>
     </item>
     
-    <item>
-      <title>Thread pool threads are like preschool: Leave things the way you found them</title>
-      <link>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_6/</link>
-      <pubDate>Fri, 13 Jun 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_06_2025/13_06_2025_6/</guid>
-      <description>
-        
-          
-            A customer wanted to use the Windows thread pool, but they also wanted to use COM from their work item. They saw in the COM documentation that each thread must call Co­Initialize(Ex) before using COM, so they planned on doing something like this: thread_local bool isComInitialized = false; auto DoWork
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250613-00/?p=111268 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
