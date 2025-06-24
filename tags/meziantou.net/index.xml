@@ -25,21 +25,5 @@ Link to article: https://www.meziantou.net/how-to-exclude-your-windows-app-from-
       </description>
     </item>
     
-    <item>
-      <title>Automatically Rerun Failed GitHub Actions Workflows</title>
-      <link>https://www.dotnetramblings.com/post/16_06_2025/16_06_2025_7/</link>
-      <pubDate>Mon, 16 Jun 2025 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_06_2025/16_06_2025_7/</guid>
-      <description>
-        
-          
-            GitHub Actions doesn&#39;t provide a built-in way to rerun a run automatically. If you have some flakiness in your jobs, this can be a pain as you have to rerun the workflow manually. Hopefully, you can use the workflow_run event to trigger a new workflow when a previous one fails. This allows you to rerun the failed workflow automatically. Note that the following sample workflow will only rerun the failed…
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
