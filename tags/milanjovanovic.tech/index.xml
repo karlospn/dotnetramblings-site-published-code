@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 26 Jun 2025 11:01:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testcontainers Best Practices for .NET Integration Testing</title>
+      <link>https://www.dotnetramblings.com/post/28_06_2025/28_06_2025_0/</link>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_06_2025/28_06_2025_0/</guid>
+      <description>
+        
+          
+            Integration tests shouldn&#39;t rely on external infrastructure—but they also shouldn&#39;t mock everything away. In this post, we look at how to use Testcontainers in .NET to spin up real Postgres and Redis instances in your tests, how to manage container lifecycle using IAsyncLifetime, and how to structure your xUnit fixtures for speed and reliability
+Link to article: https://www.milanjovanovic.tech/blog/testcontainers-best-practices-dotnet-integration-testing 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Monitoring .NET Applications with OpenTelemetry and Grafana</title>
       <link>https://www.dotnetramblings.com/post/21_06_2025/21_06_2025_2/</link>
