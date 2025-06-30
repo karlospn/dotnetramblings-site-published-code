@@ -7,13 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 30 Jun 2025 08:32:30 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jun 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ReSharper and Rider 2025.1.4: Another Set of Bug-fixes Released</title>
+      <title>How to Find Public Symbols That Can Be Internal Using Roslyn</title>
       <link>https://www.dotnetramblings.com/post/30_06_2025/30_06_2025_0/</link>
-      <pubDate>Mon, 30 Jun 2025 08:32:30 +0000</pubDate>
+      <pubDate>Mon, 30 Jun 2025 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/30_06_2025/30_06_2025_0/</guid>
+      <description>
+        
+          
+            I got a question about how to find all public symbols in a solution that can be internal. This is a common scenario when you want to reduce the visibility of your code to improve encapsulation. You can use Roslyn as a library to analyze the code in a solution and find such symbols. I&#39;ve already written about how to use Roslyn as a library to analyze and rewrite code in a solution: .
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ReSharper and Rider 2025.1.4: Another Set of Bug-fixes Released</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2025/30_06_2025_1/</link>
+      <pubDate>Mon, 30 Jun 2025 08:32:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2025/30_06_2025_1/</guid>
       <description>
         
           
