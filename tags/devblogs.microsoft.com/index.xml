@@ -26,6 +26,23 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-june
     </item>
     
     <item>
+      <title>Unintended yet somehow entirely expected consequences of marking a COM interface as local</title>
+      <link>https://www.dotnetramblings.com/post/02_07_2025/02_07_2025_2/</link>
+      <pubDate>Wed, 02 Jul 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_07_2025/02_07_2025_2/</guid>
+      <description>
+        
+          
+            A customer was adding an interface to their out-of-process COM server. They added their interface to the project&#39;s existing IDL file and recompiled the resulting proxy stub DLL. But when they tried to connect to the server, the connection failed with error 0x80040155, also known as REGDB_E_IID­NOT­REG
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250702-00/?p=111332 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Join us for MCP Dev Days - July 29-30</title>
       <link>https://www.dotnetramblings.com/post/01_07_2025/01_07_2025_0/</link>
       <pubDate>Tue, 01 Jul 2025 22:00:46 +0000</pubDate>
