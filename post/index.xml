@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 01 Jul 2025 22:00:46 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Jul 2025 04:40:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implement ASP.NET Core OpenID Connect with Keycloak to implement Level of Authentication (LoA) requirements</title>
+      <link>https://www.dotnetramblings.com/post/02_07_2025/02_07_2025_0/</link>
+      <pubDate>Wed, 02 Jul 2025 04:40:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_07_2025/02_07_2025_0/</guid>
+      <description>
+        
+          
+            This post looks at implementing an OpenID Connect client in ASP.NET Core and require a level of authentication (LoA) implemented using Keycloak. The applications are hosted using Aspire. The LoA is requested in Keycloak using the arc_values claim. Code: https://github.com/damienbod/IdentityExternalErrorHandling Setup The applications are implemented using Aspire. An ASP.NET Core application uses an OpenID Connect […]
+Link to article: https://damienbod.com/2025/07/02/implement-asp-net-core-openid-connect-with-keykloak-to-implement-level-of-authentication-loa-requirements/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Join us for MCP Dev Days - July 29-30</title>
       <link>https://www.dotnetramblings.com/post/01_07_2025/01_07_2025_0/</link>
