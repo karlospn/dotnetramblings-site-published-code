@@ -7,7 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 03 Jul 2025 14:07:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Jul 2025 19:58:06 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qwen3 family of reasoning models now available in Amazon Bedrock Marketplace and Amazon SageMaker JumpStart</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2025/07_07_2025_0/</link>
+      <pubDate>Mon, 07 Jul 2025 19:58:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2025/07_07_2025_0/</guid>
+      <description>
+        
+          
+            Today, we are excited to announce that Qwen3, the latest generation of large language models (LLMs) in the Qwen family, is available through Amazon Bedrock Marketplace and Amazon SageMaker JumpStart. With this launch, you can deploy the Qwen3 models—available in 0.6B, 4B, 8B, and 32B parameter sizes—to build, experiment, and responsibly scale your generative AI applications on AWS. In this post, we demonstrate how to get started with Qwen3 on Amazon Bedrock Marketplace and SageMaker JumpStart.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a just-in-time knowledge base with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2025/07_07_2025_1/</link>
+      <pubDate>Mon, 07 Jul 2025 19:56:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2025/07_07_2025_1/</guid>
+      <description>
+        
+          
+            Traditional Retrieval Augmented Generation (RAG) systems consume valuable resources by ingesting and maintaining embeddings for documents that might never be queried, resulting in unnecessary storage costs and reduced system efficiency. This post presents a just-in-time knowledge base solution that reduces unused consumption through intelligent document processing. The solution processes documents only when needed and automatically removes unused resources, so organizations can scale their document repositories without proportionally increasing infrastructure costs.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agents as escalators: Real-time AI video monitoring with Amazon Bedrock Agents and video streams</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2025/07_07_2025_2/</link>
+      <pubDate>Mon, 07 Jul 2025 19:52:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2025/07_07_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we show how to build a fully deployable solution that processes video streams using OpenCV, Amazon Bedrock for contextual scene understanding and automated responses through Amazon Bedrock Agents. This solution extends the capabilities demonstrated in Automate chatbot for document and data retrieval using Amazon Bedrock Agents and Knowledge Bases, which discussed using Amazon Bedrock Agents for document and data retrieval. In this post, we apply Amazon Bedrock Agents to real-time video analysis and event monitoring.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Transforming network operations with AI: How Swisscom built a network assistant using Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/03_07_2025/03_07_2025_3/</link>
