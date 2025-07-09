@@ -7,13 +7,114 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 09 Jul 2025 15:37:13 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jul 2025 17:10:30 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>July Patches for Azure DevOps Server</title>
+      <title>How We Use AI Agents for COBOL Migration and Mainframe Modernization</title>
       <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_0/</link>
-      <pubDate>Wed, 09 Jul 2025 15:37:13 +0000</pubDate>
+      <pubDate>Wed, 09 Jul 2025 17:10:30 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_0/</guid>
+      <description>
+        
+          
+            Legacy modernization is one of the most frequently raised challenges customers approach us with. They want to eliminate technical debt and run applications cloud-native. Obviously, there are different levels of complexity in legacy modernization, but the most challenging cases remain mai
+Link to article: https://devblogs.microsoft.com/all-things-azure/how-we-use-ai-agents-for-cobol-migration-and-mainframe-modernization 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Democratize data for timely decisions with text-to-SQL at Parcel Perform</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_1/</link>
+      <pubDate>Wed, 09 Jul 2025 16:51:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_1/</guid>
+      <description>
+        
+          
+            The business team in Parcel Perform often needs access to data to answer questions related to merchants’ parcel deliveries, such as “Did we see a spike in delivery delays last week? If so, in which transit facilities were this observed, and what was the primary cause of the issue?” Previously, the data team had to manually form the query and run it to fetch the data. With the new generative AI-powered text-to-SQL capability in Parcel Perform, the business team can self-serve their data needs by using an AI assistant interface.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured data</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_2/</link>
+      <pubDate>Wed, 09 Jul 2025 16:48:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we discuss how to make your Amazon Aurora PostgreSQL-Compatible Edition data available for natural language querying through Amazon Bedrock Knowledge Bases while maintaining data freshness.
+Link to article: https://aws.amazon.com/blogs/machine-learning/query-amazon-aurora-postgresql-using-amazon-bedrock-knowledge-bases-structured-data/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Configure fine-grained access to Amazon Bedrock models using Amazon SageMaker Unified Studio</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_3/</link>
+      <pubDate>Wed, 09 Jul 2025 16:45:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_3/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to use SageMaker Unified Studio and AWS Identity and Access Management (IAM) to establish a robust permission framework for Amazon Bedrock models. We show how administrators can precisely manage which users and teams have access to specific models within a secure, collaborative environment. We guide you through creating granular permissions to control model access, with code examples for common enterprise governance scenarios.
+Link to article: https://aws.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Improve conversational AI response times for enterprise applications with the Amazon Bedrock streaming API and AWS AppSync</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_4/</link>
+      <pubDate>Wed, 09 Jul 2025 16:31:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_4/</guid>
+      <description>
+        
+          
+            This post demonstrates how integrating an Amazon Bedrock streaming API with AWS AppSync subscriptions significantly enhances AI assistant responsiveness and user satisfaction. By implementing this streaming approach, the global financial services organization reduced initial response times for complex queries by approximately 75%—from 10 seconds to just 2–3 seconds—empowering users to view responses as they’re generated rather than waiting for complete answers.
+Link to article: https://aws.amazon.com/blogs/machine-learning/improve-conversational-ai-response-times-for-enterprise-applications-with-the-amazon-bedrock-streaming-api-and-aws-appsync/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Scale generative AI use cases, Part 1: Multi-tenant hub and spoke architecture using AWS Transit Gateway</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_5/</link>
+      <pubDate>Wed, 09 Jul 2025 16:29:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_5/</guid>
+      <description>
+        
+          
+            n this two-part series, we discuss a hub and spoke architecture pattern for building a multi-tenant and multi-account architecture. This pattern supports abstractions for shared services across use cases and teams, helping create secure, scalable, and reliable generative AI systems. In Part 1, we present a centralized hub for generative AI service abstractions and tenant-specific spokes, using AWS Transit Gateway for cross-account interoperability.
+Link to article: https://aws.amazon.com/blogs/machine-learning/scale-generative-ai-use-cases-part-1-multi-tenant-hub-and-spoke-architecture-using-aws-transit-gateway/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>July Patches for Azure DevOps Server</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_6/</link>
+      <pubDate>Wed, 09 Jul 2025 15:37:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_6/</guid>
       <description>
         
           
@@ -27,10 +128,10 @@ Link to article: https://devblogs.microsoft.com/devops/july-patches-for-azure-de
     
     <item>
       <title>Compose your way with Provider services!</title>
-      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_7/</link>
       <pubDate>Wed, 09 Jul 2025 15:21:15 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_7/</guid>
       <description>
         
           
@@ -44,10 +145,10 @@ Link to article: https://www.docker.com/blog/docker-compose-with-provider-servic
     
     <item>
       <title>Docker MCP Gateway: Open Source, Secure Infrastructure for Agentic AI</title>
-      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_8/</link>
       <pubDate>Wed, 09 Jul 2025 15:13:29 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_8/</guid>
       <description>
         
           
@@ -61,15 +162,32 @@ Link to article: https://www.docker.com/blog/docker-mcp-gateway-secure-infrastru
     
     <item>
       <title>Go 1.24.5-1 and 1.23.11-1 Microsoft builds now available</title>
-      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_9/</link>
       <pubDate>Wed, 09 Jul 2025 06:09:26 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_9/</guid>
       <description>
         
           
             A new release of the Microsoft build of Go including security fixes is now available for download. For more information about this release and the changes included, see the table below: Microsoft Release Upstream Tag
 Link to article: https://devblogs.microsoft.com/go/go-1-24-5-1-and-1-23-11-1-microsoft-builds-now-available 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Sam &amp; Jony</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_10/</link>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_10/</guid>
+      <description>
+        
+          
+            Building a family of AI products for everyone.
+Link to article: https://openai.com/sam-and-jony 
           
           
         
