@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Sam &amp; Jony | .NET Ramblings</title>
+<title>When I install an unhandled structured exception filter, why doesn&#39;t &lt;CODE&gt;std::&lt;WBR&gt;terminate&lt;/CODE&gt; get called? | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,17 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Building a family of AI products for everyone.
-Link to article: https://openai.com/sam-and-jony " />
+<meta name="description" content="For diagnostic and reliability purposes, a customer wanted to detect and report all all unhandled C&#43;&#43; exceptions as well as all unhandled structured exceptions. …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Sam &amp; Jony" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/ai.png"/>
+<meta name="twitter:title" content="When I install an unhandled structured exception filter, why doesn&#39;t &lt;CODE&gt;std::&lt;WBR&gt;terminate&lt;/CODE&gt; get called?" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/09_07_2025/09_07_2025_12/" />
-<meta property="og:title" content="Sam &amp; Jony" />
-<meta property="og:description" content="Building a family of AI products for everyone.
-Link to article: https://openai.com/sam-and-jony " />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/ai.png" />
+<meta property="og:title" content="When I install an unhandled structured exception filter, why doesn&#39;t &lt;CODE&gt;std::&lt;WBR&gt;terminate&lt;/CODE&gt; get called?" />
+<meta property="og:description" content="For diagnostic and reliability purposes, a customer wanted to detect and report all all unhandled C&#43;&#43; exceptions as well as all unhandled structured exceptions. …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -134,7 +132,7 @@ Link to article: https://openai.com/sam-and-jony " />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Sam &amp; Jony</h1>
+    <h1 class="post_title">When I install an unhandled structured exception filter, why doesn't <CODE>std::<WBR>terminate</CODE> get called?</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,14 @@ Link to article: https://openai.com/sam-and-jony " />
 </svg>
 </span>
     <span class="post_date">
-      Jul 9, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/openai.com/blog/' title="openai.com/blog" class="post_tag button button_translucent">openai.com/blog
+      Jul 9, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Building a family of AI products for everyone.</p>
+    <div class="post_body"><p>For diagnostic and reliability purposes, a customer wanted to detect and report all all unhandled C++ exceptions as well as all unhandled structured exceptions. Their idea was to cover both exits: Use set_terminate to install a std::terminate handler, which is called when a C++ exception goes unhand</p>
 <ul>
-<li>Link to article: <a href="https://openai.com/sam-and-jony">https://openai.com/sam-and-jony</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250709-00/?p=111360">https://devblogs.microsoft.com/oldnewthing/20250709-00/?p=111360</a></li>
 </ul>
 
     </div>
