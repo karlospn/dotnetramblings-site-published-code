@@ -7,13 +7,96 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 10 Jul 2025 17:27:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Jul 2025 19:08:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The 2025 Docker State of Application Development Report</title>
+      <title>New capabilities in Amazon SageMaker AI continue to transform how organizations develop AI models</title>
       <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_0/</link>
-      <pubDate>Thu, 10 Jul 2025 17:27:25 +0000</pubDate>
+      <pubDate>Thu, 10 Jul 2025 19:08:49 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we share some of the new innovations in SageMaker AI that can accelerate how you build and train AI models. These innovations include new observability capabilities in SageMaker HyperPod, the ability to deploy JumpStart models on HyperPod, remote connections to SageMaker AI from local development environments, and fully managed MLflow 3.0.
+Link to article: https://aws.amazon.com/blogs/machine-learning/new-capabilities-in-amazon-sagemaker-ai-continue-to-transform-how-organizations-develop-ai-models/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerate foundation model development with one-click observability in Amazon SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_1/</link>
+      <pubDate>Thu, 10 Jul 2025 18:37:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_1/</guid>
+      <description>
+        
+          
+            With a one-click installation of the Amazon Elastic Kubernetes Service (Amazon EKS) add-on for SageMaker HyperPod observability, you can consolidate health and performance data from NVIDIA DCGM, instance-level Kubernetes node exporters, Elastic Fabric Adapter (EFA), integrated file systems, Kubernetes APIs, Kueue, and SageMaker HyperPod task operators. In this post, we walk you through installing and using the unified dashboards of the out-of-the-box observability feature in SageMaker HyperPod. We cover the one-click installation from the Amazon SageMaker AI console, navigating the dashboard and metrics it consolidates, and advanced topics such as setting up custom alerts.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerating generative AI development with fully managed MLflow 3.0 on Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_2/</link>
+      <pubDate>Thu, 10 Jul 2025 18:35:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we explore how Amazon SageMaker now offers fully managed support for MLflow 3.0, streamlining AI experimentation and accelerating your generative AI journey from idea to production. This release transforms managed MLflow from experiment tracking to providing end-to-end observability, reducing time-to-market for generative AI development.
+Link to article: https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-development-with-fully-managed-mlflow-3-0-on-amazon-sagemaker-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Amazon SageMaker HyperPod launches model deployments to accelerate the generative AI model development lifecycle</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_3/</link>
+      <pubDate>Thu, 10 Jul 2025 18:34:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_3/</guid>
+      <description>
+        
+          
+            In this post, we announce Amazon SageMaker HyperPod support for deploying foundation models from SageMaker JumpStart, as well as custom or fine-tuned models from Amazon S3 or Amazon FSx. This new capability allows customers to train, fine-tune, and deploy models on the same HyperPod compute resources, maximizing resource utilization across the entire model lifecycle.
+Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-hyperpod-launches-model-deployments-to-accelerate-the-generative-ai-model-development-lifecycle/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Supercharge your AI workflows by connecting to SageMaker Studio from Visual Studio Code</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_4/</link>
+      <pubDate>Thu, 10 Jul 2025 18:33:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_4/</guid>
+      <description>
+        
+          
+            AI developers and machine learning (ML) engineers can now use the capabilities of Amazon SageMaker Studio directly from their local Visual Studio Code (VS Code). With this capability, you can use your customized local VS Code setup, including AI-assisted development tools, custom extensions, and debugging tools while accessing compute resources and your data in SageMaker Studio. In this post, we show you how to remotely connect your local VS Code to SageMaker Studio development environments to use your customized development environment while accessing Amazon SageMaker AI compute resources.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The 2025 Docker State of Application Development Report</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_5/</link>
+      <pubDate>Thu, 10 Jul 2025 17:27:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_5/</guid>
       <description>
         
           
@@ -27,10 +110,10 @@ Link to article: https://www.docker.com/blog/2025-docker-state-of-app-dev/
     
     <item>
       <title>Customize AI responses from GitHub Copilot</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_6/</link>
       <pubDate>Thu, 10 Jul 2025 17:15:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_6/</guid>
       <description>
         
           
@@ -44,10 +127,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/customize-ai-responses-fr
     
     <item>
       <title>Modular Ktor: Building Backends for Scale</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_7/</link>
       <pubDate>Thu, 10 Jul 2025 15:28:30 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_7/</guid>
       <description>
         
           
@@ -61,10 +144,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2025/07/modular-ktor-building
     
     <item>
       <title>Use K8sGPT and Amazon Bedrock for simplified Kubernetes cluster maintenance</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_8/</link>
       <pubDate>Thu, 10 Jul 2025 15:26:22 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_8/</guid>
       <description>
         
           
@@ -78,10 +161,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/use-k8sgpt-and-am
     
     <item>
       <title>How Rocket streamlines the home buying experience with Amazon Bedrock Agents</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_9/</link>
       <pubDate>Thu, 10 Jul 2025 15:23:39 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_9/</guid>
       <description>
         
           
@@ -94,10 +177,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/use-k8sgpt-and-am
     
     <item>
       <title>Build an MCP application with Mistral models on AWS</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_10/</link>
       <pubDate>Thu, 10 Jul 2025 15:20:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_10/</guid>
       <description>
         
           
@@ -111,10 +194,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/build-an-mcp-appl
     
     <item>
       <title>Build real-time conversational AI experiences using Amazon Nova Sonic and LiveKit</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_11/</link>
       <pubDate>Thu, 10 Jul 2025 15:09:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_11/</guid>
       <description>
         
           
@@ -127,10 +210,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/build-an-mcp-appl
     
     <item>
       <title>Our first attempt to detect and report all unhandled C&#43;&#43; exceptions as well as all unhandled structured exceptions</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_7/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_12/</link>
       <pubDate>Thu, 10 Jul 2025 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_12/</guid>
       <description>
         
           
@@ -144,10 +227,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250710-00/?p=11136
     
     <item>
       <title>Docker Brings Compose to the Agent Era: Building AI Agents is Now Easy</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_13/</link>
       <pubDate>Thu, 10 Jul 2025 10:06:29 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_13/</guid>
       <description>
         
           
@@ -161,10 +244,10 @@ Link to article: https://www.docker.com/blog/build-ai-agents-with-docker-compose
     
     <item>
       <title>Use Agent to Update Dataverse Table Content</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_9/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_14/</link>
       <pubDate>Thu, 10 Jul 2025 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_14/</guid>
       <description>
         
           
@@ -178,10 +261,10 @@ Link to article: https://devblogs.microsoft.com/ise/use-agent-to-update-datavers
     
     <item>
       <title>Customize GitHub Copilot in JetBrains with Custom Instructions</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_10/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_15/</link>
       <pubDate>Thu, 10 Jul 2025 04:20:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_15/</guid>
       <description>
         
           
@@ -195,10 +278,10 @@ Link to article: https://devblogs.microsoft.com/java/customize-github-copilot-in
     
     <item>
       <title>Dynamic configuration updates in .NET using Parameter Store and Secrets Manager</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_11/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_16/</link>
       <pubDate>Thu, 10 Jul 2025 03:48:03 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2025/10_07_2025_16/</guid>
       <description>
         
           
