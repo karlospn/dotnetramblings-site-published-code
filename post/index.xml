@@ -7,13 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 11 Jul 2025 16:13:11 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jul 2025 16:49:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Long-running execution flows now supported in Amazon Bedrock Flows in public preview</title>
+      <title>Intelligent document processing at scale with generative AI and Amazon Bedrock Data Automation</title>
       <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_0/</link>
-      <pubDate>Fri, 11 Jul 2025 16:13:11 +0000</pubDate>
+      <pubDate>Fri, 11 Jul 2025 16:49:04 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_0/</guid>
+      <description>
+        
+          
+            This post presents an end-to-end IDP application powered by Amazon Bedrock Data Automation and other AWS services. It provides a reusable AWS infrastructure as code (IaC) that deploys an IDP pipeline and provides an intuitive UI for transforming documents into structured tables at scale. The application only requires the user to provide the input documents (such as contracts or emails) and a list of attributes to be extracted. It then performs IDP with generative AI.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a conversational data assistant, Part 2 – Embedding generative business intelligence with Amazon Q in QuickSight</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_1/</link>
+      <pubDate>Fri, 11 Jul 2025 16:33:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_1/</guid>
+      <description>
+        
+          
+            In this post, we dive into how we integrated Amazon Q in QuickSight to transform natural language requests like “Show me how many items were returned in the US over the past 6 months” into meaningful data visualizations. We demonstrate how combining Amazon Bedrock Agents with Amazon Q in QuickSight creates a comprehensive data assistant that delivers both SQL code and visual insights through a single, intuitive conversational interface—democratizing data access across the enterprise.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a conversational data assistant, Part 1: Text-to-SQL with Amazon Bedrock Agents</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_2/</link>
+      <pubDate>Fri, 11 Jul 2025 16:32:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we focus on building a Text-to-SQL solution with Amazon Bedrock, a managed service for building generative AI applications. Specifically, we demonstrate the capabilities of Amazon Bedrock Agents. Part 2 explains how we extended the solution to provide business insights using Amazon Q in QuickSight, a business intelligence assistant that answers questions with auto-generated visualizations.
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-conversational-data-assistant-part-1-text-to-sql-with-amazon-bedrock-agents/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Implement user-level access control for multi-tenant ML platforms on Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_3/</link>
+      <pubDate>Fri, 11 Jul 2025 16:17:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_3/</guid>
+      <description>
+        
+          
+            In this post, we discuss permission management strategies, focusing on attribute-based access control (ABAC) patterns that enable granular user access control while minimizing the proliferation of AWS Identity and Access Management (IAM) roles. We also share proven best practices that help organizations maintain security and compliance without sacrificing operational efficiency in their ML workflows.
+Link to article: https://aws.amazon.com/blogs/machine-learning/implement-user-level-access-control-for-multi-tenant-ml-platforms-on-amazon-sagemaker-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Long-running execution flows now supported in Amazon Bedrock Flows in public preview</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_4/</link>
+      <pubDate>Fri, 11 Jul 2025 16:13:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_4/</guid>
       <description>
         
           
@@ -27,10 +93,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/long-running-exec
     
     <item>
       <title>Fraud detection empowered by federated learning with the Flower framework on Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_5/</link>
       <pubDate>Fri, 11 Jul 2025 16:03:51 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_5/</guid>
       <description>
         
           
@@ -44,10 +110,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/fraud-detection-e
     
     <item>
       <title>Building intelligent AI voice agents with Pipecat and Amazon Bedrock – Part 2</title>
-      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_6/</link>
       <pubDate>Fri, 11 Jul 2025 15:56:09 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_6/</guid>
       <description>
         
           
@@ -60,10 +126,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/fraud-detection-e
     
     <item>
       <title>Uphold ethical standards in fashion using multimodal toxicity detection with Amazon Bedrock Guardrails</title>
-      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_7/</link>
       <pubDate>Fri, 11 Jul 2025 15:49:51 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_7/</guid>
       <description>
         
           
@@ -76,10 +142,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/fraud-detection-e
     
     <item>
       <title>Python in Visual Studio Code - July 2025 Release</title>
-      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_8/</link>
       <pubDate>Fri, 11 Jul 2025 14:50:13 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_8/</guid>
       <description>
         
           
@@ -93,10 +159,10 @@ Link to article: https://devblogs.microsoft.com/python/python-in-visual-studio-c
     
     <item>
       <title>Build a GenAI App With Java Using Spring AI and Docker Model Runner</title>
-      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_9/</link>
       <pubDate>Fri, 11 Jul 2025 11:59:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_9/</guid>
       <description>
         
           
@@ -109,11 +175,28 @@ Link to article: https://www.docker.com/blog/build-genai-app-with-java-spring-ai
     </item>
     
     <item>
+      <title>The EU Code of Practice and future of AI in Europe</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_10/</link>
+      <pubDate>Fri, 11 Jul 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_10/</guid>
+      <description>
+        
+          
+            OpenAI joins the EU Code of Practice, advancing responsible AI while partnering with European governments to drive innovation, infrastructure, and economic growth.
+Link to article: https://openai.com/global-affairs/eu-code-of-practice 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>dotNetDave Rocks ØREDEV DEVELOPERS CONFERENCE 2025</title>
-      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_11/</link>
       <pubDate>Fri, 11 Jul 2025 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_11/</guid>
       <description>
         
           
