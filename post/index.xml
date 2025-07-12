@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 11 Jul 2025 22:52:43 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Error Handling in ASP.NET Core: From Middleware to Modern Handlers</title>
+      <link>https://www.dotnetramblings.com/post/12_07_2025/12_07_2025_0/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_07_2025/12_07_2025_0/</guid>
+      <description>
+        
+          
+            Learn How to handle errors globally in ASP.NET Core using middleware, IProblemDetailsService, and the new IExceptionHandler in .NET 8. This week&#39;s issue walks you through pragmatic approaches to error handling, with real-world tips for validation, chaining, and observability.
+Link to article: https://www.milanjovanovic.tech/blog/global-error-handling-in-aspnetcore-from-middleware-to-modern-handlers 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Critter Stack Futures for the rest of 2025</title>
       <link>https://www.dotnetramblings.com/post/11_07_2025/11_07_2025_0/</link>
@@ -1398,57 +1415,6 @@ Link to article: https://www.devleader.ca/2025/07/05/weekly-recap-20250704
           
             A practical walkthrough of using .NET Aspire&#39;s Docker publisher to generate Docker Compose files from C# code. Learn how to set up an API with Postgres and Redis, publish to Docker Compose, and deploy to a VPS with minimal configuration.
 Link to article: https://www.milanjovanovic.tech/blog/using-dotnet-aspire-with-the-docker-publisher 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What’s New in vcpkg (June 2025)</title>
-      <link>https://www.dotnetramblings.com/post/04_07_2025/04_07_2025_0/</link>
-      <pubDate>Fri, 04 Jul 2025 19:02:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_07_2025/04_07_2025_0/</guid>
-      <description>
-        
-          
-            This blog post summarizes changes to the vcpkg package manager as part of the 2025.06.13 registry release, 2025-04-16,
-Link to article: https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-june-2025 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why doesn&#39;t &lt;CODE&gt;LVIF_&lt;WBR&gt;INDENT&lt;/CODE&gt; work without an image list?</title>
-      <link>https://www.dotnetramblings.com/post/04_07_2025/04_07_2025_1/</link>
-      <pubDate>Fri, 04 Jul 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_07_2025/04_07_2025_1/</guid>
-      <description>
-        
-          
-            The LVIF_INDENT property of the Win32 classic listview control lets you indent an item in report view. The units of indentation are the size of the image list. But that requires an image list. Why does it require an image list? The indentation feature of the classic listview control was added for Internet Mail an
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250704-00/?p=111348 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Java Annotated Monthly – July 2025</title>
-      <link>https://www.dotnetramblings.com/post/04_07_2025/04_07_2025_2/</link>
-      <pubDate>Fri, 04 Jul 2025 10:48:27 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_07_2025/04_07_2025_2/</guid>
-      <description>
-        
-          
-            Welcome to the July edition of Java Annotated Monthly! This issue is packed with fresh articles, helpful tips, and ideas to keep you inspired and motivated in your work. We’re excited to feature Aicha Laafia, a Java engineer passionate about writing clean, green code and empowering women in tech. She’ll share how sustainable coding practices […]
-Link to article: https://blog.jetbrains.com/idea/2025/07/java-annotated-monthly-july-2025/ 
           
           
         
