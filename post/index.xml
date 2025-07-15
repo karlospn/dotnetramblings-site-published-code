@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 15 Jul 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Jul 2025 18:00:13 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Perhaps not a recommended usage for an emergency power outlet</title>
+      <title>Updates to Warning Suppressions in Microsoft C&#43;&#43; Code Analysis</title>
       <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_0/</link>
-      <pubDate>Tue, 15 Jul 2025 14:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Jul 2025 18:00:13 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_0/</guid>
+      <description>
+        
+          
+            Microsoft C++ Code Analysis is a powerful static analysis tool integrated into Visual Studio that helps you identify and fix potential issues in your C++ code. Large projects require effective management of analysis warnings to maintain code quality and you sometimes need to suppress warnings, but must do so in a clear and auditable way.
+Link to article: https://devblogs.microsoft.com/cppblog/updates-to-warning-suppressions-in-microsoft-c-code-analysis 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Power Platform API and SDKs: From UX-First to API-First</title>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_1/</link>
+      <pubDate>Tue, 15 Jul 2025 17:38:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_1/</guid>
+      <description>
+        
+          
+            Historically, Power Platform has empowered administrators through the Power Platform Admin Center (PPAC). This UX-first experience offered a seamless, intuitive interface for managing environments, automating everyday tasks, and discovering new capabilities within the platform. Today, we’re taking a bold step forward. We’re tran
+Link to article: https://devblogs.microsoft.com/powerplatform/power-platform-api-and-sdks-from-ux-first-to-api-first 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Extension concerns when replacing the OS disk</title>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_2/</link>
+      <pubDate>Tue, 15 Jul 2025 17:28:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_2/</guid>
+      <description>
+        
+          
+            One confusing area regarding extensions on Azure VMs is - what happens when the OS disk is swapped out? Well, in that case the extensions will run again. Is this the desired behavior? Well, we don&#39;t know. There are many types of extensions. Some handle monitoring and security, so those you&#39;ll probably want to keep. Some install applications
+Link to article: https://devblogs.microsoft.com/azure-vm-runtime/extension-concerns-when-replacing-the-os-disk 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>.NET 10 Preview 6 is now available!</title>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_3/</link>
+      <pubDate>Tue, 15 Jul 2025 17:22:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_3/</guid>
+      <description>
+        
+          
+            Today, we are excited to announce the sixth preview release of .NET 10 with enhancements across the .NET Runtime, SDK, libraries, C#, ASP.NET Core, Blazor, .NET MAUI, and more. Check out the full release notes linked below and get started today. [cta-button align=&amp;quot;center&amp;quot; text=&amp;quot;Download .NET 10 Preview 6&amp;quot; url=&amp;quot;https://get.d
+Link to article: https://devblogs.microsoft.com/dotnet/dotnet-10-preview-6 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Perhaps not a recommended usage for an emergency power outlet</title>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_4/</link>
+      <pubDate>Tue, 15 Jul 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_4/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250715-00/?p=11138
     
     <item>
       <title>Supercharge generative AI workflows with NVIDIA DGX Cloud on AWS and Amazon Bedrock Custom Model Import</title>
-      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_5/</link>
       <pubDate>Tue, 15 Jul 2025 13:32:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_5/</guid>
       <description>
         
           
@@ -44,10 +112,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/supercharge-gener
     
     <item>
       <title>Accelerate generative AI inference with NVIDIA Dynamo and Amazon EKS</title>
-      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_6/</link>
       <pubDate>Tue, 15 Jul 2025 13:03:32 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_6/</guid>
       <description>
         
           
@@ -61,10 +129,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-genera
     
     <item>
       <title>AWS doubles investment in AWS Generative AI Innovation Center, marking two years of customer success</title>
-      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_7/</link>
       <pubDate>Tue, 15 Jul 2025 12:40:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_7/</guid>
       <description>
         
           
@@ -78,10 +146,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/aws-doubles-inves
     
     <item>
       <title>Spring Debugger: Working With Dynamic Database Connections Just Got Simpler</title>
-      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_8/</link>
       <pubDate>Tue, 15 Jul 2025 12:16:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_8/</guid>
       <description>
         
           
@@ -95,10 +163,10 @@ Link to article: https://blog.jetbrains.com/idea/2025/07/spring-debugger-working
     
     <item>
       <title>dotInsights | July 2025</title>
-      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_9/</link>
       <pubDate>Tue, 15 Jul 2025 10:24:29 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_9/</guid>
       <description>
         
           
@@ -112,10 +180,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2025/07/15/dotinsights-july-2
     
     <item>
       <title>C# 14 extension members; AKA extension everything: Exploring the .NET 10 preview - Part 3</title>
-      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_10/</link>
       <pubDate>Tue, 15 Jul 2025 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_10/</guid>
       <description>
         
           
@@ -129,10 +197,10 @@ Link to article: https://andrewlock.net/exploring-dotnet-10-preview-features-3-c
     
     <item>
       <title>How to Use Claude Code Subagents for Complex Development Projects</title>
-      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_12/</link>
       <pubDate>Tue, 15 Jul 2025 08:00:24 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_12/</guid>
       <description>
         
           
@@ -146,10 +214,10 @@ Link to article: https://goatreview.com/how-to-use-claude-code-subagents-tutoria
     
     <item>
       <title>Lesser-known C# features that can simplify your code</title>
-      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_7/</link>
+      <link>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_11/</link>
       <pubDate>Tue, 15 Jul 2025 08:27:08 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_07_2025/15_07_2025_11/</guid>
       <description>
         
           
