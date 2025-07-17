@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Breaking to Build: Fuzzing the Kotlin Compiler | .NET Ramblings</title>
+<title>If the Window Runtime PropertyValue is for boxing non-inspectables, why is there a PropertyValue.CreateInspectable? | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="At JetBrains, we care about Kotlin compiler quality. One powerful way to test it? Fuzzing, an approach that feeds programs unexpected, often random, inputs to …" />
+<meta name="description" content="The Windows Runtime provides a class named Property­Value which is a helper class for boxing non-inspectables. &quot;Boxing&quot; means taking a value type and …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Breaking to Build: Fuzzing the Kotlin Compiler" />
+<meta name="twitter:title" content="If the Window Runtime PropertyValue is for boxing non-inspectables, why is there a PropertyValue.CreateInspectable?" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/17_07_2025/17_07_2025_2/" />
-<meta property="og:title" content="Breaking to Build: Fuzzing the Kotlin Compiler" />
-<meta property="og:description" content="At JetBrains, we care about Kotlin compiler quality. One powerful way to test it? Fuzzing, an approach that feeds programs unexpected, often random, inputs to …" />
+<meta property="og:title" content="If the Window Runtime PropertyValue is for boxing non-inspectables, why is there a PropertyValue.CreateInspectable?" />
+<meta property="og:description" content="The Windows Runtime provides a class named Property­Value which is a helper class for boxing non-inspectables. &quot;Boxing&quot; means taking a value type and …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Breaking to Build: Fuzzing the Kotlin Compiler</h1>
+    <h1 class="post_title">If the Window Runtime PropertyValue is for boxing non-inspectables, why is there a PropertyValue.CreateInspectable?</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Jul 17, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Jul 17, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>At JetBrains, we care about Kotlin compiler quality. One powerful way to test it? Fuzzing, an approach that feeds programs unexpected, often random, inputs to uncover bugs that traditional tests may miss. It may sound chaotic, but it works, especially for complex software like compilers. In a previous post, our colleagues introduced kotlinx.fuzz, a powerful […]</p>
+    <div class="post_body"><p>The Windows Runtime provides a class named Property­Value which is a helper class for boxing non-inspectables. &quot;Boxing&quot; means taking a value type and wrapping inside an object so it can be used as an object type, and in the Windows Runtime, &quot;objects&quot; are represented by the IInspectable interface. There are</p>
 <ul>
-<li>Link to article: <a href="https://blog.jetbrains.com/research/2025/07/fuzzing-the-kotlin-compiler/">https://blog.jetbrains.com/research/2025/07/fuzzing-the-kotlin-compiler/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250717-00/?p=111388">https://devblogs.microsoft.com/oldnewthing/20250717-00/?p=111388</a></li>
 </ul>
 
     </div>
