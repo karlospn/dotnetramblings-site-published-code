@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 18 Jul 2025 07:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Jul 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI Model Promotion with dstoolkit-mlops-v2</title>
+      <title>The case of the invalid instruction exception on an instruction that should never have executed</title>
       <link>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_0/</link>
-      <pubDate>Fri, 18 Jul 2025 07:00:00 +0000</pubDate>
+      <pubDate>Fri, 18 Jul 2025 14:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_0/</guid>
+      <description>
+        
+          
+            The image processing folks added specialized AVX2 versions of their code, but found that it was crashing with an illegal instruction exception. The code went something like this: void SwizzleAVX2(uint32_t* source, uint32_t* destination, uint32_t count) { ⟦ do stuff using AVX-only instructions ⟧ ⟦ such as _mm256_cv
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250718-00/?p=111390 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>IntelliJ IDEA 2025.2 Beta: EAP Closure and Our New Approach to Release Updates</title>
+      <link>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_1/</link>
+      <pubDate>Fri, 18 Jul 2025 13:09:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_1/</guid>
+      <description>
+        
+          
+            The Beta version of IntelliJ IDEA 2025.2 is now available, marking the end of our Early Access Program for this release cycle. Download IntelliJ IDEA 2025.2 Beta Thank you to everyone who used the EAP builds, shared feedback, and helped shape this release. As we mentioned in the EAP opening post, we have moved away […]
+Link to article: https://blog.jetbrains.com/idea/2025/07/intellij-idea-2025-2-beta/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Reworked Terminal Becomes the Default in 2025.2</title>
+      <link>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_2/</link>
+      <pubDate>Fri, 18 Jul 2025 12:23:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_2/</guid>
+      <description>
+        
+          
+            Starting from 2025.2, the default terminal implementation is now the reworked terminal. To create this new implementation, the classic terminal was rewritten almost from scratch to provide the technical foundation for new terminal features like visual separation of executed commands, AI integration, and the ability to work seamlessly in remote development scenarios. Functionally, it is […]
+Link to article: https://blog.jetbrains.com/platform/2025/07/the-reworked-terminal-becomes-the-default-in-2025-2/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI Model Promotion with dstoolkit-mlops-v2</title>
+      <link>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_3/</link>
+      <pubDate>Fri, 18 Jul 2025 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_3/</guid>
       <description>
         
           
