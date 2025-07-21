@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meziantou.net on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/meziantou.net/</link>
+    <description>Recent content in Meziantou.net on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Mon, 21 Jul 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Test Roslyn Source Generators</title>
+      <link>https://www.dotnetramblings.com/post/21_07_2025/21_07_2025_1/</link>
+      <pubDate>Mon, 21 Jul 2025 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_07_2025/21_07_2025_1/</guid>
+      <description>
+        
+          
+            When developing a Roslyn Source Generator, it&#39;s important to verify that it works as intended. There are several approaches to testing: you can compare the generated code output (for example, with snapshot testing), or you can go further and ensure that the generated code behaves correctly when executed. In this post, I&#39;ll show example for both ways. Note that I strongly recommend to use the second…
+Link to article: https://www.meziantou.net/how-to-test-roslyn-source-generators.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
