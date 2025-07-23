@@ -7,18 +7,120 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 23 Jul 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Jul 2025 17:00:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exploring possible solutions to the inconsistency in how Windows searches case-insensitively for named resources</title>
+      <title>Can You Build Agent2Agent Communication on MCP? Yes!</title>
       <link>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_0/</link>
-      <pubDate>Wed, 23 Jul 2025 14:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 Jul 2025 17:00:19 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_0/</guid>
       <description>
         
           
+            MCP has evolved significantly beyond its original goal of &amp;quot;providing context to LLMs.&amp;quot; With recent enhancements including resumable streams, elicitation,
+Link to article: https://devblogs.microsoft.com//can-you-build-agent2agent-communication-on-mcp-yes 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Multi-tenant RAG implementation with Amazon Bedrock and Amazon OpenSearch Service for SaaS using JWT</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_1/</link>
+      <pubDate>Wed, 23 Jul 2025 16:44:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_1/</guid>
+      <description>
+        
+          
+            In this post, we introduce a solution that uses OpenSearch Service as a vector data store in multi-tenant RAG, achieving data isolation and routing using JWT and FGAC. This solution uses a combination of JWT and FGAC to implement strict tenant data access isolation and routing, necessitating the use of OpenSearch Service.
+Link to article: https://aws.amazon.com/blogs/machine-learning/multi-tenant-rag-implementation-with-amazon-bedrock-and-amazon-opensearch-service-for-saas-using-jwt/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Enhance generative AI solutions using Amazon Q index with Model Context Protocol – Part 1</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_2/</link>
+      <pubDate>Wed, 23 Jul 2025 16:40:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we explore best practices and integration patterns for combining Amazon Q index and MCP, enabling enterprises to build secure, scalable, and actionable AI search-and-retrieval architectures.
+Link to article: https://aws.amazon.com/blogs/machine-learning/enhance-generative-ai-solutions-using-amazon-q-index-with-model-context-protocol-part-1/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Bob’s Used Books: Build a .NET Serverless Application on AWS, Part 1: Deployment and Setup</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_3/</link>
+      <pubDate>Wed, 23 Jul 2025 16:35:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_3/</guid>
+      <description>
+        
+          
+            Introduction Bob’s Used Books is an eCommerce application developed to provide the .NET community with a real world .NET application sample that uses multiple AWS frameworks and services. The original monolithic version of Bob’s Used Books was discussed in a previous blog series, Bob’s Used Books: A .NET Sample Application (Part1, Part2 and Part3), with […]
+Link to article: https://aws.amazon.com/blogs/dotnet/bobs-used-books-build-a-net-serverless-application-on-aws-part-1-deployment-and-setup/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>IntelliJ IDEA 2025.1.4 Is Out!</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_4/</link>
+      <pubDate>Wed, 23 Jul 2025 14:59:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_4/</guid>
+      <description>
+        
+          
+            We’ve just released another update for v2025.1. You can update to this version from inside the IDE, using the Toolbox App, or by using snaps if you are a Ubuntu user. You can also download it from our website. This version brings the following refinements: To see the full list of issues addressed in this […]
+Link to article: https://blog.jetbrains.com/idea/2025/07/intellij-idea-2025-1-4/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exploring possible solutions to the inconsistency in how Windows searches case-insensitively for named resources</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_5/</link>
+      <pubDate>Wed, 23 Jul 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_5/</guid>
+      <description>
+        
+          
             Some time ago, I explained why Windows has trouble finding Win32 resources with accented characters. It boils down to an ambiguity in the Portable Executable sp
 Link to article: https://devblogs.microsoft.com/oldnewthing/20250723-00/?p=111403 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing OpenAI DevDay 2025</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_6/</link>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_6/</guid>
+      <description>
+        
+          
+            OpenAI DevDay returns on October 6, 2025 in San Francisco—bringing together 1,500+ developers to preview new tools, hear from OpenAI leaders, and shape the future of AI.
+Link to article: https://openai.com/index/announcing-devday-2025 
           
           
         
