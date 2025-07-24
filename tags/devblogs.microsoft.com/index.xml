@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 23 Jul 2025 22:34:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jul 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How can I wait until a named object (say a mutex) is created?</title>
+      <link>https://www.dotnetramblings.com/post/24_07_2025/24_07_2025_1/</link>
+      <pubDate>Thu, 24 Jul 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_07_2025/24_07_2025_1/</guid>
+      <description>
+        
+          
+            A customer used a named mutex as a way to detect that another instance of the program is already running. This is pretty standard. They also used the presence of the mutex to indicate that the program is ready to receive work requests: When the program creates the mutex, this prevents new instances from running, and it also announce
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250724-00/?p=111406 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>MSSQL Extension for VS Code: Agent Mode Updates, Colored Connections, and Schema Designer Enhancements</title>
       <link>https://www.dotnetramblings.com/post/23_07_2025/23_07_2025_0/</link>
