@@ -365,39 +365,5 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/guest-blog-build
       </description>
     </item>
     
-    <item>
-      <title>The case of the invalid instruction exception on an instruction that should never have executed</title>
-      <link>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_3/</link>
-      <pubDate>Fri, 18 Jul 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_3/</guid>
-      <description>
-        
-          
-            The image processing folks added specialized AVX2 versions of their code, but found that it was crashing with an illegal instruction exception. The code went something like this: void SwizzleAVX2(uint32_t* source, uint32_t* destination, uint32_t count) { ⟦ do stuff using AVX-only instructions ⟧ ⟦ such as _mm256_cv
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250718-00/?p=111390 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AI Model Promotion with dstoolkit-mlops-v2</title>
-      <link>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_6/</link>
-      <pubDate>Fri, 18 Jul 2025 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_07_2025/18_07_2025_6/</guid>
-      <description>
-        
-          
-            Introduction In a recent engagement, our team of Data Scientists and Software Engineers, developed a series of custom AI models to meet our customer&#39;s specific use case. While doing so, consideration was given to how best to allow Data Scientists the freedom to quickly experiment and iterate on model development, while also incorpora
-Link to article: https://devblogs.microsoft.com/ise/ai-model-promotion-with-dstoolkit-v2 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
