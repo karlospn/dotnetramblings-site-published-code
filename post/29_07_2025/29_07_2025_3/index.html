@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Retiring Docker Content Trust | .NET Ramblings</title>
+<title>Microsoft build of Go 1.25 crypto backend changes | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Docker Content Trust (DCT) was introduced 10 years ago as a way to verify the integrity and publisher of container images using The Update Framework (TUF) and …" />
+<meta name="description" content="Starting in Go 1.25, the Microsoft build of Go will default to using system-provided cryptography: OpenSSL on Linux and CNG on Windows. The systemcrypto …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Retiring Docker Content Trust" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
+<meta name="twitter:title" content="Microsoft build of Go 1.25 crypto backend changes" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_3/" />
-<meta property="og:title" content="Retiring Docker Content Trust" />
-<meta property="og:description" content="Docker Content Trust (DCT) was introduced 10 years ago as a way to verify the integrity and publisher of container images using The Update Framework (TUF) and …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
+<meta property="og:title" content="Microsoft build of Go 1.25 crypto backend changes" />
+<meta property="og:description" content="Starting in Go 1.25, the Microsoft build of Go will default to using system-provided cryptography: OpenSSL on Linux and CNG on Windows. The systemcrypto …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Retiring Docker Content Trust</h1>
+    <h1 class="post_title">Microsoft build of Go 1.25 crypto backend changes</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Jul 29, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Jul 29, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Docker Content Trust (DCT) was introduced 10 years ago as a way to verify the integrity and publisher of container images using The Update Framework (TUF) and the Notary v1 project. However, the upstream Notary codebase is no longer actively maintained and the ecosystem has since moved toward newer tools for image signing and verification....</p>
+    <div class="post_body"><p>Starting in Go 1.25, the Microsoft build of Go will default to using system-provided cryptography: OpenSSL on Linux and CNG on Windows. The systemcrypto GOEXPERIMENT will be enabled by default and picks the supported backend for the target platform.</p>
 <ul>
-<li>Link to article: <a href="https://www.docker.com/blog/retiring-docker-content-trust/">https://www.docker.com/blog/retiring-docker-content-trust/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/go/microsoft-go-defaults-to-system-crypto">https://devblogs.microsoft.com/go/microsoft-go-defaults-to-system-crypto</a></li>
 </ul>
 
     </div>
