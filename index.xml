@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 29 Jul 2025 15:28:53 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jul 2025 16:53:35 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Watch Live: Visual Studio Toolbox at VS LIVE! Redmond 2025</title>
+      <title>Microsoft build of Go 1.25 crypto backend changes</title>
       <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_0/</link>
-      <pubDate>Tue, 29 Jul 2025 15:28:53 +0000</pubDate>
+      <pubDate>Tue, 29 Jul 2025 16:53:35 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_0/</guid>
+      <description>
+        
+          
+            Starting in Go 1.25, the Microsoft build of Go will default to using system-provided cryptography: OpenSSL on Linux and CNG on Windows. The systemcrypto GOEXPERIMENT will be enabled by default and picks the supported backend for the target platform.
+Link to article: https://devblogs.microsoft.com/go/microsoft-go-defaults-to-system-crypto 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerate modernization and cloud migration</title>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_1/</link>
+      <pubDate>Tue, 29 Jul 2025 16:46:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_1/</guid>
+      <description>
+        
+          
+            In our recent report, we describe that many enterprises today face a stark reality: despite years of digital transformation efforts, the majority of enterprise workloads—up to 80%—still run on legacy systems. This lag in modernization not only increases operational costs and security risks but also limits the agility needed to compete in a rapidly evolving...
+Link to article: https://www.docker.com/blog/accelerate-modernization-and-cloud-migration/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Retiring Docker Content Trust</title>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_2/</link>
+      <pubDate>Tue, 29 Jul 2025 16:41:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_2/</guid>
+      <description>
+        
+          
+            Docker Content Trust (DCT) was introduced 10 years ago as a way to verify the integrity and publisher of container images using The Update Framework (TUF) and the Notary v1 project. However, the upstream Notary codebase is no longer actively maintained and the ecosystem has since moved toward newer tools for image signing and verification....
+Link to article: https://www.docker.com/blog/retiring-docker-content-trust/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>DataGrip 2025.2: Database Object Context in the AI Chat, Introspection by Levels for PostgreSQL and MS SQL Server, and More!</title>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_3/</link>
+      <pubDate>Tue, 29 Jul 2025 15:36:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_3/</guid>
+      <description>
+        
+          
+            DataGrip 2025.2 introduces a set of new features to elevate your development experience. In this version, introspection by levels is now supported for PostgreSQL and Microsoft SQL Server, giving you greater control over the metadata loaded for these databases. For PostgreSQL, a smart refresh mechanism has been implemented to significantly reduce the time spent refreshing […]
+Link to article: https://blog.jetbrains.com/datagrip/2025/07/29/datagrip-2025-2-database-object-context-in-the-ai-chat-introspection-by-levels-for-postgresql-and-ms-sql-server-and-more/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Watch Live: Visual Studio Toolbox at VS LIVE! Redmond 2025</title>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_4/</link>
+      <pubDate>Tue, 29 Jul 2025 15:28:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_4/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/watch-live-visual-s
     
     <item>
       <title>How Nippon India Mutual Fund improved the accuracy of AI assistant responses using advanced RAG methods on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_5/</link>
       <pubDate>Tue, 29 Jul 2025 14:57:29 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_5/</guid>
       <description>
         
           
@@ -43,11 +111,28 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/how-nippon-india-
     </item>
     
     <item>
+      <title>Why is there a window with no name blocking Windows shutdown?</title>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_6/</link>
+      <pubDate>Tue, 29 Jul 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_6/</guid>
+      <description>
+        
+          
+            If you try to shut down Windows, and there&#39;s a program that is not allowing the shutdown to proceed, then the Blocked Shutdown Resolver (BSDR) shows a list of windows that includes the one that is processing the shutdown notification, as well as
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250729-00/?p=111417 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Koog: Building and Scaling AI Agents – Join Our Livestream Series</title>
-      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_7/</link>
       <pubDate>Tue, 29 Jul 2025 13:15:35 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_7/</guid>
       <description>
         
           
@@ -61,10 +146,10 @@ Link to article: https://blog.jetbrains.com/ai/2025/07/koog-building-and-scaling
     
     <item>
       <title>JetBrains x ICPC: The 2024–2025 Season at a Glance</title>
-      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_8/</link>
       <pubDate>Tue, 29 Jul 2025 12:35:41 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_8/</guid>
       <description>
         
           
@@ -78,10 +163,10 @@ Link to article: https://blog.jetbrains.com/blog/2025/07/29/jetbrains-icpc-2024-
     
     <item>
       <title>Faster Python: Unlocking the Python Global Interpreter Lock</title>
-      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_9/</link>
       <pubDate>Tue, 29 Jul 2025 10:41:17 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_9/</guid>
       <description>
         
           
@@ -94,11 +179,28 @@ Link to article: https://blog.jetbrains.com/pycharm/2025/07/faster-python-unlock
     </item>
     
     <item>
-      <title>Running one-off .NET tools with dnx: Exploring the .NET 10 preview - Part 5</title>
-      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_5/</link>
+      <title>Introducing study mode in ChatGPT</title>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_11/</link>
       <pubDate>Tue, 29 Jul 2025 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_11/</guid>
+      <description>
+        
+          
+            Introducing study mode in ChatGPT, a new learning experience that helps you work through problems step by step, guiding students with questions, scaffolding, and feedback for deeper learning.
+Link to article: https://openai.com/index/chatgpt-study-mode 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Running one-off .NET tools with dnx: Exploring the .NET 10 preview - Part 5</title>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_10/</link>
+      <pubDate>Tue, 29 Jul 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_10/</guid>
       <description>
         
           
@@ -112,10 +214,10 @@ Link to article: https://andrewlock.net/exploring-dotnet-10-preview-features-5-r
     
     <item>
       <title>How to Use Claude Code Effectively: A Step-by-Step Method to Avoid Getting Lost</title>
-      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_7/</link>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_13/</link>
       <pubDate>Tue, 29 Jul 2025 08:00:48 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_13/</guid>
       <description>
         
           
@@ -129,10 +231,10 @@ Link to article: https://goatreview.com/claude-code-effective-method-avoid-getti
     
     <item>
       <title>Ship, Share, and Win: The Kotlin Multiplatform Award at Shipaton 2025</title>
-      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_14/</link>
       <pubDate>Tue, 29 Jul 2025 07:27:01 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_14/</guid>
       <description>
         
           
@@ -146,10 +248,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2025/07/kmp-shipaton/
     
     <item>
       <title>Exploring Source Generators in C#: Real-World Examples</title>
-      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_12/</link>
       <pubDate>Tue, 29 Jul 2025 08:16:40 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_12/</guid>
       <description>
         
           
@@ -163,10 +265,10 @@ Link to article: https://blog.elmah.io/exploring-source-generators-in-c-real-wor
     
     <item>
       <title>Build your own Static Code Analysis tool in .NET by knowing how Assembly, Type, MethodInfo, ParameterInfo work.</title>
-      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_9/</link>
+      <link>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_15/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_07_2025/29_07_2025_15/</guid>
       <description>
         
           
