@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 01 Aug 2025 16:12:46 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Aug 2025 16:19:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Observing and evaluating AI agentic workflows with Strands Agents SDK and Arize AX</title>
+      <title>Announcing TypeScript 5.9</title>
       <link>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_0/</link>
-      <pubDate>Fri, 01 Aug 2025 16:12:46 +0000</pubDate>
+      <pubDate>Fri, 01 Aug 2025 16:19:25 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_0/</guid>
+      <description>
+        
+          
+            Today we are excited to announce the release of TypeScript 5.9! If you&#39;re not familiar with TypeScript, it&#39;s a language that builds on JavaScript by adding syntax for types. With types, TypeScript makes it possible to check your code to avoid bugs ahead of time. The TypeScript type-checker does all this, and is also the foundation of grea
+Link to article: https://devblogs.microsoft.com/typescript/announcing-typescript-5-9 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Observing and evaluating AI agentic workflows with Strands Agents SDK and Arize AX</title>
+      <link>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_1/</link>
+      <pubDate>Fri, 01 Aug 2025 16:12:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_1/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/observing-and-eva
     
     <item>
       <title>Building AIOps with Amazon Q Developer CLI and MCP Server</title>
-      <link>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_2/</link>
       <pubDate>Fri, 01 Aug 2025 15:23:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_2/</guid>
       <description>
         
           
@@ -44,10 +61,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/building-aiops-wi
     
     <item>
       <title>Containerize legacy Spring Boot application using Amazon Q Developer CLI and MCP server</title>
-      <link>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_3/</link>
       <pubDate>Fri, 01 Aug 2025 15:22:58 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_3/</guid>
       <description>
         
           
@@ -60,16 +77,50 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/containerize-lega
     </item>
     
     <item>
+      <title>Two related questions about keeping track of PIDs of IPC clients</title>
+      <link>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_4/</link>
+      <pubDate>Fri, 01 Aug 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_4/</guid>
+      <description>
+        
+          
+            A customer was writing a program that was intended to run in the background and was looking for recommendations on how to store its PID so that other programs can find it and start communicating with the background process. Another customer was writing a provider program that will have multiple clients connect to it. They want the p
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250801-00/?p=111427 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Rust vs. Java: Choosing the right tool for your next project</title>
-      <link>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_5/</link>
       <pubDate>Fri, 01 Aug 2025 13:19:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_5/</guid>
       <description>
         
           
             Rust and Java couldn’t be any more different. One is a battle-tested giant with enterprise-scale use cases. The other is a relative newbie with a rapidly growing community and real-world applications. While Rust is praised for its focus on safety and performance, its complexity presents a challenge to adopters (arguably, the steep learning curve is […]
 Link to article: https://blog.jetbrains.com/rust/2025/08/01/rust-vs-java/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Figma uses AI to transform digital design</title>
+      <link>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_6/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_6/</guid>
+      <description>
+        
+          
+            Discover how Figma is transforming digital design with AI. David Kossnick shares how tools like Figma Make empower teams to prototype, collaborate, and build with AI—reshaping workflows for designers, developers, and non-technical creators alike.
+Link to article: https://openai.com/index/figma-david-kossnick 
           
           
         
