@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 01 Aug 2025 19:23:13 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Keep Your Data Boundaries Intact in a Modular Monolith</title>
+      <link>https://www.dotnetramblings.com/post/02_08_2025/02_08_2025_0/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_08_2025/02_08_2025_0/</guid>
+      <description>
+        
+          
+            Want real boundaries in your modular monolith? This article shows how to enforce them at the database level using Postgres schemas, roles, and EF Core — so your modules can&#39;t step on each other&#39;s data, even by accident.
+Link to article: https://www.milanjovanovic.tech/blog/how-to-keep-your-data-boundaries-intact-in-a-modular-monolith 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Introducing Amazon Bedrock AgentCore Browser Tool</title>
       <link>https://www.dotnetramblings.com/post/01_08_2025/01_08_2025_0/</link>
@@ -1394,158 +1411,6 @@ Link to article: https://www.devleader.ca/2025/07/26/weekly-recap-20250725
           
             EF 10 introduces named query filters, allowing multiple filters on a single entity and letting you selectively disable specific filters without turning off all query filters. This article explains how the feature works, shows practical examples for combining soft deletion and multi-tenancy, highlights best practices like using constants for filter names, and explores where such fine-grained control is particularly useful.
 Link to article: https://www.milanjovanovic.tech/blog/named-query-filters-in-ef-10-multiple-query-filters-per-entity 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Container Options: Matching Services to Operational Responsibility</title>
-      <link>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_0/</link>
-      <pubDate>Fri, 25 Jul 2025 21:01:29 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_0/</guid>
-      <description>
-        
-          
-            Customers are looking to modernize their application on cloud and ask us for guidance on which Azure container services to choose. Should you choose A or B container services or A+B container services? Some choose both (A + B) or use A or B appr
-Link to article: https://devblogs.microsoft.com/all-things-azure/azure-container-options-matching-services-to-operational-responsibility 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Scalable Data Governance &amp; Compliance with UDM</title>
-      <link>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_1/</link>
-      <pubDate>Fri, 25 Jul 2025 20:19:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_1/</guid>
-      <description>
-        
-          
-            Why Data Governance Matters In today’s data-driven world, governance isn’t just a technical requirement—it’s foundational to successful business operations. Good governance ensures data is not only accurate and compliant but also discoverable and usable at scale. At the heart of this approach lies robust, high-quality meta
-Link to article: https://devblogs.microsoft.com/udm/scalable-data-governance-compliance-with-udm 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build an intelligent eDiscovery solution using Amazon Bedrock Agents</title>
-      <link>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_2/</link>
-      <pubDate>Fri, 25 Jul 2025 17:22:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_2/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to build an intelligent eDiscovery solution using Amazon Bedrock Agents for real-time document analysis. We show how to deploy specialized agents for document classification, contract analysis, email review, and legal document processing, all working together through a multi-agent architecture. We walk through the implementation details, deployment steps, and best practices to create an extensible foundation that organizations can adapt to their specific eDiscovery requirements.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How PerformLine uses prompt engineering on Amazon Bedrock to detect compliance violations</title>
-      <link>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_3/</link>
-      <pubDate>Fri, 25 Jul 2025 17:03:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_3/</guid>
-      <description>
-        
-          
-            PerformLine operates within the marketing compliance industry, a specialized subset of the broader compliance software market, which includes various compliance solutions like anti-money laundering (AML), know your customer (KYC), and others. In this post, PerformLine and AWS explore how PerformLine used Amazon Bedrock to accelerate compliance processes, generate actionable insights, and provide contextual data—delivering the speed and accuracy essential for large-scale oversight.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-performline-uses-prompt-engineering-on-amazon-bedrock-to-detect-compliance-violations/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing TypeScript 5.9 RC</title>
-      <link>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_4/</link>
-      <pubDate>Fri, 25 Jul 2025 16:53:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_4/</guid>
-      <description>
-        
-          
-            Today we are excited to announce the Release Candidate (RC) of TypeScript 5.9! To get started using the Release Candidate, you can get it through npm with the following command: npm install -D typescript@rc Let&#39;s take a look at what&#39;s new
-Link to article: https://devblogs.microsoft.com/typescript/announcing-typescript-5-9-rc 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Database Migration Strategies</title>
-      <link>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_5/</link>
-      <pubDate>Fri, 25 Jul 2025 14:55:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_5/</guid>
-      <description>
-        
-          
-            Database migrations gone wrong. You deploy a new feature in your app and suddenly half of it breaks. You start digging through your logs and realize it’s a database schema change that’s causing all the issues. Now you’re scrambling, wondering if you can roll back your code changes. Nope, the damage is done. You have… Read More »Database Migration Strategies The post Database Migration Strategies appeared first on CodeOpinion.
-Link to article: https://codeopinion.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How can I confirm in the Windows debugger that I&#39;m looking at a COMDAT-folded function?</title>
-      <link>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_6/</link>
-      <pubDate>Fri, 25 Jul 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_6/</guid>
-      <description>
-        
-          
-            Some time ago, we learned about identical COMDAT folding (and also
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250725-00/?p=111409 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Upcoming Changes to JetBrains .NET Tools</title>
-      <link>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_7/</link>
-      <pubDate>Fri, 25 Jul 2025 13:02:34 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_7/</guid>
-      <description>
-        
-          
-            We’re making some changes to our .NET tools, and we want to give you an overview of what’s happening and the reasons behind the changes. Some features you might be using are being discontinued or transformed, while others are getting significant refinements. We believe that these changes will allow us to build better tools for […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/07/25/upcoming-changes-to-dotnet-tools/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>From Manual Testing to AI-Generated Automation: Our Azure DevOps MCP &#43; Playwright Success Story</title>
-      <link>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_8/</link>
-      <pubDate>Fri, 25 Jul 2025 06:47:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_07_2025/25_07_2025_8/</guid>
-      <description>
-        
-          
-            In today’s fast-paced software development cycles, manual testing often becomes a significant bottleneck. Our team was facing a growing backlog of test cases that required repetitive manual execution—running the entire test suite every sprint. This consumed valuable time that could be better spent on exploratory testing and higher-value
-Link to article: https://devblogs.microsoft.com/devops/from-manual-testing-to-ai-generated-automation-our-azure-devops-mcp-playwright-success-story 
           
           
         
