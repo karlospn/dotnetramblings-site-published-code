@@ -10,10 +10,10 @@
     <lastBuildDate>Mon, 04 Aug 2025 15:00:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s new in Azure AI Foundry | July 2025</title>
-      <link>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_0/</link>
+      <link>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_1/</link>
       <pubDate>Mon, 04 Aug 2025 15:00:27 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_0/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_1/</guid>
       <description>
         
           
@@ -27,15 +27,32 @@ Link to article: https://devblogs.microsoft.com/foundry/whats-new-in-azure-ai-fo
     
     <item>
       <title>The new Dependabot NuGet updater: 65% faster with native .NET</title>
-      <link>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_2/</link>
       <pubDate>Mon, 04 Aug 2025 15:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_2/</guid>
       <description>
         
           
             If you&#39;ve ever waited impatiently for Dependabot to update your .NET dependencies, or worse, watched it fail with cryptic errors, we have some great news. Over the past year, the Dependabot team has worked on a refactor of the NuGet updater, and the results are impressive. From hybrid to native The previous NuGet updater use
 Link to article: https://devblogs.microsoft.com/dotnet/the-new-dependabot-nuget-updater 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How can I read more than 4GB of data from a file in a single call to &lt;code&gt;Read­File&lt;/code&gt;?</title>
+      <link>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_4/</link>
+      <pubDate>Mon, 04 Aug 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_4/</guid>
+      <description>
+        
+          
+            The nNumber­Of­Bytes­To­Read parameter to Read­File is a 32-bit unsigned integer, which limits the number of bytes that could be read at once to 4GB. What if you need to read more than 4GB? The Read­File function cannot read more than 4GB of data at a time. At the time the function was or
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250804-00/?p=111432 
           
           
         
