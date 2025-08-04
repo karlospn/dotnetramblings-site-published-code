@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 04 Aug 2025 17:10:45 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Aug 2025 17:51:08 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cost tracking multi-tenant model inference on Amazon Bedrock</title>
+      <title>AI judging AI: Scaling unstructured text analysis with Amazon Nova</title>
+      <link>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_0/</link>
+      <pubDate>Mon, 04 Aug 2025 17:51:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we highlight how you can deploy multiple generative AI models in Amazon Bedrock to instruct an LLM model to create thematic summaries of text responses. We then show how to use multiple LLM models as a jury to review these LLM-generated summaries and assign a rating to judge the content alignment between the summary title and summary description.
+Link to article: https://aws.amazon.com/blogs/machine-learning/ai-judging-ai-scaling-unstructured-text-analysis-with-amazon-nova/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building an AI-driven course content generation system using Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_1/</link>
-      <pubDate>Mon, 04 Aug 2025 17:10:45 +0000</pubDate>
+      <pubDate>Mon, 04 Aug 2025 17:46:30 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_1/</guid>
+      <description>
+        
+          
+            In this post, we explore each component in detail, along with the technical implementation of the two core modules: course outline generation and course content generation.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-an-ai-driven-course-content-generation-system-using-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Handmade.com modernizes product image and description handling with Amazon Bedrock and Amazon OpenSearch Service</title>
+      <link>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_2/</link>
+      <pubDate>Mon, 04 Aug 2025 17:21:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we explore how Handmade.com, a leading hand-crafts marketplace, modernized their product description handling by implementing an AI-driven pipeline using Amazon Bedrock and Amazon OpenSearch Service. The solution combines Anthropic&#39;s Claude 3.7 Sonnet LLM for generating descriptions, Amazon Titan Text Embeddings V2 for vector embedding, and semantic search capabilities to automate and enhance product descriptions across their catalog of over 60,000 items.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-handmade-com-modernizes-product-image-and-description-handling-with-amazon-bedrock-and-amazon-opensearch-service/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Cost tracking multi-tenant model inference on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_4/</link>
+      <pubDate>Mon, 04 Aug 2025 17:10:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_08_2025/04_08_2025_4/</guid>
       <description>
         
           
