@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 08 Aug 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Aug 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on creating a tracking pointer class, part 1: Concept art</title>
+      <link>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_1/</link>
+      <pubDate>Mon, 11 Aug 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_1/</guid>
+      <description>
+        
+          
+            Suppose you have a C++ object, and you want to be able to create a &amp;quot;tracking pointer&amp;quot; that points to the object and follows it as it moves. // Concept art - final product may differ in significant ways struct Widget : trackable_object { ⟦ ... ⟧ }; Widget w; tracking_ptr p(w); asse
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250811-00/?p=111451 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Under what conditions could a &lt;code&gt;Read­File&lt;/code&gt; or &lt;code&gt;Write­File&lt;/code&gt; fail to transfer all of the bytes, and how do I detect that?</title>
       <link>https://www.dotnetramblings.com/post/08_08_2025/08_08_2025_1/</link>
