@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward | .NET Ramblings</title>
+<title>Thoughts on creating a tracking pointer class, part 5: Copying our tracking pointer | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="CVEs dominated the conversation at Black Hat 2025. Across sessions, booth discussions, and hallway chatter, it was clear that teams are feeling the pressure to …" />
+<meta name="description" content="Our previous attempt to create a tracking pointer class had the perhaps-undesirable property that copying a const tracking pointer is not permitted. This …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/15_08_2025/15_08_2025_0/" />
-<meta property="og:title" content="Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward" />
-<meta property="og:description" content="CVEs dominated the conversation at Black Hat 2025. Across sessions, booth discussions, and hallway chatter, it was clear that teams are feeling the pressure to …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
+<meta name="twitter:title" content="Thoughts on creating a tracking pointer class, part 5: Copying our tracking pointer" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/15_08_2025/15_08_2025_7/" />
+<meta property="og:title" content="Thoughts on creating a tracking pointer class, part 5: Copying our tracking pointer" />
+<meta property="og:description" content="Our previous attempt to create a tracking pointer class had the perhaps-undesirable property that copying a const tracking pointer is not permitted. This …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/15_08_2025/15_08_2025_0/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/15_08_2025/15_08_2025_7/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward</h1>
+    <h1 class="post_title">Thoughts on creating a tracking pointer class, part 5: Copying our tracking pointer</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 15, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Aug 15, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>CVEs dominated the conversation at Black Hat 2025. Across sessions, booth discussions, and hallway chatter, it was clear that teams are feeling the pressure to manage vulnerabilities at scale. While scanning remains an important tool, the focus is shifting toward removing security debt before it enters the software supply chain. Hardened images, compliance-ready tooling, and...</p>
+    <div class="post_body"><p>Our previous attempt to create a tracking pointer class had the perhaps-undesirable property that copying a const tracking pointer is not permitted. This requirement arose because copying a tracking p</p>
 <ul>
-<li>Link to article: <a href="https://www.docker.com/blog/docker-black-hat-2025-secure-software-supply-chain/">https://www.docker.com/blog/docker-black-hat-2025-secure-software-supply-chain/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250815-00/?p=111484">https://devblogs.microsoft.com/oldnewthing/20250815-00/?p=111484</a></li>
 </ul>
 
     </div>
