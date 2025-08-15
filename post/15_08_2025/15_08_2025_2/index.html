@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Thoughts on creating a tracking pointer class, part 5: Copying our tracking pointer | .NET Ramblings</title>
+<title>Building a RAG chat-based assistant on Amazon EKS Auto Mode and NVIDIA NIMs | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Our previous attempt to create a tracking pointer class had the perhaps-undesirable property that copying a const tracking pointer is not permitted. This …" />
+<meta name="description" content="In this post, we demonstrate the implementation of a practical RAG chat-based assistant using a comprehensive stack of modern technologies. The solution uses …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Thoughts on creating a tracking pointer class, part 5: Copying our tracking pointer" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta name="twitter:title" content="Building a RAG chat-based assistant on Amazon EKS Auto Mode and NVIDIA NIMs" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/15_08_2025/15_08_2025_2/" />
-<meta property="og:title" content="Thoughts on creating a tracking pointer class, part 5: Copying our tracking pointer" />
-<meta property="og:description" content="Our previous attempt to create a tracking pointer class had the perhaps-undesirable property that copying a const tracking pointer is not permitted. This …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta property="og:title" content="Building a RAG chat-based assistant on Amazon EKS Auto Mode and NVIDIA NIMs" />
+<meta property="og:description" content="In this post, we demonstrate the implementation of a practical RAG chat-based assistant using a comprehensive stack of modern technologies. The solution uses …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Thoughts on creating a tracking pointer class, part 5: Copying our tracking pointer</h1>
+    <h1 class="post_title">Building a RAG chat-based assistant on Amazon EKS Auto Mode and NVIDIA NIMs</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 15, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Aug 15, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Our previous attempt to create a tracking pointer class had the perhaps-undesirable property that copying a const tracking pointer is not permitted. This requirement arose because copying a tracking p</p>
+    <div class="post_body"><p>In this post, we demonstrate the implementation of a practical RAG chat-based assistant using a comprehensive stack of modern technologies. The solution uses NVIDIA NIMs for both LLM inference and text embedding services, with the NIM Operator handling their deployment and management. The architecture incorporates Amazon OpenSearch Serverless to store and query high-dimensional vector embeddings for similarity search.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250815-00/?p=111484">https://devblogs.microsoft.com/oldnewthing/20250815-00/?p=111484</a></li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/building-a-rag-chat-based-assistant-on-amazon-eks-auto-mode-and-nvidia-nims/">https://aws.amazon.com/blogs/machine-learning/building-a-rag-chat-based-assistant-on-amazon-eks-auto-mode-and-nvidia-nims/</a></li>
 </ul>
 
     </div>
