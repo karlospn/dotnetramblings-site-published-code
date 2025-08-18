@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 15 Aug 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Aug 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on creating a tracking pointer class, part 6: Non-modifying trackers</title>
+      <link>https://www.dotnetramblings.com/post/18_08_2025/18_08_2025_0/</link>
+      <pubDate>Mon, 18 Aug 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_08_2025/18_08_2025_0/</guid>
+      <description>
+        
+          
+            Let&#39;s add non-modifying trackers to our tracking pointers implementation. That is, a tracking pointer that gives you only read-only access to the tracked object. The idea is that tracking point
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250818-00/?p=111486 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Thoughts on creating a tracking pointer class, part 5: Copying our tracking pointer</title>
       <link>https://www.dotnetramblings.com/post/15_08_2025/15_08_2025_8/</link>
