@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 18 Aug 2025 05:16:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Aug 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reset Cookies and force new sign-in using ASP.NET Core Identity</title>
+      <title>Accessing Windows Known Folders in C# with SHGetKnownFolderPath</title>
       <link>https://www.dotnetramblings.com/post/18_08_2025/18_08_2025_0/</link>
-      <pubDate>Mon, 18 Aug 2025 05:16:16 +0000</pubDate>
+      <pubDate>Mon, 18 Aug 2025 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/18_08_2025/18_08_2025_0/</guid>
+      <description>
+        
+          
+            Windows has a list of well-known folders such as Documents, Pictures, Music, etc. You can access most of these folders using the Environment.GetFolderPath method in C#. Here&#39;s an example: Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments); However, this list is limited to the folders defined in the Environment.SpecialFolder enumeration. If you need to access other well-known folders, such as…
+Link to article: https://www.meziantou.net/accessing-windows-known-folders-in-csharp-with-shgetknownfolderpath.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>DevOps for Startups: CI/CD from the Ground Up</title>
+      <link>https://www.dotnetramblings.com/post/18_08_2025/18_08_2025_1/</link>
+      <pubDate>Mon, 18 Aug 2025 10:37:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_08_2025/18_08_2025_1/</guid>
+      <description>
+        
+          
+            The benefits of DevOps are not limited to large enterprises. For startups, DevOps can offer the agility you need to keep responding and adapting to market demands, while maintaining the quality users now expect. Why DevOps Matters for Startups As a startup, you’re probably feeling the pressure to get your product or service to market […]
+Link to article: https://blog.jetbrains.com/teamcity/2025/08/devops-for-startups/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reset Cookies and force new sign-in using ASP.NET Core Identity</title>
+      <link>https://www.dotnetramblings.com/post/18_08_2025/18_08_2025_2/</link>
+      <pubDate>Mon, 18 Aug 2025 05:16:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_08_2025/18_08_2025_2/</guid>
       <description>
         
           
