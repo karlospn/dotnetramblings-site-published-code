@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 18 Aug 2025 22:11:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Aug 2025 00:48:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Operations that Span Multiple Event Streams with the Critter Stack</title>
+      <link>https://www.dotnetramblings.com/post/19_08_2025/19_08_2025_0/</link>
+      <pubDate>Tue, 19 Aug 2025 00:48:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_08_2025/19_08_2025_0/</guid>
+      <description>
+        
+          
+            Let’s just say that Marten incurs some serious benefits to being on top of PostgreSQL and its very strong support for transactional integrity as opposed to some of the high profile commercial Event Sourcing tools who are spending a lot of time and energy on their “Dynamic Consistency Boundary” concept because they lack the ACID … Continue reading Operations that Span Multiple Event Streams with the Critter Stack →
+Link to article: https://jeremydmiller.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Handling Machine Reboots with VM Applications</title>
       <link>https://www.dotnetramblings.com/post/18_08_2025/18_08_2025_0/</link>
@@ -1426,91 +1443,6 @@ Link to article: https://openai.com/global-affairs/letter-to-governor-newsom-on-
           
             Built with OpenAI o3, o3-Pro, GPT-4.1, and GPT-5, Basis’ AI agents help accounting firms save up to 30% of their time and expand capacity for advisory and growth.
 Link to article: https://openai.com/index/basis 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Demystifying Amazon Bedrock Pricing for a Chatbot Assistant</title>
-      <link>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_0/</link>
-      <pubDate>Mon, 11 Aug 2025 19:33:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_0/</guid>
-      <description>
-        
-          
-            In this post, we&#39;ll look at Amazon Bedrock pricing through the lens of a practical, real-world example: building a customer service chatbot. We&#39;ll break down the essential cost components, walk through capacity planning for a mid-sized call center implementation, and provide detailed pricing calculations across different foundation models.
-Link to article: https://aws.amazon.com/blogs/machine-learning/demystifying-amazon-bedrock-pricing-for-a-chatbot-assistant/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Fine-tune OpenAI GPT-OSS models on Amazon SageMaker AI using Hugging Face libraries</title>
-      <link>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_1/</link>
-      <pubDate>Mon, 11 Aug 2025 19:25:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_1/</guid>
-      <description>
-        
-          
-            Released on August 5, 2025, OpenAI’s GPT-OSS models, gpt-oss-20b and gpt-oss-120b, are now available on AWS through Amazon SageMaker AI and Amazon Bedrock. In this post, we walk through the process of fine-tuning a GPT-OSS model in a fully managed training environment using SageMaker AI training jobs.
-Link to article: https://aws.amazon.com/blogs/machine-learning/fine-tune-openai-gpt-oss-models-on-amazon-sagemaker-ai-using-hugging-face-libraries/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing GA of Bicep templates support for Microsoft Entra ID resources</title>
-      <link>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_2/</link>
-      <pubDate>Mon, 11 Aug 2025 16:08:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_2/</guid>
-      <description>
-        
-          
-            We’re thrilled to announce that Bicep templates for Microsoft Entra ID resources is generally available from July 29th, 2025. Bicep templates bring declarative infrastructure as code (IaC) capabilities to Microsoft Graph resources. This new capability will initially be available for core Microsoft Entra ID resources. Bicep templat
-Link to article: https://devblogs.microsoft.com/identity/bicep-templates-for-microsoft-entra-id-resources-is-ga 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Tooling ≠ Glue: Why changing AI workflows still feels like duct tape</title>
-      <link>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_3/</link>
-      <pubDate>Mon, 11 Aug 2025 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_3/</guid>
-      <description>
-        
-          
-            There’s a weird contradiction in modern AI development. We have better tools than ever. We’re building smarter systems with cleaner abstractions. And yet, every time you try to swap out a component in your stack, things fall apart. Again. This isn’t just an inconvenience. It’s become the norm. You’d think with all the frameworks and...
-Link to article: https://www.docker.com/blog/why-changing-ai-workflows-still-feels-like-duct-tape/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Thoughts on creating a tracking pointer class, part 1: Concept art</title>
-      <link>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_4/</link>
-      <pubDate>Mon, 11 Aug 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_08_2025/11_08_2025_4/</guid>
-      <description>
-        
-          
-            Suppose you have a C++ object, and you want to be able to create a &amp;quot;tracking pointer&amp;quot; that points to the object and follows it as it moves. // Concept art - final product may differ in significant ways struct Widget : trackable_object { ⟦ ... ⟧ }; Widget w; tracking_ptr p(w); asse
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250811-00/?p=111451 
           
           
         
