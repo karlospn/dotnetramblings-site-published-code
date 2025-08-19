@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Docker.com | .NET Ramblings</title>
+<title>Operations that Span Multiple Event Streams with the Critter Stack | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Let’s just say that Marten incurs some serious benefits to being on top of PostgreSQL and its very strong support for transactional integrity as opposed to some …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Docker.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/docker.com/" />
-<meta property="og:title" content="Docker.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Operations that Span Multiple Event Streams with the Critter Stack" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/19_08_2025/19_08_2025_4/" />
+<meta property="og:title" content="Operations that Span Multiple Event Streams with the Critter Stack" />
+<meta property="og:description" content="Let’s just say that Marten incurs some serious benefits to being on top of PostgreSQL and its very strong support for transactional integrity as opposed to some …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/docker.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/docker.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/19_08_2025/19_08_2025_4/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/docker-mcp-ai-agent-developer-setup/" title="Building AI Agents with Docker MCP Toolkit: A Developer’s Real-World Setup">Building AI Agents with Docker MCP Toolkit: A Developer’s Real-World Setup</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Operations that Span Multiple Event Streams with the Critter Stack</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,402 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 19, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Aug 19, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jeremydmiller.com/' title="jeremydmiller.com" class="post_tag button button_translucent">jeremydmiller.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Building AI Agents with Docker MCP Toolkit: A Developer’s Real-World Setup"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Building AI agents in the real world often involves more than just making model calls — it requires integrating with external tools, handling complex workflows, and ensuring the solution can scale in production. In this post, we’ll walk through a real-world developer setup for creating an agent using the Docker MCP …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/docker-mcp-ai-agent-developer-setup/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/docker-black-hat-2025-secure-software-supply-chain/" title="Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward">Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 15, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Let’s just say that Marten incurs some serious benefits to being on top of PostgreSQL and its very strong support for transactional integrity as opposed to some of the high profile commercial Event Sourcing tools who are spending a lot of time and energy on their “Dynamic Consistency Boundary” concept because they lack the ACID … Continue reading Operations that Span Multiple Event Streams with the Critter Stack →</p>
+<ul>
+<li>Link to article: <a href="https://jeremydmiller.com/2025/08/18/operations-that-span-multiple-event-streams-with-the-critter-stack/">https://jeremydmiller.com/2025/08/18/operations-that-span-multiple-event-streams-with-the-critter-stack/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Docker @ Black Hat 2025: CVEs have everyone’s attention, here’s the path forward"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>CVEs dominated the conversation at Black Hat 2025. Across sessions, booth discussions, and hallway chatter, it was clear that teams are feeling the pressure to manage vulnerabilities at scale. While scanning remains an important tool, the focus is shifting toward removing security debt before it enters the software …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/docker-black-hat-2025-secure-software-supply-chain/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/how-docker-enables-security-by-default/" title="A practitioner’s view on how Docker enables security by default and makes developers work better">A practitioner’s view on how Docker enables security by default and makes developers work better</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 15, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="A practitioner’s view on how Docker enables security by default and makes developers work better"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>This blog post was written by Docker Captains, experienced professionals recognized for their expertise with Docker. It shares their firsthand, real-world experiences using Docker in their own work or within the organizations they lead. Docker Captains are technical experts and passionate community builders who drive …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/how-docker-enables-security-by-default/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/docker-desktop-4-44/" title="Docker Desktop 4.44: Smarter AI Modeling, Platform Stability, and Streamlined Kubernetes Workflows">Docker Desktop 4.44: Smarter AI Modeling, Platform Stability, and Streamlined Kubernetes Workflows</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 14, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Docker Desktop 4.44: Smarter AI Modeling, Platform Stability, and Streamlined Kubernetes Workflows"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In Docker Desktop 4.44, we’ve focused on delivering enhanced reliability, tighter AI modeling controls, and simplified tool integrations so you can build on your terms. Docker Model Runner Enhancements Inspectable Model Runner Workflows Now you can inspect AI inference requests and responses directly from Docker Model …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/docker-desktop-4-44/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/mcp-horror-stories-github-prompt-injection/" title="MCP Horror Stories: The GitHub Prompt Injection Data Heist">MCP Horror Stories: The GitHub Prompt Injection Data Heist</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 14, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="MCP Horror Stories: The GitHub Prompt Injection Data Heist"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>This is Part 3 of our MCP Horror Stories series, where we examine real-world security incidents that validate the critical vulnerabilities threatening AI infrastructure and demonstrate how Docker MCP Toolkit provides enterprise-grade protection. The Model Context Protocol (MCP) promised to revolutionize how AI agents …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/mcp-horror-stories-github-prompt-injection/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/gpt5-api-deprecation-ai-app-failure/" title="The GPT-5 Launch Broke the AI Internet (And Not in a Good Way)">The GPT-5 Launch Broke the AI Internet (And Not in a Good Way)</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 13, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="The GPT-5 Launch Broke the AI Internet (And Not in a Good Way)"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>What That Means for Devs and AI App Companies When GPT-5 dropped, OpenAI killed off a bunch of older APIs without much warning. A whole lot of apps face-planted overnight. If your app hard-codes itself to one provider, one API shape, or one model, this is the nightmare scenario. This is also different from losing... …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/gpt5-api-deprecation-ai-app-failure/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/building-ai-agents-with-goose-and-docker/" title="Building AI agents made easy with Goose and Docker">Building AI agents made easy with Goose and Docker</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 12, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Building AI agents made easy with Goose and Docker"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Building AI agents can be a complex task. But it also can be a fairly simple combination of answers to the following questions: What is the AI backend that powers my intelligent fuzzy computation? What tools do you need to give to the AI to access external systems or execute predefined software commands? What is... …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/building-ai-agents-with-goose-and-docker/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -560,9 +184,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
