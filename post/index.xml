@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 25 Aug 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Aug 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git Worktree: Managing Multiple Working Directories</title>
+      <title>Thoughts on creating a tracking pointer class, part 11: Repairing assignment</title>
       <link>https://www.dotnetramblings.com/post/25_08_2025/25_08_2025_0/</link>
-      <pubDate>Mon, 25 Aug 2025 12:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Aug 2025 14:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/25_08_2025/25_08_2025_0/</guid>
       <description>
         
           
-            Git worktree is a powerful feature that allows you to have multiple working directories associated with a single repository. Instead of switching branches and potentially losing uncommitted work, you can check out different branches in separate directories simultaneously without recloning the repository. Git worktree creates additional working trees linked to the same repository. Each worktree can have a…
-Link to article: https://www.meziantou.net/git-worktree-managing-multiple-working-directories.htm?utm_medium=social&amp;utm_source=syndication 
+            Last time, we made sure that tracking pointers to const objects couldn&#39;t be converted into tracking pointers to non-const objects, but I noted that fixing this introduced a new pro
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250825-00/?p=111497 
           
           
         
@@ -26,16 +26,16 @@ Link to article: https://www.meziantou.net/git-worktree-managing-multiple-workin
     </item>
     
     <item>
-      <title>Fine-Tuning and Deploying GPT Models Using Hugging Face Transformers</title>
+      <title>Git Worktree: Managing Multiple Working Directories</title>
       <link>https://www.dotnetramblings.com/post/25_08_2025/25_08_2025_1/</link>
-      <pubDate>Mon, 25 Aug 2025 11:01:26 +0000</pubDate>
+      <pubDate>Mon, 25 Aug 2025 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/25_08_2025/25_08_2025_1/</guid>
       <description>
         
           
-            Hugging Face is currently a household name for machine learning researchers and enthusiasts. One of their biggest successes is Transformers, a model-definition framework for machine learning models in text, computer vision, audio, and video. Because of the vast repository of state-of-the-art machine learning models available on the Hugging Face Hub and the compatibility of Transformers […]
-Link to article: https://blog.jetbrains.com/pycharm/2025/08/fine-tuning-and-deploying-gpt-models-using-hugging-face-transformers/ 
+            Git worktree is a powerful feature that allows you to have multiple working directories associated with a single repository. Instead of switching branches and potentially losing uncommitted work, you can check out different branches in separate directories simultaneously without recloning the repository. Git worktree creates additional working trees linked to the same repository. Each worktree can have a…
+Link to article: https://www.meziantou.net/git-worktree-managing-multiple-working-directories.htm?utm_medium=social&amp;utm_source=syndication 
           
           
         
