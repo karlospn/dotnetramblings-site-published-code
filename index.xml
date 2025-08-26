@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 26 Aug 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Aug 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fixing an old .NET Core native library loading issue on Alpine</title>
+      <title>Thoughts on creating a tracking pointer class, part 12: A shared tracking pointer</title>
       <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_0/</link>
-      <pubDate>Tue, 26 Aug 2025 10:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Aug 2025 14:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_0/</guid>
+      <description>
+        
+          
+            The tracking pointer designs we&#39;ve been using so far have had O(n) complexity on move, where n is the number of outstanding tracking pointers. But we can reduce this to O(1) by the classic technique of introducing another level of indirection. What we can do is give every trackable object
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250826-00/?p=111506 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fixing an old .NET Core native library loading issue on Alpine</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_1/</link>
+      <pubDate>Tue, 26 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_1/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://andrewlock.net/fixing-an-old-dotnet-core-native-library
     
     <item>
       <title>Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_2/</link>
       <pubDate>Tue, 26 Aug 2025 07:11:53 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_2/</guid>
       <description>
         
           
@@ -44,10 +61,10 @@ Link to article: https://blog.jetbrains.com/ruby/2025/08/unveiling-ruby-debugger
     
     <item>
       <title>Helping people when they need it most</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_3/</link>
       <pubDate>Tue, 26 Aug 2025 04:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_3/</guid>
       <description>
         
           

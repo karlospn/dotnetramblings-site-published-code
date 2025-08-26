@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 25 Aug 2025 22:33:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Aug 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on creating a tracking pointer class, part 12: A shared tracking pointer</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_0/</link>
+      <pubDate>Tue, 26 Aug 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_0/</guid>
+      <description>
+        
+          
+            The tracking pointer designs we&#39;ve been using so far have had O(n) complexity on move, where n is the number of outstanding tracking pointers. But we can reduce this to O(1) by the classic technique of introducing another level of indirection. What we can do is give every trackable object
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250826-00/?p=111506 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Secure Your Connections with Entra ID Support in the DocumentDB VS Code Extension</title>
       <link>https://www.dotnetramblings.com/post/25_08_2025/25_08_2025_0/</link>
