@@ -4,13 +4,12 @@
   lang="en"
   data-figures=""
   
-    class="home"
+    class="page"
   
   
   >
   <head>
-	<meta name="generator" content="Hugo 0.131.0">
-<title>.NET Ramblings</title>
+<title>Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,25 +27,23 @@
 
 <meta property="og:locale" content="en" />
 
-<meta property="og:type" content="website">
-<meta name="description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
+<meta property="og:type" content="article">
+<meta name="description" content="Hello, Ruby developers! Whether you are a seasoned Ruby developer or just getting started, mastering the debugger will save you time and frustration when …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content=".NET Ramblings" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/" />
-<meta property="og:title" content=".NET Ramblings" />
-<meta property="og:description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_1/" />
+<meta property="og:title" content="Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine" />
+<meta property="og:description" content="Hello, Ruby developers! Whether you are a seasoned Ruby developer or just getting started, mastering the debugger will save you time and frustration when …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/index.xml" title=".NET Ramblings" />
-<link rel="alternate" type="application/json" href="https://www.dotnetramblings.com/index.json" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_1/">
 
 
 
@@ -90,7 +87,7 @@
       
         
 
-  <div class="nav_parent nav_active">
+  <div class="nav_parent">
     <a href="https://www.dotnetramblings.com/" class="nav_item" title="Home">Home </a>
   </div>
   <div class="nav_parent">
@@ -132,21 +129,10 @@
 </header>
 
     <main>
-
   
-
-
-
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/docker-mcp-ai-agent-developer-setup/" title="Building AI Agents with Docker MCP Toolkit: A Developer’s Real-World Setup">Building AI Agents with Docker MCP Toolkit: A Developer’s Real-World Setup</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -154,316 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 19, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Aug 26, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Building AI Agents with Docker MCP Toolkit: A Developer’s Real-World Setup"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Building AI agents in the real world often involves more than just making model calls — it requires integrating with external tools, handling complex workflows, and ensuring the solution can scale in production. In this post, we’ll walk through a real-world developer setup for creating an agent using the Docker MCP …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/docker-mcp-ai-agent-developer-setup/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://aws.amazon.com/blogs/machine-learning/streamline-employee-training-with-an-intelligent-chatbot-powered-by-amazon-q-business/" title="Streamline employee training with an intelligent chatbot powered by Amazon Q Business">Streamline employee training with an intelligent chatbot powered by Amazon Q Business</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 19, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Hello, Ruby developers! Whether you are a seasoned Ruby developer or just getting started, mastering the debugger will save you time and frustration when tracking down bugs. At RubyMine, we’ve spent years building debugging tools for Ruby. In this blog series, we’re sharing some of the insights we’ve gained along the way. In this post, […]</p>
+<ul>
+<li>Link to article: <a href="https://blog.jetbrains.com/ruby/2025/08/unveiling-ruby-debuggers-byebug-debug-gem-and-the-power-of-rubymine/">https://blog.jetbrains.com/ruby/2025/08/unveiling-ruby-debuggers-byebug-debug-gem-and-the-power-of-rubymine/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Streamline employee training with an intelligent chatbot powered by Amazon Q Business"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/aws.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this post, we explore how to design and implement custom plugins for Amazon Q Business to create an intelligent chatbot that streamlines employee training by retrieving answers from training materials. The solution implements secure API access using Amazon Cognito for user authentication and authorization, processes …</p>
-          
-          <br>
-          <a href="https://aws.amazon.com/blogs/machine-learning/streamline-employee-training-with-an-intelligent-chatbot-powered-by-amazon-q-business/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20250819-00/?p=111488" title="Thoughts on creating a tracking pointer class, part 7: Non-modifying trackers, second try">Thoughts on creating a tracking pointer class, part 7: Non-modifying trackers, second try</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 19, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Thoughts on creating a tracking pointer class, part 7: Non-modifying trackers, second try"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Last time, we tried to add non-modifying trackers to our tracking pointers implementation. I noted at the end that our attempt was wrong. The problem is in the code we
-Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250819-00/?p=111488">https://devblogs.microsoft.com/oldnewthing/20250819-00/?p=111488</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20250819-00/?p=111488" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://andrewlock.net/converting-an-xunit-project-to-tunit/" title="Converting an xUnit test project to TUnit">Converting an xUnit test project to TUnit</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 19, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/andrewlock.net/' title="andrewlock.net" class="post_tag button button_translucent">andrewlock.net
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Converting an xUnit test project to TUnit"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>In this post I discuss the new TUnit testing framework, why I ported one of my libraries to use it instead of xUnit and related issues I had to deal with
-Link to article: <a href="https://andrewlock.net/converting-an-xunit-project-to-tunit/">https://andrewlock.net/converting-an-xunit-project-to-tunit/</a></p>
-          
-          <br>
-          <a href="https://andrewlock.net/converting-an-xunit-project-to-tunit/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://jeremydmiller.com/2025/08/18/operations-that-span-multiple-event-streams-with-the-critter-stack/" title="Operations that Span Multiple Event Streams with the Critter Stack">Operations that Span Multiple Event Streams with the Critter Stack</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 19, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/jeremydmiller.com/' title="jeremydmiller.com" class="post_tag button button_translucent">jeremydmiller.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Operations that Span Multiple Event Streams with the Critter Stack"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Let’s just say that Marten incurs some serious benefits to being on top of PostgreSQL and its very strong support for transactional integrity as opposed to some of the high profile commercial Event Sourcing tools who are spending a lot of time and energy on their “Dynamic Consistency Boundary” concept because they lack …</p>
-          
-          <br>
-          <a href="https://jeremydmiller.com/2025/08/18/operations-that-span-multiple-event-streams-with-the-critter-stack/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope=''>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -480,9 +184,8 @@ Link to article: <a href="https://andrewlock.net/converting-an-xunit-project-to-
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
