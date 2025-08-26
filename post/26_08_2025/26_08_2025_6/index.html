@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine | .NET Ramblings</title>
+<title>Thoughts on creating a tracking pointer class, part 12: A shared tracking pointer | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Hello, Ruby developers! Whether you are a seasoned Ruby developer or just getting started, mastering the debugger will save you time and frustration when …" />
+<meta name="description" content="The tracking pointer designs we&#39;ve been using so far have had O(n) complexity on move, where n is the number of outstanding tracking pointers. But we can reduce …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine" />
+<meta name="twitter:title" content="Thoughts on creating a tracking pointer class, part 12: A shared tracking pointer" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_6/" />
-<meta property="og:title" content="Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine" />
-<meta property="og:description" content="Hello, Ruby developers! Whether you are a seasoned Ruby developer or just getting started, mastering the debugger will save you time and frustration when …" />
+<meta property="og:title" content="Thoughts on creating a tracking pointer class, part 12: A shared tracking pointer" />
+<meta property="og:description" content="The tracking pointer designs we&#39;ve been using so far have had O(n) complexity on move, where n is the number of outstanding tracking pointers. But we can reduce …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine</h1>
+    <h1 class="post_title">Thoughts on creating a tracking pointer class, part 12: A shared tracking pointer</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 26, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Aug 26, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Hello, Ruby developers! Whether you are a seasoned Ruby developer or just getting started, mastering the debugger will save you time and frustration when tracking down bugs. At RubyMine, we’ve spent years building debugging tools for Ruby. In this blog series, we’re sharing some of the insights we’ve gained along the way. In this post, […]</p>
+    <div class="post_body"><p>The tracking pointer designs we've been using so far have had O(n) complexity on move, where n is the number of outstanding tracking pointers. But we can reduce this to O(1) by the classic technique of introducing another level of indirection. What we can do is give every trackable object</p>
 <ul>
-<li>Link to article: <a href="https://blog.jetbrains.com/ruby/2025/08/unveiling-ruby-debuggers-byebug-debug-gem-and-the-power-of-rubymine/">https://blog.jetbrains.com/ruby/2025/08/unveiling-ruby-debuggers-byebug-debug-gem-and-the-power-of-rubymine/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250826-00/?p=111506">https://devblogs.microsoft.com/oldnewthing/20250826-00/?p=111506</a></li>
 </ul>
 
     </div>
