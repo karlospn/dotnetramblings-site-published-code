@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Azure Authentication Changes in Semantic Kernel Python | .NET Ramblings</title>
+<title>Encoding Changes for Template Arguments in Semantic Kernel | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="In previous versions of the Semantic Kernel Python, the default fallback authentication mechanism for Azure services like AzureChatCompletion was …" />
+<meta name="description" content="In previous versions of the Semantic Kernel, the encoding of template arguments was performed automatically if the argument type was a string. The encoding was …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Azure Authentication Changes in Semantic Kernel Python" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/azure.png"/>
+<meta name="twitter:title" content="Encoding Changes for Template Arguments in Semantic Kernel" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/ai.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_1/" />
-<meta property="og:title" content="Azure Authentication Changes in Semantic Kernel Python" />
-<meta property="og:description" content="In previous versions of the Semantic Kernel Python, the default fallback authentication mechanism for Azure services like AzureChatCompletion was …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/azure.png" />
+<meta property="og:title" content="Encoding Changes for Template Arguments in Semantic Kernel" />
+<meta property="og:description" content="In previous versions of the Semantic Kernel, the encoding of template arguments was performed automatically if the argument type was a string. The encoding was …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/ai.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Azure Authentication Changes in Semantic Kernel Python</h1>
+    <h1 class="post_title">Encoding Changes for Template Arguments in Semantic Kernel</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -145,9 +145,9 @@
     </span>
   </div>
 
-    <div class="post_body"><p>In previous versions of the Semantic Kernel Python, the default fallback authentication mechanism for Azure services like AzureChatCompletion was DefaultAzureCredential from the Azure Identity library. This provided a convenient way to authenticate without explicitly passing credentials, especially during development.</p>
+    <div class="post_body"><p>In previous versions of the Semantic Kernel, the encoding of template arguments was performed automatically if the argument type was a string. The encoding was not applied for custom types, anonymous types, or collections. With the latest changes, we've introduced stricter rules: if automatic encoding is enabled (the default be</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/semantic-kernel/azure-authentication-changes-in-semantic-kernel-python">https://devblogs.microsoft.com/semantic-kernel/azure-authentication-changes-in-semantic-kernel-python</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/semantic-kernel/encoding-changes-for-template-arguments-in-semantic-kernel">https://devblogs.microsoft.com/semantic-kernel/encoding-changes-for-template-arguments-in-semantic-kernel</a></li>
 </ul>
 
     </div>
