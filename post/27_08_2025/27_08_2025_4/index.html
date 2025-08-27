@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Docker Desktop Accelerates Innovation with Faster Release Cadence | .NET Ramblings</title>
+<title>Thoughts on creating a tracking pointer class, part 13: Restoring the strong exception guarantee | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,17 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="We&#39;re excited to announce a major evolution in how we deliver Docker Desktop updates to you. Starting with Docker Desktop release 4.45.0 on 28 August we&#39;re …" />
+<meta name="description" content="Last time, we created a tracking pointer class based on std::shared_ptr. We found a problem with the move-assignment operator: It didn&#39;t satisfy the str
+Link to …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Docker Desktop Accelerates Innovation with Faster Release Cadence" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
+<meta name="twitter:title" content="Thoughts on creating a tracking pointer class, part 13: Restoring the strong exception guarantee" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_4/" />
-<meta property="og:title" content="Docker Desktop Accelerates Innovation with Faster Release Cadence" />
-<meta property="og:description" content="We&#39;re excited to announce a major evolution in how we deliver Docker Desktop updates to you. Starting with Docker Desktop release 4.45.0 on 28 August we&#39;re …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
+<meta property="og:title" content="Thoughts on creating a tracking pointer class, part 13: Restoring the strong exception guarantee" />
+<meta property="og:description" content="Last time, we created a tracking pointer class based on std::shared_ptr. We found a problem with the move-assignment operator: It didn&#39;t satisfy the str
+Link to …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +134,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Docker Desktop Accelerates Innovation with Faster Release Cadence</h1>
+    <h1 class="post_title">Thoughts on creating a tracking pointer class, part 13: Restoring the strong exception guarantee</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +142,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Aug 27, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>We're excited to announce a major evolution in how we deliver Docker Desktop updates to you. Starting with Docker Desktop release 4.45.0 on 28 August we're moving to releases every two weeks, with the goal of reaching weekly releases by the end of 2025. Why We're Making This Change You've told us you want faster...</p>
+    <div class="post_body"><p>Last time, we created a tracking pointer class based on std::shared_ptr. We found a problem with the move-assignment operator: It didn't satisfy the str</p>
 <ul>
-<li>Link to article: <a href="https://www.docker.com/blog/docker-desktop-updates-every-two-weeks/">https://www.docker.com/blog/docker-desktop-updates-every-two-weeks/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250827-00/?p=111518">https://devblogs.microsoft.com/oldnewthing/20250827-00/?p=111518</a></li>
 </ul>
 
     </div>
