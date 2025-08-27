@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 26 Aug 2025 20:34:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Aug 2025 05:17:18 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encoding Changes for Template Arguments in Semantic Kernel</title>
+      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_0/</link>
+      <pubDate>Wed, 27 Aug 2025 05:17:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_0/</guid>
+      <description>
+        
+          
+            In previous versions of the Semantic Kernel, the encoding of template arguments was performed automatically if the argument type was a string. The encoding was not applied for custom types, anonymous types, or collections. With the latest changes, we&#39;ve introduced stricter rules: if automatic encoding is enabled (the default be
+Link to article: https://devblogs.microsoft.com/semantic-kernel/encoding-changes-for-template-arguments-in-semantic-kernel 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Authentication Changes in Semantic Kernel Python</title>
+      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_1/</link>
+      <pubDate>Wed, 27 Aug 2025 05:16:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_1/</guid>
+      <description>
+        
+          
+            In previous versions of the Semantic Kernel Python, the default fallback authentication mechanism for Azure services like AzureChatCompletion was DefaultAzureCredential from the Azure Identity library. This provided a convenient way to authenticate without explicitly passing credentials, especially during development.
+Link to article: https://devblogs.microsoft.com/semantic-kernel/azure-authentication-changes-in-semantic-kernel-python 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AWS Transform for .NET now supports connection to Azure Repos and Azure Artifacts</title>
       <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_0/</link>
