@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 27 Aug 2025 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Aug 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docker Desktop Accelerates Innovation with Faster Release Cadence</title>
+      <title>Thoughts on creating a tracking pointer class, part 13: Restoring the strong exception guarantee</title>
       <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_0/</link>
-      <pubDate>Wed, 27 Aug 2025 13:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2025 14:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_0/</guid>
+      <description>
+        
+          
+            Last time, we created a tracking pointer class based on std::shared_ptr. We found a problem with the move-assignment operator: It didn&#39;t satisfy the str
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250827-00/?p=111518 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docker Desktop Accelerates Innovation with Faster Release Cadence</title>
+      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_1/</link>
+      <pubDate>Wed, 27 Aug 2025 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_1/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://www.docker.com/blog/docker-desktop-updates-every-two-we
     
     <item>
       <title>Exploring Data Science With Kotlin: A Powerlifting Case Study</title>
-      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_3/</link>
       <pubDate>Wed, 27 Aug 2025 10:18:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_3/</guid>
       <description>
         
           
@@ -44,10 +61,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2025/08/exploring-data-scienc
     
     <item>
       <title>Mastering Incremental Source Generators in C#: A Complete Guide with Example</title>
-      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_2/</link>
       <pubDate>Wed, 27 Aug 2025 12:08:57 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_2/</guid>
       <description>
         
           
@@ -61,10 +78,10 @@ Link to article: https://blog.elmah.io/mastering-incremental-source-generators-i
     
     <item>
       <title>Augmented Outside-In Discovery with Claude Code</title>
-      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_4/</link>
       <pubDate>Wed, 27 Aug 2025 08:00:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_4/</guid>
       <description>
         
           
@@ -78,10 +95,10 @@ Link to article: https://goatreview.com/augmented-outside-discovery-claude-code/
     
     <item>
       <title>Ready for the Best School Year Ever? Join Our STEM Clubs, Camps, and Competitions</title>
-      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_5/</link>
       <pubDate>Wed, 27 Aug 2025 07:45:19 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_5/</guid>
       <description>
         
           
@@ -95,10 +112,10 @@ Link to article: https://blog.jetbrains.com/education/2025/08/27/new-school-year
     
     <item>
       <title>Encoding Changes for Template Arguments in Semantic Kernel</title>
-      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_6/</link>
       <pubDate>Wed, 27 Aug 2025 05:17:18 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_6/</guid>
       <description>
         
           
@@ -112,10 +129,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/encoding-changes
     
     <item>
       <title>Azure Authentication Changes in Semantic Kernel Python</title>
-      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_7/</link>
       <pubDate>Wed, 27 Aug 2025 05:16:27 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_08_2025/27_08_2025_7/</guid>
       <description>
         
           
