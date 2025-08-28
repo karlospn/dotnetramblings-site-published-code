@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Secure by Design: A Shift-Left Approach with Testcontainers, Docker Scout, and Hardened Images | .NET Ramblings</title>
+<title>Thoughts on creating a tracking pointer class, part 14: Nonthrowing moves with the shared tracking pointer | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="In today’s fast-paced world of software development, product teams are expected to move quickly: building features, shipping updates, and reacting to user needs …" />
+<meta name="description" content="So far, we&#39;ve been working on an alternate design for tracking pointers, but we found that it had the unfortunate property of having potentially-throwing …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Secure by Design: A Shift-Left Approach with Testcontainers, Docker Scout, and Hardened Images" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
+<meta name="twitter:title" content="Thoughts on creating a tracking pointer class, part 14: Nonthrowing moves with the shared tracking pointer" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/28_08_2025/28_08_2025_0/" />
-<meta property="og:title" content="Secure by Design: A Shift-Left Approach with Testcontainers, Docker Scout, and Hardened Images" />
-<meta property="og:description" content="In today’s fast-paced world of software development, product teams are expected to move quickly: building features, shipping updates, and reacting to user needs …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
+<meta property="og:title" content="Thoughts on creating a tracking pointer class, part 14: Nonthrowing moves with the shared tracking pointer" />
+<meta property="og:description" content="So far, we&#39;ve been working on an alternate design for tracking pointers, but we found that it had the unfortunate property of having potentially-throwing …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Secure by Design: A Shift-Left Approach with Testcontainers, Docker Scout, and Hardened Images</h1>
+    <h1 class="post_title">Thoughts on creating a tracking pointer class, part 14: Nonthrowing moves with the shared tracking pointer</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 28, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Aug 28, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>In today’s fast-paced world of software development, product teams are expected to move quickly: building features, shipping updates, and reacting to user needs in real-time. But moving fast should never mean compromising on quality or security. Thanks to modern tooling, developers can now maintain high standards while accelerating delivery. In a previous article, we explored...</p>
+    <div class="post_body"><p>So far, we've been working on an alternate design for tracking pointers, but we found that it had the unfortunate property of having potentially-throwing constructors and m</p>
 <ul>
-<li>Link to article: <a href="https://www.docker.com/blog/a-shift-left-approach-with-docker/">https://www.docker.com/blog/a-shift-left-approach-with-docker/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250828-00/?p=111524">https://devblogs.microsoft.com/oldnewthing/20250828-00/?p=111524</a></li>
 </ul>
 
     </div>
