@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 02 Sep 2025 18:55:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Sep 2025 00:12:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Train and deploy models on Amazon SageMaker HyperPod using the new HyperPod CLI and SDK</title>
+      <link>https://www.dotnetramblings.com/post/03_09_2025/03_09_2025_0/</link>
+      <pubDate>Wed, 03 Sep 2025 00:12:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_09_2025/03_09_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to use the new Amazon SageMaker HyperPod CLI and SDK to streamline the process of training and deploying large AI models through practical examples of distributed training using Fully Sharded Data Parallel (FSDP) and model deployment for inference. The tools provide simplified workflows through straightforward commands for common tasks, while offering flexible development options through the SDK for more complex requirements, along with comprehensive observability features and production-ready deployment capabilities.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build a serverless Amazon Bedrock batch job orchestration workflow using AWS Step Functions</title>
       <link>https://www.dotnetramblings.com/post/02_09_2025/02_09_2025_0/</link>
@@ -1035,176 +1051,6 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/encoding-changes
           
             In previous versions of the Semantic Kernel Python, the default fallback authentication mechanism for Azure services like AzureChatCompletion was DefaultAzureCredential from the Azure Identity library. This provided a convenient way to authenticate without explicitly passing credentials, especially during development.
 Link to article: https://devblogs.microsoft.com/semantic-kernel/azure-authentication-changes-in-semantic-kernel-python 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AWS Transform for .NET now supports connection to Azure Repos and Azure Artifacts</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_0/</link>
-      <pubDate>Tue, 26 Aug 2025 20:34:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_0/</guid>
-      <description>
-        
-          
-            In May 2025, we launched AWS Transform for .NET with the capability to connect and download .NET code bases from GitHub, GitLab, or Bitbucket for transformation (described in the AWS Transform User Guide). AWS Transform now also supports code bases in Azure Repos and Azure Artifacts. With this new capability, you can transform .NET applications […]
-Link to article: https://aws.amazon.com/blogs/dotnet/aws-transform-for-net-now-supports-connection-to-azure-repos-and-azure-artifacts/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Kotlin Notebook Helps You Teach Programming</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_1/</link>
-      <pubDate>Tue, 26 Aug 2025 19:21:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_1/</guid>
-      <description>
-        
-          
-            Kotlin Notebook is a great tool for educators who want to teach programming in a more hands-on way. It lets you combine runnable code, Markdown textual explanations, and visualizations in one interactive environment. There’s no need to switch between multiple windows with slides, live demos, and IDEs during lectures. You can use a single notebook […]
-Link to article: https://blog.jetbrains.com/kotlin/2025/08/how-kotlin-notebook-helps-teach-programming/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Learn how Amazon Health Services improved discovery in Amazon search using AWS ML and gen AI</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_2/</link>
-      <pubDate>Tue, 26 Aug 2025 18:37:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_2/</guid>
-      <description>
-        
-          
-            In this post, we show you how Amazon Health Services (AHS) solved discoverability challenges on Amazon.com search using AWS services such as Amazon SageMaker, Amazon Bedrock, and Amazon EMR. By combining machine learning (ML), natural language processing, and vector search capabilities, we improved our ability to connect customers with relevant healthcare offerings.
-Link to article: https://aws.amazon.com/blogs/machine-learning/learn-how-amazon-health-services-improved-discovery-in-amazon-search-using-aws-ml-and-gen-ai/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The Visual Studio August Update is here - smarter AI, better debugging, and more control</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_3/</link>
-      <pubDate>Tue, 26 Aug 2025 18:22:28 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_3/</guid>
-      <description>
-        
-          
-            The August 2025 update for Visual Studio 2022 (v17.14) is now available, and it’s all about helping developers stay focused, productive, and in control. Whether you&#39;re building games, tuning performance, or exploring AI, this release brings meaningful improvements that make everyday development smoother and smarter.
-Link to article: https://devblogs.microsoft.com/visualstudio/the-visual-studio-august-update-is-here-smarter-ai-better-debugging-and-more-control 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Windows Terminal Preview 1.24 Release</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_4/</link>
-      <pubDate>Tue, 26 Aug 2025 16:02:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_4/</guid>
-      <description>
-        
-          
-            We’re back with another Terminal release for you! This development cycle, we focused on overall quality of life improvements and bug fixes. We are also updating Windows Terminal stable to version 1.23, which will include all of the features from
-Link to article: https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-24-release 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Build a CI/CD Pipeline for iOS Projects</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_5/</link>
-      <pubDate>Tue, 26 Aug 2025 15:52:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_5/</guid>
-      <description>
-        
-          
-            This article was brought to you by Kumar Harsh, draft.dev. Developing and releasing iOS applications involves navigating a complex web of code signing, provisioning profiles, multiple iOS versions, and stringent App Store guidelines/requirements. Without an automated continuous integration, continuous delivery and/or deployment (CI/CD) pipeline, these challenges can lead to slower release cycles, increased errors, and […]
-Link to article: https://blog.jetbrains.com/teamcity/2025/08/cicd-for-ios/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Thoughts on creating a tracking pointer class, part 12: A shared tracking pointer</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_6/</link>
-      <pubDate>Tue, 26 Aug 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_6/</guid>
-      <description>
-        
-          
-            The tracking pointer designs we&#39;ve been using so far have had O(n) complexity on move, where n is the number of outstanding tracking pointers. But we can reduce this to O(1) by the classic technique of introducing another level of indirection. What we can do is give every trackable object
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250826-00/?p=111506 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Fixing an old .NET Core native library loading issue on Alpine</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_7/</link>
-      <pubDate>Tue, 26 Aug 2025 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_7/</guid>
-      <description>
-        
-          
-            In this post I walk through the process of solving a native library loading issue on alpine with an old .NET runtime, showing the steps we took and the solution
-Link to article: https://andrewlock.net/fixing-an-old-dotnet-core-native-library-loading-issue-on-alpine/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_8/</link>
-      <pubDate>Tue, 26 Aug 2025 07:11:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_8/</guid>
-      <description>
-        
-          
-            Hello, Ruby developers! Whether you are a seasoned Ruby developer or just getting started, mastering the debugger will save you time and frustration when tracking down bugs. At RubyMine, we’ve spent years building debugging tools for Ruby. In this blog series, we’re sharing some of the insights we’ve gained along the way. In this post, […]
-Link to article: https://blog.jetbrains.com/ruby/2025/08/unveiling-ruby-debuggers-byebug-debug-gem-and-the-power-of-rubymine/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Helping people when they need it most</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_9/</link>
-      <pubDate>Tue, 26 Aug 2025 04:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_9/</guid>
-      <description>
-        
-          
-            How we think about safety for users experiencing mental or emotional distress, the limits of today’s systems, and the work underway to refine them.
-Link to article: https://openai.com/index/helping-people-when-they-need-it-most 
           
           
         

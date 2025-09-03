@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 02 Sep 2025 18:55:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Sep 2025 00:12:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Train and deploy models on Amazon SageMaker HyperPod using the new HyperPod CLI and SDK</title>
+      <link>https://www.dotnetramblings.com/post/03_09_2025/03_09_2025_0/</link>
+      <pubDate>Wed, 03 Sep 2025 00:12:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_09_2025/03_09_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to use the new Amazon SageMaker HyperPod CLI and SDK to streamline the process of training and deploying large AI models through practical examples of distributed training using Fully Sharded Data Parallel (FSDP) and model deployment for inference. The tools provide simplified workflows through straightforward commands for common tasks, while offering flexible development options through the SDK for more complex requirements, along with comprehensive observability features and production-ready deployment capabilities.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build a serverless Amazon Bedrock batch job orchestration workflow using AWS Step Functions</title>
       <link>https://www.dotnetramblings.com/post/02_09_2025/02_09_2025_0/</link>
@@ -203,23 +219,6 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/how-amazon-financ
           
             In this post, we announce that Mercury and Mercury Coder foundation models from Inception Labs are now available through Amazon Bedrock Marketplace and Amazon SageMaker JumpStart. We demonstrate how to deploy these ultra-fast diffusion-based language models that can generate up to 1,100 tokens per second on NVIDIA H100 GPUs, and showcase their capabilities in code generation and tool use scenarios.
 Link to article: https://aws.amazon.com/blogs/machine-learning/mercury-foundation-models-from-inception-labs-are-now-available-in-amazon-bedrock-marketplace-and-amazon-sagemaker-jumpstart/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Learn how Amazon Health Services improved discovery in Amazon search using AWS ML and gen AI</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_2/</link>
-      <pubDate>Tue, 26 Aug 2025 18:37:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_08_2025/26_08_2025_2/</guid>
-      <description>
-        
-          
-            In this post, we show you how Amazon Health Services (AHS) solved discoverability challenges on Amazon.com search using AWS services such as Amazon SageMaker, Amazon Bedrock, and Amazon EMR. By combining machine learning (ML), natural language processing, and vector search capabilities, we improved our ability to connect customers with relevant healthcare offerings.
-Link to article: https://aws.amazon.com/blogs/machine-learning/learn-how-amazon-health-services-improved-discovery-in-amazon-search-using-aws-ml-and-gen-ai/ 
           
           
         
