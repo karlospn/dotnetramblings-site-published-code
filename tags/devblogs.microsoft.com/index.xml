@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 05 Sep 2025 03:24:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The case of the crash on a null pointer even though we checked it for null</title>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_0/</link>
+      <pubDate>Fri, 05 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_0/</guid>
+      <description>
+        
+          
+            A colleague was investigating a crash. The stack at the point of the crash looks like this: contoso!winrt::impl::consume_Windows_Foundation_Collections_IVectorView&amp;lt; winrt::Windows::Foundation::Collections::IVectorView, int&amp;gt;::Size+0x30 contoso!winrt::Contoso::implementation::Widget::
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250905-00/?p=111560 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>What’s New in vcpkg (August 2025)</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_3/</link>
       <pubDate>Fri, 05 Sep 2025 03:24:22 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_3/</guid>
       <description>
         
           
