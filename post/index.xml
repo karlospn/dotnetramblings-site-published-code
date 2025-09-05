@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 05 Sep 2025 14:47:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 17:04:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Connect MCP Servers to Junie in PhpStorm</title>
+      <title>Accelerating HPC and AI research in universities with Amazon SageMaker HyperPod</title>
       <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_0/</link>
-      <pubDate>Fri, 05 Sep 2025 14:47:16 +0000</pubDate>
+      <pubDate>Fri, 05 Sep 2025 17:04:49 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how a research university implemented SageMaker HyperPod to accelerate AI research by using dynamic SLURM partitions, fine-grained GPU resource management, budget-aware compute cost tracking, and multi-login node load balancing—all integrated seamlessly into the SageMaker HyperPod environment.
+Link to article: https://aws.amazon.com/blogs/machine-learning/accelerating-hpc-and-ai-research-in-universities-with-amazon-sagemaker-hyperpod/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exploring the Real-Time Race Track with Amazon Nova</title>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_1/</link>
+      <pubDate>Fri, 05 Sep 2025 16:58:36 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_1/</guid>
+      <description>
+        
+          
+            This post explores the Real-Time Race Track (RTRT), an interactive experience built using Amazon Nova in Amazon Bedrock, that lets fans design, customize, and share their own racing circuits. We highlight how generative AI capabilities come together to deliver strategic racing insights such as pit timing and tire choices, and interactive features like an AI voice assistant and a retro-style racing poster.
+Link to article: https://aws.amazon.com/blogs/machine-learning/exploring-the-real-time-race-track-with-amazon-nova/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Connect MCP Servers to Junie in PhpStorm</title>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_2/</link>
+      <pubDate>Fri, 05 Sep 2025 14:47:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_2/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://blog.jetbrains.com/phpstorm/2025/09/connect-mcp-servers
     
     <item>
       <title>Sneak Peek at the SignalR Integration in Wolverine 5.0</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_3/</link>
       <pubDate>Fri, 05 Sep 2025 14:42:15 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_3/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://jeremydmiller.
     
     <item>
       <title>The case of the crash on a null pointer even though we checked it for null</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_4/</link>
       <pubDate>Fri, 05 Sep 2025 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_4/</guid>
       <description>
         
           
@@ -61,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250905-00/?p=11156
     
     <item>
       <title>Docker Acquisition of MCP Defender Helps Meet Challenges of Securing the Agentic Future</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_5/</link>
       <pubDate>Fri, 05 Sep 2025 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_5/</guid>
       <description>
         
           
@@ -77,11 +111,28 @@ Link to article: https://www.docker.com/blog/docker-acquires-mcp-defender-ai-age
     </item>
     
     <item>
+      <title>Why language models hallucinate</title>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_6/</link>
+      <pubDate>Fri, 05 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_6/</guid>
+      <description>
+        
+          
+            OpenAI’s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI reliability, honesty, and safety.
+Link to article: https://openai.com/index/why-language-models-hallucinate 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>GPT-5 bio bug bounty call</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_7/</link>
       <pubDate>Fri, 05 Sep 2025 08:45:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_7/</guid>
       <description>
         
           
@@ -95,10 +146,10 @@ Link to article: https://openai.com/gpt-5-bio-bug-bounty
     
     <item>
       <title>Java Annotated Monthly – September 2025</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_8/</link>
       <pubDate>Fri, 05 Sep 2025 08:24:19 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_8/</guid>
       <description>
         
           
@@ -112,10 +163,10 @@ Link to article: https://blog.jetbrains.com/idea/2025/09/java-annotated-monthly-
     
     <item>
       <title>OpenAI and Greek Government launch ‘OpenAI for Greece’</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_9/</link>
       <pubDate>Fri, 05 Sep 2025 08:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_9/</guid>
       <description>
         
           
@@ -129,10 +180,10 @@ Link to article: https://openai.com/global-affairs/openai-for-greece
     
     <item>
       <title>What’s New in vcpkg (August 2025)</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_7/</link>
+      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_10/</link>
       <pubDate>Fri, 05 Sep 2025 03:24:22 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_10/</guid>
       <description>
         
           
