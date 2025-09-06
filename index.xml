@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 05 Sep 2025 17:04:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Semantic Search with Amazon S3 Vectors</title>
+      <link>https://www.dotnetramblings.com/post/06_09_2025/06_09_2025_0/</link>
+      <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_09_2025/06_09_2025_0/</guid>
+      <description>
+        
+          
+            Learn how to add semantic search to your website using Amazon S3 Vectors - a new vector database service that&#39;s 90% cheaper than alternatives. Complete implementation guide using Semantic Kernel and .NET, from generating embeddings to querying vector indexes.
+Link to article: https://www.milanjovanovic.tech/blog/building-semantic-search-with-amazon-s3-vectors 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Accelerating HPC and AI research in universities with Amazon SageMaker HyperPod</title>
       <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_0/</link>
@@ -1068,175 +1085,6 @@ Link to article: https://www.devleader.ca/2025/08/30/weekly-recap-20250829
           
             Learn how to run the Aspire Dashboard as a standalone container for instant traces, logs, and metrics in your .NET applications.
 Link to article: https://www.milanjovanovic.tech/blog/standalone-aspire-dashboard-setup-for-distributed-dotnet-applications 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft Graph Toolkit retirement</title>
-      <link>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_0/</link>
-      <pubDate>Fri, 29 Aug 2025 20:22:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_0/</guid>
-      <description>
-        
-          
-            We are announcing the deprecation of the Microsoft Graph Toolkit (MGT). The retirement period begins September 1st, 2025 with full retirement planned for August 28th, 2026. Why we’re retiri
-Link to article: https://devblogs.microsoft.com/microsoft365dev/microsoft-graph-toolkit-retirement 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft Graph CLI retirement</title>
-      <link>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_1/</link>
-      <pubDate>Fri, 29 Aug 2025 19:59:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_1/</guid>
-      <description>
-        
-          
-            We are announcing the retirement of the Microsoft Graph command-line interface (CLI). The Microsoft Graph CLI has served as a powerful tool for developers and IT professionals to interact with Microsoft Graph through simple terminal commands—enabling automation, scripting, and streamli
-Link to article: https://devblogs.microsoft.com/microsoft365dev/microsoft-graph-cli-retirement 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ICPC World Finals Livestream: ecnerwala and SecondThread Speed-Solving Kotlin Challenge</title>
-      <link>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_2/</link>
-      <pubDate>Fri, 29 Aug 2025 19:29:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_2/</guid>
-      <description>
-        
-          
-            Join us live from the ICPC World Finals in Baku, Azerbaijan, for a special event. This year, we are hosting a head-to-head match where two of the world’s top competitive programmers, Andrew ‘ecnerwala’ He and David ‘SecondThread’ Harmeyer, will speed-solve Kotlin problems in real time. Save the date: September 2, 2025, at 9:30 am UTC […]
-Link to article: https://blog.jetbrains.com/kotlin/2025/08/icpc-world-finals-livestream-ecnerwala-secondthread-kotlin/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Detect Amazon Bedrock misconfigurations with Datadog Cloud Security</title>
-      <link>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_3/</link>
-      <pubDate>Fri, 29 Aug 2025 16:55:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_3/</guid>
-      <description>
-        
-          
-            We’re excited to announce new security capabilities in Datadog Cloud Security that can help you detect and remediate Amazon Bedrock misconfigurations before they become security incidents. This integration helps organizations embed robust security controls and secure their use of the powerful capabilities of Amazon Bedrock by offering three critical advantages: holistic AI security by integrating AI security into your broader cloud security strategy, real-time risk detection through identifying potential AI-related security issues as they emerge, and simplified compliance to help meet evolving AI regulations with pre-built detections.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Set up custom domain names for Amazon Bedrock AgentCore Runtime agents</title>
-      <link>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_4/</link>
-      <pubDate>Fri, 29 Aug 2025 16:46:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_4/</guid>
-      <description>
-        
-          
-            In this post, we show you how to create custom domain names for your Amazon Bedrock AgentCore Runtime agent endpoints using CloudFront as a reverse proxy. This solution provides several key benefits: simplified integration for development teams, custom domains that align with your organization, cleaner infrastructure abstraction, and straightforward maintenance when endpoints need updates.
-Link to article: https://aws.amazon.com/blogs/machine-learning/set-up-custom-domain-names-for-amazon-bedrock-agentcore-runtime-agents/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing auto scaling on Amazon SageMaker HyperPod</title>
-      <link>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_5/</link>
-      <pubDate>Fri, 29 Aug 2025 16:21:02 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_5/</guid>
-      <description>
-        
-          
-            In this post, we announce that Amazon SageMaker HyperPod now supports managed node automatic scaling with Karpenter, enabling efficient scaling of SageMaker HyperPod clusters to meet inference and training demands. We dive into the benefits of Karpenter and provide details on enabling and configuring Karpenter in SageMaker HyperPod EKS clusters.
-Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-auto-scaling-on-amazon-sagemaker-hyperpod/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using SQL Server&#39;s new AI features and Python to create a T-SQL assistant</title>
-      <link>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_6/</link>
-      <pubDate>Fri, 29 Aug 2025 15:00:06 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_6/</guid>
-      <description>
-        
-          
-            [alert type=&amp;quot;important&amp;quot; heading=&amp;quot;Guest Post&amp;quot;]Rodrigo Ribeiro Gomes, Head of Innovation at Power Tuning, has been leveraging the new AI features in SQL Server engine to simplify the lives of DBAs and developers. He generously shared his experience with us: thank you, Rodrigo![/alert] I recently created a
-Link to article: https://devblogs.microsoft.com/azure-sql/using-sql-servers-new-ai-features-and-python-to-create-a-t-sql-assistant 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Thoughts on creating a tracking pointer class, part 15: A custom shared pointer</title>
-      <link>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_7/</link>
-      <pubDate>Fri, 29 Aug 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_7/</guid>
-      <description>
-        
-          
-            Last time, we made our trackable object implementation&#39;s constructors and assignment operations non-throwing, although it came at a cost of making
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250829-00/?p=111526 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Boost Your Copilot with SonarQube via Docker MCP Toolkit and Gateway</title>
-      <link>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_8/</link>
-      <pubDate>Fri, 29 Aug 2025 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_8/</guid>
-      <description>
-        
-          
-            In the era of AI copilots and code generation tools productivity is skyrocketing, but so is the risk of insecure, untested, or messy code slipping into production. How do you ensure it doesn’t introduce vulnerabilities, bugs, or bad practices? A widely adopted tool to help address these concerns is SonarQube. It provides a rich set...
-Link to article: https://www.docker.com/blog/blog-sonarqube-copilot-docker-mcp-toolkit/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>IntelliJ IDEA 2025.2.1 Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_9/</link>
-      <pubDate>Fri, 29 Aug 2025 09:34:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_08_2025/29_08_2025_9/</guid>
-      <description>
-        
-          
-            We’ve just released the first minor update for IntelliJ IDEA 2025.2 – v2025.2.1. You can update to this version from inside the IDE, via the Toolbox App, or by using snaps for Ubuntu. You can also download it from our website. This release includes the following improvements: To find out more about the resolved issues, […]
-Link to article: https://blog.jetbrains.com/idea/2025/08/intellij-idea-2025-2-1/ 
           
           
         
