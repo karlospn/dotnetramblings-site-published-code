@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 07 Sep 2025 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Sep 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why didn&#39;t Windows 95 simply special-case the laptops that locked up when it executed the &lt;code&gt;HLT&lt;/code&gt; instruction?</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2025/08_09_2025_0/</link>
+      <pubDate>Mon, 08 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2025/08_09_2025_0/</guid>
+      <description>
+        
+          
+            The 80386 HLT instruction tells the CPU to stop executing instructions until a hardware interrupt occurs. This was traditionally the instruction performed by the operating system when it had no work to do, allowing the CPU to go into a low-power mode. (In modern times, operating systems use other instructions like MWAIT
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250908-00/?p=111572 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>JetBrains Mellum Now Available on Amazon Bedrock Marketplace – For Free</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2025/08_09_2025_1/</link>
+      <pubDate>Mon, 08 Sep 2025 12:56:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2025/08_09_2025_1/</guid>
+      <description>
+        
+          
+            Production-grade code completion at your fingertips – deploy Mellum instantly with full control and zero extra model fees JetBrains Mellum – our focused large language model (LLM) for code completion – is now available on the Amazon Bedrock Marketplace. This means Mellum is easier than ever to use in real-world applications, with instant access via […]
+Link to article: https://blog.jetbrains.com/ai/2025/09/jetbrains-mellum-now-available-on-amazon-bedrock-marketplace-for-free/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Boost Your .NET Projects: Efficient Byte Array Conversions</title>
       <link>https://www.dotnetramblings.com/post/07_09_2025/07_09_2025_0/</link>
