@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 08 Sep 2025 20:50:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Sep 2025 14:35:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerate your model training with managed tiered checkpointing on Amazon SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/09_09_2025/09_09_2025_0/</link>
+      <pubDate>Tue, 09 Sep 2025 14:35:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_09_2025/09_09_2025_0/</guid>
+      <description>
+        
+          
+            AWS announced managed tiered checkpointing in Amazon SageMaker HyperPod, a purpose-built infrastructure to scale and accelerate generative AI model development across thousands of AI accelerators. Managed tiered checkpointing uses CPU memory for high-performance checkpoint storage with automatic data replication across adjacent compute nodes for enhanced reliability. In this post, we dive deep into those concepts and understand how to use the managed tiered checkpointing feature.
+Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-your-model-training-with-managed-tiered-checkpointing-on-amazon-sagemaker-hyperpod/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Maximize HyperPod Cluster utilization with HyperPod task governance fine-grained quota allocation</title>
       <link>https://www.dotnetramblings.com/post/08_09_2025/08_09_2025_0/</link>
