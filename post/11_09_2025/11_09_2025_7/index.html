@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Testing AI Coding Agents With TeamCity and SWE-bench | .NET Ramblings</title>
+<title>Why can&#39;t &lt;code&gt;std::apply&lt;/code&gt; figure out which overload I intend to use? Only one of then will work! | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Introduction AI coding agents are no longer research experiments. They are quickly becoming practical tools that can help developers solve real problems. But …" />
+<meta name="description" content="Consider the following: void f(int, int); void f(char*, char*); void test(std::tuple&lt;int, int&gt; t) { std::apply(f, t); // error } The compiler complains …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Testing AI Coding Agents With TeamCity and SWE-bench" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/ai.png"/>
+<meta name="twitter:title" content="Why can&#39;t &lt;code&gt;std::apply&lt;/code&gt; figure out which overload I intend to use? Only one of then will work!" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/11_09_2025/11_09_2025_7/" />
-<meta property="og:title" content="Testing AI Coding Agents With TeamCity and SWE-bench" />
-<meta property="og:description" content="Introduction AI coding agents are no longer research experiments. They are quickly becoming practical tools that can help developers solve real problems. But …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/ai.png" />
+<meta property="og:title" content="Why can&#39;t &lt;code&gt;std::apply&lt;/code&gt; figure out which overload I intend to use? Only one of then will work!" />
+<meta property="og:description" content="Consider the following: void f(int, int); void f(char*, char*); void test(std::tuple&lt;int, int&gt; t) { std::apply(f, t); // error } The compiler complains …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Testing AI Coding Agents With TeamCity and SWE-bench</h1>
+    <h1 class="post_title">Why can't <code>std::apply</code> figure out which overload I intend to use? Only one of then will work!</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Sep 11, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Sep 11, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Introduction AI coding agents are no longer research experiments. They are quickly becoming practical tools that can help developers solve real problems.  But how do you know whether an agent is good enough for serious use? How do you measure progress when its answers are not always predictable and when there may be various correct […]</p>
+    <div class="post_body"><p>Consider the following: void f(int, int); void f(char*, char*); void test(std::tuple&lt;int, int&gt; t) { std::apply(f, t); // error } The compiler complains that it cannot deduce the type of the first parameter. I'm using std::apply here, but the same arguments apply to functions like</p>
 <ul>
-<li>Link to article: <a href="https://blog.jetbrains.com/teamcity/2025/09/testing-ai-coding-agents-with-teamcity-and-swe-bench/">https://blog.jetbrains.com/teamcity/2025/09/testing-ai-coding-agents-with-teamcity-and-swe-bench/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20250911-00/?p=111586">https://devblogs.microsoft.com/oldnewthing/20250911-00/?p=111586</a></li>
 </ul>
 
     </div>
