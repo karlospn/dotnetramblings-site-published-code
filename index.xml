@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 12 Sep 2025 17:36:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vertical Slice Architecture Is Easier Than You Think</title>
+      <link>https://www.dotnetramblings.com/post/13_09_2025/13_09_2025_0/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_09_2025/13_09_2025_0/</guid>
+      <description>
+        
+          
+            Learn how Vertical Slice Architecture organizes .NET code by business features instead of technical layers, keeping related functionality together and making your codebase easier to navigate and maintain.
+Link to article: https://www.milanjovanovic.tech/blog/vertical-slice-architecture-is-easier-than-you-think 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Automate advanced agentic RAG pipeline with Amazon SageMaker AI</title>
       <link>https://www.dotnetramblings.com/post/12_09_2025/12_09_2025_0/</link>
@@ -1019,193 +1036,6 @@ Link to article: https://www.devleader.ca/2025/09/06/weekly-recap-20250905
           
             Learn how to add semantic search to your website using Amazon S3 Vectors - a new vector database service that&#39;s 90% cheaper than alternatives. Complete implementation guide using Semantic Kernel and .NET, from generating embeddings to querying vector indexes.
 Link to article: https://www.milanjovanovic.tech/blog/building-semantic-search-with-amazon-s3-vectors 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerating HPC and AI research in universities with Amazon SageMaker HyperPod</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_0/</link>
-      <pubDate>Fri, 05 Sep 2025 17:04:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_0/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how a research university implemented SageMaker HyperPod to accelerate AI research by using dynamic SLURM partitions, fine-grained GPU resource management, budget-aware compute cost tracking, and multi-login node load balancing—all integrated seamlessly into the SageMaker HyperPod environment.
-Link to article: https://aws.amazon.com/blogs/machine-learning/accelerating-hpc-and-ai-research-in-universities-with-amazon-sagemaker-hyperpod/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Exploring the Real-Time Race Track with Amazon Nova</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_1/</link>
-      <pubDate>Fri, 05 Sep 2025 16:58:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_1/</guid>
-      <description>
-        
-          
-            This post explores the Real-Time Race Track (RTRT), an interactive experience built using Amazon Nova in Amazon Bedrock, that lets fans design, customize, and share their own racing circuits. We highlight how generative AI capabilities come together to deliver strategic racing insights such as pit timing and tire choices, and interactive features like an AI voice assistant and a retro-style racing poster.
-Link to article: https://aws.amazon.com/blogs/machine-learning/exploring-the-real-time-race-track-with-amazon-nova/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Connect MCP Servers to Junie in PhpStorm</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_2/</link>
-      <pubDate>Fri, 05 Sep 2025 14:47:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_2/</guid>
-      <description>
-        
-          
-            The Model Context Protocol (MCP) is an open standard introduced by Anthropic. Think of it as a USB-C port for AI: a consistent way to plug the AI models your AI agent uses into specific tools and data sources. You can connect Junie, the AI coding agent by JetBrains, to a wide variety of officially […]
-Link to article: https://blog.jetbrains.com/phpstorm/2025/09/connect-mcp-servers-to-junie-in-phpstorm/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Sneak Peek at the SignalR Integration in Wolverine 5.0</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_3/</link>
-      <pubDate>Fri, 05 Sep 2025 14:42:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_3/</guid>
-      <description>
-        
-          
-            Earlier this week I did a live stream on the upcoming Wolverine 5.0 release where I just lightly touched on the concept for our planned SignalR integration with Wolverine. While there wasn’t that much to show yesterday, a big pull request just landed and I think the APIs and the approach has gelled enough that … Continue reading Sneak Peek at the SignalR Integration in Wolverine 5.0 →
-Link to article: https://jeremydmiller.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The case of the crash on a null pointer even though we checked it for null</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_4/</link>
-      <pubDate>Fri, 05 Sep 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_4/</guid>
-      <description>
-        
-          
-            A colleague was investigating a crash. The stack at the point of the crash looks like this: contoso!winrt::impl::consume_Windows_Foundation_Collections_IVectorView&amp;lt; winrt::Windows::Foundation::Collections::IVectorView, int&amp;gt;::Size+0x30 contoso!winrt::Contoso::implementation::Widget::
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250905-00/?p=111560 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docker Acquisition of MCP Defender Helps Meet Challenges of Securing the Agentic Future</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_5/</link>
-      <pubDate>Fri, 05 Sep 2025 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_5/</guid>
-      <description>
-        
-          
-            Docker, Inc.®, a provider of cloud-native and AI-native development tools, infrastructure, and services, today announced the acquisition of MCP Defender, a company founded to secure AI applications. The rapid evolution of AI-from simple generative models to powerful agentic tools-has transformed software development in extraordinary ways. But as with all powerful technologies, new capabilities bring new...
-Link to article: https://www.docker.com/blog/docker-acquires-mcp-defender-ai-agent-security/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why language models hallucinate</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_6/</link>
-      <pubDate>Fri, 05 Sep 2025 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_6/</guid>
-      <description>
-        
-          
-            OpenAI’s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI reliability, honesty, and safety.
-Link to article: https://openai.com/index/why-language-models-hallucinate 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>GPT-5 bio bug bounty call</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_7/</link>
-      <pubDate>Fri, 05 Sep 2025 08:45:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_7/</guid>
-      <description>
-        
-          
-            OpenAI invites researchers to its Bio Bug Bounty. Test GPT-5’s safety with a universal jailbreak prompt and win up to $25,000.
-Link to article: https://openai.com/gpt-5-bio-bug-bounty 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Java Annotated Monthly – September 2025</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_8/</link>
-      <pubDate>Fri, 05 Sep 2025 08:24:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_8/</guid>
-      <description>
-        
-          
-            This month’s Java Annotated Monthly comes with a fresh mix of Java, Kotlin, AI, and tech news, plus a look at some great events you won’t want to miss. We’ve also got a featured section by Marit van Dijk, covering the new Java 25 release, the latest IntelliJ IDEA updates, and a playful take on […]
-Link to article: https://blog.jetbrains.com/idea/2025/09/java-annotated-monthly-september-2025/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>OpenAI and Greek Government launch ‘OpenAI for Greece’</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_9/</link>
-      <pubDate>Fri, 05 Sep 2025 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_9/</guid>
-      <description>
-        
-          
-            OpenAI and the Greek Government have launched “OpenAI for Greece” to bring ChatGPT Edu into secondary schools and support responsible AI learning. This partnership aims to boost AI literacy, fuel local start-ups, and drive national economic growth.
-Link to article: https://openai.com/global-affairs/openai-for-greece 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What’s New in vcpkg (August 2025)</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_10/</link>
-      <pubDate>Fri, 05 Sep 2025 03:24:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_10/</guid>
-      <description>
-        
-          
-            This blog post summarizes changes to the vcpkg package manager as part of the 2025.08.27 registry release as well as changes to vcpkg documentation throughout August. There were no tool chang
-Link to article: https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-august-2025 
           
           
         

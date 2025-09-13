@@ -365,39 +365,5 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20250908-00/?p=11157
       </description>
     </item>
     
-    <item>
-      <title>The case of the crash on a null pointer even though we checked it for null</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_4/</link>
-      <pubDate>Fri, 05 Sep 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_4/</guid>
-      <description>
-        
-          
-            A colleague was investigating a crash. The stack at the point of the crash looks like this: contoso!winrt::impl::consume_Windows_Foundation_Collections_IVectorView&amp;lt; winrt::Windows::Foundation::Collections::IVectorView, int&amp;gt;::Size+0x30 contoso!winrt::Contoso::implementation::Widget::
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250905-00/?p=111560 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What’s New in vcpkg (August 2025)</title>
-      <link>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_10/</link>
-      <pubDate>Fri, 05 Sep 2025 03:24:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_09_2025/05_09_2025_10/</guid>
-      <description>
-        
-          
-            This blog post summarizes changes to the vcpkg package manager as part of the 2025.08.27 registry release as well as changes to vcpkg documentation throughout August. There were no tool chang
-Link to article: https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-august-2025 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
