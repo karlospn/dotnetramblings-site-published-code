@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 12 Sep 2025 16:57:17 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Sep 2025 07:33:06 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing the Constexpr Debugger</title>
+      <link>https://www.dotnetramblings.com/post/15_09_2025/15_09_2025_0/</link>
+      <pubDate>Mon, 15 Sep 2025 07:33:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_09_2025/15_09_2025_0/</guid>
+      <description>
+        
+          
+            “Not a constant expression.” You’ve seen the diagnostics and the note trail, but never the actual state. Until now. Modern C++ pushes more logic into constexpr/consteval: parsers, tables, DSLs, hashing – real code with real branches. When code fails at compile time, you can either try to guess the reason from the compiler’s notes or […]
+Link to article: https://blog.jetbrains.com/clion/2025/09/introducing-constexpr-debugger/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Your Voice Belongs Here: Creating Compelling KotlinConf Proposals [Livestream]</title>
       <link>https://www.dotnetramblings.com/post/12_09_2025/12_09_2025_3/</link>
