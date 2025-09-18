@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Devblogs.microsoft.com | .NET Ramblings</title>
+<title>Use AWS Deep Learning Containers with Amazon SageMaker AI managed MLflow | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="In this post, we show how to integrate AWS DLCs with MLflow to create a solution that balances infrastructure control with robust ML governance. We walk through …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Devblogs.microsoft.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/" />
-<meta property="og:title" content="Devblogs.microsoft.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Use AWS Deep Learning Containers with Amazon SageMaker AI managed MLflow" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/18_09_2025/18_09_2025_3/" />
+<meta property="og:title" content="Use AWS Deep Learning Containers with Amazon SageMaker AI managed MLflow" />
+<meta property="og:description" content="In this post, we show how to integrate AWS DLCs with MLflow to create a solution that balances infrastructure control with robust ML governance. We walk through …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/18_09_2025/18_09_2025_3/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2025" title="Microsoft C&#43;&#43; Team at CppCon 2025">Microsoft C++ Team at CppCon 2025</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Use AWS Deep Learning Containers with Amazon SageMaker AI managed MLflow</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,313 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Sep 11, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Sep 18, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Microsoft C&#43;&#43; Team at CppCon 2025"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>It's that time of year again! We are excited to see you all at CppCon this year, where we'll once again b
-Link to article: <a href="https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2025">https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2025</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2025" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/directx/shader-model-6-9-and-the-future-of-cooperative-vector" title="Shader Model 6.9 and The Future of Cooperative Vector">Shader Model 6.9 and The Future of Cooperative Vector</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 11, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>In this post, we show how to integrate AWS DLCs with MLflow to create a solution that balances infrastructure control with robust ML governance. We walk through a functional setup that your team can use to meet your specialized requirements while significantly reducing the time and resources needed for ML lifecycle management.</p>
+<ul>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/use-aws-deep-learning-containers-with-amazon-sagemaker-ai-managed-mlflow/">https://aws.amazon.com/blogs/machine-learning/use-aws-deep-learning-containers-with-amazon-sagemaker-ai-managed-mlflow/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Shader Model 6.9 and The Future of Cooperative Vector"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Direct
-Link to article: <a href="https://devblogs.microsoft.com/directx/shader-model-6-9-and-the-future-of-cooperative-vector">https://devblogs.microsoft.com/directx/shader-model-6-9-and-the-future-of-cooperative-vector</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/directx/shader-model-6-9-and-the-future-of-cooperative-vector" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/vscode-blog/august-2025-%28version-1.104%29" title="August 2025 (version 1.104)">August 2025 (version 1.104)</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 11, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="August 2025 (version 1.104)"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Learn what is new in the Visual Studio Code August 2025 Release (1.104) Read the full article
-Link to article: <a href="https://devblogs.microsoft.com/vscode-blog/august-2025-(version-1.104)">https://devblogs.microsoft.com/vscode-blog/august-2025-(version-1.104)</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/vscode-blog/august-2025-%28version-1.104%29" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/visualstudio/copilot-profiler-agent-visual-studio" title="Democratizing Performance: The Copilot Profiler Agent in Action on Real Code">Democratizing Performance: The Copilot Profiler Agent in Action on Real Code</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 11, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Democratizing Performance: The Copilot Profiler Agent in Action on Real Code"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/vs.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>We’re excited to announce the Copilot Profiler Agent available in Visual Studio 2026 Insiders, it's an AI-powe
-Link to article: <a href="https://devblogs.microsoft.com/visualstudio/copilot-profiler-agent-visual-studio">https://devblogs.microsoft.com/visualstudio/copilot-profiler-agent-visual-studio</a></p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/visualstudio/copilot-profiler-agent-visual-studio" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20250911-00/?p=111586" title="Why can&#39;t &lt;code&gt;std::apply&lt;/code&gt; figure out which overload I intend to use? Only one of then will work!">Why can't <code>std::apply</code> figure out which overload I intend to use? Only one of then will work!</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 11, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Why can&amp;#39;t &amp;lt;code&amp;gt;std::apply&amp;lt;/code&amp;gt; figure out which overload I intend to use? Only one of then will work!"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Consider the following: void f(int, int); void f(char*, char*); void test(std::tuple&lt;int, int&gt; t) { std::apply(f, t); // error } The compiler complains that it cannot deduce the type of the first parameter. I'm using std::apply here, but the same arguments apply to functions like
-Link to article: …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20250911-00/?p=111586" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -471,9 +184,8 @@ Link to article: …</p>
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
