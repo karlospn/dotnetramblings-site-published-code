@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 18 Sep 2025 19:00:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Sep 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning to read C&#43;&#43; compiler errors: Not a legal base class</title>
+      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_2/</link>
+      <pubDate>Fri, 19 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_2/</guid>
+      <description>
+        
+          
+            A colleague was trying to create a Windows Runtime delegate with WRL. Here&#39;s a simplified version of what they wrote. namespace ABI { using namespace ABI::Windows::UI::ViewManagement; } struct MyClass : Microsoft::WRL::RuntimeClass&amp;lt;⟦...⟧&amp;gt; { HRESULT OnInputPaneShowing(ABI::InputPane* sender,
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250919-00/?p=111612 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI-Assisted Development powered by Local Models</title>
       <link>https://www.dotnetramblings.com/post/18_09_2025/18_09_2025_2/</link>

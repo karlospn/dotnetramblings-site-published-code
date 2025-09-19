@@ -43,11 +43,28 @@ Link to article: https://aws.amazon.com/blogs/dotnet/building-a-graphql-api-with
     </item>
     
     <item>
-      <title>Silent Component Updates &amp; Redesigned Update Experience</title>
+      <title>Learning to read C&#43;&#43; compiler errors: Not a legal base class</title>
       <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_2/</link>
-      <pubDate>Fri, 19 Sep 2025 13:07:13 +0000</pubDate>
+      <pubDate>Fri, 19 Sep 2025 14:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_2/</guid>
+      <description>
+        
+          
+            A colleague was trying to create a Windows Runtime delegate with WRL. Here&#39;s a simplified version of what they wrote. namespace ABI { using namespace ABI::Windows::UI::ViewManagement; } struct MyClass : Microsoft::WRL::RuntimeClass&amp;lt;⟦...⟧&amp;gt; { HRESULT OnInputPaneShowing(ABI::InputPane* sender,
+Link to article: https://devblogs.microsoft.com/oldnewthing/20250919-00/?p=111612 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Silent Component Updates &amp; Redesigned Update Experience</title>
+      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_3/</link>
+      <pubDate>Fri, 19 Sep 2025 13:07:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_3/</guid>
       <description>
         
           
@@ -61,10 +78,10 @@ Link to article: https://www.docker.com/blog/docker-desktop-silent-component-upd
     
     <item>
       <title>Beyond Containers: llama.cpp Now Pulls GGUF Models Directly from Docker Hub</title>
-      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_4/</link>
       <pubDate>Fri, 19 Sep 2025 12:01:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_4/</guid>
       <description>
         
           
@@ -78,10 +95,10 @@ Link to article: https://www.docker.com/blog/llama-cpp-pulls-gguf-models-from-do
     
     <item>
       <title>JetBrains Academy – September Digest</title>
-      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_5/</link>
       <pubDate>Fri, 19 Sep 2025 11:02:32 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_5/</guid>
       <description>
         
           
@@ -95,10 +112,10 @@ Link to article: https://blog.jetbrains.com/education/2025/09/19/jetbrains-acade
     
     <item>
       <title>IntelliJ IDEA 2025.2.2 Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_6/</link>
       <pubDate>Fri, 19 Sep 2025 09:53:11 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_6/</guid>
       <description>
         
           
