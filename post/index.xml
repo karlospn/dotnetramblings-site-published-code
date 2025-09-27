@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 26 Sep 2025 22:57:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Secure APIs with Role-Based Access Control in ASP.NET Core</title>
+      <link>https://www.dotnetramblings.com/post/27_09_2025/27_09_2025_0/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_09_2025/27_09_2025_0/</guid>
+      <description>
+        
+          
+            Learn how to implement Role-Based Access Control (RBAC) in ASP.NET Core with custom authorization handlers, permission-based policies, and clean extension methods for both Minimal APIs and MVC controllers.
+Link to article: https://www.milanjovanovic.tech/blog/building-secure-apis-with-role-based-access-control-in-aspnetcore 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Announcing Hotkey Typer — type long prompts with a hotkey</title>
       <link>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_0/</link>
@@ -1126,125 +1143,6 @@ The Other Side of Software Engineering Interviews - Principal Engineering Manage
           
             Learn how to coordinate work across multiple application instances using distributed locking in .NET, preventing race conditions and ensuring data consistency in scaled-out systems. Explore implementation approaches from PostgreSQL advisory locks to the DistributedLock library for production-ready solutions.
 Link to article: https://www.milanjovanovic.tech/blog/distributed-locking-in-dotnet-coordinating-work-across-multiple-instances 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Move your AI agents from proof of concept to production with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_0/</link>
-      <pubDate>Fri, 19 Sep 2025 16:09:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_0/</guid>
-      <description>
-        
-          
-            This post explores how Amazon Bedrock AgentCore helps you transition your agentic applications from experimental proof of concept to production-ready systems. We follow the journey of a customer support agent that evolves from a simple local prototype to a comprehensive, enterprise-grade solution capable of handling multiple concurrent users while maintaining security and performance standards.
-Link to article: https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building a GraphQL API with AWS AppSync Using Direct Lambda Resolvers in .NET</title>
-      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_1/</link>
-      <pubDate>Fri, 19 Sep 2025 14:23:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_1/</guid>
-      <description>
-        
-          
-            GraphQL APIs enables clients to request specific data sets, reducing over-fetching compared to traditional REST APIs, which return fixed data structures with unnecessary fields. Unlike REST APIs that require multiple endpoints and round trips to gather related data, GraphQL provides a single endpoint. This enables clients to fetch exactly what they need in one request, improving […]
-Link to article: https://aws.amazon.com/blogs/dotnet/building-a-graphql-api-with-aws-appsync-using-direct-lambda-resolvers-in-net/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Learning to read C&#43;&#43; compiler errors: Not a legal base class</title>
-      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_2/</link>
-      <pubDate>Fri, 19 Sep 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_2/</guid>
-      <description>
-        
-          
-            A colleague was trying to create a Windows Runtime delegate with WRL. Here&#39;s a simplified version of what they wrote. namespace ABI { using namespace ABI::Windows::UI::ViewManagement; } struct MyClass : Microsoft::WRL::RuntimeClass&amp;lt;⟦...⟧&amp;gt; { HRESULT OnInputPaneShowing(ABI::InputPane* sender,
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250919-00/?p=111612 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Silent Component Updates &amp; Redesigned Update Experience</title>
-      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_3/</link>
-      <pubDate>Fri, 19 Sep 2025 13:07:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_3/</guid>
-      <description>
-        
-          
-            Following on from our previous initiative to improve how Docker Desktop delivers updates, we are excited to announce another major improvement to how Docker Desktop keeps your development tools up to date. Starting with Docker Desktop 4.46, we&#39;re introducing automatic component updates and a completely redesigned update experience that puts your productivity first. Why We&#39;re...
-Link to article: https://www.docker.com/blog/docker-desktop-silent-component-updates/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Beyond Containers: llama.cpp Now Pulls GGUF Models Directly from Docker Hub</title>
-      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_4/</link>
-      <pubDate>Fri, 19 Sep 2025 12:01:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_4/</guid>
-      <description>
-        
-          
-            The world of local AI is moving at an incredible pace, and at the heart of this revolution is llama.cpp—the powerhouse C++ inference engine that brings Large Language Models (LLMs) to everyday hardware (and it’s also the inference engine that powers Docker Model Runner). Developers love llama.cpp for its performance and simplicity. And we at...
-Link to article: https://www.docker.com/blog/llama-cpp-pulls-gguf-models-from-docker-hub/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>JetBrains Academy – September Digest</title>
-      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_5/</link>
-      <pubDate>Fri, 19 Sep 2025 11:02:32 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_5/</guid>
-      <description>
-        
-          
-            Do you remember, dancin’ in September? 🎶 This September, let JetBrains keep the rhythm of your studies strong with free JetBrains IDEs and tools for study, a brand-new collaboration between AWS and JetBrains Academy, exclusive opportunities for school students, and more. Ready to groove into learning?
-Link to article: https://blog.jetbrains.com/education/2025/09/19/jetbrains-academy-september/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>IntelliJ IDEA 2025.2.2 Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_6/</link>
-      <pubDate>Fri, 19 Sep 2025 09:53:11 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_09_2025/19_09_2025_6/</guid>
-      <description>
-        
-          
-            IntelliJ IDEA 2025.2.2 has arrived with several valuable fixes. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates included in this version: To find out more details about the […]
-Link to article: https://blog.jetbrains.com/idea/2025/09/intellij-idea-2025-2-2/ 
           
           
         
