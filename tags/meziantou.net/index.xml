@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 22 Sep 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Sep 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Git insteadOf to Automatically Replace HTTPS URLs with SSH</title>
+      <link>https://www.dotnetramblings.com/post/29_09_2025/29_09_2025_0/</link>
+      <pubDate>Mon, 29 Sep 2025 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_09_2025/29_09_2025_0/</guid>
+      <description>
+        
+          
+            When working with Git repositories, you often encounter URLs in HTTPS format, especially when cloning from GitHub, GitLab, or other hosting services. However, if you prefer using SSH for authentication (which is often more convenient with key-based auth), manually changing URLs can be tedious. Also, it can be even harder when dealing with submodules. Git&#39;s insteadOf configuration option provides an…
+Link to article: https://www.meziantou.net/using-git-insteadof-to-automatically-replace-https-urls-with-ssh.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Batch migrate .sln files to .slnx format across repositories</title>
       <link>https://www.dotnetramblings.com/post/22_09_2025/22_09_2025_6/</link>
