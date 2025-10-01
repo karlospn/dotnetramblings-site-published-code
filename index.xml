@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 30 Sep 2025 20:40:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Oct 2025 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing Array Performance in .NET: Getting the Most from ArrayPool</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2025/01_10_2025_0/</link>
+      <pubDate>Wed, 01 Oct 2025 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2025/01_10_2025_0/</guid>
+      <description>
+        
+          
+            ArrayPool optimizes memory usage by providing a thread-safe pool of reusable arrays, significantly reducing allocations and garbage collection pressure, especially in high-performance scenarios. It&#39;s effective for I/O, serialization, and media processing. Best practices include tight scope management, clearing sensitive data on return, and careful tracking of logical array lengths.
+Link to article: https://dotnettips.wordpress.com/2025/10/01/optimizing-array-performance-in-net-getting-the-most-from-arraypool/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Celebrating Marten’s 10th Birthday!</title>
       <link>https://www.dotnetramblings.com/post/30_09_2025/30_09_2025_0/</link>
