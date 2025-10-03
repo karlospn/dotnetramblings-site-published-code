@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 03 Oct 2025 16:55:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Oct 2025 20:08:46 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Amper Update, October 2025 – Compose Hot Reload and UX Improvements</title>
+      <title>Secure ingress connectivity to Amazon Bedrock AgentCore Gateway using interface VPC endpoints</title>
       <link>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_0/</link>
-      <pubDate>Fri, 03 Oct 2025 16:55:44 +0000</pubDate>
+      <pubDate>Fri, 03 Oct 2025 20:08:46 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to access AgentCore Gateway through a VPC interface endpoint from an Amazon Elastic Compute Cloud (Amazon EC2) instance in a VPC. We also show how to configure your VPC endpoint policy to provide secure access to the AgentCore Gateway while maintaining the principle of least privilege access.
+Link to article: https://aws.amazon.com/blogs/machine-learning/secure-ingress-connectivity-to-amazon-bedrock-agentcore-gateway-using-interface-vpc-endpoints/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Roadmap for AI in Visual Studio (October)</title>
+      <link>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_1/</link>
+      <pubDate>Fri, 03 Oct 2025 19:29:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_1/</guid>
+      <description>
+        
+          
+            Today, we’re excited to share our public roadmap, which outlines the next steps in evolving Visual Studio with AI-powered agentic experiences. With every month, we aim to deliver smarter, faster, and more intuitive tools that enhance your coding experience. Disclaimer: The items outlined here represent ongoing work for the month. They
+Link to article: https://devblogs.microsoft.com/visualstudio/roadmap-for-ai-in-visual-studio-october 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Amper Update, October 2025 – Compose Hot Reload and UX Improvements</title>
+      <link>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_2/</link>
+      <pubDate>Fri, 03 Oct 2025 16:55:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_2/</guid>
       <description>
         
           
@@ -26,11 +60,28 @@ Link to article: https://blog.jetbrains.com/amper/2025/10/amper-update-october-2
     </item>
     
     <item>
+      <title>Can we get weak functions for static linking? The Visual C&#43;&#43; compiler says &#34;We have weak functions at home&#34;</title>
+      <link>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_3/</link>
+      <pubDate>Fri, 03 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_3/</guid>
+      <description>
+        
+          
+            The ELF object file has this thing called &amp;quot;weak functions&amp;quot;. These are functions present in a library that are used by the linker to resolve a symbol only if the main program doesn&#39;t provide a resolution for them. The Visual C++ compiler doesn&#39;t have &amp;quot;weak functions&amp;quot; in this sense, but that doesn&#39;t mean that equivalent functionality
+Link to article: https://devblogs.microsoft.com/oldnewthing/20251003-00/?p=111650 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>From Lab to Live: A Blueprint for a Voice-Powered AI Sales Coach</title>
-      <link>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_4/</link>
       <pubDate>Fri, 03 Oct 2025 06:47:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_4/</guid>
       <description>
         
           
