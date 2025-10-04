@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 03 Oct 2025 21:37:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Stored Procedures and Functions With EF Core and PostgreSQL</title>
+      <link>https://www.dotnetramblings.com/post/04_10_2025/04_10_2025_0/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_10_2025/04_10_2025_0/</guid>
+      <description>
+        
+          
+            Learn how to use PostgreSQL stored procedures and functions with EF Core to handle complex queries, atomic operations with locking, and database-specific features while keeping the type safety and convenience of EF Core.
+Link to article: https://www.milanjovanovic.tech/blog/using-stored-procedures-and-functions-with-ef-core-and-postgresql 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Unlock global AI inference scalability using new global cross-Region inference on Amazon Bedrock  with Anthropic’s Claude Sonnet 4.5</title>
       <link>https://www.dotnetramblings.com/post/03_10_2025/03_10_2025_0/</link>
@@ -1192,176 +1209,6 @@ Link to article: https://ardalis.com/ardalis-fall-2025-speaking-tour/
           
             Learn how to implement Role-Based Access Control (RBAC) in ASP.NET Core with custom authorization handlers, permission-based policies, and clean extension methods for both Minimal APIs and MVC controllers.
 Link to article: https://www.milanjovanovic.tech/blog/building-secure-apis-with-role-based-access-control-in-aspnetcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing Hotkey Typer — type long prompts with a hotkey</title>
-      <link>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_0/</link>
-      <pubDate>Fri, 26 Sep 2025 22:57:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_0/</guid>
-      <description>
-        
-          
-            When I&#39;m recording demos or making videos I often need to reproduce long prompts or blocks of text on-screen. Manually retyping them every time is slow and error-prone, and pasting from the clipboard can feel jerky and reveal private content. I wanted a tiny, reliable app that would
-Link to article: https://montemagno.com/announcing-hotkey-typer/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Preparing Your .NET MAUI Apps for Google Play&#39;s 16 KB Page Size Requirement</title>
-      <link>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_1/</link>
-      <pubDate>Fri, 26 Sep 2025 17:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_1/</guid>
-      <description>
-        
-          
-            If you&#39;re a .NET MAUI developer publishing apps to Google Play, there&#39;s an important requirement coming your way. Starting November 1st, 2025, Google Play will require all new apps and updates targeting Android 15+ to support 16 KB page sizes on 64-bit devices. What is the 16 KB Page Size Requirement? Androi
-Link to article: https://devblogs.microsoft.com/dotnet/maui-google-play-16-kb-page-size-support 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building health care agents using Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_2/</link>
-      <pubDate>Fri, 26 Sep 2025 16:03:41 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_2/</guid>
-      <description>
-        
-          
-            In this solution, we demonstrate how the user (a parent) can interact with a Strands or LangGraph agent in conversational style and get information about the immunization history and schedule of their child, inquire about the available slots, and book appointments. With some changes, AI agents can be made event-driven so that they can automatically send reminders, book appointments, and so on.
-Link to article: https://aws.amazon.com/blogs/machine-learning/building-health-care-agents-using-amazon-bedrock-agentcore/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build multi-agent site reliability engineering assistants with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_3/</link>
-      <pubDate>Fri, 26 Sep 2025 15:58:34 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_3/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to build a multi-agent SRE assistant using Amazon Bedrock AgentCore, LangGraph, and the Model Context Protocol (MCP). This system deploys specialized AI agents that collaborate to provide the deep, contextual intelligence that modern SRE teams need for effective incident response and infrastructure management.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-multi-agent-site-reliability-engineering-assistants-with-amazon-bedrock-agentcore/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why didn&#39;t Windows 95 setup install a miniature Windows 95 so that it could be written as a 32-bit program?</title>
-      <link>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_4/</link>
-      <pubDate>Fri, 26 Sep 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_4/</guid>
-      <description>
-        
-          
-            I noted some time ago that Windows 95 Setup was actually three programs running under three different operating systems. The first part was an MS-DOS program, which was used if you installed Windows 9
-Link to article: https://devblogs.microsoft.com/oldnewthing/20250926-00/?p=111629 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The Trust Paradox: When Your AI Gets Catfished</title>
-      <link>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_5/</link>
-      <pubDate>Fri, 26 Sep 2025 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_5/</guid>
-      <description>
-        
-          
-            The fundamental challenge with MCP-enabled attacks isn&#39;t technical sophistication. It&#39;s that hackers have figured out how to catfish your AI. These attacks work because they exploit the same trust relationships that make your development team actually functional. When your designers expect Figma files from agencies they&#39;ve worked with for years, when your DevOps folks trust...
-Link to article: https://www.docker.com/blog/mcp-prompt-injection-trust-paradox/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Simplifying Resource Management in mssql-python through Context Manager</title>
-      <link>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_6/</link>
-      <pubDate>Fri, 26 Sep 2025 09:49:51 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_6/</guid>
-      <description>
-        
-          
-            Reviewed by: Sumit Sarabhai
-Link to article: https://devblogs.microsoft.com/python/simplifying-resource-management-in-mssql-python-through-context-manager 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Unlocking MCP in JetBrains: How Copilot Uses Sampling, Prompts, Resources, and Elicitation</title>
-      <link>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_7/</link>
-      <pubDate>Fri, 26 Sep 2025 07:46:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_7/</guid>
-      <description>
-        
-          
-            With the enhanced capability of the MCP on JetBrains, you can now bring prompts, resources, and even interac
-Link to article: https://devblogs.microsoft.com/java/unlocking-mcp-in-jetbrains-how-copilot-uses-sampling-prompts-resources-and-elicitation 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Java Open-Source Projects Use IntelliJ IDEA: Real-World Examples – Part 2</title>
-      <link>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_8/</link>
-      <pubDate>Fri, 26 Sep 2025 07:08:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_8/</guid>
-      <description>
-        
-          
-            In Part 1 of this series, we introduced some of the Java community’s most recognized open-source projects. Now, we’re back with more standouts: projects that speed up builds, strengthen testing, and simplify working with modern web stacks. And as always, IntelliJ IDEA helps maintainers move faster, confidently, and with a focus on quality. 🌿 jsoup […]
-Link to article: https://blog.jetbrains.com/blog/2025/09/26/how-java-open-source-projects-use-intellij-idea-real-world-examples-part-2/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Partnering with AARP to help keep older adults safe online</title>
-      <link>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_9/</link>
-      <pubDate>Fri, 26 Sep 2025 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_09_2025/26_09_2025_9/</guid>
-      <description>
-        
-          
-            OpenAI and AARP are partnering to help older adults stay safe online with new AI training, scam-spotting tools, and nationwide programs through OpenAI Academy and OATS’s Senior Planet initiative.
-Link to article: https://openai.com/index/aarp-partnership-older-adults-online-safety 
           
           
         
