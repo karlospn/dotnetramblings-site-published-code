@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>From the Captain’s Chair: Pradumna Saraf | .NET Ramblings</title>
+<title>Windows Runtime API design principles around read-write properties: Idempotence and self-assignment | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Docker Captains are leaders from the developer community that are both experts in their field and are passionate about sharing their Docker knowledge with …" />
+<meta name="description" content="Objects in the Windows Runtime can have properties, and those properties could be read-only or read-write. For read-write properties, there are a few general …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="From the Captain’s Chair: Pradumna Saraf" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
+<meta name="twitter:title" content="Windows Runtime API design principles around read-write properties: Idempotence and self-assignment" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_4/" />
-<meta property="og:title" content="From the Captain’s Chair: Pradumna Saraf" />
-<meta property="og:description" content="Docker Captains are leaders from the developer community that are both experts in their field and are passionate about sharing their Docker knowledge with …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
+<meta property="og:title" content="Windows Runtime API design principles around read-write properties: Idempotence and self-assignment" />
+<meta property="og:description" content="Objects in the Windows Runtime can have properties, and those properties could be read-only or read-write. For read-write properties, there are a few general …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">From the Captain’s Chair: Pradumna Saraf</h1>
+    <h1 class="post_title">Windows Runtime API design principles around read-write properties: Idempotence and self-assignment</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Oct 8, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Oct 8, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Docker Captains are leaders from the developer community that are both experts in their field and are passionate about sharing their Docker knowledge with others. “From the Captain’s Chair” is a blog series where we get a closer look at one Captain to learn more about them and their experiences.  Today, we are interviewing Pradumna...</p>
+    <div class="post_body"><p>Objects in the Windows Runtime can have properties, and those properties could be read-only or read-write. For read-write properties, there are a few general principles. Today we're going to look at this one: Setting a property to its current value is legal and has no effect.¹ For example: // C# o</p>
 <ul>
-<li>Link to article: <a href="https://www.docker.com/blog/from-the-captains-chair-pradumna-saraf/">https://www.docker.com/blog/from-the-captains-chair-pradumna-saraf/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20251008-00/?p=111660">https://devblogs.microsoft.com/oldnewthing/20251008-00/?p=111660</a></li>
 </ul>
 
     </div>
