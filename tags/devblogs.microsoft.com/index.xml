@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 08 Oct 2025 06:51:06 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Oct 2025 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preparing for the .NET 10 GC (DATAS)</title>
+      <link>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_0/</link>
+      <pubDate>Wed, 08 Oct 2025 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_0/</guid>
+      <description>
+        
+          
+            This article is cross-posted from Maoni&#39;s blog post original Medium article Preparing for the .NET 10 GC by permission. Preparing for the .NET 10 GC In .NET 9 we enabled DATAS by default. But .NET 9 is not an LTS relea
+Link to article: https://devblogs.microsoft.com/dotnet/preparing-for-dotnet-10-gc 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Windows Runtime API design principles around read-write properties: Idempotence and self-assignment</title>
+      <link>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_3/</link>
+      <pubDate>Wed, 08 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_3/</guid>
+      <description>
+        
+          
+            Objects in the Windows Runtime can have properties, and those properties could be read-only or read-write. For read-write properties, there are a few general principles. Today we&#39;re going to look at this one: Setting a property to its current value is legal and has no effect.¹ For example: // C# o
+Link to article: https://devblogs.microsoft.com/oldnewthing/20251008-00/?p=111660 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Semantic Kernel and Microsoft Agent Framework</title>
-      <link>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_8/</link>
       <pubDate>Wed, 08 Oct 2025 06:51:06 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_8/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/semantic-kernel-
     
     <item>
       <title>Announcing a new OData.NET serializer</title>
-      <link>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_9/</link>
       <pubDate>Wed, 08 Oct 2025 06:28:10 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_9/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/odata/announcing-a-new-odata-net
     
     <item>
       <title>What&#39;s new in Azure AI Foundry | September 2025</title>
-      <link>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_11/</link>
       <pubDate>Wed, 08 Oct 2025 00:58:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_10_2025/08_10_2025_11/</guid>
       <description>
         
           
