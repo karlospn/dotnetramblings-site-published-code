@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 13 Oct 2025 22:21:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Oct 2025 00:17:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing AWS development costs for .NET applications with LocalStack</title>
+      <link>https://www.dotnetramblings.com/post/14_10_2025/14_10_2025_0/</link>
+      <pubDate>Tue, 14 Oct 2025 00:17:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_10_2025/14_10_2025_0/</guid>
+      <description>
+        
+          
+            Development and testing of AWS integrated applications incur AWS costs and need reliable internet connectivity. LocalStack helps reduce AWS costs by running emulated AWS services locally, while also eliminating connectivity issues. In this blog post, we will demonstrate how to reduce AWS costs for a sample .NET application in Development and Test cycles by setting […]
+Link to article: https://aws.amazon.com/blogs/dotnet/optimizing-aws-development-costs-for-net-applications-with-localstack/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docker Model Runner on the new NVIDIA DGX Spark: a new paradigm for developing AI locally</title>
+      <link>https://www.dotnetramblings.com/post/14_10_2025/14_10_2025_1/</link>
+      <pubDate>Tue, 14 Oct 2025 00:16:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_10_2025/14_10_2025_1/</guid>
+      <description>
+        
+          
+            We’re thrilled to bring NVIDIA DGX™ Spark support to Docker Model Runner. The new NVIDIA DGX Spark delivers incredible performance, and Docker Model Runner makes it accessible. With Model Runner, you can easily run and iterate on larger models right on your local machine, using the same intuitive Docker experience you already trust. In this...
+Link to article: https://www.docker.com/blog/new-nvidia-dgx-spark-docker-model-runner/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Transforming the physical world with AI: the next frontier in intelligent automation</title>
       <link>https://www.dotnetramblings.com/post/13_10_2025/13_10_2025_0/</link>
@@ -917,346 +951,6 @@ Link to article: https://openai.com/global-affairs/disrupting-malicious-uses-of-
           
             We’d like to inform you about an update to how inline images are represented in the HTML body of Outlook emails in Outlook on the web and the new Outlook for Windows. This change may impact how your add-in identifies and processes inline images when using the attachment ID. What’s changing? Previously, inl
 Link to article: https://devblogs.microsoft.com/microsoft365dev/changes-to-inline-images-in-outlook 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>IBM Granite 4.0 Models Now Available on Docker Hub</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_0/</link>
-      <pubDate>Mon, 06 Oct 2025 21:29:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_0/</guid>
-      <description>
-        
-          
-            Developers can now discover and run IBM’s latest open-source Granite 4.0 language models from the Docker Hub model catalog, and start building in minutes with Docker Model Runner. Granite 4.0 pairs strong, enterprise-ready performance with a lightweight footprint, so you can prototype locally and scale confidently. The Granite 4.0 family is designed for speed, flexibility,...
-Link to article: https://www.docker.com/blog/ibm-granite-4-0-models-now-available-on-docker-hub/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Unlimited access to Docker Hardened Images: Because security should be affordable, always</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_1/</link>
-      <pubDate>Mon, 06 Oct 2025 21:19:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_1/</guid>
-      <description>
-        
-          
-            Every organization we speak with shares the same goal: to deliver software that is secure and free of CVEs. Near-zero CVEs is the ideal state. But achieving that ideal is harder than it sounds, because paradoxes exist at every step. Developers patch quickly, yet new CVEs appear faster than fixes can ship. Organizations standardize on...
-Link to article: https://www.docker.com/blog/unlimited-access-to-docker-hardened-images-because-security-should-be-affordable-always/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Responsible AI: How PowerSchool safeguards millions of students with AI-powered content filtering using Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_2/</link>
-      <pubDate>Mon, 06 Oct 2025 19:14:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_2/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how PowerSchool built and deployed a custom content filtering solution using Amazon SageMaker AI that achieved better accuracy while maintaining low false positive rates. We walk through our technical approach to fine tuning Llama 3.1 8B, our deployment architecture, and the performance results from internal validations.
-Link to article: https://aws.amazon.com/blogs/machine-learning/responsible-ai-how-powerschool-safeguards-millions-of-students-with-ai-powered-content-filtering-using-amazon-sagemaker-ai/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>CLion Nova Will Become the Default Engine for All Users in v2025.3 – Here’s What You Need to Know</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_3/</link>
-      <pubDate>Mon, 06 Oct 2025 17:41:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_3/</guid>
-      <description>
-        
-          
-            CLion Nova became the default language engine for new users starting with v2024.2. Since then, we’ve delivered the features users wanted most and addressed key bugs. We’ve also received very positive feedback from people and organizations who have tried the new engine and compared it with the legacy one, CLion Classic. All of this has […]
-Link to article: https://blog.jetbrains.com/clion/2025/10/nova-default-for-all/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>JetBrains × Zed: Open Interoperability for AI Coding Agents in Your IDE</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_4/</link>
-      <pubDate>Mon, 06 Oct 2025 15:57:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_4/</guid>
-      <description>
-        
-          
-            At JetBrains, our mission is simple: help developers achieve engineering excellence without distractions or vendor lock-in. Today, we’re excited to share that we’re collaborating with Zed on the Agent Client Protocol (ACP) – an open protocol that lets AI coding agents work inside editors, including JetBrains IDEs, if both are ACP-compatible. Why this collaboration matters […]
-Link to article: https://blog.jetbrains.com/ai/2025/10/jetbrains-zed-open-interoperability-for-ai-coding-agents-in-your-ide/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Visual Studio Dev/Test Benefit Explained</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_5/</link>
-      <pubDate>Mon, 06 Oct 2025 15:52:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_5/</guid>
-      <description>
-        
-          
-            Before joining Microsoft, I served as VP of Application Development at one of the largest temporary staffing companies in the United States. I’ll never forget the look on our CFO’s face when I told him we needed two to three additional cloud environments to support a large-scale modernization project. His
-Link to article: https://devblogs.microsoft.com/visualstudio/visual-studio-dev-test-benefit-explained 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>9 ReSharper Features Every .NET Developer Should Know</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_6/</link>
-      <pubDate>Mon, 06 Oct 2025 14:35:27 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_6/</guid>
-      <description>
-        
-          
-            Around 15 years ago, I got my first assistant job at a university department. Frankly, I only used ReSharper for its solution-wide analysis, which would alert me whenever I broke the spaghetti code I got served. I did not know about all the refactorings yet. It was only at my second job that my awesome […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/10/06/9-resharper-features-every-dotnet-developer-should-know/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Code comments should apply to the state of the system at the point the comment &#34;executes&#34;</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_7/</link>
-      <pubDate>Mon, 06 Oct 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_7/</guid>
-      <description>
-        
-          
-            Comments inside the body of a function should apply to the state of the system at the point the comment &amp;quot;executes&amp;quot;. Here&#39;s an example of poor comment placement: // Widget is already vibrating, so we update the waveform in place. // Else the waveform parameters will be set when we start vibrating. if (waveformParameters !
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251006-00/?p=111655 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docker at AI Engineer Paris: Build and Secure AI Agents with Docker</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_8/</link>
-      <pubDate>Mon, 06 Oct 2025 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_8/</guid>
-      <description>
-        
-          
-            Last week, Docker was thrilled to be part of the inaugural AI Engineer Paris, a spectacular European debut that brought together an extraordinary lineup of speakers and companies. The conference, organized by the Koyeb team, made one thing clear: the days of simply sprinkling &#39;AI dust&#39; on applications are over. Meaningful results demand rigorous engineering,...
-Link to article: https://www.docker.com/blog/ai-engineer-paris-build-secure-ai-agents/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The State of CI/CD in 2025: Key Insights from the Latest JetBrains Survey</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_9/</link>
-      <pubDate>Mon, 06 Oct 2025 12:45:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_9/</guid>
-      <description>
-        
-          
-            Introduction The CI/CD tools market has become increasingly complex over the past few years. DevOps engineers now have to manage a wide range of tools, all with their own complex setups and features. JetBrains’ TeamCity and Research departments came together to produce a joint survey looking into the CI/CD tool market in 2025. To gain […]
-Link to article: https://blog.jetbrains.com/teamcity/2025/10/the-state-of-cicd/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Find an Available Network Port for a server in .NET</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_10/</link>
-      <pubDate>Mon, 06 Oct 2025 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_10/</guid>
-      <description>
-        
-          
-            When working with network programming in .NET, you might need to find an available port on your system. This is particularly useful when creating server applications, running tests, or developing tools that need to bind to a network port without conflicts. Here&#39;s a simple way to get an available port using the Socket class: Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Stream,…
-Link to article: https://www.meziantou.net/how-to-find-an-available-network-port-in-dotnet.htm?utm_medium=social&amp;utm_source=syndication 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Llama.cpp Gets an Upgrade: Resumable Model Downloads</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_11/</link>
-      <pubDate>Mon, 06 Oct 2025 11:55:38 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_11/</guid>
-      <description>
-        
-          
-            We&#39;ve all been there: you&#39;re 90% of the way through downloading a massive, multi-gigabyte GGUF model file for llama.cpp when your internet connection hiccups. The download fails, and the progress bar resets to zero. It&#39;s a frustrating experience that wastes time, bandwidth, and momentum. Well, the llama.cpp community has just shipped a fantastic quality-of-life improvement...
-Link to article: https://www.docker.com/blog/llama-cpp-resumable-gguf-downloads/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Codex is now generally available</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_12/</link>
-      <pubDate>Mon, 06 Oct 2025 10:50:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_12/</guid>
-      <description>
-        
-          
-            OpenAI Codex is now generally available with powerful new features for developers: a Slack integration, Codex SDK, and admin tools like usage dashboards and workspace management—making Codex easier to use and manage at scale.
-Link to article: https://openai.com/index/codex-now-generally-available 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>dotInsights | October 2025</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_13/</link>
-      <pubDate>Mon, 06 Oct 2025 10:17:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_13/</guid>
-      <description>
-        
-          
-            Did you know? The yield return keyword allows you to pause and resume execution of a method, enabling lazy evaluation without generating intermediate collections. This makes writing custom iterators simple and efficient. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 📆 Just two more days […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/10/06/dotinsights-october-2025/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing apps in ChatGPT and the new Apps SDK</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_14/</link>
-      <pubDate>Mon, 06 Oct 2025 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_14/</guid>
-      <description>
-        
-          
-            We’re introducing a new generation of apps you can chat with, right inside ChatGPT. Developers can start building them today with the new Apps SDK, available in preview.
-Link to article: https://openai.com/index/introducing-apps-in-chatgpt 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ReSharper and Rider 2025.2.3: The Third Set of Updates Released</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_15/</link>
-      <pubDate>Mon, 06 Oct 2025 09:55:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_15/</guid>
-      <description>
-        
-          
-            A third set of updates for the 2025.2 versions of ReSharper and Rider has just been released. This release contains important bug-fixes as well as feature updates. Let’s take a look at what’s been improved. ReSharper ReSharper 2025.2.3 comes with the following fixes: For the full list of changes included in this build, please refer to […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/10/06/resharper-and-rider-2025-2-3/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Java Annotated Monthly – October 2025</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_16/</link>
-      <pubDate>Mon, 06 Oct 2025 08:15:08 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_16/</guid>
-      <description>
-        
-          
-            Welcome to Java Annotated Monthly! Wow, September really flew by! We’ve gathered all the top Java news and insights to help you catch up on anything you missed. First up, we’re diving headfirst into a big splash around Java 25 and all the updates it brings along. Then, as always, you’ll find plenty of tech […]
-Link to article: https://blog.jetbrains.com/idea/2025/10/java-annotated-monthly-october-2025/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AMD GPUs</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_17/</link>
-      <pubDate>Mon, 06 Oct 2025 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_17/</guid>
-      <description>
-        
-          
-            AMD and OpenAI have announced a multi-year partnership to deploy 6 gigawatts of AMD Instinct GPUs, beginning with 1 gigawatt in 2026, to power OpenAI’s next-generation AI infrastructure and accelerate global AI innovation.
-Link to article: https://openai.com/index/openai-amd-strategic-partnership 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerating AI adoption in Europe</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_19/</link>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_19/</guid>
-      <description>
-        
-          
-            OpenAI and Allied for Startups release the Hacktivate AI report with 20 actionable policy ideas to accelerate AI adoption in Europe, boost competitiveness, and empower innovators.
-Link to article: https://openai.com/global-affairs/accelerating-ai-uptake-in-europe 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing AgentKit, new Evals, and RFT for agents</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_18/</link>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_18/</guid>
-      <description>
-        
-          
-            Today, we’re releasing new tools to help developers go from prototype to production faster: AgentKit, expanded evals capabilities, and reinforcement fine-tuning for agents.
-Link to article: https://openai.com/index/introducing-agentkit 
           
           
         

@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 13 Oct 2025 21:58:54 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Oct 2025 00:16:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Model Runner on the new NVIDIA DGX Spark: a new paradigm for developing AI locally</title>
+      <link>https://www.dotnetramblings.com/post/14_10_2025/14_10_2025_1/</link>
+      <pubDate>Tue, 14 Oct 2025 00:16:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_10_2025/14_10_2025_1/</guid>
+      <description>
+        
+          
+            We’re thrilled to bring NVIDIA DGX™ Spark support to Docker Model Runner. The new NVIDIA DGX Spark delivers incredible performance, and Docker Model Runner makes it accessible. With Model Runner, you can easily run and iterate on larger models right on your local machine, using the same intuitive Docker experience you already trust. In this...
+Link to article: https://www.docker.com/blog/new-nvidia-dgx-spark-docker-model-runner/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>100% Transparency and Five Pillars</title>
       <link>https://www.dotnetramblings.com/post/13_10_2025/13_10_2025_1/</link>
@@ -104,74 +121,6 @@ Link to article: https://www.docker.com/blog/docker-model-runner-vulkan-gpu-supp
           
             This is part of the Powered by Docker series, where we feature use cases and success stories from Docker partners and practitioners. This story was contributed by Ryan Wanner. Ryan has more than fifteen years of experience as an entrepreneur and 3 years in AI space developing software and is the founder of Open Source...
 Link to article: https://www.docker.com/blog/open-source-genius-cut-entropy-debt-docker-mcp-claude/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>IBM Granite 4.0 Models Now Available on Docker Hub</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_0/</link>
-      <pubDate>Mon, 06 Oct 2025 21:29:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_0/</guid>
-      <description>
-        
-          
-            Developers can now discover and run IBM’s latest open-source Granite 4.0 language models from the Docker Hub model catalog, and start building in minutes with Docker Model Runner. Granite 4.0 pairs strong, enterprise-ready performance with a lightweight footprint, so you can prototype locally and scale confidently. The Granite 4.0 family is designed for speed, flexibility,...
-Link to article: https://www.docker.com/blog/ibm-granite-4-0-models-now-available-on-docker-hub/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Unlimited access to Docker Hardened Images: Because security should be affordable, always</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_1/</link>
-      <pubDate>Mon, 06 Oct 2025 21:19:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_1/</guid>
-      <description>
-        
-          
-            Every organization we speak with shares the same goal: to deliver software that is secure and free of CVEs. Near-zero CVEs is the ideal state. But achieving that ideal is harder than it sounds, because paradoxes exist at every step. Developers patch quickly, yet new CVEs appear faster than fixes can ship. Organizations standardize on...
-Link to article: https://www.docker.com/blog/unlimited-access-to-docker-hardened-images-because-security-should-be-affordable-always/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docker at AI Engineer Paris: Build and Secure AI Agents with Docker</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_8/</link>
-      <pubDate>Mon, 06 Oct 2025 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_8/</guid>
-      <description>
-        
-          
-            Last week, Docker was thrilled to be part of the inaugural AI Engineer Paris, a spectacular European debut that brought together an extraordinary lineup of speakers and companies. The conference, organized by the Koyeb team, made one thing clear: the days of simply sprinkling &#39;AI dust&#39; on applications are over. Meaningful results demand rigorous engineering,...
-Link to article: https://www.docker.com/blog/ai-engineer-paris-build-secure-ai-agents/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Llama.cpp Gets an Upgrade: Resumable Model Downloads</title>
-      <link>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_11/</link>
-      <pubDate>Mon, 06 Oct 2025 11:55:38 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_10_2025/06_10_2025_11/</guid>
-      <description>
-        
-          
-            We&#39;ve all been there: you&#39;re 90% of the way through downloading a massive, multi-gigabyte GGUF model file for llama.cpp when your internet connection hiccups. The download fails, and the progress bar resets to zero. It&#39;s a frustrating experience that wastes time, bandwidth, and momentum. Well, the llama.cpp community has just shipped a fantastic quality-of-life improvement...
-Link to article: https://www.docker.com/blog/llama-cpp-resumable-gguf-downloads/ 
           
           
         
