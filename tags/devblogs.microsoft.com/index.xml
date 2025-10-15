@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 14 Oct 2025 22:50:29 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Oct 2025 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why can you increment a reference count with relaxed semantics, but you have to decrement with release semantics?</title>
+      <link>https://www.dotnetramblings.com/post/15_10_2025/15_10_2025_2/</link>
+      <pubDate>Wed, 15 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_10_2025/15_10_2025_2/</guid>
+      <description>
+        
+          
+            When managing reference counts, there is an asymmetry between incrementing and decrementing: Incrementing the reference count can use relaxed semantics, but decrementing requires release semantics (and destroying requires acquire semantics). The asymmetry may strike you as odd, but maybe it shouldn&#39;t. After all, it&#39;s not surprising
+Link to article: https://devblogs.microsoft.com/oldnewthing/20251015-00/?p=111686 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>.NET and .NET Framework October 2025 servicing releases updates</title>
       <link>https://www.dotnetramblings.com/post/14_10_2025/14_10_2025_0/</link>
