@@ -10,15 +10,32 @@
     <lastBuildDate>Fri, 17 Oct 2025 14:00:42 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Streamlined Setup, Stronger Guardrails for Microsoft Dev Box</title>
-      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_4/</link>
       <pubDate>Fri, 17 Oct 2025 14:00:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_4/</guid>
       <description>
         
           
             We’re excited to introduce a new capability that simplifies Dev Box setup—enabling platform engineers and project admins to specify images and SKUs directly when configuring Dev Box pools, without needing to create Dev Box definitions at the Dev Cent
 Link to article: https://devblogs.microsoft.com/develop-from-the-cloud/streamlined-setup-stronger-guardrails-for-microsoft-dev-box 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using RAII to remedy a defect where not all code paths performed required exit actions, follow-up</title>
+      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_5/</link>
+      <pubDate>Fri, 17 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_5/</guid>
+      <description>
+        
+          
+            Last time, we looked at a way to use the RAII design pattern (Resource Acquisition Is Initialization) to ensure that a function eventually got called on all code paths
+Link to article: https://devblogs.microsoft.com/oldnewthing/20251017-00/?p=111698 
           
           
         
