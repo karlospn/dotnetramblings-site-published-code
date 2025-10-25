@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 24 Oct 2025 23:09:23 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Interview Question That Changed How I Think About System Design</title>
+      <link>https://www.dotnetramblings.com/post/25_10_2025/25_10_2025_0/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_10_2025/25_10_2025_0/</guid>
+      <description>
+        
+          
+            Discover how a simple interview question about report generation reveals the difference between optimizing code and designing scalable systems, and why the best solution isn&#39;t making it faster, but making it asynchronous.
+Link to article: https://www.milanjovanovic.tech/blog/the-interview-question-that-changed-how-i-think-about-system-design 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Docker Hub Incident Report – October 20, 2025</title>
       <link>https://www.dotnetramblings.com/post/24_10_2025/24_10_2025_0/</link>
@@ -981,176 +998,6 @@ Link to article: https://dotnettips.wordpress.com/2025/10/19/mastering-the-art-o
           
             Learn how to properly set up a new .NET project with EditorConfig for code consistency, Directory.Build.props for centralized configuration, central package management, static code analysis, Docker Compose or .NET Aspire for local orchestration, and GitHub Actions for CI/CD.
 Link to article: https://www.milanjovanovic.tech/blog/6-steps-for-setting-up-a-new-dotnet-project-the-right-way 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Boost your Azure Cosmos DB Efficiency with Azure Advisor Insights</title>
-      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_0/</link>
-      <pubDate>Fri, 17 Oct 2025 19:51:02 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_0/</guid>
-      <description>
-        
-          
-            Azure Cosmos DB is
-Link to article: https://devblogs.microsoft.com/cosmosdb/boost-your-azure-cosmos-db-efficiency-with-azure-advisor-insights 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to add MCP Servers to OpenAI’s Codex with Docker MCP Toolkit</title>
-      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_1/</link>
-      <pubDate>Fri, 17 Oct 2025 19:12:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_1/</guid>
-      <description>
-        
-          
-            AI assistants are changing how we write code, but their true power is unleashed when they can interact with specialized, high-precision tools. OpenAI&#39;s Codex is a formidable coding partner, but what happens when you connect it directly to your running infrastructure? Enter the Docker MCP Toolkit. The Model Context Protocol (MCP) Toolkit acts as a...
-Link to article: https://www.docker.com/blog/connect-codex-to-mcp-servers-mcp-toolkit/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How TP ICAP transformed CRM data into real-time insights with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_2/</link>
-      <pubDate>Fri, 17 Oct 2025 16:15:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_2/</guid>
-      <description>
-        
-          
-            This post shows how TP ICAP used Amazon Bedrock Knowledge Bases and Amazon Bedrock Evaluations to build ClientIQ, an enterprise-grade solution with enhanced security features for extracting CRM insights using AI, delivering immediate business value.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-tp-icap-transformed-crm-data-into-real-time-insights-with-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Principal Financial Group accelerates build, test, and deployment of Amazon Lex V2 bots through automation</title>
-      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_3/</link>
-      <pubDate>Fri, 17 Oct 2025 16:13:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_3/</guid>
-      <description>
-        
-          
-            In the post Principal Financial Group increases Voice Virtual Assistant performance using Genesys, Amazon Lex, and Amazon QuickSight, we discussed the overall Principal Virtual Assistant solution using Genesys Cloud, Amazon Lex V2, multiple AWS services, and a custom reporting and analytics solution using Amazon QuickSight.
-Link to article: https://aws.amazon.com/blogs/machine-learning/principal-financial-group-accelerates-build-test-and-deployment-of-amazon-lex-v2-bots-through-automation/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Beyond vibes: How to properly select the right LLM for the right task</title>
-      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_4/</link>
-      <pubDate>Fri, 17 Oct 2025 16:09:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_4/</guid>
-      <description>
-        
-          
-            In this post, we discuss an approach that can guide you to build comprehensive and empirically driven evaluations that can help you make better decisions when selecting the right model for your task.
-Link to article: https://aws.amazon.com/blogs/machine-learning/beyond-vibes-how-to-properly-select-the-right-llm-for-the-right-task/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Splash Music transforms music generation using AWS Trainium and Amazon SageMaker HyperPod</title>
-      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_5/</link>
-      <pubDate>Fri, 17 Oct 2025 16:06:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_5/</guid>
-      <description>
-        
-          
-            In this post, we show how Splash Music is setting a new standard for AI-powered music creation by using its advanced HummingLM model with AWS Trainium on Amazon SageMaker HyperPod. As a selected startup in the 2024 AWS Generative AI Accelerator, Splash Music collaborated closely with AWS Startups and the AWS Generative AI Innovation Center (GenAIIC) to fast-track innovation and accelerate their music generation FM development lifecycle.
-Link to article: https://aws.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Streamlined Setup, Stronger Guardrails for Microsoft Dev Box</title>
-      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_6/</link>
-      <pubDate>Fri, 17 Oct 2025 14:00:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_6/</guid>
-      <description>
-        
-          
-            We’re excited to introduce a new capability that simplifies Dev Box setup—enabling platform engineers and project admins to specify images and SKUs directly when configuring Dev Box pools, without needing to create Dev Box definitions at the Dev Cent
-Link to article: https://devblogs.microsoft.com/develop-from-the-cloud/streamlined-setup-stronger-guardrails-for-microsoft-dev-box 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using RAII to remedy a defect where not all code paths performed required exit actions, follow-up</title>
-      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_7/</link>
-      <pubDate>Fri, 17 Oct 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_7/</guid>
-      <description>
-        
-          
-            Last time, we looked at a way to use the RAII design pattern (Resource Acquisition Is Initialization) to ensure that a function eventually got called on all code paths
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251017-00/?p=111698 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why I Still Use jQuery</title>
-      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_8/</link>
-      <pubDate>Fri, 17 Oct 2025 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_8/</guid>
-      <description>
-        
-          
-            jQuery is a household name among web developers who have been around the block. Initially released in 2006, it took the web development world by storm with its easy and intuitive syntax for navigating a document, selecting DOM elements, handling events, and making AJAX requests. At its peak in 2015, jQuery featured on 62.7 percent...
-Link to article: https://www.docker.com/blog/why-i-still-use-jquery-2025/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Koog 0.5.0 Is Out: Smarter Tools, Persistent Agents, and Simplified Strategy Design</title>
-      <link>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_9/</link>
-      <pubDate>Fri, 17 Oct 2025 07:19:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_10_2025/17_10_2025_9/</guid>
-      <description>
-        
-          
-            We recently released Koog 0.5.0, introducing full Agent2Agent (A2A) protocol support, which makes it easier than ever to build systems of interconnected AI agents in Kotlin. But A2A is just the beginning. Koog 0.5.0 brings a host of improvements that make agents more persistent, tools smarter, and strategy design more intuitive. Let’s dive into the […]
-Link to article: https://blog.jetbrains.com/ai/2025/10/koog-0-5-0-is-out-smarter-tools-persistent-agents-and-simplified-strategy-design/ 
           
           
         
