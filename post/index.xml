@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 27 Oct 2025 18:59:41 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Oct 2025 03:08:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wolverine 5 and Modular Monoliths</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2025/28_10_2025_0/</link>
+      <pubDate>Tue, 28 Oct 2025 03:08:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2025/28_10_2025_0/</guid>
+      <description>
+        
+          
+            In the announcement for the Wolverine 5.0 release last week, I left out a pretty big set of improvements for modular monolith support, specifically in how Wolverine can now work with multiple databases from one service process. Wolverine works closely with databases for: And all of those features are supported for Marten, EF Core with … Continue reading Wolverine 5 and Modular Monoliths →
+Link to article: https://jeremydmiller.com/2025/10/27/wolverine-5-and-modular-monoliths/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Azure SDK Release (October 2025)</title>
       <link>https://www.dotnetramblings.com/post/27_10_2025/27_10_2025_0/</link>
@@ -1134,108 +1151,6 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/cost-management-is-now-
           
             ChatGPT Atlas, the browser with ChatGPT built it. Get instant answers, summaries, and smart web help—right from any page. With privacy settings you can control. Available now for MacOS.
 Link to article: https://openai.com/index/introducing-chatgpt-atlas 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What about the icons in pifmgr.dll?</title>
-      <link>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_0/</link>
-      <pubDate>Mon, 20 Oct 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_0/</guid>
-      <description>
-        
-          
-            Some time ago, I discussed the intended uses of the icons in progman.exe and moricons.dll and we even looked at those icons (
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251020-00/?p=111706 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docker Model Runner Meets Open WebUI: A Simpler Way to Run Local AI Models</title>
-      <link>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_1/</link>
-      <pubDate>Mon, 20 Oct 2025 13:46:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_1/</guid>
-      <description>
-        
-          
-            Hi, I’m Sergei Shitikov - a Docker Captain and Lead Software Engineer living in Berlin. I&#39;m focused on DevOps, developer experience, open source, and local AI tools. I created this extension to make it easier for anyone - even without a technical background - to get started with local LLMs using Docker Model Runner and...
-Link to article: https://www.docker.com/blog/open-webui-docker-desktop-model-runner/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Coming to Rider 2025.3: ASP.NET and Database Issue Detection In The Monitoring Tool Window</title>
-      <link>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_2/</link>
-      <pubDate>Mon, 20 Oct 2025 13:01:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_2/</guid>
-      <description>
-        
-          
-            In Rider 2025.3, the Monitoring tool window has become even more powerful with the addition of database and ASP.NET issue detection. These new capabilities let you track slow queries, inefficient request handling, and other performance bottlenecks in real time – right alongside CPU, memory, and GC activity. You can explore these new additions in the […]
-Link to article: https://blog.jetbrains.com/dotnet/2025/10/20/rider-2025-3-asp-dotnet-and-database-issue-monitoring/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing latest Azure Cosmos DB Python SDK: Powering the Future of AI with OpenAI</title>
-      <link>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_3/</link>
-      <pubDate>Mon, 20 Oct 2025 12:00:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_3/</guid>
-      <description>
-        
-          
-            We&#39;re thrilled to announce the stable release of Azure Cosmos DB Python SDK version 4.14.0! This release brings together months of innovation and collaboration, featuring ground-breaking capabilities that have been battle-tested in production environments. Many of these features were developed in c
-Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-latest-azure-cosmos-db-python-sdk-powering-the-future-of-ai-with-openai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A Developer&#39;s Guide to Fine-Tuning GPT-4o for Image Classification on Azure AI Foundry</title>
-      <link>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_4/</link>
-      <pubDate>Mon, 20 Oct 2025 07:11:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_4/</guid>
-      <description>
-        
-          
-            Whether you’re a machine learning practitioner, app developer, or just curious about the latest in AI, this guide shows how you can quickly boost image classification accuracy using cutting-edge Vision-Language Models (VLM) on Azure—no deep learning expertise required. In this walkthrough, you’ll see how to fine-tune GPT-4o on
-Link to article: https://devblogs.microsoft.com/foundry/a-developers-guide-to-fine-tuning-gpt-4o-for-image-classification-on-azure-ai-foundry 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Computer Science Learning Curve: Insights from 18k Learners Worldwide</title>
-      <link>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_5/</link>
-      <pubDate>Mon, 20 Oct 2025 06:52:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_10_2025/20_10_2025_5/</guid>
-      <description>
-        
-          
-            The world of computer science (CS) education is changing rapidly. From AI-powered tools to new modes of online and blended learning, it has never been more dynamic – or more critical. Education research has looked into some aspects of how students learn computer science, but when we ask the big questions about who is learning […]
-Link to article: https://blog.jetbrains.com/research/2025/10/computer-science-learning-curve/ 
           
           
         
