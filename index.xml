@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 28 Oct 2025 22:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Oct 2025 00:52:56 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wolverine Does More to Simplify Server Side Code</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2025/29_10_2025_0/</link>
+      <pubDate>Wed, 29 Oct 2025 00:52:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2025/29_10_2025_0/</guid>
+      <description>
+        
+          
+            Just to set myself up with some pressure to perform, let me hype up a live stream on Wolverine I’m doing later this week! I’m doing a live stream on Thursday afternoon (U.S. friendly this time) entitled Vertical Slices the Critter Stack Way based on a fun, meandering talk I did for Houston DNUG and … Continue reading Wolverine Does More to Simplify Server Side Code →
+Link to article: https://jeremydmiller.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Introducing Custom Agents for .NET Developers: C# Expert &amp; WinForms Expert</title>
       <link>https://www.dotnetramblings.com/post/28_10_2025/28_10_2025_0/</link>
@@ -1304,140 +1321,6 @@ Link to article: https://openai.com/index/japan-economic-blueprint
           
             Learn how the new Language Model Chat Provider API in VS Code is enabling more model choice and extensibility for chat experiences via the Bring Your Own Key experience. Read the full article
 Link to article: https://devblogs.microsoft.com/vscode-blog/expanding-model-choice-in-vs-code-with-bring-your-own-key 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Serverless deployment for your Amazon SageMaker Canvas models</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_0/</link>
-      <pubDate>Tue, 21 Oct 2025 19:03:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_0/</guid>
-      <description>
-        
-          
-            In this post, we walk through how to take an ML model built in SageMaker Canvas and deploy it using SageMaker Serverless Inference, helping you go from model creation to production-ready predictions quickly and efficiently without managing any infrastructure. This solution demonstrates a complete workflow from adding your trained model to the SageMaker Model Registry through creating serverless endpoint configurations and deploying endpoints that automatically scale based on demand .
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building a multi-agent voice assistant with Amazon Nova Sonic and Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_1/</link>
-      <pubDate>Tue, 21 Oct 2025 17:31:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_1/</guid>
-      <description>
-        
-          
-            In this post, we explore how Amazon Nova Sonic&#39;s speech-to-speech capabilities can be combined with Amazon Bedrock AgentCore to create sophisticated multi-agent voice assistants that break complex tasks into specialized, manageable components. The approach demonstrates how to build modular, scalable voice applications using a banking assistant example with dedicated sub-agents for authentication, banking inquiries, and mortgage services, offering a more maintainable alternative to monolithic voice assistant designs.
-Link to article: https://aws.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerate large-scale AI training with Amazon SageMaker HyperPod training operator</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_2/</link>
-      <pubDate>Tue, 21 Oct 2025 17:26:32 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_2/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to deploy and manage machine learning training workloads using the Amazon SageMaker HyperPod training operator, which enhances training resilience for Kubernetes workloads through pinpoint recovery and customizable monitoring capabilities. The Amazon SageMaker HyperPod training operator helps accelerate generative AI model development by efficiently managing distributed training across large GPU clusters, offering benefits like centralized training process monitoring, granular process recovery, and hanging job detection that can reduce recovery times from tens of minutes to seconds.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Modernizing Visual Studio Extension Compatibility: Effortless Migration for Extension Developers and Users</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_3/</link>
-      <pubDate>Tue, 21 Oct 2025 14:00:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_3/</guid>
-      <description>
-        
-          
-            We have great news for extension users and developers: Visual Studio 2026 is introducing an extension compatibility model designed specifically to make your life easier. Our top priority is to ensure that your extensions continue to work seamlessly across Visual Studio releases - with no extra effort required from you. For users: exten
-Link to article: https://devblogs.microsoft.com/visualstudio/modernizing-visual-studio-extension-compatibility-effortless-migration-for-extension-developers-and-users 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microspeak: The hockey stick on wheels</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_4/</link>
-      <pubDate>Tue, 21 Oct 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_4/</guid>
-      <description>
-        
-          
-            The &amp;quot;hockey stick graph&amp;quot; is a graph which shows slow initial growth, followed by a rapid linear increase. The resulting shape resembles a hockey stick, with the blade of the stick represented by the nearly-flat initial section, and the handle of the stick represented by the rapi
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251021-00/?p=111710 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing a Richer ”docker model run” Experience</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_5/</link>
-      <pubDate>Tue, 21 Oct 2025 13:26:57 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_5/</guid>
-      <description>
-        
-          
-            The command line is where developers live and breathe. A powerful and intuitive CLI can make the difference between a frustrating task and a joyful one. That’s why we’re excited to announce a major upgrade to the interactive chat experience in Docker Model Runner, our tool for running AI workloads locally. We&#39;ve rolled out a...
-Link to article: https://www.docker.com/blog/docker-model-run-prompt/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>“Cost Management” Is Now “Account Throughput” and It’s Moving</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_6/</link>
-      <pubDate>Tue, 21 Oct 2025 12:00:34 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_6/</guid>
-      <description>
-        
-          
-            We’ve made a small but important change in the Azure portal for Azure Cosmos DB to make it easier to manage your account-level throughput. The “Cost Management” section has been renamed to “Account Throughput” and can now be found under the Settings section of your Azure Cosmos DB
-Link to article: https://devblogs.microsoft.com/cosmosdb/cost-management-is-now-account-throughput 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing ChatGPT Atlas, the browser with ChatGPT built in</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_7/</link>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2025/21_10_2025_7/</guid>
-      <description>
-        
-          
-            ChatGPT Atlas, the browser with ChatGPT built it. Get instant answers, summaries, and smart web help—right from any page. With privacy settings you can control. Available now for MacOS.
-Link to article: https://openai.com/index/introducing-chatgpt-atlas 
           
           
         
