@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 28 Oct 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/openai.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/openai.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Report: Performance and baseline evaluations of gpt-oss-safeguard-120b and gpt-oss-safeguard-20b</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2025/29_10_2025_1/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2025/29_10_2025_1/</guid>
+      <description>
+        
+          
+            gpt-oss-safeguard-120b and gpt-oss-safeguard-20b are two open-weight reasoning models post-trained from the gpt-oss models and trained to reason from a provided policy in order to label content under that policy. In this report, we describe gpt-oss-safeguard’s capabilities and provide our baseline safety evaluations on the gpt-oss-safeguard models, using the underlying gpt-oss models as a baseline. For more information about the development and architecture of the underlying gpt-oss models, see the original gpt-oss model model card⁠.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Doppel’s AI defense system stops attacks before they spread</title>
       <link>https://www.dotnetramblings.com/post/28_10_2025/28_10_2025_12/</link>
