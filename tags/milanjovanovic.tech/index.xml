@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 06 Nov 2025 19:15:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Idempotent Consumer Pattern in .NET (And Why You Need It)</title>
+      <link>https://www.dotnetramblings.com/post/08_11_2025/08_11_2025_0/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_11_2025/08_11_2025_0/</guid>
+      <description>
+        
+          
+            Distributed systems don&#39;t fail cleanly: they retry, duplicate, and occasionally fail. This article shows how to design resilient message handlers in .NET using broker-level idempotency and the Idempotent Consumer pattern, so your system stays consistent no matter how many times a message is delivered.
+Link to article: https://www.milanjovanovic.tech/blog/the-idempotent-consumer-pattern-in-dotnet-and-why-you-need-it 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>What&#39;s New in EF Core 10: LeftJoin and RightJoin Operators in LINQ</title>
       <link>https://www.dotnetramblings.com/post/01_11_2025/01_11_2025_2/</link>

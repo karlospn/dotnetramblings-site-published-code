@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 07 Nov 2025 22:04:05 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Idempotent Consumer Pattern in .NET (And Why You Need It)</title>
+      <link>https://www.dotnetramblings.com/post/08_11_2025/08_11_2025_0/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_11_2025/08_11_2025_0/</guid>
+      <description>
+        
+          
+            Distributed systems don&#39;t fail cleanly: they retry, duplicate, and occasionally fail. This article shows how to design resilient message handlers in .NET using broker-level idempotency and the Idempotent Consumer pattern, so your system stays consistent no matter how many times a message is delivered.
+Link to article: https://www.milanjovanovic.tech/blog/the-idempotent-consumer-pattern-in-dotnet-and-why-you-need-it 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Windows MIDI Services and the 10-MIDI driver limit</title>
       <link>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_0/</link>
@@ -1070,227 +1087,6 @@ Link to article: https://www.devleader.ca/2025/11/01/weekly-recap-20251031
           
             .NET 10 finally adds proper LeftJoin and RightJoin methods to LINQ, replacing the complex GroupJoin + DefaultIfEmpty pattern with clean, readable code that does exactly what it says.
 Link to article: https://www.milanjovanovic.tech/blog/whats-new-in-ef-core-10-leftjoin-and-rightjoin-operators-in-linq 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build reliable AI systems with Automated Reasoning on Amazon Bedrock – Part 1</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_0/</link>
-      <pubDate>Fri, 31 Oct 2025 21:44:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_0/</guid>
-      <description>
-        
-          
-            Enterprises in regulated industries often need mathematical certainty that every AI response complies with established policies and domain knowledge. Regulated industries can’t use traditional quality assurance methods that test only a statistical sample of AI outputs and make probabilistic assertions about compliance. When we launched Automated Reasoning checks in Amazon Bedrock Guardrails in preview at […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-reliable-ai-systems-with-automated-reasoning-on-amazon-bedrock-part-1/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Behind the Universe demo: From prompt to production with VS Code, GitHub Copilot and the Microsoft Agent Framework</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_1/</link>
-      <pubDate>Fri, 31 Oct 2025 19:00:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_1/</guid>
-      <description>
-        
-          
-            At this year’s GitHub Universe, we set out to answer a simple question: What would it take to go from an idea to production in under 30 minutes – using only natural language, your editor, and AI? On stage, we built a cloud-native, intelligent app from scratch using
-Link to article: https://devblogs.microsoft.com/blog/behind-the-universe-demo-with-vs-code-copilot-and-agent-framework 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>💫 Welcome to Aspire: Your stack, streamlined</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_2/</link>
-      <pubDate>Fri, 31 Oct 2025 17:06:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_2/</guid>
-      <description>
-        
-          
-            We’re excited to announce a new chapter for Aspire and a new home at aspire.dev. What started two years ago as an experiment to simplify distributed app development has become a thriving, community-driven, extensible, code-first pl
-Link to article: https://devblogs.microsoft.com/aspire/aspirepolyglot 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Multi-region Expansion for Azure Deployments</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_3/</link>
-      <pubDate>Fri, 31 Oct 2025 16:11:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_3/</guid>
-      <description>
-        
-          
-            Why Financial Services Organizations Should Consider Expanding to Other Azure Regions for New Workloads As a Cloud Architect, I work closely with financial services organizations to help them unlock the full potential of Azure innovations. One of the most impactful strategies I r
-Link to article: https://devblogs.microsoft.com/all-things-azure/multi-region-expansion-for-azure-deployments 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Custom Intelligence: Building AI that matches your business DNA</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_4/</link>
-      <pubDate>Fri, 31 Oct 2025 16:07:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_4/</guid>
-      <description>
-        
-          
-            In 2024, we launched the Custom Model Program within the AWS Generative AI Innovation Center to provide comprehensive support throughout every stage of model customization and optimization. Over the past two years, this program has delivered exceptional results by partnering with global enterprises and startups across diverse industries—including legal, financial services, healthcare and life sciences, […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/custom-intelligence-building-ai-that-matches-your-business-dna/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Clario streamlines clinical trial software configurations using Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_5/</link>
-      <pubDate>Fri, 31 Oct 2025 15:49:09 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_5/</guid>
-      <description>
-        
-          
-            This post builds upon our previous post discussing how Clario developed an AI solution powered by Amazon Bedrock to accelerate clinical trials. Since then, Clario has further enhanced their AI capabilities, focusing on innovative solutions that streamline the generation of software configurations and artifacts for clinical trials while delivering high-quality clinical evidence.
-Link to article: https://aws.amazon.com/blogs/machine-learning/clario-streamlines-clinical-trial-software-configurations-using-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft C&#43;&#43; Team at CppCon 2025: Trip Report</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_6/</link>
-      <pubDate>Fri, 31 Oct 2025 15:37:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_6/</guid>
-      <description>
-        
-          
-            Another year and another CppCon is all wrapped up! Microsoft was pleased to once again be an exhibitor and to have several of our employees present sessions at the conference. Here are my major takeaways from the keynotes, sessions, conversations, and the general vibe. AI tooling is finding a footing with the C++ community. The ne
-Link to article: https://devblogs.microsoft.com/cppblog/cppcon2025-trip-report 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Amazon Bedrock cross-Region inference for Claude Sonnet 4.5 and Haiku 4.5 in Japan and Australia</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_7/</link>
-      <pubDate>Fri, 31 Oct 2025 14:45:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_7/</guid>
-      <description>
-        
-          
-            こんにちは, G’day. The recent launch of Anthropic’s Claude Sonnet 4.5 and Claude Haiku 4.5, now available on Amazon Bedrock, marks a significant leap forward in generative AI models. These state-of-the-art models excel at complex agentic tasks, coding, and enterprise workloads, offering enhanced capabilities to developers. Along with the new models, we are thrilled to announce that […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-amazon-bedrock-cross-region-inference-for-claude-sonnet-4-5-and-haiku-4-5-in-japan-and-australia/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Join us at .NET Conf: Dive into the future of development with Visual Studio 2026</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_8/</link>
-      <pubDate>Fri, 31 Oct 2025 14:00:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_8/</guid>
-      <description>
-        
-          
-            We&#39;re thrilled to invite you to one of the most exciting events in the .NET ecosystem: .NET Conf. It runs from November 11th through the 13th and you’re invited! This annual virtual conference is a must-attend for developers, architects, and enthusiasts looking t
-Link to article: https://devblogs.microsoft.com/visualstudio/join-us-at-net-conf-dive-into-the-future-of-development-with-visual-studio-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microspeak: turn into a pumpkin</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_9/</link>
-      <pubDate>Fri, 31 Oct 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_9/</guid>
-      <description>
-        
-          
-            The English idiom turn into a pumpkin comes from the fairy tale story of Cinderella, in which the protagonist&#39;s ragged clothes are magically transformed into an elegant gown and a pumpkin is transformed into a carriage, allowing her to attend a royal ball. She is warned that the magic wears off at midnight, upon which her clot
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251031-00/?p=111750 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Security Doesn’t Have to Hurt</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_10/</link>
-      <pubDate>Fri, 31 Oct 2025 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_10/</guid>
-      <description>
-        
-          
-            Do you ever wish security would stop blocking the tools you need to do your job? Surprise: your security team wants the same. There you are, just trying to get your work done, when… You need an AI to translate documentation, but all the AI services are blocked by a security web monitoring tool. You...
-Link to article: https://www.docker.com/blog/security-shadow-it-collaboration/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Mr. Bones: A Pirate-Voiced Halloween Chatbot Powered by Docker Model Runner</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_11/</link>
-      <pubDate>Fri, 31 Oct 2025 12:17:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_11/</guid>
-      <description>
-        
-          
-            My name is Mike Coleman, a staff solution architect at Docker. This year I decided to turn a Home Depot animatronic skeleton into an AI-powered, live, interactive Halloween chatbot. The result: kids walk up to Mr. Bones, a spooky skeleton in my yard, ask it questions, and it answers back — in full pirate voice...
-Link to article: https://www.docker.com/blog/talking-skeleton-docker-llm/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Tuning and Optimization of Speech-to-Text (STT), Text-to-Speech (TTS), and Custom Keyword Recognition in Azure Speech Services</title>
-      <link>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_12/</link>
-      <pubDate>Fri, 31 Oct 2025 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_10_2025/31_10_2025_12/</guid>
-      <description>
-        
-          
-            Introduction Optimizing Speech-to-Text (STT) and Text-to-Speech (TTS) is essential for developers building voice-enabled applications, as it enhances recognition accuracy and overall user experience. Additionally, custom keyword recognition enables hands-free activation for voice assistants. This blog outlines: Method
-Link to article: https://devblogs.microsoft.com/ise/azure-speech-to-text-optimization 
           
           
         
