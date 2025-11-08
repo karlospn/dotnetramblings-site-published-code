@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>The Idempotent Consumer Pattern in .NET (And Why You Need It) | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Distributed systems don&#39;t fail cleanly: they retry, duplicate, and occasionally fail. This article shows how to design resilient message handlers in .NET using …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="The Idempotent Consumer Pattern in .NET (And Why You Need It)" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/08_11_2025/08_11_2025_1/" />
+<meta property="og:title" content="The Idempotent Consumer Pattern in .NET (And Why You Need It)" />
+<meta property="og:description" content="Distributed systems don&#39;t fail cleanly: they retry, duplicate, and occasionally fail. This article shows how to design resilient message handlers in .NET using …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/08_11_2025/08_11_2025_1/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://montemagno.com/building-better-apps-with-github-copilot-custom-agents/" title="Building Better Apps with GitHub Copilot Custom Agents">Building Better Apps with GitHub Copilot Custom Agents</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">The Idempotent Consumer Pattern in .NET (And Why You Need It)</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,311 +140,27 @@
 </svg>
 </span>
     <span class="post_date">
-      Nov 2, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/motnemagno.com/' title="motnemagno.com" class="post_tag button button_translucent">motnemagno.com
+      Nov 8, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Building Better Apps with GitHub Copilot Custom Agents"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/devops.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Custom agents are here to customize and optimize how coding agents work on your code, here is my experiment with the WinForms agent.
-Link to article: <a href="https://montemagno.com/building-better-apps-with-github-copilot-custom-agents/">https://montemagno.com/building-better-apps-with-github-copilot-custom-agents/</a></p>
-          
-          <br>
-          <a href="https://montemagno.com/building-better-apps-with-github-copilot-custom-agents/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://dotnettips.wordpress.com/2025/11/02/defensive-programming-rule-2-always-validate-method-parameters/" title="Defensive Programming Rule #2: Always Validate Method Parameters">Defensive Programming Rule #2: Always Validate Method Parameters</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 2, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Distributed systems don't fail cleanly: they retry, duplicate, and occasionally fail. This article shows how to design resilient message handlers in .NET using broker-level idempotency and the Idempotent Consumer pattern, so your system stays consistent no matter how many times a message is delivered.</p>
+<ul>
+<li>Link to article: <a href="https://www.milanjovanovic.tech/blog/the-idempotent-consumer-pattern-in-dotnet-and-why-you-need-it">https://www.milanjovanovic.tech/blog/the-idempotent-consumer-pattern-in-dotnet-and-why-you-need-it</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Defensive Programming Rule #2: Always Validate Method Parameters"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Parameter validation is crucial in programming, ensuring applications reject bad data before it causes issues. It safeguards data integrity, reduces bugs, and enhances developer satisfaction. The use of meaningful exceptions and tools like Spargine can standardize validation, while adopting strategies like nameof …</p>
-          
-          <br>
-          <a href="https://dotnettips.wordpress.com/2025/11/02/defensive-programming-rule-2-always-validate-method-parameters/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2025/11/01/more-experience-more-overwhelmed-dev-leader-weekly-114" title="More Experience, More Overwhelmed - Dev Leader Weekly 114">More Experience, More Overwhelmed - Dev Leader Weekly 114</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 1, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="More Experience, More Overwhelmed - Dev Leader Weekly 114"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Welcome to another issue of Dev Leader Weekly! In this issue, I discuss how to navigate feeling overwhelmed as a developer in a senior+ role.
-Link to article: <a href="https://www.devleader.ca/2025/11/01/more-experience-more-overwhelmed-dev-leader-weekly-114">https://www.devleader.ca/2025/11/01/more-experience-more-overwhelmed-dev-leader-weekly-114</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2025/11/01/more-experience-more-overwhelmed-dev-leader-weekly-114" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2025/11/01/weekly-recap-20251031" title="Weekly Recap - 2025-10-31">Weekly Recap - 2025-10-31</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 1, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Weekly Recap - 2025-10-31"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Check out this week from Dev Leader! Here's a list including articles and videos on software engineering, career development, and programming in C#!
-Link to article: <a href="https://www.devleader.ca/2025/11/01/weekly-recap-20251031">https://www.devleader.ca/2025/11/01/weekly-recap-20251031</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2025/11/01/weekly-recap-20251031" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.milanjovanovic.tech/blog/whats-new-in-ef-core-10-leftjoin-and-rightjoin-operators-in-linq" title="What&#39;s New in EF Core 10: LeftJoin and RightJoin Operators in LINQ">What's New in EF Core 10: LeftJoin and RightJoin Operators in LINQ</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 1, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="What&amp;#39;s New in EF Core 10: LeftJoin and RightJoin Operators in LINQ"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>.NET 10 finally adds proper LeftJoin and RightJoin methods to LINQ, replacing the complex GroupJoin + DefaultIfEmpty pattern with clean, readable code that does exactly what it says.
-Link to article: <a href="https://www.milanjovanovic.tech/blog/whats-new-in-ef-core-10-leftjoin-and-rightjoin-operators-in-linq">https://www.milanjovanovic.tech/blog/whats-new-in-ef-core-10-leftjoin-and-rightjoin-operators-in-linq</a></p>
-          
-          <br>
-          <a href="https://www.milanjovanovic.tech/blog/whats-new-in-ef-core-10-leftjoin-and-rightjoin-operators-in-linq" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -476,9 +184,8 @@ Link to article: <a href="https://www.milanjovanovic.tech/blog/whats-new-in-ef-c
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
