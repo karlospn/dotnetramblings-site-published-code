@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Vibe Coding 2.0 - Dev Leader Weekly 115 | .NET Ramblings</title>
+<title>The Idempotent Consumer Pattern in .NET (And Why You Need It) | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,24 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Welcome to another issue of Dev Leader Weekly! In this issue, I discuss the vibes. And they are indeed immaculate.
-Link to article: …" />
+<meta name="description" content="Distributed systems don&#39;t fail cleanly: they retry, duplicate, and occasionally fail. This article shows how to design resilient message handlers in .NET using …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Vibe Coding 2.0 - Dev Leader Weekly 115" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/08_11_2025/08_11_2025_0/" />
-<meta property="og:title" content="Vibe Coding 2.0 - Dev Leader Weekly 115" />
-<meta property="og:description" content="Welcome to another issue of Dev Leader Weekly! In this issue, I discuss the vibes. And they are indeed immaculate.
-Link to article: …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta name="twitter:title" content="The Idempotent Consumer Pattern in .NET (And Why You Need It)" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/08_11_2025/08_11_2025_2/" />
+<meta property="og:title" content="The Idempotent Consumer Pattern in .NET (And Why You Need It)" />
+<meta property="og:description" content="Distributed systems don&#39;t fail cleanly: they retry, duplicate, and occasionally fail. This article shows how to design resilient message handlers in .NET using …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/08_11_2025/08_11_2025_0/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/08_11_2025/08_11_2025_2/">
 
 
 
@@ -134,7 +132,7 @@ Link to article: …" />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Vibe Coding 2.0 - Dev Leader Weekly 115</h1>
+    <h1 class="post_title">The Idempotent Consumer Pattern in .NET (And Why You Need It)</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,14 @@ Link to article: …" />
 </svg>
 </span>
     <span class="post_date">
-      Nov 8, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
+      Nov 8, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Welcome to another issue of Dev Leader Weekly! In this issue, I discuss the vibes. And they are indeed immaculate.</p>
+    <div class="post_body"><p>Distributed systems don't fail cleanly: they retry, duplicate, and occasionally fail. This article shows how to design resilient message handlers in .NET using broker-level idempotency and the Idempotent Consumer pattern, so your system stays consistent no matter how many times a message is delivered.</p>
 <ul>
-<li>Link to article: <a href="https://www.devleader.ca/2025/11/08/vibe-coding-20-dev-leader-weekly-115">https://www.devleader.ca/2025/11/08/vibe-coding-20-dev-leader-weekly-115</a></li>
+<li>Link to article: <a href="https://www.milanjovanovic.tech/blog/the-idempotent-consumer-pattern-in-dotnet-and-why-you-need-it">https://www.milanjovanovic.tech/blog/the-idempotent-consumer-pattern-in-dotnet-and-why-you-need-it</a></li>
 </ul>
 
     </div>
