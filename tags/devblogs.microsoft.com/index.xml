@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 10 Nov 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Nov 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behind the scenes on how Windows 95 application compatibility patched broken programs</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2025/11_11_2025_0/</link>
+      <pubDate>Tue, 11 Nov 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2025/11_11_2025_0/</guid>
+      <description>
+        
+          
+            Whenever possible, Windows 95 made application compatibility tweaks through things like compatibility flags that alter the behavior of the system for any program the flag was applied to. Using compatibility flags allows the fix to be generalized: If one program has a problem, there&#39;s a good chance that another program will also have that sa
+Link to article: https://devblogs.microsoft.com/oldnewthing/20251111-00/?p=111781 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How did Windows 3.1 distinguish two different programs that happened to share the same executable name?</title>
       <link>https://www.dotnetramblings.com/post/10_11_2025/10_11_2025_3/</link>
