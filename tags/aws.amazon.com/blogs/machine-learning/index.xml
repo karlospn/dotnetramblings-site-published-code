@@ -140,21 +140,5 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-struc
       </description>
     </item>
     
-    <item>
-      <title>Transform your MCP architecture: Unite MCP servers through AgentCore Gateway</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2025/06_11_2025_3/</link>
-      <pubDate>Thu, 06 Nov 2025 17:43:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2025/06_11_2025_3/</guid>
-      <description>
-        
-          
-            Earlier this year, we introduced Amazon Bedrock AgentCore Gateway, a fully managed service that serves as a centralized MCP tool server, providing a unified interface where agents can discover, access, and invoke tools. Today, we&#39;re extending support for existing MCP servers as a new target type in AgentCore Gateway. With this capability, you can group multiple task-specific MCP servers aligned to agent goals behind a single, manageable MCP gateway interface. This reduces the operational complexity of maintaining separate gateways, while providing the same centralized tool and authentication management that existed for REST APIs and AWS Lambda functions.
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
