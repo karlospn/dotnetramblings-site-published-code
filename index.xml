@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 14 Nov 2025 18:28:42 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring C# File-based Apps in .NET 10</title>
+      <link>https://www.dotnetramblings.com/post/15_11_2025/15_11_2025_0/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_11_2025/15_11_2025_0/</guid>
+      <description>
+        
+          
+            With .NET 10, Microsoft introduced file-based apps, which give you the ability to write C# code in a single .cs file and run it directly, without any project or solution files. This feature finally makes C# approachable for quick scripts and utilities
+Link to article: https://www.milanjovanovic.tech/blog/exploring-csharp-file-based-apps-in-dotnet-10 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build a biomedical research agent with Biomni tools and Amazon Bedrock AgentCore Gateway</title>
       <link>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_0/</link>
@@ -1239,175 +1256,6 @@ Link to article: https://www.devleader.ca/2025/11/08/weekly-recap-20251107
           
             Distributed systems don&#39;t fail cleanly: they retry, duplicate, and occasionally fail. This article shows how to design resilient message handlers in .NET using broker-level idempotency and the Idempotent Consumer pattern, so your system stays consistent no matter how many times a message is delivered.
 Link to article: https://www.milanjovanovic.tech/blog/the-idempotent-consumer-pattern-in-dotnet-and-why-you-need-it 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Windows MIDI Services and the 10-MIDI driver limit</title>
-      <link>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_0/</link>
-      <pubDate>Fri, 07 Nov 2025 22:04:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_0/</guid>
-      <description>
-        
-          
-            The USB MIDI 1.0 specification was released in the late 90s around the same time that PCs were starting to move from rectangular beige boxes to things like fake-silvered bulbous plastic shapes. At this point, some of the code in Windows to support USB MIDI 1.0 has become intergenerational – it&#39;s certainly older than my teenagers here at h
-Link to article: https://devblogs.microsoft.com/windows-music-dev/windows-midi-services-and-the-10-midi-driver-limit 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Democratizing AI: How Thomson Reuters Open Arena supports no-code AI for every professional with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_1/</link>
-      <pubDate>Fri, 07 Nov 2025 21:51:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_1/</guid>
-      <description>
-        
-          
-            In this blog post, we explore how TR addressed key business use cases with Open Arena, a highly scalable and flexible no-code AI solution powered by Amazon Bedrock and other AWS services such as Amazon OpenSearch Service, Amazon Simple Storage Service (Amazon S3), Amazon DynamoDB, and AWS Lambda. We&#39;ll explain how TR used AWS services to build this solution, including how the architecture was designed, the use cases it solves, and the business profiles that use it.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing structured output for Custom Model Import in Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_2/</link>
-      <pubDate>Fri, 07 Nov 2025 18:53:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_2/</guid>
-      <description>
-        
-          
-            Today, we are excited to announce the addition of structured output to Custom Model Import. Structured output constrains a model&#39;s generation process in real time so that every token it produces conforms to a schema you define. Rather than relying on prompt-engineering tricks or brittle post-processing scripts, you can now generate structured outputs directly at inference time.
-Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-structured-output-for-custom-model-import-in-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Go 1.25.4-2 and 1.24.10-1 Microsoft builds now available</title>
-      <link>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_3/</link>
-      <pubDate>Fri, 07 Nov 2025 18:27:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_3/</guid>
-      <description>
-        
-          
-            A new release of the Microsoft build of Go is now available for download. For more information about this release and the changes included, see the table below: Microsoft Release Upstream Tag
-Link to article: https://devblogs.microsoft.com/go/go-1-25-4-2-and-1-24-10-1-microsoft-builds-now-available 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>IntelePeer supercharges its agentic AI platform with Azure Cosmos DB</title>
-      <link>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_4/</link>
-      <pubDate>Fri, 07 Nov 2025 17:10:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_4/</guid>
-      <description>
-        
-          
-            Reducing latency by 50% and scaling intelligent CX for SMBs This article was co-authored by Sergey Galchenko, Chief Technology Officer, IntelePeer, and Subhash Ramamoorthi, Director, IntelePeer AI Hub. Don’t miss: Discover how IntelePeer enhances agent intelligence and powers their multi-agent
-Link to article: https://devblogs.microsoft.com/cosmosdb/intelepeer-supercharges-its-agentic-ai-platform-with-azure-cosmos-db 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Non-recursively deleting a binary tree in constant space: Restructuring the tree</title>
-      <link>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_5/</link>
-      <pubDate>Fri, 07 Nov 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_5/</guid>
-      <description>
-        
-          
-            We&#39;ve been looking at non-recursive algorithms for deleting the nodes of a binary tree. The previous algorithm performed a postorder traversal, cleverly repurposing
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251107-00/?p=111774 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Most DevSecOps Advice Is Useless without Context—Here’s What Actually Works</title>
-      <link>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_6/</link>
-      <pubDate>Fri, 07 Nov 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_6/</guid>
-      <description>
-        
-          
-            Generic DevSecOps advice may sound good on paper, but it often fails in practice because it ignores team context, workflow, and environment-specific needs. Overloaded controls, broad policies, and misapplied tools disrupt the flow of development. And once flow breaks, security measures are the first to get bypassed. The way forward isn&#39;t more rules but smarter...
-Link to article: https://www.docker.com/blog/context-aware-devsecops-what-works/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Understanding prompt injections: a frontier security challenge</title>
-      <link>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_7/</link>
-      <pubDate>Fri, 07 Nov 2025 11:30:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_7/</guid>
-      <description>
-        
-          
-            Prompt injections are a frontier security challenge for AI systems. Learn how these attacks work and how OpenAI is advancing research, training models, and building safeguards for users.
-Link to article: https://openai.com/index/prompt-injections 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Notion’s rebuild for agentic AI: How GPT‑5 helped unlock autonomous workflows</title>
-      <link>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_8/</link>
-      <pubDate>Fri, 07 Nov 2025 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_8/</guid>
-      <description>
-        
-          
-            Discover how Notion rebuilt its AI architecture with GPT-5 to create autonomous agents that reason, act, and adapt across workflows. Learn how this shift unlocked smarter, faster, and more flexible productivity in Notion 3.0.
-Link to article: https://openai.com/index/notion 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Patterns for Building a Scalable Multi-Agent System</title>
-      <link>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_9/</link>
-      <pubDate>Fri, 07 Nov 2025 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_11_2025/07_11_2025_9/</guid>
-      <description>
-        
-          
-            Introduction LLMs are enabling a new generation of multi-agent systems that tackle complex, multi-step tasks. Moving from prototype to production is hard—especially when orchestrating dozens or hundreds of specialized agents. Commercial viability depends on intentional design, scalability, latency control, and predictable outcomes.
-Link to article: https://devblogs.microsoft.com/ise/multi-agent-systems-at-scale 
           
           
         
