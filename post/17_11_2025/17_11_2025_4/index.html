@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Optimize GUID creation performance in .NET applications | .NET Ramblings</title>
+<title>How can I detect that Windows is running in S-Mode, redux | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Many .NET projects use well-known GUIDs as identifiers for activities, interop scenarios, database keys, and other purposes. It&#39;s common to see code like new …" />
+<meta name="description" content="Igor Levicki asked for a plain C version of the sample code to detect whether Windows is running in S-Mode. I didn&#39;t write one for two reasons. First, I didn&#39;t …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Optimize GUID creation performance in .NET applications" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta name="twitter:title" content="How can I detect that Windows is running in S-Mode, redux" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/17_11_2025/17_11_2025_4/" />
-<meta property="og:title" content="Optimize GUID creation performance in .NET applications" />
-<meta property="og:description" content="Many .NET projects use well-known GUIDs as identifiers for activities, interop scenarios, database keys, and other purposes. It&#39;s common to see code like new …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
+<meta property="og:title" content="How can I detect that Windows is running in S-Mode, redux" />
+<meta property="og:description" content="Igor Levicki asked for a plain C version of the sample code to detect whether Windows is running in S-Mode. I didn&#39;t write one for two reasons. First, I didn&#39;t …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Optimize GUID creation performance in .NET applications</h1>
+    <h1 class="post_title">How can I detect that Windows is running in S-Mode, redux</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Nov 17, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
+      Nov 17, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Many .NET projects use well-known GUIDs as identifiers for activities, interop scenarios, database keys, and other purposes. It's common to see code like new Guid(&quot;01234567-8901-2345-6789-012345678901&quot;) throughout applications. While this approach is readable and straightforward, it comes with a hidden performance cost that can impact application startup time. This is a micro-optimization that primarily…</p>
+    <div class="post_body"><p>Igor Levicki asked for a plain C version of the sample code to detect whether Windows is running in S-Mode. I didn't write one for two reasons. First, I didn't realize that so many people still tried to use COM from plain C. A</p>
 <ul>
-<li>Link to article: <a href="https://www.meziantou.net/optimize-guid-creation-performance-in-dotnet-applications.htm?utm_medium=social&utm_source=syndication">https://www.meziantou.net/optimize-guid-creation-performance-in-dotnet-applications.htm?utm_medium=social&utm_source=syndication</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20251117-00/?p=111795">https://devblogs.microsoft.com/oldnewthing/20251117-00/?p=111795</a></li>
 </ul>
 
     </div>
