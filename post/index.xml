@@ -1262,22 +1262,5 @@ Link to article: https://openai.com/index/chatgpt-for-veterans
       </description>
     </item>
     
-    <item>
-      <title>Defensive Programming Rule #3: Validate Your Enums (Every Time)</title>
-      <link>https://www.dotnetramblings.com/post/09_11_2025/09_11_2025_0/</link>
-      <pubDate>Sun, 09 Nov 2025 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_11_2025/09_11_2025_0/</guid>
-      <description>
-        
-          
-            Enums enhance code readability but can lead to errors if not validated, as any integer can be cast as an Enum, including invalid values. Validating Enum inputs prevents silent data corruption, ensures meaningful defaults, and avoids processing impossible states. Always validate at method boundaries and define a zero value as &amp;quot;unknown.&amp;quot;
-Link to article: https://dotnettips.wordpress.com/2025/11/09/defensive-programming-rule-3-validate-your-enums-every-time/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
