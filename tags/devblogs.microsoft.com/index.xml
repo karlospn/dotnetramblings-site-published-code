@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 18 Nov 2025 09:30:43 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Nov 2025 16:11:56 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How Kraft Heinz achieved 1,400x faster data lineage with Azure DocumentDB’s DiskANN vector search and hybrid search</title>
-      <link>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_4/</link>
-      <pubDate>Tue, 18 Nov 2025 09:30:43 +0000</pubDate>
+      <title>Introducing Major New Agentic Capabilities for GitHub Copilot in JetBrains and Eclipse</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_0/</link>
+      <pubDate>Tue, 18 Nov 2025 16:11:56 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_0/</guid>
       <description>
         
           
-            This article is authored by Gurvinder Singh, Principal Cloud Engineer at The Kraft Heinz Company. The enterprise-scale challenge: Data lineage across 50+ interconnected systems At Kraft Heinz, we operate one of the world’s largest CPG data ecosystems with more than 200 brands and 50+ interconnected enterprise sy
-Link to article: https://devblogs.microsoft.com/cosmosdb/how-kraft-heinz-achieved-1400x-faster-data-lineage-with-azure-documentdbs-diskann-vector-search-and-hybrid-search 
+            GitHub Copilot is taking a major step forward with expanded, deeply integrated support for JetBrains and Eclipse — bringing a new generation of agentic, intelligent capabilities directly into your favorite Java IDEs. This release strengthens Copilot’s cross-IDE experience, unifies agentic workflows, and unlocks m
+Link to article: https://devblogs.microsoft.com/java/new-agentic-capabilities-for-github-copilot-in-jetbrains-and-eclipse 
           
           
         
@@ -26,16 +26,151 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/how-kraft-heinz-achieve
     </item>
     
     <item>
-      <title>Aspire Multi-Repo Microservices - Windows 365 Integration Journey</title>
+      <title>Public preview of vector indexing in Azure SQL DB, Azure SQL MI, and SQL database in Microsoft Fabric</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_1/</link>
+      <pubDate>Tue, 18 Nov 2025 16:05:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_1/</guid>
+      <description>
+        
+          
+            We are happy to share that DiskANN vector indexing is now in public preview across Azure SQL Database, Azure SQL Managed Instance, and SQL database in Microsoft Fabric. DiskANN is a cutting-edge algorithm for efficient vector similarity search, making it ideal for powering recommendation systems
+Link to article: https://devblogs.microsoft.com/azure-sql/public-preview-of-vector-indexing-in-azure-sql-db-azure-sql-mi-and-sql-database-in-microsoft-fabric 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Now Generally Available: Azure Cosmos DB Fleet Pools</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_2/</link>
+      <pubDate>Tue, 18 Nov 2025 16:00:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_2/</guid>
+      <description>
+        
+          
+            We’re excited to announce two updates to Azure Cosmos DB fleets: Fleet pools – now generally available Fleet analytics – now in public preview Azure Cosmos DB fleets enables developers to build scalable, isolated, and cost-effective multi-tenant or Software as a Service (SaaS) applications. Today,
+Link to article: https://devblogs.microsoft.com/cosmosdb/now-generally-available-azure-cosmos-db-fleet-pool 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Public Preview: Azure DocumentDB Migration Extension Now Supports Online Migration to Azure DocumentDB (with MongoDB compatibility)</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_3/</link>
+      <pubDate>Tue, 18 Nov 2025 16:00:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_3/</guid>
+      <description>
+        
+          
+            We’re excited to announce the Public Preview of a significant enhancement to the Azure DocumentDB (with MongoDB compatibility) Migration extension for Visual Studio Code—introducing online migration capability! This update makes it easier than ever to migrate MongoDB workloads to Azure Doc
+Link to article: https://devblogs.microsoft.com/cosmosdb/documentdbmigrationextension 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure DocumentDB is Now Generally Available</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_4/</link>
+      <pubDate>Tue, 18 Nov 2025 16:00:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_4/</guid>
+      <description>
+        
+          
+             Azure Docum
+Link to article: https://devblogs.microsoft.com/cosmosdb/azure-documentdb-is-now-generally-available 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing: GA of Cosmos DB in Microsoft Fabric and Cosmos Mirroring</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_5/</link>
+      <pubDate>Tue, 18 Nov 2025 16:00:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_5/</guid>
+      <description>
+        
+          
+            We’re excited to announce that Cosmos DB in Microsoft Fabric and Cosmos DB Mirroring are now Generally Available, uniting your operational and analytical data in one platform. You can now analyze live Cosmos DB data directly in Fabric—no complex or costly ETL required. Data stays in sync in OneLake,
+Link to article: https://devblogs.microsoft.com/cosmosdb/cosmos-db-fabric-mirroring-ga 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing the Azure Cosmos DB MCP Toolkit: Empowering AI Agents with Azure Cosmos DB Intelligence</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_6/</link>
+      <pubDate>Tue, 18 Nov 2025 16:00:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_6/</guid>
+      <description>
+        
+          
+            We&#39;re excited to announce the Azure Cosmos DB MCP Toolkit in public preview. This open-source implementation of the Model Context Protocol (MCP) gives AI agents and LLMs direct, secure access to Azure Cosmos DB. The toolkit bridges intelligent applications and globally distributed databases, enabling AI agents to query, search
+Link to article: https://devblogs.microsoft.com/cosmosdb/introducing-the-azure-cosmos-db-mcp-toolkit-empowering-ai-agents-with-azure-cosmos-db-intelligence 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>General Availability Announcement: Regex Support in SQL Server 2025 &amp; Azure SQL</title>
       <link>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_7/</link>
-      <pubDate>Tue, 18 Nov 2025 03:05:00 +0000</pubDate>
+      <pubDate>Tue, 18 Nov 2025 16:00:10 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_7/</guid>
       <description>
         
           
-            Windows 365 uses a microservice architecture based on HTTP services built with ASP.NET Core and Azure Functions. Each service has its own repository and team for clear ownership. All microservices share a common infrastructure, with teams focusing on their designated service. Aspire streamlines microservice development with an appli
-Link to article: https://devblogs.microsoft.com/aspire/aspire-windows-365 
+             Link to article: https://devblogs.microsoft.com/azure-sql/general-availability-announcement-regex-support-in-sql-server-2025-azure-sql 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SQL Server 2025 Embraces Vectors: setting the foundation for empowering your data with AI</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_8/</link>
+      <pubDate>Tue, 18 Nov 2025 16:00:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_8/</guid>
+      <description>
+        
+          
+            SQL Server 2025 marks a major milestone in database innovation by introducing native support for VECTOR data types and vector functions. These are now fully available in the freshly released SQL Server 2025 RTM. This means you can store and process high-dimensional embeddings directly within your database. It eliminates the need to move dat
+Link to article: https://devblogs.microsoft.com/azure-sql/sql-server-2025-embraces-vectors-setting-the-foundation-for-empowering-your-data-with-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What’s New in Semantic Search for Azure Cosmos DB at Ignite 2025</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_9/</link>
+      <pubDate>Tue, 18 Nov 2025 16:00:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_9/</guid>
+      <description>
+        
+          
+            We’re excited to introduce new capabilities and performance improvements for vector and full-text search in Azure Cosmos DB. These updates make it easier for developers and architects to build semantic search experiences and generative AI applications on the world’s most scalable NoSQL database. Note: These new capabili
+Link to article: https://devblogs.microsoft.com/cosmosdb/whats-new-in-search-for-azure-cosmos-db-at-ignite-2025 
           
           
         
