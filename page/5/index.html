@@ -4,12 +4,13 @@
   lang="en"
   data-figures=""
   
-    class="page"
+    class="home"
   
   
   >
   <head>
-<title>How Kraft Heinz achieved 1,400x faster data lineage with Azure DocumentDB’s DiskANN vector search and hybrid search | .NET Ramblings</title>
+	<meta name="generator" content="Hugo 0.131.0">
+<title>.NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,23 +28,25 @@
 
 <meta property="og:locale" content="en" />
 
-<meta property="og:type" content="article">
-<meta name="description" content="This article is authored by Gurvinder Singh, Principal Cloud Engineer at The Kraft Heinz Company. The enterprise-scale challenge: Data lineage across 50&#43; …" />
+<meta property="og:type" content="website">
+<meta name="description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="How Kraft Heinz achieved 1,400x faster data lineage with Azure DocumentDB’s DiskANN vector search and hybrid search" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/azure.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_1/" />
-<meta property="og:title" content="How Kraft Heinz achieved 1,400x faster data lineage with Azure DocumentDB’s DiskANN vector search and hybrid search" />
-<meta property="og:description" content="This article is authored by Gurvinder Singh, Principal Cloud Engineer at The Kraft Heinz Company. The enterprise-scale challenge: Data lineage across 50&#43; …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/azure.png" />
+<meta name="twitter:title" content=".NET Ramblings" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/" />
+<meta property="og:title" content=".NET Ramblings" />
+<meta property="og:description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/18_11_2025/18_11_2025_1/">
+<link rel="canonical" href="https://www.dotnetramblings.com/">
+<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/index.xml" title=".NET Ramblings" />
+<link rel="alternate" type="application/json" href="https://www.dotnetramblings.com/index.json" title=".NET Ramblings" />
 
 
 
@@ -87,7 +90,7 @@
       
         
 
-  <div class="nav_parent">
+  <div class="nav_parent nav_active">
     <a href="https://www.dotnetramblings.com/" class="nav_item" title="Home">Home </a>
   </div>
   <div class="nav_parent">
@@ -129,10 +132,21 @@
 </header>
 
     <main>
+
   
+
+
+
 <div class="grid-inverse wrap content">
-  <article class="post_content">
-    <h1 class="post_title">How Kraft Heinz achieved 1,400x faster data lineage with Azure DocumentDB’s DiskANN vector search and hybrid search</h1>
+  <div>
+    <ul class="posts" id="posts">
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://blog.jetbrains.com/blog/2025/11/11/jetbrains-and-dmcc-ai-centre-announce-strategic-partnership-to-accelerate-ai-innovation/" title="JetBrains and DMCC AI Centre Announce Strategic Partnership to Accelerate AI Innovation">JetBrains and DMCC AI Centre Announce Strategic Partnership to Accelerate AI Innovation</a>
+      </h3>
+      
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,34 +154,89 @@
 </svg>
 </span>
     <span class="post_date">
-      Nov 18, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Nov 11, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>This article is authored by Gurvinder Singh, Principal Cloud Engineer at The Kraft Heinz Company.   The enterprise-scale challenge: Data lineage across 50+ interconnected systems At Kraft Heinz, we operate one of the world’s largest CPG data ecosystems with more than 200 brands and 50+ interconnected enterprise sy</p>
-<ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/cosmosdb/how-kraft-heinz-achieved-1400x-faster-data-lineage-with-azure-documentdbs-diskann-vector-search-and-hybrid-search">https://devblogs.microsoft.com/cosmosdb/how-kraft-heinz-achieved-1400x-faster-data-lineage-with-azure-documentdbs-diskann-vector-search-and-hybrid-search</a></li>
-</ul>
-
     </div>
-<div class="post_comments">
+    <div class="excerpt_footer partition">
+      <div class="excerpt_thumbnail"><figure>
+    <picture>
   
+      
+        
+          
+          
+          
+          
+          
+          
+      <img
+        loading="lazy"
+        decoding="async"
+        alt="JetBrains and DMCC AI Centre Announce Strategic Partnership to Accelerate AI Innovation"
+        
+          class="image_figure image_thumbnail image_internal image_unprocessed"
+          src="https://www.dotnetramblings.com/images/ai.png"
+        
+        
+      />
   
-  
-</div>
-
-
-
-
-  </article>
+      </picture>
+  </figure>
+      </div>
+      
+        <div class="pale">
+          
+            <p>JetBrains and the DMCC AI Centre, a premier hub for artificial intelligence (AI) and innovation in the UAE, have announced a strategic collaboration to advance the growth of AI-driven innovation, entrepreneurship, and technical excellence within Dubai’s technology ecosystem. The agreement marks a key step in JetBrains’ …</p>
+          
+          <br>
+          <a href="https://blog.jetbrains.com/blog/2025/11/11/jetbrains-and-dmcc-ai-centre-announce-strategic-partnership-to-accelerate-ai-innovation/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+      <li>
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 5" class="page-link" role="button">5</a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+      </li>
+    </ul>
+  </div>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope=''>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -184,8 +253,9 @@
   </section>
 </aside>
 
-  
 </div>
+
+
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
