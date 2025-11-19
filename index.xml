@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 19 Nov 2025 16:16:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Nov 2025 17:00:43 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Build an agentic solution with Amazon Nova, Snowflake, and LangGraph</title>
+      <title>Microsoft Agent 365 Interoperability for Smart, Secure Productivity</title>
       <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_0/</link>
-      <pubDate>Wed, 19 Nov 2025 16:16:49 +0000</pubDate>
+      <pubDate>Wed, 19 Nov 2025 17:00:43 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_0/</guid>
+      <description>
+        
+          
+            Yesterday we launched Agent 365 - Microsoft’s enterprise control plane for AI agents, designed to make agents secure, compliant, and ready for large-scale deployment within organizations. Agents enabled with Agent 365 have a unique identi
+Link to article: https://devblogs.microsoft.com/microsoft365dev/microsoft-agent-365-interoperability-for-smart-secure-productivity 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Why I joined Docker: security at the center of the software supply chain</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_1/</link>
+      <pubDate>Wed, 19 Nov 2025 16:55:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_1/</guid>
+      <description>
+        
+          
+            Mark Lechner, Docker’s CISO, shares his vision for a future where Docker not only powers the software supply chain, but actively safeguards it. Cybersecurity has reached a turning point. The most significant threats no longer exploit isolated systems; they move through the connections between them. The modern attack surface includes every dependency, every container, and...
+Link to article: https://www.docker.com/blog/why-i-joined-docker-security-at-the-center-of-the-software-supply-chain/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build an agentic solution with Amazon Nova, Snowflake, and LangGraph</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_2/</link>
+      <pubDate>Wed, 19 Nov 2025 16:16:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_2/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/build-an-agentic-
     
     <item>
       <title>Azure Developer CLI (azd) Nov 2025 - Container Apps (GA), Layered Provisioning (Beta), Extension Framework, and Aspire 13</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_3/</link>
       <pubDate>Wed, 19 Nov 2025 16:00:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_3/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-az
     
     <item>
       <title>Using Spectrum fine-tuning to improve FM training efficiency on Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_4/</link>
       <pubDate>Wed, 19 Nov 2025 15:51:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_4/</guid>
       <description>
         
           
@@ -60,11 +94,28 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/using-spectrum-fi
     </item>
     
     <item>
+      <title>Is &lt;code&gt;Write­Process­Memory&lt;/code&gt; faster than shared memory for transferring data between two processes?</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_5/</link>
+      <pubDate>Wed, 19 Nov 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_5/</guid>
+      <description>
+        
+          
+            Say you need to transfer a large amount of data between two processes. One way is to use shared memory. Is that the fastest way to do it? Can you do any better? One argument against shared memory is that the sender will have to copy the data into the shared memory block, and the recipient will have to copy it out, resulting in two e
+Link to article: https://devblogs.microsoft.com/oldnewthing/20251119-00/?p=111800 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Announced at Ignite 2025: Azure DocumentDB, MCP Toolkit, Fleet Analytics, and more!</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_6/</link>
       <pubDate>Wed, 19 Nov 2025 14:42:34 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_6/</guid>
       <description>
         
           
@@ -76,11 +127,31 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/using-spectrum-fi
     </item>
     
     <item>
+      <title>How to Update .NET on Wsl or Ubuntu</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_9/</link>
+      <pubDate>Wed, 19 Nov 2025 09:37:56 -0500</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_9/</guid>
+      <description>
+        
+          
+            Ever year or so, a new version of .NET ships, and I need to upgrade the .NET SDK version on my machines. Not just the Windows machines, but also the WSL Ubuntu bits that live on those same machines. First, determine what version of dotnet you already have using this:
+1 2
+dotnet --version
+10.0.100-rc.1.25451.107
+Yep, I need to update that. But how? Surely there must be a simple way to do it using just the command line.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>6 Must-Have MCP Servers (and How to Use Them)</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_7/</link>
       <pubDate>Wed, 19 Nov 2025 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_7/</guid>
       <description>
         
           
@@ -94,10 +165,10 @@ Link to article: https://www.docker.com/blog/top-mcp-servers-2025/
     
     <item>
       <title>PowerToys 0.96 is here: endpoints for Advanced Paste, metadata support for PowerRename and more!</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_8/</link>
       <pubDate>Wed, 19 Nov 2025 13:11:02 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_8/</guid>
       <description>
         
           
@@ -110,10 +181,10 @@ Link to article: https://www.docker.com/blog/top-mcp-servers-2025/
     
     <item>
       <title>OpenAI and Target team up on new AI-powered experiences</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_10/</link>
       <pubDate>Wed, 19 Nov 2025 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_10/</guid>
       <description>
         
           
