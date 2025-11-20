@@ -7,13 +7,183 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 20 Nov 2025 13:44:52 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Nov 2025 16:15:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docker Model Runner Integrates vLLM for High-Throughput Inference</title>
+      <title>How Care Access achieved 86% data processing cost reductions and 66% faster data processing with Amazon Bedrock prompt caching</title>
       <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_0/</link>
-      <pubDate>Thu, 20 Nov 2025 13:44:52 +0000</pubDate>
+      <pubDate>Thu, 20 Nov 2025 16:15:04 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how healthcare organizations can securely implement prompt caching technology to streamline medical record processing while maintaining compliance requirements.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-care-access-achieved-86-data-processing-cost-reductions-and-66-faster-data-processing-with-amazon-bedrock-prompt-caching/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing: Dynamic Data Masking for Azure Cosmos DB (Preview)</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_1/</link>
+      <pubDate>Thu, 20 Nov 2025 16:00:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_1/</guid>
+      <description>
+        
+          
+            Today marks a big step forward with the public preview of Dynamic Data Masking (DDM) for Azure Cosmos DB. This feature helps organizations protect sensitive data without requiring changes to application logic or database interactions. What is Dynamic Data Masking? Dynamic Data Masking (DDM) is a server-side, policy-driven
+Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-dynamic-data-masking-for-azure-cosmos-db-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Use Azure SRE Agent with Azure Cosmos DB: Smarter Diagnostics for Your Applications</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_2/</link>
+      <pubDate>Thu, 20 Nov 2025 16:00:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_2/</guid>
+      <description>
+        
+          
+            We’re excited to announce the
+Link to article: https://devblogs.microsoft.com/cosmosdb/use-azure-sre-agent-with-azure-cosmos-db-smarter-diagnostics-for-your-applications 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing Private Preview: Safe Account Key rotation using Account Key Usage Metadata</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_3/</link>
+      <pubDate>Thu, 20 Nov 2025 16:00:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_3/</guid>
+      <description>
+        
+          
+            Account Key Usage Metadata is a new security and observability feature that helps Azure Cosmos DB customers avoid service disruptions during key rotations. It provides visibility when each account key was last used
+Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-private-preview-safe-account-key-rotation-using-account-key-usage-metadata 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>General Availability: Priority-Based Execution in Azure Cosmos DB</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_4/</link>
+      <pubDate>Thu, 20 Nov 2025 16:00:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_4/</guid>
+      <description>
+        
+          
+            Have you ever faced a situation where two different workloads share the same container, and one ends up slowing down the other? This is a common challenge for many of our customers running applications on Azure Cosmos DB. Imagine these scenarios: A background job consumes most of the throughput, leaving end users frustrated wit
+Link to article: https://devblogs.microsoft.com/cosmosdb/general-availability-priority-based-execution-in-azure-cosmos-db 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing Preview of Online Copy Jobs in Azure Cosmos DB: Migrate Data with Minimal Downtime!</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_5/</link>
+      <pubDate>Thu, 20 Nov 2025 16:00:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_5/</guid>
+      <description>
+        
+          
+            We are excited to announce the preview of Online Copy Jobs, a powerful new feature designed to make data migration between containers seamless and efficient with minimal downtime. With this feature, you can replicate data from a source to a destination container in real time without disrupting your applications. What is an online copy job
+Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-online-copy-jobs-in-azure-cosmos-db-migrate-data-with-minimal-downtime 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to debug and optimize RAG agents in Microsoft Foundry</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_6/</link>
+      <pubDate>Thu, 20 Nov 2025 16:00:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_6/</guid>
+      <description>
+        
+          
+            TL;DR Learn the best practices to evaluate and optimize the RAG quality of your agent using evaluations in Foundry Observability. This tutorial demonstrates these 2 best practices before deploying your RAG agent: 1. Evaluate and optimize end to end your RAG agent using reference-free RAG triad evaluators:
+Link to article: https://devblogs.microsoft.com/foundry/how-to-debug-and-optimize-rag-agents-in-azure-ai-foundry 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing GPT-4o Audio Models in Microsoft Foundry: A Practical Guide for Developers</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_7/</link>
+      <pubDate>Thu, 20 Nov 2025 16:00:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_7/</guid>
+      <description>
+        
+          
+            We&#39;re excited to announce the availability of OpenAI&#39;s latest GPT-4o audio models—GPT-4o-Transcribe, GPT-4o-Mini-Transcribe, and GPT-4o-Mini-TTS in Microsoft Foundry Models. This practical guide provides developers with essential insights and steps to effectively leverage these advanced audi
+Link to article: https://devblogs.microsoft.com/foundry/azure-openai-gpt4o-audio-models-developer-guide 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing Azure Language in Foundry Tools for deterministic, privacy-first agents</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_8/</link>
+      <pubDate>Thu, 20 Nov 2025 16:00:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_8/</guid>
+      <description>
+        
+          
+            In today’s rapidly evolving AI landscape, developers are seeking reliable, secure, and predictable language capabilities to power the next generation of enterprise-grade agents. As agentic architecture becomes central to modern applications, teams need tools that deliver stronger privacy guarantees, deterministic behavior, and seamless integ
+Link to article: https://devblogs.microsoft.com/foundry/announcing-azure-language-in-foundry-tools-for-deterministic-privacy-first-agents 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Assess Agentic Risks with the AI Red Teaming Agent in Microsoft Foundry</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_9/</link>
+      <pubDate>Thu, 20 Nov 2025 16:00:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_9/</guid>
+      <description>
+        
+          
+            We’re thrilled to announce major enhancements in Microsoft Foundry for models and AI agentic pipelines, available now in public preview. These new capabilities, enable organizations to proactively identify safety and security risks in both models and agentic systems, ensuring strong safeguards as agentic sol
+Link to article: https://devblogs.microsoft.com/foundry/assess-agentic-risks-with-the-ai-red-teaming-agent-in-microsoft-foundry 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docker Model Runner Integrates vLLM for High-Throughput Inference</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_10/</link>
+      <pubDate>Thu, 20 Nov 2025 13:44:52 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_10/</guid>
       <description>
         
           
@@ -27,10 +197,10 @@ Link to article: https://www.docker.com/blog/docker-model-runner-integrates-vllm
     
     <item>
       <title>Learn AI-Assisted Programming With Junie: Free Courses From JetBrains Academy and Nebius</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_11/</link>
       <pubDate>Thu, 20 Nov 2025 12:09:26 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_11/</guid>
       <description>
         
           
@@ -44,10 +214,10 @@ Link to article: https://blog.jetbrains.com/education/2025/11/20/learn-ai-assist
     
     <item>
       <title>Azure DevOps to GitHub migration Playbook: Unlocking Agentic DevOps</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_12/</link>
       <pubDate>Thu, 20 Nov 2025 11:03:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_12/</guid>
       <description>
         
           
@@ -60,11 +230,11 @@ Link to article: https://devblogs.microsoft.com/all-things-azure/azure-devops-to
     </item>
     
     <item>
-      <title>Helping 1,000 Main Street businesses build with AI</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_3/</link>
+      <title>Helping 1,000 small businesses build with AI</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_13/</link>
       <pubDate>Thu, 20 Nov 2025 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_11_2025/20_11_2025_13/</guid>
       <description>
         
           
