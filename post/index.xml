@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 21 Nov 2025 22:43:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The False Comfort of the &#34;Happy Path&#34;: Decoupling Your Services</title>
+      <link>https://www.dotnetramblings.com/post/22_11_2025/22_11_2025_0/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_11_2025/22_11_2025_0/</guid>
+      <description>
+        
+          
+            Coupling isn&#39;t just about code structure; it&#39;s about failure boundaries. Discover how to ensure your critical business logic survives when external dependencies like email or analytics go down.
+Link to article: https://www.milanjovanovic.tech/blog/the-false-comfort-of-the-happy-path-decoupling-your-services 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Rising Importance of Governance at SwampUP Berlin 2025</title>
       <link>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_0/</link>
@@ -1615,176 +1632,6 @@ Link to article: https://blog.jetbrains.com/dotnet/2025/11/15/jetbrains-is-headi
           
             With .NET 10, Microsoft introduced file-based apps, which give you the ability to write C# code in a single .cs file and run it directly, without any project or solution files. This feature finally makes C# approachable for quick scripts and utilities
 Link to article: https://www.milanjovanovic.tech/blog/exploring-csharp-file-based-apps-in-dotnet-10 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build a biomedical research agent with Biomni tools and Amazon Bedrock AgentCore Gateway</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_0/</link>
-      <pubDate>Fri, 14 Nov 2025 18:28:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_0/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to build a production-ready biomedical research agent by integrating Biomni&#39;s specialized tools with Amazon Bedrock AgentCore Gateway, enabling researchers to access over 30 biomedical databases through a secure, scalable infrastructure. The implementation showcases how to transform research prototypes into enterprise-grade systems with persistent memory, semantic tool discovery, and comprehensive observability for scientific reproducibility .
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-biomedical-research-agent-with-biomni-tools-and-amazon-bedrock-agentcore-gateway/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Make your web apps hands-free with Amazon Nova Sonic</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_1/</link>
-      <pubDate>Fri, 14 Nov 2025 18:18:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_1/</guid>
-      <description>
-        
-          
-            Graphical user interfaces have carried the torch for decades, but today’s users increasingly expect to talk to their applications. In this post we show how we added a true voice-first experience to a reference application—the Smart Todo App—turning routine task management into a fluid, hands-free conversation.
-Link to article: https://aws.amazon.com/blogs/machine-learning/make-your-web-apps-hands-free-with-amazon-nova-sonic/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Harnessing the power of generative AI: Druva’s multi-agent copilot for streamlined data protection</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_2/</link>
-      <pubDate>Fri, 14 Nov 2025 18:10:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_2/</guid>
-      <description>
-        
-          
-            Generative AI is transforming the way businesses interact with their customers and revolutionizing conversational interfaces for complex IT operations. Druva, a leading provider of data security solutions, is at the forefront of this transformation. In collaboration with Amazon Web Services (AWS), Druva is developing a cutting-edge generative AI-powered multi-agent copilot that aims to redefine the customer experience in data security and cyber resilience.
-Link to article: https://aws.amazon.com/blogs/machine-learning/harnessing-the-power-of-generative-ai-druvas-multi-agent-copilot-for-streamlined-data-protection/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Making the Most of Your Docker Hardened Images Trial – Part 1</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_3/</link>
-      <pubDate>Fri, 14 Nov 2025 17:04:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_3/</guid>
-      <description>
-        
-          
-            First steps: Run your first secure, production-ready image Container base images form the foundation of your application security. When those foundations contain vulnerabilities, every service built on top inherits the same risk. Docker Hardened Images addresses this at the source. These are continuously-maintained, minimal base images designed for security: stripped of unnecessary packages, patched proactively,...
-Link to article: https://www.docker.com/blog/making-the-most-of-your-docker-hardened-images-trial-part-1/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>IntelliJ IDEA 2025.3 💚 Spring 7</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_4/</link>
-      <pubDate>Fri, 14 Nov 2025 15:31:52 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_4/</guid>
-      <description>
-        
-          
-            Major Spring Framework releases don’t come around often – and when they do, they tend to reshape how we build applications for years to come. Spring Framework 7 is one of those releases. It simplifies many aspects of development, cleans up some long-standing pain points, and introduces features that previously required custom annotations or boilerplate-heavy […]
-Link to article: https://blog.jetbrains.com/idea/2025/11/intellij-idea-2025-3-spring-7/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>I can use &lt;CODE&gt;WM_&lt;WBR&gt;COPY&lt;WBR&gt;DATA&lt;/CODE&gt; to send a block of data to another window, but how does it send data back?</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_5/</link>
-      <pubDate>Fri, 14 Nov 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_5/</guid>
-      <description>
-        
-          
-            The WM_COPY­DATA message can be used to send a blob of data from one window to another. The window manager does the work of copying the data from the sending process to the receiving process, but how does the receiving process send data back? If the only information that needs to come back is a success/failure,
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251114-00/?p=111792 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure MCP Server Now Built-In with Visual Studio 2026: A New Era for Agentic Workflows</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_6/</link>
-      <pubDate>Fri, 14 Nov 2025 14:00:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_6/</guid>
-      <description>
-        
-          
-            Managing cloud resources often means juggling multiple tools, writing custom scripts, and switching contexts between your IDE and cloud management portals. These extra steps slow development and make it harder to build intelligent, secure applications efficiently. We’re excited to announce that
-Link to article: https://devblogs.microsoft.com/visualstudio/azure-mcp-server-now-built-in-with-visual-studio-2026-a-new-era-for-agentic-workflows 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Investigating the Great AI Productivity Divide: Why Are Some Developers 5x Faster?</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_7/</link>
-      <pubDate>Fri, 14 Nov 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_7/</guid>
-      <description>
-        
-          
-            AI-powered developer tools claim to boost your productivity, doing everything from intelligent auto-complete to (https://openai.com/index/introducing-codex/). But the productivity gains users report have been something of a mixed bag. Some groups claim to get 3-5x (or more), productivity boosts, while other devs claim to get no benefit at all—or even losses of up to 19%. I...
-Link to article: https://www.docker.com/blog/ai-productivity-divide-developers-5x-faster/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Tutorial Videos: Setting up GitHub Copilot for your Company</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_8/</link>
-      <pubDate>Fri, 14 Nov 2025 11:40:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_8/</guid>
-      <description>
-        
-          
-            This guide shares a series of videos that walk you through setting up GitHub and GitHub Copilot end-to-end for your company. These are especially useful for organizations starting from scratch who want to leverage GitHub Copilot and are looking to get started. These videos were recorded as of October 2025.
-Link to article: https://devblogs.microsoft.com/all-things-azure/tutorial-videos-setting-up-github-copilot-for-your-company 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing OpenAI for Ireland</title>
-      <link>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_9/</link>
-      <pubDate>Fri, 14 Nov 2025 04:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_11_2025/14_11_2025_9/</guid>
-      <description>
-        
-          
-            OpenAI launches OpenAI for Ireland, partnering with the Irish Government, Dogpatch Labs and Patch to help SMEs, founders and young builders use AI to innovate, boost productivity and build the next generation of Irish tech startups.
-Link to article: https://openai.com/index/openai-for-ireland 
           
           
         
