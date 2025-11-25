@@ -9,11 +9,164 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Tue, 25 Nov 2025 22:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docker Sandboxes: A New Approach for Coding Agent Safety</title>
+      <title>HyperPod now supports Multi-Instance GPU to maximize GPU utilization for generative AI tasks</title>
       <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_1/</link>
-      <pubDate>Tue, 25 Nov 2025 15:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Nov 2025 16:10:39 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_1/</guid>
+      <description>
+        
+          
+            In this post, we explore how Amazon SageMaker HyperPod now supports NVIDIA Multi-Instance GPU (MIG) technology, enabling you to partition powerful GPUs into multiple isolated instances for running concurrent workloads like inference, research, and interactive development. By maximizing GPU utilization and reducing wasted resources, MIG helps organizations optimize costs while maintaining performance isolation and predictable quality of service across diverse machine learning tasks.
+Link to article: https://aws.amazon.com/blogs/machine-learning/hyperpod-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-generative-ai-tasks/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Memory in Foundry Agent Service</title>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_2/</link>
+      <pubDate>Tue, 25 Nov 2025 16:00:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_2/</guid>
+      <description>
+        
+          
+            Give your agents the power to remember Imagine your agent never asks the same question twice. Until now, most agents hav
+Link to article: https://devblogs.microsoft.com/foundry/introducing-memory-in-foundry-agent-service 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Multi-Agent Workflows in Foundry Agent Service</title>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_3/</link>
+      <pubDate>Tue, 25 Nov 2025 16:00:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_3/</guid>
+      <description>
+        
+          
+            Across industries, organizations are moving from experimenting with single agents to running AI at the center of their business operations. While single agents excel at focused tasks, customers quickly discover that real enterprise work stretches across multiple steps, involves different roles, and requires strong governance. To operationalize
+Link to article: https://devblogs.microsoft.com/foundry/introducing-multi-agent-workflows-in-foundry-agent-service 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Translation Customization, A Developer&#39;s Guide to Adaptive Custom Translation</title>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_4/</link>
+      <pubDate>Tue, 25 Nov 2025 16:00:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_4/</guid>
+      <description>
+        
+          
+            Introduction Translation isn’t just converting words—it’s enabling global communication. Yet for businesses operating worldwide, achieving accuracy, speed, and domain-specific termino
+Link to article: https://devblogs.microsoft.com/foundry/translation-customization-a-developers-guide-to-adaptive-custom-translation 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Content Understanding is now generally available</title>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_5/</link>
+      <pubDate>Tue, 25 Nov 2025 16:00:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_5/</guid>
+      <description>
+        
+          
+            At Microsoft Ignite this year, we’re excited to announce that Azure Content Understanding in Foundry Tools is now generally available (GA). Over the past months, we’ve seen preview usage across industries, from large consultancies to healthcare leaders, with invaluable customer feedback shaping this release. With this GA release, we’r
+Link to article: https://devblogs.microsoft.com/foundry/azure-content-understanding-is-now-generally-available 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Assess Agentic Risks with the AI Red Teaming Agent in Microsoft Foundry</title>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_6/</link>
+      <pubDate>Tue, 25 Nov 2025 16:00:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_6/</guid>
+      <description>
+        
+          
+            We’re thrilled to announce major enhancements to the AI Red Teaming Agent in Microsoft Foundry for models and AI agentic pipelines, available now in public preview. These new capabilities enable organizations to proactively identify safety and security risks in both models and a
+Link to article: https://devblogs.microsoft.com/foundry/assess-agentic-risks-with-the-ai-red-teaming-agent-in-microsoft-foundry 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing TypeSpec for Microsoft 365 Copilot – Build declarative agents faster with more confidence</title>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_7/</link>
+      <pubDate>Tue, 25 Nov 2025 15:54:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_7/</guid>
+      <description>
+        
+          
+            We’re excited to announce that TypeSpec for Microsoft 365 Copilot is now generally available! This milestone marks the first stable release of the domain-specific language (DSL) designed to streamline how developers build and extend Micro
+Link to article: https://devblogs.microsoft.com/microsoft365dev/introducing-typespec-for-microsoft-365-copilot 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SharePoint Framework (SPFx) roadmap update – November 2025</title>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_8/</link>
+      <pubDate>Tue, 25 Nov 2025 15:42:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_8/</guid>
+      <description>
+        
+          
+            We continue to be humbled by the incredible momentum of the SharePoint Framework (SPFx) and the growth it enables for our customers and partners. Tens of millions of users across the world rely daily on custom SPFx solutions in Microsoft 365 - solutions built and inno
+Link to article: https://devblogs.microsoft.com/microsoft365dev/sharepoint-framework-spfx-roadmap-update-november-2025 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>VTEX accelerates application scale-up by 88% with Amazon EKS</title>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_9/</link>
+      <pubDate>Tue, 25 Nov 2025 15:14:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_9/</guid>
+      <description>
+        
+          
+            Introduction VTEX, a global e-commerce company serving over 3,400 customers across 38 countries, has undergone a transformative journey since its inception in 2000. Evolving from a B2B textile software to a cloud-native, microservices-based e-commerce platform, VTEX has prioritized efficiency, resilience, and innovation. As part of the journey to a modernized SaaS application, VTEX realized it’s […]
+Link to article: https://aws.amazon.com/blogs/dotnet/how-vtex-reduced-legacy-net-framework-application-scale-up-time-by-88-with-amazon-eks/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docker Sandboxes: A New Approach for Coding Agent Safety</title>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_10/</link>
+      <pubDate>Tue, 25 Nov 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_10/</guid>
       <description>
         
           
@@ -27,10 +180,10 @@ Link to article: https://www.docker.com/blog/docker-sandboxes-a-new-approach-for
     
     <item>
       <title>Securing the software supply chain shouldn’t be hard. According to theCUBE Research, Docker makes it simple</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_11/</link>
       <pubDate>Tue, 25 Nov 2025 14:04:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_11/</guid>
       <description>
         
           
@@ -44,10 +197,10 @@ Link to article: https://www.docker.com/blog/securing-the-software-supply-chain-
     
     <item>
       <title>Open-source IntelliJ IDEA: A Simpler Way to Build and Contribute to the Community</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_12/</link>
       <pubDate>Tue, 25 Nov 2025 12:07:11 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_12/</guid>
       <description>
         
           
@@ -61,10 +214,10 @@ Link to article: https://blog.jetbrains.com/idea/2025/11/intellij-idea-open-sour
     
     <item>
       <title>Exploring the .NET boot process via host tracing</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_13/</link>
       <pubDate>Tue, 25 Nov 2025 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_13/</guid>
       <description>
         
           
@@ -78,10 +231,10 @@ Link to article: https://andrewlock.net/exploring-the-dotnet-boot-process-via-ho
     
     <item>
       <title>Fetching GitHub content from C#</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_14/</link>
       <pubDate>Tue, 25 Nov 2025 06:32:55 +0100</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_14/</guid>
       <description>
         
           
@@ -95,10 +248,10 @@ Link to article: https://blog.elmah.io/fetching-github-content-from-c/
     
     <item>
       <title>Inside JetBrains—the company reshaping how the world writes code</title>
-      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_15/</link>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_15/</guid>
       <description>
         
           
