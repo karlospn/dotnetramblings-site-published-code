@@ -7,18 +7,68 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 26 Nov 2025 19:50:03 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Nov 2025 21:37:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Optimizing Mobileye’s REM™ with AWS Graviton: A focus on ML inference and Triton integration</title>
+      <title>How Condé Nast accelerated contract processing and rights analysis with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_0/</link>
+      <pubDate>Wed, 26 Nov 2025 21:37:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we explore how Condé Nast used Amazon Bedrock and Anthropic’s Claude to accelerate their contract processing and rights analysis workstreams. The company’s extensive portfolio, spanning multiple brands and geographies, required managing an increasingly complex web of contracts, rights, and licensing agreements.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-conde-nast-accelerated-contract-processing-and-rights-analysis-with-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building AI-Powered Voice Applications: Amazon Nova Sonic Telephony Integration Guide</title>
       <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_1/</link>
-      <pubDate>Wed, 26 Nov 2025 19:50:03 +0000</pubDate>
+      <pubDate>Wed, 26 Nov 2025 21:21:54 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_1/</guid>
       <description>
         
           
-            This post is written by Chaim Rand, Principal Engineer, Pini Reisman, Software Senior Principal Engineer, and Eliyah Weinberg, Performance and Technology Innovation Engineer, at Mobileye. The Mobileye team would like to thank Sunita Nadampalli and Guy Almog from AWS for their contributions to this solution and this post. Mobileye is driving the global evolution toward […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/optimizing-mobileyes-rem-with-aws-graviton-a-focus-on-ml-inference-and-triton-integration/ 
+            Available through the Amazon Bedrock bidirectional streaming API, Amazon Nova Sonic can connect to your business data and external tools and can be integrated directly with telephony systems. This post will introduce sample implementations for the most common telephony scenarios.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-ai-powered-voice-applications-amazon-nova-sonic-telephony-integration-guide/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>University of California Los Angeles delivers an immersive theater experience with AWS generative AI services</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_2/</link>
+      <pubDate>Wed, 26 Nov 2025 21:20:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we will walk through the performance constraints and design choices by OARC and REMAP teams at UCLA, including how AWS serverless infrastructure, AWS Managed Services, and generative AI services supported the rapid design and deployment of our solution. We will also describe our use of Amazon SageMaker AI and how it can be used reliably in immersive live experiences.
+Link to article: https://aws.amazon.com/blogs/machine-learning/university-of-california-los-angeles-delivers-an-immersive-theater-experience-with-aws-generative-ai-services/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Optimizing Mobileye’s REM™ with AWS Graviton: A focus on ML inference and Triton integration</title>
+      <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_4/</link>
+      <pubDate>Wed, 26 Nov 2025 19:50:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_4/</guid>
+      <description>
+        
+          
+            In this post, we focus on one portion of the REM™ system: the automatic identification of changes to the road structure which we will refer to as Change Detection. We will share our journey of architecting and deploying a solution for Change Detection, the core of which is a deep learning model called CDNet. We will share real-life decisions and tradeoffs when building and deploying a high-scale, highly parallelized algorithmic pipeline based on a Deep Learning (DL) model, with an emphasis on efficiency and throughput.
           
           
         
@@ -27,10 +77,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/optimizing-mobile
     
     <item>
       <title>Evaluate models with the Amazon Nova evaluation container using Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_5/</link>
       <pubDate>Wed, 26 Nov 2025 19:39:01 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_5/</guid>
       <description>
         
           
@@ -44,10 +94,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/evaluate-models-w
     
     <item>
       <title>Beyond the technology: Workforce changes for AI</title>
-      <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_6/</link>
       <pubDate>Wed, 26 Nov 2025 18:42:45 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_6/</guid>
       <description>
         
           
@@ -60,10 +110,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/evaluate-models-w
     
     <item>
       <title>Enhanced performance for Amazon Bedrock Custom Model Import</title>
-      <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_9/</link>
       <pubDate>Wed, 26 Nov 2025 16:46:01 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_9/</guid>
       <description>
         
           
@@ -76,10 +126,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/evaluate-models-w
     
     <item>
       <title>Amazon SageMaker AI introduces EAGLE based adaptive speculative decoding to accelerate generative AI inference</title>
-      <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_12/</link>
+      <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_15/</link>
       <pubDate>Wed, 26 Nov 2025 00:29:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_15/</guid>
       <description>
         
           
