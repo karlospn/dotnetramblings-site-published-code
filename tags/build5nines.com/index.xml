@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 23 Nov 2025 03:51:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/build5nines.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Nov 2025 05:32:58 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/build5nines.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform &#43; Azure Multi-Region Naming Convention across Azure Regions, Resources, and Terraform Modules</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_0/</link>
+      <pubDate>Thu, 27 Nov 2025 05:32:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_0/</guid>
+      <description>
+        
+          
+            Imagine this: your application goes down in a major Azure region outage. DNS traffic shifts to the secondary region as designed. Terraform kicks off to scale the backup environment. Everything should just seamlessly work… but it doesn’t. Why? Because names don’t match. Storage accounts are globally unique. Key Vault names are different across regions. Resource […] The article Terraform + Azure Multi-Region Naming Convention across Azure Regions, Resources, and Terraform Modules was originally published on Build5Nines.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How To Automate Azure Naming Conventions with the Build5Nines/naming/azure Terraform Module</title>
       <link>https://www.dotnetramblings.com/post/23_11_2025/23_11_2025_1/</link>
