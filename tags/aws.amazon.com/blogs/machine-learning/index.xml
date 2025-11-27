@@ -7,7 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 26 Nov 2025 22:28:29 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Nov 2025 00:58:14 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Myriad Genetics achieved fast, accurate, and cost-efficient document processing using the AWS open-source Generative AI Intelligent Document Processing Accelerator</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_0/</link>
+      <pubDate>Thu, 27 Nov 2025 00:58:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we explore how Myriad Genetics partnered with the AWS Generative AI Innovation Center to transform their healthcare document processing pipeline using Amazon Bedrock and Amazon Nova foundation models, achieving 98% classification accuracy while reducing costs by 77% and processing time by 80%. We detail the technical implementation using AWS&#39;s open-source GenAI Intelligent Document Processing Accelerator, the optimization strategies for document classification and key information extraction, and the measurable business impact on Myriad&#39;s prior authorization workflows.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How CBRE powers unified property management search and digital assistant using Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_1/</link>
+      <pubDate>Thu, 27 Nov 2025 00:56:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_1/</guid>
+      <description>
+        
+          
+            In this post, CBRE and AWS demonstrate how they transformed property management by building a unified search and digital assistant using Amazon Bedrock, enabling professionals to access millions of documents and multiple databases through natural language queries. The solution combines Amazon Nova Pro for SQL generation and Claude Haiku for document interactions, achieving a 67% reduction in processing time while maintaining enterprise-grade security across more than eight million documents.
+Link to article: https://aws.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Managed Tiered KV Cache and Intelligent Routing for Amazon SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_2/</link>
+      <pubDate>Thu, 27 Nov 2025 00:50:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we introduce Managed Tiered KV Cache and Intelligent Routing for Amazon SageMaker HyperPod, new capabilities that can reduce time to first token by up to 40% and lower compute costs by up to 25% for long context prompts and multi-turn conversations. These features automatically manage distributed KV caching infrastructure and intelligent request routing, making it easier to deploy production-scale LLM inference workloads with enterprise-grade performance while significantly reducing operational overhead.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Apply fine-grained access control with Bedrock AgentCore Gateway interceptors</title>
       <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_0/</link>
@@ -420,91 +469,6 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/how-rufus-scales-
           
             In this post, we demonstrate how healthcare organizations can securely implement prompt caching technology to streamline medical record processing while maintaining compliance requirements.
 Link to article: https://aws.amazon.com/blogs/machine-learning/how-care-access-achieved-86-data-processing-cost-reductions-and-66-faster-data-processing-with-amazon-bedrock-prompt-caching/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Amazon Bedrock Guardrails expands support for code domain</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_0/</link>
-      <pubDate>Wed, 19 Nov 2025 22:27:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_0/</guid>
-      <description>
-        
-          
-            Amazon Bedrock Guardrails now extends its safety controls to protect code generation across twelve programming languages, addressing critical security challenges in AI-assisted software development. In this post, we explore how to configure content filters, prompt attack detection, denied topics, and sensitive information filters to safeguard against threats like prompt injection, data exfiltration, and malicious code generation while maintaining developer productivity .
-Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-guardrails-expands-support-for-code-domain/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing the AWS Well-Architected Responsible AI Lens</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_1/</link>
-      <pubDate>Wed, 19 Nov 2025 20:03:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_1/</guid>
-      <description>
-        
-          
-            Today, we&#39;re announcing the AWS Well-Architected Responsible AI Lens—a set of thoughtful questions and corresponding best practices that help builders address responsible AI concerns throughout development and operation.
-Link to article: https://aws.amazon.com/blogs/machine-learning/announcing-the-aws-well-architected-responsible-ai-lens/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Amazon uses AI agents to support compliance screening of billions of transactions per day</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_2/</link>
-      <pubDate>Wed, 19 Nov 2025 19:39:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_2/</guid>
-      <description>
-        
-          
-            Amazon&#39;s AI-powered Amazon Compliance Screening system tackles complex compliance challenges through autonomous agents that analyze, reason through, and resolve cases with precision. This blog post explores how Amazon’s Compliance team built its AI-powered investigation system through a series of AI agents built on AWS.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-amazon-uses-ai-agents-to-support-compliance-screening-of-billions-of-transactions-per-day/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build an agentic solution with Amazon Nova, Snowflake, and LangGraph</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_8/</link>
-      <pubDate>Wed, 19 Nov 2025 16:16:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_8/</guid>
-      <description>
-        
-          
-            In this post, we cover how you can use tools from Snowflake AI Data Cloud and Amazon Web Services (AWS) to build generative AI solutions that organizations can use to make data-driven decisions, increase operational efficiency, and ultimately gain a competitive edge.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-an-agentic-solution-with-amazon-nova-snowflake-and-langgraph/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using Spectrum fine-tuning to improve FM training efficiency on Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_10/</link>
-      <pubDate>Wed, 19 Nov 2025 15:51:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_10/</guid>
-      <description>
-        
-          
-            In this post you will learn how to use Spectrum to optimize resource use and shorten training times without sacrificing quality, as well as how to implement Spectrum fine-tuning with Amazon SageMaker AI training jobs. We will also discuss the tradeoff between QLoRA and Spectrum fine-tuning, showing that while QLoRA is more resource efficient, Spectrum results in higher performance overall.
-Link to article: https://aws.amazon.com/blogs/machine-learning/using-spectrum-fine-tuning-to-improve-fm-training-efficiency-on-amazon-sagemaker-ai/ 
           
           
         

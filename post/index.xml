@@ -7,7 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 26 Nov 2025 22:28:29 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Nov 2025 00:58:14 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Myriad Genetics achieved fast, accurate, and cost-efficient document processing using the AWS open-source Generative AI Intelligent Document Processing Accelerator</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_0/</link>
+      <pubDate>Thu, 27 Nov 2025 00:58:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we explore how Myriad Genetics partnered with the AWS Generative AI Innovation Center to transform their healthcare document processing pipeline using Amazon Bedrock and Amazon Nova foundation models, achieving 98% classification accuracy while reducing costs by 77% and processing time by 80%. We detail the technical implementation using AWS&#39;s open-source GenAI Intelligent Document Processing Accelerator, the optimization strategies for document classification and key information extraction, and the measurable business impact on Myriad&#39;s prior authorization workflows.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How CBRE powers unified property management search and digital assistant using Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_1/</link>
+      <pubDate>Thu, 27 Nov 2025 00:56:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_1/</guid>
+      <description>
+        
+          
+            In this post, CBRE and AWS demonstrate how they transformed property management by building a unified search and digital assistant using Amazon Bedrock, enabling professionals to access millions of documents and multiple databases through natural language queries. The solution combines Amazon Nova Pro for SQL generation and Claude Haiku for document interactions, achieving a 67% reduction in processing time while maintaining enterprise-grade security across more than eight million documents.
+Link to article: https://aws.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Managed Tiered KV Cache and Intelligent Routing for Amazon SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_2/</link>
+      <pubDate>Thu, 27 Nov 2025 00:50:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2025/27_11_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we introduce Managed Tiered KV Cache and Intelligent Routing for Amazon SageMaker HyperPod, new capabilities that can reduce time to first token by up to 40% and lower compute costs by up to 25% for long context prompts and multi-turn conversations. These features automatically manage distributed KV caching infrastructure and intelligent request routing, making it easier to deploy production-scale LLM inference workloads with enterprise-grade performance while significantly reducing operational overhead.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Apply fine-grained access control with Bedrock AgentCore Gateway interceptors</title>
       <link>https://www.dotnetramblings.com/post/26_11_2025/26_11_2025_0/</link>
@@ -1506,398 +1555,6 @@ Link to article: https://openai.com/index/small-business-ai-jam
           
             OpenAI introduces the first research cases showing how GPT-5 accelerates scientific progress across math, physics, biology, and computer science. Explore how AI and researchers collaborate to generate proofs, uncover new insights, and reshape the pace of discovery.
 Link to article: https://openai.com/index/accelerating-science-gpt-5 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Amazon Bedrock Guardrails expands support for code domain</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_0/</link>
-      <pubDate>Wed, 19 Nov 2025 22:27:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_0/</guid>
-      <description>
-        
-          
-            Amazon Bedrock Guardrails now extends its safety controls to protect code generation across twelve programming languages, addressing critical security challenges in AI-assisted software development. In this post, we explore how to configure content filters, prompt attack detection, denied topics, and sensitive information filters to safeguard against threats like prompt injection, data exfiltration, and malicious code generation while maintaining developer productivity .
-Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-guardrails-expands-support-for-code-domain/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing the AWS Well-Architected Responsible AI Lens</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_1/</link>
-      <pubDate>Wed, 19 Nov 2025 20:03:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_1/</guid>
-      <description>
-        
-          
-            Today, we&#39;re announcing the AWS Well-Architected Responsible AI Lens—a set of thoughtful questions and corresponding best practices that help builders address responsible AI concerns throughout development and operation.
-Link to article: https://aws.amazon.com/blogs/machine-learning/announcing-the-aws-well-architected-responsible-ai-lens/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Amazon uses AI agents to support compliance screening of billions of transactions per day</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_2/</link>
-      <pubDate>Wed, 19 Nov 2025 19:39:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_2/</guid>
-      <description>
-        
-          
-            Amazon&#39;s AI-powered Amazon Compliance Screening system tackles complex compliance challenges through autonomous agents that analyze, reason through, and resolve cases with precision. This blog post explores how Amazon’s Compliance team built its AI-powered investigation system through a series of AI agents built on AWS.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-amazon-uses-ai-agents-to-support-compliance-screening-of-billions-of-transactions-per-day/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Ignite 2025 - What&#39;s new for Office Add-ins</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_3/</link>
-      <pubDate>Wed, 19 Nov 2025 18:41:47 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_3/</guid>
-      <description>
-        
-          
-            This blog outlines the new and exciting features now available in the Office Add-ins ecosystem for Ignite 2025. Continue reading for platform updates, developer experience improvements, and store enhancements. Copilot Agents work with office.js to read and write document content, enabling powerful workflows At Build earlier this yea
-Link to article: https://devblogs.microsoft.com/microsoft365dev/ignite-2025-whats-new-for-office-add-ins 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Supercharge Your Test Coverage with GitHub Copilot Testing for .NET</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_4/</link>
-      <pubDate>Wed, 19 Nov 2025 18:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_4/</guid>
-      <description>
-        
-          
-            Writing high-quality unit tests is critical for reliable software, but it’s often time-consuming and repetitive. What if GitHub Copilot could take care of that for you? Today we’re thrilled to announce GitHub Copilot testing for .NET is now available in Visual Studio Insiders. This new capability brings AI-powered unit test gen
-Link to article: https://devblogs.microsoft.com/dotnet/github-copilot-testing-for-dotnet 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing the azd AI agent extension: Publish Microsoft Foundry agents directly from your development environment</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_5/</link>
-      <pubDate>Wed, 19 Nov 2025 17:22:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_5/</guid>
-      <description>
-        
-          
-            Announcing the new azd AI agent extension: Publish Microsoft Foundry agents directly from your development environment If you&#39;ve ever built an AI agent, you know the real challenge is more than writing the code, it&#39;s the complex dance of provisioning resources, managing models, and securely deploying everything to the cloud. We tho
-Link to article: https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-foundry-agent-extension 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft Agent 365 Interoperability for Smart, Secure Productivity</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_6/</link>
-      <pubDate>Wed, 19 Nov 2025 17:00:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_6/</guid>
-      <description>
-        
-          
-            Yesterday we launched Agent 365 - Microsoft’s enterprise control plane for AI agents, designed to make agents secure, compliant, and ready for large-scale deployment within organizations. Agents enabled with Agent 365 have a unique identi
-Link to article: https://devblogs.microsoft.com/microsoft365dev/microsoft-agent-365-interoperability-for-smart-secure-productivity 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why I joined Docker: security at the center of the software supply chain</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_7/</link>
-      <pubDate>Wed, 19 Nov 2025 16:55:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_7/</guid>
-      <description>
-        
-          
-            Mark Lechner, Docker’s CISO, shares his vision for a future where Docker not only powers the software supply chain, but actively safeguards it. Cybersecurity has reached a turning point. The most significant threats no longer exploit isolated systems; they move through the connections between them. The modern attack surface includes every dependency, every container, and...
-Link to article: https://www.docker.com/blog/why-i-joined-docker-security-at-the-center-of-the-software-supply-chain/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build an agentic solution with Amazon Nova, Snowflake, and LangGraph</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_8/</link>
-      <pubDate>Wed, 19 Nov 2025 16:16:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_8/</guid>
-      <description>
-        
-          
-            In this post, we cover how you can use tools from Snowflake AI Data Cloud and Amazon Web Services (AWS) to build generative AI solutions that organizations can use to make data-driven decisions, increase operational efficiency, and ultimately gain a competitive edge.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-an-agentic-solution-with-amazon-nova-snowflake-and-langgraph/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Developer CLI (azd) Nov 2025 - Container Apps (GA), Layered Provisioning (Beta), Extension Framework, and Aspire 13</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_9/</link>
-      <pubDate>Wed, 19 Nov 2025 16:00:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_9/</guid>
-      <description>
-        
-          
-            Welcome to the November 2025 edition of the Azure Developer CLI (azd) release blog! This post covers releases 1.20.1 through 1.21.2. To share your feedback and questions, join the November release discussion on GitHub. Highlights: Az
-Link to article: https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-november-2025 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using Spectrum fine-tuning to improve FM training efficiency on Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_10/</link>
-      <pubDate>Wed, 19 Nov 2025 15:51:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_10/</guid>
-      <description>
-        
-          
-            In this post you will learn how to use Spectrum to optimize resource use and shorten training times without sacrificing quality, as well as how to implement Spectrum fine-tuning with Amazon SageMaker AI training jobs. We will also discuss the tradeoff between QLoRA and Spectrum fine-tuning, showing that while QLoRA is more resource efficient, Spectrum results in higher performance overall.
-Link to article: https://aws.amazon.com/blogs/machine-learning/using-spectrum-fine-tuning-to-improve-fm-training-efficiency-on-amazon-sagemaker-ai/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Is &lt;code&gt;Write­Process­Memory&lt;/code&gt; faster than shared memory for transferring data between two processes?</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_11/</link>
-      <pubDate>Wed, 19 Nov 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_11/</guid>
-      <description>
-        
-          
-            Say you need to transfer a large amount of data between two processes. One way is to use shared memory. Is that the fastest way to do it? Can you do any better? One argument against shared memory is that the sender will have to copy the data into the shared memory block, and the recipient will have to copy it out, resulting in two e
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251119-00/?p=111800 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announced at Ignite 2025: Azure DocumentDB, MCP Toolkit, Fleet Analytics, and more!</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_12/</link>
-      <pubDate>Wed, 19 Nov 2025 14:42:34 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_12/</guid>
-      <description>
-        
-          
-             Link to article: https://devblogs.microsoft.com/cosmosdb/announced-at-ignite-2025-azure-documentdb-mcp-toolkit-fleet-analytics-and-more 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Update .NET on Wsl or Ubuntu</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_17/</link>
-      <pubDate>Wed, 19 Nov 2025 09:37:56 -0500</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_17/</guid>
-      <description>
-        
-          
-            Ever year or so, a new version of .NET ships, and I need to upgrade the .NET SDK version on my machines. Not just the Windows machines, but also the WSL Ubuntu bits that live on those same machines. First, determine what version of dotnet you already have using this:
-1 2
-dotnet --version
-10.0.100-rc.1.25451.107
-Yep, I need to update that. But how? Surely there must be a simple way to do it using just the command line.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>6 Must-Have MCP Servers (and How to Use Them)</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_13/</link>
-      <pubDate>Wed, 19 Nov 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_13/</guid>
-      <description>
-        
-          
-            The era of AI agents has arrived, and with it, a new standard for how they connect to tools: the Model Context Protocol (MCP). MCP unlocks powerful, flexible workflows by letting agents tap into external tools and systems. But with thousands of MCP servers (including remote ones) now available, it’s easy to ask: Where do...
-Link to article: https://www.docker.com/blog/top-mcp-servers-2025/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PowerToys 0.96 is here: endpoints for Advanced Paste, metadata support for PowerRename and more!</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_14/</link>
-      <pubDate>Wed, 19 Nov 2025 13:11:02 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_14/</guid>
-      <description>
-        
-          
-             Link to article: https://devblogs.microsoft.com/commandline/powertoys-0-96-is-here-endpoints-for-advanced-paste-metadata-support-for-powerrename-and-more 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Strengthening our safety ecosystem with external testing</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_15/</link>
-      <pubDate>Wed, 19 Nov 2025 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_15/</guid>
-      <description>
-        
-          
-            OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess model capabilities and risks.
-Link to article: https://openai.com/index/strengthening-safety-with-external-testing 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How evals drive the next chapter in AI for businesses</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_16/</link>
-      <pubDate>Wed, 19 Nov 2025 11:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_16/</guid>
-      <description>
-        
-          
-            Learn how evals help businesses define, measure, and improve AI performance—reducing risk, boosting productivity, and driving strategic advantage.
-Link to article: https://openai.com/index/evals-drive-next-chapter-of-ai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>OpenAI and Target team up on new AI-powered experiences</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_18/</link>
-      <pubDate>Wed, 19 Nov 2025 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_18/</guid>
-      <description>
-        
-          
-            OpenAI and Target are partnering to bring a new Target app to ChatGPT, offering personalized shopping and faster checkout. Target will also expand its use of ChatGPT Enterprise to boost productivity and guest experiences.
-Link to article: https://openai.com/index/target-partnership 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A free version of ChatGPT built for teachers</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_20/</link>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_20/</guid>
-      <description>
-        
-          
-            ChatGPT for Teachers is a secure workspace with education‑grade privacy and admin controls. Free for verified U.S. K–12 educators through June 2027.
-Link to article: https://openai.com/index/chatgpt-for-teachers 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building more with GPT-5.1-Codex-Max</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_22/</link>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_22/</guid>
-      <description>
-        
-          
-            Introducing GPT-5.1-Codex-Max, a faster, more intelligent agentic coding model for Codex. The model is designed for long-running, project-scale work with enhanced reasoning and token efficiency.
-Link to article: https://openai.com/index/gpt-5-1-codex-max 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>GPT-5.1-Codex-Max System Card</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_21/</link>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_21/</guid>
-      <description>
-        
-          
-            This system card outlines the comprehensive safety measures implemented for GPT‑5.1-CodexMax. It details both model-level mitigations, such as specialized safety training for harmful tasks and prompt injections, and product-level mitigations like agent sandboxing and configurable network access.
-Link to article: https://openai.com/index/gpt-5-1-codex-max-system-card 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Teacher Access Terms</title>
-      <link>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_19/</link>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_11_2025/19_11_2025_19/</guid>
-      <description>
-        
-          
-            Teacher Access Terms outline how verified educators may use ChatGPT for Teachers, covering eligibility, account management, and data privacy requirements.
-Link to article: https://openai.com/policies/education-terms 
           
           
         
