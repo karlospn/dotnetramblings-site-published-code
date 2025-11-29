@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 28 Nov 2025 15:18:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vertical Slice Architecture: Where Does the Shared Logic Live?</title>
+      <link>https://www.dotnetramblings.com/post/29_11_2025/29_11_2025_0/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_11_2025/29_11_2025_0/</guid>
+      <description>
+        
+          
+            Deciding where shared logic lives is the most critical moment in Vertical Slice Architecture adoption, as choosing incorrectly reintroduces the coupling the architecture aims to eliminate. This article proposes a three-tier approach to sharing code that balances technical infrastructure, domain concepts, and local feature logic.
+Link to article: https://www.milanjovanovic.tech/blog/vertical-slice-architecture-where-does-the-shared-logic-live 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Advent of Code 2025: A Kotlin Playground</title>
       <link>https://www.dotnetramblings.com/post/28_11_2025/28_11_2025_0/</link>
@@ -1249,158 +1266,6 @@ Link to article: https://dotnettips.wordpress.com/2025/11/23/defensive-programmi
           
             Coupling isn&#39;t just about code structure; it&#39;s about failure boundaries. Discover how to ensure your critical business logic survives when external dependencies like email or analytics go down.
 Link to article: https://www.milanjovanovic.tech/blog/the-false-comfort-of-the-happy-path-decoupling-your-services 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The Rising Importance of Governance at SwampUP Berlin 2025</title>
-      <link>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_0/</link>
-      <pubDate>Fri, 21 Nov 2025 22:43:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_0/</guid>
-      <description>
-        
-          
-            On November 12-14, the Docker team was out in numbers at JFrog SwampUP Berlin 2025. We joined technical sessions, put on a fireside chat, and had conversations with attendees there. We’d like to thank the folks at JFrog for having us there and putting on such a great show! Here&#39;s our takeaways from the event about software...
-Link to article: https://www.docker.com/blog/the-rising-importance-of-governance-at-swampup-berlin-2025/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Streamline AI operations with the Multi-Provider Generative AI Gateway reference architecture</title>
-      <link>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_1/</link>
-      <pubDate>Fri, 21 Nov 2025 20:34:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_1/</guid>
-      <description>
-        
-          
-            In this post, we introduce the Multi-Provider Generative AI Gateway reference architecture, which provides guidance for deploying LiteLLM into an AWS environment to streamline the management and governance of production generative AI workloads across multiple model providers. This centralized gateway solution addresses common enterprise challenges including provider fragmentation, decentralized governance, operational complexity, and cost management by offering a unified interface that supports Amazon Bedrock, Amazon SageMaker AI, and external providers while maintaining comprehensive security, monitoring, and control capabilities.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing OData .NET (ODL) 9 Preview 3 Release</title>
-      <link>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_2/</link>
-      <pubDate>Fri, 21 Nov 2025 20:33:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_2/</guid>
-      <description>
-        
-          
-            We’re happy to announce that OData .NET (ODL) 9 Preview 3 has been officially released and is available on NuGet: Microsoft.OData.Core 9.0.0 Preview 3
-Link to article: https://devblogs.microsoft.com/odata/announcing-odata-net-odl-9-preview-3-release 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Ignite 2025: A Developer’s Guide to Building Agents for Microsoft 365</title>
-      <link>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_3/</link>
-      <pubDate>Fri, 21 Nov 2025 18:46:58 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_3/</guid>
-      <description>
-        
-          
-            Ignite 2025 brought many innovations for developers building agents for Microsoft 365. From new capabilities in Declarative Agents and Custom Engine Agents to the introduction of Microsoft Agent 365, the platform now enables organizations to arch
-Link to article: https://devblogs.microsoft.com/microsoft365dev/ignite-2025-a-developers-guide-to-building-agents-for-microsoft-365 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Docker Hardened Images Patches Vulnerabilities in 24 hours</title>
-      <link>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_4/</link>
-      <pubDate>Fri, 21 Nov 2025 18:40:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_4/</guid>
-      <description>
-        
-          
-            On November 19, 2025, the Golang project published two Common Vulnerabilities and Exposures (CVEs) affecting the widely-used golang.org/x/crypto/ssh package. While neither vulnerability received a critical CVSS score, both presented real risks to applications using SSH functionality in Go-based containers. CVE-2025-58181 affects SSH servers parsing GSSAPI authentication requests. The vulnerability allows attackers to trigger unbounded memory...
-Link to article: https://www.docker.com/blog/how-docker-hardened-images-patch-cves-in-24-hours/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deploy geospatial agents with Foursquare Spatial H3 Hub and Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_5/</link>
-      <pubDate>Fri, 21 Nov 2025 17:15:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_5/</guid>
-      <description>
-        
-          
-            In this post, you&#39;ll learn how to deploy geospatial AI agents that can answer complex spatial questions in minutes instead of months. By combining Foursquare Spatial H3 Hub&#39;s analysis-ready geospatial data with reasoning models deployed on Amazon SageMaker AI, you can build agents that enable nontechnical domain experts to perform sophisticated spatial analysis through natural language queries—without requiring geographic information system (GIS) expertise or custom data engineering pipelines.
-Link to article: https://aws.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Wipro PARI accelerates PLC code generation using Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_6/</link>
-      <pubDate>Fri, 21 Nov 2025 16:10:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_6/</guid>
-      <description>
-        
-          
-            In this post, we share how Wipro implemented advanced prompt engineering techniques, custom validation logic, and automated code rectification to streamline the development of industrial automation code at scale using Amazon Bedrock. We walk through the architecture along with the key use cases, explain core components and workflows, and share real-world results that show the transformative impact on manufacturing operations.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-wipro-pari-accelerates-plc-code-generation-using-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Maybe somebody can explain to me how weak references solve the ODR problem</title>
-      <link>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_7/</link>
-      <pubDate>Fri, 21 Nov 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_7/</guid>
-      <description>
-        
-          
-            Some time ago, I proposed Using type aliasing to avoid the ODR problem with conditional compilation. A Reddit thread claimed that &amp;quot;
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251121-00/?p=111807 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Beyond the Hype: How to Use AI to Actually Increase Your Productivity as a Dev</title>
-      <link>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_8/</link>
-      <pubDate>Fri, 21 Nov 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_11_2025/21_11_2025_8/</guid>
-      <description>
-        
-          
-            When I started incorporating AI tools into my workflow, I was first frustrated. I didn&#39;t get the 5x or 10x gains others raved about on social. In fact, it slowed me down. But I persisted. Partly because I see it as my professional duty as a software engineer to be as productive as possible, partly...
-Link to article: https://www.docker.com/blog/ai-developer-productivity-workflow/ 
           
           
         
