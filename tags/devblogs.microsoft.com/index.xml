@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 28 Nov 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Dec 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How do I get my edit control text to be autoselected when I choose it to be the default focus in my dialog?</title>
+      <link>https://www.dotnetramblings.com/post/01_12_2025/01_12_2025_0/</link>
+      <pubDate>Mon, 01 Dec 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_12_2025/01_12_2025_0/</guid>
+      <description>
+        
+          
+            A customer had a Win32 dialog with a bunch of edit controls inside. In their WM_INIT­DIALOG message handler, they filled those edit controls with information and then decided which one should get initial focus when the dialog is shown to the user. To set the focus, they did SetFocus(GetDlgItem(hDlg, initialCon
+Link to article: https://devblogs.microsoft.com/oldnewthing/20251201-00/?p=111825 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How can I have a Win32 drop-down combo box with a read-only edit control?</title>
       <link>https://www.dotnetramblings.com/post/28_11_2025/28_11_2025_1/</link>
