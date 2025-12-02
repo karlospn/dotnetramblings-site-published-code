@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ardalis.com/Blog on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/ardalis.com/blog/</link>
+    <description>Recent content in Ardalis.com/Blog on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Tue, 02 Dec 2025 11:16:30 -0500</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/ardalis.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use cd - in Powershell 7 to Return to Previous Directory</title>
+      <link>https://www.dotnetramblings.com/post/02_12_2025/02_12_2025_6/</link>
+      <pubDate>Tue, 02 Dec 2025 11:16:30 -0500</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_12_2025/02_12_2025_6/</guid>
+      <description>
+        
+          
+            Introduction A command that many shells have had forever and that PowerShell has had for a long time as well is ‘cd -’ which means “change directory to previous folder”. This means you could do something like this:
+1 2 3 4 5 6
+cd c:\dev c:\dev cd c:\temp c:\temp cd - c:\dev
+This is quite handy in many situations. In particular, since I’ve modified my PowerShell Profile to NOT start in my users folder but instead to start in my c:\dev folder (from which I can easily get to any repo I may be working from), I very often find myself using cd - whenever I create a new terminal in the folder I want to be in such as when using VS Code.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
