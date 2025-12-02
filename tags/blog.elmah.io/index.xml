@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 25 Nov 2025 06:32:55 +0100</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.elmah.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Dec 2025 09:12:25 +0100</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.elmah.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering owned entities in EF Core: Cleaner complex types</title>
+      <link>https://www.dotnetramblings.com/post/02_12_2025/02_12_2025_0/</link>
+      <pubDate>Tue, 02 Dec 2025 09:12:25 +0100</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_12_2025/02_12_2025_0/</guid>
+      <description>
+        
+          
+            Not all data in your application should live as a standalone table with its own ID and lifecycle. Sometimes you need a tightly coupled dependent object that exists alongside its parent, like a movie&#39;s budget, a survey&#39;s questions, or a customer&#39;s address. If you
+Link to article: https://blog.elmah.io/mastering-owned-entities-in-ef-core-cleaner-complex-types/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Fetching GitHub content from C#</title>
       <link>https://www.dotnetramblings.com/post/25_11_2025/25_11_2025_22/</link>
