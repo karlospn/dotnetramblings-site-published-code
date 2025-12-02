@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>How to Achieve Significant Build Performance Gains With TeamCity | .NET Ramblings</title>
+<title>Use cd - in Powershell 7 to Return to Previous Directory | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="This article is brought to you by Mdu Sibisi, draft.dev. Long build times interfere with developer momentum, disrupt flow states, and negatively impact …" />
+<meta name="description" content="Introduction A command that many shells have had forever and that PowerShell has had for a long time as well is ‘cd -’ which means “change directory to previous …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="How to Achieve Significant Build Performance Gains With TeamCity" />
+<meta name="twitter:title" content="Use cd - in Powershell 7 to Return to Previous Directory" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/02_12_2025/02_12_2025_12/" />
-<meta property="og:title" content="How to Achieve Significant Build Performance Gains With TeamCity" />
-<meta property="og:description" content="This article is brought to you by Mdu Sibisi, draft.dev. Long build times interfere with developer momentum, disrupt flow states, and negatively impact …" />
+<meta property="og:title" content="Use cd - in Powershell 7 to Return to Previous Directory" />
+<meta property="og:description" content="Introduction A command that many shells have had forever and that PowerShell has had for a long time as well is ‘cd -’ which means “change directory to previous …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">How to Achieve Significant Build Performance Gains With TeamCity</h1>
+    <h1 class="post_title">Use cd - in Powershell 7 to Return to Previous Directory</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,30 @@
 </svg>
 </span>
     <span class="post_date">
-      Dec 2, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Dec 2, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/ardalis.com/blog/' title="ardalis.com/blog" class="post_tag button button_translucent">ardalis.com/blog
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>This article is brought to you by Mdu Sibisi, draft.dev. Long build times interfere with developer momentum, disrupt flow states, and negatively impact productivity. While seemingly minor gaps in work rate may appear negligible in the moment, they quickly accumulate into significant increases in release cycle times and infrastructure costs. (There’s a reason high-performance development […]</p>
+    <div class="post_body"><p>Introduction
+A command that many shells have had forever and that PowerShell has had for a long time as well is ‘cd -’ which means “change directory to previous folder”. This means you could do something like this:</p>
+<p>1
+2
+3
+4
+5
+6</p>
+<blockquote>
+<p>cd c:\dev
+c:\dev
+cd c:\temp
+c:\temp
+cd -
+c:\dev</p>
+</blockquote>
+<p>This is quite handy in many situations. In particular, since I’ve modified my PowerShell Profile to NOT start in my users folder but instead to start in my c:\dev folder (from which I can easily get to any repo I may be working from), I very often find myself using cd - whenever I create a new terminal in the folder I want to be in such as when using VS Code.</p>
 <ul>
-<li>Link to article: <a href="https://blog.jetbrains.com/teamcity/2025/12/build-performance-gains/">https://blog.jetbrains.com/teamcity/2025/12/build-performance-gains/</a></li>
+<li>Link to article: <a href="https://ardalis.com/use-cd---in-powershell-7-to-return-to-previous-directory/">https://ardalis.com/use-cd---in-powershell-7-to-return-to-previous-directory/</a></li>
 </ul>
 
     </div>
