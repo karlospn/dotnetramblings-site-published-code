@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 04 Dec 2025 18:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Dec 2025 03:30:20 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“Classic” .NET Domain Events with Wolverine and EF Core</title>
+      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_0/</link>
+      <pubDate>Fri, 05 Dec 2025 03:30:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_0/</guid>
+      <description>
+        
+          
+            I was helping a new JasperFx Software client this week to best integrate a Domain Events strategy into their new Wolverine codebase. This client wanted to use the common model of using an EF Core DbContext to harvest domain events raised by different entities and relay those to Wolverine messaging with proper Wolverine transactional outbox … Continue reading “Classic” .NET Domain Events with Wolverine and EF Core →
+Link to article: https://jeremydmiller.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>.NET Conf 2025 Recap - Celebrating .NET 10, Visual Studio 2026, AI, Community, &amp; More</title>
       <link>https://www.dotnetramblings.com/post/04_12_2025/04_12_2025_0/</link>
