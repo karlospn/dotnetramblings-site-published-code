@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Senior Engineers Spend Less Time Coding - Dev Leader Weekly 118 | .NET Ramblings</title>
+<title>DbContext is Not Thread-Safe: Parallelizing EF Core Queries the Right Way | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,16 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Welcome to another issue of Dev Leader Weekly! In this issue, I discuss balancing time coding as a senior software engineer.
-Link to article: …" />
+<meta name="description" content="Learn how to safely parallelize EF Core queries to improve performance by using IDbContextFactory to create isolated contexts, avoiding the thread-safety …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Senior Engineers Spend Less Time Coding - Dev Leader Weekly 118" />
+<meta name="twitter:title" content="DbContext is Not Thread-Safe: Parallelizing EF Core Queries the Right Way" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/06_12_2025/06_12_2025_0/" />
-<meta property="og:title" content="Senior Engineers Spend Less Time Coding - Dev Leader Weekly 118" />
-<meta property="og:description" content="Welcome to another issue of Dev Leader Weekly! In this issue, I discuss balancing time coding as a senior software engineer.
-Link to article: …" />
+<meta property="og:url" content="https://www.dotnetramblings.com/post/06_12_2025/06_12_2025_2/" />
+<meta property="og:title" content="DbContext is Not Thread-Safe: Parallelizing EF Core Queries the Right Way" />
+<meta property="og:description" content="Learn how to safely parallelize EF Core queries to improve performance by using IDbContextFactory to create isolated contexts, avoiding the thread-safety …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -45,7 +43,7 @@ Link to article: …" />
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/06_12_2025/06_12_2025_0/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/06_12_2025/06_12_2025_2/">
 
 
 
@@ -134,7 +132,7 @@ Link to article: …" />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Senior Engineers Spend Less Time Coding - Dev Leader Weekly 118</h1>
+    <h1 class="post_title">DbContext is Not Thread-Safe: Parallelizing EF Core Queries the Right Way</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,14 @@ Link to article: …" />
 </svg>
 </span>
     <span class="post_date">
-      Dec 6, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
+      Dec 6, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Welcome to another issue of Dev Leader Weekly! In this issue, I discuss balancing time coding as a senior software engineer.</p>
+    <div class="post_body"><p>Learn how to safely parallelize EF Core queries to improve performance by using IDbContextFactory to create isolated contexts, avoiding the thread-safety exceptions caused by sharing a single DbContext instance.</p>
 <ul>
-<li>Link to article: <a href="https://www.devleader.ca/2025/12/06/senior-engineers-spend-less-time-coding-dev-leader-weekly-118">https://www.devleader.ca/2025/12/06/senior-engineers-spend-less-time-coding-dev-leader-weekly-118</a></li>
+<li>Link to article: <a href="https://www.milanjovanovic.tech/blog/dbcontext-is-not-thread-safe-parallelizing-ef-core-queries-the-right-way">https://www.milanjovanovic.tech/blog/dbcontext-is-not-thread-safe-parallelizing-ef-core-queries-the-right-way</a></li>
 </ul>
 
     </div>
