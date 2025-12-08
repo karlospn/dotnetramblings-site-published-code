@@ -7,13 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 08 Dec 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Dec 2025 16:47:17 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How does Windows synthesize &lt;CODE&gt;CF_&lt;WBR&gt;OEM­TEXT&lt;/CODE&gt; from &lt;CODE&gt;CF_&lt;WBR&gt;TEXT&lt;/CODE&gt; and vice versa?</title>
+      <title>S&amp;P Global Data integration expands Amazon Quick Research capabilities</title>
       <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_0/</link>
-      <pubDate>Mon, 08 Dec 2025 15:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Dec 2025 16:47:17 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_0/</guid>
+      <description>
+        
+          
+            Today, we are pleased to announce a new integration between Amazon Quick Research and S&amp;amp;P Global. This integration brings both S&amp;amp;P Global Energy news, research, and insights and S&amp;amp;P Global Market Intelligence data to Quick Research customers in one deep research agent. In this post, we explore S&amp;amp;P Global’s data sets and the solution architecture of the integration with Quick Research.
+Link to article: https://aws.amazon.com/blogs/machine-learning/sp-global-data-integration-expands-amazon-quick-research-capabilities/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Streamline AI agent tool interactions: Connect API Gateway to AgentCore Gateway with MCP</title>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_1/</link>
+      <pubDate>Mon, 08 Dec 2025 16:42:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_1/</guid>
+      <description>
+        
+          
+            AgentCore Gateway now supports API GatewayAs organizations explore the possibilities of agentic applications, they continue to navigate challenges of using enterprise data as context in invocation requests to large language models (LLMs) in a manner that is secure and aligned with enterprise policies. This post covers these new capabilities and shows how to implement them.
+Link to article: https://aws.amazon.com/blogs/machine-learning/streamline-ai-agent-tool-interactions-connect-api-gateway-to-agentcore-gateway-with-mcp/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Create an intelligent insurance underwriter agent powered by Amazon Nova 2 Lite and Amazon Quick Suite</title>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_2/</link>
+      <pubDate>Mon, 08 Dec 2025 16:30:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to build an intelligent insurance underwriting agent that addresses three critical challenges: unifying siloed data across CRM systems and databases, providing explainable and auditable AI decisions for regulatory compliance, and enabling automated fraud detection with consistent underwriting rules. The solution combines Amazon Nova 2 Lite for transparent risk assessment, Amazon Bedrock AgentCore for managed MCP server infrastructure, and Amazon Quick Suite for natural language interactions—delivering a production-ready system that underwriters can deploy in under 30 minutes .
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Python is First Class in Aspire 13</title>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_3/</link>
+      <pubDate>Mon, 08 Dec 2025 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_3/</guid>
+      <description>
+        
+          
+            With the release of Aspire 13, Python has been elevated to a first-class citizen alongside .NET and JavaScript, transforming Aspire into a truly polyglot application platform. The new Aspire.Hosting.Python package provides comprehensive support for developing, debugging, and deploying Python applications within distributed syst
+Link to article: https://devblogs.microsoft.com/aspire/python-is-first-class-in-aspire-13 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How does Windows synthesize &lt;CODE&gt;CF_&lt;WBR&gt;OEM­TEXT&lt;/CODE&gt; from &lt;CODE&gt;CF_&lt;WBR&gt;TEXT&lt;/CODE&gt; and vice versa?</title>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_4/</link>
+      <pubDate>Mon, 08 Dec 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_4/</guid>
       <description>
         
           
@@ -26,11 +93,28 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20251208-00/?p=11184
     </item>
     
     <item>
+      <title>The Future of Fleet</title>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_5/</link>
+      <pubDate>Mon, 08 Dec 2025 14:59:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_5/</guid>
+      <description>
+        
+          
+            TL;DR Fleet started as our attempt to explore a new generation of JetBrains IDEs, developed in parallel with those based on the IntelliJ Platform. Over time, we learned that having two general-purpose IDE families created confusion and diluted our focus. Rebuilding the full capabilities of IntelliJ-based IDEs inside Fleet did not create enough value, and […]
+Link to article: https://blog.jetbrains.com/fleet/2025/12/the-future-of-fleet/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>From Compose to Kubernetes to Cloud: Designing and Operating Infrastructure with Kanvas</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_6/</link>
       <pubDate>Mon, 08 Dec 2025 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_6/</guid>
       <description>
         
           
@@ -43,11 +127,28 @@ Link to article: https://www.docker.com/blog/compose-to-kubernetes-to-cloud-kanv
     </item>
     
     <item>
+      <title>PhpStorm 2025.3 Is Now Out</title>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_7/</link>
+      <pubDate>Mon, 08 Dec 2025 13:35:43 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_7/</guid>
+      <description>
+        
+          
+            Welcome to PhpStorm 2025.3! This release brings native Claude Agent integration, out-of-the-box Laravel support, support for PHP 8.5, improvements in generics, a new Islands theme, and more. Download PhpStorm 2025.3 PHP PHP 8.5 support PhpStorm 2025.3 supports all of the changes introduced in the recently released PHP 8.5. As usual, you can try new features by setting […]
+Link to article: https://blog.jetbrains.com/phpstorm/2025/12/phpstorm-2025-3-is-now-out/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Kubernetes Made Simple: A Guide for JVM Developers</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_8/</link>
       <pubDate>Mon, 08 Dec 2025 13:28:13 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_8/</guid>
       <description>
         
           
@@ -61,10 +162,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2025/12/kubernetes-made-simpl
     
     <item>
       <title>Junie Now Integrated Into the AI Chat</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_9/</link>
       <pubDate>Mon, 08 Dec 2025 12:56:53 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_9/</guid>
       <description>
         
           
@@ -78,10 +179,10 @@ Link to article: https://blog.jetbrains.com/ai/2025/12/junie-now-integrated-into
     
     <item>
       <title>GoLand 2025.3 Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_10/</link>
       <pubDate>Mon, 08 Dec 2025 12:49:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_10/</guid>
       <description>
         
           
@@ -95,10 +196,10 @@ Link to article: https://blog.jetbrains.com/go/2025/12/08/goland-2025-3-is-out/
     
     <item>
       <title>CLion 2025.3 Is Here, and It’s Epic: Faster Language Engine, Unique Constexpr Debugger, DAP Support, and Much More</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_11/</link>
       <pubDate>Mon, 08 Dec 2025 12:25:48 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_11/</guid>
       <description>
         
           
@@ -112,10 +213,10 @@ Link to article: https://blog.jetbrains.com/clion/2025/12/2025-3-release/
     
     <item>
       <title>RubyMine 2025.3: Multi-Agent AI Chat, Rails-Aware MCP Server, Faster Multi-Module Projects Startup, and More</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_12/</link>
       <pubDate>Mon, 08 Dec 2025 12:24:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_12/</guid>
       <description>
         
           
@@ -129,10 +230,10 @@ Link to article: https://blog.jetbrains.com/ruby/2025/12/rubymine-2025-3-multi-a
     
     <item>
       <title>IntelliJ IDEA 2025.3 Is Out Now!</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_7/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_13/</link>
       <pubDate>Mon, 08 Dec 2025 12:17:26 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_13/</guid>
       <description>
         
           
@@ -146,10 +247,10 @@ Link to article: https://blog.jetbrains.com/idea/2025/12/intellij-idea-2025-3/
     
     <item>
       <title>Resolving Overload Ambiguity with Collection Expressions</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_14/</link>
       <pubDate>Mon, 08 Dec 2025 12:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_14/</guid>
       <description>
         
           
@@ -163,10 +264,10 @@ Link to article: https://www.meziantou.net/resolving-overload-ambiguity-with-col
     
     <item>
       <title>IntelliJ Scala Plugin 2025.3 Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_9/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_15/</link>
       <pubDate>Mon, 08 Dec 2025 10:59:39 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_15/</guid>
       <description>
         
           
@@ -180,10 +281,10 @@ Link to article: https://blog.jetbrains.com/scala/2025/12/08/scala-plugin-2025-3
     
     <item>
       <title>The Unified IntelliJ IDEA: More Free Features, a Better Experience, Smoother Flow</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_10/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_16/</link>
       <pubDate>Mon, 08 Dec 2025 10:45:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_16/</guid>
       <description>
         
           
@@ -197,10 +298,10 @@ Link to article: https://blog.jetbrains.com/idea/2025/12/intellij-idea-unified-r
     
     <item>
       <title>Meet the Islands Theme – The New Default Look for JetBrains IDEs</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_11/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_17/</link>
       <pubDate>Mon, 08 Dec 2025 09:53:16 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_17/</guid>
       <description>
         
           
@@ -214,10 +315,10 @@ Link to article: https://blog.jetbrains.com/platform/2025/12/meet-the-islands-th
     
     <item>
       <title>What’s Fixed in IntelliJ IDEA 2025.3</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_12/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_18/</link>
       <pubDate>Mon, 08 Dec 2025 09:10:19 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_18/</guid>
       <description>
         
           
@@ -230,28 +331,11 @@ Link to article: https://blog.jetbrains.com/idea/2025/12/what-s-fixed-in-intelli
     </item>
     
     <item>
-      <title>WebStorm 2025.3: Enhanced Monorepo Support, Framework Improvements, Vitest 4 Support, Multiple Agents in AI Assistant, Remote Debugging, and More</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_13/</link>
-      <pubDate>Mon, 08 Dec 2025 08:28:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_13/</guid>
-      <description>
-        
-          
-            WebStorm 2025.3 is now available!After months of development, this release brings a host of new features and improvements. Highlights include: This release also includes numerous fixes and quality‑of‑life enhancements for TypeScript, Angular, Vue, Astro, Prettier, and more. You can update to WebStorm 2025.3 via the Toolbox App or download it directly from our website. We […]
-Link to article: https://blog.jetbrains.com/webstorm/2025/12/webstorm-2025-3/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Instacart and OpenAI partner on AI shopping experiences</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_14/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_19/</link>
       <pubDate>Mon, 08 Dec 2025 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_14/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_19/</guid>
       <description>
         
           
@@ -265,10 +349,10 @@ Link to article: https://openai.com/index/instacart-partnership
     
     <item>
       <title>The state of enterprise AI</title>
-      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_15/</link>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_20/</link>
       <pubDate>Mon, 08 Dec 2025 04:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_15/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_20/</guid>
       <description>
         
           
