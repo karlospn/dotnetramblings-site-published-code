@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 05 Dec 2025 19:30:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Dec 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How does Windows synthesize &lt;CODE&gt;CF_&lt;WBR&gt;OEM­TEXT&lt;/CODE&gt; from &lt;CODE&gt;CF_&lt;WBR&gt;TEXT&lt;/CODE&gt; and vice versa?</title>
+      <link>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_0/</link>
+      <pubDate>Mon, 08 Dec 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_12_2025/08_12_2025_0/</guid>
+      <description>
+        
+          
+            Windows has three built-in text formats for the clipboard: CF_UNICODE­TEXT: UTF-16 text. CF_TEXT: 8-bit text in ANSI code page. CF_OEM­TEXT: 8-bit text in OEM code page. If you don&#39;t provide all three formats, then the system
+Link to article: https://devblogs.microsoft.com/oldnewthing/20251208-00/?p=111849 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Join us for AI Dev Days - December 10-11</title>
       <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_0/</link>
