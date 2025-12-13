@@ -450,39 +450,5 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20251208-00/?p=11184
       </description>
     </item>
     
-    <item>
-      <title>Join us for AI Dev Days - December 10-11</title>
-      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_0/</link>
-      <pubDate>Fri, 05 Dec 2025 19:30:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_0/</guid>
-      <description>
-        
-          
-            2025 was a year of incredible progress for AI and our industry as a whole. At Microsoft and GitHub, we&#39;ve innovated beyond isolated chats and prompts to building systems that collaborate with connected workflows and operational intelligence. This shift can be seen across the stack, from Microsoft Foundry, to GitHub Copilot in
-Link to article: https://devblogs.microsoft.com/blog/join-us-for-ai-devdays 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How can my process read its own standard output?</title>
-      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_1/</link>
-      <pubDate>Fri, 05 Dec 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_1/</guid>
-      <description>
-        
-          
-            A customer wanted to know how their C# program could read its own standard output. They tried this: // Get my process Process p = Process.GetCurrentProcess(); // Make sure my standard output is not redirected p.StartInfo.UseShellExecute = false; p.StartInfo.RedirectStandardOutput = false; // Now read it -- fails string o
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251205-00/?p=111843 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>

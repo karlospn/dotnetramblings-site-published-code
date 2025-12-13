@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 12 Dec 2025 20:22:05 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The New .slnx Solution Format (migration guide)</title>
+      <link>https://www.dotnetramblings.com/post/13_12_2025/13_12_2025_0/</link>
+      <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_12_2025/13_12_2025_0/</guid>
+      <description>
+        
+          
+            See what changes in .slnx, how to convert your existing .sln, and what to watch out for in CI.
+Link to article: https://www.milanjovanovic.tech/blog/the-new-slnx-solution-format-migration-guide 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Highlights from AWS re:Invent: Supercharging Kiro with Docker Sandboxes and MCP Catalog</title>
       <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_0/</link>
@@ -1697,159 +1714,6 @@ Link to article: https://www.devleader.ca/2025/12/06/weekly-recap-20251205
           
             Learn how to safely parallelize EF Core queries to improve performance by using IDbContextFactory to create isolated contexts, avoiding the thread-safety exceptions caused by sharing a single DbContext instance.
 Link to article: https://www.milanjovanovic.tech/blog/dbcontext-is-not-thread-safe-parallelizing-ef-core-queries-the-right-way 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Join us for AI Dev Days - December 10-11</title>
-      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_0/</link>
-      <pubDate>Fri, 05 Dec 2025 19:30:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_0/</guid>
-      <description>
-        
-          
-            2025 was a year of incredible progress for AI and our industry as a whole. At Microsoft and GitHub, we&#39;ve innovated beyond isolated chats and prompts to building systems that collaborate with connected workflows and operational intelligence. This shift can be seen across the stack, from Microsoft Foundry, to GitHub Copilot in
-Link to article: https://devblogs.microsoft.com/blog/join-us-for-ai-devdays 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docker, JetBrains, and Zed: Building a Common Language for Agents and IDEs</title>
-      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_2/</link>
-      <pubDate>Fri, 05 Dec 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_2/</guid>
-      <description>
-        
-          
-            As agents become capable enough to write and refactor code, they should work natively inside the environments developers work in: editors. That’s why JetBrains and Zed are co-developing ACP, the Agent Client Protocol. ACP gives agents and editors a shared language, so any agent can read context, take actions, and respond intelligently without bespoke wiring...
-Link to article: https://www.docker.com/blog/docker-jetbrains-and-zed-building-a-common-language-for-agents-and-ides/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How can my process read its own standard output?</title>
-      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_1/</link>
-      <pubDate>Fri, 05 Dec 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_1/</guid>
-      <description>
-        
-          
-            A customer wanted to know how their C# program could read its own standard output. They tried this: // Get my process Process p = Process.GetCurrentProcess(); // Make sure my standard output is not redirected p.StartInfo.UseShellExecute = false; p.StartInfo.RedirectStandardOutput = false; // Now read it -- fails string o
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251205-00/?p=111843 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing vLLM v0.12.0, Ministral 3 and DeepSeek-V3.2 for Docker Model Runner</title>
-      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_3/</link>
-      <pubDate>Fri, 05 Dec 2025 13:28:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_3/</guid>
-      <description>
-        
-          
-            At Docker, we are committed to making the AI development experience as seamless as possible. Today, we are thrilled to announce two major updates that bring state-of-the-art performance and frontier-class models directly to your fingertips: the immediate availability of Mistral AI’s Ministral 3 and DeepSeek-V3.2, alongside the release of vLLM v0.12.0 on Docker Model Runner....
-Link to article: https://www.docker.com/blog/docker-model-runner-vllm-ministral-deepseek/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bring your own AI agent to JetBrains IDEs</title>
-      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_4/</link>
-      <pubDate>Fri, 05 Dec 2025 12:40:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_4/</guid>
-      <description>
-        
-          
-            Hey! Here at JetBrains, we’re always happy to bring our users the best and most popular tools available on the market. This has been true for decades with conventional dev tooling: compilers, debuggers, build tools, etc; in the past several years, we’ve shipped all the newest LLMs in the same manner, and we want the […]
-Link to article: https://blog.jetbrains.com/ai/2025/12/bring-your-own-ai-agent-to-jetbrains-ides/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>MPS 2025.3 Release Candidate Is Ready!</title>
-      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_5/</link>
-      <pubDate>Fri, 05 Dec 2025 12:37:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_5/</guid>
-      <description>
-        
-          
-            As the last step on our way toward the final release, the Release Candidate for MPS 2025.3 is now available for you to download! DOWNLOAD MPS 2025.3 RC 1 To find out what features to expect in this release, check out the earlier updates from the EAP 1 and EAP 2 builds. The full list […]
-Link to article: https://blog.jetbrains.com/mps/2025/12/the-mps-2025-3-rc1/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Manage Configuration Drift in Your Jenkins Environment</title>
-      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_6/</link>
-      <pubDate>Fri, 05 Dec 2025 12:31:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_6/</guid>
-      <description>
-        
-          
-            This article was brought to you by Rajkumar Venkatasamy, draft.dev. Jenkins is still one of the most popular tools for continuous integration and delivery (CI/CD). People love it for its flexibility, vast plugin ecosystem, and the fact that it’s open source. It can automate just about any build, test, or deployment you throw at it, […]
-Link to article: https://blog.jetbrains.com/teamcity/2025/12/jenkins-configuration-drift/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Java Annotated Monthly – December 2025</title>
-      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_7/</link>
-      <pubDate>Fri, 05 Dec 2025 10:30:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_7/</guid>
-      <description>
-        
-          
-            This month brings significant developments throughout the Java ecosystem. Java has begun announcing JEPs targeted for the upcoming release, while Spring has unveiled major updates with Spring Framework 7 and Spring Boot 4. As always, we’ve curated the most interesting articles, videos, and podcasts covering Java, Kotlin, Spring, AI, and other relevant topics in technology […]
-Link to article: https://blog.jetbrains.com/idea/2025/12/java-annotated-monthly-december-2025/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>“Classic” .NET Domain Events with Wolverine and EF Core</title>
-      <link>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_8/</link>
-      <pubDate>Fri, 05 Dec 2025 03:30:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_12_2025/05_12_2025_8/</guid>
-      <description>
-        
-          
-            I was helping a new JasperFx Software client this week to best integrate a Domain Events strategy into their new Wolverine codebase. This client wanted to use the common model of using an EF Core DbContext to harvest domain events raised by different entities and relay those to Wolverine messaging with proper Wolverine transactional outbox … Continue reading “Classic” .NET Domain Events with Wolverine and EF Core →
-Link to article: https://jeremydmiller.
           
           
         
