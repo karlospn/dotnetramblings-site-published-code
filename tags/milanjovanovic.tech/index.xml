@@ -25,22 +25,5 @@ Link to article: https://www.milanjovanovic.tech/blog/the-new-slnx-solution-form
       </description>
     </item>
     
-    <item>
-      <title>DbContext is Not Thread-Safe: Parallelizing EF Core Queries the Right Way</title>
-      <link>https://www.dotnetramblings.com/post/06_12_2025/06_12_2025_2/</link>
-      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_12_2025/06_12_2025_2/</guid>
-      <description>
-        
-          
-            Learn how to safely parallelize EF Core queries to improve performance by using IDbContextFactory to create isolated contexts, avoiding the thread-safety exceptions caused by sharing a single DbContext instance.
-Link to article: https://www.milanjovanovic.tech/blog/dbcontext-is-not-thread-safe-parallelizing-ef-core-queries-the-right-way 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
