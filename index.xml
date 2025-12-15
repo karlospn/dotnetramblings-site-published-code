@@ -1720,22 +1720,5 @@ Link to article: https://openai.com/index/the-state-of-enterprise-ai-2025-report
       </description>
     </item>
     
-    <item>
-      <title>Immutable Collection Add() Trap: Don’t Get Burned — Use a Builder Instead</title>
-      <link>https://www.dotnetramblings.com/post/07_12_2025/07_12_2025_0/</link>
-      <pubDate>Sun, 07 Dec 2025 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_12_2025/07_12_2025_0/</guid>
-      <description>
-        
-          
-            When using immutable collections in .NET, remember that the Add() method creates a new instance rather than mutating the original. Ignoring the return value leads to ineffective loops. Instead, use a builder for efficiency, as it offers faster performance and lower memory allocation while still ensuring immutability in the final result.
-Link to article: https://dotnettips.wordpress.com/2025/12/07/immutable-collection-add-trap-dont-get-burned-use-a-builder-instead/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
