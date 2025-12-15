@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 15 Dec 2025 18:12:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Dec 2025 19:45:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Adaptive infrastructure for foundation model training with elastic training on SageMaker HyperPod</title>
+      <title>Checkpointless training on Amazon SageMaker HyperPod: Production-scale training with faster fault recovery</title>
       <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_0/</link>
-      <pubDate>Mon, 15 Dec 2025 18:12:22 +0000</pubDate>
+      <pubDate>Mon, 15 Dec 2025 19:45:50 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_0/</guid>
+      <description>
+        
+          
+            In this post, we introduce checkpointless training on Amazon SageMaker HyperPod, a paradigm shift in model training that reduces the need for traditional checkpointing by enabling peer-to-peer state recovery. Results from production-scale validation show 80–93% reduction in recovery time (from 15–30 minutes or more to under 2 minutes) and enables up to 95% training goodput on cluster sizes with thousands of AI accelerators.
+Link to article: https://aws.amazon.com/blogs/machine-learning/checkpointless-training-on-amazon-sagemaker-hyperpod-production-scale-training-with-faster-fault-recovery/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build declarative agents for Microsoft 365 Copilot with MCP</title>
+      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_1/</link>
+      <pubDate>Mon, 15 Dec 2025 19:28:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_1/</guid>
+      <description>
+        
+          
+            The Model Context Protocol (MCP) is revolutionizing AI by providing a universal integration standard for the external systems, unlocking unprecedented capabilities, transforming how AI models access and utilize real-time data.
+Link to article: https://devblogs.microsoft.com/microsoft365dev/build-declarative-agents-for-microsoft-365-copilot-with-mcp 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Adaptive infrastructure for foundation model training with elastic training on SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_2/</link>
+      <pubDate>Mon, 15 Dec 2025 18:12:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_2/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/adaptive-infrastr
     
     <item>
       <title>How to Build iOS Widgets with .NET MAUI</title>
-      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_3/</link>
       <pubDate>Mon, 15 Dec 2025 18:05:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_3/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/how-to-build-ios-widgets-
     
     <item>
       <title>Customize agent workflows with advanced orchestration techniques using Strands Agents</title>
-      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_2/</link>
+      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_4/</link>
       <pubDate>Mon, 15 Dec 2025 17:35:47 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_4/</guid>
       <description>
         
           
@@ -61,10 +95,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/customize-agent-w
     
     <item>
       <title>Operationalize generative AI workloads and scale to hundreds of use cases with Amazon Bedrock – Part 1: GenAIOps</title>
-      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_3/</link>
+      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_5/</link>
       <pubDate>Mon, 15 Dec 2025 17:31:53 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_5/</guid>
       <description>
         
           
@@ -78,10 +112,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/operationalize-ge
     
     <item>
       <title>Applying data loading best practices for ML training with Amazon S3 clients</title>
-      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_4/</link>
+      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_6/</link>
       <pubDate>Mon, 15 Dec 2025 17:29:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_6/</guid>
       <description>
         
           
@@ -95,10 +129,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/applying-data-loa
     
     <item>
       <title>TeamCity 2025.11.1 Is Now Available</title>
-      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_5/</link>
+      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_7/</link>
       <pubDate>Mon, 15 Dec 2025 15:10:43 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_7/</guid>
       <description>
         
           
@@ -112,10 +146,10 @@ Link to article: https://blog.jetbrains.com/teamcity/2025/12/teamcity-2025-11-1-
     
     <item>
       <title>Behind the scenes of the Visual Studio feedback system</title>
-      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_6/</link>
+      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_8/</link>
       <pubDate>Mon, 15 Dec 2025 15:00:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_8/</guid>
       <description>
         
           
@@ -129,10 +163,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/behind-the-scenes-o
     
     <item>
       <title>Misunderstanding what the Cricket Celebration Bowl is</title>
-      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_7/</link>
+      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_9/</link>
       <pubDate>Mon, 15 Dec 2025 15:00:01 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_9/</guid>
       <description>
         
           
@@ -146,10 +180,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20251215-01/?p=11187
     
     <item>
       <title>The Windows clipboard automatic text conversion algorithm is path-dependent</title>
-      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_8/</link>
+      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_10/</link>
       <pubDate>Mon, 15 Dec 2025 15:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_10/</guid>
       <description>
         
           
@@ -163,10 +197,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20251215-00/?p=11186
     
     <item>
       <title>How to Tame Your Flaky Tests in TeamCity</title>
-      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_9/</link>
+      <link>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_11/</link>
       <pubDate>Mon, 15 Dec 2025 12:20:41 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_12_2025/15_12_2025_11/</guid>
       <description>
         
           
