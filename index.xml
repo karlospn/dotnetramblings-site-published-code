@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 16 Dec 2025 08:55:28 +0100</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Dec 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>New in .NET 10 and C# 14: Optimizations in log aggregation jobs</title>
+      <title>Creating a .NET CLR profiler using C# and NativeAOT with Silhouette</title>
       <link>https://www.dotnetramblings.com/post/16_12_2025/16_12_2025_0/</link>
-      <pubDate>Tue, 16 Dec 2025 08:55:28 +0100</pubDate>
+      <pubDate>Tue, 16 Dec 2025 10:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/16_12_2025/16_12_2025_0/</guid>
+      <description>
+        
+          
+            In this post I look at how to create a simple .NET profiler. But instead of using C++, the profiler uses C# and NativeAOT with the Silhouette library
+Link to article: https://andrewlock.net/creating-a-dotnet-profiler-using-csharp-with-silhouette/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>New in .NET 10 and C# 14: Optimizations in log aggregation jobs</title>
+      <link>https://www.dotnetramblings.com/post/16_12_2025/16_12_2025_1/</link>
+      <pubDate>Tue, 16 Dec 2025 08:55:28 +0100</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_12_2025/16_12_2025_1/</guid>
       <description>
         
           
@@ -27,14 +44,31 @@ Link to article: https://blog.elmah.io/new-in-net-10-and-c-14-optimizations-in-l
     
     <item>
       <title>Prompt Noise Is Killing Your AI Accuracy: How to Optimize Context for Grounded Output</title>
-      <link>https://www.dotnetramblings.com/post/16_12_2025/16_12_2025_1/</link>
+      <link>https://www.dotnetramblings.com/post/16_12_2025/16_12_2025_2/</link>
       <pubDate>Tue, 16 Dec 2025 01:18:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_12_2025/16_12_2025_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_12_2025/16_12_2025_2/</guid>
       <description>
         
           
             The most common reason an AI system “hallucinates” in production isn’t that the model is dumb. It’s that we’re drowning it. In the last year, many teams have quietly adopted a pattern that looks sophisticated on paper: throw everything into the prompt. Policies, API schemas, examples, edge cases, brand voice, product specs, meeting notes, customer […] The article Prompt Noise Is Killing Your AI Accuracy: How to Optimize Context for Grounded Output was originally published on Build5Nines.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[C# Tip] How to create and access custom C# Attributes by using Reflection</title>
+      <link>https://www.dotnetramblings.com/post/16_12_2025/16_12_2025_3/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_12_2025/16_12_2025_3/</guid>
+      <description>
+        
+          
+            In C#, Attributes are a handy mechanism to attach metadata to your classes, methods, properties, etc. In this article, we will see how to create custom Attributes and access them at runtime using Reflection.
+Link to article: https://www.code4it.dev/csharptips/custom-csharp-attributes-reflection/ 
           
           
         
