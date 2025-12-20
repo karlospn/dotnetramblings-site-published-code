@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 19 Dec 2025 19:57:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Server-Sent Events in ASP.NET Core and .NET 10</title>
+      <link>https://www.dotnetramblings.com/post/20_12_2025/20_12_2025_0/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_12_2025/20_12_2025_0/</guid>
+      <description>
+        
+          
+            ASP.NET Core 10 introduces native Server-Sent Events as a lightweight, HTTP-native alternative to SignalR for simple one-way real-time updates like dashboards and notifications.
+Link to article: https://www.milanjovanovic.tech/blog/server-sent-events-in-aspnetcore-and-dotnet-10 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Azure Developer CLI (azd) Dec 2025 - Extensions Enhancements, Foundry Rebranding, and Azure Pipelines Improvements</title>
       <link>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_0/</link>
@@ -1427,210 +1444,6 @@ Link to article: https://dotnettips.wordpress.com/2025/12/14/ux-chronicles-when-
           
             See what changes in .slnx, how to convert your existing .sln, and what to watch out for in CI.
 Link to article: https://www.milanjovanovic.tech/blog/the-new-slnx-solution-format-migration-guide 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Highlights from AWS re:Invent: Supercharging Kiro with Docker Sandboxes and MCP Catalog</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_0/</link>
-      <pubDate>Fri, 12 Dec 2025 20:22:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_0/</guid>
-      <description>
-        
-          
-            At the recent AWS re:Invent, Docker focused on a very real developer problem: how to run AI agents locally without giving them access to your machine, credentials, or filesystem. With AWS introducing Kiro, Docker demonstrated how Docker Sandboxes and MCP Toolkit allow developers to run agents inside isolated containers, keeping host environments and secrets out...
-Link to article: https://www.docker.com/blog/aws-reinvent-kiro-docker-sandboxes-mcp-catalog/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building a voice-driven AWS assistant with Amazon Nova Sonic</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_1/</link>
-      <pubDate>Fri, 12 Dec 2025 18:07:57 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_1/</guid>
-      <description>
-        
-          
-            In this post, we explore how to build a sophisticated voice-powered AWS operations assistant using Amazon Nova Sonic for speech processing and Strands Agents for multi-agent orchestration. This solution demonstrates how natural language voice interactions can transform cloud operations, making AWS services more accessible and operations more efficient.
-Link to article: https://aws.amazon.com/blogs/machine-learning/building-a-voice-driven-aws-assistant-with-amazon-nova-sonic/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Resolving an ambiguity in the Windows clipboard automated text conversion table</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_2/</link>
-      <pubDate>Fri, 12 Dec 2025 16:58:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_2/</guid>
-      <description>
-        
-          
-            Last time, we encountered a mystery where the synthesis of CF_OEM­TEXT from CF_TEXT did not use Ansi­To­Oem.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251212-05/?p=111862 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Retirement of Global Personal Access Tokens in Azure DevOps</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_3/</link>
-      <pubDate>Fri, 12 Dec 2025 14:15:06 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_3/</guid>
-      <description>
-        
-          
-            In the new year, we’ll be retiring the Global Personal Access Token (PAT) type in Azure DevOps. Global PATs allow users to authenticate across all accessible organizations. While this can feel convenient, a single credential with broad reach creates a concentrated security risk — especially as a user’s access
-Link to article: https://devblogs.microsoft.com/devops/retirement-of-global-personal-access-tokens-in-azure-devops 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Is AI the New Insider Threat?</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_4/</link>
-      <pubDate>Fri, 12 Dec 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_4/</guid>
-      <description>
-        
-          
-            Insider threats have always been difficult to manage because they blur the line between trusted access and risky behavior. With generative AI, these risks aren&#39;t tied to malicious insiders misusing credentials or bypassing controls; they come from well-intentioned employees simply trying to get work done faster. Whether it&#39;s developers refactoring code, analysts summarizing long reports,...
-Link to article: https://www.docker.com/blog/ai-insider-threat-shadow-ai-risk-controls/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Add MCP Servers to ChatGPT with Docker MCP Toolkit</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_5/</link>
-      <pubDate>Fri, 12 Dec 2025 13:48:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_5/</guid>
-      <description>
-        
-          
-            ChatGPT is great at answering questions and generating code. But here&#39;s what it can&#39;t do: execute that code, query your actual database, create a GitHub repo with your project, or scrape live data from websites. It&#39;s like having a brilliant advisor who can only talk, never act. Docker MCP Toolkit changes this completely. Here&#39;s what...
-Link to article: https://www.docker.com/blog/add-mcp-server-to-chatgpt/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building AI Agents in Kotlin – Part 3: Under Observation</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_6/</link>
-      <pubDate>Fri, 12 Dec 2025 11:58:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_6/</guid>
-      <description>
-        
-          
-            Previously in this series: Two articles in, and our coding agent can already do quite a bit. It can explore projects, read and write code, execute shell commands, and run tests. Adding a definition of done (DoD) in our last article gave it the feedback loop it needed – the agent now iterates until all […]
-Link to article: https://blog.jetbrains.com/ai/2025/12/building-ai-agents-in-kotlin-part-3-under-observation/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deploying Qodana on Kubernetes: More Scalability, More Control</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_7/</link>
-      <pubDate>Fri, 12 Dec 2025 11:13:33 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_7/</guid>
-      <description>
-        
-          
-            As engineering teams scale, so do the demands on their tooling. Code quality checks that worked well for one repository or service often need a more resilient, automated, and infrastructure-native setup when development ecosystems grow. That’s exactly why we’re excited to introduce first-class Kubernetes support for Qodana, bringing fully automated deployments, lifecycle management, and future-ready […]
-Link to article: https://blog.jetbrains.com/qodana/2025/12/deploying-qodana-on-kubernetes-more-scalability-more-control/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Open Source in Focus: 4 Tools That Keep Systems Running</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_8/</link>
-      <pubDate>Fri, 12 Dec 2025 06:08:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_8/</guid>
-      <description>
-        
-          
-            At JetBrains, we love seeing the developer community grow and thrive. That’s why we support open-source projects that make a real difference — the ones that help developers learn, build, and create better software together. We’re proud to back open-source maintainers with free licenses and to contribute to initiatives that strengthen the ecosystem and the […]
-Link to article: https://blog.jetbrains.com/blog/2025/12/12/open-source-in-focus-4-tools-that-keep-systems-running/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>BBVA and OpenAI collaborate to transform global banking</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_9/</link>
-      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_9/</guid>
-      <description>
-        
-          
-            BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that enhance customer interactions, streamline operations, and help build an AI-native banking experience.
-Link to article: https://openai.com/index/bbva-collaboration-expansion 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>BNY builds “AI for everyone, everywhere” with OpenAI</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_10/</link>
-      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_10/</guid>
-      <description>
-        
-          
-            BNY is using OpenAI technology to expand AI adoption enterprise-wide. Through its Eliza platform, 20,000+ employees are building AI agents that enhance efficiency and improve client outcomes.
-Link to article: https://openai.com/index/bny 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How We Used Codex to Ship Sora for Android in 28 Days</title>
-      <link>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_11/</link>
-      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_12_2025/12_12_2025_11/</guid>
-      <description>
-        
-          
-            OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.
-Link to article: https://openai.com/index/shipping-sora-for-android-with-codex 
           
           
         
