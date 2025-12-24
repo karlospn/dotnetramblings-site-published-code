@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 23 Dec 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Dec 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why does my &lt;kbd&gt;Ctrl&lt;/kbd&gt;&#43;&lt;kbd&gt;M&lt;/kbd&gt; accelerator key activate when I press the &lt;kbd&gt;Enter&lt;/kbd&gt; key?</title>
+      <link>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_5/</link>
+      <pubDate>Wed, 24 Dec 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_5/</guid>
+      <description>
+        
+          
+            A customer didn&#39;t understand why their Win32 accelerator key for Ctrl+M was triggering spuriously. Specifically, it was triggering when the user hit the Enter key, which is nothing like the Ctrl+M two-key combination. They defined their accelerator table like this: IDA
+Link to article: https://devblogs.microsoft.com/oldnewthing/20251224-00/?p=111908 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>When irate product support customers demand to speak to Bill Gates</title>
       <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_8/</link>

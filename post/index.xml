@@ -7,18 +7,103 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 24 Dec 2025 16:13:01 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Dec 2025 17:26:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building a Complete FIRE Calculator App with GitHub Copilot in One Chat Session</title>
+      <title>Programmatically creating an IDP solution with Amazon Bedrock Data Automation</title>
       <link>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_0/</link>
-      <pubDate>Wed, 24 Dec 2025 16:13:01 +0000</pubDate>
+      <pubDate>Wed, 24 Dec 2025 17:26:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_0/</guid>
       <description>
         
           
+            In this post, we explore how to programmatically create an IDP solution that uses Strands SDK, Amazon Bedrock AgentCore, Amazon Bedrock Knowledge Base, and Bedrock Data Automation (BDA). This solution is provided through a Jupyter notebook that enables users to upload multi-modal business documents and extract insights using BDA as a parser to retrieve relevant chunks and augment a prompt to a foundational model (FM).
+Link to article: https://aws.amazon.com/blogs/machine-learning/programmatically-creating-an-idp-solution-with-amazon-bedrock-data-automation/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI agent-driven browser automation for enterprise workflow management</title>
+      <link>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_1/</link>
+      <pubDate>Wed, 24 Dec 2025 17:22:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_1/</guid>
+      <description>
+        
+          
+            Enterprise organizations increasingly rely on web-based applications for critical business processes, yet many workflows remain manually intensive, creating operational inefficiencies and compliance risks. Despite significant technology investments, knowledge workers routinely navigate between eight to twelve different web applications during standard workflows, constantly switching contexts and manually transferring information between systems. Data entry and validation tasks […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/ai-agent-driven-browser-automation-for-enterprise-workflow-management/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agentic QA automation using Amazon Bedrock AgentCore Browser and Amazon Nova Act</title>
+      <link>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_2/</link>
+      <pubDate>Wed, 24 Dec 2025 17:20:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_2/</guid>
+      <description>
+        
+          
+            In this post, we explore how agentic QA automation addresses these challenges and walk through a practical example using Amazon Bedrock AgentCore Browser and Amazon Nova Act to automate testing for a sample retail application.
+Link to article: https://aws.amazon.com/blogs/machine-learning/agentic-qa-automation-using-amazon-bedrock-agentcore-browser-and-amazon-nova-act/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Optimizing LLM inference on Amazon SageMaker AI with BentoML’s LLM- Optimizer</title>
+      <link>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_3/</link>
+      <pubDate>Wed, 24 Dec 2025 17:17:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_3/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to optimize large language model (LLM) inference on Amazon SageMaker AI using BentoML&#39;s LLM-Optimizer to systematically identify the best serving configurations for your workload.
+Link to article: https://aws.amazon.com/blogs/machine-learning/optimizing-llm-inference-on-amazon-sagemaker-ai-with-bentomls-llm-optimizer/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building a Complete FIRE Calculator App with GitHub Copilot in One Chat Session</title>
+      <link>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_4/</link>
+      <pubDate>Wed, 24 Dec 2025 16:13:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_4/</guid>
+      <description>
+        
+          
             In 30 minutes with GitHub Copilot, VS Code, and Claude Opus 4.5 I built my ultimate FIRE calcultor app that is private, secure, and free!
 Link to article: https://montemagno.com/building-a-complete-fire-calculator-app-with-github-copilot-in-one-chat-session/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Why does my &lt;kbd&gt;Ctrl&lt;/kbd&gt;&#43;&lt;kbd&gt;M&lt;/kbd&gt; accelerator key activate when I press the &lt;kbd&gt;Enter&lt;/kbd&gt; key?</title>
+      <link>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_5/</link>
+      <pubDate>Wed, 24 Dec 2025 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_12_2025/24_12_2025_5/</guid>
+      <description>
+        
+          
+            A customer didn&#39;t understand why their Win32 accelerator key for Ctrl+M was triggering spuriously. Specifically, it was triggering when the user hit the Enter key, which is nothing like the Ctrl+M two-key combination. They defined their accelerator table like this: IDA
+Link to article: https://devblogs.microsoft.com/oldnewthing/20251224-00/?p=111908 
           
           
         
