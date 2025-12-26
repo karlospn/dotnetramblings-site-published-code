@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 25 Dec 2025 15:00:01 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Dec 2025 05:13:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing Azure Naming Conventions at Scale with Terraform and Build5Nines/naming/azure (AzureRM &#43; Region Pairs)</title>
+      <link>https://www.dotnetramblings.com/post/26_12_2025/26_12_2025_0/</link>
+      <pubDate>Fri, 26 Dec 2025 05:13:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_12_2025/26_12_2025_0/</guid>
+      <description>
+        
+          
+            Microsoft Azure resource naming conventions are one of those “small” DevOps and cloud infrastructure management disciplines that quietly determine whether your cloud estate stays governable at 50 resources—or collapses into entropy at 5,000 resources. In this article, you’ll build a repeatable, region-aware naming strategy using HashiCorp Terraform and the Build5Nines/naming/azure module (which wraps Microsoft’s Azure/naming/azurerm module) to generate compliant […] The article Implementing Azure Naming Conventions at Scale with Terraform and Build5Nines/naming/azure (AzureRM + Region Pairs) was originally published on Build5Nines.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Reading the fine print, episode 4: Holiday promotions</title>
       <link>https://www.dotnetramblings.com/post/25_12_2025/25_12_2025_0/</link>
