@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 26 Dec 2025 16:19:46 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Build a High-Performance Cache Without External Libraries</title>
+      <link>https://www.dotnetramblings.com/post/27_12_2025/27_12_2025_0/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_12_2025/27_12_2025_0/</guid>
+      <description>
+        
+          
+            Learn how to build a high-performance cache from scratch in .NET, moving from a simple ConcurrentDictionary to an optimized keyed-locking system. This deep dive explores how to master concurrency patterns like double-checked locking to protect your APIs and improve application scalability.
+Link to article: https://www.milanjovanovic.tech/blog/how-to-build-a-high-performance-cache-without-external-libraries 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>TeamCity Pipelines Is Now Part of TeamCity Enterprise</title>
       <link>https://www.dotnetramblings.com/post/26_12_2025/26_12_2025_0/</link>
@@ -696,176 +713,6 @@ Link to article: https://damienbod.com/2025/12/20/digital-authentication-and-ide
           
             ASP.NET Core 10 introduces native Server-Sent Events as a lightweight, HTTP-native alternative to SignalR for simple one-way real-time updates like dashboards and notifications.
 Link to article: https://www.milanjovanovic.tech/blog/server-sent-events-in-aspnetcore-and-dotnet-10 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Developer CLI (azd) Dec 2025 - Extensions Enhancements, Foundry Rebranding, and Azure Pipelines Improvements</title>
-      <link>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_0/</link>
-      <pubDate>Fri, 19 Dec 2025 19:57:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_0/</guid>
-      <description>
-        
-          
-            Welcome to the December 2025 edition of the Azure Developer CLI (azd) release blog—our final release of the year! This post covers releases 1.22.0 through 1.22.5, wrapping up 2025. To share your feedback and questions, join the December release discussion on GitHub.
-Link to article: https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-december-2025 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Work item linking for Advanced Security alerts now available</title>
-      <link>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_1/</link>
-      <pubDate>Fri, 19 Dec 2025 18:24:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_1/</guid>
-      <description>
-        
-          
-            Security vulnerabilities don&#39;t fix themselves. Someone needs to track them, prioritize them, and actually ship the fix. If you&#39;ve ever tried to manage security alerts alongside your regular sprint work, though, you know the friction: you&#39;re looking at an alert in one tab, switching to your backlog in another, trying to remember which vulner
-Link to article: https://devblogs.microsoft.com/devops/work-item-linking-for-advanced-security-alerts-now-available 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing SOCI indexing for Amazon SageMaker Studio: Faster container startup times for AI/ML workloads</title>
-      <link>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_2/</link>
-      <pubDate>Fri, 19 Dec 2025 18:23:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_2/</guid>
-      <description>
-        
-          
-            Today, we are excited to introduce a new feature for SageMaker Studio: SOCI (Seekable Open Container Initiative) indexing. SOCI supports lazy loading of container images, where only the necessary parts of an image are downloaded initially rather than the entire container.
-Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-soci-indexing-for-amazon-sagemaker-studio-faster-container-startup-times-for-ai-ml-workloads/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A shortcut gives me a weird path for a program shortcut that doesn&#39;t point to the executable, so what is it?</title>
-      <link>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_3/</link>
-      <pubDate>Fri, 19 Dec 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_3/</guid>
-      <description>
-        
-          
-            Say you have a shortcut file and you want to see what its target is. The natural thing to do is to call IShellLink::GetPath, which returns S_FALSE if the shortcut does not target a path, or returns S_OK and a path to the target. But for some shortcuts, it returns S_OK but produces a
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251219-00/?p=111885 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Mobile Development Teams Use Kotlin in 2025: Insights From a Certified Trainer</title>
-      <link>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_4/</link>
-      <pubDate>Fri, 19 Dec 2025 14:44:34 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_4/</guid>
-      <description>
-        
-          
-            This is the second guest post in a two-part series from José Luis González. José Luis has a PhD in software development and is a JetBrains-certified Kotlin Trainer, who works with developers and engineering teams to deepen their Kotlin skills and apply the language effectively in real projects. At Hyperskill, he runs Kotlin instructor-led training for […]
-Link to article: https://blog.jetbrains.com/kotlin/2025/12/how-mobile-development-teams-use-kotlin-in-2025/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Top 3 Qodana 2025.3 Release Highlights</title>
-      <link>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_5/</link>
-      <pubDate>Fri, 19 Dec 2025 14:34:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_5/</guid>
-      <description>
-        
-          
-            Qodana 2025.3 delivers important new capabilities that help teams standardize their development practices, improve compliance, make audits easier, and simplify large-scale code analysis. From introducing Global Project Configuration, a major step toward scalable, centralized policy management, to expanding license auditing for .NET and enhancing monorepository support for Java and Kotlin, Qodana 2025.3 makes it easier […]
-Link to article: https://blog.jetbrains.com/qodana/2025/12/top-3-qodana-2025-3-release-highlights/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>From the Captain’s Chair: Igor Aleksandrov</title>
-      <link>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_6/</link>
-      <pubDate>Fri, 19 Dec 2025 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_6/</guid>
-      <description>
-        
-          
-            Docker Captains are leaders from the developer community that are both experts in their field and are passionate about sharing their Docker knowledge with others. “From the Captain’s Chair” is a blog series where we get a closer look at one Captain to learn more about them and their experiences. Today we are interviewing Igor...
-Link to article: https://www.docker.com/blog/from-the-captains-chair-igor-aleksandrov/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docker Hardened Images: Security Independently Validated by SRLabs</title>
-      <link>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_7/</link>
-      <pubDate>Fri, 19 Dec 2025 13:50:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_7/</guid>
-      <description>
-        
-          
-            Earlier this week, we took a major step forward for the industry. Docker Hardened Images (DHI) is now available at no cost, bringing secure-by-default development to every team, everywhere. Anyone can now start from a secure, minimal, production-ready foundation from the first pull, without a subscription. With that decision comes a responsibility: if Docker Hardened Images become...
-Link to article: https://www.docker.com/blog/docker-hardened-images-security-independently-validated-by-srlabs/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>First-Class Docker Support: Building and Deploying Containers With TeamCity</title>
-      <link>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_8/</link>
-      <pubDate>Fri, 19 Dec 2025 12:53:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_8/</guid>
-      <description>
-        
-          
-            This article was brought to you by Kumar Harsh, draft.dev. Docker has changed the way we build and ship software. Instead of wrestling with “it works on my machine” issues, developers can now package applications and all their dependencies into a neat, portable container that runs anywhere. No wonder Docker has become the de facto […]
-Link to article: https://blog.jetbrains.com/teamcity/2025/12/first-class-docker-support/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What’s new in Microsoft Foundry | October and November 2025</title>
-      <link>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_9/</link>
-      <pubDate>Fri, 19 Dec 2025 04:55:08 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_12_2025/19_12_2025_9/</guid>
-      <description>
-        
-          
-            TL;DR Move from prototype to production in hours, not weeks: The new Microsoft Agent Framework and Hosted Agents let you build, test, and deploy multi-agent AI systems with enterprise-grade security—no Kubernetes or container headaches. Orchestrate any model, anywhere: Model
-Link to article: https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-oct-nov-2025 
           
           
         
