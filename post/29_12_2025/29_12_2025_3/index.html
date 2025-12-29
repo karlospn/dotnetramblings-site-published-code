@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>How can I detect that the system is running low on memory? Or that my job is running low on memory? | .NET Ramblings</title>
+<title>Reduce GitHub Actions runner CPU usage | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="A customer wanted to write a process that could detect that it is nearing its job memory limit. Now, if you were asking about system memory limits rather than …" />
+<meta name="description" content="If you&#39;re using self-hosted GitHub Actions runners, you might have noticed they can be surprisingly CPU-intensive, even when idle. A closer look reveals that a …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="How can I detect that the system is running low on memory? Or that my job is running low on memory?" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/29_12_2025/29_12_2025_2/" />
-<meta property="og:title" content="How can I detect that the system is running low on memory? Or that my job is running low on memory?" />
-<meta property="og:description" content="A customer wanted to write a process that could detect that it is nearing its job memory limit. Now, if you were asking about system memory limits rather than …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta name="twitter:title" content="Reduce GitHub Actions runner CPU usage" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/devops.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/29_12_2025/29_12_2025_3/" />
+<meta property="og:title" content="Reduce GitHub Actions runner CPU usage" />
+<meta property="og:description" content="If you&#39;re using self-hosted GitHub Actions runners, you might have noticed they can be surprisingly CPU-intensive, even when idle. A closer look reveals that a …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/devops.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/29_12_2025/29_12_2025_2/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/29_12_2025/29_12_2025_3/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">How can I detect that the system is running low on memory? Or that my job is running low on memory?</h1>
+    <h1 class="post_title">Reduce GitHub Actions runner CPU usage</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Dec 29, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Dec 29, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>A customer wanted to write a process that could detect that it is nearing its job memory limit. Now, if you were asking about system memory limits rather than job memory limits, you would use the Create­Memory­Resource­Notification to create a &quot;low memory&quot; notification. As noted in the documentation, this notificatio</p>
+    <div class="post_body"><p>If you're using self-hosted GitHub Actions runners, you might have noticed they can be surprisingly CPU-intensive, even when idle. A closer look reveals that a single runner can peg a CPU core at 100% utilization. This isn't a bug in your workflow; it's a deliberate design choice in the runner's sleep mechanism. The problem: Busy-waiting Instead of using standard, efficient sleep functions provided by the…</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20251229-00/?p=111927">https://devblogs.microsoft.com/oldnewthing/20251229-00/?p=111927</a></li>
+<li>Link to article: <a href="https://www.meziantou.net/reduce-github-actions-runner-cpu-usage.htm?utm_medium=social&utm_source=syndication">https://www.meziantou.net/reduce-github-actions-runner-cpu-usage.htm?utm_medium=social&utm_source=syndication</a></li>
 </ul>
 
     </div>
