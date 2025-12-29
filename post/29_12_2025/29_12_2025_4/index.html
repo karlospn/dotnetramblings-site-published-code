@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Migrate MLflow tracking servers to Amazon SageMaker AI with serverless MLflow | .NET Ramblings</title>
+<title>Reduce GitHub Actions runner CPU usage | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="This post shows you how to migrate your self-managed MLflow tracking server to a MLflow App – a serverless tracking server on SageMaker AI that automatically …" />
+<meta name="description" content="If you&#39;re using self-hosted GitHub Actions runners, you might have noticed they can be surprisingly CPU-intensive, even when idle. A closer look reveals that a …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Migrate MLflow tracking servers to Amazon SageMaker AI with serverless MLflow" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/29_12_2025/29_12_2025_0/" />
-<meta property="og:title" content="Migrate MLflow tracking servers to Amazon SageMaker AI with serverless MLflow" />
-<meta property="og:description" content="This post shows you how to migrate your self-managed MLflow tracking server to a MLflow App – a serverless tracking server on SageMaker AI that automatically …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
+<meta name="twitter:title" content="Reduce GitHub Actions runner CPU usage" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/devops.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/29_12_2025/29_12_2025_4/" />
+<meta property="og:title" content="Reduce GitHub Actions runner CPU usage" />
+<meta property="og:description" content="If you&#39;re using self-hosted GitHub Actions runners, you might have noticed they can be surprisingly CPU-intensive, even when idle. A closer look reveals that a …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/devops.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/29_12_2025/29_12_2025_0/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/29_12_2025/29_12_2025_4/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Migrate MLflow tracking servers to Amazon SageMaker AI with serverless MLflow</h1>
+    <h1 class="post_title">Reduce GitHub Actions runner CPU usage</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Dec 29, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
+      Dec 29, 2025</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>This post shows you how to migrate your self-managed MLflow tracking server to a MLflow App – a serverless tracking server on SageMaker AI that automatically scales resources based on demand while removing server patching and storage management tasks at no cost. Learn how to use the MLflow Export Import tool to transfer your experiments, runs, models, and other MLflow resources, including instructions to validate your migration's success.</p>
+    <div class="post_body"><p>If you're using self-hosted GitHub Actions runners, you might have noticed they can be surprisingly CPU-intensive, even when idle. A closer look reveals that a single runner can peg a CPU core at 100% utilization. This isn't a bug in your workflow; it's a deliberate design choice in the runner's sleep mechanism. The problem: Busy-waiting Instead of using standard, efficient sleep functions provided by the…</p>
 <ul>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/migrate-mlflow-tracking-servers-to-amazon-sagemaker-ai-with-serverless-mlflow/">https://aws.amazon.com/blogs/machine-learning/migrate-mlflow-tracking-servers-to-amazon-sagemaker-ai-with-serverless-mlflow/</a></li>
+<li>Link to article: <a href="https://www.meziantou.net/reduce-github-actions-runner-cpu-usage.htm?utm_medium=social&utm_source=syndication">https://www.meziantou.net/reduce-github-actions-runner-cpu-usage.htm?utm_medium=social&utm_source=syndication</a></li>
 </ul>
 
     </div>
