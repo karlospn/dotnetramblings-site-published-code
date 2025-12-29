@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 22 Dec 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Dec 2025 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reduce GitHub Actions runner CPU usage</title>
+      <link>https://www.dotnetramblings.com/post/29_12_2025/29_12_2025_0/</link>
+      <pubDate>Mon, 29 Dec 2025 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_12_2025/29_12_2025_0/</guid>
+      <description>
+        
+          
+            If you&#39;re using self-hosted GitHub Actions runners, you might have noticed they can be surprisingly CPU-intensive, even when idle. A closer look reveals that a single runner can peg a CPU core at 100% utilization. This isn&#39;t a bug in your workflow; it&#39;s a deliberate design choice in the runner&#39;s sleep mechanism. The problem: Busy-waiting Instead of using standard, efficient sleep functions provided by the…
+Link to article: https://www.meziantou.net/reduce-github-actions-runner-cpu-usage.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Understanding and Managing Mark of the Web in .NET</title>
       <link>https://www.dotnetramblings.com/post/22_12_2025/22_12_2025_8/</link>
