@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 30 Dec 2025 18:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Year in Review</title>
+      <link>https://www.dotnetramblings.com/post/31_12_2025/31_12_2025_0/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/31_12_2025/31_12_2025_0/</guid>
+      <description>
+        
+          
+            Happy Christmas and happy new year! I know it&#39;s been a while since I last posted anything here, but thought I&#39;d revive my tradition of writing another year in review post. Pluralsight Part of the reason for me not having as much time for blogging is that I created three new Pluralsight courses this year, bringing my total to 29. First up was a course about refactoring and optimizing code with GitHub Copilot.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Top .NET Blog Posts of 2025</title>
       <link>https://www.dotnetramblings.com/post/30_12_2025/30_12_2025_0/</link>
@@ -375,193 +391,6 @@ Link to article: https://montemagno.com/building-a-complete-fire-calculator-app-
           
             A customer didn&#39;t understand why their Win32 accelerator key for Ctrl+M was triggering spuriously. Specifically, it was triggering when the user hit the Enter key, which is nothing like the Ctrl+M two-key combination. They defined their accelerator table like this: IDA
 Link to article: https://devblogs.microsoft.com/oldnewthing/20251224-00/?p=111908 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Exploring the zero operator access design of Mantle</title>
-      <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_0/</link>
-      <pubDate>Tue, 23 Dec 2025 22:18:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_0/</guid>
-      <description>
-        
-          
-            In this post, we explore how Mantle, Amazon&#39;s next-generation inference engine for Amazon Bedrock, implements a zero operator access (ZOA) design that eliminates any technical means for AWS operators to access customer data.
-Link to article: https://aws.amazon.com/blogs/machine-learning/exploring-the-zero-operator-access-design-of-mantle/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Everything You Wanted to Ask About Rust – Answered by Herbert Wolverson</title>
-      <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_1/</link>
-      <pubDate>Tue, 23 Dec 2025 18:36:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_1/</guid>
-      <description>
-        
-          
-            Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were conveniently distilled into a compact blog post format. In our recent JetBrains livestream, Vitaly Bragilevsky sat down with Rust expert and educator Herbert Wolverson (Ardan Labs) to talk about everything Rust […]
-Link to article: https://blog.jetbrains.com/rust/2025/12/23/everything-you-wanted-to-ask-about-rust-answered-by-herbert-wolverson/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AWS AI League: Model customization and agentic showdown</title>
-      <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_2/</link>
-      <pubDate>Tue, 23 Dec 2025 17:36:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_2/</guid>
-      <description>
-        
-          
-            In this post, we explore the new AWS AI League challenges and how they are transforming how organizations approach AI development. The grand finale at AWS re:Invent 2025 was an exciting showcase of their ingenuity and skills.
-Link to article: https://aws.amazon.com/blogs/machine-learning/aws-ai-league-model-customization-and-agentic-showdown/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerate Enterprise AI Development using Weights &amp; Biases and Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_3/</link>
-      <pubDate>Tue, 23 Dec 2025 17:32:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_3/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to use Foundation Models (FMs) from Amazon Bedrock and the newly launched Amazon Bedrock AgentCore alongside W&amp;amp;B Weave to help build, evaluate, and monitor enterprise AI solutions. We cover the complete development lifecycle from tracking individual FM calls to monitoring complex agent workflows in production.
-Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-enterprise-ai-development-using-weights-biases-weave-and-amazon-bedrock-agentcore/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How dLocal automated compliance reviews using Amazon Quick Automate</title>
-      <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_4/</link>
-      <pubDate>Tue, 23 Dec 2025 17:24:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_4/</guid>
-      <description>
-        
-          
-            In this post, we share how dLocal worked closely with the AWS team to help shape the product roadmap, reinforce its role as an industry innovator, and set new benchmarks for operational excellence in the global fintech landscape.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-dlocal-automated-compliance-reviews-using-amazon-quick-automate/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Advancing ADHD diagnosis: How Qbtech built a mobile AI assessment Model Using Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_5/</link>
-      <pubDate>Tue, 23 Dec 2025 17:11:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_5/</guid>
-      <description>
-        
-          
-            In this post, we explore how Qbtech streamlined their machine learning (ML) workflow using Amazon SageMaker AI, a fully managed service to build, train and deploy ML models, and AWS Glue, a serverless service that makes data integration simpler, faster, and more cost effective. This new solution reduced their feature engineering time from weeks to hours, while maintaining the high clinical standards required by healthcare providers.
-Link to article: https://aws.amazon.com/blogs/machine-learning/advancing-adhd-diagnosis-how-qbtech-built-a-mobile-ai-assessment-model-using-amazon-sagemaker-ai/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerating your marketing ideation with generative AI – Part 1: From idea to generation with the Amazon Nova foundation models</title>
-      <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_6/</link>
-      <pubDate>Tue, 23 Dec 2025 17:06:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_6/</guid>
-      <description>
-        
-          
-            In this post, the first of a series of three, we focus on how you can use Amazon Nova to streamline, simplify, and accelerate marketing campaign creation through generative AI. We show how Bancolombia, one of Colombia’s largest banks, is experimenting with the Amazon Nova models to generate visuals for their marketing campaigns.
-Link to article: https://aws.amazon.com/blogs/machine-learning/accelerating-your-marketing-ideation-with-generative-ai-part-1-from-idea-to-generation-with-the-amazon-nova-foundation-models/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Visa Intelligent Commerce on AWS: Enabling agentic commerce with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_7/</link>
-      <pubDate>Tue, 23 Dec 2025 16:45:47 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_7/</guid>
-      <description>
-        
-          
-            In this post, we explore how AWS and Visa are partnering to enable agentic commerce through Visa Intelligent Commerce using Amazon Bedrock AgentCore. We demonstrate how autonomous AI agents can transform fragmented shopping and travel experiences into seamless, end-to-end workflows—from discovery and comparison to secure payment authorization—all driven by natural language.
-Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-visa-intelligent-commerce-on-aws-enabling-agentic-commerce-with-amazon-bedrock-agentcore/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>When irate product support customers demand to speak to Bill Gates</title>
-      <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_8/</link>
-      <pubDate>Tue, 23 Dec 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_8/</guid>
-      <description>
-        
-          
-            A colleague of mine who used to work in product support told me that they had a procedure if a customer became irate and demanded to speak with Bill Gates. (This was, of course, back in the days when Bill Gates still ran the company.) The product support technician would apologize for not resolving the problem to the customer&#39;s sati
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251223-00/?p=111896 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>SharePoint Framework (SPFx) roadmap update – December 2025</title>
-      <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_9/</link>
-      <pubDate>Tue, 23 Dec 2025 14:53:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_9/</guid>
-      <description>
-        
-          
-            As we close out 2025, we want to pause and reflect on what has been an extraordinary year for the SharePoint Framework (SPFx). We continue to be humbled by the momentum of the platform and the scale of impact it enables across Microsoft 365. Tens of millions of users
-Link to article: https://devblogs.microsoft.com/microsoft365dev/sharepoint-framework-spfx-roadmap-update-december-2025 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Thread Dumps and Project Loom (Virtual Threads)</title>
-      <link>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_10/</link>
-      <pubDate>Tue, 23 Dec 2025 14:14:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_12_2025/23_12_2025_10/</guid>
-      <description>
-        
-          
-            If you’ve been keeping up with Java virtual threads, you already know that this hot new feature significantly improves hardware utilization for parallel I/O-bound operations. Virtual threads map multiple concurrent I/O operations to a single OS thread without blocking. The novel aspect of this approach is that it requires minimal changes to the codebase, as […]
-Link to article: https://blog.jetbrains.com/idea/2025/12/thread-dumps-and-project-loom-virtual-threads/ 
           
           
         
