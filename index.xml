@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 01 Jan 2026 07:30:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jan 2026 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Visual Studio 2026: Regressions, Reliability Issues, and Missed Opportunities</title>
+      <title>Swapping two blocks of memory that reside inside a larger block, in constant memory</title>
       <link>https://www.dotnetramblings.com/post/01_01_2026/01_01_2026_0/</link>
-      <pubDate>Thu, 01 Jan 2026 07:30:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jan 2026 15:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/01_01_2026/01_01_2026_0/</guid>
+      <description>
+        
+          
+            Suppose you have a large block of memory, and you want to swap two blocks that reside inside that large block. For concreteness, say you have a block of memory of the form A1, A2, B1, B2, C1, C2, D1, D2, D3, E1, and you want to swap the B&#39;s and D&#39;s, producing A1, A2, D1, D2, D3, C1, C2, B1, B2, E1.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260101-00/?p=111955 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2026: Regressions, Reliability Issues, and Missed Opportunities</title>
+      <link>https://www.dotnetramblings.com/post/01_01_2026/01_01_2026_1/</link>
+      <pubDate>Thu, 01 Jan 2026 07:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_01_2026/01_01_2026_1/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://dotnettips.wordpress.com/2026/01/01/visual-studio-2026-
     
     <item>
       <title>Rock Your Code: Code &amp; App Performance for Microsoft .NET (5th Edition)</title>
-      <link>https://www.dotnetramblings.com/post/01_01_2026/01_01_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/01_01_2026/01_01_2026_2/</link>
       <pubDate>Thu, 01 Jan 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_01_2026/01_01_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_01_2026/01_01_2026_2/</guid>
       <description>
         
           

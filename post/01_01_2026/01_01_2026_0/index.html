@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Visual Studio 2026: Regressions, Reliability Issues, and Missed Opportunities | .NET Ramblings</title>
+<title>Swapping two blocks of memory that reside inside a larger block, in constant memory | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Visual Studio 2026 has regressed by removing or disabling key code-quality features, making development more difficult. The Analyze tool suffers from …" />
+<meta name="description" content="Suppose you have a large block of memory, and you want to swap two blocks that reside inside that large block. For concreteness, say you have a block of memory …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Visual Studio 2026: Regressions, Reliability Issues, and Missed Opportunities" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/vs.png"/>
+<meta name="twitter:title" content="Swapping two blocks of memory that reside inside a larger block, in constant memory" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/01_01_2026/01_01_2026_0/" />
-<meta property="og:title" content="Visual Studio 2026: Regressions, Reliability Issues, and Missed Opportunities" />
-<meta property="og:description" content="Visual Studio 2026 has regressed by removing or disabling key code-quality features, making development more difficult. The Analyze tool suffers from …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/vs.png" />
+<meta property="og:title" content="Swapping two blocks of memory that reside inside a larger block, in constant memory" />
+<meta property="og:description" content="Suppose you have a large block of memory, and you want to swap two blocks that reside inside that large block. For concreteness, say you have a block of memory …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Visual Studio 2026: Regressions, Reliability Issues, and Missed Opportunities</h1>
+    <h1 class="post_title">Swapping two blocks of memory that reside inside a larger block, in constant memory</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Jan 1, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
+      Jan 1, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Visual Studio 2026 has regressed by removing or disabling key code-quality features, making development more difficult. The Analyze tool suffers from inconsistencies and lack of reliability, while various testing functionalities are also flawed. AI tools like Copilot cannot replace essential code-quality features. Greater MVP involvement and thoughtful updates are needed to enhance the IDE.</p>
+    <div class="post_body"><p>Suppose you have a large block of memory, and you want to swap two blocks that reside inside that large block. For concreteness, say you have a block of memory of the form A1, A2, B1, B2, C1, C2, D1, D2, D3, E1, and you want to swap the B's and D's, producing A1, A2, D1, D2, D3, C1, C2, B1, B2, E1.</p>
 <ul>
-<li>Link to article: <a href="https://dotnettips.wordpress.com/2026/01/01/visual-studio-2026-regressions-reliability-issues-and-missed-opportunities/">https://dotnettips.wordpress.com/2026/01/01/visual-studio-2026-regressions-reliability-issues-and-missed-opportunities/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20260101-00/?p=111955">https://devblogs.microsoft.com/oldnewthing/20260101-00/?p=111955</a></li>
 </ul>
 
     </div>
