@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 01 Jan 2026 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jan 2026 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How can you swap two adjacent blocks of memory using only forward iterators?</title>
+      <link>https://www.dotnetramblings.com/post/02_01_2026/02_01_2026_0/</link>
+      <pubDate>Fri, 02 Jan 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_01_2026/02_01_2026_0/</guid>
+      <description>
+        
+          
+            Last time, we noted that the std::rotate function requires only forward iterators. The algorithm we explored last time involved a clever sequence of reversals, but reversals require bidirectional iterators (one to iterator forward from the beginning and another to iterate backward from the end).
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260102-00/?p=111958 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Swapping two blocks of memory that reside inside a larger block, in constant memory</title>
       <link>https://www.dotnetramblings.com/post/01_01_2026/01_01_2026_0/</link>
