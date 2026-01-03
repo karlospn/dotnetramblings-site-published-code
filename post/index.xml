@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 02 Jan 2026 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Urge to Build Something</title>
+      <link>https://www.dotnetramblings.com/post/03_01_2026/03_01_2026_0/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_01_2026/03_01_2026_0/</guid>
+      <description>
+        
+          
+            Looking at my contribution graph now, I can see the whole journey mapped out in squares of green. The startup dreams. The pivot to teaching. The thousands of commits that represent years of building, learning, and growing. Every cluster tells a story. What will your graph look like a year from now?
+Link to article: https://www.milanjovanovic.tech/blog/the-urge-to-build-something 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How can you swap two adjacent blocks of memory using only forward iterators?</title>
       <link>https://www.dotnetramblings.com/post/02_01_2026/02_01_2026_0/</link>
@@ -375,56 +392,6 @@ Link to article: https://dotnettips.wordpress.com/2025/12/28/supercharging-appli
           
             Learn how to build a high-performance cache from scratch in .NET, moving from a simple ConcurrentDictionary to an optimized keyed-locking system. This deep dive explores how to master concurrency patterns like double-checked locking to protect your APIs and improve application scalability.
 Link to article: https://www.milanjovanovic.tech/blog/how-to-build-a-high-performance-cache-without-external-libraries 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>TeamCity Pipelines Is Now Part of TeamCity Enterprise</title>
-      <link>https://www.dotnetramblings.com/post/26_12_2025/26_12_2025_0/</link>
-      <pubDate>Fri, 26 Dec 2025 16:19:46 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_12_2025/26_12_2025_0/</guid>
-      <description>
-        
-          
-            We introduced TeamCity Pipelines in March 2024 to make CI/CD setup simpler and more intuitive, without limiting what teams can build and automate. Pipelines brought a new workflow focused on a more guided configuration experience, including a visual editor with drag-and-drop dependencies, YAML for defining building routines from scratch, and a set of practical configuration […]
-Link to article: https://blog.jetbrains.com/teamcity/2025/12/pipelines-sunset/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why are we worried about memory access semantics? Full barriers should be enough for anybody</title>
-      <link>https://www.dotnetramblings.com/post/26_12_2025/26_12_2025_1/</link>
-      <pubDate>Fri, 26 Dec 2025 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_12_2025/26_12_2025_1/</guid>
-      <description>
-        
-          
-            Commenter Shawn wondered why we are so worried about memory access semantics. Back in my day, we just used full barriers everywhere, and I didn&#39;t hear nobody complainin&#39;.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20251226-00/?p=111919 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Implementing Azure Naming Conventions at Scale with Terraform and Build5Nines/naming/azure (AzureRM &#43; Region Pairs)</title>
-      <link>https://www.dotnetramblings.com/post/26_12_2025/26_12_2025_2/</link>
-      <pubDate>Fri, 26 Dec 2025 05:13:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_12_2025/26_12_2025_2/</guid>
-      <description>
-        
-          
-            Microsoft Azure resource naming conventions are one of those “small” DevOps and cloud infrastructure management disciplines that quietly determine whether your cloud estate stays governable at 50 resources—or collapses into entropy at 5,000 resources. In this article, you’ll build a repeatable, region-aware naming strategy using HashiCorp Terraform and the Build5Nines/naming/azure module (which wraps Microsoft’s Azure/naming/azurerm module) to generate compliant […] The article Implementing Azure Naming Conventions at Scale with Terraform and Build5Nines/naming/azure (AzureRM + Region Pairs) was originally published on Build5Nines.
           
           
         
