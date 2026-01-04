@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 03 Jan 2026 22:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jan 2026 07:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leveraging Span-Based String Concatenation for Improved Performance</title>
+      <link>https://www.dotnetramblings.com/post/04_01_2026/04_01_2026_0/</link>
+      <pubDate>Sun, 04 Jan 2026 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_01_2026/04_01_2026_0/</guid>
+      <description>
+        
+          
+            The excerpt from &amp;quot;Rock Your Code&amp;quot; emphasizes the importance of efficient string concatenation in .NET. It highlights the advantages of using the Span type over traditional methods, demonstrating that replacing Substring with AsSpan and leveraging the Concat function significantly enhances performance by 43 times while minimizing memory allocations.
+Link to article: https://dotnettips.wordpress.com/2026/01/04/leveraging-span-based-string-concatenation-for-improved-performance/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>New Years Resolutions For Developers - Dev Leader Weekly 121</title>
       <link>https://www.dotnetramblings.com/post/03_01_2026/03_01_2026_0/</link>
