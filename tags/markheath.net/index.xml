@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markheath.net on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/markheath.net/</link>
+    <description>Recent content in Markheath.net on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Thu, 08 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/markheath.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EF Core Lazy Loading Performance Gotcha</title>
+      <link>https://www.dotnetramblings.com/post/08_01_2026/08_01_2026_6/</link>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_01_2026/08_01_2026_6/</guid>
+      <description>
+        
+          
+            I was recently using EF Core&#39;s ILazyLoader for lazy loading without proxies, and ran into a performance issue that took me by surprise. When you call DbSet.Add() to add an entity to the context, EF Core immediately injects the lazy loader into your entity even before you&#39;ve called SaveChangesAsync(). This means if you navigate to a lazy-loaded navigation property before persisting, EF Core will try to query the database for related entities that don&#39;t exist yet.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
