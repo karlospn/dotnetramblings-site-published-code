@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 07 Jan 2026 18:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jan 2026 16:14:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Detect and redact personally identifiable information using Amazon Bedrock Data Automation and Guardrails</title>
+      <link>https://www.dotnetramblings.com/post/08_01_2026/08_01_2026_0/</link>
+      <pubDate>Thu, 08 Jan 2026 16:14:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_01_2026/08_01_2026_0/</guid>
+      <description>
+        
+          
+            This post shows an automated PII detection and redaction solution using Amazon Bedrock Data Automation and Amazon Bedrock Guardrails through a use case of processing text and image content in high volumes of incoming emails and attachments. The solution features a complete email processing workflow with a React-based user interface for authorized personnel to more securely manage and review redacted email communications and attachments. We walk through the step-by-step solution implementation procedures used to deploy this solution.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Speed meets scale: Load testing SageMakerAI endpoints with Observe.AI’s testing tool</title>
+      <link>https://www.dotnetramblings.com/post/08_01_2026/08_01_2026_1/</link>
+      <pubDate>Thu, 08 Jan 2026 16:12:15 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_01_2026/08_01_2026_1/</guid>
+      <description>
+        
+          
+            Observe.ai developed the One Load Audit Framework (OLAF), which integrates with SageMaker to identify bottlenecks and performance issues in ML services, offering latency and throughput measurements under both static and dynamic data loads. In this blog post, you will learn how to use the OLAF utility to test and validate your SageMaker endpoint.
+Link to article: https://aws.amazon.com/blogs/machine-learning/speed-meets-scale-load-testing-sagemakerai-endpoints-with-observe-ais-testing-tool/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Secure and Intelligent: Queryable Encryption and Vector Search in MongoDB EF Core Provider</title>
       <link>https://www.dotnetramblings.com/post/07_01_2026/07_01_2026_0/</link>
