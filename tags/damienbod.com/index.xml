@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 05 Jan 2026 06:16:14 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/damienbod.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jan 2026 06:29:40 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/damienbod.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing Level of Authentication (LoA) with ASP.NET Core Identity and Duende</title>
+      <link>https://www.dotnetramblings.com/post/12_01_2026/12_01_2026_0/</link>
+      <pubDate>Mon, 12 Jan 2026 06:29:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_01_2026/12_01_2026_0/</guid>
+      <description>
+        
+          
+            This post shows how to implement an application which requires a user to authenticate using passkeys. The identity provider returns three claims to prove the authentication level (loa), the identity level, (loi) and the amr claim showing the used authentication method. Code: https://github.com/swiss-ssi-group/swiyu-passkeys-idp-loi-loa Blogs in this series: The amr claim and the loa claim returns […]
+Link to article: https://damienbod.com/2026/01/12/implementing-level-of-authentication-loa-with-asp-net-core-identity-and-duende/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Set the amr claim when using passkeys authentication in ASP.NET Core</title>
       <link>https://www.dotnetramblings.com/post/05_01_2026/05_01_2026_5/</link>
