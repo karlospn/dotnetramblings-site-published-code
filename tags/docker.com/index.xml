@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 09 Jan 2026 16:11:53 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jan 2026 20:27:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Safer Docker Hub Pulls via a Sonatype-Protected Proxy</title>
+      <link>https://www.dotnetramblings.com/post/14_01_2026/14_01_2026_1/</link>
+      <pubDate>Wed, 14 Jan 2026 20:27:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_01_2026/14_01_2026_1/</guid>
+      <description>
+        
+          
+            Why a “protected repo”? Modern teams depend on public container images, yet most environments lack a single, auditable control point for what gets pulled and when. This often leads to three operational challenges: Inconsistent or improvised base images that drift across teams and pipelines. Exposure to new CVEs when tags remain unchanged but upstream content...
+Link to article: https://www.docker.com/blog/safer-docker-hub-pulls-via-a-sonatype-protected-proxy/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Security Is a Developer Experience Problem, Rooted in Our Foundations</title>
       <link>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_1/</link>
