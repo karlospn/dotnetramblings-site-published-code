@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 16 Jan 2026 19:34:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solving the Distributed Cache Invalidation Problem with Redis and HybridCache</title>
+      <link>https://www.dotnetramblings.com/post/17_01_2026/17_01_2026_0/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_01_2026/17_01_2026_0/</guid>
+      <description>
+        
+          
+            Learn how to solve the distributed cache invalidation problem in .NET 9 by implementing a Redis Pub/Sub backplane to synchronize HybridCache instances across multiple nodes.
+Link to article: https://www.milanjovanovic.tech/blog/solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>What&#39;s new with Azure Repos?</title>
       <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_0/</link>
@@ -1069,174 +1086,6 @@ Link to article: https://dotnettips.wordpress.com/2026/01/11/file-i-o-performanc
           
             Per-aggregate ordering is what we really want. But queues with competing consumers make it surprisingly easy to break. This article shows how the “fix” naturally evolves into a saga.
 Link to article: https://www.milanjovanovic.tech/blog/solving-message-ordering-from-first-principles 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerating LLM inference with post-training weight and activation using AWQ and GPTQ on Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_0/</link>
-      <pubDate>Fri, 09 Jan 2026 18:09:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_0/</guid>
-      <description>
-        
-          
-            Quantized models can be seamlessly deployed on Amazon SageMaker AI using a few lines of code. In this post, we explore why quantization matters—how it enables lower-cost inference, supports deployment on resource-constrained hardware, and reduces both the financial and environmental impact of modern LLMs, while preserving most of their original performance. We also take a deep dive into the principles behind PTQ and demonstrate how to quantize the model of your choice and deploy it on Amazon SageMaker.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Security Is a Developer Experience Problem, Rooted in Our Foundations</title>
-      <link>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_1/</link>
-      <pubDate>Fri, 09 Jan 2026 16:11:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_1/</guid>
-      <description>
-        
-          
-            For more than a decade, the industry has tried to improve software security by pushing it closer to developers. We moved scanners into CI, added security checks to pull requests, and asked teams to respond faster to an ever-growing stream of vulnerabilities. And yet, the underlying problems have not gone away. The issue is not...
-Link to article: https://www.docker.com/blog/security-is-a-developer-experience-problem-rooted-in-our-foundations/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Beekeeper optimized user personalization with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_2/</link>
-      <pubDate>Fri, 09 Jan 2026 16:10:52 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_2/</guid>
-      <description>
-        
-          
-            Beekeeper’s automated leaderboard approach and human feedback loop system for dynamic LLM and prompt pair selection addresses the key challenges organizations face in navigating the rapidly evolving landscape of language models.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-beekeeper-optimized-user-personalization-with-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Sentiment Analysis with Text and Audio Using AWS Generative AI Services: Approaches, Challenges, and Solutions</title>
-      <link>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_3/</link>
-      <pubDate>Fri, 09 Jan 2026 16:06:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_3/</guid>
-      <description>
-        
-          
-            This post, developed through a strategic scientific partnership between AWS and the Instituto de Ciência e Tecnologia Itaú (ICTi), P&amp;amp;D hub maintained by Itaú Unibanco, the largest private bank in Latin America, explores the technical aspects of sentiment analysis for both text and audio. We present experiments comparing multiple machine learning (ML) models and services, discuss the trade-offs and pitfalls of each approach, and highlight how AWS services can be orchestrated to build robust, end-to-end solutions.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Architecting TrueLook’s AI-powered construction safety system on Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_4/</link>
-      <pubDate>Fri, 09 Jan 2026 16:03:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_4/</guid>
-      <description>
-        
-          
-            This post provides a detailed architectural overview of how TrueLook built its AI-powered safety monitoring system using SageMaker AI, highlighting key technical decisions, pipeline design patterns, and MLOps best practices. You will gain valuable insights into designing scalable computer vision solutions on AWS, particularly around model training workflows, automated pipeline creation, and production deployment strategies for real-time inference.
-Link to article: https://aws.amazon.com/blogs/machine-learning/architecting-truelooks-ai-powered-construction-safety-system-on-amazon-sagemaker-ai/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using Active Accessibility to find out where the focus item is</title>
-      <link>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_5/</link>
-      <pubDate>Fri, 09 Jan 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_5/</guid>
-      <description>
-        
-          
-            Last time, we learned how to use Active Accessibility to find the caret, but what if the focus is not on an edit control? In that case, we want to find the focus object. GUITHREA
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260109-00/?p=111976 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why a Free Market Fire Department System Beats the Archaic Public Model</title>
-      <link>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_8/</link>
-      <pubDate>Fri, 09 Jan 2026 09:00:00 -0500</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_8/</guid>
-      <description>
-        
-          
-            By a devoted advocate for individual choice
-Introduction: Fire Protection, Reimagined 🚒 In a nation that prizes personal responsibility, it’s time to ask whether a single, taxpayer-funded fire department model still serves us best. A market of competing fire protection providers would let every household choose the coverage, response times, and perks that match their unique risk profile and budget. What’s more, it would allow individuals and households to prioritize how they want to spend their money, rather than leaving it up to big government and its known inefficiencies.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bringing Real Users Into a Product Team Gathering – A JetBrains Research Story</title>
-      <link>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_6/</link>
-      <pubDate>Fri, 09 Jan 2026 12:37:47 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_6/</guid>
-      <description>
-        
-          
-            In product development, assumptions about how people will use a tool don’t always align with the practical reality. Last spring, during a gathering of our Junie team, we set out to bridge that gap by trying something new. We ran two hands-on user workshops – one online and another in our Belgrade office. For the […]
-Link to article: https://blog.jetbrains.com/research/2026/01/bringing-real-users-into-a-product-team-gathering-a-jetbrains-research-story/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>OpenAI and SoftBank Group partner with SB Energy</title>
-      <link>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_7/</link>
-      <pubDate>Fri, 09 Jan 2026 11:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_7/</guid>
-      <description>
-        
-          
-            OpenAI and SoftBank Group partner with SB Energy to develop multi-gigawatt AI data center campuses, including a 1.2 GW Texas facility supporting the Stargate initiative.
-Link to article: https://openai.com/index/stargate-sb-energy-partnership 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Datadog uses Codex for system-level code review</title>
-      <link>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_9/</link>
-      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_01_2026/09_01_2026_9/</guid>
-      <description>
-        
-          
-            OpenAI and Datadog brand graphic with the OpenAI wordmark on the left, the Datadog logo on the right, and a central abstract brown fur-like texture panel on a white background.
-Link to article: https://openai.com/index/datadog 
           
           
         
