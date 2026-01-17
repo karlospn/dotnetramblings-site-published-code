@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Devleader.ca | .NET Ramblings</title>
+<title>Solving the Distributed Cache Invalidation Problem with Redis and HybridCache | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Learn how to solve the distributed cache invalidation problem in .NET 9 by implementing a Redis Pub/Sub backplane to synchronize HybridCache instances across …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Devleader.ca" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/devleader.ca/" />
-<meta property="og:title" content="Devleader.ca" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Solving the Distributed Cache Invalidation Problem with Redis and HybridCache" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/17_01_2026/17_01_2026_2/" />
+<meta property="og:title" content="Solving the Distributed Cache Invalidation Problem with Redis and HybridCache" />
+<meta property="og:description" content="Learn how to solve the distributed cache invalidation problem in .NET 9 by implementing a Redis Pub/Sub backplane to synchronize HybridCache instances across …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/devleader.ca/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/devleader.ca/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/17_01_2026/17_01_2026_2/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/01/17/building-software-outside-of-work-dev-leader-weekly-123" title="Building Software Outside of Work - Dev Leader Weekly 123">Building Software Outside of Work - Dev Leader Weekly 123</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Solving the Distributed Cache Invalidation Problem with Redis and HybridCache</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,235 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Jan 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
+      Jan 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Building Software Outside of Work - Dev Leader Weekly 123"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Welcome to another issue of Dev Leader Weekly! In this issue, I discuss how and why to build software outside of work as a software developer!
-Link to article: <a href="https://www.devleader.ca/2026/01/17/building-software-outside-of-work-dev-leader-weekly-123">https://www.devleader.ca/2026/01/17/building-software-outside-of-work-dev-leader-weekly-123</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/01/17/building-software-outside-of-work-dev-leader-weekly-123" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/01/17/weekly-recap-20260116" title="Weekly Recap - 2026-01-16">Weekly Recap - 2026-01-16</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Learn how to solve the distributed cache invalidation problem in .NET 9 by implementing a Redis Pub/Sub backplane to synchronize HybridCache instances across multiple nodes.</p>
+<ul>
+<li>Link to article: <a href="https://www.milanjovanovic.tech/blog/solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache">https://www.milanjovanovic.tech/blog/solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Weekly Recap - 2026-01-16"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Check out this week from Dev Leader! Here's a list including articles and videos on software engineering, career development, and programming in C#!
-Link to article: <a href="https://www.devleader.ca/2026/01/17/weekly-recap-20260116">https://www.devleader.ca/2026/01/17/weekly-recap-20260116</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/01/17/weekly-recap-20260116" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/01/12/faang-interview-tips-dev-leader-weekly-122" title="FAANG Interview Tips - Dev Leader Weekly 122">FAANG Interview Tips - Dev Leader Weekly 122</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 12, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="FAANG Interview Tips - Dev Leader Weekly 122"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Welcome to another issue of Dev Leader Weekly! In this issue, I discuss my tips for prepping for FAANG interviews!
-Link to article: <a href="https://www.devleader.ca/2026/01/12/faang-interview-tips-dev-leader-weekly-122">https://www.devleader.ca/2026/01/12/faang-interview-tips-dev-leader-weekly-122</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/01/12/faang-interview-tips-dev-leader-weekly-122" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/01/12/weekly-recap-20260109" title="Weekly Recap - 2026-01-09">Weekly Recap - 2026-01-09</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 12, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Weekly Recap - 2026-01-09"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Check out this week from Dev Leader! Here's a list including articles and videos on software engineering, career development, and programming in C#!
-Link to article: <a href="https://www.devleader.ca/2026/01/12/weekly-recap-20260109">https://www.devleader.ca/2026/01/12/weekly-recap-20260109</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/01/12/weekly-recap-20260109" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -393,9 +184,8 @@ Link to article: <a href="https://www.devleader.ca/2026/01/12/weekly-recap-20260
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
