@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Platform Debugger Architecture Redesign for Remote Development in 2026.1 | .NET Ramblings</title>
+<title>Retrieve method source file location at runtime using Portable PDBs in .NET | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="The IntelliJ Platform provides a powerful debugger framework that plugins can extend to support various programming languages and runtime environments. To …" />
+<meta name="description" content="When debugging or logging, you often need to know where a method is defined in your source code. While .NET provides caller information attributes like …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Platform Debugger Architecture Redesign for Remote Development in 2026.1" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta name="twitter:title" content="Retrieve method source file location at runtime using Portable PDBs in .NET" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/19_01_2026/19_01_2026_2/" />
-<meta property="og:title" content="Platform Debugger Architecture Redesign for Remote Development in 2026.1" />
-<meta property="og:description" content="The IntelliJ Platform provides a powerful debugger framework that plugins can extend to support various programming languages and runtime environments. To …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta property="og:title" content="Retrieve method source file location at runtime using Portable PDBs in .NET" />
+<meta property="og:description" content="When debugging or logging, you often need to know where a method is defined in your source code. While .NET provides caller information attributes like …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Platform Debugger Architecture Redesign for Remote Development in 2026.1</h1>
+    <h1 class="post_title">Retrieve method source file location at runtime using Portable PDBs in .NET</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Jan 19, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Jan 19, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>The IntelliJ Platform provides a powerful debugger framework that plugins can extend to support various programming languages and runtime environments. To enable remote development scenarios – where the IDE interface runs on your local machine while code executes on a remote server – we’ve redesigned the debugger architecture. This guide walks you through the changes […]</p>
+    <div class="post_body"><p>When debugging or logging, you often need to know where a method is defined in your source code. While .NET provides caller information attributes like [CallerMemberName], [CallerFilePath], and [CallerLineNumber], these only work at compile-time and require you to add parameters to your methods. What if you want to retrieve source file information for any method at runtime? In this post, I'll show you how…</p>
 <ul>
-<li>Link to article: <a href="https://blog.jetbrains.com/platform/2026/01/platform-debugger-architecture-redesign-for-remote-development-in-2026-1/">https://blog.jetbrains.com/platform/2026/01/platform-debugger-architecture-redesign-for-remote-development-in-2026-1/</a></li>
+<li>Link to article: <a href="https://www.meziantou.net/retrieve-method-source-file-location-at-runtime-using-portable-pdbs-in-dotnet.htm?utm_medium=social&utm_source=syndication">https://www.meziantou.net/retrieve-method-source-file-location-at-runtime-using-portable-pdbs-in-dotnet.htm?utm_medium=social&utm_source=syndication</a></li>
 </ul>
 
     </div>
