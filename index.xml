@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 19 Jan 2026 04:16:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>🚀React Native Windows v0.81 is here!!</title>
+      <title>Retrieve method source file location at runtime using Portable PDBs in .NET</title>
       <link>https://www.dotnetramblings.com/post/19_01_2026/19_01_2026_0/</link>
-      <pubDate>Mon, 19 Jan 2026 04:16:37 +0000</pubDate>
+      <pubDate>Mon, 19 Jan 2026 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/19_01_2026/19_01_2026_0/</guid>
+      <description>
+        
+          
+            When debugging or logging, you often need to know where a method is defined in your source code. While .NET provides caller information attributes like [CallerMemberName], [CallerFilePath], and [CallerLineNumber], these only work at compile-time and require you to add parameters to your methods. What if you want to retrieve source file information for any method at runtime? In this post, I&#39;ll show you how…
+Link to article: https://www.meziantou.net/retrieve-method-source-file-location-at-runtime-using-portable-pdbs-in-dotnet.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Platform Debugger Architecture Redesign for Remote Development in 2026.1</title>
+      <link>https://www.dotnetramblings.com/post/19_01_2026/19_01_2026_1/</link>
+      <pubDate>Mon, 19 Jan 2026 11:15:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_01_2026/19_01_2026_1/</guid>
+      <description>
+        
+          
+            The IntelliJ Platform provides a powerful debugger framework that plugins can extend to support various programming languages and runtime environments. To enable remote development scenarios – where the IDE interface runs on your local machine while code executes on a remote server – we’ve redesigned the debugger architecture. This guide walks you through the changes […]
+Link to article: https://blog.jetbrains.com/platform/2026/01/platform-debugger-architecture-redesign-for-remote-development-in-2026-1/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>🚀React Native Windows v0.81 is here!!</title>
+      <link>https://www.dotnetramblings.com/post/19_01_2026/19_01_2026_2/</link>
+      <pubDate>Mon, 19 Jan 2026 04:16:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_01_2026/19_01_2026_2/</guid>
       <description>
         
           
