@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 23 Jan 2026 17:54:02 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Practical Demo of Zero-Downtime Migrations Using Password Hashing</title>
+      <link>https://www.dotnetramblings.com/post/24_01_2026/24_01_2026_0/</link>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_01_2026/24_01_2026_0/</guid>
+      <description>
+        
+          
+            A practical demo of the zero-downtime migration pattern: run old + new password hash formats side-by-side, migrate users on login, and remove legacy safely.
+Link to article: https://www.milanjovanovic.tech/blog/a-practical-demo-of-zero-downtime-migrations-using-password-hashing 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build AI agents with Amazon Bedrock AgentCore using AWS CloudFormation</title>
       <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_0/</link>
@@ -1106,225 +1123,6 @@ Link to article: https://www.devleader.ca/2026/01/17/weekly-recap-20260116
           
             Learn how to solve the distributed cache invalidation problem in .NET 9 by implementing a Redis Pub/Sub backplane to synchronize HybridCache instances across multiple nodes.
 Link to article: https://www.milanjovanovic.tech/blog/solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What&#39;s new with Azure Repos?</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_0/</link>
-      <pubDate>Fri, 16 Jan 2026 19:34:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_0/</guid>
-      <description>
-        
-          
-            We thought it was a good time to check in and highlight some of the work happening in Azure Repos. In this post, we’ve covered several recent improvements, along with a preview of features that are coming soon. To stay up to date, be sure to visit the
-Link to article: https://devblogs.microsoft.com/devops/whats-new-with-azure-repos 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Advanced fine-tuning techniques for multi-agent orchestration: Patterns from Amazon at scale</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_1/</link>
-      <pubDate>Fri, 16 Jan 2026 15:51:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_1/</guid>
-      <description>
-        
-          
-            In this post, we show you how fine-tuning enabled a 33% reduction in dangerous medication errors (Amazon Pharmacy), engineering 80% human effort reduction (Amazon Global Engineering Services), and content quality assessments improving 77% to 96% accuracy (Amazon A+). This post details the techniques behind these outcomes: from foundational methods like Supervised Fine-Tuning (SFT) (instruction tuning), and Proximal Policy Optimization (PPO), to Direct Preference Optimization (DPO) for human alignment, to cutting-edge reasoning optimizations such as Grouped-based Reinforcement Learning from Policy Optimization (GRPO), Direct Advantage Policy Optimization (DAPO), and Group Sequence Policy Optimization (GSPO) purpose-built for agentic systems.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Palo Alto Networks enhanced device security infra log analysis with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_2/</link>
-      <pubDate>Fri, 16 Jan 2026 15:46:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_2/</guid>
-      <description>
-        
-          
-            Palo Alto Networks’ Device Security team wanted to detect early warning signs of potential production issues to provide more time to SMEs to react to these emerging problems. They partnered with the AWS Generative AI Innovation Center (GenAIIC) to develop an automated log classification pipeline powered by Amazon Bedrock. In this post, we discuss how Amazon Bedrock, through Anthropic’ s Claude Haiku model, and Amazon Titan Text Embeddings work together to automatically classify and analyze log data.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>From beginner to champion: A student’s journey through the AWS AI League ASEAN finals</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_3/</link>
-      <pubDate>Fri, 16 Jan 2026 15:41:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_3/</guid>
-      <description>
-        
-          
-            The AWS AI League, launched by Amazon Web Services (AWS), expanded its reach to the Association of Southeast Asian Nations (ASEAN) last year, welcoming student participants from Singapore, Indonesia, Malaysia, Thailand, Vietnam, and the Philippines. In this blog post, you’ll hear directly from the AWS AI League champion, Blix D. Foryasen, as he shares his reflection on the challenges, breakthroughs, and key lessons discovered throughout the competition.
-Link to article: https://aws.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deploy AI agents on Amazon Bedrock AgentCore using GitHub Actions</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_4/</link>
-      <pubDate>Fri, 16 Jan 2026 15:37:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_4/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to use a GitHub Actions workflow to automate the deployment of AI agents on AgentCore Runtime. This approach delivers a scalable solution with enterprise-level security controls, providing complete continuous integration and delivery (CI/CD) automation.
-Link to article: https://aws.amazon.com/blogs/machine-learning/deploy-ai-agents-on-amazon-bedrock-agentcore-using-github-actions/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How can I get the tab index number from a dialog box control?</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_5/</link>
-      <pubDate>Fri, 16 Jan 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_5/</guid>
-      <description>
-        
-          
-            A customer wanted to retrieve the TabIndex of a dialog box control. They were able to get its class name and
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260116-00/?p=111991 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Making (Very) Small LLMs Smarter</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_6/</link>
-      <pubDate>Fri, 16 Jan 2026 13:47:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_6/</guid>
-      <description>
-        
-          
-            Hello, I’m Philippe, and I am a Principal Solutions Architect helping customers with their usage of Docker. I started getting seriously interested in generative AI about two years ago. What interests me most is the ability to run language models (LLMs) directly on my laptop (For work, I have a MacBook Pro M2 max, but...
-Link to article: https://www.docker.com/blog/making-small-llms-smarter/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Part 1: Building Your First Serverless HTTP API on Azure with Azure Functions &amp; FastAPI</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_7/</link>
-      <pubDate>Fri, 16 Jan 2026 12:00:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_7/</guid>
-      <description>
-        
-          
-            Introduction This post is Part 1 of the series Serverless Application Development with Azure Functions and Az
-Link to article: https://devblogs.microsoft.com/cosmosdb/building-your-first-serverless-http-api-on-azure-with-azure-functions-fastapi 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The truth left out from Elon Musk’s recent court filing</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_8/</link>
-      <pubDate>Fri, 16 Jan 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_8/</guid>
-      <description>
-        
-          
-            The truth left out from Elon Musk’s recent court filing.
-Link to article: https://openai.com/index/the-truth-elon-left-out 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Update your Kotlin projects for Android Gradle Plugin 9.0</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_9/</link>
-      <pubDate>Fri, 16 Jan 2026 10:30:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_9/</guid>
-      <description>
-        
-          
-            Android Gradle plugin 9.0 is now available, and it includes two major changes that will affect existing Kotlin projects: This post provides some details about these changes and points you to the resources that you’ll need to update your existing projects. You’ll also need to update tools and plugins that depend on AGP to their […]
-Link to article: https://blog.jetbrains.com/kotlin/2026/01/update-your-projects-for-agp9/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Evaluate Small Language Model Function Calling using the Azure AI Evaluation SDK</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_10/</link>
-      <pubDate>Fri, 16 Jan 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_10/</guid>
-      <description>
-        
-          
-            Introduction In recent years, Small Language Models (SLMs) have become increasingly important. SLMs are language models with far fewer parameters and use significantly fewer resources than their Large Language Model (LLM) counterparts, while still achieving comparable performance in specific tasks. SLMs are ideal for environments wh
-Link to article: https://devblogs.microsoft.com/ise/slm-function-calling-with-azure-ai-evaluation-sdk 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing ChatGPT Go, now available worldwide</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_12/</link>
-      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_12/</guid>
-      <description>
-        
-          
-            ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally.
-Link to article: https://openai.com/index/introducing-chatgpt-go 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Our approach to advertising and expanding access to ChatGPT</title>
-      <link>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_11/</link>
-      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_01_2026/16_01_2026_11/</guid>
-      <description>
-        
-          
-            OpenAI plans to test advertising in the U.S. for ChatGPT’s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality.
-Link to article: https://openai.com/index/our-approach-to-advertising-and-expanding-access 
           
           
         
