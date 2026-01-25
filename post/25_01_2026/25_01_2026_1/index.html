@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Devleader.ca | .NET Ramblings</title>
+<title>String Performance: The Fastest Way to Get a String’s Length | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Retrieving the character count of a string in .NET has various methods: using Span with Length, Length, or Enumerable.Count(). This article will prove which is …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Devleader.ca" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/devleader.ca/" />
-<meta property="og:title" content="Devleader.ca" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="String Performance: The Fastest Way to Get a String’s Length" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/25_01_2026/25_01_2026_1/" />
+<meta property="og:title" content="String Performance: The Fastest Way to Get a String’s Length" />
+<meta property="og:description" content="Retrieving the character count of a string in .NET has various methods: using Span with Length, Length, or Enumerable.Count(). This article will prove which is …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/devleader.ca/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/devleader.ca/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/25_01_2026/25_01_2026_1/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/01/25/should-software-engineers-create-content-as-a-side-hustle" title="Should Software Engineers Create Content as a Side Hustle?">Should Software Engineers Create Content as a Side Hustle?</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">String Performance: The Fastest Way to Get a String’s Length</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,235 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Jan 25, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
+      Jan 25, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Should Software Engineers Create Content as a Side Hustle?"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Should software engineers create content as a side hustle? After 13 years and a 10-year break, here's the honest truth about what it actually takes.
-Link to article: <a href="https://www.devleader.ca/2026/01/25/should-software-engineers-create-content-as-a-side-hustle">https://www.devleader.ca/2026/01/25/should-software-engineers-create-content-as-a-side-hustle</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/01/25/should-software-engineers-create-content-as-a-side-hustle" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/01/24/lets-check-out-copilot-cli-dev-leader-weekly-124" title="Let&#39;s Check Out Copilot CLI - Dev Leader Weekly 124">Let's Check Out Copilot CLI - Dev Leader Weekly 124</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 24, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Retrieving the character count of a string in .NET has various methods: using Span with Length, Length, or Enumerable.Count().  This article will prove which is the fastest method.</p>
+<ul>
+<li>Link to article: <a href="https://dotnettips.wordpress.com/2026/01/25/string-performance-the-fastest-way-to-get-a-strings-length/">https://dotnettips.wordpress.com/2026/01/25/string-performance-the-fastest-way-to-get-a-strings-length/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Let&amp;#39;s Check Out Copilot CLI - Dev Leader Weekly 124"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/devops.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Welcome to another issue of Dev Leader Weekly! In this issue, I discuss the Github Copilot CLI tool and how you can get started with it!
-Link to article: <a href="https://www.devleader.ca/2026/01/24/lets-check-out-copilot-cli-dev-leader-weekly-124">https://www.devleader.ca/2026/01/24/lets-check-out-copilot-cli-dev-leader-weekly-124</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/01/24/lets-check-out-copilot-cli-dev-leader-weekly-124" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/01/24/weekly-recap-20260124" title="Weekly Recap - 2026-01-24">Weekly Recap - 2026-01-24</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 24, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Weekly Recap - 2026-01-24"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Check out this week from Dev Leader! Here's a list including articles and videos on software engineering, career development, and programming in C#!
-Link to article: <a href="https://www.devleader.ca/2026/01/24/weekly-recap-20260124">https://www.devleader.ca/2026/01/24/weekly-recap-20260124</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/01/24/weekly-recap-20260124" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/01/18/getting-started-with-ai-coding-tools-a-developers-practical-guide" title="Getting Started with AI Coding Tools - A Developer&#39;s Practical Guide">Getting Started with AI Coding Tools - A Developer's Practical Guide</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 18, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Getting Started with AI Coding Tools - A Developer&amp;#39;s Practical Guide"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Looking to get started using AI tools for building software but feeling left behind? Here's a primer on AI-assisted development concepts to get you started!
-Link to article: <a href="https://www.devleader.ca/2026/01/18/getting-started-with-ai-coding-tools-a-developers-practical-guide">https://www.devleader.ca/2026/01/18/getting-started-with-ai-coding-tools-a-developers-practical-guide</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/01/18/getting-started-with-ai-coding-tools-a-developers-practical-guide" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -393,9 +184,8 @@ Link to article: <a href="https://www.devleader.ca/2026/01/18/getting-started-wi
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
