@@ -94,6 +94,23 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/sharepoint-frame
     </item>
     
     <item>
+      <title>Why did I lose the data even though I called &lt;code&gt;Safe­Array­Add­Ref&lt;/code&gt;?</title>
+      <link>https://www.dotnetramblings.com/post/28_01_2026/28_01_2026_5/</link>
+      <pubDate>Wed, 28 Jan 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_01_2026/28_01_2026_5/</guid>
+      <description>
+        
+          
+            A customer had a method that received a SAFEARRAY, and they called Safe­Array­Add­Ref to add a reference to it so that they could continue using the array after the method returned, but they found that if they tried to use the array later, the safearray-&amp;gt;pData was NULL, and if they c
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260128-00/?p=112021 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>GitHub Copilot app modernization for C&#43;&#43; is now in Public Preview</title>
       <link>https://www.dotnetramblings.com/post/27_01_2026/27_01_2026_0/</link>
       <pubDate>Tue, 27 Jan 2026 22:31:57 +0000</pubDate>
