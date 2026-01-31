@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 30 Jan 2026 21:07:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Containerize Your .NET Applications Without a Dockerfile</title>
+      <link>https://www.dotnetramblings.com/post/31_01_2026/31_01_2026_0/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/31_01_2026/31_01_2026_0/</guid>
+      <description>
+        
+          
+            Learn how to containerize .NET applications without writing a single line of Dockerfile. The .NET SDK has built-in support for publishing directly to container images.
+Link to article: https://www.milanjovanovic.tech/blog/containerize-your-dotnet-applications-without-a-dockerfile 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Evaluating generative AI models with Amazon Nova LLM-as-a-Judge on Amazon SageMaker AI</title>
       <link>https://www.dotnetramblings.com/post/30_01_2026/30_01_2026_0/</link>
@@ -1121,193 +1138,6 @@ Link to article: https://www.devleader.ca/2026/01/24/weekly-recap-20260124
           
             A practical demo of the zero-downtime migration pattern: run old + new password hash formats side-by-side, migrate users on login, and remove legacy safely.
 Link to article: https://www.milanjovanovic.tech/blog/a-practical-demo-of-zero-downtime-migrations-using-password-hashing 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build AI agents with Amazon Bedrock AgentCore using AWS CloudFormation</title>
-      <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_0/</link>
-      <pubDate>Fri, 23 Jan 2026 17:54:02 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_0/</guid>
-      <description>
-        
-          
-            Amazon Bedrock AgentCore services are now being supported by various IaC frameworks such as AWS Cloud Development Kit (AWS CDK), Terraform and AWS CloudFormation Templates. This integration brings the power of IaC directly to AgentCore so developers can provision, configure, and manage their AI agent infrastructure. In this post, we use CloudFormation templates to build an end-to-end application for a weather activity planner.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-ai-agents-with-amazon-bedrock-agentcore-using-aws-cloudformation/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How the Amazon.com Catalog Team built self-learning generative AI at scale with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_1/</link>
-      <pubDate>Fri, 23 Jan 2026 17:49:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_1/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how the Amazon Catalog Team built a self-learning system that continuously improves accuracy while reducing costs at scale using Amazon Bedrock.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-the-amazon-com-catalog-team-built-self-learning-generative-ai-at-scale-with-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Cosmos DB TV Recap: Supercharging AI Agents with the Azure Cosmos DB MCP Toolkit (Ep. 110)</title>
-      <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_2/</link>
-      <pubDate>Fri, 23 Jan 2026 16:30:02 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_2/</guid>
-      <description>
-        
-          
-            In Episode 110 of Azure Cosmos DB TV, host Mark Brown is joined by Sajeetharan Sinnathurai to explore how the Azure Cosmos DB MCP Toolkit is changing the way developers build, deploy, and scale AI age
-Link to article: https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-tv-ep-110-mcp-toolkit-ai-agents 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Spring Boot Debugging – Now Remote</title>
-      <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_3/</link>
-      <pubDate>Fri, 23 Jan 2026 16:17:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_3/</guid>
-      <description>
-        
-          
-            We released Spring Debugger in May 2025 to bring more clarity to the “magic” behind Spring Boot – helping you see what’s really happening inside your running application. By the end of 2025, the plugin had reached more than 300,000 unique downloads and became a trusted tool within the developer community. We’ve received a lot […]
-Link to article: https://blog.jetbrains.com/idea/2026/01/spring-boot-debugging-now-remote/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bringing work context to your code in GitHub Copilot</title>
-      <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_4/</link>
-      <pubDate>Fri, 23 Jan 2026 15:00:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_4/</guid>
-      <description>
-        
-          
-            This week we shipped the GitHub Copilot SDK which takes the agent loop from the Copilot CLI and makes it easy to embed in other applications. We’ve been using, improving, and extending Copilot CLI for the last few months and
-Link to article: https://devblogs.microsoft.com/blog/bringing-work-context-to-your-code-in-github-copilot 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>C&#43;&#43; has &lt;code&gt;scope_exit&lt;/code&gt; for running code at scope exit. C# says &#34;We have &lt;code&gt;scope_exit&lt;/code&gt; at home.&#34;</title>
-      <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_5/</link>
-      <pubDate>Fri, 23 Jan 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_5/</guid>
-      <description>
-        
-          
-            The Windows Implementation Library (commonly known as wil) provides a helper called scope_exit which creates and returns an RAII object whose destructor runs the lambda you specify. This helper
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260123-00/?p=112008 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Ktor 3.4.0 Is Now Available!</title>
-      <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_6/</link>
-      <pubDate>Fri, 23 Jan 2026 14:05:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_6/</guid>
-      <description>
-        
-          
-            Ktor 3.4.0 improves stability and addresses outstanding issues. Highlights include OpenAPI generation, Ztsd support for the compression plugin, duplex streaming for OkHttp, Structured concurrency integrations for the HTTP request lifecycle, and much more. For a detailed list of all the changes, check out the What’s new page. Stability and performance With its focus on stability […]
-Link to article: https://blog.jetbrains.com/kotlin/2026/01/ktor-3-4-0-is-now-available/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Automate Arm Migration with Docker MCP Toolkit, VS Code, and GitHub Copilot</title>
-      <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_7/</link>
-      <pubDate>Fri, 23 Jan 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_7/</guid>
-      <description>
-        
-          
-            This post is a collaboration between Docker and Arm, demonstrating how Docker MCP Toolkit and the Arm MCP Server work together to simplify architecture migrations. Moving workloads from x86 to Arm64 architecture has become increasingly important. Organizations seek to reduce cloud costs and improve performance. AWS Graviton, Azure Cobalt, and Google Cloud Axion have made...
-Link to article: https://www.docker.com/blog/automate-arm-migration-docker-mcp-copilot/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Exposed 1.0 Is Now Available</title>
-      <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_8/</link>
-      <pubDate>Fri, 23 Jan 2026 13:07:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_8/</guid>
-      <description>
-        
-          
-            This is the first major release of Exposed – a huge milestone for both the project and the Exposed team! This release brings many new exciting features, the most requested being R2DBC support, as well as performance enhancements and bug fixes. Exposed 1.0 also introduces a stable API that guarantees no breaking changes until the […]
-Link to article: https://blog.jetbrains.com/kotlin/2026/01/exposed-1-0-is-now-available/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Unrolling the Codex agent loop</title>
-      <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_9/</link>
-      <pubDate>Fri, 23 Jan 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_9/</guid>
-      <description>
-        
-          
-            A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.
-Link to article: https://openai.com/index/unrolling-the-codex-agent-loop 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bridging Local Development and Cloud Evaluation: Using Microsoft Devtunnels with Azure Machine Learning</title>
-      <link>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_10/</link>
-      <pubDate>Fri, 23 Jan 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_01_2026/23_01_2026_10/</guid>
-      <description>
-        
-          
-            Introduction Picture this scenario: you&#39;ve implemented a critical fix in your AI service and want to validate it against your comprehensive evaluation dataset. However, the prospect of deploying to Azure for a quick test creates an unwelcome delay in your development cycle. This challenge is common among AI developers. When develo
-Link to article: https://devblogs.microsoft.com/ise/bridging-local-development-cloud-evaluation-devtunnels-azure-ml 
           
           
         
