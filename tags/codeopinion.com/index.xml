@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codeopinion.com on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/codeopinion.com/</link>
+    <description>Recent content in Codeopinion.com on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Wed, 04 Feb 2026 13:56:35 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/codeopinion.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your Idempotent Code Is Lying To You</title>
+      <link>https://www.dotnetramblings.com/post/04_02_2026/04_02_2026_1/</link>
+      <pubDate>Wed, 04 Feb 2026 13:56:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_02_2026/04_02_2026_1/</guid>
+      <description>
+        
+          
+            You have some code that handles placing an order. This could be an HTTP API or a message handler. You made it idempotent. You added a unique constraint on some kind of message ID. And somehow… you still end up double charging the customer’s credit card. YouTube Check out my YouTube channel, where I post all kinds… Read More »Your Idempotent Code Is Lying To You The post Your Idempotent Code Is Lying To You appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
