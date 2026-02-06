@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Devleader.ca | .NET Ramblings</title>
+<title>Enable Soft Delete in Azure SQL | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Sometimes applications need to remove data without actually losing it. Soft delete keeps rows in the database while making them invisible to normal application …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Devleader.ca" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/devleader.ca/" />
-<meta property="og:title" content="Devleader.ca" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Enable Soft Delete in Azure SQL" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/azure.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_1/" />
+<meta property="og:title" content="Enable Soft Delete in Azure SQL" />
+<meta property="og:description" content="Sometimes applications need to remove data without actually losing it. Soft delete keeps rows in the database while making them invisible to normal application …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/azure.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/devleader.ca/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/devleader.ca/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_1/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/02/06/abstract-factory-design-pattern-in-c-complete-guide-with-examples" title="Abstract Factory Design Pattern in C#: Complete Guide with Examples">Abstract Factory Design Pattern in C#: Complete Guide with Examples</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Enable Soft Delete in Azure SQL</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,351 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Feb 6, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
+      Feb 6, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Abstract Factory Design Pattern in C#: Complete Guide with Examples"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Master the Abstract Factory design pattern in C# with complete code examples, real-world scenarios, and practical implementation guidance for creating families of related objects.
-Link to article: <a href="https://www.devleader.ca/2026/02/06/abstract-factory-design-pattern-in-c-complete-guide-with-examples">https://www.devleader.ca/2026/02/06/abstract-factory-design-pattern-in-c-complete-guide-with-examples</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/02/06/abstract-factory-design-pattern-in-c-complete-guide-with-examples" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/02/05/getting-started-with-needlr-fluent-di-for-net-applications" title="Getting Started with Needlr: Fluent DI for .NET Applications">Getting Started with Needlr: Fluent DI for .NET Applications</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Feb 5, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Sometimes applications need to remove data without actually losing it. Soft delete keeps rows in the database while making them invisible to normal application access. This is especially valuable when exposing a database to an AI agent through an MCP server like SQL MCP Server, where safety and reversibility matter. L</p>
+<ul>
+<li>Link to article: <a href="https://devblogs.microsoft.com/azure-sql/soft-delete-in-azure-sql">https://devblogs.microsoft.com/azure-sql/soft-delete-in-azure-sql</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Getting Started with Needlr: Fluent DI for .NET Applications"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Learn how to install and configure Needlr for dependency injection in .NET with step-by-step setup, NuGet packages, and your first fluent DI application.
-Link to article: <a href="https://www.devleader.ca/2026/02/05/getting-started-with-needlr-fluent-di-for-net-applications">https://www.devleader.ca/2026/02/05/getting-started-with-needlr-fluent-di-for-net-applications</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/02/05/getting-started-with-needlr-fluent-di-for-net-applications" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/02/04/these-junior-developers-suck-they-just-dont-understand-my-code" title="These Junior Developers SUCK! They Just Don&#39;t Understand My Code!">These Junior Developers SUCK! They Just Don't Understand My Code!</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Feb 4, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="These Junior Developers SUCK! They Just Don&amp;#39;t Understand My Code!"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>When junior developers struggle with code reviews, the solution isn't to avoid them—it's to invest in their growth. Learn how to slow down to speed up by building your team's skills.
-Link to article: <a href="https://www.devleader.ca/2026/02/04/these-junior-developers-suck-they-just-dont-understand-my-code">https://www.devleader.ca/2026/02/04/these-junior-developers-suck-they-just-dont-understand-my-code</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/02/04/these-junior-developers-suck-they-just-dont-understand-my-code" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/02/03/automatic-dependency-injection-in-c-the-complete-guide-to-needlr" title="Automatic Dependency Injection in C#: The Complete Guide to Needlr">Automatic Dependency Injection in C#: The Complete Guide to Needlr</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Feb 3, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Automatic Dependency Injection in C#: The Complete Guide to Needlr"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Learn how Needlr simplifies dependency injection in C# with automatic service discovery, source generation, and a fluent API for .NET applications.
-Link to article: <a href="https://www.devleader.ca/2026/02/03/automatic-dependency-injection-in-c-the-complete-guide-to-needlr">https://www.devleader.ca/2026/02/03/automatic-dependency-injection-in-c-the-complete-guide-to-needlr</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/02/03/automatic-dependency-injection-in-c-the-complete-guide-to-needlr" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/01/31/side-projects-and-soft-skills-in-interviews-dev-leader-weekly-125" title="Side Projects and Soft Skills in Interviews - Dev Leader Weekly 125">Side Projects and Soft Skills in Interviews - Dev Leader Weekly 125</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 31, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Side Projects and Soft Skills in Interviews - Dev Leader Weekly 125"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Welcome to another issue of Dev Leader Weekly! In this issue, I discuss interviews with a focus on side projects and soft skills.
-Link to article: <a href="https://www.devleader.ca/2026/01/31/side-projects-and-soft-skills-in-interviews-dev-leader-weekly-125">https://www.devleader.ca/2026/01/31/side-projects-and-soft-skills-in-interviews-dev-leader-weekly-125</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/01/31/side-projects-and-soft-skills-in-interviews-dev-leader-weekly-125" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/01/31/weekly-recap-20260131" title="Weekly Recap - 2026-01-31">Weekly Recap - 2026-01-31</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jan 31, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Weekly Recap - 2026-01-31"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Check out this week from Dev Leader! Here's a list including articles and videos on software engineering, career development, and programming in C#!
-Link to article: <a href="https://www.devleader.ca/2026/01/31/weekly-recap-20260131">https://www.devleader.ca/2026/01/31/weekly-recap-20260131</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/01/31/weekly-recap-20260131" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -509,9 +184,8 @@ Link to article: <a href="https://www.devleader.ca/2026/01/31/weekly-recap-20260
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
