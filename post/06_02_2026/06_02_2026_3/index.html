@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Masking Sensitive Data in Azure SQL | .NET Ramblings</title>
+<title>Enable Soft Delete in Azure SQL | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Applications often need access to data without needing access to everything. Social Security numbers, email addresses, and phone numbers are common examples. …" />
+<meta name="description" content="Sometimes applications need to remove data without actually losing it. Soft delete keeps rows in the database while making them invisible to normal application …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Masking Sensitive Data in Azure SQL" />
+<meta name="twitter:title" content="Enable Soft Delete in Azure SQL" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/azure.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_1/" />
-<meta property="og:title" content="Masking Sensitive Data in Azure SQL" />
-<meta property="og:description" content="Applications often need access to data without needing access to everything. Social Security numbers, email addresses, and phone numbers are common examples. …" />
+<meta property="og:url" content="https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_3/" />
+<meta property="og:title" content="Enable Soft Delete in Azure SQL" />
+<meta property="og:description" content="Sometimes applications need to remove data without actually losing it. Soft delete keeps rows in the database while making them invisible to normal application …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/azure.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -43,7 +43,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_1/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_3/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Masking Sensitive Data in Azure SQL</h1>
+    <h1 class="post_title">Enable Soft Delete in Azure SQL</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -145,9 +145,9 @@
     </span>
   </div>
 
-    <div class="post_body"><p>Applications often need access to data without needing access to everything. Social Security numbers, email addresses, and phone numbers are common examples. Storing them is required. Exposing them broadly is not. This is especially valuable when exposing a database to an AI agent through MCP servers like SQL MCP Server, where safety and re</p>
+    <div class="post_body"><p>Sometimes applications need to remove data without actually losing it. Soft delete keeps rows in the database while making them invisible to normal application access. This is especially valuable when exposing a database to an AI agent, where safety and reversibility matter. Filtering on an IsDeleted column in every que</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/azure-sql/mask-data-in-azure-sql">https://devblogs.microsoft.com/azure-sql/mask-data-in-azure-sql</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/azure-sql/soft-delete-in-azure-sql">https://devblogs.microsoft.com/azure-sql/soft-delete-in-azure-sql</a></li>
 </ul>
 
     </div>
