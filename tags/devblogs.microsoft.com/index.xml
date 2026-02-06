@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 05 Feb 2026 18:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Feb 2026 00:47:59 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Soft Delete in Azure SQL</title>
+      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_0/</link>
+      <pubDate>Fri, 06 Feb 2026 00:47:59 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_0/</guid>
+      <description>
+        
+          
+            Sometimes applications need to remove data without actually losing it. Soft delete keeps rows in the database while making them invisible to normal application access. This is especially valuable when exposing a database to an AI agent through an MCP server like SQL MCP Server, where safety and reversibility matter. L
+Link to article: https://devblogs.microsoft.com/azure-sql/soft-delete-in-azure-sql 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Securing Aspire Apps with Microsoft Entra ID</title>
       <link>https://www.dotnetramblings.com/post/05_02_2026/05_02_2026_2/</link>
@@ -444,74 +461,6 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260130-00/?p=11202
           
             Welcome to the round up of the azd releases in January 2026! This blog post (covers release versions 1.23.0, 1.23.1,
 Link to article: https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-january-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure SDK Release (January 2026)</title>
-      <link>https://www.dotnetramblings.com/post/29_01_2026/29_01_2026_0/</link>
-      <pubDate>Thu, 29 Jan 2026 22:00:41 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_01_2026/29_01_2026_0/</guid>
-      <description>
-        
-          
-            Thank you for your interest in the new Azure SDKs! We release new features, improvements, and bug fixes every month. Subscribe to our Azure SDK Blog RSS Feed to get notified when a new release is available. You can find links to packages, code, and docs on our
-Link to article: https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-january-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Cosmos DB TV Recap - From Burger to Bots – Agentic Apps with Cosmos DB and LangChain.js | Ep. 111</title>
-      <link>https://www.dotnetramblings.com/post/29_01_2026/29_01_2026_2/</link>
-      <pubDate>Thu, 29 Jan 2026 15:29:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_01_2026/29_01_2026_2/</guid>
-      <description>
-        
-          
-            In Episode 111 of Azure Cosmos DB TV, host Mark Brown is joined by Yohan Lasorsa to explore how developers can build agent-powered applications using a fully serverless architecture. This episode focuses on a practical, end-to-end exa
-Link to article: https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-tv-recap-from-burger-to-bots-agentic-apps-with-cosmos-db-and-langchain-js-ep-111 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How can I retain access to the data in a &lt;code&gt;SAFEARRAY&lt;/code&gt; after my method returns?</title>
-      <link>https://www.dotnetramblings.com/post/29_01_2026/29_01_2026_3/</link>
-      <pubDate>Thu, 29 Jan 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_01_2026/29_01_2026_3/</guid>
-      <description>
-        
-          
-            The original problem our customer had was that the data in a SAFEARRAY disappeared even though they had called Safe­Array­Add­Ref. We learned why this is the case,
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260129-00/?p=112023 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Dev Proxy v2.1 with configuration hot reload and stdio proxying</title>
-      <link>https://www.dotnetramblings.com/post/29_01_2026/29_01_2026_4/</link>
-      <pubDate>Thu, 29 Jan 2026 12:16:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_01_2026/29_01_2026_4/</guid>
-      <description>
-        
-          
-            We&#39;re excited to announce the release of Dev Proxy v2.1.0! This release brings two major productivity features that developers have been asking for: automatic configuration hot reload and stdio traffic proxying - perfect for testing MCP servers and other stdio-based tools. In this version:
-Link to article: https://devblogs.microsoft.com/microsoft365dev/dev-proxy-v2-1-with-configuration-hot-reload-and-stdio-proxying 
           
           
         
