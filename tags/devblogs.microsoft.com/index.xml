@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 07 Feb 2026 01:17:15 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Feb 2026 17:34:56 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time Travel in Azure SQL with Temporal Tables</title>
+      <link>https://www.dotnetramblings.com/post/09_02_2026/09_02_2026_0/</link>
+      <pubDate>Mon, 09 Feb 2026 17:34:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_02_2026/09_02_2026_0/</guid>
+      <description>
+        
+          
+            Applications often need to know what data looked like before. Who changed it, when it changed, and what the previous values were. Rebuilding that history in application code is tedious and error prone. This is especially valuable when exposing a database to an AI agent through MCP servers like SQL MCP Server, where information discovery mat
+Link to article: https://devblogs.microsoft.com/azure-sql/time-travel-in-azure-sql-with-temporal-tables 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What should I do if a wait call reports &lt;CODE&gt;WAIT_&lt;WBR&gt;ABANDONED&lt;/CODE&gt;?</title>
+      <link>https://www.dotnetramblings.com/post/09_02_2026/09_02_2026_5/</link>
+      <pubDate>Mon, 09 Feb 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_02_2026/09_02_2026_5/</guid>
+      <description>
+        
+          
+            If you call a wait function like Wait­For­Single­Object and receive the code WAIT_ABANDONED, what does it mean and what should you do? The documentation says that WAIT_ABANDONED means that you successfully claimed a mutex, but the thread that previously owned the mutex failed t
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260209-00/?p=112049 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Mastering User Settings in SharePoint Framework</title>
       <link>https://www.dotnetramblings.com/post/07_02_2026/07_02_2026_1/</link>
