@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 08 Feb 2026 17:58:43 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Feb 2026 06:45:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Isolate the swiyu Public Beta management APIs using YARP</title>
+      <link>https://www.dotnetramblings.com/post/09_02_2026/09_02_2026_0/</link>
+      <pubDate>Mon, 09 Feb 2026 06:45:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_02_2026/09_02_2026_0/</guid>
+      <description>
+        
+          
+            This post looks at hardening the security for the swiyu public beta infrastructure. The generic containers provide both management APIs and wallet APIs which support the OpenID for Verifiable Presentations 1.0 specification. The management APIs require both network protection and application security. This post looks at implementing the network isolation. Code: https://github.com/swiss-ssi-group/swiyu-passkeys-idp-loi-loa Blogs in this […]
+Link to article: https://damienbod.com/2026/02/09/isolate-the-swiyu-public-beta-management-apis-using-yarp/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Over Optimism of Rewrites in Software Engineering - Dev Leader Weekly 126</title>
       <link>https://www.dotnetramblings.com/post/08_02_2026/08_02_2026_0/</link>
