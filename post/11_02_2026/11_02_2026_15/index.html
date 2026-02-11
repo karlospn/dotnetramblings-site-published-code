@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>The Syringe Class: Needlr&#39;s Fluent API Explained | .NET Ramblings</title>
+<title>Microsoft .NET Code Analysis: Efficient String Prefix Checks — StartsWith() vs. IndexOf() | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,16 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Deep dive into Needlr&#39;s Syringe class and its fluent API for configuring dependency injection, discovery strategies, and type registration in C#.
-Link to …" />
+<meta name="description" content="Using IndexOf() for checking if a string starts with a specific value in .NET is inefficient and unclear. This approach performs unnecessary work and obscures …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="The Syringe Class: Needlr&#39;s Fluent API Explained" />
+<meta name="twitter:title" content="Microsoft .NET Code Analysis: Efficient String Prefix Checks — StartsWith() vs. IndexOf()" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_11/" />
-<meta property="og:title" content="The Syringe Class: Needlr&#39;s Fluent API Explained" />
-<meta property="og:description" content="Deep dive into Needlr&#39;s Syringe class and its fluent API for configuring dependency injection, discovery strategies, and type registration in C#.
-Link to …" />
+<meta property="og:url" content="https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_15/" />
+<meta property="og:title" content="Microsoft .NET Code Analysis: Efficient String Prefix Checks — StartsWith() vs. IndexOf()" />
+<meta property="og:description" content="Using IndexOf() for checking if a string starts with a specific value in .NET is inefficient and unclear. This approach performs unnecessary work and obscures …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -45,7 +43,7 @@ Link to …" />
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_11/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_15/">
 
 
 
@@ -134,7 +132,7 @@ Link to …" />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">The Syringe Class: Needlr's Fluent API Explained</h1>
+    <h1 class="post_title">Microsoft .NET Code Analysis: Efficient String Prefix Checks — StartsWith() vs. IndexOf()</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,14 @@ Link to …" />
 </svg>
 </span>
     <span class="post_date">
-      Feb 11, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
+      Feb 11, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/' title="dotnettips.wordpress.com" class="post_tag button button_translucent">dotnettips.wordpress.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Deep dive into Needlr's Syringe class and its fluent API for configuring dependency injection, discovery strategies, and type registration in C#.</p>
+    <div class="post_body"><p>Using IndexOf() for checking if a string starts with a specific value in .NET is inefficient and unclear. This approach performs unnecessary work and obscures intent.</p>
 <ul>
-<li>Link to article: <a href="https://www.devleader.ca/2026/02/11/the-syringe-class-needlrs-fluent-api-explained">https://www.devleader.ca/2026/02/11/the-syringe-class-needlrs-fluent-api-explained</a></li>
+<li>Link to article: <a href="https://dotnettips.wordpress.com/2026/02/11/microsoft-net-code-analysis-efficient-string-prefix-checks-startswith-vs-indexof/">https://dotnettips.wordpress.com/2026/02/11/microsoft-net-code-analysis-efficient-string-prefix-checks-startswith-vs-indexof/</a></li>
 </ul>
 
     </div>
