@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 13 Feb 2026 23:13:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Extract Structured Data From Images Using Ollama in .NET</title>
+      <link>https://www.dotnetramblings.com/post/14_02_2026/14_02_2026_0/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_02_2026/14_02_2026_0/</guid>
+      <description>
+        
+          
+            Vision models can do more than describe images. I used Ollama and Microsoft.Extensions.AI to extract structured receipt data into strongly typed C# objects, all running locally.
+Link to article: https://www.milanjovanovic.tech/blog/how-to-extract-structured-data-from-images-using-ollama-in-dotnet 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>DPO Fine-Tuning Using Microsoft Foundry SDK</title>
       <link>https://www.dotnetramblings.com/post/13_02_2026/13_02_2026_0/</link>
@@ -1376,210 +1393,6 @@ Link to article: https://www.devleader.ca/2026/02/07/source-generation-vs-reflec
           
             User preferences and settings are fundamental components of modern web applications. When developing SharePoint Framework (SPFx) solutions, the ability to store and manage user-specific configurations across devices and sessions becomes crucial for delivering personalized experiences. This article explores a robust, enterprise-ready pattern fo
 Link to article: https://devblogs.microsoft.com/microsoft365dev/mastering-user-settings-in-sharepoint-framework 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What’s New in vcpkg (Nov 2025 - Jan 2026)</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_0/</link>
-      <pubDate>Fri, 06 Feb 2026 21:01:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_0/</guid>
-      <description>
-        
-          
-            This blog post summarizes changes to the vcpkg package manager as part of the 2025.12.12 and 2026.01.16 registry releases and the
-Link to article: https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-nov-2025-jan-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Structured outputs on Amazon Bedrock: Schema-compliant AI responses</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_1/</link>
-      <pubDate>Fri, 06 Feb 2026 20:12:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_1/</guid>
-      <description>
-        
-          
-            Today, we&#39;re announcing structured outputs on Amazon Bedrock—a capability that fundamentally transforms how you can obtain validated JSON responses from foundation models through constrained decoding for schema compliance. In this post, we explore the challenges of traditional JSON generation and how structured outputs solves them. We cover the two core mechanisms—JSON Schema output format and strict tool use—along with implementation details, best practices, and practical code examples.
-Link to article: https://aws.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Manage Amazon SageMaker HyperPod clusters using the HyperPod CLI and SDK</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_2/</link>
-      <pubDate>Fri, 06 Feb 2026 19:27:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_2/</guid>
-      <description>
-        
-          
-            In this post, we demonstrate how to use the CLI and the SDK to create and manage SageMaker HyperPod clusters in your AWS account. We walk through a practical example and dive deeper into the user workflow and parameter choices.
-Link to article: https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-clusters-using-the-hyperpod-cli-and-sdk/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building an AI Skills Executor in .NET: Bringing Anthropic&#39;s Agent Pattern to the Microsoft Ecosystem</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_3/</link>
-      <pubDate>Fri, 06 Feb 2026 19:11:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_3/</guid>
-      <description>
-        
-          
-            When Anthropic released their Agent Skills framework, they published a blueprint for how enterprise organizations should structure AI agent capabilities. The pattern is straightforward: package procedural knowledge into composable skills that AI agents can discover and apply contextually. Microsoft, OpenAI, Cursor, and others have already adop
-Link to article: https://devblogs.microsoft.com/foundry/dotnet-ai-skills-executor-azure-openai-mcp 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Evaluate generative AI models with an Amazon Nova rubric-based LLM judge on Amazon SageMaker AI (Part 2)</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_4/</link>
-      <pubDate>Fri, 06 Feb 2026 16:29:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_4/</guid>
-      <description>
-        
-          
-            In this post, we explore the Amazon Nova rubric-based judge feature: what a rubric-based judge is, how the judge is trained, what metrics to consider, and how to calibrate the judge. We chare notebook code of the Amazon Nova rubric-based LLM-as-a-judge methodology to evaluate and compare the outputs of two different LLMs using SageMaker training jobs.
-Link to article: https://aws.amazon.com/blogs/machine-learning/evaluate-generative-ai-models-with-an-amazon-nova-rubric-based-llm-judge-on-amazon-sagemaker-ai-part-2/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Masking Sensitive Data in Azure SQL</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_5/</link>
-      <pubDate>Fri, 06 Feb 2026 16:21:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_5/</guid>
-      <description>
-        
-          
-            Applications often need access to data without needing access to everything. Social Security numbers, email addresses, and phone numbers are common examples. Storing them is required. Exposing them broadly is not. This is especially valuable when exposing a database to an AI agent through MCP servers like SQL MCP Server, where safety and re
-Link to article: https://devblogs.microsoft.com/azure-sql/mask-data-in-azure-sql 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How can I prevent the user from changing the widths of ListView columns in version 5 of the common controls?, part 2</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_6/</link>
-      <pubDate>Fri, 06 Feb 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_6/</guid>
-      <description>
-        
-          
-            Last time, we had figured out how to prevent the version 5 ListView Win32 common control from resizing columns, but we noticed that the cursor st
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260206-00/?p=112045 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Abstract Factory Design Pattern in C#: Complete Guide with Examples</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_7/</link>
-      <pubDate>Fri, 06 Feb 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_7/</guid>
-      <description>
-        
-          
-            Master the Abstract Factory design pattern in C# with complete code examples, real-world scenarios, and practical implementation guidance for creating families of related objects.
-Link to article: https://www.devleader.ca/2026/02/06/abstract-factory-design-pattern-in-c-complete-guide-with-examples 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Korea privacy policy</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_8/</link>
-      <pubDate>Fri, 06 Feb 2026 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_8/</guid>
-      <description>
-        
-          
-            Korea privacy policy
-Link to article: https://openai.com/policies/kr-privacy-policy 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Making AI work for everyone, everywhere: our approach to localization</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_9/</link>
-      <pubDate>Fri, 06 Feb 2026 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_9/</guid>
-      <description>
-        
-          
-            OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.
-Link to article: https://openai.com/index/our-approach-to-localization 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Enable Soft Delete in Azure SQL</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_10/</link>
-      <pubDate>Fri, 06 Feb 2026 00:47:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_10/</guid>
-      <description>
-        
-          
-            Sometimes applications need to remove data without actually losing it. Soft delete keeps rows in the database while making them invisible to normal application access. This is especially valuable when exposing a database to an AI agent through MCP servers like SQL MCP Server, where safety and reversibility matter. Lea
-Link to article: https://devblogs.microsoft.com/azure-sql/soft-delete-in-azure-sql 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Integrate Keycloak with ASP.NET Core Using OAuth 2.0</title>
-      <link>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_11/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_02_2026/06_02_2026_11/</guid>
-      <description>
-        
-          
-            Learn how to integrate Keycloak with your .NET 10 API using Docker, Swagger UI with OAuth 2.0 Authorization Code flow, and JWT validation.
-Link to article: https://www.milanjovanovic.tech/blog/integrate-keycloak-with-aspnetcore-using-oauth-2 
           
           
         
