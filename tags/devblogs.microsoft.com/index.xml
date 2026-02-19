@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 18 Feb 2026 22:00:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Feb 2026 01:01:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s new in Microsoft Foundry | Dec 2025 &amp; Jan 2026</title>
+      <link>https://www.dotnetramblings.com/post/19_02_2026/19_02_2026_0/</link>
+      <pubDate>Thu, 19 Feb 2026 01:01:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_02_2026/19_02_2026_0/</guid>
+      <description>
+        
+          
+            Author&#39;s note: So.. it has been a bit. I have to level with you — I returned from paternity leave in January and between Microsoft Ignite 2025 and present day, things have changed a lot. Without further adieu, here is your monthly (late) drop for all things new with Microsoft Foundry. Expect following ed
+Link to article: https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-dec-2025-jan-2026 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Python Environments Extension for VS Code</title>
       <link>https://www.dotnetramblings.com/post/18_02_2026/18_02_2026_0/</link>
@@ -291,125 +308,6 @@ Link to article: https://devblogs.microsoft.com/azure-sql/build-intelligent-apps
           
             A customer wanted to know how to distinguish between the numeric keypad 0 and the top-row 0 in the WM_KEY­DOWN message. And while we&#39;re at it, let&#39;s also distinguish between the numeric keypad 0 and the Ins key. We start with this table of what you get in the WM_KEY­DOWN message w
 Link to article: https://devblogs.microsoft.com/oldnewthing/20260212-00/?p=112059 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing TypeScript 6.0 Beta</title>
-      <link>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_1/</link>
-      <pubDate>Wed, 11 Feb 2026 18:50:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_1/</guid>
-      <description>
-        
-          
-            Today we are announcing the beta release of TypeScript 6.0! To get started using the beta, you can get it through npm with the following command: npm install -D typescript@beta TypeScript 6.0 is a unique release in that we intend f
-Link to article: https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>GitHub Copilot Testing for .NET Brings AI-powered Unit Tests to Visual Studio 2026</title>
-      <link>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_2/</link>
-      <pubDate>Wed, 11 Feb 2026 18:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_2/</guid>
-      <description>
-        
-          
-            GitHub Copilot testing for .NET makes it dramatically faster and more convenient to generate high-quality unit tests without leaving your code. Today, we’re excited to announce that this capability is now generally available in Visual Studio 2026 v18.3. This release brings
-Link to article: https://devblogs.microsoft.com/dotnet/github-copilot-testing-for-dotnet-available-in-visual-studio 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Beyond the Prompt - Why and How to Fine-tune Your Own Models</title>
-      <link>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_3/</link>
-      <pubDate>Wed, 11 Feb 2026 17:29:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_3/</guid>
-      <description>
-        
-          
-            Large Language Models (LLMs) have reached a point where general intelligence is no longer the bottleneck. The real challenge in enterprise AI systems behavioral alignment ensuring models that produce consistent, reliable, policy-compliant outputs on a scale. Prompt engineering and Retrieval-Augmented Generation (RAG) are powerful but they do n
-Link to article: https://devblogs.microsoft.com/foundry/beyond-the-prompt-why-and-how-to-fine-tune-your-own-models 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Unlock language-specific rich symbol context using new find_symbol tool</title>
-      <link>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_8/</link>
-      <pubDate>Wed, 11 Feb 2026 15:29:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_8/</guid>
-      <description>
-        
-          
-            Refactoring at scale is a time-consuming and error-prone process for developers. In large codebases, developers have relied on manual searches and incremental edits across multiple files to accomplish these tasks. Modern development workflows depend on fast and accurate code navigation to avoid these pitfalls. When developers refactor exist
-Link to article: https://devblogs.microsoft.com/visualstudio/unlock-language-specific-rich-symbol-context-using-new-find_symbol-tool 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?</title>
-      <link>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_9/</link>
-      <pubDate>Wed, 11 Feb 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_9/</guid>
-      <description>
-        
-          
-            A customer had a Win32 common controls ListView in single-click mode. This has a side effect of enabling hover effects: When the mouse hovers over an item, the cursor changes to a hand, and the item gets highlighted in the hot-track color. How can they suppress these hover effects while still having single-click activation? When the
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deploy to Azure App Service deployment slots with azd</title>
-      <link>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_10/</link>
-      <pubDate>Wed, 11 Feb 2026 14:59:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_10/</guid>
-      <description>
-        
-          
-            Deploy to Azure App Service slots with azd deploy Missed deploying to an App Service slot? Now you can—without workarounds or manual scripts. What&#39;s new? Before, azd deploy could only deploy to the default production slot. Now, azd understands the slots you define in Bicep a
-Link to article: https://devblogs.microsoft.com/azure-sdk/azd-app-service-slot 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Maximize Azure Cosmos DB Performance with Azure Advisor Recommendations</title>
-      <link>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_11/</link>
-      <pubDate>Wed, 11 Feb 2026 13:00:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_02_2026/11_02_2026_11/</guid>
-      <description>
-        
-          
-            In the first post of this series, we introduced how Azure Advisor helps Azure Cosmos DB users uncover opportunities to optimize efficiency and make smarter decisions. This follow-up dives deeper into one
-Link to article: https://devblogs.microsoft.com/cosmosdb/maximize-azure-cosmos-db-performance-with-azure-advisor-recommendations 
           
           
         
