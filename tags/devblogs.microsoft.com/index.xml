@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 20 Feb 2026 05:52:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Feb 2026 17:30:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Migrate your Semantic Kernel and AutoGen projects to Microsoft Agent Framework Release Candidate</title>
+      <title>Light up Multiple Databases with a Single API with Data API builder&#39;s multi-source configuration</title>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_0/</link>
+      <pubDate>Fri, 20 Feb 2026 17:30:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_0/</guid>
+      <description>
+        
+          
+            Data API builder (DAB) supports multi-source configurations Data API builder (DAB) connects to your database with a safe REST or GraphQL endpoint. But DAB is not limited to just one database. Using a multi-source configuration, you can connect to more than one database simultaneously. Learn more about Data A
+Link to article: https://devblogs.microsoft.com/azure-sql/multi-source-data-api-builder 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The 2026/2027 Seattle Symphony subscription season at a glance</title>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_4/</link>
+      <pubDate>Fri, 20 Feb 2026 15:00:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_4/</guid>
+      <description>
+        
+          
+            For two decades, I&#39;ve
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260220-01/?p=112076 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Customizing the ways the dialog manager dismisses itself: Detecting the ESC key, first (failed) attempt</title>
       <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_5/</link>
-      <pubDate>Fri, 20 Feb 2026 05:52:57 +0000</pubDate>
+      <pubDate>Fri, 20 Feb 2026 15:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_5/</guid>
+      <description>
+        
+          
+            Suppose you want to distinguish between dismissing a dialog by pressing ESC and dismissing a dialog by clicking the Close button. One suggestion I saw was to call Get­Async­Key­State(VK_ESCAPE) to check whether the ESC is down. In general, any time you see Get­Async­Key­St
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260220-00/?p=112074 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using Codes to Increase Adherence to Prompts</title>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_8/</link>
+      <pubDate>Fri, 20 Feb 2026 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_8/</guid>
+      <description>
+        
+          
+            Introduction: The Problem Agentic systems have some discretion in the parameters they send to tooling, but there are cases, such as experimentation, when you need 100% adherence to a set of parameters. In practice, this tension exists because modern LLM-based agents are optimized for semantic correctness and helpfulness, not for s
+Link to article: https://devblogs.microsoft.com/ise/using-codes-to-increase-adherence-to-prompts 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Migrate your Semantic Kernel and AutoGen projects to Microsoft Agent Framework Release Candidate</title>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_11/</link>
+      <pubDate>Fri, 20 Feb 2026 05:52:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_11/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/migrate-your-sem
     
     <item>
       <title>Microsoft Agent Framework Reaches Release Candidate</title>
-      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_12/</link>
       <pubDate>Fri, 20 Feb 2026 05:51:29 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_12/</guid>
       <description>
         
           

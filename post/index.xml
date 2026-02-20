@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 20 Feb 2026 16:26:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Feb 2026 17:30:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Integrate external tools with Amazon Quick Agents using Model Context Protocol (MCP)</title>
+      <title>Light up Multiple Databases with a Single API with Data API builder&#39;s multi-source configuration</title>
       <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_0/</link>
-      <pubDate>Fri, 20 Feb 2026 16:26:21 +0000</pubDate>
+      <pubDate>Fri, 20 Feb 2026 17:30:27 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_0/</guid>
+      <description>
+        
+          
+            Data API builder (DAB) supports multi-source configurations Data API builder (DAB) connects to your database with a safe REST or GraphQL endpoint. But DAB is not limited to just one database. Using a multi-source configuration, you can connect to more than one database simultaneously. Learn more about Data A
+Link to article: https://devblogs.microsoft.com/azure-sql/multi-source-data-api-builder 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>State of Agentic AI Report: Key Findings</title>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_1/</link>
+      <pubDate>Fri, 20 Feb 2026 17:18:29 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_1/</guid>
+      <description>
+        
+          
+            Based on Docker’s State of Agentic AI report, a global survey of more than 800 developers, platform engineers, and technology decision-makers, this blog summarizes key findings of what&#39;s really happening as agentic AI scales within organizations. Drawing on insights from decision-makers and purchase influencers worldwide, we&#39;ll give you a preview on not only where teams...
+Link to article: https://www.docker.com/blog/state-of-agentic-ai-key-findings/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The New AWS Transform .NET Developer Experience</title>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_2/</link>
+      <pubDate>Fri, 20 Feb 2026 17:04:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_2/</guid>
+      <description>
+        
+          
+            At re:Invent 2025, AWS Transform unveiled an enhanced .NET developer experience in Visual Studio that is customizable, transparent, iterative, and collaborative. Our customers have asked for more insight into transformation activity and the ability to steer transformations. Developers can now benefit from editable transformation plans, estimated transformation time, real-time progress updates, next steps recommendations, and […]
+Link to article: https://aws.amazon.com/blogs/dotnet/the-new-aws-transform-net-developer-experience/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Integrate external tools with Amazon Quick Agents using Model Context Protocol (MCP)</title>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_3/</link>
+      <pubDate>Fri, 20 Feb 2026 16:26:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_3/</guid>
       <description>
         
           
@@ -26,11 +77,45 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/integrate-externa
     </item>
     
     <item>
+      <title>The 2026/2027 Seattle Symphony subscription season at a glance</title>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_4/</link>
+      <pubDate>Fri, 20 Feb 2026 15:00:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_4/</guid>
+      <description>
+        
+          
+            For two decades, I&#39;ve
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260220-01/?p=112076 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Customizing the ways the dialog manager dismisses itself: Detecting the ESC key, first (failed) attempt</title>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_5/</link>
+      <pubDate>Fri, 20 Feb 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_5/</guid>
+      <description>
+        
+          
+            Suppose you want to distinguish between dismissing a dialog by pressing ESC and dismissing a dialog by clicking the Close button. One suggestion I saw was to call Get­Async­Key­State(VK_ESCAPE) to check whether the ESC is down. In general, any time you see Get­Async­Key­St
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260220-00/?p=112074 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Write Modern Go Code With Junie and Claude Code</title>
-      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_6/</link>
       <pubDate>Fri, 20 Feb 2026 13:29:52 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_6/</guid>
       <description>
         
           
@@ -44,10 +129,10 @@ Link to article: https://blog.jetbrains.com/go/2026/02/20/write-modern-go-code-w
     
     <item>
       <title>How to Implement Builder Pattern in C#: Step-by-Step Guide</title>
-      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_7/</link>
       <pubDate>Fri, 20 Feb 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_7/</guid>
       <description>
         
           
@@ -60,11 +145,28 @@ Link to article: https://devleader.ca/2026/02/20/how-to-implement-builder-patter
     </item>
     
     <item>
+      <title>Using Codes to Increase Adherence to Prompts</title>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_8/</link>
+      <pubDate>Fri, 20 Feb 2026 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_8/</guid>
+      <description>
+        
+          
+            Introduction: The Problem Agentic systems have some discretion in the parameters they send to tooling, but there are cases, such as experimentation, when you need 100% adherence to a set of parameters. In practice, this tension exists because modern LLM-based agents are optimized for semantic correctness and helpfulness, not for s
+Link to article: https://devblogs.microsoft.com/ise/using-codes-to-increase-adherence-to-prompts 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Making Code Easier to Understand with Mermaid Diagrams and CodeRush</title>
-      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_9/</link>
       <pubDate>Fri, 20 Feb 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_9/</guid>
       <description>
         
           
@@ -78,10 +180,10 @@ Link to article: https://dotnettips.wordpress.com/2026/02/20/making-code-easier-
     
     <item>
       <title>The Missing Link Between AI and Business Value</title>
-      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_10/</link>
       <pubDate>Fri, 20 Feb 2026 06:27:54 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_10/</guid>
       <description>
         
           
@@ -95,10 +197,10 @@ Link to article: https://blog.jetbrains.com/ai/2026/02/the-missing-link-between-
     
     <item>
       <title>Migrate your Semantic Kernel and AutoGen projects to Microsoft Agent Framework Release Candidate</title>
-      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_11/</link>
       <pubDate>Fri, 20 Feb 2026 05:52:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_11/</guid>
       <description>
         
           
@@ -112,10 +214,10 @@ Link to article: https://devblogs.microsoft.com/semantic-kernel/migrate-your-sem
     
     <item>
       <title>Microsoft Agent Framework Reaches Release Candidate</title>
-      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_12/</link>
       <pubDate>Fri, 20 Feb 2026 05:51:29 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_02_2026/20_02_2026_12/</guid>
       <description>
         
           
