@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 23 Feb 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Feb 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Assembly Scanning in Needlr: Filtering and Organizing Type Discovery</title>
+      <title>Run OpenClaw Securely in Docker Sandboxes</title>
       <link>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_0/</link>
-      <pubDate>Mon, 23 Feb 2026 12:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Feb 2026 14:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_0/</guid>
+      <description>
+        
+          
+            Docker Sandboxes is a new primitive in the Docker&#39;s ecosystem that allows you to run AI agents or any other workloads in isolated micro VMs. It provides strong isolation, convenient developer experience and a strong security boundary with a network proxy configurable to deny agents connecting to arbitrary internet hosts. The network proxy will also...
+Link to article: https://www.docker.com/blog/run-openclaw-securely-in-docker-sandboxes/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI Tool Switching Is Stealth Friction – Beat It at the Access Layer</title>
+      <link>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_1/</link>
+      <pubDate>Mon, 23 Feb 2026 13:19:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_1/</guid>
+      <description>
+        
+          
+            Has your team’s sprint velocity actually improved since you approved all those AI coding tools? If not, recent research by JetBrains and UC Irvine shows your developers may be facing a new dimension of context switching that resists the usual fixes. The key findings were that most AI-assisted developers switched in and out of their […]
+Link to article: https://blog.jetbrains.com/ai/2026/02/ai-tool-switching-is-stealth-friction-beat-it-at-the-access-layer/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Assembly Scanning in Needlr: Filtering and Organizing Type Discovery</title>
+      <link>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_2/</link>
+      <pubDate>Mon, 23 Feb 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_2/</guid>
       <description>
         
           
@@ -27,14 +61,31 @@ Link to article: https://www.devleader.ca/2026/02/23/assembly-scanning-in-needlr
     
     <item>
       <title>Reserved filenames on Windows (CON, PRN, AUX, NUL...)</title>
-      <link>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_3/</link>
       <pubDate>Mon, 23 Feb 2026 12:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_3/</guid>
       <description>
         
           
             Windows has a set of reserved filenames that cannot be used for files or folders. These names are reserved for legacy reasons, dating back to DOS. If you try to create a file or folder with one of these names, you will get an error. The list of reserved names is: CON, PRN, AUX, NUL COM0 through COM9 LPT0 through LPT9 These names come from DOS, where devices were exposed as special file-like names.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI announces Frontier Alliance Partners</title>
+      <link>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_4/</link>
+      <pubDate>Mon, 23 Feb 2026 05:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_4/</guid>
+      <description>
+        
+          
+            OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.
+Link to article: https://openai.com/index/frontier-alliance-partners 
           
           
         
