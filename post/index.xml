@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 22 Feb 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Feb 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assembly Scanning in Needlr: Filtering and Organizing Type Discovery</title>
+      <link>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_0/</link>
+      <pubDate>Mon, 23 Feb 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_0/</guid>
+      <description>
+        
+          
+            Learn how to control assembly scanning in Needlr, including filtering assemblies, controlling which types get discovered, and organizing type registration in .NET applications.
+Link to article: https://www.devleader.ca/2026/02/23/assembly-scanning-in-needlr-filtering-and-organizing-type-discovery 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reserved filenames on Windows (CON, PRN, AUX, NUL...)</title>
+      <link>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_1/</link>
+      <pubDate>Mon, 23 Feb 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_1/</guid>
+      <description>
+        
+          
+            Windows has a set of reserved filenames that cannot be used for files or folders. These names are reserved for legacy reasons, dating back to DOS. If you try to create a file or folder with one of these names, you will get an error. The list of reserved names is: CON, PRN, AUX, NUL COM0 through COM9 LPT0 through LPT9 These names come from DOS, where devices were exposed as special file-like names.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>When to Use Builder Pattern in C#: Decision Guide with Examples</title>
       <link>https://www.dotnetramblings.com/post/22_02_2026/22_02_2026_0/</link>

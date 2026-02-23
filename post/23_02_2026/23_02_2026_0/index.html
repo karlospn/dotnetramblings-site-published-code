@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>Assembly Scanning in Needlr: Filtering and Organizing Type Discovery | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Learn how to control assembly scanning in Needlr, including filtering assemblies, controlling which types get discovered, and organizing type registration in …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Assembly Scanning in Needlr: Filtering and Organizing Type Discovery" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_0/" />
+<meta property="og:title" content="Assembly Scanning in Needlr: Filtering and Organizing Type Discovery" />
+<meta property="og:description" content="Learn how to control assembly scanning in Needlr, including filtering assemblies, controlling which types get discovered, and organizing type registration in …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/23_02_2026/23_02_2026_0/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/ai/2026/02/the-most-popular-ai-tools-what-developers-use-and-why/" title="The Most Popular AI Tools: What Developers Use and Why">The Most Popular AI Tools: What Developers Use and Why</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Assembly Scanning in Needlr: Filtering and Organizing Type Discovery</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,481 +140,27 @@
 </svg>
 </span>
     <span class="post_date">
-      Feb 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Feb 23, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="The Most Popular AI Tools: What Developers Use and Why"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>AI tools have become a core part of modern software development. Developers rely on them throughout the life cycle, from writing and refactoring code to testing, documentation, and analysis. Once experimental add-ons, these tools now function as everyday assistants and are firmly embedded in routine workflows. But why …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/ai/2026/02/the-most-popular-ai-tools-what-developers-use-and-why/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.code4it.dev/blog/readonly-vs-immutable-vs-frozen/" title="Readonly vs Immutable vs Frozen in C#: differences and (a lot of) benchmarks">Readonly vs Immutable vs Frozen in C#: differences and (a lot of) benchmarks</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Feb 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/code4it.dev/' title="code4it.dev" class="post_tag button button_translucent">code4it.dev
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Learn how to control assembly scanning in Needlr, including filtering assemblies, controlling which types get discovered, and organizing type registration in .NET applications.</p>
+<ul>
+<li>Link to article: <a href="https://www.devleader.ca/2026/02/23/assembly-scanning-in-needlr-filtering-and-organizing-type-discovery">https://www.devleader.ca/2026/02/23/assembly-scanning-in-needlr-filtering-and-organizing-type-discovery</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Readonly vs Immutable vs Frozen in C#: differences and (a lot of) benchmarks"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The words ReadOnly, Immutable, Frozen seem similar but have distinct meanings in .NET. Here’s a detailed comparison of Readonly, Immutable, and Frozen collections in C#, with benchmarks and typical use cases.
-Link to article: <a href="https://www.code4it.dev/blog/readonly-vs-immutable-vs-frozen/">https://www.code4it.dev/blog/readonly-vs-immutable-vs-frozen/</a></p>
-          
-          <br>
-          <a href="https://www.code4it.dev/blog/readonly-vs-immutable-vs-frozen/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/devops/condensed-views-on-kanban-and-sprint-boards" title="Condensed views on Kanban and Sprint boards">Condensed views on Kanban and Sprint boards</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Feb 16, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Condensed views on Kanban and Sprint boards"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>One of the challenges teams face when working with large boards or displaying multiple fields on work item cards is limited screen space. This became even more noticeable with the rollout of the New Boards hub, which introduced additional spacing and padding for improved readability. While this enhances clarity, it can …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/devops/condensed-views-on-kanban-and-sprint-boards" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/run-nanoclaw-in-docker-shell-sandboxes/" title="Running NanoClaw in a Docker Shell Sandbox">Running NanoClaw in a Docker Shell Sandbox</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Feb 16, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Running NanoClaw in a Docker Shell Sandbox"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Ever wanted to run a personal AI assistant that monitors your WhatsApp messages 24/7, but worried about giving it access to your entire system? Docker Sandboxes' new shell sandbox type is the perfect solution. In this post, I'll show you how to run NanoClaw, a lightweight Claude-powered WhatsApp assistant, inside a …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/run-nanoclaw-in-docker-shell-sandboxes/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/02/16/abstract-factory-pattern-best-practices-in-c-code-organization-and-maintainability" title="Abstract Factory Pattern Best Practices in C#: Code Organization and Maintainability">Abstract Factory Pattern Best Practices in C#: Code Organization and Maintainability</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Feb 16, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Abstract Factory Pattern Best Practices in C#: Code Organization and Maintainability"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Master Abstract Factory pattern best practices in C#. Learn code organization strategies, interface design principles, dependency injection integration, and maintainability tips.
-Link to article: <a href="https://www.devleader.ca/2026/02/16/abstract-factory-pattern-best-practices-in-c-code-organization-and-maintainability">https://www.devleader.ca/2026/02/16/abstract-factory-pattern-best-practices-in-c-code-organization-and-maintainability</a></p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/02/16/abstract-factory-pattern-best-practices-in-c-code-organization-and-maintainability" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.meziantou.net/validating-powershell-script-syntax-in-github-actions-workflows.htm?utm_medium=social&amp;utm_source=syndication" title="Validating PowerShell script syntax in GitHub Actions workflows">Validating PowerShell script syntax in GitHub Actions workflows</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Feb 16, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Validating PowerShell script syntax in GitHub Actions workflows"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/devops.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>When writing GitHub Actions workflows, it is generally recommended to keep your scripts in separate files and reference them using the path attribute of the run step. This allows you to lint and test your scripts easily using standard tools. However, this approach is not always practical. For instance, when creating a …</p>
-          
-          <br>
-          <a href="https://www.meziantou.net/validating-powershell-script-syntax-in-github-actions-workflows.htm?utm_medium=social&amp;utm_source=syndication" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://damienbod.com/2026/02/16/add-application-security-to-the-swiyu-generic-management-verifier-apis-using-oauth/" title="Add application security to the swiyu generic management verifier APIs using OAuth">Add application security to the swiyu generic management verifier APIs using OAuth</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Feb 16, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/damienbod.com/' title="damienbod.com" class="post_tag button button_translucent">damienbod.com
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Add application security to the swiyu generic management verifier APIs using OAuth"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The article looks at implementing security using OAuth for the swiyu Public Beta Trust Infrastructure generic containers. The container provides endpoint for OpenID verification and the management APIs. The OpenID endpoints are publicly accessible using a reverse proxy, the management APIs can only be accessed in the …</p>
-          
-          <br>
-          <a href="https://damienbod.com/2026/02/16/add-application-security-to-the-swiyu-generic-management-verifier-apis-using-oauth/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.devleader.ca/2026/02/16/the-developer-that-nobody-wants-to-be-dev-leader-weekly-127" title="The Developer That Nobody Wants To Be - Dev Leader Weekly 127">The Developer That Nobody Wants To Be - Dev Leader Weekly 127</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Feb 16, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="The Developer That Nobody Wants To Be - Dev Leader Weekly 127"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Welcome to another issue of Dev Leader Weekly! In this issue, I discuss the challenges of being stuck on legacy systems, how to use AI tools effectively even in rough codebases, and bridging the communication gap with your PM.
-Link to article: …</p>
-          
-          <br>
-          <a href="https://www.devleader.ca/2026/02/16/the-developer-that-nobody-wants-to-be-dev-leader-weekly-127" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -646,9 +184,8 @@ Link to article: …</p>
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
