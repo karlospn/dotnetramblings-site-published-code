@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 25 Feb 2026 16:00:38 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 01:09:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Polyglot Tax</title>
+      <link>https://www.dotnetramblings.com/post/26_02_2026/26_02_2026_0/</link>
+      <pubDate>Thu, 26 Feb 2026 01:09:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_02_2026/26_02_2026_0/</guid>
+      <description>
+        
+          
+            Part 1 of 4 - The Multimodal Database Series This is a four-part series about what happens when a single database engine handles relational, document, graph, vector, and analytical workloads natively - and what you stop paying for when it does. You spin up a database, point an agent at it, and start building. The f
+Link to article: https://devblogs.microsoft.com/azure-sql/the-polyglot-tax 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Azure Developer CLI (azd) - February 2026: JMESPath Queries &amp; Deployment Slots</title>
       <link>https://www.dotnetramblings.com/post/25_02_2026/25_02_2026_3/</link>
@@ -359,74 +376,6 @@ Link to article: https://devblogs.microsoft.com/cppblog/microsoft-c-msvc-build-t
           
             Author&#39;s note: So.. it has been a bit. I have to level with you — I returned from paternity leave in January and between Microsoft Ignite 2025 and present day, things have changed a lot. Without further adieu, here is your monthly (late) drop for all things new with Microsoft Foundry. Expect following ed
 Link to article: https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-dec-2025-jan-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Python Environments Extension for VS Code</title>
-      <link>https://www.dotnetramblings.com/post/18_02_2026/18_02_2026_0/</link>
-      <pubDate>Wed, 18 Feb 2026 22:00:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_02_2026/18_02_2026_0/</guid>
-      <description>
-        
-          
-            Introducing the Python Environments Extension for VS Code Python development in VS Code now has a unified, streamlined workflow for managing environments, interpreters, and packages. The Python Environments extension brings consistency and clarity to a part of Python development that has historically been fragmented
-Link to article: https://devblogs.microsoft.com/python/python-in-visual-studio-code-february-2026-release 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Federating Databases with Data API Builder Chaining</title>
-      <link>https://www.dotnetramblings.com/post/18_02_2026/18_02_2026_2/</link>
-      <pubDate>Wed, 18 Feb 2026 17:00:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_02_2026/18_02_2026_2/</guid>
-      <description>
-        
-          
-            For decades, DBAs relied on linked servers to stitch data together. If you needed data from two places, you wired them up and moved on. It worked. It was straightforward. It felt native to SQL. But what if linked servers are not an option? What if policy blocks them? What if one of the systems is not SQL or lives in another cloud? H
-Link to article: https://devblogs.microsoft.com/azure-sql/data-api-builder-chaining 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>TFVC Remove Existing Obsolete Policies ASAP</title>
-      <link>https://www.dotnetramblings.com/post/18_02_2026/18_02_2026_3/</link>
-      <pubDate>Wed, 18 Feb 2026 16:35:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_02_2026/18_02_2026_3/</guid>
-      <description>
-        
-          
-            In April 2025, we announced the deprecation schedule for legacy TFVC check-in policies. This change was required due to limitations in how those policies were previously implemented and stored. The old policies have been marked as obsolete, and you can replac
-Link to article: https://devblogs.microsoft.com/devops/tfvc-remove-existing-obsolete-policies-asap 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Could &lt;code&gt;Write­Process­Memory&lt;/code&gt; be made faster by avoiding the intermediate buffer?</title>
-      <link>https://www.dotnetramblings.com/post/18_02_2026/18_02_2026_5/</link>
-      <pubDate>Wed, 18 Feb 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_02_2026/18_02_2026_5/</guid>
-      <description>
-        
-          
-            A little while ago, we wondered whether Write­Process­Memory was faster than shared memory for transferring data between two processes, and th
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260218-00/?p=112069 
           
           
         
