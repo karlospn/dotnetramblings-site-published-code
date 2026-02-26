@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 25 Feb 2026 20:56:13 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 17:48:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinforcement fine-tuning for Amazon Nova: Teaching AI through feedback</title>
+      <link>https://www.dotnetramblings.com/post/26_02_2026/26_02_2026_0/</link>
+      <pubDate>Thu, 26 Feb 2026 17:48:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_02_2026/26_02_2026_0/</guid>
+      <description>
+        
+          
+            In this post, we explore reinforcement fine-tuning (RFT) for Amazon Nova models, which can be a powerful customization technique that learns through evaluation rather than imitation. We&#39;ll cover how RFT works, when to use it versus supervised fine-tuning, real-world applications from code generation to customer service, and implementation options ranging from fully managed Amazon Bedrock to multi-turn agentic workflows with Nova Forge. You&#39;ll also learn practical guidance on data preparation, reward function design, and best practices for achieving optimal results.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Large model inference container – latest capabilities and performance enhancements</title>
+      <link>https://www.dotnetramblings.com/post/26_02_2026/26_02_2026_1/</link>
+      <pubDate>Thu, 26 Feb 2026 17:45:59 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_02_2026/26_02_2026_1/</guid>
+      <description>
+        
+          
+            AWS recently released significant updates to the Large Model Inference (LMI) container, delivering comprehensive performance improvements, expanded model support, and streamlined deployment capabilities for customers hosting LLMs on AWS. These releases focus on reducing operational complexity while delivering measurable performance gains across popular model architectures.
+Link to article: https://aws.amazon.com/blogs/machine-learning/large-model-inference-container-latest-capabilities-and-performance-enhancements/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Efficiently serve dozens of fine-tuned models with vLLM on Amazon SageMaker AI and Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/25_02_2026/25_02_2026_1/</link>
