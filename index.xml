@@ -77,11 +77,28 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/building-custom-m
     </item>
     
     <item>
-      <title>Announcing WinUI Gallery 2.8</title>
+      <title>The mystery of the posted message that was dispatched before reaching the main message loop</title>
       <link>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_4/</link>
-      <pubDate>Thu, 05 Mar 2026 13:46:49 +0000</pubDate>
+      <pubDate>Thu, 05 Mar 2026 15:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_4/</guid>
+      <description>
+        
+          
+            A customer had a program that created a window, then posted a message to it. They were surprised to find that the message was dispatched too soon. Specifically, it was dispatched before the program reached its main message loop, which is a problem because there is other preparatory work that happens after the window is created but before th
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing WinUI Gallery 2.8</title>
+      <link>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_5/</link>
+      <pubDate>Thu, 05 Mar 2026 13:46:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_5/</guid>
       <description>
         
           
@@ -94,10 +111,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/building-custom-m
     
     <item>
       <title>How to Implement Prototype Pattern in C#: Step-by-Step Guide</title>
-      <link>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_6/</link>
       <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_6/</guid>
       <description>
         
           
@@ -111,10 +128,10 @@ Link to article: https://www.devleader.ca/2026/03/05/how-to-implement-prototype-
     
     <item>
       <title>ReSharper for Visual Studio Code, Cursor, and Compatible Editors Is Out</title>
-      <link>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_7/</link>
       <pubDate>Thu, 05 Mar 2026 11:31:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_7/</guid>
       <description>
         
           
@@ -128,10 +145,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/03/05/resharper-for-visu
     
     <item>
       <title>Platform Engineering for the Agentic AI era</title>
-      <link>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_8/</link>
       <pubDate>Thu, 05 Mar 2026 05:47:29 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_03_2026/05_03_2026_8/</guid>
       <description>
         
           
