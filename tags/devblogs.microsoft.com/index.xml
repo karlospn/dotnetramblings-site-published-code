@@ -26,11 +26,28 @@ Link to article: https://devblogs.microsoft.com/go/go-1-26-1-1-and-1-25-8-1-micr
     </item>
     
     <item>
+      <title>When &lt;code&gt;Read­Directory­ChangesW&lt;/code&gt; reports that a deletion occurred, how can I learn more about the deleted thing?</title>
+      <link>https://www.dotnetramblings.com/post/06_03_2026/06_03_2026_2/</link>
+      <pubDate>Fri, 06 Mar 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_03_2026/06_03_2026_2/</guid>
+      <description>
+        
+          
+            A customer was using Read­Directory­ChangesW to monitor changes to a directory. However, they ran into a problem when they received a FILE_ACTION_REMOVED notification: Since the notification is raised when the item is deleted, they can&#39;t do a Get­File­AttributesEx to find out whether
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Using Agents to Setup Experiments</title>
-      <link>https://www.dotnetramblings.com/post/06_03_2026/06_03_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/06_03_2026/06_03_2026_11/</link>
       <pubDate>Fri, 06 Mar 2026 08:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_03_2026/06_03_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_03_2026/06_03_2026_11/</guid>
       <description>
         
           
