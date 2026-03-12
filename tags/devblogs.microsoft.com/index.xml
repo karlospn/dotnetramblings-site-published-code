@@ -111,6 +111,40 @@ Link to article: https://devblogs.microsoft.com/dotnet/dotnet-10-0-5-oob-release
     </item>
     
     <item>
+      <title>Windows stack limit checking retrospective: x86-32, also known as i386</title>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_11/</link>
+      <pubDate>Thu, 12 Mar 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_11/</guid>
+      <description>
+        
+          
+            We start our survey of historical stack limit checking functions on Windows with the 80386 family of processors. This function has actually changed form over the years, so we&#39;ll start with the &amp;quot;original flavor&amp;quot;. Originally, the _chkstk function was called by putting the desired number of bytes in the eax re
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260312-00/?p=112136 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Advanced Shader Delivery: What’s New at GDC 2026</title>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_15/</link>
+      <pubDate>Thu, 12 Mar 2026 11:00:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_15/</guid>
+      <description>
+        
+          
+            Today we announced the innovation we’re bringing in solving shader compilation for the ecosystem at our GDC Talk: Advanced Shader Delivery for Windows. Want to find out what this means for solving shader compilation for your title and customers? Read on! State of the Industry Long shader com
+Link to article: https://devblogs.microsoft.com/directx/advanced-shader-delivery-whats-new-at-gdc-2026 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>DirectStorage 1.4 release adds support for Zstandard</title>
       <link>https://www.dotnetramblings.com/post/11_03_2026/11_03_2026_3/</link>
       <pubDate>Wed, 11 Mar 2026 19:00:23 +0000</pubDate>
