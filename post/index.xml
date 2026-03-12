@@ -7,13 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 12 Mar 2026 20:08:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Mar 2026 21:20:17 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Microsoft at JavaOne: Empowering Java developers to lead the next era of AI</title>
+      <title>Improve operational visibility for inference workloads on Amazon Bedrock with new CloudWatch metrics for TTFT and Estimated Quota Consumption</title>
       <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_0/</link>
-      <pubDate>Thu, 12 Mar 2026 20:08:19 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 21:20:17 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_0/</guid>
+      <description>
+        
+          
+            Today, we’re announcing two new Amazon CloudWatch metrics for Amazon Bedrock, TimeToFirstToken and EstimatedTPMQuotaUsage. In this post, we cover how these work and how to set alarms, establish baselines, and proactively manage capacity using them.
+Link to article: https://aws.amazon.com/blogs/machine-learning/improve-operational-visibility-for-inference-workloads-on-amazon-bedrock-with-new-cloudwatch-metrics-for-ttft-and-estimated-quota-consumption/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Secure AI agents with Policy in Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_1/</link>
+      <pubDate>Thu, 12 Mar 2026 21:16:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_1/</guid>
+      <description>
+        
+          
+            In this post, you will understand how Policy in Amazon Bedrock AgentCore creates a deterministic enforcement layer that operates independently of the agent&#39;s own reasoning. You will learn how to turn natural language descriptions of your business rules into Cedar policies, then use those policies to enforce fine-grained, identity-aware controls so that agents only access the tools and data that their users are authorized to use. You will also see how to apply Policy through AgentCore Gateway, intercepting and evaluating every agent-to-tool request at runtime.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build an AI Code Review Bot with Semantic Kernel in C#</title>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_2/</link>
+      <pubDate>Thu, 12 Mar 2026 21:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_2/</guid>
+      <description>
+        
+          
+            Learn to build an AI code review bot with Semantic Kernel in C#. Uses ChatCompletionAgent with four plugins for bug, security, performance, and style review.
+Link to article: https://www.devleader.ca/2026/03/12/build-an-ai-code-review-bot-with-semantic-kernel-in-c 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Evolving DirectX for the ML Era on Windows</title>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_3/</link>
+      <pubDate>Thu, 12 Mar 2026 20:33:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_3/</guid>
+      <description>
+        
+          
+            At GDC this year, we shared how machine learning is becoming foundational to real time graphics, and how DirectX is evolving to meet that shift across shader level and model level ML. ML is no longer a niche optimization or a postprocess trick. It’s increasingly embedded throughout the graphics pipeline, influencing how frames are generated,
+Link to article: https://devblogs.microsoft.com/directx/evolving-directx-for-the-ml-era-on-windows 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Microsoft at JavaOne: Empowering Java developers to lead the next era of AI</title>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_4/</link>
+      <pubDate>Thu, 12 Mar 2026 20:08:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_4/</guid>
       <description>
         
           
@@ -27,10 +94,10 @@ Link to article: https://devblogs.microsoft.com/java/microsoft-at-javaone-empowe
     
     <item>
       <title>Agent Harness in Agent Framework</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_5/</link>
       <pubDate>Thu, 12 Mar 2026 19:30:26 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_5/</guid>
       <description>
         
           
@@ -44,10 +111,10 @@ Link to article: https://devblogs.microsoft.com/agent-framework/agent-harness-in
     
     <item>
       <title>DirectX: Bringing Console-Level Developer Tools to Windows</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_6/</link>
       <pubDate>Thu, 12 Mar 2026 19:26:17 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_6/</guid>
       <description>
         
           
@@ -61,10 +128,10 @@ Link to article: https://devblogs.microsoft.com/directx/directx-bringing-console
     
     <item>
       <title>Modernize .NET Anywhere with GitHub Copilot</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_7/</link>
       <pubDate>Thu, 12 Mar 2026 17:05:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_7/</guid>
       <description>
         
           
@@ -78,10 +145,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/modernize-dotnet-anywhere
     
     <item>
       <title>.NET 10.0.5 Out-of-Band Release - macOS Debugger Fix</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_8/</link>
       <pubDate>Thu, 12 Mar 2026 17:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_8/</guid>
       <description>
         
           
@@ -95,10 +162,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/dotnet-10-0-5-oob-release
     
     <item>
       <title>Multimodal embeddings at scale: AI data lake for media and entertainment workloads</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_9/</link>
       <pubDate>Thu, 12 Mar 2026 15:59:35 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_9/</guid>
       <description>
         
           
@@ -112,10 +179,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/multimodal-embedd
     
     <item>
       <title>Fine-tuning NVIDIA Nemotron Speech ASR on Amazon EC2 for domain adaptation</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_10/</link>
       <pubDate>Thu, 12 Mar 2026 15:57:22 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_10/</guid>
       <description>
         
           
@@ -129,10 +196,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/fine-tuning-nvidi
     
     <item>
       <title>Strategy Pattern Real-World Example in C#: Complete Implementation</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_11/</link>
       <pubDate>Thu, 12 Mar 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_11/</guid>
       <description>
         
           
@@ -146,10 +213,10 @@ Link to article: https://www.devleader.ca/2026/03/12/strategy-pattern-realworld-
     
     <item>
       <title>Flexibility Over Lock-In: The Enterprise Shift in Agent Strategy</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_12/</link>
       <pubDate>Thu, 12 Mar 2026 12:50:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_12/</guid>
       <description>
         
           
@@ -163,10 +230,10 @@ Link to article: https://www.docker.com/blog/enterprise-shift-in-agent-strategy/
     
     <item>
       <title>The Impact and Achievements of AI4SE in 2025</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_13/</link>
       <pubDate>Thu, 12 Mar 2026 11:16:09 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_13/</guid>
       <description>
         
           
@@ -180,10 +247,10 @@ Link to article: https://blog.jetbrains.com/research/2026/03/ai4se-in-2025/
     
     <item>
       <title>CollabTalk Podcast: Episode 183 with David McCarter</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_10/</link>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_14/</link>
       <pubDate>Thu, 12 Mar 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_14/</guid>
       <description>
         
           
@@ -197,10 +264,10 @@ Link to article: https://dotnettips.wordpress.com/2026/03/12/collabtalk-podcast-
     
     <item>
       <title>UX Chronicles: How OpenAI Broke Sora</title>
-      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_15/</link>
       <pubDate>Thu, 12 Mar 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_03_2026/12_03_2026_15/</guid>
       <description>
         
           
