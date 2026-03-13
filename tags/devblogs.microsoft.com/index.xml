@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 13 Mar 2026 11:04:33 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Mar 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows stack limit checking retrospective: MIPS</title>
+      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_0/</link>
+      <pubDate>Fri, 13 Mar 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_0/</guid>
+      <description>
+        
+          
+            Last time, we looked at how the 80386 performed stack probing on entry to a function with a large local frame. Today we&#39;ll look at MIPS, which differs in a few ways. ; on entry, t8 = desired sta
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260313-00/?p=112138 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>What&#39;s New in Agent Skills: Code Skills, Script Execution, and Approval for Python</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_6/</link>
       <pubDate>Fri, 13 Mar 2026 11:04:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_6/</guid>
       <description>
         
           

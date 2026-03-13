@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Prototype Pattern Real-World Example in C#: Complete Implementation | .NET Ramblings</title>
+<title>Windows stack limit checking retrospective: MIPS | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,17 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Prototype pattern real-world example in C#: complete implementation with game object system, code examples, and practical use case demonstration.
-Link to …" />
+<meta name="description" content="Last time, we looked at how the 80386 performed stack probing on entry to a function with a large local frame. Today we&#39;ll look at MIPS, which differs in a few …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Prototype Pattern Real-World Example in C#: Complete Implementation" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta name="twitter:title" content="Windows stack limit checking retrospective: MIPS" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_0/" />
-<meta property="og:title" content="Prototype Pattern Real-World Example in C#: Complete Implementation" />
-<meta property="og:description" content="Prototype pattern real-world example in C#: complete implementation with game object system, code examples, and practical use case demonstration.
-Link to …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
+<meta property="og:title" content="Windows stack limit checking retrospective: MIPS" />
+<meta property="og:description" content="Last time, we looked at how the 80386 performed stack probing on entry to a function with a large local frame. Today we&#39;ll look at MIPS, which differs in a few …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -134,7 +132,7 @@ Link to …" />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Prototype Pattern Real-World Example in C#: Complete Implementation</h1>
+    <h1 class="post_title">Windows stack limit checking retrospective: MIPS</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,14 @@ Link to …" />
 </svg>
 </span>
     <span class="post_date">
-      Mar 13, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
+      Mar 13, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Prototype pattern real-world example in C#: complete implementation with game object system, code examples, and practical use case demonstration.</p>
+    <div class="post_body"><p>Last time, we looked at how the 80386 performed stack probing on entry to a function with a large local frame. Today we'll look at MIPS, which differs in a few ways. ; on entry, t8 = desired sta</p>
 <ul>
-<li>Link to article: <a href="https://www.devleader.ca/2026/03/13/prototype-pattern-realworld-example-in-c-complete-implementation">https://www.devleader.ca/2026/03/13/prototype-pattern-realworld-example-in-c-complete-implementation</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20260313-00/?p=112138">https://devblogs.microsoft.com/oldnewthing/20260313-00/?p=112138</a></li>
 </ul>
 
     </div>
