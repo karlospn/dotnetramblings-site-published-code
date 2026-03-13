@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Python Unplugged on PyTV Recap | .NET Ramblings</title>
+<title>Windows stack limit checking retrospective: MIPS | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Last week marked the fruition of almost a year of hard work by the entire PyCharm team. On March 4th, 2026, we hosted Python Unplugged on PyTV, our first-ever …" />
+<meta name="description" content="Last time, we looked at how the 80386 performed stack probing on entry to a function with a large local frame. Today we&#39;ll look at MIPS, which differs in a few …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Python Unplugged on PyTV Recap" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/python.png"/>
+<meta name="twitter:title" content="Windows stack limit checking retrospective: MIPS" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_6/" />
-<meta property="og:title" content="Python Unplugged on PyTV Recap" />
-<meta property="og:description" content="Last week marked the fruition of almost a year of hard work by the entire PyCharm team. On March 4th, 2026, we hosted Python Unplugged on PyTV, our first-ever …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/python.png" />
+<meta property="og:title" content="Windows stack limit checking retrospective: MIPS" />
+<meta property="og:description" content="Last time, we looked at how the 80386 performed stack probing on entry to a function with a large local frame. Today we&#39;ll look at MIPS, which differs in a few …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Python Unplugged on PyTV Recap</h1>
+    <h1 class="post_title">Windows stack limit checking retrospective: MIPS</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 13, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Mar 13, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Last week marked the fruition of almost a year of hard work by the entire PyCharm team. On March 4th, 2026, we hosted Python Unplugged on PyTV, our first-ever community conference featuring a 90s music-inspired online conference for the Python community. The PyCharm team is a fixture at Python conferences globally, such as PyCon US […]</p>
+    <div class="post_body"><p>Last time, we looked at how the 80386 performed stack probing on entry to a function with a large local frame. Today we'll look at MIPS, which differs in a few ways. ; on entry, t8 = desired sta</p>
 <ul>
-<li>Link to article: <a href="https://blog.jetbrains.com/pycharm/2026/03/python-unplugged-on-pytv-recap/">https://blog.jetbrains.com/pycharm/2026/03/python-unplugged-on-pytv-recap/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20260313-00/?p=112138">https://devblogs.microsoft.com/oldnewthing/20260313-00/?p=112138</a></li>
 </ul>
 
     </div>
