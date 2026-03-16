@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 09 Mar 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Mar 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing RFC-compliant HTTP caching for HttpClient in .NET</title>
+      <link>https://www.dotnetramblings.com/post/16_03_2026/16_03_2026_1/</link>
+      <pubDate>Mon, 16 Mar 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_03_2026/16_03_2026_1/</guid>
+      <description>
+        
+          
+            HTTP caching is one of the most effective ways to improve application performance by reducing network traffic, minimizing server load, and decreasing response times. While browsers automatically implement HTTP caching, the same isn&#39;t true for HttpClient in .NET, which processes every request independently without built-in caching support. In this post, I&#39;ll show you how to add standards-compliant HTTP…
+Link to article: https://www.meziantou.net/implementing-rfc-compliant-http-caching-for-httpclient-in-dotnet.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Visualize GitHub Actions runs with Meziantou.GitHubActionsTracing</title>
       <link>https://www.dotnetramblings.com/post/09_03_2026/09_03_2026_16/</link>
