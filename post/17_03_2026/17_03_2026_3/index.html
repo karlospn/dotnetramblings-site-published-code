@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap! | .NET Ramblings</title>
+<title>UI Freezes and the Dangers of Non-Cancellable Read Actions in Background Threads | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content=" Link to article: https://devblogs.microsoft.com/commandline/powertoys-0-98-is-here-new-keyboard-manager-ux-the-command-palette-dock-and-better-cursorwrap " />
+<meta name="description" content="In JetBrains IDEs, UI freezes are often blamed on “heavy work on the EDT,” but our recent investigations show another common culprit in plugins: long, …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap!" />
+<meta name="twitter:title" content="UI Freezes and the Dangers of Non-Cancellable Read Actions in Background Threads" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/17_03_2026/17_03_2026_3/" />
-<meta property="og:title" content="PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap!" />
-<meta property="og:description" content=" Link to article: https://devblogs.microsoft.com/commandline/powertoys-0-98-is-here-new-keyboard-manager-ux-the-command-palette-dock-and-better-cursorwrap " />
+<meta property="og:title" content="UI Freezes and the Dangers of Non-Cancellable Read Actions in Background Threads" />
+<meta property="og:description" content="In JetBrains IDEs, UI freezes are often blamed on “heavy work on the EDT,” but our recent investigations show another common culprit in plugins: long, …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap!</h1>
+    <h1 class="post_title">UI Freezes and the Dangers of Non-Cancellable Read Actions in Background Threads</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,13 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Mar 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/commandline/powertoys-0-98-is-here-new-keyboard-manager-ux-the-command-palette-dock-and-better-cursorwrap">https://devblogs.microsoft.com/commandline/powertoys-0-98-is-here-new-keyboard-manager-ux-the-command-palette-dock-and-better-cursorwrap</a></li>
+    <div class="post_body"><p>In JetBrains IDEs, UI freezes are often blamed on “heavy work on the EDT,” but our recent investigations show another common culprit in plugins: long, non-cancellable read actions running in background threads. We receive a lot of freeze reports via our automated exceptions reporting system, and many reports actually show problems in plugins that contain […]</p>
+<ul>
+<li>Link to article: <a href="https://blog.jetbrains.com/platform/2026/03/ui-freezes-and-the-dangers-of-non-cancellable-read-actions-in-background-threads/">https://blog.jetbrains.com/platform/2026/03/ui-freezes-and-the-dangers-of-non-cancellable-read-actions-in-background-threads/</a></li>
 </ul>
 
     </div>
