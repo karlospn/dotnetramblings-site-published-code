@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 17:49:36 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 18:46:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Azure Developer CLI (azd): Run and test AI agents locally with azd</title>
+      <title>Authentication Tokens Are Not a Data Contract</title>
       <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_0/</link>
-      <pubDate>Wed, 18 Mar 2026 17:49:36 +0000</pubDate>
+      <pubDate>Wed, 18 Mar 2026 18:46:49 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_0/</guid>
+      <description>
+        
+          
+            Authentication tokens exist to answer one question: is this caller authorized to do this? They are not intended to be a stable data interface, a schema you can depend on, or an input into application logic. If your application decodes tokens and reads claims from them, this is an important heads-up. Token C
+Link to article: https://devblogs.microsoft.com/devops/authentication-tokens-are-not-a-data-contract 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Pin Clustering in .NET MAUI Maps</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_1/</link>
+      <pubDate>Wed, 18 Mar 2026 18:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_1/</guid>
+      <description>
+        
+          
+            If you&#39;ve ever loaded a map with dozens — or hundreds — of pins, you know the result: an overlapping mess that&#39;s impossible to interact with. Starting in .NET MAUI 11 Preview 2, the Map control supports pin clustering out of the box on Android and iOS/Mac Catalyst.
+Link to article: https://devblogs.microsoft.com/dotnet/pin-clustering-in-dotnet-maui-maps 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Developer CLI (azd): Run and test AI agents locally with azd</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_2/</link>
+      <pubDate>Wed, 18 Mar 2026 17:49:36 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_2/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-run-invok
     
     <item>
       <title>DiskANN Vector Index Improvements</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_3/</link>
       <pubDate>Wed, 18 Mar 2026 17:00:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_3/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/azure-sql/diskann-vector-index-i
     
     <item>
       <title>Visual Studio Code 1.112</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_4/</link>
       <pubDate>Wed, 18 Mar 2026 17:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_4/</guid>
       <description>
         
           
@@ -61,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1
     
     <item>
       <title>VS Code 1.112 Insiders</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</link>
       <pubDate>Wed, 18 Mar 2026 17:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</guid>
       <description>
         
           
@@ -78,10 +112,10 @@ Link to article: https://devblogs.microsoft.com/external-blogs/vs-code-1-112-ins
     
     <item>
       <title>Handling Long-Running Operations with Background Responses</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_6/</link>
       <pubDate>Wed, 18 Mar 2026 16:37:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_6/</guid>
       <description>
         
           
@@ -95,10 +129,10 @@ Link to article: https://devblogs.microsoft.com/agent-framework/handling-long-ru
     
     <item>
       <title>When Infrastructure Scales But Understanding Doesn&#39;t</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_7/</link>
       <pubDate>Wed, 18 Mar 2026 16:22:59 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_7/</guid>
       <description>
         
           
@@ -112,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/all-things-azure/when-infrastruc
     
     <item>
       <title>MSSQL Extension for VS Code: SQL Notebooks, AI-Powered Schema Design, Data API builder &amp; More</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_12/</link>
       <pubDate>Wed, 18 Mar 2026 15:55:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_12/</guid>
       <description>
         
           
@@ -129,32 +163,15 @@ Link to article: https://devblogs.microsoft.com/azure-sql/vscode-mssql-march-202
     
     <item>
       <title>Changes to attachment IDs for inline images in Outlook add-ins</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_15/</link>
       <pubDate>Wed, 18 Mar 2026 15:28:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_15/</guid>
       <description>
         
           
             Weâ€™dÂ like to inform you about an update to howÂ inlineÂ image attachments are handledÂ
 Link to article: https://devblogs.microsoft.com/microsoft365dev/changes-to-attachment-ids-for-inline-images-in-outlook-add-ins 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Windows stack limit checking retrospective: Alpha AXP</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_11/</link>
-      <pubDate>Wed, 18 Mar 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_11/</guid>
-      <description>
-        
-          
-            We continue our historical survey of Windows stack-checking functions by looking at the Alpha AXP. ; on entry, t12 is the number of bytes to allocate ; on exit, stack has been validated (but not adjusted) ; modifies t8, t9, t10 _chkstk: subq sp, t12, t8 ; t8 = new stack pointer mov v0, t10 ; save
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260318-00/?p=112146 
           
           
         
