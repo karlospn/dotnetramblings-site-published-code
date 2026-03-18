@@ -7,13 +7,115 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 17:49:36 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>From the Captain’s Chair: Naga Santhosh Reddy Vootukuri</title>
+      <title>Azure Developer CLI (azd): Run and test AI agents locally with azd</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_0/</link>
+      <pubDate>Wed, 18 Mar 2026 17:49:36 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_0/</guid>
+      <description>
+        
+          
+            You can now run an AI agent on your local machine and send it messages—all from azd, no portal required. What&#39;s new? The azure.ai.agents extension adds two commands:
+Link to article: https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-run-invoke 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>DiskANN Vector Index Improvements</title>
       <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_1/</link>
-      <pubDate>Wed, 18 Mar 2026 16:00:12 +0000</pubDate>
+      <pubDate>Wed, 18 Mar 2026 17:00:33 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_1/</guid>
+      <description>
+        
+          
+            Remember when we announced the Public Preview of DiskANN vector indexes back in November and mentioned that once you created the index, your table became readâ€‘only? Yeahâ
+Link to article: https://devblogs.microsoft.com/azure-sql/diskann-vector-index-improvements 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.112</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_2/</link>
+      <pubDate>Wed, 18 Mar 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_2/</guid>
+      <description>
+        
+          
+            Learn what&#39;s new in Visual Studio Code 1.112 Read the full article
+Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.112 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>VS Code 1.112 Insiders</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_3/</link>
+      <pubDate>Wed, 18 Mar 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_3/</guid>
+      <description>
+        
+          
+            Learn what&#39;s new in Visual Studio Code 1.112 (Insiders) Read the full article
+Link to article: https://devblogs.microsoft.com/external-blogs/vs-code-1-112-insiders 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Handling Long-Running Operations with Background Responses</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_4/</link>
+      <pubDate>Wed, 18 Mar 2026 16:37:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_4/</guid>
+      <description>
+        
+          
+            Handling Long-Running Operations with Background Responses AI agents powered by reasoning models can take minutes to work through complex problems — deep research, multi-step analysis, lengthy content generation. In a traditional request-response pattern, that means your client sits idle waiting for a connection that may time out,
+Link to article: https://devblogs.microsoft.com/agent-framework/handling-long-running-operations-with-background-responses 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>When Infrastructure Scales But Understanding Doesn&#39;t</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</link>
+      <pubDate>Wed, 18 Mar 2026 16:22:59 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</guid>
+      <description>
+        
+          
+            We all know this, even if we don&#39;t like to admit it: modern infrastructure can scale infinitely, but human understanding doesn&#39;t. We&#39;ve all seen it happen - organizations going from managing dozens of servers to thousands of containers, from deploying weekly to deploying hundreds of times per day, from serving thousands of users to millions
+Link to article: https://devblogs.microsoft.com/all-things-azure/when-infrastructure-scales-but-understanding-doesnt 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From the Captain’s Chair: Naga Santhosh Reddy Vootukuri</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_6/</link>
+      <pubDate>Wed, 18 Mar 2026 16:00:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_6/</guid>
       <description>
         
           
@@ -26,11 +128,28 @@ Link to article: https://www.docker.com/blog/from-the-captains-chair-naga-santho
     </item>
     
     <item>
+      <title>MAF Workflows in C#: Sequential, Parallel, and Content Pipelines</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_7/</link>
+      <pubDate>Wed, 18 Mar 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_7/</guid>
+      <description>
+        
+          
+            Build MAF workflows in C# with sequential and parallel agent execution. Learn the content pipeline pattern using Microsoft Agent Framework with real code.
+Link to article: https://www.devleader.ca/2026/03/18/maf-workflows-in-c-sequential-parallel-and-content-pipelines 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>MSSQL Extension for VS Code: SQL Notebooks, AI-Powered Schema Design, Data API builder &amp; More</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_8/</link>
       <pubDate>Wed, 18 Mar 2026 15:55:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_8/</guid>
       <description>
         
           
@@ -43,49 +162,15 @@ Link to article: https://devblogs.microsoft.com/azure-sql/vscode-mssql-march-202
     </item>
     
     <item>
-      <title>Evaluating AI agents for production: A practical guide to Strands Evals</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_3/</link>
-      <pubDate>Wed, 18 Mar 2026 15:54:09 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_3/</guid>
-      <description>
-        
-          
-            In this post, we show how to evaluate AI agents systematically using Strands Evals. We walk through the core concepts, built-in evaluators, multi-turn simulation capabilities and practical approaches and patterns for integration.
-Link to article: https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-for-production-a-practical-guide-to-strands-evals/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build an AI-Powered A/B testing engine using Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_4/</link>
-      <pubDate>Wed, 18 Mar 2026 15:31:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_4/</guid>
-      <description>
-        
-          
-            This post shows you how to build an AI-powered A/B testing engine using Amazon Bedrock, Amazon Elastic Container Service, Amazon DynamoDB, and the Model Context Protocol (MCP). The system improves traditional A/B testing by analyzing user context to make smarter variant assignment decisions during the experiment.
-Link to article: https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-a-b-testing-engine-using-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Changes to attachment IDs for inline images in Outlook add-ins</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_9/</link>
       <pubDate>Wed, 18 Mar 2026 15:28:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_9/</guid>
       <description>
         
           
-            We’d like to inform you about an update to how inline image attachments are handled
+            Weâ€™dÂ like to inform you about an update to howÂ inlineÂ image attachments are handledÂ
 Link to article: https://devblogs.microsoft.com/microsoft365dev/changes-to-attachment-ids-for-inline-images-in-outlook-add-ins 
           
           
@@ -94,28 +179,11 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/changes-to-attac
     </item>
     
     <item>
-      <title>How Bark.com and AWS collaborated to build a scalable video generation solution</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_6/</link>
-      <pubDate>Wed, 18 Mar 2026 15:24:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_6/</guid>
-      <description>
-        
-          
-            Working with the AWS Generative AI Innovation Center, Bark developed an AI-powered content generation solution that demonstrated a substantial reduction in production time in experimental trials while improving content quality scores. In this post, we walk you through the technical architecture we built, the key design decisions that contributed to success, and the measurable results achieved, giving you a blueprint for implementing similar solutions.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-bark-com-and-aws-collaborated-to-build-a-scalable-video-generation-solution/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Migrate from Amazon Nova 1 to Amazon Nova 2 on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_10/</link>
       <pubDate>Wed, 18 Mar 2026 15:13:27 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_10/</guid>
       <description>
         
           
@@ -128,11 +196,28 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/migrate-from-amaz
     </item>
     
     <item>
+      <title>Windows stack limit checking retrospective: Alpha AXP</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_11/</link>
+      <pubDate>Wed, 18 Mar 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_11/</guid>
+      <description>
+        
+          
+            We continue our historical survey of Windows stack-checking functions by looking at the Alpha AXP. ; on entry, t12 is the number of bytes to allocate ; on exit, stack has been validated (but not adjusted) ; modifies t8, t9, t10 _chkstk: subq sp, t12, t8 ; t8 = new stack pointer mov v0, t10 ; save
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260318-00/?p=112146 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Coding Isn’t the Hard Part</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_12/</link>
       <pubDate>Wed, 18 Mar 2026 13:31:17 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_12/</guid>
       <description>
         
           
@@ -145,10 +230,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/migrate-from-amaz
     
     <item>
       <title>Google Summer of Code 2026 Is Here: Contribute to Kotlin</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_13/</link>
       <pubDate>Wed, 18 Mar 2026 13:11:20 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_13/</guid>
       <description>
         
           
@@ -162,10 +247,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2026/03/gsoc-2026-contribute-
     
     <item>
       <title>When to Use Decorator Pattern in C#: Decision Guide with Examples</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_10/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_14/</link>
       <pubDate>Wed, 18 Mar 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_14/</guid>
       <description>
         
           
@@ -179,10 +264,10 @@ Link to article: https://www.devleader.ca/2026/03/18/when-to-use-decorator-patte
     
     <item>
       <title>CloudBees vs TeamCity: Enterprise CI/CD Beyond Jenkins</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_15/</link>
       <pubDate>Wed, 18 Mar 2026 10:00:47 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_15/</guid>
       <description>
         
           
@@ -196,10 +281,10 @@ Link to article: https://blog.jetbrains.com/teamcity/2026/03/cloudbees-vs-teamci
     
     <item>
       <title>dotNetDave Says… Good Recruiters Are Transparent and Willing to Share Details About the Job Position</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_13/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_17/</link>
       <pubDate>Wed, 18 Mar 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_17/</guid>
       <description>
         
           
@@ -213,10 +298,10 @@ Link to article: https://dotnettips.wordpress.com/2026/03/18/dotnetdave-says-goo
     
     <item>
       <title>When NOT to use the repository pattern in EF Core</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_12/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_16/</link>
       <pubDate>Wed, 18 Mar 2026 06:24:07 +0100</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_16/</guid>
       <description>
         
           
@@ -230,10 +315,10 @@ Link to article: https://blog.elmah.io/when-not-to-use-the-repository-pattern-in
     
     <item>
       <title>Re-Sequencer and Global Message Partitioning in Wolverine</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_14/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_18/</link>
       <pubDate>Wed, 18 Mar 2026 00:18:18 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_14/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_18/</guid>
       <description>
         
           

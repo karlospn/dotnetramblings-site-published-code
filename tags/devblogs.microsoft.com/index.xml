@@ -7,13 +7,115 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 15:55:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 17:49:36 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MSSQL Extension for VS Code: SQL Notebooks, AI-Powered Schema Design, Data API builder &amp; More</title>
+      <title>Azure Developer CLI (azd): Run and test AI agents locally with azd</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_0/</link>
+      <pubDate>Wed, 18 Mar 2026 17:49:36 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_0/</guid>
+      <description>
+        
+          
+            You can now run an AI agent on your local machine and send it messages—all from azd, no portal required. What&#39;s new? The azure.ai.agents extension adds two commands:
+Link to article: https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-run-invoke 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>DiskANN Vector Index Improvements</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_1/</link>
+      <pubDate>Wed, 18 Mar 2026 17:00:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_1/</guid>
+      <description>
+        
+          
+            Remember when we announced the Public Preview of DiskANN vector indexes back in November and mentioned that once you created the index, your table became readâ€‘only? Yeahâ
+Link to article: https://devblogs.microsoft.com/azure-sql/diskann-vector-index-improvements 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.112</title>
       <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_2/</link>
-      <pubDate>Wed, 18 Mar 2026 15:55:12 +0000</pubDate>
+      <pubDate>Wed, 18 Mar 2026 17:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_2/</guid>
+      <description>
+        
+          
+            Learn what&#39;s new in Visual Studio Code 1.112 Read the full article
+Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.112 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>VS Code 1.112 Insiders</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_3/</link>
+      <pubDate>Wed, 18 Mar 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_3/</guid>
+      <description>
+        
+          
+            Learn what&#39;s new in Visual Studio Code 1.112 (Insiders) Read the full article
+Link to article: https://devblogs.microsoft.com/external-blogs/vs-code-1-112-insiders 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Handling Long-Running Operations with Background Responses</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_4/</link>
+      <pubDate>Wed, 18 Mar 2026 16:37:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_4/</guid>
+      <description>
+        
+          
+            Handling Long-Running Operations with Background Responses AI agents powered by reasoning models can take minutes to work through complex problems — deep research, multi-step analysis, lengthy content generation. In a traditional request-response pattern, that means your client sits idle waiting for a connection that may time out,
+Link to article: https://devblogs.microsoft.com/agent-framework/handling-long-running-operations-with-background-responses 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>When Infrastructure Scales But Understanding Doesn&#39;t</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</link>
+      <pubDate>Wed, 18 Mar 2026 16:22:59 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</guid>
+      <description>
+        
+          
+            We all know this, even if we don&#39;t like to admit it: modern infrastructure can scale infinitely, but human understanding doesn&#39;t. We&#39;ve all seen it happen - organizations going from managing dozens of servers to thousands of containers, from deploying weekly to deploying hundreds of times per day, from serving thousands of users to millions
+Link to article: https://devblogs.microsoft.com/all-things-azure/when-infrastructure-scales-but-understanding-doesnt 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MSSQL Extension for VS Code: SQL Notebooks, AI-Powered Schema Design, Data API builder &amp; More</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_8/</link>
+      <pubDate>Wed, 18 Mar 2026 15:55:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_8/</guid>
       <description>
         
           
@@ -27,15 +129,32 @@ Link to article: https://devblogs.microsoft.com/azure-sql/vscode-mssql-march-202
     
     <item>
       <title>Changes to attachment IDs for inline images in Outlook add-ins</title>
-      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_9/</link>
       <pubDate>Wed, 18 Mar 2026 15:28:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_9/</guid>
       <description>
         
           
-            We’d like to inform you about an update to how inline image attachments are handled
+            Weâ€™dÂ like to inform you about an update to howÂ inlineÂ image attachments are handledÂ
 Link to article: https://devblogs.microsoft.com/microsoft365dev/changes-to-attachment-ids-for-inline-images-in-outlook-add-ins 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Windows stack limit checking retrospective: Alpha AXP</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_11/</link>
+      <pubDate>Wed, 18 Mar 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_11/</guid>
+      <description>
+        
+          
+            We continue our historical survey of Windows stack-checking functions by looking at the Alpha AXP. ; on entry, t12 is the number of bytes to allocate ; on exit, stack has been validated (but not adjusted) ; modifies t8, t9, t10 _chkstk: subq sp, t12, t8 ; t8 = new stack pointer mov v0, t10 ; save
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260318-00/?p=112146 
           
           
         
