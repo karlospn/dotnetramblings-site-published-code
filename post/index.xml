@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 17 Mar 2026 21:54:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Re-Sequencer and Global Message Partitioning in Wolverine</title>
+      <link>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_1/</link>
+      <pubDate>Wed, 18 Mar 2026 00:18:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_03_2026/18_03_2026_1/</guid>
+      <description>
+        
+          
+            Last week I helped a JasperFx Software client with a use case where they get a steady stream of related events from an upstream system into a downstream system where order of processing is important, but the messages might arrive out of order. Once again referring to the venerable Enterprise Integration Patterns book, that scenario … Continue reading Re-Sequencer and Global Message Partitioning in Wolverine →
+Link to article: https://jeremydmiller.com/2026/03/17/re-sequencer-and-global-message-partitioning-in-wolverine/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>From 150 Unread to Zero Stress: Automating Inbox Triage with MCP and GitHub Copilot</title>
       <link>https://www.dotnetramblings.com/post/17_03_2026/17_03_2026_0/</link>
@@ -1714,278 +1731,6 @@ Link to article: https://blog.jetbrains.com/qodana/2026/03/ethics-of-ai-code-rev
           
             Clear naming standards in software development significantly enhance code readability, maintainability, and overall quality. Consistent naming reduces cognitive load, facilitates collaboration, and lowers long-term maintenance costs. Ignoring these standards leads to confusion, longer development times, and increased technical debt. Investing in robust naming conventions is essential for professional-grade software development.
 Link to article: https://dotnettips.wordpress.com/2026/03/11/dotnetdave-says-clear-naming-standards-create-clearer-code-and-clearer-code-leads-to-better-software/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Multi-Agent Orchestration with Semantic Kernel in C#: AgentGroupChat and Selection Strategies</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_0/</link>
-      <pubDate>Tue, 10 Mar 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_0/</guid>
-      <description>
-        
-          
-            Learn multi-agent orchestration Semantic Kernel C# with AgentGroupChat, selection strategies, and termination patterns for specialized agents in .NET.
-Link to article: https://www.devleader.ca/2026/03/10/multiagent-orchestration-with-semantic-kernel-in-c-agentgroupchat-and-selection-strategies 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>.NET 11 Preview 2 is now available!</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_1/</link>
-      <pubDate>Tue, 10 Mar 2026 20:35:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_1/</guid>
-      <description>
-        
-          
-            Today, we are excited to announce the second preview release of .NET 11! This release includes improvements across the .NET Runtime, SDK, libraries, ASP.NET Core, Blazor, .NET MAUI, F#, Entity Framework Core, container images, and more. Check out the full release notes linked below and get started today. [cta-button align=&amp;quot;center&amp;quot; te
-Link to article: https://devblogs.microsoft.com/dotnet/dotnet-11-preview-2 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>.NET and .NET Framework March 2026 servicing releases updates</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_2/</link>
-      <pubDate>Tue, 10 Mar 2026 20:33:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_2/</guid>
-      <description>
-        
-          
-            Welcome to our combined .NET servicing updates for March 2026. Let&#39;s get into the latest release of .NET &amp;amp; .NET Framework, here is a quick overview of what&#39;s new in our servicing releases: Security improvements .NET and .NET Framework has been refreshed with the latest update as of March 10, 2026. This update contains security a
-Link to article: https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-march-2026-servicing-updates 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Reimagining Windows Forms Applications with Kiro and Blazor</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_3/</link>
-      <pubDate>Tue, 10 Mar 2026 20:31:51 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_3/</guid>
-      <description>
-        
-          
-            In this post, we will show how we used Kiro, an AI-powered IDE (Integrated Development Environment) from AWS, to simplify the process of transforming a Windows Forms application into a modern ASP.NET Core Blazor web application. Windows Forms has been a cornerstone of .NET desktop development since 2002, making it easy to build graphically rich […]
-Link to article: https://aws.amazon.com/blogs/dotnet/reimagining-windows-forms-applications-with-kiro-and-blazor/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Aspire Conf is Coming! Join us Live on March 23</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_4/</link>
-      <pubDate>Tue, 10 Mar 2026 17:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_4/</guid>
-      <description>
-        
-          
-            Mark your calendar and grab your new favorite t-shirt: Aspire Conf is happening March 23 at 9:00 AM PT, and everyone’s invited. Aspire Conf is our first online co
-Link to article: https://devblogs.microsoft.com/aspire/join-us-march-23-for-aspire-conf 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Experimental AI Features for JetBrains IDEs: Recap and Insights</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_5/</link>
-      <pubDate>Tue, 10 Mar 2026 16:32:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_5/</guid>
-      <description>
-        
-          
-            JetBrains IDEs already offer a variety of AI features to help you with everyday development tasks, from code completion as you type to code generation and explanation in response to prompts or commands. As we continue expanding their AI capabilities, including with more tools and the ability to use third-party agents, we’ve also been exploring […]
-Link to article: https://blog.jetbrains.com/ai/2026/03/experimental-ai-features-for-jetbrains-ides-recap-and-insights/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Supercharge Your IDE: Custom .NET MCP Servers for Amazon Q Developer</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_6/</link>
-      <pubDate>Tue, 10 Mar 2026 16:27:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_6/</guid>
-      <description>
-        
-          
-            The rise of Generative AI (GenAI) and the new ecosystem around it have fundamentally changed how developers write, debug, and ship software. What once required hours of context-switching between documentation, Stack Overflow, and IDE windows, can now be accomplished in minutes with AI-assisted development. Tools like Amazon Q Developer bring intelligent code suggestions, automated test […]
-Link to article: https://aws.amazon.com/blogs/dotnet/supercharge-your-ide-custom-net-mcp-servers-for-amazon-q-developer/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>New Improvements to Marten’s LINQ Support</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_7/</link>
-      <pubDate>Tue, 10 Mar 2026 15:58:06 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_7/</guid>
-      <description>
-        
-          
-            I hold these two facts to be simultaneously true: Alright, on that note, let’s talk about a couple potentially important recent improvements to Marten’s LINQ support. First, we’ve received the message loud and clear that Marten was sometimes hard when what you really need is to fetch data from more than one document type at … Continue reading New Improvements to Marten’s LINQ Support →
-Link to article: https://jeremydmiller.com/2026/03/10/new-improvements-to-martens-linq-support/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerate custom LLM deployment: Fine-tune with Oumi and deploy to Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_8/</link>
-      <pubDate>Tue, 10 Mar 2026 15:42:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_8/</guid>
-      <description>
-        
-          
-            In this post, we show how to fine-tune a Llama model using Oumi on Amazon EC2 (with the option to create synthetic data using Oumi), store artifacts in Amazon S3, and deploy to Amazon Bedrock using Custom Model Import for managed inference.
-Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-custom-llm-deployment-fine-tune-with-oumi-and-deploy-to-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A snappy answer when asked about dressing casually at IBM</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_9/</link>
-      <pubDate>Tue, 10 Mar 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_9/</guid>
-      <description>
-        
-          
-            I noted in the past that Microsoft engineers had trouble fitting into the IBM corporate culture when on temporary assignment at IBM offices in Boca Raton, Florida. In particular, they struggled wit
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260310-00/?p=112131 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Strategy vs State Pattern in C#: Key Differences Explained</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_10/</link>
-      <pubDate>Tue, 10 Mar 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_10/</guid>
-      <description>
-        
-          
-            Strategy vs State pattern in C#: key differences, when to use each behavioral pattern, and implementation examples to help you choose the right pattern.
-Link to article: https://www.devleader.ca/2026/03/10/strategy-vs-state-pattern-in-c-key-differences-explained 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What’s Holding Back AI Agents? It’s Still Security</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_11/</link>
-      <pubDate>Tue, 10 Mar 2026 12:59:28 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_11/</guid>
-      <description>
-        
-          
-            It’s hard to find a team today that isn’t talking about agents. For most organizations, this isn’t a “someday” project anymore. Building agents is a strategic priority for 95% of respondents that we surveyed across the globe with 800+ developers and decision makers in our latest State of Agentic AI research. The shift is happening...
-Link to article: https://www.docker.com/blog/whats-holding-back-ai-agents-its-still-security/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Computer Science and AI BSc Open Day in Cyprus</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_12/</link>
-      <pubDate>Tue, 10 Mar 2026 11:03:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_12/</guid>
-      <description>
-        
-          
-            Exciting news! The Computer Science and Artificial Intelligence bachelor’s program at Neapolis University Pafos is hosting an Open Day on March 29. This event is a great opportunity to meet the professors and current students, learn how the program works, and see the campus in person. The CSAI program is supported by the JetBrains Foundation, […]
-Link to article: https://blog.jetbrains.com/education/2026/03/10/computer-science-and-ai-bsc-open-day-in-cyprus-2/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Improving instruction hierarchy in frontier LLMs</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_13/</link>
-      <pubDate>Tue, 10 Mar 2026 11:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_13/</guid>
-      <description>
-        
-          
-            IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.
-Link to article: https://openai.com/index/instruction-hierarchy-challenge 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>New ways to learn math and science in ChatGPT</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_14/</link>
-      <pubDate>Tue, 10 Mar 2026 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_14/</guid>
-      <description>
-        
-          
-            ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.
-Link to article: https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Splitting the NetEscapades.EnumGenerators packages: the road to a stable release</title>
-      <link>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_15/</link>
-      <pubDate>Tue, 10 Mar 2026 09:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/10_03_2026/10_03_2026_15/</guid>
-      <description>
-        
-          
-            In this post I describe the recent architectural changes to the NetEscapades.EnumGenerators package, which is now a metapackage, to support more scenarios
-Link to article: https://andrewlock.net/splitting-the-netescapades-enumgenerators-packages-the-road-to-a-stable-release/ 
           
           
         
