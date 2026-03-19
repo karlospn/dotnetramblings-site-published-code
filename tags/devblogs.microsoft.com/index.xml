@@ -26,11 +26,28 @@ Link to article: https://devblogs.microsoft.com/devops/remote-mcp-server-preview
     </item>
     
     <item>
+      <title>Windows stack limit checking retrospective: amd64, also known as x86-64</title>
+      <link>https://www.dotnetramblings.com/post/19_03_2026/19_03_2026_6/</link>
+      <pubDate>Thu, 19 Mar 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_03_2026/19_03_2026_6/</guid>
+      <description>
+        
+          
+            Our survey of stack limit checking reaches the modern day with amd64, also known as x86-64. This time, there are two versions of the function, one for user mode and one for kernel mode. We&#39;ll look at the user mode version. Actually, there are two user mode versions. One is in msvcrt, the legacy runtime. ; on entry
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260319-00/?p=112152 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>From Azure IoT Operations Data Processor Pipelines to Dataflows</title>
-      <link>https://www.dotnetramblings.com/post/19_03_2026/19_03_2026_12/</link>
+      <link>https://www.dotnetramblings.com/post/19_03_2026/19_03_2026_13/</link>
       <pubDate>Thu, 19 Mar 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_03_2026/19_03_2026_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_03_2026/19_03_2026_13/</guid>
       <description>
         
           
