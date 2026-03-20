@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Rider 2026.1 Release Candidate Is Out! | .NET Ramblings</title>
+<title>Windows stack limit checking retrospective: arm64, also known as AArch64 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="The Rider 2026.1 Release Candidate is ready for you to try. This upcoming release brings improved support for the .NET ecosystem and game development workflows, …" />
+<meta name="description" content="Our survey of stack limit checking wraps up with arm64, also known as AArch64. The stack limit checking takes two forms, one simple version for pure arm64 …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Rider 2026.1 Release Candidate Is Out!" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta name="twitter:title" content="Windows stack limit checking retrospective: arm64, also known as AArch64" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/20_03_2026/20_03_2026_2/" />
-<meta property="og:title" content="Rider 2026.1 Release Candidate Is Out!" />
-<meta property="og:description" content="The Rider 2026.1 Release Candidate is ready for you to try. This upcoming release brings improved support for the .NET ecosystem and game development workflows, …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
+<meta property="og:title" content="Windows stack limit checking retrospective: arm64, also known as AArch64" />
+<meta property="og:description" content="Our survey of stack limit checking wraps up with arm64, also known as AArch64. The stack limit checking takes two forms, one simple version for pure arm64 …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Rider 2026.1 Release Candidate Is Out!</h1>
+    <h1 class="post_title">Windows stack limit checking retrospective: arm64, also known as AArch64</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 20, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Mar 20, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>The Rider 2026.1 Release Candidate is ready for you to try. This upcoming release brings improved support for the .NET ecosystem and game development workflows, as well as refinements to the overall developer experience. Rider 2026.1 allows you to work with file-based C# programs and offers an improved MAUI development experience on Windows, mixed-mode debugging, […]</p>
+    <div class="post_body"><p>Our survey of stack limit checking wraps up with arm64, also known as AArch64. The stack limit checking takes two forms, one simple version for pure arm64 processes, and a more complex version for Arm64EC. I'm going to look at the simple version. The complex version differs in that it has to check whether the code is running on the</p>
 <ul>
-<li>Link to article: <a href="https://blog.jetbrains.com/dotnet/2026/03/20/rider-2026-1-release-candidate/">https://blog.jetbrains.com/dotnet/2026/03/20/rider-2026-1-release-candidate/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20260320-00/?p=112154">https://devblogs.microsoft.com/oldnewthing/20260320-00/?p=112154</a></li>
 </ul>
 
     </div>
