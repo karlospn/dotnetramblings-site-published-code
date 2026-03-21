@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 17 Mar 2026 12:01:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling SignalR With a Redis Backplane</title>
+      <link>https://www.dotnetramblings.com/post/21_03_2026/21_03_2026_0/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_03_2026/21_03_2026_0/</guid>
+      <description>
+        
+          
+            SignalR connections are server-local. Scale out to multiple instances and messages stop reaching the right clients. Here&#39;s how the Redis backplane fixes that - and what you still need to get right.
+Link to article: https://www.milanjovanovic.tech/blog/scaling-signalr-with-redis-backplane 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Optimizing Bulk Database Updates in .NET: From Naive to Lightning-Fast</title>
       <link>https://www.dotnetramblings.com/post/14_03_2026/14_03_2026_2/</link>

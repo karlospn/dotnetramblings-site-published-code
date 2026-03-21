@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 20 Mar 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling SignalR With a Redis Backplane</title>
+      <link>https://www.dotnetramblings.com/post/21_03_2026/21_03_2026_0/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_03_2026/21_03_2026_0/</guid>
+      <description>
+        
+          
+            SignalR connections are server-local. Scale out to multiple instances and messages stop reaching the right clients. Here&#39;s how the Redis backplane fixes that - and what you still need to get right.
+Link to article: https://www.milanjovanovic.tech/blog/scaling-signalr-with-redis-backplane 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>CopilotClient and CopilotSession in C#: Core Concepts of the GitHub Copilot SDK</title>
       <link>https://www.dotnetramblings.com/post/20_03_2026/20_03_2026_1/</link>
@@ -1697,278 +1714,6 @@ Link to article: https://www.devleader.ca/2026/03/14/decorator-design-pattern-in
           
             Seven approaches to bulk-updating rows in PostgreSQL from .NET using Dapper and EF Core, from naive per-row updates to binary COPY. Each step cuts down on round-trips or removes dynamic SQL entirely.
 Link to article: https://www.milanjovanovic.tech/blog/optimizing-bulk-database-updates-in-dotnet 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>March Patches for Azure DevOps Server</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_0/</link>
-      <pubDate>Fri, 13 Mar 2026 21:41:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_0/</guid>
-      <description>
-        
-          
-            We are releasing patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay on the latest, most secure version of Azure DevOps Server. The latest release, Azure DevOps Server, is available from the
-Link to article: https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-4 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build an AI Task Planner with Semantic Kernel in C#</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_1/</link>
-      <pubDate>Fri, 13 Mar 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_1/</guid>
-      <description>
-        
-          
-            Build an AI task planner with Semantic Kernel in C# using KernelFunctionFactory, Kernel.InvokeAsync, KernelArguments, and structured JSON pipelines.
-Link to article: https://www.devleader.ca/2026/03/13/build-an-ai-task-planner-with-semantic-kernel-in-c 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The Human Scale Problem in Platform Engineering</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_2/</link>
-      <pubDate>Fri, 13 Mar 2026 20:22:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_2/</guid>
-      <description>
-        
-          
-            We keep doing this thing where we solve a problem, celebrate the victory, then realize we&#39;ve created three new problems we didn&#39;t even know existed. Remember when manually configuring servers was the bottleneck? So we built containers. Great! Now we&#39;re orchestrating thousands of them. Remember when monolithic deployments were too slow? So w
-Link to article: https://devblogs.microsoft.com/all-things-azure/the-human-scale-problem-in-platform-engineering 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>P-EAGLE: Faster LLM inference with Parallel Speculative Decoding in vLLM</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_3/</link>
-      <pubDate>Fri, 13 Mar 2026 19:27:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_3/</guid>
-      <description>
-        
-          
-            In this post, we explain how P-EAGLE works, how we integrated it into vLLM starting from v0.16.0 (PR#32887), and how to serve it with our pre-trained checkpoints.
-Link to article: https://aws.amazon.com/blogs/machine-learning/p-eagle-faster-llm-inference-with-parallel-speculative-decoding-in-vllm/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Developer CLI (azd): Debug hosted AI agents from your terminal</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_4/</link>
-      <pubDate>Fri, 13 Mar 2026 19:19:52 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_4/</guid>
-      <description>
-        
-          
-            When a hosted AI agent crashes, azd now shows you the status and streams live logs—right from the CLI. What&#39;s new? The azure.ai.agents extension adds two commands:
-Link to article: https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-logs-status 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Rock Your Career: The Recruiter Survival Guide for Software Engineers – How to Use Recruiters Without Getting Used</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_5/</link>
-      <pubDate>Fri, 13 Mar 2026 17:17:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_5/</guid>
-      <description>
-        
-          
-            A new eBook by David McCarter offers software engineers practical strategies for effectively navigating the recruiting process. It emphasizes understanding recruiter dynamics, identifying high-quality recruiters, and avoiding common pitfalls. The guide aims to empower engineers to make informed career decisions and build productive relationships with recruiters, enhancing job search outcomes.
-Link to article: https://dotnettips.wordpress.com/2026/03/13/rock-your-career-the-recruiter-survival-guide-for-software-engineers-how-to-use-recruiters-without-getting-used/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AutoMapper 16.1.1 Released</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_6/</link>
-      <pubDate>Fri, 13 Mar 2026 15:58:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_6/</guid>
-      <description>
-        
-          
-            This release is a patch release to fix a thread deadlock and security issue. From the release notes:Thread DeadlockThanks to @t0m-4 for reporting this issue, which due to Microsoft deprecating some of the &amp;quot;sync&amp;quot; APIs for decryption, led to potential thread starvation and locking issues. The
-Link to article: https://www.jimmybogard.com/automapper-16-1-1-released/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Windows stack limit checking retrospective: MIPS</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_7/</link>
-      <pubDate>Fri, 13 Mar 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_7/</guid>
-      <description>
-        
-          
-            Last time, we looked at how the 80386 performed stack probing on entry to a function with a large local frame. Today we&#39;ll look at MIPS, which differs in a few ways. ; on entry, t8 = desired sta
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260313-00/?p=112138 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Python Unplugged on PyTV Recap</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_8/</link>
-      <pubDate>Fri, 13 Mar 2026 13:05:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_8/</guid>
-      <description>
-        
-          
-            Last week marked the fruition of almost a year of hard work by the entire PyCharm team. On March 4th, 2026, we hosted Python Unplugged on PyTV, our first-ever community conference featuring a 90s music-inspired online conference for the Python community. The PyCharm team is a fixture at Python conferences globally, such as PyCon US […]
-Link to article: https://blog.jetbrains.com/pycharm/2026/03/python-unplugged-on-pytv-recap/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Achieving Test Reliability for Native E2E Testing: Beyond Fixing Broken Tests</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_10/</link>
-      <pubDate>Fri, 13 Mar 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_10/</guid>
-      <description>
-        
-          
-            End-to-end (E2E) tests are particularly important for native applications that run on various platforms (Android/iOS), screen sizes, and OS versions. E2E testing picks up differences in behavior across this fragmented ecosystem. But keeping E2E tests reliable is often more challenging than writing them in the first place. The fragmented device ecosystem, gaps in test frameworks,...
-Link to article: https://www.docker.com/blog/native-e2e-test-reliability/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Prototype Pattern Real-World Example in C#: Complete Implementation</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_9/</link>
-      <pubDate>Fri, 13 Mar 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_9/</guid>
-      <description>
-        
-          
-            Prototype pattern real-world example in C#: complete implementation with game object system, code examples, and practical use case demonstration.
-Link to article: https://www.devleader.ca/2026/03/13/prototype-pattern-realworld-example-in-c-complete-implementation 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Run Claude Code with Docker: Local Models, MCP Servers, and Secure Sandboxes</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_11/</link>
-      <pubDate>Fri, 13 Mar 2026 12:17:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_11/</guid>
-      <description>
-        
-          
-            Claude Code is quickly becoming a go-to AI coding assistant for developers and increasingly for non-developers who want to build with code. But to truly unlock its potential, it needs the right local infrastructure, tool access, and security boundaries. In this blog, we’ll show you how to run Claude Code with Docker to gain full...
-Link to article: https://www.docker.com/blog/run-claude-code-with-docker/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Secure Agent Execution with NanoClaw and Docker Sandboxes</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_12/</link>
-      <pubDate>Fri, 13 Mar 2026 12:01:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_12/</guid>
-      <description>
-        
-          
-            Agents have enormous potential to power secure, personal AI assistants that automate complex tasks and workflows. Realizing that potential, however, requires strong isolation, a codebase that teams can easily inspect and understand, and clear control boundaries they can trust. Today, NanoClaw, a lightweight agent framework, is integrating with Docker Sandboxes to deliver secure-by-design agent execution....
-Link to article: https://www.docker.com/blog/nanoclaw-docker-sandboxes-agent-security/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What&#39;s New in Agent Skills: Code Skills, Script Execution, and Approval for Python</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_13/</link>
-      <pubDate>Fri, 13 Mar 2026 11:04:33 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_13/</guid>
-      <description>
-        
-          
-            Code-Defined Skills, Script Execution, and Approval for Agent Skills in Python When we introduced Agent Skills for Microsoft Agent Framework, you could package domain expertise as file-based s
-Link to article: https://devblogs.microsoft.com/agent-framework/whats-new-in-agent-skills-code-skills-script-execution-and-approval-for-python 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Datalore 2026.1: New Data Explorer Cells, Instance-Wide BYOK for AI, Stronger Security via Sidecar Containers in Kubernetes, and More</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_14/</link>
-      <pubDate>Fri, 13 Mar 2026 08:52:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_14/</guid>
-      <description>
-        
-          
-            The first Datalore release of the year delivers several new features that make working with data even easier. These updates are already available to Datalore Cloud users. For Datalore On-Premises, instance administrators can enable them by updating their Datalore instance. Let’s dive in! Data explorer Datalore 2026.1 introduces data explorer cells, a new way to […]
-Link to article: https://blog.jetbrains.com/datalore/2026/03/13/datalore-2026-1/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How VS Code Builds with AI</title>
-      <link>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_15/</link>
-      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_03_2026/13_03_2026_15/</guid>
-      <description>
-        
-          
-            Learn how VS Code uses AI across its own development workflow with GitHub Copilot agent mode, automated testing, and AI-powered code review. Read the full article
-Link to article: https://devblogs.microsoft.com/vscode-blog/how-vs-code-builds-with-ai 
           
           
         
