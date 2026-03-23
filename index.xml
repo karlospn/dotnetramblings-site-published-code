@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 23 Mar 2026 15:30:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Mar 2026 16:46:54 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Announcing Aspire 13.2</title>
+      <title>How Reco transforms security alerts using Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_0/</link>
-      <pubDate>Mon, 23 Mar 2026 15:30:00 +0000</pubDate>
+      <pubDate>Mon, 23 Mar 2026 16:46:54 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_0/</guid>
+      <description>
+        
+          
+            In this blog post, we show you how Reco implemented Amazon Bedrock to help transform security alerts and achieve significant improvements in incident response times.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-reco-transforms-security-alerts-using-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Integrating Amazon Bedrock AgentCore with Slack</title>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_1/</link>
+      <pubDate>Mon, 23 Mar 2026 16:38:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_1/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to build a Slack integration using AWS Cloud Development Kit (AWS CDK). You will learn how to deploy the infrastructure with three specialized AWS Lambda functions, configure event subscriptions properly to handle Slack&#39;s security requirements, and implement conversation management patterns that work for many agent use cases.
+Link to article: https://aws.amazon.com/blogs/machine-learning/integrating-amazon-bedrock-agentcore-with-slack/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Overcoming LLM hallucinations in regulated industries: Artificial Genius’s deterministic models on Amazon Nova</title>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_2/</link>
+      <pubDate>Mon, 23 Mar 2026 16:34:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we’re excited to showcase how AWS ISV Partner Artificial Genius is using Amazon SageMaker AI and Amazon Nova to deliver a solution that is probabilistic on input but deterministic on output, helping to enable safe, enterprise-grade adoption.
+Link to article: https://aws.amazon.com/blogs/machine-learning/overcoming-llm-hallucinations-in-regulated-industries-artificial-geniuss-deterministic-models-on-amazon-nova/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing TypeScript 6.0</title>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_3/</link>
+      <pubDate>Mon, 23 Mar 2026 16:34:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_3/</guid>
+      <description>
+        
+          
+            Today we are excited to announce the availability of TypeScript 6.0! If you are not familiar with TypeScript, it&#39;s a language that builds on JavaScript by adding syntax for types, which enables type-checking to catch errors, and provide rich editor tooling. You can learn more about TypeScript and how to get started on the
+Link to article: https://devblogs.microsoft.com/typescript/announcing-typescript-6-0 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing Aspire 13.2</title>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_4/</link>
+      <pubDate>Mon, 23 Mar 2026 15:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_4/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/aspire/aspire-13-2-announcement
     
     <item>
       <title>Ten Months with Copilot Coding Agent in dotnet/runtime</title>
-      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_5/</link>
       <pubDate>Mon, 23 Mar 2026 14:55:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_5/</guid>
       <description>
         
           
@@ -43,11 +111,28 @@ Link to article: https://devblogs.microsoft.com/dotnet/ten-months-with-cca-in-do
     </item>
     
     <item>
+      <title>KotlinConf’26 Speakers: In Conversation with Josh Long</title>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_6/</link>
+      <pubDate>Mon, 23 Mar 2026 14:51:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_6/</guid>
+      <description>
+        
+          
+            “There’s never been a better time to be a JVM or Spring developer.” The Spring ecosystem has evolved dramatically over the past decade, from traditional enterprise applications to microservices, distributed systems, and now AI-powered services. Few people have witnessed that evolution as closely as Josh Long, who has served as Spring’s first Developer Advocate since […]
+Link to article: https://blog.jetbrains.com/kotlin/2026/03/kotlinconf-26-speakers-in-conversation-with-josh-long/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>How can I make sure the anti-malware software doesn&#39;t terminate my custom service?</title>
-      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_7/</link>
       <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_7/</guid>
       <description>
         
           
@@ -61,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260323-00/?p=11215
     
     <item>
       <title>Singleton vs Static Class in C#: Key Differences Explained</title>
-      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_8/</link>
       <pubDate>Mon, 23 Mar 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_8/</guid>
       <description>
         
           
@@ -78,10 +163,10 @@ Link to article: https://www.devleader.ca/2026/03/23/singleton-vs-static-class-i
     
     <item>
       <title>The New Role of Data Teams in the Agentic Analytics Era</title>
-      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_9/</link>
       <pubDate>Mon, 23 Mar 2026 12:36:29 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_9/</guid>
       <description>
         
           
@@ -95,10 +180,10 @@ Link to article: https://blog.jetbrains.com/databao/2026/03/new-role-of-data-tea
     
     <item>
       <title>Speed Up .NET CI with Test Sharding</title>
-      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_10/</link>
       <pubDate>Mon, 23 Mar 2026 12:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_10/</guid>
       <description>
         
           
@@ -112,10 +197,10 @@ Link to article: https://www.
     
     <item>
       <title>Important updates: GitHub Copilot support ending for JetBrains 2024.2 and 2024.3</title>
-      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_11/</link>
       <pubDate>Mon, 23 Mar 2026 06:34:09 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_11/</guid>
       <description>
         
           
@@ -129,10 +214,10 @@ Link to article: https://devblogs.microsoft.com/java/important-updates-ghsupport
     
     <item>
       <title>Is There an ROI on Learning C#? - Dev Leader Weekly 132</title>
-      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_12/</link>
       <pubDate>Mon, 23 Mar 2026 06:24:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_12/</guid>
       <description>
         
           
@@ -146,10 +231,10 @@ Link to article: https://www.devleader.ca/2026/03/23/is-there-an-roi-on-learning
     
     <item>
       <title>Creating with Sora Safely</title>
-      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_13/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_13/</guid>
       <description>
         
           
