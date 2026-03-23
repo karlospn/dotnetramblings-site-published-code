@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 23 Mar 2026 06:34:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Mar 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Important updates: GitHub Copilot support ending for JetBrains 2024.2 and 2024.3</title>
+      <title>Speed Up .NET CI with Test Sharding</title>
       <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_0/</link>
-      <pubDate>Mon, 23 Mar 2026 06:34:09 +0000</pubDate>
+      <pubDate>Mon, 23 Mar 2026 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_0/</guid>
+      <description>
+        
+          
+            A shard is a deterministic subset of your test suite. Test sharding means splitting one long test run into multiple smaller runs, and executing them in parallel in CI. Instead of waiting for one job that runs every test, you wait for the slowest shard. This often reduces CI wall-clock time and gives faster feedback. Meziantou.ShardedTest is a .NET global tool that creates deterministic shards and runs…
+Link to article: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Important updates: GitHub Copilot support ending for JetBrains 2024.2 and 2024.3</title>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_1/</link>
+      <pubDate>Mon, 23 Mar 2026 06:34:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_1/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://devblogs.microsoft.com/java/important-updates-ghsupport
     
     <item>
       <title>Is There an ROI on Learning C#? - Dev Leader Weekly 132</title>
-      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_2/</link>
       <pubDate>Mon, 23 Mar 2026 06:24:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_2/</guid>
       <description>
         
           

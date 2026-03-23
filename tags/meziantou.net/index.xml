@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 16 Mar 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Mar 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speed Up .NET CI with Test Sharding</title>
+      <link>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_0/</link>
+      <pubDate>Mon, 23 Mar 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_03_2026/23_03_2026_0/</guid>
+      <description>
+        
+          
+            A shard is a deterministic subset of your test suite. Test sharding means splitting one long test run into multiple smaller runs, and executing them in parallel in CI. Instead of waiting for one job that runs every test, you wait for the slowest shard. This often reduces CI wall-clock time and gives faster feedback. Meziantou.ShardedTest is a .NET global tool that creates deterministic shards and runs…
+Link to article: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Implementing RFC-compliant HTTP caching for HttpClient in .NET</title>
       <link>https://www.dotnetramblings.com/post/16_03_2026/16_03_2026_17/</link>
