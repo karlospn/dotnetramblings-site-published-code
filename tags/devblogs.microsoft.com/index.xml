@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 25 Mar 2026 04:57:28 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Mar 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How can I change a dialog box&#39;s message loop to do a &lt;code&gt;Msg­Wait­For­Multiple­Objects&lt;/code&gt; instead of &lt;code&gt;Get­Message&lt;/code&gt;?</title>
+      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_1/</link>
+      <pubDate>Wed, 25 Mar 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_1/</guid>
+      <description>
+        
+          
+            A customer wanted to know how to change a dialog box&#39;s message loop so that it used Msg­Wait­For­Multiple­Objects instead of Get­Message. (I&#39;m guessing that they had a handle that they wanted to wait on while the dialog was up.) The standard dialog box message loop checks only for messages, not kernel handles.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260325-00/?p=112165 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>SharePoint Framework (SPFx) roadmap update – March 2026</title>
-      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_4/</link>
       <pubDate>Wed, 25 Mar 2026 04:57:28 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_4/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/sharepoint-frame
     
     <item>
       <title>Your Entire Engineering Floor Just Stopped Coding</title>
-      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_5/</link>
       <pubDate>Wed, 25 Mar 2026 03:38:23 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_5/</guid>
       <description>
         
           
@@ -44,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/all-things-azure/your-entire-eng
     
     <item>
       <title>Designing for Eventual Consistency for Microsoft Entra</title>
-      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_6/</link>
       <pubDate>Wed, 25 Mar 2026 02:30:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_6/</guid>
       <description>
         
           
