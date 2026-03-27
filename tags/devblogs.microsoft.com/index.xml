@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 26 Mar 2026 20:41:06 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Mar 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What if a dialog wants to intercept its own message loop?</title>
+      <link>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_4/</link>
+      <pubDate>Fri, 27 Mar 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_4/</guid>
+      <description>
+        
+          
+            So far, we&#39;ve been looking at how a dialog box owner can customize the dialog message loop. But what about the dialog itself? Can the dialog customize its own dialog message loop? Sure. It just has to steal the messages from its owner. The dialog box can subclass its owner and grab the WM_ENTER­IDLE mess
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260327-00/?p=112172 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Azure SDK Release (March 2026)</title>
       <link>https://www.dotnetramblings.com/post/26_03_2026/26_03_2026_3/</link>
