@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markheath.net on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/markheath.net/</link>
+    <description>Recent content in Markheath.net on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/markheath.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing Back-end App Service Web Apps with Private Endpoints</title>
+      <link>https://www.dotnetramblings.com/post/31_03_2026/31_03_2026_11/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/31_03_2026/31_03_2026_11/</guid>
+      <description>
+        
+          
+            Back in 2019, I wrote about securing back-end App Service web apps using VNets and Service Endpoints. That approach worked well at the time, but Azure has moved on significantly since then. In this post, I&#39;ll show the modern way to achieve the same thing using Private Endpoints — which is now Microsoft&#39;s recommended approach. The Problem The scenario is the same as before. You have a front-end web app and a back-end API, both hosted on Azure App Service.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
