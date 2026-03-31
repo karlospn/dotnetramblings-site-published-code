@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Visual Studio March Update - Build Your Own Custom Agents | .NET Ramblings</title>
+<title>Securing Back-end App Service Web Apps with Private Endpoints | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="This month&#39;s Visual Studio update gives you new ways to customize GitHub Copilot. Custom agents allow you to build specialized Copilot agents tailored to your …" />
+<meta name="description" content="Back in 2019, I wrote about securing back-end App Service web apps using VNets and Service Endpoints. That approach worked well at the time, but Azure has moved …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Visual Studio March Update - Build Your Own Custom Agents" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/vs.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/31_03_2026/31_03_2026_8/" />
-<meta property="og:title" content="Visual Studio March Update - Build Your Own Custom Agents" />
-<meta property="og:description" content="This month&#39;s Visual Studio update gives you new ways to customize GitHub Copilot. Custom agents allow you to build specialized Copilot agents tailored to your …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/vs.png" />
+<meta name="twitter:title" content="Securing Back-end App Service Web Apps with Private Endpoints" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/31_03_2026/31_03_2026_18/" />
+<meta property="og:title" content="Securing Back-end App Service Web Apps with Private Endpoints" />
+<meta property="og:description" content="Back in 2019, I wrote about securing back-end App Service web apps using VNets and Service Endpoints. That approach worked well at the time, but Azure has moved …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/31_03_2026/31_03_2026_8/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/31_03_2026/31_03_2026_18/">
 
 
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Visual Studio March Update - Build Your Own Custom Agents</h1>
+    <h1 class="post_title">Securing Back-end App Service Web Apps with Private Endpoints</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,288 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 31, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Mar 31, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/markheath.net/' title="markheath.net" class="post_tag button button_translucent">markheath.net
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>This month's Visual Studio update gives you new ways to customize GitHub Copilot. Custom agents allow you to build specialized Copilot agents tailored to your team's workflow, backed by the tools and knowledge sources that matter to your project. Alongside that, agent skills bring reusable instruction sets, and a new find_symbol tool</p>
+    <div class="post_body"><p>Back in 2019, I wrote about securing back-end App Service web apps using VNets and Service Endpoints. That approach worked well at the time, but Azure has moved on significantly since then. In this post, I'll show the modern way to achieve the same thing using Private Endpoints — which is now Microsoft's recommended approach.
+The Problem
+The scenario is the same as before. You have a front-end web app and a back-end API, both hosted on Azure App Service. End users need to reach the front-end, but the back-end should only be callable from the front-end. No one on the public internet should be able to reach it directly.
+flowchart LR
+User([Internet User]) --&gt;|✅ allowed| FE[Frontend Web App]
+FE --&gt;|✅ allowed| BE[Backend API]
+User --&gt;|❌ blocked| BE</p>
+<p>This is a standard multi-tier architecture. With VMs or containers in a VNet, you'd simply not expose a public endpoint for the back-end. But App Service web apps have always had public endpoints by default — and until recently, locking them down was either fiddly (Service Endpoints) or expensive (App Service Environments).
+What Changed Since 2019?
+My 2019 approach used three features together:</p>
+<p>VNet Integration — route the front-end's outbound traffic through a VNet
+Service Endpoints — set up routing so App Service traffic flows through the VNet
+Access Restrictions — whitelist the VNet subnet on the back-end</p>
+<p>This worked, but had some limitations. Service Endpoints don't prevent data exfiltration (traffic is scoped to the entire App Service, not your specific app), and the Access Restrictions approach required some tricky Azure CLI commands to set up.
+Private Endpoints are now the recommended replacement. Microsoft's documentation is explicit about this:</p>
+<p>&quot;Microsoft recommends using Azure Private Link. Private Link offers better capabilities for privately accessing PaaS from on-premises, provides built-in data-exfiltration protection, and maps services to private IPs in your own network.&quot;</p>
+<p>Here's what makes Private Endpoints better:</p>
+<p>Service Endpoints (2019)
+Private Endpoints (2026)</p>
+<p>Scope
+Entire App Service
+Your specific app only</p>
+<p>Data exfiltration protection
+No
+Yes</p>
+<p>Public access
+Still reachable (blocked by rules)
+Blocked (access restrictions + Private Endpoint)</p>
+<p>On-premises access
+No
+Yes (via VPN/ExpressRoute)</p>
+<p>Setup complexity
+Moderate (fiddly CLI commands)
+Straightforward (Bicep)</p>
+<p>Cost
+Free
+~$8/month</p>
+<p>The small cost is well worth it for the significantly stronger security posture.
+Architecture Overview
+Here's what we're going to build:
+flowchart TB
+subgraph Internet
+User([Internet User])
+end</p>
+<pre><code>subgraph Azure
+    subgraph VNet [&quot;Virtual Network (10.0.0.0/16)&quot;]
+        subgraph IntSub [&quot;integration-subnet (10.0.0.0/24)&quot;]
+        end
+        subgraph PeSub [&quot;pe-subnet (10.0.1.0/24)&quot;]
+            PE[Private Endpoint&lt;br/&gt;10.0.1.4]
+        end
+    end
+
+    FE[Frontend Web App&lt;br/&gt;public access]
+    BE[Backend API&lt;br/&gt;main site blocked]
+    DNS[Private DNS Zone&lt;br/&gt;privatelink.azurewebsites.net]
+end
+
+User --&gt;|HTTPS| FE
+FE -.-&gt;|VNet Integration| IntSub
+IntSub --&gt;|private network| PE
+PE --&gt;|Private Link| BE
+DNS -.-&gt;|resolves backend&lt;br/&gt;to 10.0.1.4| VNet
+User -.-&gt;|❌ 403 Forbidden| BE
+
+style BE fill:#f96,stroke:#333
+style FE fill:#6f9,stroke:#333
+style PE fill:#69f,stroke:#333
+</code></pre>
+<p>The key components:</p>
+<p>VNet with two subnets: one for VNet Integration (delegated to App Service), one for the Private Endpoint
+Frontend Web App — publicly accessible, with VNet Integration so its outbound traffic goes through the VNet
+Backend API — main site blocked by access restrictions, reachable only via Private Endpoint
+Private DNS Zone — resolves backend-xxx.azurewebsites.net to the private IP within the VNet</p>
+<p>When the front-end calls the back-end, DNS resolution within the VNet returns the private IP (e.g. 10.0.1.4), and traffic flows through the Microsoft backbone via Private Link. Anyone on the public internet trying to reach the back-end gets a 403 Forbidden.
+The Sample Apps
+I used Claude Code to help me create two minimal ASP.NET Core (.NET 10) apps to demonstrate this. The back-end is a simple API:
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();</p>
+<p>app.MapGet(&quot;/api/greeting&quot;, () =&gt; new
+{
+message = &quot;Hello from the secure backend!&quot;,
+timestamp = DateTime.UtcNow
+});</p>
+<p>app.MapGet(&quot;/health&quot;, () =&gt; Results.Ok(&quot;Healthy&quot;));</p>
+<p>app.Run();</p>
+<p>The front-end is a Razor Pages app that calls the back-end. The key part is the HttpClient setup in Program.cs:
+builder.Services.AddHttpClient(&quot;BackendApi&quot;, client =&gt;
+{
+var baseUrl = builder.Configuration[&quot;BackendApi:BaseUrl&quot;]
+?? &quot;http://localhost:5100&quot;;
+client.BaseAddress = new Uri(baseUrl);
+});</p>
+<p>And the page model that calls it:
+public async Task OnGetAsync()
+{
+try
+{
+var client = _httpClientFactory.CreateClient(&quot;BackendApi&quot;);
+var response = await client.GetAsync(&quot;/api/greeting&quot;);
+response.EnsureSuccessStatusCode();</p>
+<pre><code>    var json = await response.Content.ReadFromJsonAsync&lt;JsonElement&gt;();
+    GreetingMessage = json.GetProperty(&quot;message&quot;).GetString();
+    GreetingTimestamp = json.GetProperty(&quot;timestamp&quot;).GetString();
+}
+catch (Exception ex)
+{
+    ErrorMessage = $&quot;Failed to reach backend: {ex.Message}&quot;;
+}
+</code></pre>
+<p>}</p>
+<p>All pretty straightforward. The backend security is all handled by the infrastructure.
+The Bicep Template
+This is where the interesting stuff happens. Lets look at the key resources.
+Virtual Network
+We need a VNet with two subnets. The integration subnet is delegated to Microsoft.Web/serverFarms (required for VNet Integration). The private endpoint subnet has privateEndpointNetworkPolicies set to Disabled (required for Private Endpoints).
+resource vnet 'Microsoft.Network/virtualNetworks@2024-05-01' = {
+name: vnetName
+location: location
+properties: {
+addressSpace: {
+addressPrefixes: ['10.0.0.0/16']
+}
+subnets: [
+{
+name: 'integration-subnet'
+properties: {
+addressPrefix: '10.0.0.0/24'
+delegations: [{
+name: 'delegation'
+properties: {
+serviceName: 'Microsoft.Web/serverFarms'
+}
+}]
+}
+}
+{
+name: 'pe-subnet'
+properties: {
+addressPrefix: '10.0.1.0/24'
+privateEndpointNetworkPolicies: 'Disabled'
+}
+}
+]
+}
+}</p>
+<p>App Service Plan and Web Apps
+Both apps share a single Linux B1 App Service Plan. The front-end has virtualNetworkSubnetId set to the integration subnet, which routes its outbound traffic through the VNet.
+For the back-end, you might think we'd just set publicNetworkAccess: 'Disabled'. That does work for blocking internet traffic, but it also blocks the SCM/Kudu deployment endpoint — meaning you can't deploy your code with az webapp deploy any more. Instead, we use access restrictions: ipSecurityRestrictionsDefaultAction: 'Deny' blocks all public traffic to the main site, while scmIpSecurityRestrictionsUseMain: false with scmIpSecurityRestrictionsDefaultAction: 'Allow' keeps the deployment endpoint accessible. The Private Endpoint ensures the front-end can still reach the back-end over the private network.
+resource appServicePlan 'Microsoft.Web/serverfarms@2024-04-01' = {
+name: appServicePlanName
+location: location
+kind: 'linux'
+sku: { name: 'B1' }
+properties: { reserved: true }
+}</p>
+<p>resource backendApp 'Microsoft.Web/sites@2024-04-01' = {
+name: backendAppName
+location: location
+properties: {
+serverFarmId: appServicePlan.id
+publicNetworkAccess: 'Enabled'
+siteConfig: {
+linuxFxVersion: 'DOTNETCORE|10.0'
+ipSecurityRestrictionsDefaultAction: 'Deny'
+scmIpSecurityRestrictionsUseMain: false
+scmIpSecurityRestrictionsDefaultAction: 'Allow'
+}
+}
+}</p>
+<p>resource frontendApp 'Microsoft.Web/sites@2024-04-01' = {
+name: frontendAppName
+location: location
+properties: {
+serverFarmId: appServicePlan.id
+virtualNetworkSubnetId: vnet.properties.subnets[0].id
+siteConfig: {
+linuxFxVersion: 'DOTNETCORE|10.0'
+appSettings: [{
+name: 'BackendApi__BaseUrl'
+value: 'https://${backendAppName}.azurewebsites.net'
+}]
+}
+}
+}</p>
+<p>Note that our approach leaves the SCM/Kudu deployment endpoint publicly accessible (it's authenticated, so the risk is low). If you want to eliminate that surface area entirely, you could set publicNetworkAccess: 'Disabled' and use an alternative deployment method that bypasses Kudu — for example, run-from-package with WEBSITE_RUN_FROM_PACKAGE pointing at a blob storage URL, or containerizing your app and pulling from ACR. Both approaches mean the backend never needs a public endpoint at all, though you may need to add VNet integration to the backend for outbound access to the storage account or registry if those are private too.
+Private Endpoint and DNS
+The Private Endpoint creates a network interface in the PE subnet that's connected to the back-end app. The Private DNS Zone ensures that backend-xxx.azurewebsites.net resolves to the private IP when queried from within the VNet.
+resource privateEndpoint 'Microsoft.Network/privateEndpoints@2024-05-01' = {
+name: 'pe-${backendAppName}'
+location: location
+properties: {
+subnet: { id: vnet.properties.subnets[1].id }
+privateLinkServiceConnections: [{
+name: 'pe-${backendAppName}'
+properties: {
+privateLinkServiceId: backendApp.id
+groupIds: ['sites']
+}
+}]
+}
+}</p>
+<p>resource privateDnsZone 'Microsoft.Network/privateDnsZones@2024-06-01' = {
+name: 'privatelink.azurewebsites.net'
+location: 'global'
+}</p>
+<p>resource dnsZoneLink 'Microsoft.Network/privateDnsZones/virtualNetworkLinks@2024-06-01' = {
+parent: privateDnsZone
+name: '${vnetName}-link'
+location: 'global'
+properties: {
+virtualNetwork: { id: vnet.id }
+registrationEnabled: false
+}
+}</p>
+<p>resource dnsZoneGroup 'Microsoft.Network/privateEndpoints/privateDnsZoneGroups@2024-05-01' = {
+parent: privateEndpoint
+name: 'default'
+properties: {
+privateDnsZoneConfigs: [{
+name: 'privatelink-azurewebsites-net'
+properties: { privateDnsZoneId: privateDnsZone.id }
+}]
+}
+}</p>
+<p>Deploying
+I've created a PowerShell deployment script that uses the Azure CLI. Here are the key steps:</p>
+<h1 id="create-the-resource-group">Create the resource group</h1>
+<p>az group create -n SecureBackendDemo -l uksouth</p>
+<h1 id="deploy-the-bicep-template">Deploy the Bicep template</h1>
+<p>az deployment group create <code>-g SecureBackendDemo</code>
+--template-file ./infra/main.bicep</p>
+<p>The Bicep deployment creates all the networking and App Service resources. After that, we publish and deploy both .NET apps:</p>
+<h1 id="build-and-publish">Build and publish</h1>
+<p>dotnet publish src/Backend/Backend.csproj -c Release -o publish/backend
+dotnet publish src/Frontend/Frontend.csproj -c Release -o publish/frontend</p>
+<h1 id="package-as-zip">Package as zip</h1>
+<p>Compress-Archive -Path &quot;publish/backend/<em>&quot; -DestinationPath publish/backend.zip
+Compress-Archive -Path &quot;publish/frontend/</em>&quot; -DestinationPath publish/frontend.zip</p>
+<h1 id="deploy-to-app-service">Deploy to App Service</h1>
+<p>az webapp deploy -g SecureBackendDemo -n $backendAppName --src-path publish/backend.zip --type zip
+az webapp deploy -g SecureBackendDemo -n $frontendAppName --src-path publish/frontend.zip --type zip</p>
+<p>The full deployment script is in the repository — just run .\deploy\deploy.ps1 and it handles everything.
+Testing
+Once deployed, we can verify the security is working:
+Test 1: Frontend is accessible and shows the backend greeting
+$response = Invoke-WebRequest -Uri $frontendUrl -UseBasicParsing</p>
+<h1 id="should-return-200-with-hello-from-the-secure-backend-in-the-html">Should return 200 with &quot;Hello from the secure backend!&quot; in the HTML</h1>
+<p>Test 2: Backend is NOT accessible from the internet
+Invoke-WebRequest -Uri &quot;$backendUrl/api/greeting&quot; -UseBasicParsing</p>
+<h1 id="should-return-403-forbidden">Should return 403 Forbidden</h1>
+<p>The test script (deploy/test.ps1) automates both checks.
+Cost Breakdown
+Here's what this setup costs beyond the App Service Plan itself:</p>
+<p>Resource
+Monthly Cost</p>
+<p>Virtual Network
+Free</p>
+<p>VNet Integration
+Free</p>
+<p>Private Endpoint
+~$7.30</p>
+<p>Private DNS Zone
+~$0.50</p>
+<p>DNS queries
+~$0.40 per million</p>
+<p>Total networking overhead
+~$8/month</p>
+<p>Compare that to alternatives like Application Gateway ($200/month), APIM ($300/month), or an App Service Environment (~$1,000/month). For simple back-end lockdown scenarios, Private Endpoints are by far the most cost-effective option.
+Cleaning Up
+Since everything is in a single resource group, cleanup is one command:
+az group delete -n SecureBackendDemo --yes --no-wait</p>
+<p>Summary
+Private Endpoints have replaced Service Endpoints as the recommended way to secure back-end App Services. The setup is more straightforward (especially with Bicep), the security is stronger (true private IP, data exfiltration protection), and the cost is minimal (~$8/month). If you're still using the Service Endpoints approach from my 2019 post, it's worth upgrading.
+The complete source code for this demo — including the .NET apps, Bicep template, and deployment scripts — is available on GitHub.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/visualstudio/visual-studio-march-update-build-your-own-custom-agents">https://devblogs.microsoft.com/visualstudio/visual-studio-march-update-build-your-own-custom-agents</a></li>
+<li>Link to article: <a href="https://markheath.net/post/2026/3/31/securing-backend-appservices-private-endpoints">https://markheath.net/post/2026/3/31/securing-backend-appservices-private-endpoints</a></li>
 </ul>
 
     </div>
