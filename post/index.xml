@@ -7,13 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 02 Apr 2026 12:52:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Apr 2026 13:30:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Persist session state with filesystem configuration and execute shell commands</title>
+      <title>Scaling seismic foundation models on AWS: Distributed training with Amazon SageMaker HyperPod and expanding context windows</title>
       <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_0/</link>
-      <pubDate>Thu, 02 Apr 2026 12:52:07 +0000</pubDate>
+      <pubDate>Thu, 02 Apr 2026 13:30:57 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_0/</guid>
+      <description>
+        
+          
+            This post describes how TGS achieved near-linear scaling for distributed training and expanded context windows for their Vision Transformer-based SFM using Amazon SageMaker HyperPod. This joint solution cut training time from 6 months to just 5 days while enabling analysis of seismic volumes larger than previously possible.
+Link to article: https://aws.amazon.com/blogs/machine-learning/scaling-seismic-foundation-models-on-aws-distributed-training-with-amazon-sagemaker-hyperpod-and-expanding-context-windows/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Control which domains your AI agents can access</title>
+      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_1/</link>
+      <pubDate>Thu, 02 Apr 2026 13:28:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_1/</guid>
+      <description>
+        
+          
+            In this post, we show you how to configure AWS Network Firewall to restrict AgentCore resources to an allowlist of approved internet domains. This post focuses on domain-level filtering using SNI inspection — the first layer of a defense-in-depth approach.
+Link to article: https://aws.amazon.com/blogs/machine-learning/control-which-domains-your-ai-agents-can-access/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Composite Design Pattern in C#: Complete Guide with Examples</title>
+      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_2/</link>
+      <pubDate>Thu, 02 Apr 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_2/</guid>
+      <description>
+        
+          
+            Master the composite design pattern in C# with practical examples showing tree structures, recursive operations, and uniform component handling.
+Link to article: https://www.devleader.ca/2026/04/02/composite-design-pattern-in-c-complete-guide-with-examples 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docker Offload now Generally Available: The Full Power of Docker, for Every Developer, Everywhere.</title>
+      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_3/</link>
+      <pubDate>Thu, 02 Apr 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_3/</guid>
+      <description>
+        
+          
+            Docker Desktop is one of the most widely used developer tools in the world, yet for millions of enterprise developers, running it simply hasn’t been an option. The environments they rely on, such as virtual desktop infrastructure (VDI) platforms and managed desktops, often lack the resources or capabilities needed to run Docker Desktop. As enterprises...
+Link to article: https://www.docker.com/blog/docker-offload-now-generally-available-the-full-power-of-docker-for-every-developer-everywhere/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Rocket Close transforms mortgage document processing with Amazon Bedrock and Amazon Textract</title>
+      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_4/</link>
+      <pubDate>Thu, 02 Apr 2026 12:59:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_4/</guid>
+      <description>
+        
+          
+            Through a strategic partnership with the AWS Generative AI Innovation Center (GenAIIC), Rocket Close developed an intelligent document processing solution that has significantly reduced processing time, making the process 15 times faster. The solution, which uses Amazon Textract for OCR processing and Amazon Bedrock for foundation models (FMs), achieves a strong 90% overall accuracy in document segmentation, classification, and field extraction.
+Link to article: https://aws.amazon.com/blogs/machine-learning/rocket-close-transforms-mortgage-document-processing-with-amazon-bedrock-and-amazon-textract/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Persist session state with filesystem configuration and execute shell commands</title>
+      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_5/</link>
+      <pubDate>Thu, 02 Apr 2026 12:52:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_5/</guid>
       <description>
         
           
@@ -27,10 +112,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/persist-session-s
     
     <item>
       <title>Securing GraphQL APIs with AWS AppSync Lambda Authorizers in .NET</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_6/</link>
       <pubDate>Thu, 02 Apr 2026 12:17:26 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_6/</guid>
       <description>
         
           
@@ -44,10 +129,10 @@ Link to article: https://aws.amazon.com/blogs/dotnet/securing-graphql-apis-with-
     
     <item>
       <title>Which AI Coding Tools Do Developers Actually Use at Work?</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_7/</link>
       <pubDate>Thu, 02 Apr 2026 09:27:20 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_7/</guid>
       <description>
         
           
@@ -61,10 +146,10 @@ Link to article: https://blog.jetbrains.com/research/2026/04/which-ai-coding-too
     
     <item>
       <title>KotlinConf’26 Speakers: In Conversation With Lena Reinhard</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_8/</link>
       <pubDate>Thu, 02 Apr 2026 06:34:59 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_8/</guid>
       <description>
         
           
@@ -78,10 +163,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2026/04/kotlinconf-26-speaker
     
     <item>
       <title>Python in Visual Studio Code - March 2026 Release</title>
-      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_9/</link>
       <pubDate>Thu, 02 Apr 2026 00:27:15 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_9/</guid>
       <description>
         
           
