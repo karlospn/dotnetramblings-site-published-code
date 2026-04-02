@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 01 Apr 2026 21:01:54 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Apr 2026 00:27:15 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python in Visual Studio Code - March 2026 Release</title>
+      <link>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_0/</link>
+      <pubDate>Thu, 02 Apr 2026 00:27:15 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_04_2026/02_04_2026_0/</guid>
+      <description>
+        
+          
+            We&#39;re excited to announce that the March 2026 release of the Python extension for Visual Studio Code are now available! This release includes the following announcements: Search Python Symbols in Installed Packages Experimental: Rust-
+Link to article: https://devblogs.microsoft.com/python/python-in-visual-studio-code-march-2026-release 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>PowerShell 7.6 release postmortem and investments</title>
       <link>https://www.dotnetramblings.com/post/01_04_2026/01_04_2026_1/</link>
@@ -359,91 +376,6 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260326-00/?p=11216
           
             The landscape of AI development has evolved dramatically. Modern intelligent agents require real-time web access to provide accurate, grounded responses. With the retirement of direct Bing Search API access, developers must transition from direct
 Link to article: https://devblogs.microsoft.com/ise/building-bing-search-enabled-agent-with-microsoft-foundry-and-semantic-kernel 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Visual Studio Code 1.113</title>
-      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_4/</link>
-      <pubDate>Wed, 25 Mar 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_4/</guid>
-      <description>
-        
-          
-            Learn what&#39;s new in Visual Studio Code 1.113 Read the full article
-Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.113 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How can I change a dialog box&#39;s message loop to do a &lt;code&gt;Msg­Wait­For­Multiple­Objects&lt;/code&gt; instead of &lt;code&gt;Get­Message&lt;/code&gt;?</title>
-      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_10/</link>
-      <pubDate>Wed, 25 Mar 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_10/</guid>
-      <description>
-        
-          
-            A customer wanted to know how to change a dialog box&#39;s message loop so that it used Msg­Wait­For­Multiple­Objects instead of Get­Message. (I&#39;m guessing that they had a handle that they wanted to wait on while the dialog was up.) The standard dialog box message loop checks only for messages, not kernel handles.
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260325-00/?p=112165 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>SharePoint Framework (SPFx) roadmap update – March 2026</title>
-      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_14/</link>
-      <pubDate>Wed, 25 Mar 2026 04:57:28 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_14/</guid>
-      <description>
-        
-          
-            March 2026 continues the momentum for the SharePoint Framework and the broader Microsoft 365 ecosystem, with a strong mix of platform progress, community energy, and clear signals about where SPFx is heading next. As we move deeper into the year, SPFx remains a critical foundation for modern e
-Link to article: https://devblogs.microsoft.com/microsoft365dev/sharepoint-framework-spfx-roadmap-update-march-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Your Entire Engineering Floor Just Stopped Coding</title>
-      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_15/</link>
-      <pubDate>Wed, 25 Mar 2026 03:38:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_15/</guid>
-      <description>
-        
-          
-            And the developers running Claude Code and GitHub Copilot CLI didn&#39;t notice... [caption id=&amp;quot;attachment_2050&amp;quot; align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;1200&amp;quot;]
-Link to article: https://devblogs.microsoft.com/all-things-azure/your-entire-engineering-floor-just-stopped-coding 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Designing for Eventual Consistency for Microsoft Entra</title>
-      <link>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_16/</link>
-      <pubDate>Wed, 25 Mar 2026 02:30:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/25_03_2026/25_03_2026_16/</guid>
-      <description>
-        
-          
-            Microsoft Entra is a globally distributed service that provides identity and access management to millions of customers world-wide. To scale reliably and remain resilient during failures, Microsoft Entra uses an eventually consistent directory model. Key takeaway A successful write to Microsoft Entra does not guarantee tha
-Link to article: https://devblogs.microsoft.com/identity/designing-for-eventual-consistency-for-microsoft-entra 
           
           
         
