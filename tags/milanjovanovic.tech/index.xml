@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 31 Mar 2026 11:00:38 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing the Inbox Pattern for Reliable Message Consumption</title>
+      <link>https://www.dotnetramblings.com/post/04_04_2026/04_04_2026_0/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_04_2026/04_04_2026_0/</guid>
+      <description>
+        
+          
+            The Outbox pattern guarantees reliable publishing. But what about the consumer side? The Inbox pattern ensures each incoming message is processed exactly once, even when the broker retries or delivers duplicates. Here&#39;s how to implement it in .NET with MassTransit and PostgreSQL.
+Link to article: https://www.milanjovanovic.tech/blog/implementing-the-inbox-pattern-for-reliable-message-consumption 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Getting Started With PgVector in .NET for Simple Vector Search</title>
       <link>https://www.dotnetramblings.com/post/28_03_2026/28_03_2026_2/</link>

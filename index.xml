@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 03 Apr 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing the Inbox Pattern for Reliable Message Consumption</title>
+      <link>https://www.dotnetramblings.com/post/04_04_2026/04_04_2026_0/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_04_2026/04_04_2026_0/</guid>
+      <description>
+        
+          
+            The Outbox pattern guarantees reliable publishing. But what about the consumer side? The Inbox pattern ensures each incoming message is processed exactly once, even when the broker retries or delivers duplicates. Here&#39;s how to implement it in .NET with MassTransit and PostgreSQL.
+Link to article: https://www.milanjovanovic.tech/blog/implementing-the-inbox-pattern-for-reliable-message-consumption 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>C# Source Generator Performance: Measuring and Optimizing Build-Time Impact</title>
       <link>https://www.dotnetramblings.com/post/03_04_2026/03_04_2026_0/</link>
@@ -1615,108 +1632,6 @@ Link to article: https://www.devleader.ca/2026/03/28/how-to-implement-observer-p
           
             Vector search doesn&#39;t require a dedicated vector database. PostgreSQL with pgvector gives you similarity search right next to your relational data. Here&#39;s how to set it up in .NET with Aspire, Dapper, and Ollama.
 Link to article: https://www.milanjovanovic.tech/blog/getting-started-with-pgvector-in-dotnet-for-simple-vector-search 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>STADLER reshapes knowledge work at a 230-year-old company</title>
-      <link>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_0/</link>
-      <pubDate>Fri, 27 Mar 2026 22:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_0/</guid>
-      <description>
-        
-          
-            Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.
-Link to article: https://openai.com/index/stadler 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>C# Source Generators: Reading the Roslyn Syntax Tree</title>
-      <link>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_2/</link>
-      <pubDate>Fri, 27 Mar 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_2/</guid>
-      <description>
-        
-          
-            Master reading and traversing a Roslyn syntax tree in a C# source generator. Learn SyntaxTree, SemanticModel, and ForAttributeWithMetadataName for .NET 6+.
-Link to article: https://www.devleader.ca/2026/03/27/c-source-generators-reading-the-roslyn-syntax-tree 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Custom AI Tools with AIFunctionFactory in GitHub Copilot SDK for C#</title>
-      <link>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_1/</link>
-      <pubDate>Fri, 27 Mar 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_1/</guid>
-      <description>
-        
-          
-            Learn to build custom AI tools with AIFunctionFactory in GitHub Copilot SDK for C#. Working code examples and best practices included.
-Link to article: https://www.devleader.ca/2026/03/27/custom-ai-tools-with-aifunctionfactory-in-github-copilot-sdk-for-c 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building a News Roundup with Docker Agent, Docker Model Runner, and Skill</title>
-      <link>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_3/</link>
-      <pubDate>Fri, 27 Mar 2026 14:24:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_3/</guid>
-      <description>
-        
-          
-            Hello, I’m Philippe, and I am a Principal Solutions Architect helping customers with their usage of Docker. I wanted a lightweight way to automate my IT news roundups without burning through AI credits. So I built a Docker Agent skill that uses the Brave Search API to fetch recent articles on a topic, then hands...
-Link to article: https://www.docker.com/blog/building-a-news-roundup-with-docker-agent-docker-model-runner-and-skill/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What if a dialog wants to intercept its own message loop?</title>
-      <link>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_4/</link>
-      <pubDate>Fri, 27 Mar 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_4/</guid>
-      <description>
-        
-          
-            So far, we&#39;ve been looking at how a dialog box owner can customize the dialog message loop. But what about the dialog itself? Can the dialog customize its own dialog message loop? Sure. It just has to steal the messages from its owner. The dialog box can subclass its owner and grab the WM_ENTER­IDLE mess
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260327-00/?p=112172 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Factory Method Pattern Best Practices in C#: Code Organization and Maintainability</title>
-      <link>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_5/</link>
-      <pubDate>Fri, 27 Mar 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/27_03_2026/27_03_2026_5/</guid>
-      <description>
-        
-          
-            Master Factory Method pattern best practices in C#. Learn code organization strategies, interface design, DI integration, and maintainability tips.
-Link to article: https://www.devleader.ca/2026/03/27/factory-method-pattern-best-practices-in-c-code-organization-and-maintainability 
           
           
         
