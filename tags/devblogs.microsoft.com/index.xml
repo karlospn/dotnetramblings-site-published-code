@@ -26,6 +26,23 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/mcp-apps-on-azure-func
     </item>
     
     <item>
+      <title>Learning to read C&#43;&#43; compiler errors: Illegal use of &lt;tt&gt;-&gt;&lt;/tt&gt; when there is no &lt;tt&gt;-&gt;&lt;/tt&gt; in sight</title>
+      <link>https://www.dotnetramblings.com/post/06_04_2026/06_04_2026_2/</link>
+      <pubDate>Mon, 06 Apr 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_04_2026/06_04_2026_2/</guid>
+      <description>
+        
+          
+            A customer reported a problem with a system header file. When they included ole2.h, the compiler reported an error in oaidl.h: MIDL_INTERFACE(&amp;quot;3127CA40-446E-11CE-8135-00AA004BB851&amp;quot;) IErrorLog : public IUnknown { public: virtual HRESULT STDM
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260406-00/?p=112208 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Microsoft Agent Framework Version 1.0</title>
       <link>https://www.dotnetramblings.com/post/03_04_2026/03_04_2026_3/</link>
       <pubDate>Fri, 03 Apr 2026 17:04:03 +0000</pubDate>
