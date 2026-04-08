@@ -7,7 +7,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 07 Apr 2026 16:29:11 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Apr 2026 19:51:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Customize Amazon Nova models with Amazon Bedrock fine-tuning</title>
+      <link>https://www.dotnetramblings.com/post/08_04_2026/08_04_2026_0/</link>
+      <pubDate>Wed, 08 Apr 2026 19:51:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_04_2026/08_04_2026_0/</guid>
+      <description>
+        
+          
+            In this post, we&#39;ll walk you through a complete implementation of model fine-tuning in Amazon Bedrock using Amazon Nova models, demonstrating each step through an intent classifier example that achieves superior performance on a domain specific task. Throughout this guide, you&#39;ll learn to prepare high-quality training data that drives meaningful model improvements, configure hyperparameters to optimize learning without overfitting, and deploy your fine-tuned model for improved accuracy and reduced latency. We&#39;ll show you how to evaluate your results using training metrics and loss curves.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Human-in-the-loop constructs for agentic workflows in healthcare and life sciences</title>
+      <link>https://www.dotnetramblings.com/post/08_04_2026/08_04_2026_1/</link>
+      <pubDate>Wed, 08 Apr 2026 19:48:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_04_2026/08_04_2026_1/</guid>
+      <description>
+        
+          
+            In healthcare and life sciences, AI agents help organizations process clinical data, submit regulatory filings, automate medical coding, and accelerate drug development and commercialization. However, the sensitive nature of healthcare data and regulatory requirements like Good Practice (GxP) compliance require human oversight at key decision points. This is where human-in-the-loop (HITL) constructs become essential. In this post, you will learn four practical approaches to implementing human-in-the-loop constructs using AWS services.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building intelligent audio search with Amazon Nova Embeddings: A deep dive into semantic audio understanding</title>
+      <link>https://www.dotnetramblings.com/post/08_04_2026/08_04_2026_2/</link>
+      <pubDate>Wed, 08 Apr 2026 19:45:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_04_2026/08_04_2026_2/</guid>
+      <description>
+        
+          
+            This post walks you through understanding audio embeddings, implementing Amazon Nova Multimodal Embeddings, and building a practical search system for your audio content. You&#39;ll learn how embeddings represent audio as vectors, explore the technical capabilities of Amazon Nova, and see hands-on code examples for indexing and querying your audio libraries. By the end, you&#39;ll have the knowledge to deploy production-ready audio search capabilities.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-intelligent-audio-search-with-amazon-nova-embeddings-a-deep-dive-into-semantic-audio-understanding/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reinforcement fine-tuning on Amazon Bedrock: Best practices</title>
+      <link>https://www.dotnetramblings.com/post/08_04_2026/08_04_2026_3/</link>
+      <pubDate>Wed, 08 Apr 2026 19:43:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_04_2026/08_04_2026_3/</guid>
+      <description>
+        
+          
+            In this post, we explore where RFT is most effective, using the GSM8K mathematical reasoning dataset as a concrete example. We then walk through best practices for dataset preparation and reward function design, show how to monitor training progress using Amazon Bedrock metrics, and conclude with practical hyperparameter tuning guidelines informed by experiments across multiple models and use cases.
+Link to article: https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-on-amazon-bedrock-best-practices/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Building real-time conversational podcasts with Amazon Nova 2 Sonic</title>
       <link>https://www.dotnetramblings.com/post/07_04_2026/07_04_2026_7/</link>
