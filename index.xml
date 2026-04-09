@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 09 Apr 2026 15:32:51 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Apr 2026 17:33:28 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Webinar – OSS Power-Ups: XenoAtom.Terminal.UI</title>
+      <title>Understanding Amazon Bedrock model lifecycle</title>
       <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_0/</link>
-      <pubDate>Thu, 09 Apr 2026 15:32:51 +0000</pubDate>
+      <pubDate>Thu, 09 Apr 2026 17:33:28 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_0/</guid>
+      <description>
+        
+          
+            This post shows you how to manage FM transitions in Amazon Bedrock, so you can make sure your AI applications remain operational as models evolve. We discuss the three lifecycle states, how to plan migrations with the new extended access feature, and practical strategies to transition your applications to newer models without disruption.
+Link to article: https://aws.amazon.com/blogs/machine-learning/understanding-amazon-bedrock-model-lifecycle/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The future of managing agents at scale: AWS Agent Registry now in preview</title>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_1/</link>
+      <pubDate>Thu, 09 Apr 2026 17:28:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_1/</guid>
+      <description>
+        
+          
+            Today, we&#39;re announcing AWS Agent Registry (preview) in AgentCore, a single place to discover, share, and reuse AI agents, tools, and agent skills across your enterprise.
+Link to article: https://aws.amazon.com/blogs/machine-learning/the-future-of-managing-agents-at-scale-aws-agent-registry-now-in-preview/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Embed a live AI browser agent in your React app with Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_2/</link>
+      <pubDate>Thu, 09 Apr 2026 17:06:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_2/</guid>
+      <description>
+        
+          
+            This post walks you through three steps: starting a session and generating the Live View URL, rendering the stream in your React application, and wiring up an AI agent that drives the browser while your users watch. At the end, you will have a working sample application you can clone and run.
+Link to article: https://aws.amazon.com/blogs/machine-learning/embed-a-live-ai-browser-agent-in-your-react-app-with-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Running Multiple Instances of an Aspire AppHost Without Port Conflicts</title>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_3/</link>
+      <pubDate>Thu, 09 Apr 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_3/</guid>
+      <description>
+        
+          
+            Running two different Aspire AppHosts at the same time works fine — they each get their own ports. But what if you need to run multiple instances of the same AppHost? Maybe you&#39;ve cloned your source code into two different directories, or you&#39;re using git worktrees and want to work with both at the same time. That fails with port
+Link to article: https://devblogs.microsoft.com/aspire/aspire-isolated-mode-parallel-development 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Webinar – OSS Power-Ups: XenoAtom.Terminal.UI</title>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_4/</link>
+      <pubDate>Thu, 09 Apr 2026 15:32:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_4/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/04/09/webinar-oss-power-
     
     <item>
       <title>Introducing stateful MCP client capabilities on Amazon Bedrock AgentCore Runtime</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_5/</link>
       <pubDate>Thu, 09 Apr 2026 14:47:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_5/</guid>
       <description>
         
           
@@ -44,10 +112,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-state
     
     <item>
       <title>How do you add or remove a handle from an active &lt;code&gt;Wait­For­Multiple­Objects&lt;/code&gt;?</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_6/</link>
       <pubDate>Thu, 09 Apr 2026 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_6/</guid>
       <description>
         
           
@@ -61,10 +129,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260409-00/?p=11222
     
     <item>
       <title>How to Implement Adapter Pattern in C#: Step-by-Step Guide</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_7/</link>
       <pubDate>Thu, 09 Apr 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_7/</guid>
       <description>
         
           
@@ -78,10 +146,10 @@ Link to article: https://www.devleader.ca/2026/04/09/how-to-implement-adapter-pa
     
     <item>
       <title>Using Spring Data JDBC With Kotlin</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_8/</link>
       <pubDate>Thu, 09 Apr 2026 11:46:14 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_8/</guid>
       <description>
         
           
@@ -95,10 +163,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/04/using-spring-data-jdbc-
     
     <item>
       <title>My Journey to Agent-First Development With Air</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_9/</link>
       <pubDate>Thu, 09 Apr 2026 10:38:14 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_9/</guid>
       <description>
         
           
@@ -112,10 +180,10 @@ Link to article: https://blog.jetbrains.com/air/2026/04/my-journey-to-agent-firs
     
     <item>
       <title>From Java to Wayland: A Pixel’s Journey</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_10/</link>
       <pubDate>Thu, 09 Apr 2026 07:45:37 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_10/</guid>
       <description>
         
           
@@ -129,10 +197,10 @@ Link to article: https://blog.jetbrains.com/platform/2026/04/from-java-to-waylan
     
     <item>
       <title>OpenAI Full Fan Mode Contest: Terms &amp; Conditions</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_11/</link>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_11/</guid>
       <description>
         
           

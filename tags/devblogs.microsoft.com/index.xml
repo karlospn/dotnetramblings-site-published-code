@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 09 Apr 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Apr 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Multiple Instances of an Aspire AppHost Without Port Conflicts</title>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_3/</link>
+      <pubDate>Thu, 09 Apr 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_3/</guid>
+      <description>
+        
+          
+            Running two different Aspire AppHosts at the same time works fine — they each get their own ports. But what if you need to run multiple instances of the same AppHost? Maybe you&#39;ve cloned your source code into two different directories, or you&#39;re using git worktrees and want to work with both at the same time. That fails with port
+Link to article: https://devblogs.microsoft.com/aspire/aspire-isolated-mode-parallel-development 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How do you add or remove a handle from an active &lt;code&gt;Wait­For­Multiple­Objects&lt;/code&gt;?</title>
-      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_6/</link>
       <pubDate>Thu, 09 Apr 2026 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_04_2026/09_04_2026_6/</guid>
       <description>
         
           
