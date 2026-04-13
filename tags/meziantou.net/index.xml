@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 06 Apr 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Apr 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Suppressing Roslyn Analyzer Warnings Programmatically using DiagnosticSuppressor</title>
+      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_0/</link>
+      <pubDate>Mon, 13 Apr 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_0/</guid>
+      <description>
+        
+          
+            Roslyn analyzers are great for enforcing coding standards and finding bugs. However, they can sometimes report false positives or warnings you want to ignore in specific contexts. You can suppress these warnings using #pragma directives or [SuppressMessage] attributes, but both approaches require modifying the source code. A DiagnosticSuppressor is a Roslyn component that suppresses diagnostics reported…
+Link to article: https://www.meziantou.net/suppressing-roslyn-analyzer-warnings-programmatically-using-diagnosticsuppressor.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Accessing files from the action repository in a GitHub Composite Action</title>
       <link>https://www.dotnetramblings.com/post/06_04_2026/06_04_2026_12/</link>

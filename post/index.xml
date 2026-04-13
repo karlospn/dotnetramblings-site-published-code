@@ -7,18 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 13 Apr 2026 09:49:20 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Apr 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Agent Skills in .NET: Three Ways to Author, One Provider to Run Them</title>
+      <title>Suppressing Roslyn Analyzer Warnings Programmatically using DiagnosticSuppressor</title>
       <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_0/</link>
-      <pubDate>Mon, 13 Apr 2026 09:49:20 +0000</pubDate>
+      <pubDate>Mon, 13 Apr 2026 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_0/</guid>
       <description>
         
           
+            Roslyn analyzers are great for enforcing coding standards and finding bugs. However, they can sometimes report false positives or warnings you want to ignore in specific contexts. You can suppress these warnings using #pragma directives or [SuppressMessage] attributes, but both approaches require modifying the source code. A DiagnosticSuppressor is a Roslyn component that suppresses diagnostics reported…
+Link to article: https://www.meziantou.net/suppressing-roslyn-analyzer-warnings-programmatically-using-diagnosticsuppressor.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agent Skills in .NET: Three Ways to Author, One Provider to Run Them</title>
+      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_1/</link>
+      <pubDate>Mon, 13 Apr 2026 09:49:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_1/</guid>
+      <description>
+        
+          
             Your agents can now draw on skills authored in three different ways – as files on disk, as inline C# code, or as encapsulated classes – and combine them freely in a single provider. Add built-in script execution support and a human-approval mechanism for script calls, and you have a practical authoring model that fits real-world scenarios:
 Link to article: https://devblogs.microsoft.com/agent-framework/agent-skills-in-net-three-ways-to-author-one-provider-to-run-them 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI</title>
+      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_2/</link>
+      <pubDate>Mon, 13 Apr 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_2/</guid>
+      <description>
+        
+          
+            Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.
+Link to article: https://openai.com/index/cloudflare-openai-agent-cloud 
           
           
         
