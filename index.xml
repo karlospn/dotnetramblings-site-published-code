@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 14 Apr 2026 09:52:54 +0200</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Apr 2026 10:33:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>EF Core query translation: Why does some LINQ never become SQL?</title>
+      <title>Speeding up interactive rebase in JetBrains IDEs</title>
       <link>https://www.dotnetramblings.com/post/14_04_2026/14_04_2026_0/</link>
-      <pubDate>Tue, 14 Apr 2026 09:52:54 +0200</pubDate>
+      <pubDate>Tue, 14 Apr 2026 10:33:37 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/14_04_2026/14_04_2026_0/</guid>
+      <description>
+        
+          
+            Introduction Git integration in JetBrains IDEs has been evolving for more than fifteen years, and throughout that time, we followed one guiding principle: At the lowest level, we simply run porcelain Git commands, parse their output, and avoid doing anything Git itself would not do. All user scenarios and UI are built on top of […]
+Link to article: https://blog.jetbrains.com/platform/2026/04/speeding-up-interactive-rebase-in-jetbrains-ides/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Running AI agents with customized templates using docker sandbox</title>
+      <link>https://www.dotnetramblings.com/post/14_04_2026/14_04_2026_1/</link>
+      <pubDate>Tue, 14 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_04_2026/14_04_2026_1/</guid>
+      <description>
+        
+          
+            In this post I describe how to create custom templates for Docker Sandboxes, so that your sandboxes start with additional tools immediately available
+Link to article: https://andrewlock.net/running-ai-agents-with-customized-templates-in-docker-sandbox/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>EF Core query translation: Why does some LINQ never become SQL?</title>
+      <link>https://www.dotnetramblings.com/post/14_04_2026/14_04_2026_2/</link>
+      <pubDate>Tue, 14 Apr 2026 09:52:54 +0200</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_04_2026/14_04_2026_2/</guid>
       <description>
         
           
