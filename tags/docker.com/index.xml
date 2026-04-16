@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 14 Apr 2026 21:48:03 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Apr 2026 17:14:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why MicroVMs: The Architecture Behind Docker Sandboxes</title>
+      <link>https://www.dotnetramblings.com/post/16_04_2026/16_04_2026_3/</link>
+      <pubDate>Thu, 16 Apr 2026 17:14:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_04_2026/16_04_2026_3/</guid>
+      <description>
+        
+          
+            Last week, we launched Docker Sandboxes with a bold goal: to deliver the strongest agent isolation in the market. This post unpacks that claim, how microVMs enable it, and some of the architectural choices we made in this approach. The Problem With Every Other Approach Every sandboxing model asks you to give something up. We...
+Link to article: https://www.docker.com/blog/why-microvms-the-architecture-behind-docker-sandboxes/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Why We Chose the Harder Path: Docker Hardened Images, One Year Later</title>
       <link>https://www.dotnetramblings.com/post/14_04_2026/14_04_2026_0/</link>
