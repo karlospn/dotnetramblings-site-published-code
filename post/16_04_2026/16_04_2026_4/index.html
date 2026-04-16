@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Free Your Terminal with Detached Mode in Aspire 13.2 | .NET Ramblings</title>
+<title>Why MicroVMs: The Architecture Behind Docker Sandboxes | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Running Aspire apps from the CLI has a friction point: your terminal is locked to the AppHost process. While the app is running, you can&#39;t use the terminal to …" />
+<meta name="description" content="Last week, we launched Docker Sandboxes with a bold goal: to deliver the strongest agent isolation in the market. This post unpacks that claim, how microVMs …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Free Your Terminal with Detached Mode in Aspire 13.2" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta name="twitter:title" content="Why MicroVMs: The Architecture Behind Docker Sandboxes" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/16_04_2026/16_04_2026_4/" />
-<meta property="og:title" content="Free Your Terminal with Detached Mode in Aspire 13.2" />
-<meta property="og:description" content="Running Aspire apps from the CLI has a friction point: your terminal is locked to the AppHost process. While the app is running, you can&#39;t use the terminal to …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
+<meta property="og:title" content="Why MicroVMs: The Architecture Behind Docker Sandboxes" />
+<meta property="og:description" content="Last week, we launched Docker Sandboxes with a bold goal: to deliver the strongest agent isolation in the market. This post unpacks that claim, how microVMs …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Free Your Terminal with Detached Mode in Aspire 13.2</h1>
+    <h1 class="post_title">Why MicroVMs: The Architecture Behind Docker Sandboxes</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Apr 16, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Apr 16, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Running Aspire apps from the CLI has a friction point: your terminal is locked to the AppHost process. While the app is running, you can't use the terminal to check logs or telemetry. You must open a new terminal window. Worse, if an agent has started your Aspire app to test a feature, the agent may decide to kill the app to free the termin</p>
+    <div class="post_body"><p>Last week, we launched Docker Sandboxes with a bold goal: to deliver the strongest agent isolation in the market. This post unpacks that claim, how microVMs enable it, and some of the architectural choices we made in this approach. The Problem With Every Other Approach Every sandboxing model asks you to give something up. We...</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/aspire/aspire-detached-mode-and-process-management">https://devblogs.microsoft.com/aspire/aspire-detached-mode-and-process-management</a></li>
+<li>Link to article: <a href="https://www.docker.com/blog/why-microvms-the-architecture-behind-docker-sandboxes/">https://www.docker.com/blog/why-microvms-the-architecture-behind-docker-sandboxes/</a></li>
 </ul>
 
     </div>
