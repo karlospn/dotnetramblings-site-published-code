@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 20 Apr 2026 07:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Apr 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Discoverable - Observable MCP Server</title>
+      <title>Command Pattern Best Practices in C#: Code Organization and Maintainability</title>
       <link>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_0/</link>
-      <pubDate>Mon, 20 Apr 2026 07:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Apr 2026 13:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_0/</guid>
+      <description>
+        
+          
+            Master command pattern best practices in C# including single responsibility commands, proper undo implementation, command validation, and organized architectures.
+Link to article: https://www.devleader.ca/2026/04/20/command-pattern-best-practices-in-c-code-organization-and-maintainability 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Evaluating CRON and RRule expressions in .NET</title>
+      <link>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_1/</link>
+      <pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_1/</guid>
+      <description>
+        
+          
+            Evaluating recurring date patterns is a common requirement in many applications. Whether you need every day, every Monday at 9 AM, or the last day of each month, you need a reliable way to calculate upcoming occurrences. Meziantou.Framework.Scheduling is a NuGet package that parses and evaluates both CRON expressions and iCalendar recurrence rules (RRule). Installation You can install the package from…
+Link to article: https://www.meziantou.net/evaluating-cron-and-rrule-expressions-in-dotnet.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Discoverable - Observable MCP Server</title>
+      <link>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_2/</link>
+      <pubDate>Mon, 20 Apr 2026 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_2/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/ise/observable_discoverable_mcp_
     
     <item>
       <title>The Context Switching Problem Every Dev Faces - Dev Leader Weekly 136</title>
-      <link>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_3/</link>
       <pubDate>Mon, 20 Apr 2026 06:53:48 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_3/</guid>
       <description>
         
           
@@ -44,15 +78,32 @@ Link to article: https://www.devleader.ca/2026/04/20/the-context-switching-probl
     
     <item>
       <title>Remove sign-up from Entra External ID user flows</title>
-      <link>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_4/</link>
       <pubDate>Mon, 20 Apr 2026 05:15:03 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_4/</guid>
       <description>
         
           
             This article shows how to remove the sign-up flow from Entra External ID user flows. This is required because SMS and Phone validation can be abused by bots to run up costs on the tenant. The bots create accounts and start a phone validation or a SMS validation which is charged to the tenant. The […]
 Link to article: https://damienbod.com/2026/04/20/remove-sign-up-from-entra-external-id-user-flows/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI helps Hyatt advance AI among colleagues</title>
+      <link>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_5/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_5/</guid>
+      <description>
+        
+          
+            Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.
+Link to article: https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise 
           
           
         
