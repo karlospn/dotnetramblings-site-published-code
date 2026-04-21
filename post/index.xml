@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 20 Apr 2026 21:57:41 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2026 00:38:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Copilot meets Azure Developer CLI: AI-assisted project setup and error troubleshooting</title>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_0/</link>
+      <pubDate>Tue, 21 Apr 2026 00:38:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_0/</guid>
+      <description>
+        
+          
+            The Azure Developer CLI (azd) now integrates with GitHub Copilot in two ways: AI-assisted project scaffolding during azd init and intelligent error troubleshooting when commands fail. Both features keep you in the terminal and use Copilot&#39;s reasoning to reduce manual work. Prerequisites To use these feature
+Link to article: https://devblogs.microsoft.com/azure-sdk/azd-copilot-integration 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Busy Plugin Developers Newsletter – Q1 2026</title>
       <link>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_0/</link>
@@ -1578,157 +1595,6 @@ Link to article: https://www.code4it.dev/blog/send-slack-messages-using-azure-lo
           
             OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.
 Link to article: https://openai.com/index/scaling-trusted-access-for-cyber-defense 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>C# Strings: Complete Guide to String Manipulation in .NET</title>
-      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_0/</link>
-      <pubDate>Mon, 13 Apr 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_0/</guid>
-      <description>
-        
-          
-            Master C# string manipulation with this complete guide covering .NET 6-9 APIs, Span, raw literals, StringBuilder, and performance best practices.
-Link to article: https://www.devleader.ca/2026/04/13/c-strings-complete-guide-to-string-manipulation-in-net 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to build effective reward functions with AWS Lambda for Amazon Nova model customization</title>
-      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_1/</link>
-      <pubDate>Mon, 13 Apr 2026 16:01:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_1/</guid>
-      <description>
-        
-          
-            This post demonstrates how Lambda enables scalable, cost-effective reward functions for Amazon Nova customization. You&#39;ll learn to choose between Reinforcement Learning via Verifiable Rewards (RLVR) for objectively verifiable tasks and Reinforcement Learning via AI Feedback (RLAIF) for subjective evaluation, design multi-dimensional reward systems that help you prevent reward hacking, optimize Lambda functions for training scale, and monitor reward distributions with Amazon CloudWatch. Working code examples and deployment guidance are included to help you start experimenting.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Analyze Hugging Face for Arm64 Readiness</title>
-      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_2/</link>
-      <pubDate>Mon, 13 Apr 2026 15:59:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_2/</guid>
-      <description>
-        
-          
-            This post is a collaboration between Docker and Arm, demonstrating how Docker MCP Toolkit and the Arm MCP Server work together to scan Hugging Face Spaces for Arm64 Readiness. In our previous post, we walked through migrating a legacy C++ application with AVX2 intrinsics to Arm64 using Docker MCP Toolkit and the Arm MCP Server...
-Link to article: https://www.docker.com/blog/how-to-analyze-hugging-face-for-arm64-readiness/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Finding a duplicated item in an array of &lt;var&gt;N&lt;/var&gt; integers in the range 1 to &lt;var&gt;N&lt;/var&gt; − 1</title>
-      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_3/</link>
-      <pubDate>Mon, 13 Apr 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_3/</guid>
-      <description>
-        
-          
-            A colleague told me that there was an O(N) algorithm for finding a duplicated item in an array of N integers in the range 1 to N − 1. There must be a duplicate due to the pigeonhole principle. There might be more than one duplicated value; you merely have to find any duplicate.¹
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260413-00/?p=112227 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Adapter Pattern Best Practices in C#: Code Organization and Maintainability</title>
-      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_4/</link>
-      <pubDate>Mon, 13 Apr 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_4/</guid>
-      <description>
-        
-          
-            Master adapter pattern best practices in C# including composition over inheritance, single responsibility, error translation, and organized adapter architectures.
-Link to article: https://www.devleader.ca/2026/04/13/adapter-pattern-best-practices-in-c-code-organization-and-maintainability 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Suppressing Roslyn Analyzer Warnings Programmatically using DiagnosticSuppressor</title>
-      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_5/</link>
-      <pubDate>Mon, 13 Apr 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_5/</guid>
-      <description>
-        
-          
-            Roslyn analyzers are great for enforcing coding standards and finding bugs. However, they can sometimes report false positives or warnings you want to ignore in specific contexts. You can suppress these warnings using #pragma directives or [SuppressMessage] attributes, but both approaches require modifying the source code. A DiagnosticSuppressor is a Roslyn component that suppresses diagnostics reported…
-Link to article: https://www.meziantou.net/suppressing-roslyn-analyzer-warnings-programmatically-using-diagnosticsuppressor.htm?utm_medium=social&amp;utm_source=syndication 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Agent Skills in .NET: Three Ways to Author, One Provider to Run Them</title>
-      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_6/</link>
-      <pubDate>Mon, 13 Apr 2026 09:49:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_6/</guid>
-      <description>
-        
-          
-            Your agents can now draw on skills authored in three different ways – as files on disk, as inline C# code, or as encapsulated classes – and combine them freely in a single provider. Add built-in script execution support and a human-approval mechanism for script calls, and you have a practical authoring model that fits real-world scenarios:
-Link to article: https://devblogs.microsoft.com/agent-framework/agent-skills-in-net-three-ways-to-author-one-provider-to-run-them 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI</title>
-      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_7/</link>
-      <pubDate>Mon, 13 Apr 2026 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_7/</guid>
-      <description>
-        
-          
-            Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.
-Link to article: https://openai.com/index/cloudflare-openai-agent-cloud 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Refactoring to SOLID in C#</title>
-      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_8/</link>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_8/</guid>
-      <description>
-        
-          
-            I&#39;m really pleased to announce the publication of my latest Pluralsight course, &amp;quot;Refactoring to SOLID in C# 14&amp;quot;. It aims to provide C# developers with practical techniques and strategies to tackle the unique challenges of working in legacy codebases, such as dealing with technical debt, modernizing outdated dependencies, fixing code smells, and improving test coverage. Legacy Code Most professional software developers will spend a significant proportion of their careers working on &amp;quot;legacy codebases&amp;quot;.
           
           
         

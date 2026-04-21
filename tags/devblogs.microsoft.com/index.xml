@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 20 Apr 2026 20:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2026 00:38:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Copilot meets Azure Developer CLI: AI-assisted project setup and error troubleshooting</title>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_0/</link>
+      <pubDate>Tue, 21 Apr 2026 00:38:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_0/</guid>
+      <description>
+        
+          
+            The Azure Developer CLI (azd) now integrates with GitHub Copilot in two ways: AI-assisted project scaffolding during azd init and intelligent error troubleshooting when commands fail. Both features keep you in the terminal and use Copilot&#39;s reasoning to reduce manual work. Prerequisites To use these feature
+Link to article: https://devblogs.microsoft.com/azure-sdk/azd-copilot-integration 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Writing Node.js addons with .NET Native AOT</title>
       <link>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_2/</link>
@@ -410,40 +427,6 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260414-00/?p=11223
           
             We are pleased to announce the availability of the release candidate for Microsoft C++ (MSVC) Build Tools version 14.51. This is the last MSVC v14.51 preview before it moves to stable status and full support. You can download it from the Visual Studio 2026 Insiders Channel. As this is t
 Link to article: https://devblogs.microsoft.com/cppblog/msvc-build-tools-version-14-51-release-candidate-now-available 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Finding a duplicated item in an array of &lt;var&gt;N&lt;/var&gt; integers in the range 1 to &lt;var&gt;N&lt;/var&gt; − 1</title>
-      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_3/</link>
-      <pubDate>Mon, 13 Apr 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_3/</guid>
-      <description>
-        
-          
-            A colleague told me that there was an O(N) algorithm for finding a duplicated item in an array of N integers in the range 1 to N − 1. There must be a duplicate due to the pigeonhole principle. There might be more than one duplicated value; you merely have to find any duplicate.¹
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260413-00/?p=112227 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Agent Skills in .NET: Three Ways to Author, One Provider to Run Them</title>
-      <link>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_6/</link>
-      <pubDate>Mon, 13 Apr 2026 09:49:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_04_2026/13_04_2026_6/</guid>
-      <description>
-        
-          
-            Your agents can now draw on skills authored in three different ways – as files on disk, as inline C# code, or as encapsulated classes – and combine them freely in a single provider. Add built-in script execution support and a human-approval mechanism for script calls, and you have a practical authoring model that fits real-world scenarios:
-Link to article: https://devblogs.microsoft.com/agent-framework/agent-skills-in-net-three-ways-to-author-one-provider-to-run-them 
           
           
         
