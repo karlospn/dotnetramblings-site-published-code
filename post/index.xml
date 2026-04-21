@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 21 Apr 2026 14:12:23 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2026 16:43:03 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Azure DevOps MCP Server April Update</title>
+      <title>End-to-end lineage with DVC and Amazon SageMaker AI MLflow apps</title>
       <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_0/</link>
-      <pubDate>Tue, 21 Apr 2026 14:12:23 +0000</pubDate>
+      <pubDate>Tue, 21 Apr 2026 16:43:03 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_0/</guid>
+      <description>
+        
+          
+            In this post, we show how to combine DVC (Data Version Control), Amazon SageMaker AI, and Amazon SageMaker AI MLflow Apps to build end-to-end ML model lineage. We walk through two deployable patterns — dataset-level lineage and record-level lineage — that you can run in your own AWS account using the companion notebooks.
+Link to article: https://aws.amazon.com/blogs/machine-learning/end-to-end-lineage-with-dvc-and-amazon-sagemaker-ai-mlflow-apps/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Incremental Highlighting for Scala</title>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_1/</link>
+      <pubDate>Tue, 21 Apr 2026 14:25:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_1/</guid>
+      <description>
+        
+          
+            If an error is detected in a file but no one sees it, is it really highlighted? This is a tale about why highlighting only what’s visible is both the strangest and the most reasonable thing to do – and how you can benefit from it. (Enable Settings | Scala | Editor | Highlighting Mode […]
+Link to article: https://blog.jetbrains.com/scala/2026/04/21/incremental-highlighting/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure DevOps MCP Server April Update</title>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_2/</link>
+      <pubDate>Tue, 21 Apr 2026 14:12:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_2/</guid>
       <description>
         
           
@@ -26,11 +60,28 @@ Link to article: https://devblogs.microsoft.com/devops/azure-devops-mcp-server-a
     </item>
     
     <item>
+      <title>Sure, xor&#39;ing a register with itself is the idiom for zeroing it out, but why not sub?</title>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_3/</link>
+      <pubDate>Tue, 21 Apr 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_3/</guid>
+      <description>
+        
+          
+            Matt Godbolt, probably best known for being the proprietor of Compiler Explorer, wrote a brief article on why x86 compilers love the xor eax, eax instruction.
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260421-00/?p=112247 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Getting Started with Agentic DevOps – Part 1: Foundations</title>
-      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_4/</link>
       <pubDate>Tue, 21 Apr 2026 13:25:20 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_4/</guid>
       <description>
         
           
@@ -44,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/all-things-azure/getting-started
     
     <item>
       <title>Kotlin Professional Certificate by JetBrains – Now on LinkedIn Learning</title>
-      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_5/</link>
       <pubDate>Tue, 21 Apr 2026 13:21:36 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_5/</guid>
       <description>
         
           
@@ -61,10 +112,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2026/04/kotlin-professional-c
     
     <item>
       <title>How to Implement State Pattern in C#: Step-by-Step Guide</title>
-      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_6/</link>
       <pubDate>Tue, 21 Apr 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_6/</guid>
       <description>
         
           
@@ -78,10 +129,10 @@ Link to article: https://www.devleader.ca/2026/04/21/how-to-implement-state-patt
     
     <item>
       <title>Removing byte[] allocations in .NET Framework using ReadOnlySpan&lt;T&gt;</title>
-      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_7/</link>
       <pubDate>Tue, 21 Apr 2026 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_7/</guid>
       <description>
         
           
@@ -95,10 +146,10 @@ Link to article: https://andrewlock.net/removingbyte-array-allocations-in-dotnet
     
     <item>
       <title>12 practices for optimizing PostgreSQL queries for large datasets</title>
-      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_8/</link>
       <pubDate>Tue, 21 Apr 2026 09:21:23 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_8/</guid>
       <description>
         
           
@@ -112,10 +163,10 @@ Link to article: https://blog.elmah.io/12-practices-for-optimizing-postgresql-qu
     
     <item>
       <title>GitHub Copilot meets Azure Developer CLI: AI-assisted project setup and error troubleshooting</title>
-      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_9/</link>
       <pubDate>Tue, 21 Apr 2026 00:38:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_9/</guid>
       <description>
         
           
@@ -129,10 +180,10 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/azd-copilot-integratio
     
     <item>
       <title>Scaling Codex to enterprises worldwide</title>
-      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_10/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_10/</guid>
       <description>
         
           
