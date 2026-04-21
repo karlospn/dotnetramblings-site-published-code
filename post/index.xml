@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 21 Apr 2026 09:21:23 +0200</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2026 10:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>12 practices for optimizing PostgreSQL queries for large datasets</title>
+      <title>Removing byte[] allocations in .NET Framework using ReadOnlySpan&lt;T&gt;</title>
       <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_0/</link>
-      <pubDate>Tue, 21 Apr 2026 09:21:23 +0200</pubDate>
+      <pubDate>Tue, 21 Apr 2026 10:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_0/</guid>
+      <description>
+        
+          
+            In this post I describe how to remove static byte[] allocations, even on .NET Framework, by using Span, look at the associated IL, and discuss the risks
+Link to article: https://andrewlock.net/removingbyte-array-allocations-in-dotnet-framework-using-readonlyspan-t/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>12 practices for optimizing PostgreSQL queries for large datasets</title>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_1/</link>
+      <pubDate>Tue, 21 Apr 2026 09:21:23 +0200</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_1/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://blog.elmah.io/12-practices-for-optimizing-postgresql-qu
     
     <item>
       <title>GitHub Copilot meets Azure Developer CLI: AI-assisted project setup and error troubleshooting</title>
-      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_2/</link>
       <pubDate>Tue, 21 Apr 2026 00:38:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/21_04_2026/21_04_2026_2/</guid>
       <description>
         
           
