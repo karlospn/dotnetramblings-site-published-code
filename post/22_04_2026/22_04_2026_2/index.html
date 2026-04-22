@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Openai.com/Blog | .NET Ramblings</title>
+<title>Just Use Postgres as a Queue? | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="I’ve noticed a trend, and a lot of people are saying the same thing: just use Postgres as a queue. No Kafka, no Redis, no RabbitMQ, just one database for …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Openai.com/Blog" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/openai.com/blog/" />
-<meta property="og:title" content="Openai.com/Blog" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Just Use Postgres as a Queue?" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/22_04_2026/22_04_2026_2/" />
+<meta property="og:title" content="Just Use Postgres as a Queue?" />
+<meta property="og:description" content="I’ve noticed a trend, and a lot of people are saying the same thing: just use Postgres as a queue. No Kafka, no Redis, no RabbitMQ, just one database for …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/openai.com/blog/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/openai.com/blog/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/22_04_2026/22_04_2026_2/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://openai.com/index/introducing-openai-privacy-filter" title="Introducing OpenAI Privacy Filter">Introducing OpenAI Privacy Filter</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Just Use Postgres as a Queue?</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,409 +140,35 @@
 </svg>
 </span>
     <span class="post_date">
-      Apr 22, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/openai.com/blog/' title="openai.com/blog" class="post_tag button button_translucent">openai.com/blog
+      Apr 22, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/codeopinion.com/' title="codeopinion.com" class="post_tag button button_translucent">codeopinion.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Introducing OpenAI Privacy Filter"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy
-Link to article: <a href="https://openai.com/index/introducing-openai-privacy-filter">https://openai.com/index/introducing-openai-privacy-filter</a></p>
-          
-          <br>
-          <a href="https://openai.com/index/introducing-openai-privacy-filter" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://openai.com/index/scaling-codex-to-enterprises-worldwide" title="Scaling Codex to enterprises worldwide">Scaling Codex to enterprises worldwide</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 21, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/openai.com/blog/' title="openai.com/blog" class="post_tag button button_translucent">openai.com/blog
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>I’ve noticed a trend, and a lot of people are saying the same thing: just use Postgres as a queue. No Kafka, no Redis, no RabbitMQ, just one database for everything. And I totally get it. I get the appeal. There are fewer moving parts. There is less infrastructure. There is only one thing to… Read More »Just Use Postgres as a Queue?
+The post Just Use Postgres as a Queue? appeared first on CodeOpinion.</p>
+<ul>
+<li>Link to article: <a href="https://codeopinion.com/just-use-postgres-as-a-queue/">https://codeopinion.com/just-use-postgres-as-a-queue/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Scaling Codex to enterprises worldwide"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.
-Link to article: <a href="https://openai.com/index/scaling-codex-to-enterprises-worldwide">https://openai.com/index/scaling-codex-to-enterprises-worldwide</a></p>
-          
-          <br>
-          <a href="https://openai.com/index/scaling-codex-to-enterprises-worldwide" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise" title="OpenAI helps Hyatt advance AI among colleagues">OpenAI helps Hyatt advance AI among colleagues</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 20, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/openai.com/blog/' title="openai.com/blog" class="post_tag button button_translucent">openai.com/blog
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="OpenAI helps Hyatt advance AI among colleagues"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.
-Link to article: <a href="https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise">https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise</a></p>
-          
-          <br>
-          <a href="https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://openai.com/index/codex-for-almost-everything" title="Codex for (almost) everything">Codex for (almost) everything</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 16, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/openai.com/blog/' title="openai.com/blog" class="post_tag button button_translucent">openai.com/blog
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Codex for (almost) everything"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.
-Link to article: <a href="https://openai.com/index/codex-for-almost-everything">https://openai.com/index/codex-for-almost-everything</a></p>
-          
-          <br>
-          <a href="https://openai.com/index/codex-for-almost-everything" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://openai.com/index/introducing-gpt-rosalind" title="Introducing GPT-Rosalind for life sciences research">Introducing GPT-Rosalind for life sciences research</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 16, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/openai.com/blog/' title="openai.com/blog" class="post_tag button button_translucent">openai.com/blog
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Introducing GPT-Rosalind for life sciences research"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.
-Link to article: <a href="https://openai.com/index/introducing-gpt-rosalind">https://openai.com/index/introducing-gpt-rosalind</a></p>
-          
-          <br>
-          <a href="https://openai.com/index/introducing-gpt-rosalind" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://openai.com/index/accelerating-cyber-defense-ecosystem" title="Accelerating the cyber defense ecosystem that protects us all">Accelerating the cyber defense ecosystem that protects us all</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 16, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/openai.com/blog/' title="openai.com/blog" class="post_tag button button_translucent">openai.com/blog
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Accelerating the cyber defense ecosystem that protects us all"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.
-Link to article: <a href="https://openai.com/index/accelerating-cyber-defense-ecosystem">https://openai.com/index/accelerating-cyber-defense-ecosystem</a></p>
-          
-          <br>
-          <a href="https://openai.com/index/accelerating-cyber-defense-ecosystem" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://openai.com/index/the-next-evolution-of-the-agents-sdk" title="The next evolution of the Agents SDK">The next evolution of the Agents SDK</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 15, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/openai.com/blog/' title="openai.com/blog" class="post_tag button button_translucent">openai.com/blog
-        </a>
-    </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="The next evolution of the Agents SDK"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.
-Link to article: <a href="https://openai.com/index/the-next-evolution-of-the-agents-sdk">https://openai.com/index/the-next-evolution-of-the-agents-sdk</a></p>
-          
-          <br>
-          <a href="https://openai.com/index/the-next-evolution-of-the-agents-sdk" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -567,9 +185,8 @@ Link to article: <a href="https://openai.com/index/the-next-evolution-of-the-age
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
