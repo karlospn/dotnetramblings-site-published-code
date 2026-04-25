@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 21 Apr 2026 11:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Test Pyramid Is a Lie (and What I Do Instead)</title>
+      <link>https://www.dotnetramblings.com/post/25_04_2026/25_04_2026_0/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_04_2026/25_04_2026_0/</guid>
+      <description>
+        
+          
+            The test pyramid made sense when integration tests meant a shared database server and a 20-minute build. It doesn&#39;t match how I build .NET systems in 2026. Most of my real bugs live at the seams, and unit tests don&#39;t catch any of them. Here&#39;s the testing shape I actually ship with.
+Link to article: https://www.milanjovanovic.tech/blog/the-test-pyramid-is-a-lie-and-what-i-do-instead 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Why I Switched to Primary Constructors for DI in C#</title>
       <link>https://www.dotnetramblings.com/post/18_04_2026/18_04_2026_3/</link>

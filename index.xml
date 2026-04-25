@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 24 Apr 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Test Pyramid Is a Lie (and What I Do Instead)</title>
+      <link>https://www.dotnetramblings.com/post/25_04_2026/25_04_2026_0/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_04_2026/25_04_2026_0/</guid>
+      <description>
+        
+          
+            The test pyramid made sense when integration tests meant a shared database server and a 20-minute build. It doesn&#39;t match how I build .NET systems in 2026. Most of my real bugs live at the seams, and unit tests don&#39;t catch any of them. Here&#39;s the testing shape I actually ship with.
+Link to article: https://www.milanjovanovic.tech/blog/the-test-pyramid-is-a-lie-and-what-i-do-instead 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>C# Regex: Complete Guide to Regular Expressions in .NET</title>
       <link>https://www.dotnetramblings.com/post/24_04_2026/24_04_2026_0/</link>
@@ -1563,175 +1580,6 @@ Link to article: https://www.devleader.ca/2026/04/18/when-to-use-command-pattern
           
             I resisted primary constructors for a while. They felt like a shortcut that would cost me later. But after using them across several projects, I&#39;m sold, with one important caveat. Here&#39;s what convinced me to switch, and the one pitfall you need to watch out for.
 Link to article: https://www.milanjovanovic.tech/blog/why-i-switched-to-primary-constructors-for-di-in-csharp 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing granular cost attribution for Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_0/</link>
-      <pubDate>Fri, 17 Apr 2026 22:04:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_0/</guid>
-      <description>
-        
-          
-            In this post, we share how Amazon Bedrock&#39;s granular cost attribution works and walk through example cost tracking scenarios.
-Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-granular-cost-attribution-for-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Feature Slice Folder Structure in .NET: Organizing a Real Project</title>
-      <link>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_1/</link>
-      <pubDate>Fri, 17 Apr 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_1/</guid>
-      <description>
-        
-          
-            Learn how to design a feature slice folder structure in .NET with real-world examples, structure decisions, and guidance on handling shared code and nested features.
-Link to article: https://www.devleader.ca/2026/04/17/feature-slice-folder-structure-in-net-organizing-a-real-project 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Optimize video semantic search intent with Amazon Nova Model Distillation on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_2/</link>
-      <pubDate>Fri, 17 Apr 2026 19:43:38 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_2/</guid>
-      <description>
-        
-          
-            In this post, we show you how to use Model Distillation, a model customization technique on Amazon Bedrock, to transfer routing intelligence from a large teacher model (Amazon Nova Premier) into a much smaller student model (Amazon Nova Micro). This approach cuts inference cost by over 95% and reduces latency by 50% while maintaining the nuanced routing quality that the task demands.
-Link to article: https://aws.amazon.com/blogs/machine-learning/optimize-video-semantic-search-intent-with-amazon-nova-model-distillation-on-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Power video semantic search with Amazon Nova Multimodal Embeddings</title>
-      <link>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_3/</link>
-      <pubDate>Fri, 17 Apr 2026 19:43:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_3/</guid>
-      <description>
-        
-          
-            In this post, we show you how to build a video semantic search solution on Amazon Bedrock using Nova Multimodal Embeddings that intelligently understands user intent and retrieves accurate video results across all signal types simultaneously. We also share a reference implementation you can deploy and explore with your own content.
-Link to article: https://aws.amazon.com/blogs/machine-learning/power-video-semantic-search-with-amazon-nova-multimodal-embeddings/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Nova Forge SDK series part 2: Practical guide to fine-tune Nova models using data mixing capabilities</title>
-      <link>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_4/</link>
-      <pubDate>Fri, 17 Apr 2026 17:27:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_4/</guid>
-      <description>
-        
-          
-            This hands-on guide walks through every step of fine-tuning an Amazon Nova model with the Amazon Nova Forge SDK, from data preparation to training with data mixing to evaluation, giving you a repeatable playbook you can adapt to your own use case. This is the second part in our Nova Forge SDK series, building on the SDK introduction and first part, which covered kicking off customization experiments.
-Link to article: https://aws.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>From hours to minutes: How Agentic AI gave marketers time back for what matters</title>
-      <link>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_5/</link>
-      <pubDate>Fri, 17 Apr 2026 17:12:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_5/</guid>
-      <description>
-        
-          
-            In this post, we share how AWS Marketing’s Technology, AI, and Analytics (TAA) team worked with Gradial to build an agentic AI solution on Amazon Bedrock for accelerating content publishing workflows.
-Link to article: https://aws.amazon.com/blogs/machine-learning/from-hours-to-minutes-how-agentic-ai-gave-marketers-time-back-for-what-matters/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Adapter Pattern Real-World Example in C#: Complete Implementation</title>
-      <link>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_6/</link>
-      <pubDate>Fri, 17 Apr 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_6/</guid>
-      <description>
-        
-          
-            Build a complete adapter pattern real-world example in C# with a payment processing system featuring multiple provider adapters and unified interfaces.
-Link to article: https://www.devleader.ca/2026/04/17/adapter-pattern-realworld-example-in-c-complete-implementation 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Security Issue in YouTrack (CVE-2026-33392): Upgrade Recommended for Server Versions Before 2025.3.132953</title>
-      <link>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_7/</link>
-      <pubDate>Fri, 17 Apr 2026 06:41:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_7/</guid>
-      <description>
-        
-          
-            A security vulnerability in YouTrack came to light in March 2026, and we fixed it immediately. Most of you don’t need to do anything, but we want to keep you informed. For most YouTrack administrators, this is purely an informational post. Action required from YouTrack Server administrators If you are running YouTrack Server on a […]
-Link to article: https://blog.jetbrains.com/youtrack/2026/04/security-issue-in-youtrack-cve-2026-33392/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The Road to Responsive IntelliJ-Based IDEs</title>
-      <link>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_8/</link>
-      <pubDate>Fri, 17 Apr 2026 02:40:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_8/</guid>
-      <description>
-        
-          
-            TL;DR: This is a technical blog post about our work to improve UI responsiveness in IntelliJ-based IDEs. It’s a multi-year effort to fix several architectural constraints. The project is still ongoing, and so far we’ve built new tools and APIs that help move performance-sensitive work away from the UI thread. This change means the UI […]
-Link to article: https://blog.jetbrains.com/platform/2026/04/road-to-responsive-ides/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Optimizing AI Agents with Progressive Disclosure</title>
-      <link>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_9/</link>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_04_2026/17_04_2026_9/</guid>
-      <description>
-        
-          
-            AI coding agents are only as good as the information you put in front of them. Every byte of context you load into an agent’s context window is space that could have been used for the code, conversation, or task at hand. Getting this balance right requires the same design instinct that makes good UIs, great games, and well-structured APIs: Progressive Disclosure. What Is Progressive Disclosure? Progressive Disclosure is the principle of revealing complexity incrementally rather than all at once.
           
           
         
