@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 20 Apr 2026 14:26:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Apr 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collection Performance: Finding Items at Blazing Speed</title>
+      <link>https://www.dotnetramblings.com/post/26_04_2026/26_04_2026_0/</link>
+      <pubDate>Sun, 26 Apr 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_04_2026/26_04_2026_0/</guid>
+      <description>
+        
+          
+            Checking whether a collection contains a specific item is a routine task in .NET, and with Contains() available on many collection types, it’s easy to assume they all perform similarly. In reality, the underlying data structure and search strategy make a dramatic difference, turning what looks like a simple lookup into a potential performance trap in frequently executed code paths. This article explores how different collections approach item searches, why those differences matter, and how making informed choices can lead to faster, more predictable, and more scalable applications.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Microsoft .NET Code Analysis: Avoid Out Parameters in Methods</title>
+      <link>https://www.dotnetramblings.com/post/26_04_2026/26_04_2026_1/</link>
+      <pubDate>Sun, 26 Apr 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_04_2026/26_04_2026_1/</guid>
+      <description>
+        
+          
+            The excerpt emphasizes the importance of clarity and maintainability in designing APIs and methods in Microsoft .NET. It explains that while out parameters can be useful, they often lead to reduced readability and increased complexity. Their use should be limited to specific scenarios, particularly the Try pattern, for clearer, more maintainable code.
+Link to article: https://dotnettips.com/2026/04/26/microsoft-net-code-analysis-avoid-out-parameters-in-methods/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Guidance Counselor 2.0 with David McCarter</title>
       <link>https://www.dotnetramblings.com/post/20_04_2026/20_04_2026_8/</link>
