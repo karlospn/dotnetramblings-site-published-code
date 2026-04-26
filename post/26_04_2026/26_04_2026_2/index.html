@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Microsoft .NET Code Analysis: Avoid Out Parameters in Methods | .NET Ramblings</title>
+<title>Collection Performance: Finding Items at Blazing Speed | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="The excerpt emphasizes the importance of clarity and maintainability in designing APIs and methods in Microsoft .NET. It explains that while out parameters can …" />
+<meta name="description" content="Checking whether a collection contains a specific item is a routine task in .NET, and with Contains() available on many collection types, it’s easy to assume …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Microsoft .NET Code Analysis: Avoid Out Parameters in Methods" />
+<meta name="twitter:title" content="Collection Performance: Finding Items at Blazing Speed" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/26_04_2026/26_04_2026_2/" />
-<meta property="og:title" content="Microsoft .NET Code Analysis: Avoid Out Parameters in Methods" />
-<meta property="og:description" content="The excerpt emphasizes the importance of clarity and maintainability in designing APIs and methods in Microsoft .NET. It explains that while out parameters can …" />
+<meta property="og:title" content="Collection Performance: Finding Items at Blazing Speed" />
+<meta property="og:description" content="Checking whether a collection contains a specific item is a routine task in .NET, and with Contains() available on many collection types, it’s easy to assume …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Microsoft .NET Code Analysis: Avoid Out Parameters in Methods</h1>
+    <h1 class="post_title">Collection Performance: Finding Items at Blazing Speed</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -145,9 +145,9 @@
     </span>
   </div>
 
-    <div class="post_body"><p>The excerpt emphasizes the importance of clarity and maintainability in designing APIs and methods in Microsoft .NET. It explains that while out parameters can be useful, they often lead to reduced readability and increased complexity. Their use should be limited to specific scenarios, particularly the Try pattern, for clearer, more maintainable code.</p>
+    <div class="post_body"><p>Checking whether a collection contains a specific item is a routine task in .NET, and with <code>Contains()</code> available on many collection types, it’s easy to assume they all perform similarly. In reality, the underlying data structure and search strategy make a dramatic difference, turning what looks like a simple lookup into a potential performance trap in frequently executed code paths. This article explores how different collections approach item searches, why those differences matter, and how making informed choices can lead to faster, more predictable, and more scalable applications.</p>
 <ul>
-<li>Link to article: <a href="https://dotnettips.com/2026/04/26/microsoft-net-code-analysis-avoid-out-parameters-in-methods/">https://dotnettips.com/2026/04/26/microsoft-net-code-analysis-avoid-out-parameters-in-methods/</a></li>
+<li>Link to article: <a href="https://dotnettips.com/2026/04/26/collection-performance-finding-items-at-blazing-speed/">https://dotnettips.com/2026/04/26/collection-performance-finding-items-at-blazing-speed/</a></li>
 </ul>
 
     </div>
