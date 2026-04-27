@@ -7,7 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 24 Apr 2026 20:32:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2026 17:01:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing Shader Model 6.10 Preview and AgilitySDK 720 Preview</title>
+      <link>https://www.dotnetramblings.com/post/27_04_2026/27_04_2026_2/</link>
+      <pubDate>Mon, 27 Apr 2026 17:01:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_04_2026/27_04_2026_2/</guid>
+      <description>
+        
+          
+            Overview Today, we are pleased to announce that Shader Model 6.10 and other features have been officially released with Agility SDK 1.720-preview and complementary DXC 1.10.2605.2. AgilitySDK 1.720-preview exposes the following features. There&#39;s more de
+Link to article: https://devblogs.microsoft.com/directx/shader-model-6-10-agilitysdk-720-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>D3D12 LinAlg Matrix Preview</title>
+      <link>https://www.dotnetramblings.com/post/27_04_2026/27_04_2026_3/</link>
+      <pubDate>Mon, 27 Apr 2026 17:00:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_04_2026/27_04_2026_3/</guid>
+      <description>
+        
+          
+            Welcome to the D3D12 LinAlg Matrix Preview release! Today, we are excited to announce the preview release for the D3D12 Linear Algebra APIs! This feature set unlocks comprehensive hardware acceleration for Matrix-oriented operations across various use cases. Previously, we announced the
+Link to article: https://devblogs.microsoft.com/directx/d3d12-linalg-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Looking at consequences of passing too few register parameters to a C function on various architectures</title>
+      <link>https://www.dotnetramblings.com/post/27_04_2026/27_04_2026_6/</link>
+      <pubDate>Mon, 27 Apr 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_04_2026/27_04_2026_6/</guid>
+      <description>
+        
+          
+            In our exploration of calling conventions for various processors on Windows, we learned that in many cases, some of the parameters are passed in registers. Suppose that there is a function that takes two parameters, but you know that the function ignores the second parameter if the first parameter is positive. What happens if you ca
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260427-00/?p=112271 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Azure MCP Server now available as an MCP Bundle (.mcpb)</title>
       <link>https://www.dotnetramblings.com/post/24_04_2026/24_04_2026_1/</link>
