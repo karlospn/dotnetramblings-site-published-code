@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 29 Apr 2026 14:00:36 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Apr 2026 17:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SDK-Style Support for Extension Projects</title>
+      <title>Governing MCP tool calls in .NET with the Agent Governance Toolkit</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_0/</link>
+      <pubDate>Wed, 29 Apr 2026 17:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_0/</guid>
+      <description>
+        
+          
+            AI agents are connecting to real tools — reading files, calling APIs, querying databases — through the Model Context Protocol (MCP). The Agent Governance Toolkit (AGT) provides a governance layer for these agent systems, en
+Link to article: https://devblogs.microsoft.com/dotnet/governing-mcp-tool-calls-in-dotnet-with-the-agent-governance-toolkit 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>VSTest is Removing its Newtonsoft.Json Dependency</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_1/</link>
+      <pubDate>Wed, 29 Apr 2026 17:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_1/</guid>
+      <description>
+        
+          
+            Starting in .NET 11 Preview 4 and Visual Studio 18.8, VSTest, the platform that powers dotnet test and Test Explorer, will no longer depend on Newtonsoft.Json. The platform will now use System.Text.Json on .NET and JSONite on .NET Framework. This is a servicing and security change. Most projects require no action. A small number of
+Link to article: https://devblogs.microsoft.com/dotnet/vs-test-is-removing-its-newtonsoft-json-dependency 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.118</title>
       <link>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_2/</link>
-      <pubDate>Wed, 29 Apr 2026 14:00:36 +0000</pubDate>
+      <pubDate>Wed, 29 Apr 2026 17:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_2/</guid>
+      <description>
+        
+          
+            Learn what&#39;s new in Visual Studio Code 1.118 Read the full article
+Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.118 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>General Availability: Refresh Token (RT) Transfer to Apple Watch in Microsoft Entra External ID Native Authentication</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_3/</link>
+      <pubDate>Wed, 29 Apr 2026 15:13:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_3/</guid>
+      <description>
+        
+          
+            We’re excited to announce the General Availability (GA) of Single Sign-On (SSO) from Native Apps to Embedded Web Views for Microsoft Entra External ID (EEID) Native Authentication. This release marks a major milestone in delivering end-to-end seamless authentication experiences for modern CIAM applications bridging the gap between
+Link to article: https://devblogs.microsoft.com/identity/native-auth-refresh-token-transfer-ga 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SDK-Style Support for Extension Projects</title>
+      <link>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_5/</link>
+      <pubDate>Wed, 29 Apr 2026 14:00:36 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_5/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/sdk-style-support-f
     
     <item>
       <title>The New Loop: How Power Pages Builds Software with AI</title>
-      <link>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_11/</link>
       <pubDate>Wed, 29 Apr 2026 06:31:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_04_2026/29_04_2026_11/</guid>
       <description>
         
           
