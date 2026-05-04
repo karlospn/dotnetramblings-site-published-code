@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws.amazon.com/Blogs/Dotnet on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/dotnet/</link>
+    <description>Recent content in Aws.amazon.com/Blogs/Dotnet on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Mon, 04 May 2026 15:55:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adapting Pagination from SQL Server to Amazon DynamoDB for .NET Applications</title>
+      <link>https://www.dotnetramblings.com/post/04_05_2026/04_05_2026_10/</link>
+      <pubDate>Mon, 04 May 2026 15:55:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_05_2026/04_05_2026_10/</guid>
+      <description>
+        
+          
+            When you migrate .NET applications from SQL Server to Amazon DynamoDB, your existing pagination patterns need adaptation. .NET applications commonly use page number navigation with Language Integrated Query (LINQ) Skip() and Take() methods, which rely on SQL Server’s OFFSET/FETCH NEXT clauses and indexed ordering to provide consistent navigation experiences. DynamoDB’s distributed NoSQL architecture uses a […]
+Link to article: https://aws.amazon.com/blogs/dotnet/adapting-pagination-from-sql-server-to-amazon-dynamodb-for-net-applications/ 
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
