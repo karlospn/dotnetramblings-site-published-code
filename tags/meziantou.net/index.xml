@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meziantou.net on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/meziantou.net/</link>
+    <description>Recent content in Meziantou.net on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Mon, 04 May 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disable HTTP caching by default in ASP.NET Core APIs</title>
+      <link>https://www.dotnetramblings.com/post/04_05_2026/04_05_2026_2/</link>
+      <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_05_2026/04_05_2026_2/</guid>
+      <description>
+        
+          
+            When building APIs with ASP.NET Core, it&#39;s crucial to explicitly control caching behavior. Unlike web pages where caching often improves user experience, API responses should not be cached by default unless you intentionally design them to be cacheable. Unintended caching can lead to serious issues, including stale data, security vulnerabilities, and hard-to-reproduce bugs. Understanding HTTP caching…
+Link to article: https://www.meziantou.net/disable-http-caching-by-default-in-asp-net-core-apis.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
