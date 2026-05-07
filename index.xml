@@ -7,13 +7,97 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 07 May 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2026 15:59:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bridge Pattern Best Practices in C#: Code Organization and Maintainability</title>
+      <title>Secure short-term GPU capacity for ML workloads with EC2 Capacity Blocks for ML and SageMaker training plans</title>
       <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_0/</link>
-      <pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 May 2026 15:59:50 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_0/</guid>
+      <description>
+        
+          
+            In this post, you will learn how to secure reserved GPU capacity for short-term workloads using Amazon Elastic Compute Cloud (Amazon EC2) Capacity Blocks for ML and Amazon SageMaker training plans. These solutions can address GPU availability challenges when you need short-term capacity for load testing, model validation, time-bound workshops, or preparing inference capacity ahead of a release.
+Link to article: https://aws.amazon.com/blogs/machine-learning/secure-short-term-gpu-capacity-for-ml-workloads-with-ec2-capacity-blocks-for-ml-and-sagemaker-training-plans/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Overcoming reward signal challenges: Verifiable rewards-based reinforcement learning with GRPO on SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_1/</link>
+      <pubDate>Thu, 07 May 2026 15:53:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_1/</guid>
+      <description>
+        
+          
+            In this post, you will learn how to implement reinforcement learning with verifiable rewards (RLVR) to introduce verification and transparency into reward signals to improve training performance. This approach works best when outputs can be objectively verified for correctness, such as in mathematical reasoning, code generation, or symbolic manipulation tasks. You will also learn how to layer techniques like Group Relative Policy Optimization (GRPO) and few-shot examples to further improve results.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Scalable AI with Azure Cosmos DB: Bringing Generative AI to Enterprise Scale with Super Insight by AVASOFT</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_2/</link>
+      <pubDate>Thu, 07 May 2026 15:14:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_2/</guid>
+      <description>
+        
+          
+            Azure Cosmos DB enables scalable AI-driven document processing, addressing one of the biggest barriers to operational scale in today’s enterprise AI landscape. Organizations continue to manage massive volumes of structured and unstructured content—contracts, regulatory filings, operational r
+Link to article: https://devblogs.microsoft.com/cosmosdb/scalable-ai-with-azure-cosmos-db-bringing-generative-ai-to-enterprise-scale-with-super-insight-by-avasoft 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The MPS 2026.1 Early Access Program Has Started</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_3/</link>
+      <pubDate>Thu, 07 May 2026 14:46:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_3/</guid>
+      <description>
+        
+          
+            The MPS 2026.1 Early Access Program (EAP) is kicking off today. Download the first 2026.1 EAP release and give it a try! DOWNLOAD MPS 2026.1 EAP Along with numerous bug fixes, this build introduces several key improvements. Migration to IntelliJ Platform 2026.1, JDK 25, and Kotlin 2.3 This MPS 2026.1 EAP build completes the jump […]
+Link to article: https://blog.jetbrains.com/mps/2026/05/the-mps-2025-2-eap-has-started-2/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Kotlin Ecosystem Mentorship Program: Results and Winners</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_4/</link>
+      <pubDate>Thu, 07 May 2026 14:45:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_4/</guid>
+      <description>
+        
+          
+            In the Kotlin Ecosystem Mentorship Program pilot, mentors and mentees worked together on real Kotlin open-source projects to make their first meaningful community contribution. Four pairs successfully completed the two-month program, and one eligible pair was randomly selected in the prize drawing to receive the grand prize – a trip to KotlinConf 2026 in Munich! […]
+Link to article: https://blog.jetbrains.com/kotlin/2026/05/kotlin-ecosystem-mentorship-program/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Bridge Pattern Best Practices in C#: Code Organization and Maintainability</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_5/</link>
+      <pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_5/</guid>
       <description>
         
           
@@ -27,10 +111,10 @@ Link to article: https://www.devleader.ca/2026/05/07/bridge-pattern-best-practic
     
     <item>
       <title>Comparing Different Approaches to Sandboxing</title>
-      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_6/</link>
       <pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_6/</guid>
       <description>
         
           
@@ -43,11 +127,11 @@ Link to article: https://www.docker.com/blog/comparing-sandboxing-approaches-ai-
     </item>
     
     <item>
-      <title>Agents that transact: Introducing Amazon Bedrock AgentCore Payments, built with Coinbase and Stripe</title>
-      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_2/</link>
+      <title>Agents that transact: Introducing Amazon Bedrock AgentCore payments, built with Coinbase and Stripe</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_7/</link>
       <pubDate>Thu, 07 May 2026 12:55:17 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_7/</guid>
       <description>
         
           
@@ -60,11 +144,28 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/agents-that-trans
     </item>
     
     <item>
+      <title>Make Your Plugin Remote Development-Ready</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_8/</link>
+      <pubDate>Thu, 07 May 2026 12:00:15 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_8/</guid>
+      <description>
+        
+          
+            Remote development is changing how plugins should be built for JetBrains IDEs. The IDE is no longer a single local process: users interact with a frontend client, while the backend can run on another machine, in Docker, or in the cloud. This model is becoming increasingly important because it supports powerful remote environments, better security, […]
+Link to article: https://blog.jetbrains.com/platform/2026/05/make-your-plugin-remote-development-ready/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Python Unplugged on PyTV: Key Takeaways From Our Community Conference</title>
-      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_9/</link>
       <pubDate>Thu, 07 May 2026 11:27:22 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_9/</guid>
       <description>
         
           
@@ -78,10 +179,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2026/05/python-unplugged-on-
     
     <item>
       <title>Parloa builds service agents customers want to talk to</title>
-      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_10/</link>
       <pubDate>Thu, 07 May 2026 11:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_10/</guid>
       <description>
         
           
@@ -95,10 +196,10 @@ Link to article: https://openai.com/index/parloa
     
     <item>
       <title>How to Make Code Highlighting-Friendly</title>
-      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_11/</link>
       <pubDate>Thu, 07 May 2026 09:15:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_11/</guid>
       <description>
         
           
@@ -112,10 +213,10 @@ Link to article: https://blog.jetbrains.com/scala/2026/05/07/how-to-make-code-hi
     
     <item>
       <title>SQL query generation from natural language</title>
-      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_12/</link>
       <pubDate>Thu, 07 May 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_12/</guid>
       <description>
         
           
