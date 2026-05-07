@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 07 May 2026 15:14:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Scalable AI with Azure Cosmos DB: Bringing Generative AI to Enterprise Scale with Super Insight by AVASOFT</title>
+      <title>Copilot Studio gets faster with .NET 10 on WebAssembly</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_0/</link>
+      <pubDate>Thu, 07 May 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_0/</guid>
+      <description>
+        
+          
+            A few months ago, we shared How Copilot Studio uses .NET and WebAssembly for performance and innovation, describing how Microsoft Copilot Studio runs C# in the browser via .NET
+Link to article: https://devblogs.microsoft.com/dotnet/copilot-studio-dotnet-10-migration 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What&#39;s New in Aspire 13.3</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_1/</link>
+      <pubDate>Thu, 07 May 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_1/</guid>
+      <description>
+        
+          
+            Aspire 13.3 is here, and even though it&#39;s only been five weeks since 13.2, this one is still packed. We have the new Aspireify skill for agent-assisted onboarding. We have command results that bring structured output from resource commands into the dashboard, CLI, MCP tools, and integrations. We have browser logs, network capture, a
+Link to article: https://devblogs.microsoft.com/aspire/whats-new-aspire-13-3 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Project-Specific Build Optimizations with GitHub Copilot</title>
       <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_2/</link>
-      <pubDate>Thu, 07 May 2026 15:14:50 +0000</pubDate>
+      <pubDate>Thu, 07 May 2026 16:42:45 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_2/</guid>
+      <description>
+        
+          
+            We are excited to announce that GitHub Copilot build performance for Windows now supports project-specific builds! Available in the latest Visual Studio Insiders, you can target a single MSBuild project or CMake target instead of analyzing your entire solution. For game developers and teams working with
+Link to article: https://devblogs.microsoft.com/cppblog/project-specific-build-optimizations-with-github-copilot 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What&#39;s New in vcpkg (Apr 2026)</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_3/</link>
+      <pubDate>Thu, 07 May 2026 16:32:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_3/</guid>
+      <description>
+        
+          
+            This blog post summarizes changes to the vcpkg package manager as part of the 2026.04.27 registry release and the 2026-04-06 and
+Link to article: https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-apr-2026 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Scalable AI with Azure Cosmos DB: Bringing Generative AI to Enterprise Scale with Super Insight by AVASOFT</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_6/</link>
+      <pubDate>Thu, 07 May 2026 15:14:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_6/</guid>
       <description>
         
           
@@ -26,11 +94,28 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/scalable-ai-with-azure-
     </item>
     
     <item>
+      <title>When you upgrade your resource strings to Unicode, don&#39;t forget to specify the L prefix</title>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_9/</link>
+      <pubDate>Thu, 07 May 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_9/</guid>
+      <description>
+        
+          
+            Some time ago, I discussed how the Resource Compiler defaults to CP_ACP, even in the face of subtle hints that the file is UTF-8. After yet another
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260507-00/?p=112307 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>SQL query generation from natural language</title>
-      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_12/</link>
+      <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_18/</link>
       <pubDate>Thu, 07 May 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_18/</guid>
       <description>
         
           
