@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 07 May 2026 21:36:01 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 May 2026 00:58:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Tour of Handoff Orchestration Pattern</title>
+      <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_0/</link>
+      <pubDate>Fri, 08 May 2026 00:58:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_0/</guid>
+      <description>
+        
+          
+            A Tour of the Handoff Orchestration Pattern Most multi-agent systems start out simple: a router agent receives a user request, picks the right specialist, and forwards the conversation. As long as each specialist can complete its task in one pass, that model wor
+Link to article: https://devblogs.microsoft.com/agent-framework/a-tour-of-handoff-orchestration-pattern 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Announcing general availability of the mailbox import and export Microsoft Graph APIs</title>
       <link>https://www.dotnetramblings.com/post/07_05_2026/07_05_2026_0/</link>
@@ -561,108 +578,6 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260501-00/?p=11229
           
             The Azure Developer CLI (azd) shipped five releases in April 2026. The biggest theme this month is multi-language hook support: write azd hooks in Python, JavaScript, TypeScript, or .NET alongside the existing Bash and PowerShell options. Here&#39;s what&#39;s in versions
 Link to article: https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-april-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3</title>
-      <link>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_2/</link>
-      <pubDate>Thu, 30 Apr 2026 17:08:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_2/</guid>
-      <description>
-        
-          
-            TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3 In Visual Studio 2026 18.6 Insiders 3 we have updated the built-in TypeScript SDK to TypeScript 7 Beta (native preview). The TypeScript SDK provides the compiler and language service used for TypeScript and JavaScript support in Visual Studio. T
-Link to article: https://devblogs.microsoft.com/visualstudio/typescript-7-beta-now-enabled-by-default-in-visual-studio-2026-18-6-insiders-3 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building an AI-Powered Conference App with .NET&#39;s Composable AI Stack</title>
-      <link>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_3/</link>
-      <pubDate>Thu, 30 Apr 2026 17:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_3/</guid>
-      <description>
-        
-          
-            Building AI features into .NET applications often means stitching together models, vector databases, ingestion pipelines, and agent frameworks from different ecosystems. Each one has its own patterns, its own client libraries, and its own breaking changes when the next version ships. We&#39;ve been working on a set of composable, extensible buildi
-Link to article: https://devblogs.microsoft.com/dotnet/building-ai-conference-app-dotnet-composable-stack 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Dataverse Plugin Is Now on the Claude Marketplace</title>
-      <link>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_9/</link>
-      <pubDate>Thu, 30 Apr 2026 16:06:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_9/</guid>
-      <description>
-        
-          
-            Dataverse gives developers a powerful platform for building enterprise applications — but getting from zero to a connected, working environment has always involved multiple tools, authentication flows, and configuration steps. The Dataverse plugin was built to accelerate that journey by letting AI coding agents handle the setup orchestrat
-Link to article: https://devblogs.microsoft.com/powerplatform/dataverse-plugin-claude-marketplace 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Automatic Super Resolution Preview Comes to the ROG Xbox Ally X for Docked Play</title>
-      <link>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_10/</link>
-      <pubDate>Thu, 30 Apr 2026 16:00:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_10/</guid>
-      <description>
-        
-          
-            We previously introduced Automatic Super Resolution (Auto SR) on select Windows 11 Copilot+ PCs, to make games look sharper and play smoother. Today, we&#39;re excited to give Xbox Insiders the opportunity to he
-Link to article: https://devblogs.microsoft.com/directx/autosrpreview 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Developing a cross-process reader/writer lock with limited readers, part 3: Fairness</title>
-      <link>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_13/</link>
-      <pubDate>Thu, 30 Apr 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_13/</guid>
-      <description>
-        
-          
-            We&#39;ve been building a cross-process reader/writer lock with a cap on the number of readers, we concluded our investigation last time by noting that thr
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260430-00/?p=112288 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Propagating SharePoint Document Permissions to AI Search and RAG Pipelines</title>
-      <link>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_16/</link>
-      <pubDate>Thu, 30 Apr 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_04_2026/30_04_2026_16/</guid>
-      <description>
-        
-          
-            Executive Summary When integrating SharePoint content into downstream systems such as Azure AI Search, RAG pipelines, or Copilot extensions, preserving document-level access control is critical—especially for highly sensitive content. This post describes a security-first
-Link to article: https://devblogs.microsoft.com/ise/sharepoint-doc-level-access 
           
           
         
