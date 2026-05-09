@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 08 May 2026 21:42:36 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API Versioning Should Be Your Last Resort</title>
+      <link>https://www.dotnetramblings.com/post/09_05_2026/09_05_2026_0/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_05_2026/09_05_2026_0/</guid>
+      <description>
+        
+          
+            Most teams reach for v2 too early because they don&#39;t have a contract evolution strategy. Here&#39;s the API change management approach I prefer: evolve contracts safely, deprecate deliberately, and version only when the old and new worlds can&#39;t coexist.
+Link to article: https://www.milanjovanovic.tech/blog/api-versioning-should-be-your-last-resort 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Generate Embeddings Function and External Model Object Support Are Now Generally Available in Azure SQL</title>
       <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_0/</link>
@@ -1732,259 +1749,6 @@ Link to article: https://www.devleader.ca/2026/05/02/facade-pattern-best-practic
           
             Most &#39;DDD-ish&#39; code I review enforces business rules everywhere except where it should: in the model itself. The same rule ends up duplicated across handlers, validators, and controllers, and each copy drifts a little over time. Here&#39;s how I think about invariants, and why an always-valid domain model is the cleanest way to enforce them.
 Link to article: https://www.milanjovanovic.tech/blog/what-invariants-are-and-why-a-domain-model-is-the-best-place-to-enforce-them 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>When to Use Enum vs Constants in C#: Decision Guide</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_0/</link>
-      <pubDate>Fri, 01 May 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_0/</guid>
-      <description>
-        
-          
-            Struggling with enum vs const in C#? This decision guide covers type safety, extensibility, serialization, and the enumeration class pattern to help you choose correctly.
-Link to article: https://www.devleader.ca/2026/05/01/when-to-use-enum-vs-constants-in-c-decision-guide 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Python support for the Microsoft Teams SDK is now generally available</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_1/</link>
-      <pubDate>Fri, 01 May 2026 20:15:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_1/</guid>
-      <description>
-        
-          
-            Today we’re announcing the general availability (GA) of Python support in the Microsoft Teams SDK. Python developers can now build Teams-native apps and agents using the same SDK surface that powers modern Teams experiences across our Type
-Link to article: https://devblogs.microsoft.com/microsoft365dev/python-support-for-the-microsoft-teams-sdk-is-now-generally-available 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AWS Transform now automates BI migration to Amazon Quick in days</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_2/</link>
-      <pubDate>Fri, 01 May 2026 18:29:06 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_2/</guid>
-      <description>
-        
-          
-            In this post, we walk through the full journey, from setting up your migration workspace in AWS Transform to subscribing to partner agents through AWS Marketplace to unlocking Amazon Quick capabilities that change how your organization consumes data.
-Link to article: https://aws.amazon.com/blogs/machine-learning/aws-transform-now-automates-bi-migration-to-amazon-quick-in-days/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Sponsor group type requirements for agent identities</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_3/</link>
-      <pubDate>Fri, 01 May 2026 17:45:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_3/</guid>
-      <description>
-        
-          
-            As part of moving to general availability (GA) for Entra Agent ID, agent blueprints, agent blueprint principals, and agent identities only accept dynamic membership groups and Microsoft 365 groups
-Link to article: https://devblogs.microsoft.com/microsoft365dev/sponsor-group-type-requirements-for-agent-identities 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The new Run dialog: faster, cleaner, and more capable</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_4/</link>
-      <pubDate>Fri, 01 May 2026 17:00:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_4/</guid>
-      <description>
-        
-          
-            We&#39;ve shipped the new Run dialog - and we want to say thanks. As the team behind Windows Terminal and PowerToys, we&#39;re excited to bring this to Windows 11, and your feedback helped shape it!
-Link to article: https://devblogs.microsoft.com/commandline/the-new-run-dialog-faster-cleaner-and-more-capable 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing langchain-azure-cosmosdb: Build Agentic Apps and RAG with One Database</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_5/</link>
-      <pubDate>Fri, 01 May 2026 16:43:29 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_5/</guid>
-      <description>
-        
-          
-            Build AI Agents and RAG Applications with the New LangChain + LangGraph Connector for Azure Cosmos DB Building AI agents and RAG applications today means stitching together half a dozen services, a vector database, a chat history store, a checkpointer for agent state, a semantic cache, a long-term memory layer. Each adds operational
-Link to article: https://devblogs.microsoft.com/cosmosdb/langchain-azure-cosmos-db-agents-rag 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>JetBrains Academy – April Digest</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_6/</link>
-      <pubDate>Fri, 01 May 2026 16:36:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_6/</guid>
-      <description>
-        
-          
-            Hey! April brought many good reasons to open your IDE. Learn about a new DeepLearning.AI collab on spec-driven development, a beginner-friendly full-stack chat app course, a Kotlin certificate you can add to your LinkedIn profile, and fresh research on which AI coding tools developers actually use at work.
-Link to article: https://blog.jetbrains.com/education/2026/05/01/jetbrains-academy-april-2026/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Faster Rust Testing at Scale: cargo-nextest in Practice</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_7/</link>
-      <pubDate>Fri, 01 May 2026 15:04:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_7/</guid>
-      <description>
-        
-          
-            Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were distilled into a compact blog post format. In our recent JetBrains livestream, Vitaly Bragilevsky was joined by Rain, the creator of cargo-nextest, for a conversation about Rust testing, developer tools, open […]
-Link to article: https://blog.jetbrains.com/rust/2026/05/01/faster-rust-tests-with-cargo-nextest/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Developing a cross-process reader/writer lock with limited readers, part 4: Abandonment</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_8/</link>
-      <pubDate>Fri, 01 May 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_8/</guid>
-      <description>
-        
-          
-            We&#39;ve been building a cross-process reader/writer lock with a cap on the number of readers, we concluded our investigation last time by noting that there is a serious proble
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260501-00/?p=112291 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A Virtual Agent team at Docker: How the Coding Agent Sandboxes team uses a fleet of agents to ship faster</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_10/</link>
-      <pubDate>Fri, 01 May 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_10/</guid>
-      <description>
-        
-          
-            I work on Coding Agent Sandboxes, aka “sbx” at Docker. The project provides secure, microVM-based isolation for running AI coding agents like Claude Code, Gemini, Codex, Docker Agent and Kiro. Agents get full autonomy inside a sandbox (their own Docker daemon, network, filesystem) without touching your host system. Over the past couple of weeks, we...
-Link to article: https://www.docker.com/blog/a-virtual-agent-team-at-docker-how-the-coding-agent-sandboxes-team-uses-a-fleet-of-agents-to-ship-faster/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bridge Design Pattern in C#: Complete Guide with Examples</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_9/</link>
-      <pubDate>Fri, 01 May 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_9/</guid>
-      <description>
-        
-          
-            Master the bridge design pattern in C# with practical examples showing abstraction-implementation separation, composition over inheritance, and clean extensible design.
-Link to article: https://www.devleader.ca/2026/05/01/bridge-design-pattern-in-c-complete-guide-with-examples 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing WinUI 3 Gallery 2.9</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_11/</link>
-      <pubDate>Fri, 01 May 2026 06:07:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_11/</guid>
-      <description>
-        
-          
-             Link to article: https://devblogs.microsoft.com/ifdef-windows/announcing-winui-3-gallery-2-9 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Boost Your .NET Projects with Spargine: High-Performance Character Processing with CharacterExtensions</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_12/</link>
-      <pubDate>Fri, 01 May 2026 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_12/</guid>
-      <description>
-        
-          
-            CharacterExtensions is a utility in the DotNetTips.Spargine.Extensions namespace that enhances performance in ASCII character processing. It offers high-performance methods for character classification, case conversion, and digit extraction, emphasizing minimal overhead. This tool is ideal for developers prioritizing speed and clarity in performance-critical .NET applications dealing with ASCII input.
-Link to article: https://dotnettips.com/2026/05/01/boost-your-net-projects-with-spargine-high-performance-character-processing-with-characterextensions/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Developer CLI (azd) - April 2026</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_13/</link>
-      <pubDate>Fri, 01 May 2026 00:53:08 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_13/</guid>
-      <description>
-        
-          
-            The Azure Developer CLI (azd) shipped five releases in April 2026. The biggest theme this month is multi-language hook support: write azd hooks in Python, JavaScript, TypeScript, or .NET alongside the existing Bash and PowerShell options. Here&#39;s what&#39;s in versions
-Link to article: https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-april-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>NAudio Modernization with Claude Code</title>
-      <link>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_14/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_05_2026/01_05_2026_14/</guid>
-      <description>
-        
-          
-            Almost 25 years ago, I created NAudio, an open-source audio library for .NET. Over the years I&#39;ve had periods where I&#39;ve done a lot of work on it, and periods where I barely touched it. That&#39;s certainly been the case recently, partly because I&#39;ve been busy with other projects, and partly because creating a version 3 of NAudio requires extensive modernization and refactoring, which under normal circumstances would be impossible for me to find time for.
           
           
         
