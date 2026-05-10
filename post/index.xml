@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 10 May 2026 02:34:45 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 May 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Software Dark Factory and the Future of Software Development</title>
+      <title>Collection Performance: AddRange() vs. InsertRange() When Populating Lists</title>
       <link>https://www.dotnetramblings.com/post/10_05_2026/10_05_2026_0/</link>
-      <pubDate>Sun, 10 May 2026 02:34:45 +0000</pubDate>
+      <pubDate>Sun, 10 May 2026 06:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/10_05_2026/10_05_2026_0/</guid>
+      <description>
+        
+          
+            When populating collections in .NET, choosing the right bulk operation improves both clarity and efficiency. Methods like AddRange() and InsertRange() allow multiple items to be added in a single call, reducing overhead compared to repeated individual inserts and clearly expressing intent. When combined with proper capacity planning, these approaches help produce predictable, maintainable code—whether items are being appended or inserted at a specific position.
+Link to article: https://dotnettips.com/2026/05/10/collection-performance-addrange-vs-insertrange-when-populating-lists/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Software Dark Factory and the Future of Software Development</title>
+      <link>https://www.dotnetramblings.com/post/10_05_2026/10_05_2026_1/</link>
+      <pubDate>Sun, 10 May 2026 02:34:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_05_2026/10_05_2026_1/</guid>
       <description>
         
           
