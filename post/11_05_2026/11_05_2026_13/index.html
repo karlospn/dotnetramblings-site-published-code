@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Additional notes on controlling which handles are inherited by &lt;code&gt;Create­Process&lt;/code&gt; | .NET Ramblings</title>
+<title>Using configurable token lifetimes in Microsoft Entra ID, .NET and Microsoft Graph | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,24 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Some time ago, I wrote about programmatically controlling which handles are inherited by new processes in Win32 by using the PROC_THREAD_ATTRIBUTE_
-Link to …" />
+<meta name="description" content="Configurable token lifetimes in the Microsoft identity platform went GA and I thought I would look at implementing this using a .NET console application using …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Additional notes on controlling which handles are inherited by &lt;code&gt;Create­Process&lt;/code&gt;" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_2/" />
-<meta property="og:title" content="Additional notes on controlling which handles are inherited by &lt;code&gt;Create­Process&lt;/code&gt;" />
-<meta property="og:description" content="Some time ago, I wrote about programmatically controlling which handles are inherited by new processes in Win32 by using the PROC_THREAD_ATTRIBUTE_
-Link to …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta name="twitter:title" content="Using configurable token lifetimes in Microsoft Entra ID, .NET and Microsoft Graph" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_13/" />
+<meta property="og:title" content="Using configurable token lifetimes in Microsoft Entra ID, .NET and Microsoft Graph" />
+<meta property="og:description" content="Configurable token lifetimes in the Microsoft identity platform went GA and I thought I would look at implementing this using a .NET console application using …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_2/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_13/">
 
 
 
@@ -134,7 +132,7 @@ Link to …" />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Additional notes on controlling which handles are inherited by <code>Create­Process</code></h1>
+    <h1 class="post_title">Using configurable token lifetimes in Microsoft Entra ID, .NET and Microsoft Graph</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,14 @@ Link to …" />
 </svg>
 </span>
     <span class="post_date">
-      May 11, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      May 11, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/damienbod.com/' title="damienbod.com" class="post_tag button button_translucent">damienbod.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Some time ago, I wrote about programmatically controlling which handles are inherited by new processes in Win32 by using the PROC_THREAD_ATTRIBUTE_</p>
+    <div class="post_body"><p>Configurable token lifetimes in the Microsoft identity platform went GA and I thought I would look at implementing this using a .NET console application using Microsoft Graph . This article looks at implementing this with an delegated user credential as well as an application client credential. Code: <a href="https://github.com/damienbod/EntraIdTokenLifeTimePolicies">https://github.com/damienbod/EntraIdTokenLifeTimePolicies</a> The code example was initially created using […]</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20260511-00/?p=112313">https://devblogs.microsoft.com/oldnewthing/20260511-00/?p=112313</a></li>
+<li>Link to article: <a href="https://damienbod.com/2026/05/11/using-configurable-token-lifetimes-in-microsoft-entra-id-net-and-microsoft-graph/">https://damienbod.com/2026/05/11/using-configurable-token-lifetimes-in-microsoft-entra-id-net-and-microsoft-graph/</a></li>
 </ul>
 
     </div>

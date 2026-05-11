@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 08 May 2026 21:42:36 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 May 2026 15:47:59 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publishing VM Applications in a Secure World</title>
+      <link>https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_1/</link>
+      <pubDate>Mon, 11 May 2026 15:47:59 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_1/</guid>
+      <description>
+        
+          
+            Many of you who have published VM Applications may have come across a difficult conundrum regarding security. To create an application version, you must upload your application package to a Storage blob, then provide the address of that Storage blob for repl
+Link to article: https://devblogs.microsoft.com/azure-vm-runtime/publishing-vm-applications-in-a-secure-world 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Additional notes on controlling which handles are inherited by &lt;code&gt;Create­Process&lt;/code&gt;</title>
+      <link>https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_2/</link>
+      <pubDate>Mon, 11 May 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_2/</guid>
+      <description>
+        
+          
+            Some time ago, I wrote about programmatically controlling which handles are inherited by new processes in Win32 by using the PROC_THREAD_ATTRIBUTE_
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260511-00/?p=112313 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Generate Embeddings Function and External Model Object Support Are Now Generally Available in Azure SQL</title>
       <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_0/</link>
