@@ -7,13 +7,97 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 12 May 2026 10:15:13 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 May 2026 15:54:08 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Introducing dotnet new WinUI templates</title>
+      <title>Automate schema generation for intelligent document processing</title>
       <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_0/</link>
-      <pubDate>Tue, 12 May 2026 10:15:13 +0000</pubDate>
+      <pubDate>Tue, 12 May 2026 15:54:08 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_0/</guid>
+      <description>
+        
+          
+            In this post, we&#39;ll show you how our multi-document discovery feature solves this problem. It serves as an automated pre-processing step, analyzing unknown documents, clustering them by type, and generating schemas ready for the IDP Accelerator. You&#39;ll learn how the new capability uses visual embeddings for automatic clustering and agents for schema generation. We&#39;ll also walk you through running the solution on your own document collections.
+Link to article: https://aws.amazon.com/blogs/machine-learning/automate-schema-generation-for-intelligent-document-processing/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_1/</link>
+      <pubDate>Tue, 12 May 2026 15:48:52 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_1/</guid>
+      <description>
+        
+          
+            In this post, we show you how to set up FLOPs tracking during LLM fine-tuning using the open source Fine-Tuning FLOPs Meter toolkit on Amazon SageMaker AI. You learn how to determine your compliance status with a single configuration flag and generate audit-ready documentation.
+Link to article: https://aws.amazon.com/blogs/machine-learning/navigating-eu-ai-act-requirements-for-llm-fine-tuning-on-amazon-sagemaker-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Why Sagas Feel Broken</title>
+      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_2/</link>
+      <pubDate>Tue, 12 May 2026 13:59:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_2/</guid>
+      <description>
+        
+          
+            So, you built an elaborate system with commands, queues, an event-driven architecture, retries, timeouts, and, most importantly, compensating actions all handled within sagas. But do you really? Because then you get a call from support. There’s an order where the payment is pending, and it’s been pending for 48 hours. You look into it and… Read More »Why Sagas Feel Broken The post Why Sagas Feel Broken appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>PhpStorm 2026.2 Early Access Program Has Started</title>
+      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_3/</link>
+      <pubDate>Tue, 12 May 2026 13:36:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_3/</guid>
+      <description>
+        
+          
+            The Early Access Program (EAP) for the next major PhpStorm 2026.2 release is now open! PhpStorm’s EAP builds are a great opportunity to try upcoming features for free in your real workflows and share feedback with the PhpStorm team. Your input directly influences what makes it into the final release. This release, our main areas of […]
+Link to article: https://blog.jetbrains.com/phpstorm/2026/05/phpstorm-2026-2-early-access-program-has-started/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>When to Use Flyweight Pattern in C#: Decision Guide with Examples</title>
+      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_4/</link>
+      <pubDate>Tue, 12 May 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_4/</guid>
+      <description>
+        
+          
+            Learn when to use flyweight pattern in C# with decision criteria, memory profiling examples, and guidance on choosing the right caching approach.
+Link to article: https://www.devleader.ca/2026/05/12/when-to-use-flyweight-pattern-in-c-decision-guide-with-examples 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing dotnet new WinUI templates</title>
+      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_5/</link>
+      <pubDate>Tue, 12 May 2026 10:15:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_5/</guid>
       <description>
         
           
@@ -27,10 +111,10 @@ Link to article: https://devblogs.microsoft.com/ifdef-windows/introducing-dotnet
     
     <item>
       <title>Running background tasks in Blazor with Web Workers: Exploring the .NET 11 preview - Part 1</title>
-      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_6/</link>
       <pubDate>Tue, 12 May 2026 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_6/</guid>
       <description>
         
           
@@ -44,10 +128,10 @@ Link to article: https://andrewlock.net/exploring-the-dotnet-11-preview-1-runnin
     
     <item>
       <title>dotInsights | May 2026</title>
-      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_7/</link>
       <pubDate>Tue, 12 May 2026 09:54:09 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_7/</guid>
       <description>
         
           
@@ -61,10 +145,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/05/12/dotinsights-may-20
     
     <item>
       <title>TeamCity 2026.1: CLI, MCP for AI Agents, Pipelines Enhancements, and More</title>
-      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_8/</link>
       <pubDate>Tue, 12 May 2026 08:59:41 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_8/</guid>
       <description>
         
           
@@ -78,10 +162,10 @@ Link to article: https://blog.jetbrains.com/teamcity/2026/05/teamcity-20261/
     
     <item>
       <title>Qodana 2026.1: Rust EAP, Stable C/C&#43;&#43; Support, and New Code Inspections</title>
-      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_9/</link>
       <pubDate>Tue, 12 May 2026 08:56:46 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_9/</guid>
       <description>
         
           
@@ -95,10 +179,10 @@ Link to article: https://blog.jetbrains.com/qodana/2026/05/qodana-2026-1-release
     
     <item>
       <title>What&#39;s new in Microsoft Foundry | April 2026</title>
-      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_10/</link>
       <pubDate>Tue, 12 May 2026 07:13:15 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_05_2026/12_05_2026_10/</guid>
       <description>
         
           
