@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 13 May 2026 12:55:39 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 May 2026 17:05:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>General Availability of SharePoint Framework 1.23 - Advancing the modern developer experience</title>
+      <title>.NET MAUI Moves to CoreCLR in .NET 11</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_0/</link>
+      <pubDate>Wed, 13 May 2026 17:05:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_0/</guid>
+      <description>
+        
+          
+            Starting in .NET 11 Preview 4, CoreCLR is the default runtime for .NET MAUI applications on Android, iOS, and Mac Catalyst. Your mobile apps now run on the same runtime that powers ASP.NET Core, Azure services, desktop applications, and millions of production workloads around the world. Mono Made This Possible For more than 15 years
+Link to article: https://devblogs.microsoft.com/dotnet/dotnet-maui-moves-to-coreclr-in-dotnet-11 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.120</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_1/</link>
+      <pubDate>Wed, 13 May 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_1/</guid>
+      <description>
+        
+          
+            Learn what&#39;s new in Visual Studio Code 1.120 Read the full article
+Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.120 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agent Skills in Visual Studio: Teach Copilot How Your Team Works</title>
       <link>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_2/</link>
-      <pubDate>Wed, 13 May 2026 12:55:39 +0000</pubDate>
+      <pubDate>Wed, 13 May 2026 16:00:47 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_2/</guid>
+      <description>
+        
+          
+            Visual Studio now supports Agent Skills, which are reusable instruction sets that teach Copilot agents how to handle specific tasks like running a build pipeline, generating boilerplate, or following your team&#39;s coding standards. Define a skill once, and the agent applies it automatically whenever it&#39;s relevant.
+Link to article: https://devblogs.microsoft.com/visualstudio/agent-skills-in-visual-studio 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The case of the hang when the user changed keyboard layouts</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_3/</link>
+      <pubDate>Wed, 13 May 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_3/</guid>
+      <description>
+        
+          
+            A customer reported that their program hung when the user changed keyboard layouts, say by using the Win+Space hotkey sequence. They debugged it as far as observing that the foreground window in their application received a WM_INPUT­LANG­CHANGE­REQUEST, and when that message was passed to D
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260513-00/?p=112318 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>General Availability of SharePoint Framework 1.23 - Advancing the modern developer experience</title>
+      <link>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_5/</link>
+      <pubDate>Wed, 13 May 2026 12:55:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_5/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/general-availabi
     
     <item>
       <title>Introducing WinUI agent plugin for GitHub Copilot and Claude Code</title>
-      <link>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_9/</link>
       <pubDate>Wed, 13 May 2026 09:29:47 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_9/</guid>
       <description>
         
           
