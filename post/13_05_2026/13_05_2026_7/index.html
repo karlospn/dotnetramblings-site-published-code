@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>NIST Narrows the NVD: What Container Security Programs Should Reassess | .NET Ramblings</title>
+<title>The case of the hang when the user changed keyboard layouts | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="On April 15, NIST announced a prioritized enrichment model for the National Vulnerability Database. Most CVEs will still be published, but fewer will receive …" />
+<meta name="description" content="A customer reported that their program hung when the user changed keyboard layouts, say by using the Win&#43;Space hotkey sequence. They debugged it as far as …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="NIST Narrows the NVD: What Container Security Programs Should Reassess" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
+<meta name="twitter:title" content="The case of the hang when the user changed keyboard layouts" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/13_05_2026/13_05_2026_7/" />
-<meta property="og:title" content="NIST Narrows the NVD: What Container Security Programs Should Reassess" />
-<meta property="og:description" content="On April 15, NIST announced a prioritized enrichment model for the National Vulnerability Database. Most CVEs will still be published, but fewer will receive …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
+<meta property="og:title" content="The case of the hang when the user changed keyboard layouts" />
+<meta property="og:description" content="A customer reported that their program hung when the user changed keyboard layouts, say by using the Win&#43;Space hotkey sequence. They debugged it as far as …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">NIST Narrows the NVD: What Container Security Programs Should Reassess</h1>
+    <h1 class="post_title">The case of the hang when the user changed keyboard layouts</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      May 13, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      May 13, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>On April 15, NIST announced a prioritized enrichment model for the National Vulnerability Database. Most CVEs will still be published, but fewer will receive the CVSS scores, CPE mappings, and CWE classifications that container scanners and compliance programs have historically relied on. The change formalizes a drift that has been visible to anyone pulling NVD...</p>
+    <div class="post_body"><p>A customer reported that their program hung when the user changed keyboard layouts, say by using the Win+Space hotkey sequence. They debugged it as far as observing that the foreground window in their application received a WM_INPUT­LANG­CHANGE­REQUEST, and when that message was passed to D</p>
 <ul>
-<li>Link to article: <a href="https://www.docker.com/blog/nist-narrows-the-nvd-what-container-security-programs-should-reassess/">https://www.docker.com/blog/nist-narrows-the-nvd-what-container-security-programs-should-reassess/</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20260513-00/?p=112318">https://devblogs.microsoft.com/oldnewthing/20260513-00/?p=112318</a></li>
 </ul>
 
     </div>
