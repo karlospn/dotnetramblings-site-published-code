@@ -501,39 +501,5 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260506-00/?p=11230
       </description>
     </item>
     
-    <item>
-      <title>Azure Cosmos DB Conf 2026 Recap: Lessons from Production</title>
-      <link>https://www.dotnetramblings.com/post/05_05_2026/05_05_2026_1/</link>
-      <pubDate>Tue, 05 May 2026 19:30:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_05_2026/05_05_2026_1/</guid>
-      <description>
-        
-          
-            A team was running at 100% RU utilization. Throttles were compounding into retries. P99 latency was degrading. The assumption was obvious: provision more throughput. They didn’t. Instead, they found a single logical partition absorbing more than 80% of traffic. After fixing the data model—without scaling the database—RU utilization
-Link to article: https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A dispute over the &lt;kbd&gt;TAB&lt;/kbd&gt; key highlights a mismatch between Microsoft and IBM organizational structures</title>
-      <link>https://www.dotnetramblings.com/post/05_05_2026/05_05_2026_7/</link>
-      <pubDate>Tue, 05 May 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_05_2026/05_05_2026_7/</guid>
-      <description>
-        
-          
-            I&#39;ve written in the past about the cultural mismatch between Microsoft and IBM during the collaboration on OS/2, with the Microsofties viewing their IBM col
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
