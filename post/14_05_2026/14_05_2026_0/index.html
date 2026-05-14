@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>LINQ Joins in C#: Join, GroupJoin, LeftJoin, RightJoin, and Zip | .NET Ramblings</title>
+<title>Exponential backoff and circuit breaker for Service Bus-triggered Azure Functions | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,17 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Learn LINQ joins in C# from inner joins to the new .NET 10 LeftJoin and RightJoin, with real-world Customer/Order examples and SQL comparisons.
-Link to article: …" />
+<meta name="description" content="Modern distributed systems fail in partial, uneven ways. A downstream API slows down, a database starts timing out, or a burst of messages arrives faster than a …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="LINQ Joins in C#: Join, GroupJoin, LeftJoin, RightJoin, and Zip" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta name="twitter:title" content="Exponential backoff and circuit breaker for Service Bus-triggered Azure Functions" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/azure.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_0/" />
-<meta property="og:title" content="LINQ Joins in C#: Join, GroupJoin, LeftJoin, RightJoin, and Zip" />
-<meta property="og:description" content="Learn LINQ joins in C# from inner joins to the new .NET 10 LeftJoin and RightJoin, with real-world Customer/Order examples and SQL comparisons.
-Link to article: …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
+<meta property="og:title" content="Exponential backoff and circuit breaker for Service Bus-triggered Azure Functions" />
+<meta property="og:description" content="Modern distributed systems fail in partial, uneven ways. A downstream API slows down, a database starts timing out, or a burst of messages arrives faster than a …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/azure.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -134,7 +132,7 @@ Link to article: …" />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">LINQ Joins in C#: Join, GroupJoin, LeftJoin, RightJoin, and Zip</h1>
+    <h1 class="post_title">Exponential backoff and circuit breaker for Service Bus-triggered Azure Functions</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,14 @@ Link to article: …" />
 </svg>
 </span>
     <span class="post_date">
-      May 14, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
+      May 14, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Learn LINQ joins in C# from inner joins to the new .NET 10 LeftJoin and RightJoin, with real-world Customer/Order examples and SQL comparisons.</p>
+    <div class="post_body"><p>Modern distributed systems fail in partial, uneven ways. A downstream API slows down, a database starts timing out, or a burst of messages arrives faster than a dependency can absorb. If every Azure Function instance retries immediately and indefinitely, the system creates its own backpressure and turns a transient fault into a wider outage.</p>
 <ul>
-<li>Link to article: <a href="https://www.devleader.ca/2026/05/14/linq-joins-in-c-join-groupjoin-leftjoin-rightjoin-and-zip">https://www.devleader.ca/2026/05/14/linq-joins-in-c-join-groupjoin-leftjoin-rightjoin-and-zip</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/azure-sdk/exponential-backoff-circuit-breaker-azure-functions">https://devblogs.microsoft.com/azure-sdk/exponential-backoff-circuit-breaker-azure-functions</a></li>
 </ul>
 
     </div>
