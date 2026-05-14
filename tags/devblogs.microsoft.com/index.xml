@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 14 May 2026 15:46:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 May 2026 17:23:43 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing Azure apps with Aspire enterprise networking</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_2/</link>
+      <pubDate>Thu, 14 May 2026 17:23:43 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_2/</guid>
+      <description>
+        
+          
+            Network security has a funny way of showing up late. You start with a web app, an API, storage, and Key Vault. The app works. The demo works. Everyone is happy. Then the production checklist shows up: Can storage and secrets be taken off the public internet? Can this app run inside our virtual network?
+Link to article: https://devblogs.microsoft.com/aspire/aspire-azure-enterprise-networking 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>May Patches for Azure DevOps Server</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_3/</link>
+      <pubDate>Thu, 14 May 2026 17:18:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_3/</guid>
+      <description>
+        
+          
+            We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps
+Link to article: https://devblogs.microsoft.com/devops/may-patches-for-azure-devops-server-3 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Segment Heap support for C&#43;&#43; projects in Visual Studio</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_6/</link>
+      <pubDate>Thu, 14 May 2026 16:09:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_6/</guid>
+      <description>
+        
+          
+            Visual Studio 2026 version 18.6 makes it easier to take advantage of modern Windows memory management improvements. Segment Heap is a modern heap implementation in Windows that delivers stronger protection against common memory vulnerabilities, higher
+Link to article: https://devblogs.microsoft.com/cppblog/segment-heap-support-for-c-projects-in-visual-studio 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>From beta to stable: Announcing the Azure SDK for Rust 🎉🦀</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_0/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_7/</link>
       <pubDate>Thu, 14 May 2026 15:46:19 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_0/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_7/</guid>
       <description>
         
           
@@ -27,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/from-beta-to-stable-an
     
     <item>
       <title>VSLive! Microsoft AI Hackathon 2026: Send Your Team Home With Working Code</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_8/</link>
       <pubDate>Thu, 14 May 2026 15:05:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_8/</guid>
       <description>
         
           
@@ -44,32 +95,15 @@ Link to article: https://devblogs.microsoft.com/visualstudio/vslive-microsoft-ai
     
     <item>
       <title>WebAssembly Data Processing at the Edge with Azure IoT Operations</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_10/</link>
       <pubDate>Thu, 14 May 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_10/</guid>
       <description>
         
           
             Introduction At the edge, custom logic is unavoidable: threshold filters, unit conversions, schema validations. That logic ships from different teams, often in different languages, and runs on production infrastructure that cannot tolerate crashes, memory corruption, or unauthorized resource access. Traditional approaches force a c
 Link to article: https://devblogs.microsoft.com/ise/wasm-edge-data-processing 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PyCon US 2026</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_4/</link>
-      <pubDate>Thu, 14 May 2026 00:18:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_4/</guid>
-      <description>
-        
-          
-            Come See Us at PyCon US 2026! Microsoft and GitHub will be at PyCon US 2026, May 14–17 in Long Beach, CA. Stop by our booth, say hello, and tell us about your experience with our tools and services. We&#39;d love to meet you. Don&#39;t miss the Meta booth on Saturday at 1 p.m., where we&#39;ll be showing of
-Link to article: https://devblogs.microsoft.com/python/pycon-us-2026 
           
           
         

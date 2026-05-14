@@ -7,13 +7,132 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 14 May 2026 15:46:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 May 2026 17:28:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>From beta to stable: Announcing the Azure SDK for Rust 🎉🦀</title>
+      <title>Improve bot accuracy with Amazon Lex Assisted NLU</title>
       <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_0/</link>
-      <pubDate>Thu, 14 May 2026 15:46:19 +0000</pubDate>
+      <pubDate>Thu, 14 May 2026 17:28:44 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_0/</guid>
+      <description>
+        
+          
+            In this post, you will learn how to implement Assisted NLU effectively. You will learn how to improve your bot design with effective intent and slot descriptions, validate your implementation using Test Workbench, and plan your transition from traditional NLU to Assisted NLU for both new and existing bots.
+Link to article: https://aws.amazon.com/blogs/machine-learning/improve-bot-accuracy-with-amazon-lex-assisted-nlu/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Real-time voice agents with Stream Vision Agents and Amazon Nova 2 Sonic</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_1/</link>
+      <pubDate>Thu, 14 May 2026 17:23:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_1/</guid>
+      <description>
+        
+          
+            In this post, you learn how to combine Stream&#39;s Vision Agents open-source framework with Amazon Bedrock and Amazon Nova 2 Sonic to build real-time voice agents that can be production-ready in minutes. You&#39;ll learn how the integration works under the hood, walk through code examples, and explore advanced capabilities like function calling, automatic reconnection, and multilingual voice support.
+Link to article: https://aws.amazon.com/blogs/machine-learning/real-time-voice-agents-with-stream-vision-agents-and-amazon-nova-2-sonic/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Securing Azure apps with Aspire enterprise networking</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_2/</link>
+      <pubDate>Thu, 14 May 2026 17:23:43 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_2/</guid>
+      <description>
+        
+          
+            Network security has a funny way of showing up late. You start with a web app, an API, storage, and Key Vault. The app works. The demo works. Everyone is happy. Then the production checklist shows up: Can storage and secrets be taken off the public internet? Can this app run inside our virtual network?
+Link to article: https://devblogs.microsoft.com/aspire/aspire-azure-enterprise-networking 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>May Patches for Azure DevOps Server</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_3/</link>
+      <pubDate>Thu, 14 May 2026 17:18:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_3/</guid>
+      <description>
+        
+          
+            We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps
+Link to article: https://devblogs.microsoft.com/devops/may-patches-for-azure-devops-server-3 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From siloed data to unified insights: Cross-account Athena Access for Amazon Quick</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_4/</link>
+      <pubDate>Thu, 14 May 2026 17:17:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_4/</guid>
+      <description>
+        
+          
+            Today, we&#39;re announcing cross-account Athena access for Amazon Quick. With this feature, customers can query Athena data in other AWS accounts using AWS Identity and Access Management (IAM) role chaining, with query costs billed to the account where the data resides.
+Link to article: https://aws.amazon.com/blogs/machine-learning/from-siloed-data-to-unified-insights-cross-account-athena-access-for-amazon-quick/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Control where your AI agents can browse with Chrome enterprise policies on Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_5/</link>
+      <pubDate>Thu, 14 May 2026 17:17:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_5/</guid>
+      <description>
+        
+          
+            In this post, you will configure Chrome enterprise policies to restrict a browser agent to a specific website, observe the policy enforcement through session recording, and demonstrate custom root CA certificates using a public test site. The walkthrough produces a working solution that researches Amazon Bedrock AgentCore documentation while operating under enterprise browser restrictions.
+Link to article: https://aws.amazon.com/blogs/machine-learning/control-where-your-ai-agents-can-browse-with-chrome-enterprise-policies-on-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Segment Heap support for C&#43;&#43; projects in Visual Studio</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_6/</link>
+      <pubDate>Thu, 14 May 2026 16:09:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_6/</guid>
+      <description>
+        
+          
+            Visual Studio 2026 version 18.6 makes it easier to take advantage of modern Windows memory management improvements. Segment Heap is a modern heap implementation in Windows that delivers stronger protection against common memory vulnerabilities, higher
+Link to article: https://devblogs.microsoft.com/cppblog/segment-heap-support-for-c-projects-in-visual-studio 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From beta to stable: Announcing the Azure SDK for Rust 🎉🦀</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_7/</link>
+      <pubDate>Thu, 14 May 2026 15:46:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_7/</guid>
       <description>
         
           
@@ -27,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/from-beta-to-stable-an
     
     <item>
       <title>VSLive! Microsoft AI Hackathon 2026: Send Your Team Home With Working Code</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_8/</link>
       <pubDate>Thu, 14 May 2026 15:05:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_8/</guid>
       <description>
         
           
@@ -44,10 +163,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/vslive-microsoft-ai
     
     <item>
       <title>Flyweight Pattern Best Practices in C#: Code Organization and Maintainability</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_9/</link>
       <pubDate>Thu, 14 May 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_9/</guid>
       <description>
         
           
@@ -61,10 +180,10 @@ Link to article: https://www.devleader.ca/2026/05/14/flyweight-pattern-best-prac
     
     <item>
       <title>WebAssembly Data Processing at the Edge with Azure IoT Operations</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_10/</link>
       <pubDate>Thu, 14 May 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_10/</guid>
       <description>
         
           
@@ -77,16 +196,16 @@ Link to article: https://devblogs.microsoft.com/ise/wasm-edge-data-processing
     </item>
     
     <item>
-      <title>PyCon US 2026</title>
-      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_4/</link>
-      <pubDate>Thu, 14 May 2026 00:18:13 +0000</pubDate>
+      <title>Helping ChatGPT better recognize context in sensitive conversations</title>
+      <link>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_11/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_05_2026/14_05_2026_11/</guid>
       <description>
         
           
-            Come See Us at PyCon US 2026! Microsoft and GitHub will be at PyCon US 2026, May 14–17 in Long Beach, CA. Stop by our booth, say hello, and tell us about your experience with our tools and services. We&#39;d love to meet you. Don&#39;t miss the Meta booth on Saturday at 1 p.m., where we&#39;ll be showing of
-Link to article: https://devblogs.microsoft.com/python/pycon-us-2026 
+            Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.
+Link to article: https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations 
           
           
         
