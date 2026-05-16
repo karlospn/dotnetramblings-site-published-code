@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 15 May 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When Your Use Case Half-Succeeds: Designing for Partial Failure in .NET</title>
+      <link>https://www.dotnetramblings.com/post/16_05_2026/16_05_2026_0/</link>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_05_2026/16_05_2026_0/</guid>
+      <description>
+        
+          
+            A use case isn&#39;t a transaction. The moment it touches more than one system, you are dealing with partial failure. Here&#39;s how I classify side effects and design use cases that fail loudly and recover safely.
+Link to article: https://www.milanjovanovic.tech/blog/when-your-use-case-half-succeeds-designing-for-partial-failure-in-dotnet 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>LINQ Deferred Execution in C#: When Queries Execute and Multiple Enumeration Pitfalls</title>
       <link>https://www.dotnetramblings.com/post/15_05_2026/15_05_2026_0/</link>
@@ -1441,159 +1458,6 @@ Link to article: https://www.devleader.ca/2026/05/09/bridge-vs-adapter-pattern-i
           
             Most teams reach for v2 too early because they don&#39;t have a contract evolution strategy. Here&#39;s the API change management approach I prefer: evolve contracts safely, deprecate deliberately, and version only when the old and new worlds can&#39;t coexist.
 Link to article: https://www.milanjovanovic.tech/blog/api-versioning-should-be-your-last-resort 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Generate Embeddings Function and External Model Object Support Are Now Generally Available in Azure SQL</title>
-      <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_0/</link>
-      <pubDate>Fri, 08 May 2026 21:42:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_0/</guid>
-      <description>
-        
-          
-            We are excited to announce the General Availability (GA) of AI_GENERATE_EMBEDDINGS and CREATE
-Link to article: https://devblogs.microsoft.com/azure-sql/generate-embeddings-function-and-external-model-object-support-are-now-generally-available-in-azure-sql 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>LINQ Filtering in C#: Where, Any, All, Contains, and OfType</title>
-      <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_1/</link>
-      <pubDate>Fri, 08 May 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_1/</guid>
-      <description>
-        
-          
-            Learn LINQ filtering in C# with Where, Any, All, Contains, and OfType. Covers compound predicates, null handling, and performance tips with .NET 6-9 examples.
-Link to article: https://www.devleader.ca/2026/05/08/linq-filtering-in-c-where-any-all-contains-and-oftype 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing the public preview of the Microsoft 365 Copilot Agent Evaluations tool</title>
-      <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_2/</link>
-      <pubDate>Fri, 08 May 2026 20:51:57 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_2/</guid>
-      <description>
-        
-          
-            Today we&#39;re announcing the public preview of the Microsoft 365 Copilot Agent Evaluations tool. The Agent Evaluations CLI tool helps developer
-Link to article: https://devblogs.microsoft.com/microsoft365dev/announcing-the-public-preview-of-the-microsoft-365-copilot-agent-evaluations-tool 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Go 1.26.3-1 and 1.25.10-1 Microsoft builds now available</title>
-      <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_3/</link>
-      <pubDate>Fri, 08 May 2026 17:25:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_3/</guid>
-      <description>
-        
-          
-            A new release of the Microsoft build of Go including security fixes is now available for download. For more information about this release and the changes included, see the table below: Microsoft Release Upstream Tag
-Link to article: https://devblogs.microsoft.com/go/go-1-26-3-1-and-1-25-10-1-microsoft-builds-now-available 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Developing more confidence when tracking renames via &lt;code&gt;Read­Directory­ChangesW&lt;/code&gt;</title>
-      <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_4/</link>
-      <pubDate>Fri, 08 May 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_4/</guid>
-      <description>
-        
-          
-            A customer was using Read­Directory­ChangesW to monitor the contents of a directory, and they were concerned about the FILE_ACTION_RENAMED_OLD_FILE and FILE_ACTION_RENAMED_NEW_FILE pair of actions. The documentation doesn&#39;t guarantee that the tw
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260508-00/?p=112310 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Halliburton enhances seismic workflow creation with Amazon Bedrock and Generative AI</title>
-      <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_5/</link>
-      <pubDate>Fri, 08 May 2026 13:20:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_5/</guid>
-      <description>
-        
-          
-            In this post, we&#39;ll explore how we built a proof-of-concept that converts natural language queries into executable seismic workflows while providing a question-answering capability for Halliburton&#39;s Seismic Engine tools and documentation. We&#39;ll cover the technical details of the solution, share evaluation results showing workflow acceleration of up to 95%, and discuss key learnings that can help other organizations enhance their complex technical workflows with generative AI.
-Link to article: https://aws.amazon.com/blogs/machine-learning/halliburton-enhances-seismic-workflow-creation-with-amazon-bedrock-and-generative-ai/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Flyweight Design Pattern in C#: Complete Guide with Examples</title>
-      <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_6/</link>
-      <pubDate>Fri, 08 May 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_6/</guid>
-      <description>
-        
-          
-            Master the flyweight design pattern in C# with practical examples showing shared state optimization, memory reduction, and object pool management.
-Link to article: https://www.devleader.ca/2026/05/08/flyweight-design-pattern-in-c-complete-guide-with-examples 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Running Codex safely at OpenAI</title>
-      <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_7/</link>
-      <pubDate>Fri, 08 May 2026 12:30:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_7/</guid>
-      <description>
-        
-          
-            How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.
-Link to article: https://openai.com/index/running-codex-safely 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A Tour of Handoff Orchestration Pattern</title>
-      <link>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_8/</link>
-      <pubDate>Fri, 08 May 2026 00:58:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_05_2026/08_05_2026_8/</guid>
-      <description>
-        
-          
-            A Tour of the Handoff Orchestration Pattern Most multi-agent systems start out simple: a router agent receives a user request, picks the right specialist, and forwards the conversation. As long as each specialist can complete its task in one pass, that model wor
-Link to article: https://devblogs.microsoft.com/agent-framework/a-tour-of-handoff-orchestration-pattern 
           
           
         
