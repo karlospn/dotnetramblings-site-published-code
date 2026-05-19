@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 18 May 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 May 2026 01:20:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NuGet PackageReference for C&#43;&#43; Projects in Visual Studio</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_0/</link>
+      <pubDate>Tue, 19 May 2026 01:20:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_0/</guid>
+      <description>
+        
+          
+            Native C++ projects in Visual Studio now support , the modern, MSBuild-native way to declare NuGet package dependencies directly in your project file. This support is available experimentally for .vcxproj projects in the Visual Studio Insiders Channel starting with version 18.7. This feature
+Link to article: https://devblogs.microsoft.com/cppblog/nuget-packagereference-for-c-projects-in-visual-studio 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>NuGet Package Pruning: Cleaner Dependencies and Actionable Vulnerability Reports</title>
       <link>https://www.dotnetramblings.com/post/18_05_2026/18_05_2026_3/</link>
@@ -342,40 +359,6 @@ Link to article: https://devblogs.microsoft.com/ifdef-windows/introducing-dotnet
           
             TL;DR Foundry Local (generally available, GA): Local model inference is production-ready on Windows, macOS on Apple Silicon, and Linux x64. GPT-5.5: The latest GPT-5 family model is available in Microsoft Foundry, with default quota for Tier 5 and Tier 6 subscriptions.
 Link to article: https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-apr-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Publishing VM Applications in a Secure World</title>
-      <link>https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_8/</link>
-      <pubDate>Mon, 11 May 2026 15:47:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_8/</guid>
-      <description>
-        
-          
-            Many of you who have published VM Applications may have come across a difficult conundrum regarding security. To create an application version, you must upload your application package to a Storage blob, then provide the address of that Storage blob for repl
-Link to article: https://devblogs.microsoft.com/azure-vm-runtime/publishing-vm-applications-in-a-secure-world 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Additional notes on controlling which handles are inherited by &lt;code&gt;Create­Process&lt;/code&gt;</title>
-      <link>https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_10/</link>
-      <pubDate>Mon, 11 May 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_05_2026/11_05_2026_10/</guid>
-      <description>
-        
-          
-            Some time ago, I wrote about programmatically controlling which handles are inherited by new processes in Win32 by using the PROC_THREAD_ATTRIBUTE_
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260511-00/?p=112313 
           
           
         
