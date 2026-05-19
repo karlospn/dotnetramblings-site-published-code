@@ -7,13 +7,164 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 19 May 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 May 2026 16:34:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Proxy Pattern Best Practices in C#: Code Organization and Maintainability</title>
+      <title>How to run evals for the model router</title>
       <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_0/</link>
-      <pubDate>Tue, 19 May 2026 13:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 May 2026 16:34:07 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_0/</guid>
+      <description>
+        
+          
+            One endpoint. Smarter spend. Model router in Foundry Models picks the optimal LLM for every prompt in real time based on signals like complexity, reasoning, and task type. Now with access to 28 frontier models, the model router makes model selection easier for developers and reduces manual overhead. This article walks you through how to run ev
+Link to article: https://devblogs.microsoft.com/foundry/how-to-run-evals-for-model-router 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Package Identity</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_1/</link>
+      <pubDate>Tue, 19 May 2026 16:00:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_1/</guid>
+      <description>
+        
+          
+            An MSIX package identity is composed of a five-part tuple that uniquely identifies a package. It consists of the following attributes: Name Version Architecture
+Link to article: https://devblogs.microsoft.com/insidemsix/package-identity 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Sample Profile Guided Optimization in MSVC</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_2/</link>
+      <pubDate>Tue, 19 May 2026 15:44:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_2/</guid>
+      <description>
+        
+          
+            Profile Guided Optimization (PGO) has long been one of the most powerful tools in the MSVC compiler&#39;s arsenal for improving the runtime performance of C and C++ applications. By using execution profile data collected from representative workloads, PGO enables the compiler to make smarter decisions about inlining, code layout, and hot/cold code
+Link to article: https://devblogs.microsoft.com/cppblog/introducing-sample-profile-guided-optimization-in-msvc 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Scalable voice agent design with Amazon Nova Sonic: multi-agent, tools, and session segmentation</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_3/</link>
+      <pubDate>Tue, 19 May 2026 15:26:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_3/</guid>
+      <description>
+        
+          
+            In this post, you’ll learn how to use Amazon Nova Sonic, Amazon Bedrock AgentCore, and Strands BidiAgent to build scalable, maintainable voice agents that handle these challenges efficiently, resulting in more responsive and intelligent customer interactions. We’ll explore three popular architectural patterns for voice agents, highlighting their trade-offs and best practices for minimizing latency.
+Link to article: https://aws.amazon.com/blogs/machine-learning/scalable-voice-agent-design-with-amazon-nova-sonic-multi-agent-tools-and-session-segmentation/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_4/</link>
+      <pubDate>Tue, 19 May 2026 15:23:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_4/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how you can extend the conversational memory of Kiro CLI by implementing a custom Model Context Protocol (MCP) server that integrates with Amazon Bedrock AgentCore Memory. You can use Kiro CLI to interact with AI agents of Kiro directly from your terminal. Amazon Bedrock AgentCore Memory is a fully managed service that allows AI agents to retain information from past interactions, creating more intelligent and context-aware conversations.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerate ML feature pipelines with new capabilities in Amazon SageMaker Feature Store</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_5/</link>
+      <pubDate>Tue, 19 May 2026 15:20:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_5/</guid>
+      <description>
+        
+          
+            Today, we’re announcing three new capabilities available in SageMaker Python SDK v3.8.0. In this post, we walk through each capability with code examples you can use to get started. For complete end-to-end walkthroughs, see the accompanying notebooks for Lake Formation governance and Iceberg table properties in the SageMaker Python SDK repository.
+Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-ml-feature-pipelines-with-new-capabilities-in-amazon-sagemaker-feature-store/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Implementing programmatic tool calling on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_6/</link>
+      <pubDate>Tue, 19 May 2026 15:17:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_6/</guid>
+      <description>
+        
+          
+            In this post, we show three ways to implement Programmatic tool calling (PTC) on Amazon Bedrock: a self-hosted Docker sandbox on ECS for maximum control, a managed solution using Amazon Bedrock AgentCore Code Interpreter, and an Anthropic SDK-compatible path through a proxy for teams that prefer that developer experience.
+Link to article: https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_7/</link>
+      <pubDate>Tue, 19 May 2026 15:00:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_7/</guid>
+      <description>
+        
+          
+            &amp;quot;A bad system will beat a good person [or agent] every time&amp;quot; ~Dr. William Edwards Deming (with apologies) I started vibe coding by writing prompts (often dictated into my phone), refining them with an agent in M365 Copilot, and creating handoff files to use with GitHub Copil
+Link to article: https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Eliminate LLM Cold starts: Load models up to 6x Faster with Azure Blob Storage and Run:AI Model Streamer</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_8/</link>
+      <pubDate>Tue, 19 May 2026 15:00:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_8/</guid>
+      <description>
+        
+          
+             Link to article: https://devblogs.microsoft.com/azure-sdk/eliminate-llm-cold-starts-load-models-up-to-6x-faster-with-azure-blob-storage-and-runai-model-streamer 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Proxy Pattern Best Practices in C#: Code Organization and Maintainability</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_9/</link>
+      <pubDate>Tue, 19 May 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_9/</guid>
       <description>
         
           
@@ -27,10 +178,10 @@ Link to article: https://www.devleader.ca/2026/05/19/proxy-pattern-best-practice
     
     <item>
       <title>Introducing the JetBrains Course Creators Program</title>
-      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_10/</link>
       <pubDate>Tue, 19 May 2026 10:47:52 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_10/</guid>
       <description>
         
           
@@ -44,10 +195,10 @@ Link to article: https://blog.jetbrains.com/education/2026/05/19/introducing-the
     
     <item>
       <title>.NET finally gets union types🎉: Exploring the .NET 11 preview - Part 2</title>
-      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_11/</link>
       <pubDate>Tue, 19 May 2026 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_11/</guid>
       <description>
         
           
@@ -61,10 +212,10 @@ Link to article: https://andrewlock.net/exploring-the-dotnet-11-preview-2-dotnet
     
     <item>
       <title>LLM Evaluation and AI Observability for Agent Monitoring</title>
-      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_12/</link>
       <pubDate>Tue, 19 May 2026 09:46:54 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_12/</guid>
       <description>
         
           
@@ -78,10 +229,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2026/05/llm-evaluation-and-a
     
     <item>
       <title>From the Big 4 to Global Tech: What Changes When You Move In-House?</title>
-      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_13/</link>
       <pubDate>Tue, 19 May 2026 08:48:27 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_13/</guid>
       <description>
         
           
@@ -95,10 +246,10 @@ Link to article: https://blog.jetbrains.com/life-at-jetbrains/2026/05/big4-to-je
     
     <item>
       <title>NuGet PackageReference for C&#43;&#43; Projects in Visual Studio</title>
-      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_14/</link>
       <pubDate>Tue, 19 May 2026 01:20:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_14/</guid>
       <description>
         
           

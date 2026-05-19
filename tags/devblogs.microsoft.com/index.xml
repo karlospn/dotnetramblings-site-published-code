@@ -7,13 +7,97 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 19 May 2026 01:20:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 May 2026 16:34:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to run evals for the model router</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_0/</link>
+      <pubDate>Tue, 19 May 2026 16:34:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_0/</guid>
+      <description>
+        
+          
+            One endpoint. Smarter spend. Model router in Foundry Models picks the optimal LLM for every prompt in real time based on signals like complexity, reasoning, and task type. Now with access to 28 frontier models, the model router makes model selection easier for developers and reduces manual overhead. This article walks you through how to run ev
+Link to article: https://devblogs.microsoft.com/foundry/how-to-run-evals-for-model-router 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Package Identity</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_1/</link>
+      <pubDate>Tue, 19 May 2026 16:00:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_1/</guid>
+      <description>
+        
+          
+            An MSIX package identity is composed of a five-part tuple that uniquely identifies a package. It consists of the following attributes: Name Version Architecture
+Link to article: https://devblogs.microsoft.com/insidemsix/package-identity 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Sample Profile Guided Optimization in MSVC</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_2/</link>
+      <pubDate>Tue, 19 May 2026 15:44:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_2/</guid>
+      <description>
+        
+          
+            Profile Guided Optimization (PGO) has long been one of the most powerful tools in the MSVC compiler&#39;s arsenal for improving the runtime performance of C and C++ applications. By using execution profile data collected from representative workloads, PGO enables the compiler to make smarter decisions about inlining, code layout, and hot/cold code
+Link to article: https://devblogs.microsoft.com/cppblog/introducing-sample-profile-guided-optimization-in-msvc 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_7/</link>
+      <pubDate>Tue, 19 May 2026 15:00:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_7/</guid>
+      <description>
+        
+          
+            &amp;quot;A bad system will beat a good person [or agent] every time&amp;quot; ~Dr. William Edwards Deming (with apologies) I started vibe coding by writing prompts (often dictated into my phone), refining them with an agent in M365 Copilot, and creating handoff files to use with GitHub Copil
+Link to article: https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Eliminate LLM Cold starts: Load models up to 6x Faster with Azure Blob Storage and Run:AI Model Streamer</title>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_8/</link>
+      <pubDate>Tue, 19 May 2026 15:00:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_8/</guid>
+      <description>
+        
+          
+             Link to article: https://devblogs.microsoft.com/azure-sdk/eliminate-llm-cold-starts-load-models-up-to-6x-faster-with-azure-blob-storage-and-runai-model-streamer 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>NuGet PackageReference for C&#43;&#43; Projects in Visual Studio</title>
-      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_14/</link>
       <pubDate>Tue, 19 May 2026 01:20:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_14/</guid>
       <description>
         
           
