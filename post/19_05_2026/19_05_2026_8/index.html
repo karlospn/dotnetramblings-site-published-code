@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts) | .NET Ramblings</title>
+<title>Implementing programmatic tool calling on Amazon Bedrock | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="&quot;A bad system will beat a good person [or agent] every time&quot; ~Dr. William Edwards Deming (with apologies) I started vibe coding by writing prompts …" />
+<meta name="description" content="In this post, we show three ways to implement Programmatic tool calling (PTC) on Amazon Bedrock: a self-hosted Docker sandbox on ECS for maximum control, a …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/devops.png"/>
+<meta name="twitter:title" content="Implementing programmatic tool calling on Amazon Bedrock" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_8/" />
-<meta property="og:title" content="Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)" />
-<meta property="og:description" content="&quot;A bad system will beat a good person [or agent] every time&quot; ~Dr. William Edwards Deming (with apologies) I started vibe coding by writing prompts …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/devops.png" />
+<meta property="og:title" content="Implementing programmatic tool calling on Amazon Bedrock" />
+<meta property="og:description" content="In this post, we show three ways to implement Programmatic tool calling (PTC) on Amazon Bedrock: a self-hosted Docker sandbox on ECS for maximum control, a …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)</h1>
+    <h1 class="post_title">Implementing programmatic tool calling on Amazon Bedrock</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      May 19, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      May 19, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>&quot;A bad system will beat a good person [or agent] every time&quot; ~Dr. William Edwards Deming (with apologies) I started vibe coding by writing prompts (often dictated into my phone), refining them with an agent in M365 Copilot, and creating handoff files to use with GitHub Copil</p>
+    <div class="post_body"><p>In this post, we show three ways to implement Programmatic tool calling (PTC) on Amazon Bedrock: a self-hosted Docker sandbox on ECS for maximum control, a managed solution using Amazon Bedrock AgentCore Code Interpreter, and an Anthropic SDK-compatible path through a proxy for teams that prefer that developer experience.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts">https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts</a></li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/">https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/</a></li>
 </ul>
 
     </div>
