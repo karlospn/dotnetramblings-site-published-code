@@ -9,11 +9,45 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Wed, 20 May 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Template Method Design Pattern in C#: Complete Guide with Examples</title>
+      <title>AWS Transform Custom: Automating .NET Lambda Runtime Upgrades</title>
       <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_1/</link>
-      <pubDate>Wed, 20 May 2026 13:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 May 2026 15:48:49 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_1/</guid>
+      <description>
+        
+          
+            Introduction Upgrading .NET Lambda functions is manual, time-consuming, and error-prone, especially when managing hundreds of functions across multiple repositories. Each upgrade requires updating .csproj target framework files (the C# project configuration that specifies which .NET version to target), bumping NuGet package references (the .NET package manager, like npm for Node.js), fixing breaking API changes, and […]
+Link to article: https://aws.amazon.com/blogs/dotnet/aws-transform-custom-automating-net-lambda-runtime-upgrades/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Stop prompt injection from hijacking your agent, new security capabilities now released within Agent Framework</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_2/</link>
+      <pubDate>Wed, 20 May 2026 14:58:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_2/</guid>
+      <description>
+        
+          
+            Prompt injection is the #1 risk on the OWASP LLM Top 10, and most agents in production today defend against it with one of two heuristics: a defensive system prompt, or a hand-rolled allowlist. Neither is deterministic. Both fail silently the day someone slips a [SYSTEM OVERRIDE] line into an issue body,
+Link to article: https://devblogs.microsoft.com/agent-framework/fides 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Template Method Design Pattern in C#: Complete Guide with Examples</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_3/</link>
+      <pubDate>Wed, 20 May 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_3/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://www.devleader.ca/2026/05/20/template-method-design-patt
     
     <item>
       <title>A Practical Guide to Profiling in Go</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_4/</link>
       <pubDate>Wed, 20 May 2026 11:44:06 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_4/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://blog.jetbrains.com/go/2026/05/20/golang-profiling-guide
     
     <item>
       <title>The SARIF Viewer Is Now Available in CLion 2026.1.2</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_6/</link>
       <pubDate>Wed, 20 May 2026 08:38:39 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_6/</guid>
       <description>
         
           
@@ -61,10 +95,10 @@ Link to article: https://blog.jetbrains.com/clion/2026/05/sarif-viewer/
     
     <item>
       <title>Relocating With JetBrains: What to Expect</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_7/</link>
       <pubDate>Wed, 20 May 2026 08:37:59 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_7/</guid>
       <description>
         
           
@@ -78,10 +112,10 @@ Link to article: https://blog.jetbrains.com/life-at-jetbrains/2026/05/relocating
     
     <item>
       <title>How to upload files in an ASP.NET Core Web API</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_5/</link>
       <pubDate>Wed, 20 May 2026 09:47:16 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_5/</guid>
       <description>
         
           
@@ -95,10 +129,10 @@ Link to article: https://blog.elmah.io/how-to-upload-files-in-an-asp-net-core-we
     
     <item>
       <title>The next phase of OpenAI’s Education for Countries</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_8/</link>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_8/</guid>
       <description>
         
           

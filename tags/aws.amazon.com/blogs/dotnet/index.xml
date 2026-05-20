@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws.amazon.com/Blogs/Dotnet on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/dotnet/</link>
+    <description>Recent content in Aws.amazon.com/Blogs/Dotnet on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Wed, 20 May 2026 15:48:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Transform Custom: Automating .NET Lambda Runtime Upgrades</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_1/</link>
+      <pubDate>Wed, 20 May 2026 15:48:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_1/</guid>
+      <description>
+        
+          
+            Introduction Upgrading .NET Lambda functions is manual, time-consuming, and error-prone, especially when managing hundreds of functions across multiple repositories. Each upgrade requires updating .csproj target framework files (the C# project configuration that specifies which .NET version to target), bumping NuGet package references (the .NET package manager, like npm for Node.js), fixing breaking API changes, and […]
+Link to article: https://aws.amazon.com/blogs/dotnet/aws-transform-custom-automating-net-lambda-runtime-upgrades/ 
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
