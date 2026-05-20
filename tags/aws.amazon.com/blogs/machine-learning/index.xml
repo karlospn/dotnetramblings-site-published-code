@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 19 May 2026 15:26:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 May 2026 18:01:29 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multimodal evaluators: MLLM-as-a-judge for image-to-text tasks in Strands Evals</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_0/</link>
+      <pubDate>Wed, 20 May 2026 18:01:29 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_0/</guid>
+      <description>
+        
+          
+            If you’re building visual shopping, image or document understanding, or chart analysis, you need a way to verify whether your model’s response is actually grounded in the source image. A text-only evaluator cannot tell you whether a caption faithfully describes an image, whether an extracted invoice total matches the document, or whether a screen summary […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/multimodal-evaluators-mllm-as-a-judge-for-image-to-text-tasks-in-strands-evals/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build real-time voice applications with Amazon SageMaker AI and vLLM</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_2/</link>
+      <pubDate>Wed, 20 May 2026 17:10:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_2/</guid>
+      <description>
+        
+          
+            Voice agents, live captioning, contact center analytics, and accessibility tools all depend on real-time speech-to-text, where your application streams audio in and receives transcription back simultaneously over a single persistent connection. Traditional request-response inference falls short here because transcription cannot begin until the entire audio recording has been received, adding latency that breaks the real-time […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-amazon-sagemaker-ai-and-vllm/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Scalable voice agent design with Amazon Nova Sonic: multi-agent, tools, and session segmentation</title>
       <link>https://www.dotnetramblings.com/post/19_05_2026/19_05_2026_5/</link>

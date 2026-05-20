@@ -7,13 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 20 May 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 May 2026 18:01:29 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AWS Transform Custom: Automating .NET Lambda Runtime Upgrades</title>
+      <title>Multimodal evaluators: MLLM-as-a-judge for image-to-text tasks in Strands Evals</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_0/</link>
+      <pubDate>Wed, 20 May 2026 18:01:29 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_0/</guid>
+      <description>
+        
+          
+            If you’re building visual shopping, image or document understanding, or chart analysis, you need a way to verify whether your model’s response is actually grounded in the source image. A text-only evaluator cannot tell you whether a caption faithfully describes an image, whether an extracted invoice total matches the document, or whether a screen summary […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/multimodal-evaluators-mllm-as-a-judge-for-image-to-text-tasks-in-strands-evals/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing the Critter Stack AI Skills</title>
       <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_1/</link>
-      <pubDate>Wed, 20 May 2026 15:48:49 +0000</pubDate>
+      <pubDate>Wed, 20 May 2026 17:30:53 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_1/</guid>
+      <description>
+        
+          
+            Babu Annamalai and I have been working very hard on JasperFx Software‘s officially curated AI Skills for the “Critter Stack,” and I’m very pleased to announce today that these skills are officially open for business! Many of our support clients already have access, but as of today anyone interested is able to purchase access to … Continue reading Introducing the Critter Stack AI Skills →
+Link to article: https://jeremydmiller.com/2026/05/20/introducing-the-critter-stack-ai-skills/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build real-time voice applications with Amazon SageMaker AI and vLLM</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_2/</link>
+      <pubDate>Wed, 20 May 2026 17:10:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_2/</guid>
+      <description>
+        
+          
+            Voice agents, live captioning, contact center analytics, and accessibility tools all depend on real-time speech-to-text, where your application streams audio in and receives transcription back simultaneously over a single persistent connection. Traditional request-response inference falls short here because transcription cannot begin until the entire audio recording has been received, adding latency that breaks the real-time […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-amazon-sagemaker-ai-and-vllm/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.121</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_3/</link>
+      <pubDate>Wed, 20 May 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_3/</guid>
+      <description>
+        
+          
+            Learn what&#39;s new in Visual Studio Code 1.121 Read the full article
+Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.121 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Your dev loop is full of tribal knowledge</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_4/</link>
+      <pubDate>Wed, 20 May 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_4/</guid>
+      <description>
+        
+          
+            Teams often treat developer experience as work that competes with shipping the product. That is understandable, but it is also backwards. The local loop, setup, debugging, repeatable operations, and agent workflows are part of how the product gets shipped. When those things are slow or unclear, every feature pays the tax. The tricky
+Link to article: https://devblogs.microsoft.com/aspire/dev-loop-tribal-knowledge 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AWS Transform Custom: Automating .NET Lambda Runtime Upgrades</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_5/</link>
+      <pubDate>Wed, 20 May 2026 15:48:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_5/</guid>
       <description>
         
           
@@ -27,10 +112,10 @@ Link to article: https://aws.amazon.com/blogs/dotnet/aws-transform-custom-automa
     
     <item>
       <title>Stop prompt injection from hijacking your agent, new security capabilities now released within Agent Framework</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_6/</link>
       <pubDate>Wed, 20 May 2026 14:58:20 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_6/</guid>
       <description>
         
           
@@ -44,10 +129,10 @@ Link to article: https://devblogs.microsoft.com/agent-framework/fides
     
     <item>
       <title>Template Method Design Pattern in C#: Complete Guide with Examples</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_7/</link>
       <pubDate>Wed, 20 May 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_7/</guid>
       <description>
         
           
@@ -61,10 +146,10 @@ Link to article: https://www.devleader.ca/2026/05/20/template-method-design-patt
     
     <item>
       <title>A Practical Guide to Profiling in Go</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_8/</link>
       <pubDate>Wed, 20 May 2026 11:44:06 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_8/</guid>
       <description>
         
           
@@ -78,10 +163,10 @@ Link to article: https://blog.jetbrains.com/go/2026/05/20/golang-profiling-guide
     
     <item>
       <title>The SARIF Viewer Is Now Available in CLion 2026.1.2</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_10/</link>
       <pubDate>Wed, 20 May 2026 08:38:39 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_10/</guid>
       <description>
         
           
@@ -95,10 +180,10 @@ Link to article: https://blog.jetbrains.com/clion/2026/05/sarif-viewer/
     
     <item>
       <title>Relocating With JetBrains: What to Expect</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_11/</link>
       <pubDate>Wed, 20 May 2026 08:37:59 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_11/</guid>
       <description>
         
           
@@ -112,10 +197,10 @@ Link to article: https://blog.jetbrains.com/life-at-jetbrains/2026/05/relocating
     
     <item>
       <title>How to upload files in an ASP.NET Core Web API</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_9/</link>
       <pubDate>Wed, 20 May 2026 09:47:16 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_9/</guid>
       <description>
         
           
@@ -128,11 +213,28 @@ Link to article: https://blog.elmah.io/how-to-upload-files-in-an-asp-net-core-we
     </item>
     
     <item>
-      <title>The next phase of OpenAI’s Education for Countries</title>
-      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_8/</link>
+      <title>An OpenAI model has disproved a central conjecture in discrete geometry</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_12/</link>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_12/</guid>
+      <description>
+        
+          
+            An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.
+Link to article: https://openai.com/index/model-disproves-discrete-geometry-conjecture 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The next phase of OpenAI’s Education for Countries</title>
+      <link>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_13/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_05_2026/20_05_2026_13/</guid>
       <description>
         
           
