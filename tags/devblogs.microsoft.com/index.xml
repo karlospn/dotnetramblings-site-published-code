@@ -26,11 +26,28 @@ Link to article: https://devblogs.microsoft.com/azure-sql/regex-support-for-lob-
     </item>
     
     <item>
+      <title>Why do you say that a COM STA thread must pump messages if I see sample code creating STA threads and not pumping messages?</title>
+      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_2/</link>
+      <pubDate>Fri, 22 May 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_2/</guid>
+      <description>
+        
+          
+            One of the rules for COM single-threaded apartments (STA) is that the thread in that apartment must pump messages. But we also see code that initializes COM in single-threaded mode but which never pumps messages. Consider
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260522-00/?p=112348 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Agent Skills for Python: File, Code, and Class - Composed in One Provider</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_7/</link>
       <pubDate>Fri, 22 May 2026 08:34:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_7/</guid>
       <description>
         
           

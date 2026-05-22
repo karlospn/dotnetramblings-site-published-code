@@ -43,11 +43,28 @@ Link to article: https://devblogs.microsoft.com/azure-sql/regex-support-for-lob-
     </item>
     
     <item>
-      <title>The JetBrains Fit Test: Is This the Right Workplace for You?</title>
+      <title>Why do you say that a COM STA thread must pump messages if I see sample code creating STA threads and not pumping messages?</title>
       <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_2/</link>
-      <pubDate>Fri, 22 May 2026 13:42:53 +0000</pubDate>
+      <pubDate>Fri, 22 May 2026 14:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_2/</guid>
+      <description>
+        
+          
+            One of the rules for COM single-threaded apartments (STA) is that the thread in that apartment must pump messages. But we also see code that initializes COM in single-threaded mode but which never pumps messages. Consider
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260522-00/?p=112348 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The JetBrains Fit Test: Is This the Right Workplace for You?</title>
+      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_3/</link>
+      <pubDate>Fri, 22 May 2026 13:42:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_3/</guid>
       <description>
         
           
@@ -61,10 +78,10 @@ Link to article: https://blog.jetbrains.com/life-at-jetbrains/2026/05/the-jetbra
     
     <item>
       <title>How to Implement Template Method Pattern in C#: Step-by-Step Guide</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_4/</link>
       <pubDate>Fri, 22 May 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_4/</guid>
       <description>
         
           
@@ -78,10 +95,10 @@ Link to article: https://www.devleader.ca/2026/05/22/how-to-implement-template-m
     
     <item>
       <title>What Happens When You Give AI Agents the Map of Your Code’s Coverage?</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_5/</link>
       <pubDate>Fri, 22 May 2026 12:54:04 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_5/</guid>
       <description>
         
           
@@ -95,10 +112,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/05/22/claude-codex-ai-ag
     
     <item>
       <title>Rider 2026.2 EAP 3: Cost-effective Agentic Test Coverage, Code Change Previews, GameDev Templates, and NuGet Improvements</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_6/</link>
       <pubDate>Fri, 22 May 2026 12:42:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_6/</guid>
       <description>
         
           
@@ -112,10 +129,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/05/22/rider-2026-2-eap-3
     
     <item>
       <title>Agent Skills for Python: File, Code, and Class - Composed in One Provider</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_7/</link>
       <pubDate>Fri, 22 May 2026 08:34:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_7/</guid>
       <description>
         
           
@@ -128,11 +145,44 @@ Link to article: https://devblogs.microsoft.com/agent-framework/agent-skills-for
     </item>
     
     <item>
-      <title>OpenAI named a Leader in enterprise coding agents by Gartner</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_7/</link>
+      <title>Announcing NAudio 3 Preview</title>
+      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_10/</link>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_10/</guid>
+      <description>
+        
+          
+            I&#39;m pleased to announce that the first preview builds of NAudio 3 are available on NuGet. I have put a lot of time into this over the past few months, and with the assistance of Claude Code (which I wrote about recently) I&#39;ve managed to make significant progress. In this post I want to cover the most important things you need to know about what has changed. Modernization The key theme has been to modernize the codebase, including a major rewrite of the interop to use improved techniques such as [GeneratedComInterface] and [LibraryImport].
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Virgin Atlantic ships faster with Codex</title>
+      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_9/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_9/</guid>
+      <description>
+        
+          
+            How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.
+Link to article: https://openai.com/index/virgin-atlantic 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI named a Leader in enterprise coding agents by Gartner</title>
+      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_8/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_8/</guid>
       <description>
         
           
