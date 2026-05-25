@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 24 May 2026 20:27:43 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/jeremydmiller.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 May 2026 15:07:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/jeremydmiller.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Higher Performance Dynamic Consistency Boundary Development with Marten 9.0</title>
+      <link>https://www.dotnetramblings.com/post/25_05_2026/25_05_2026_1/</link>
+      <pubDate>Mon, 25 May 2026 15:07:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_05_2026/25_05_2026_1/</guid>
+      <description>
+        
+          
+            To try to explain “Dynamic Consistency Boundary” usage in Event Sourcing, I’d contrast it to “traditional” Event Sourcing where events are only organized into a stream of related events. For example, all the events related to a single invoice in an invoicing system are an example of an event stream. DCB came about because Axon … Continue reading Higher Performance Dynamic Consistency Boundary Development with Marten 9.0 →
+Link to article: https://jeremydmiller.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Marten 9.0, Polecat 4.0, and Wolverine 6.0 are Live!</title>
       <link>https://www.dotnetramblings.com/post/24_05_2026/24_05_2026_1/</link>
