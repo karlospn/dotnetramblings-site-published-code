@@ -330,22 +330,5 @@ Link to article: https://devblogs.microsoft.com/cppblog/nuget-packagereference-f
       </description>
     </item>
     
-    <item>
-      <title>NuGet Package Pruning: Cleaner Dependencies and Actionable Vulnerability Reports</title>
-      <link>https://www.dotnetramblings.com/post/18_05_2026/18_05_2026_3/</link>
-      <pubDate>Mon, 18 May 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_05_2026/18_05_2026_3/</guid>
-      <description>
-        
-          
-            If you&#39;ve run NuGet Audit or a vulnerability scanner on a .NET project, you&#39;ve likely seen warnings for transitive packages you never explicitly installed. In many cases, those packages — such as System.Text.Json or System.Text.Encodings.Web — are already provided at a newer version by the .NET Runtime Libraries,
-Link to article: https://devblogs.microsoft.com/dotnet/nuget-package-pruning-in-dotnet-10 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
