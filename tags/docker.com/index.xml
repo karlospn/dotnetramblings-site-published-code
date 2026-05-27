@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 26 May 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 May 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mitigating CVE-2026-31431 (“Copy Fail”) in Docker Engine</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_3/</link>
+      <pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_3/</guid>
+      <description>
+        
+          
+            CVE-2026-31431 is a Linux kernel vulnerability that was recently disclosed. This CVE does not compromise Docker infrastructure. That said, Docker Engine&#39;s default profiles prior to v29.4.3 allowed containers to create AF_ALG sockets, which is the syscall surface the exploit uses. You are not exposed if you are running Docker Engine v29.4.3 or later, OR a...
+Link to article: https://www.docker.com/blog/mitigating-cve-2026-31431-copy-fail-in-docker-engine/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Untrusted Autonomous Workload: How AI Coding Agents Reshape What Isolation Has to Do</title>
       <link>https://www.dotnetramblings.com/post/26_05_2026/26_05_2026_14/</link>

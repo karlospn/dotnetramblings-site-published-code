@@ -9,16 +9,117 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Wed, 27 May 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Koog 1.0 Is Out: Stable Core, Better Interop, and Multiplatform Observability</title>
+      <title>Stop Joining Tables In Your “Modular” Monolith</title>
       <link>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_1/</link>
-      <pubDate>Wed, 27 May 2026 08:53:10 +0000</pubDate>
+      <pubDate>Wed, 27 May 2026 14:12:13 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_1/</guid>
       <description>
         
           
+            Modular monoliths are all the rage. You have well defined modules built around business capabilities. Maybe inside those modules you are using something like Clean Architecture. You have separation of concerns. You have direction of dependencies. Everything looks great and you think, “Wow, finally I have a really good structure.” But do you? YouTube Check… Read More »Stop Joining Tables In Your “Modular” Monolith The post Stop Joining Tables In Your “Modular” Monolith appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a Live Object Detection App for the Reachy Mini With TensorFlow and PyCharm</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_2/</link>
+      <pubDate>Wed, 27 May 2026 14:06:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_2/</guid>
+      <description>
+        
+          
+            This is a guest post from Iulia Feroli, founder of the Back To Engineering YouTube community. In this tutorial, we build a live object detection app using TensorFlow and PyCharm, then deploy it onto the Reachy Mini open-source robot for real-time object tracking. Reachy Mini is a compact open-source robot built in collaboration by Pollen […]
+Link to article: https://blog.jetbrains.com/pycharm/2026/05/build-a-live-object-detection-app-for-reachy-mini-with-tensorflow-and-pycharm/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Implement Chain of Responsibility Pattern in C#: Step-by-Step Guide</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_4/</link>
+      <pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_4/</guid>
+      <description>
+        
+          
+            Learn how to implement the chain of responsibility pattern in C# with step-by-step examples covering handler chains, pipeline construction, and DI integration.
+Link to article: https://www.devleader.ca/2026/05/27/how-to-implement-chain-of-responsibility-pattern-in-c-stepbystep-guide 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Mitigating CVE-2026-31431 (“Copy Fail”) in Docker Engine</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_3/</link>
+      <pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_3/</guid>
+      <description>
+        
+          
+            CVE-2026-31431 is a Linux kernel vulnerability that was recently disclosed. This CVE does not compromise Docker infrastructure. That said, Docker Engine&#39;s default profiles prior to v29.4.3 allowed containers to create AF_ALG sockets, which is the syscall surface the exploit uses. You are not exposed if you are running Docker Engine v29.4.3 or later, OR a...
+Link to article: https://www.docker.com/blog/mitigating-cve-2026-31431-copy-fail-in-docker-engine/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Big Thinkers: Linus Torvalds – How Linux and Git Shaped Modern Cloud Computing</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_5/</link>
+      <pubDate>Wed, 27 May 2026 11:06:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_5/</guid>
+      <description>
+        
+          
+            Modern cloud computing rests on layers of abstraction. Developers deploy containers without thinking about kernels. Platform teams automate infrastructure without touching physical hardware. Kubernetes clusters…
+Link to article: https://build5nines.com/big-thinkers-linus-torvalds-linux-cloud-computing/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Koog 1.0 Is Out: Stable Core, Better Interop, and Multiplatform Observability</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_6/</link>
+      <pubDate>Wed, 27 May 2026 08:53:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_6/</guid>
+      <description>
+        
+          
             Last week at the KotlinConf 2026 keynote (watch the recording here), we announced Koog 1.0. Koog is JetBrains’ open-source framework for building AI agents in Kotlin and Java. It provides the core building blocks for agentic applications: tools, workflows, persistence, memory, observability, and integrations with existing JVM and Kotlin Multiplatform projects. We introduced Koog at […]
 Link to article: https://blog.jetbrains.com/ai/2026/05/koog-1-0-is-out-stable-core-better-interop-and-multiplatform-observability/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building self-improving tax agents with Codex</title>
+      <link>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_7/</link>
+      <pubDate>Wed, 27 May 2026 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_7/</guid>
+      <description>
+        
+          
+            See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.
+Link to article: https://openai.com/index/building-self-improving-tax-agents-with-codex 
           
           
         
