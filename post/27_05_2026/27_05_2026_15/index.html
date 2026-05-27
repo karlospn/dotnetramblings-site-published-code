@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Building self-improving tax agents with Codex | .NET Ramblings</title>
+<title>Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 1 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,17 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.
-Link to …" />
+<meta name="description" content="Suppose you have a coroutine method called GetThingAsync(), and you want to do the work of getting &quot;something&quot; only once and caching the result. …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Building self-improving tax agents with Codex" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/ai.png"/>
+<meta name="twitter:title" content="Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 1" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_15/" />
-<meta property="og:title" content="Building self-improving tax agents with Codex" />
-<meta property="og:description" content="See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.
-Link to …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/ai.png" />
+<meta property="og:title" content="Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 1" />
+<meta property="og:description" content="Suppose you have a coroutine method called GetThingAsync(), and you want to do the work of getting &quot;something&quot; only once and caching the result. …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -134,7 +132,7 @@ Link to …" />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Building self-improving tax agents with Codex</h1>
+    <h1 class="post_title">Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 1</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,14 @@ Link to …" />
 </svg>
 </span>
     <span class="post_date">
-      May 27, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/openai.com/blog/' title="openai.com/blog" class="post_tag button button_translucent">openai.com/blog
+      May 27, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.</p>
+    <div class="post_body"><p>Suppose you have a coroutine method called GetThingAsync(), and you want to do the work of getting &quot;something&quot; only once and caching the result. Here's the version that does no caching: struct Widget : WidgetT<Widget> { IAsyncOperation<Thing> GetThingAsync() { co_return co_await GetThin</p>
 <ul>
-<li>Link to article: <a href="https://openai.com/index/building-self-improving-tax-agents-with-codex">https://openai.com/index/building-self-improving-tax-agents-with-codex</a></li>
+<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20260527-00/?p=112361">https://devblogs.microsoft.com/oldnewthing/20260527-00/?p=112361</a></li>
 </ul>
 
     </div>
