@@ -331,56 +331,5 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260526-00/?p=11235
       </description>
     </item>
     
-    <item>
-      <title>Regex support for LOB types in T-SQL—available in Azure SQL &amp; SQL Server 2025</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_1/</link>
-      <pubDate>Fri, 22 May 2026 20:28:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_1/</guid>
-      <description>
-        
-          
-            At a glance — Native regular expression (regex) functions in T-SQL now accept varchar(max) and nvarchar(max) inputs of up to 2 MB across all seven regex functions, including the two table-valued functions (REGEXP_MATCHES and REGEXP_SPLIT_TO_TABLE
-Link to article: https://devblogs.microsoft.com/azure-sql/regex-support-for-lob-types-in-t-sql-available-in-azure-sql-sql-server-2025 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why do you say that a COM STA thread must pump messages if I see sample code creating STA threads and not pumping messages?</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_2/</link>
-      <pubDate>Fri, 22 May 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_2/</guid>
-      <description>
-        
-          
-            One of the rules for COM single-threaded apartments (STA) is that the thread in that apartment must pump messages. But we also see code that initializes COM in single-threaded mode but which never pumps messages. Consider
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260522-00/?p=112348 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Agent Skills for Python: File, Code, and Class - Composed in One Provider</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_7/</link>
-      <pubDate>Fri, 22 May 2026 08:34:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_7/</guid>
-      <description>
-        
-          
-            Python developers working with Agent Skills can now author skills as files on disk, as inline Python code, or as reusable classes - and mix them freely through composable source classes that handle discovery, filtering, and deduplication. A skill living in your local repository, one installed from your organization&#39;s internal package index, an
-Link to article: https://devblogs.microsoft.com/agent-framework/agent-skills-for-python-file-code-and-class-composed-in-one-provider 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>

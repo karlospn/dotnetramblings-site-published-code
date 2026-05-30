@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 29 May 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Union Types Are Finally Coming to C#</title>
+      <link>https://www.dotnetramblings.com/post/30_05_2026/30_05_2026_0/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_05_2026/30_05_2026_0/</guid>
+      <description>
+        
+          
+            For years we faked union types with marker interfaces, base classes, and the OneOf library. C# 15 finally bakes them into the language - and here&#39;s a quick tour of what they look like and why I think they&#39;re a big deal.
+Link to article: https://www.milanjovanovic.tech/blog/union-types-are-finally-coming-to-csharp 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>UnsafeAccessor in C#: Access Private Members Without Reflection Overhead</title>
       <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_0/</link>
@@ -1544,192 +1561,6 @@ Link to article: https://www.devleader.ca/2026/05/23/proxy-pattern-realworld-exa
           
             When a single API call takes minutes to finish, it punishes both your users and your server. Here&#39;s the progression I walk through to turn long-running endpoints into something responsive, scalable, and operable - and when to reach for managed cloud services instead.
 Link to article: https://www.milanjovanovic.tech/blog/how-to-scale-long-running-api-requests 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Activator.CreateInstance vs Compiled Expressions in C#: .NET 10 Performance Deep Dive</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_0/</link>
-      <pubDate>Fri, 22 May 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_0/</guid>
-      <description>
-        
-          
-            Activator.CreateInstance vs compiled expressions in C# .NET 10 -- understand when each wins and how to build a high-performance factory with cached delegates.
-Link to article: https://www.devleader.ca/2026/05/22/activatorcreateinstance-vs-compiled-expressions-in-c-net-10-performance-deep-dive 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Regex support for LOB types in T-SQL—available in Azure SQL &amp; SQL Server 2025</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_1/</link>
-      <pubDate>Fri, 22 May 2026 20:28:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_1/</guid>
-      <description>
-        
-          
-            At a glance — Native regular expression (regex) functions in T-SQL now accept varchar(max) and nvarchar(max) inputs of up to 2 MB across all seven regex functions, including the two table-valued functions (REGEXP_MATCHES and REGEXP_SPLIT_TO_TABLE
-Link to article: https://devblogs.microsoft.com/azure-sql/regex-support-for-lob-types-in-t-sql-available-in-azure-sql-sql-server-2025 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why do you say that a COM STA thread must pump messages if I see sample code creating STA threads and not pumping messages?</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_2/</link>
-      <pubDate>Fri, 22 May 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_2/</guid>
-      <description>
-        
-          
-            One of the rules for COM single-threaded apartments (STA) is that the thread in that apartment must pump messages. But we also see code that initializes COM in single-threaded mode but which never pumps messages. Consider
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260522-00/?p=112348 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The JetBrains Fit Test: Is This the Right Workplace for You?</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_3/</link>
-      <pubDate>Fri, 22 May 2026 13:42:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_3/</guid>
-      <description>
-        
-          
-            If you’ve ever wondered what it’s really like to work at JetBrains, this post is for you. We could tell you about our products, our offices, or the number of developers who use our tools, but the truth is, the real story of JetBrains is about the people who build those tools, the way they […]
-Link to article: https://blog.jetbrains.com/life-at-jetbrains/2026/05/the-jetbrains-fit-test-is-this-the-right-workplace-for-you/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Implement Template Method Pattern in C#: Step-by-Step Guide</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_4/</link>
-      <pubDate>Fri, 22 May 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_4/</guid>
-      <description>
-        
-          
-            Learn how to implement the template method pattern in C# with step-by-step examples covering abstract classes, hooks, sealed methods, and DI integration.
-Link to article: https://www.devleader.ca/2026/05/22/how-to-implement-template-method-pattern-in-c-stepbystep-guide 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What Happens When You Give AI Agents the Map of Your Code’s Coverage?</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_5/</link>
-      <pubDate>Fri, 22 May 2026 12:54:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_5/</guid>
-      <description>
-        
-          
-            When you ask an AI agent to write a new feature, a good agent will eventually say: “I need to write a test for this.” But what happens next is usually messy. To figure out where that new test belongs, the agent has to start searching through your project. It might scan file names, inspect […]
-Link to article: https://blog.jetbrains.com/dotnet/2026/05/22/claude-codex-ai-agent-skill-for-writing-tests/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Rider 2026.2 EAP 3: Cost-effective Agentic Test Coverage, Code Change Previews, GameDev Templates, and NuGet Improvements</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_6/</link>
-      <pubDate>Fri, 22 May 2026 12:42:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_6/</guid>
-      <description>
-        
-          
-            JetBrains Rider 2026.2 EAP 3 is out! You can download this version from our website, update directly from within the IDE, use the free Toolbox App, or install it via snap packages. Here’s what you can expect from this update: New AI agent skill to reduce token use for test generation We’re also experimenting with […]
-Link to article: https://blog.jetbrains.com/dotnet/2026/05/22/rider-2026-2-eap-3-cost-effective-agentic-test-coverage-code-change-previews-gamedev-templates-and-nuget-improvements/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Agent Skills for Python: File, Code, and Class - Composed in One Provider</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_7/</link>
-      <pubDate>Fri, 22 May 2026 08:34:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_7/</guid>
-      <description>
-        
-          
-            Python developers working with Agent Skills can now author skills as files on disk, as inline Python code, or as reusable classes - and mix them freely through composable source classes that handle discovery, filtering, and deduplication. A skill living in your local repository, one installed from your organization&#39;s internal package index, an
-Link to article: https://devblogs.microsoft.com/agent-framework/agent-skills-for-python-file-code-and-class-composed-in-one-provider 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing NAudio 3 Preview</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_10/</link>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_10/</guid>
-      <description>
-        
-          
-            I&#39;m pleased to announce that the first preview builds of NAudio 3 are available on NuGet. I have put a lot of time into this over the past few months, and with the assistance of Claude Code (which I wrote about recently) I&#39;ve managed to make significant progress. In this post I want to cover the most important things you need to know about what has changed. Modernization The key theme has been to modernize the codebase, including a major rewrite of the interop to use improved techniques such as [GeneratedComInterface] and [LibraryImport].
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Virgin Atlantic ships faster with Codex</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_9/</link>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_9/</guid>
-      <description>
-        
-          
-            How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.
-Link to article: https://openai.com/index/virgin-atlantic 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>OpenAI named a Leader in enterprise coding agents by Gartner</title>
-      <link>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_8/</link>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_05_2026/22_05_2026_8/</guid>
-      <description>
-        
-          
-            OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.
-Link to article: https://openai.com/index/gartner-2026-agentic-coding-leader 
           
           
         
