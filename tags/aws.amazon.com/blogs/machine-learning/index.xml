@@ -7,13 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 01 Jun 2026 18:35:03 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jun 2026 22:16:28 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Extending MCP support for Amazon Bedrock AgentCore Gateway</title>
+      <title>Reference your own AWS Secrets Manager secrets in Amazon Bedrock AgentCore Identity</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_0/</link>
+      <pubDate>Mon, 01 Jun 2026 22:16:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_0/</guid>
+      <description>
+        
+          
+            Today, we’re excited to announce the ability to reference a secret in AWS Secrets Manager for AgentCore Identity, so you can reference your own preconfigured secret from Secrets Manager and retain full control over how it is managed. With this ability, you can extend your organization’s existing secrets governance processes to AgentCore. You can provide an existing, preconfigured AWS Secrets Manager secret to use with your credential provider resources. You retain full control over its encryption configuration, rotation, replication, tags, and resource policies, just as you would manage other secrets in Secrets Manager.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Transforming rare cancer research with Amazon Quick: Integrating biomedical databases for breakthrough discoveries</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_1/</link>
+      <pubDate>Mon, 01 Jun 2026 21:54:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_1/</guid>
+      <description>
+        
+          
+            In this post, we walk through how to use Amazon Quick Research to integrate biomedical data sources for rare cancer research. The walkthrough uses pediatric sarcoma as the research domain and draws on publicly available datasets from PubMed and other open biomedical repositories. It covers the end-to-end workflow: defining a research objective, configuring data sources, reviewing the AI-generated research plan, running the investigation, and iterating on results using the revision and versioning system.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI models and Codex on Amazon Bedrock are now generally available</title>
       <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_2/</link>
-      <pubDate>Mon, 01 Jun 2026 18:35:03 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2026 21:31:12 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_2/</guid>
+      <description>
+        
+          
+            GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock. Deploy them in production applications and agents today, on Bedrock’s high performance inference engine. Link to article: https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Extending MCP support for Amazon Bedrock AgentCore Gateway</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_6/</link>
+      <pubDate>Mon, 01 Jun 2026 18:35:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_6/</guid>
       <description>
         
           
@@ -27,10 +75,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/extending-mcp-sup
     
     <item>
       <title>Secure AI agents with Policy and Lambda interceptors in Amazon Bedrock AgentCore gateway</title>
-      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_7/</link>
       <pubDate>Mon, 01 Jun 2026 17:54:22 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_7/</guid>
       <description>
         
           
@@ -44,10 +92,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-
     
     <item>
       <title>Enable safe agentic payments with built-in guardrails using Amazon Bedrock AgentCore payments</title>
-      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_8/</link>
       <pubDate>Mon, 01 Jun 2026 17:30:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_8/</guid>
       <description>
         
           
@@ -61,10 +109,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/enable-safe-agent
     
     <item>
       <title>AgentOps: Operationalize agentic AI at scale with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_10/</link>
       <pubDate>Mon, 01 Jun 2026 16:12:18 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_10/</guid>
       <description>
         
           
@@ -78,10 +126,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/agentops-operatio
     
     <item>
       <title>Accelerate LLM model loading and increase context windows with GPUDirect on Amazon FSx for Lustre and TurboQuant</title>
-      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_11/</link>
       <pubDate>Mon, 01 Jun 2026 16:07:19 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_11/</guid>
       <description>
         
           
@@ -95,10 +143,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-llm-mo
     
     <item>
       <title>Amazon Quick integration with time-series databases for market intelligence using MCP</title>
-      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_12/</link>
       <pubDate>Mon, 01 Jun 2026 16:01:24 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_12/</guid>
       <description>
         
           
