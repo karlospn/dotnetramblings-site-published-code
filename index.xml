@@ -7,13 +7,183 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 01 Jun 2026 08:40:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jun 2026 16:12:18 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How To Fix Common TypeScript Issues With Qodana</title>
+      <title>AgentOps: Operationalize agentic AI at scale with Amazon Bedrock AgentCore</title>
       <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_0/</link>
-      <pubDate>Mon, 01 Jun 2026 08:40:44 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2026 16:12:18 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_0/</guid>
+      <description>
+        
+          
+            When you build agentic AI solutions, you face unique operational challenges. Agents make unpredictable decisions, costs spiral unexpectedly, and debugging non-deterministic failures seems impossible. Agentic AI applications don&#39;t just execute predetermined workflows. They reason, adapt, and make autonomous decisions, and DevOps practices need to be adapted. That&#39;s where AgentOps comes in, the operational discipline for deploying, managing, and continuously improving AI agents in production.
+Link to article: https://aws.amazon.com/blogs/machine-learning/agentops-operationalize-agentic-ai-at-scale-with-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerate LLM model loading and increase context windows with GPUDirect on Amazon FSx for Lustre and TurboQuant</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_1/</link>
+      <pubDate>Mon, 01 Jun 2026 16:07:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_1/</guid>
+      <description>
+        
+          
+            If you’re iterating on deploying large language models (LLMs) on AWS GPU instances, you’ve probably noticed the larger the model to be loaded into GPU High Bandwidth Memory (HBM), the longer the painful wait until the GPUs are ready for inference. As models grow to hundreds of billions of parameters and GPU environments grow ever […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-llm-model-loading-and-increase-context-windows-with-gpudirect-on-amazon-fsx-for-lustre-and-turboquant/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Amazon Quick integration with time-series databases for market intelligence using MCP</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_2/</link>
+      <pubDate>Mon, 01 Jun 2026 16:01:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we walk through a practical implementation using KDB-X MCP server integration with Amazon Quick, demonstrating how traders and analysts can ask questions using conversational language and receive actionable insights from datasets. You can apply this same integration pattern across various domains, from financial market analysis to IoT sensor monitoring to DevOps performance dashboards, where you need to simplify access to time series insights.
+Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-quick-integration-with-time-series-databases-for-market-intelligence-using-mcp/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What is Sandbox Security?</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_3/</link>
+      <pubDate>Mon, 01 Jun 2026 15:51:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_3/</guid>
+      <description>
+        
+          
+            If you&#39;re already familiar with sandboxing as an isolation technique, sandbox security is the next layer: the policies, controls, and enforcement mechanisms that make sure those isolation boundaries actually hold under real-world pressure. According to our State of Agentic AI report, 40% of respondents cite security as the top challenge in scaling agentic AI, and...
+Link to article: https://www.docker.com/blog/what-is-sandbox-security/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Scaling AI for silicon</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_4/</link>
+      <pubDate>Mon, 01 Jun 2026 15:07:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_4/</guid>
+      <description>
+        
+          
+            Modern AI systems have transformed software engineering, but their impact in silicon development has been limited. The primary constraint is that silicon engineering depends on assembling and reasoning over context that is distributed across many systems. Specifications, logs, regressions, waveforms, and prior debug history all contribute t
+Link to article: https://devblogs.microsoft.com/engineering-at-microsoft/scaling-ai-for-silicon 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Rock Your Career: Surviving The Technical Interview – 6th Edition</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_5/</link>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_5/</guid>
+      <description>
+        
+          
+            David McCarter has released the 7th edition of &amp;quot;Rock Your Career: Surviving The Technical Interview,&amp;quot; providing essential strategies for software engineers facing modern hiring challenges. This updated guide covers interview preparation, resume crafting, navigating recruitment processes, and salary negotiation, helping candidates increase their confidence and stand out in the job market.
+Link to article: https://dotnettips.com/2026/06/01/rock-your-career-surviving-the-technical-interview-6th-edition-2/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Stop Pasting Tokens: OAuth2 Login for JetBrains IDE Plugins</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_6/</link>
+      <pubDate>Mon, 01 Jun 2026 13:46:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_6/</guid>
+      <description>
+        
+          
+            The moment a plugin needs account data, a simple API call turns into an authentication problem. The bad shortcut is familiar: ask the user to create a personal access token (PAT), make them paste it into settings, and hope it never leaks. For a JetBrains IDE plugin, use this flow instead: the user clicks the […]
+Link to article: https://blog.jetbrains.com/platform/2026/06/stop-pasting-tokens-oauth2-login-for-jetbrains-ide-plugins/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Coding Agent Horror Stories: The rm -rf ~/ Incident</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_7/</link>
+      <pubDate>Mon, 01 Jun 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_7/</guid>
+      <description>
+        
+          
+            This is Part 2 of our AI Coding Agent Horror Stories series, an in-depth look at real-world security incidents exposing the vulnerabilities in AI coding agents, and how Docker Sandboxes deliver workspace-scoped isolation that contains the worst failures at the execution layer. In part 1 of this series, we mapped six categories of AI coding...
+Link to article: https://www.docker.com/blog/coding-agent-horror-stories-the-rm-rf-incident/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Iterator Design Pattern in C#: Complete Guide with Examples</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_8/</link>
+      <pubDate>Mon, 01 Jun 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_8/</guid>
+      <description>
+        
+          
+            Master the iterator design pattern in C# with practical examples showing IEnumerable, IEnumerator, custom iterators, yield return, and real-world .NET implementations.
+Link to article: https://www.devleader.ca/2026/06/01/iterator-design-pattern-in-c-complete-guide-with-examples 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Mellum2 Goes Open Source: A Fast Model for AI Workflows</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_9/</link>
+      <pubDate>Mon, 01 Jun 2026 12:57:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_9/</guid>
+      <description>
+        
+          
+            Trained from scratch and designed for practical deployment, Mellum2 is built for routing, Q&amp;amp;A, sub-agents, and private AI use in software engineering systems. Today, we’re open-sourcing Mellum2, a 12B model engineered to solve the hardest parts of production AI: latency, throughput, and cost. Built from scratch and released under the Apache 2.0 license, Mellum2 offers […]
+Link to article: https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How To Fix Common TypeScript Issues With Qodana</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_10/</link>
+      <pubDate>Mon, 01 Jun 2026 08:40:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_10/</guid>
       <description>
         
           
@@ -27,10 +197,10 @@ Link to article: https://blog.jetbrains.com/qodana/2026/06/fix-common-typescript
     
     <item>
       <title>Microsoft Agent Framework at BUILD 2026</title>
-      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_11/</link>
       <pubDate>Mon, 01 Jun 2026 06:00:59 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_11/</guid>
       <description>
         
           

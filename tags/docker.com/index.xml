@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 27 May 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jun 2026 15:51:31 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Sandbox Security?</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_3/</link>
+      <pubDate>Mon, 01 Jun 2026 15:51:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_3/</guid>
+      <description>
+        
+          
+            If you&#39;re already familiar with sandboxing as an isolation technique, sandbox security is the next layer: the policies, controls, and enforcement mechanisms that make sure those isolation boundaries actually hold under real-world pressure. According to our State of Agentic AI report, 40% of respondents cite security as the top challenge in scaling agentic AI, and...
+Link to article: https://www.docker.com/blog/what-is-sandbox-security/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Coding Agent Horror Stories: The rm -rf ~/ Incident</title>
+      <link>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_7/</link>
+      <pubDate>Mon, 01 Jun 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_06_2026/01_06_2026_7/</guid>
+      <description>
+        
+          
+            This is Part 2 of our AI Coding Agent Horror Stories series, an in-depth look at real-world security incidents exposing the vulnerabilities in AI coding agents, and how Docker Sandboxes deliver workspace-scoped isolation that contains the worst failures at the execution layer. In part 1 of this series, we mapped six categories of AI coding...
+Link to article: https://www.docker.com/blog/coding-agent-horror-stories-the-rm-rf-incident/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Mitigating CVE-2026-31431 (“Copy Fail”) in Docker Engine</title>
       <link>https://www.dotnetramblings.com/post/27_05_2026/27_05_2026_16/</link>
