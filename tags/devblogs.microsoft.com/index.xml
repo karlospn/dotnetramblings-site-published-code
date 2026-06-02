@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 02 Jun 2026 18:00:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jun 2026 19:19:59 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Frontier Tuning: Teaching AI to work the way you do</title>
-      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_0/</link>
-      <pubDate>Tue, 02 Jun 2026 18:00:27 +0000</pubDate>
+      <title>Introducing azure-functions-skills: An AI-Era Workspace for Azure Functions (Preview)</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_1/</link>
+      <pubDate>Tue, 02 Jun 2026 19:19:59 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_0/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_1/</guid>
       <description>
         
           
-            Today at Microsoft Build, we introduced Frontier Tuning, a new approach to making AI work the way your business does by applying reinforcement learning inside your compliance
-Link to article: https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-teaching-ai-to-work-the-way-you-do 
+            Today we&#39;re announcing azure-functions-skills in public preview: a one-command way to giv
+Link to article: https://devblogs.microsoft.com/azure-sdk/introducing-azure-functions-skills-ai-era-workspace 
           
           
         
@@ -26,16 +26,33 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-
     </item>
     
     <item>
-      <title>A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry</title>
+      <title>Announcing the Public Preview of Integrated Embeddings in Azure Cosmos DB: Build AI Apps With Embeddings That Stay in Sync</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_2/</link>
+      <pubDate>Tue, 02 Jun 2026 19:15:59 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_2/</guid>
+      <description>
+        
+          
+            AI applications built on Azure Cosmos DB depend on embeddings for grounded results. Keeping them in sync with your data is the hard part: it means building and operating a separate data pipeline to track changes, call an embedding model, and write the results back to Azure Cosmos DB. In practice, t
+Link to article: https://devblogs.microsoft.com/cosmosdb/announcing-the-public-preview-of-integrated-embeddings-in-azure-cosmos-db-build-ai-apps-with-embeddings-that-stay-in-sync 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing OmniVec: An Open-Source Embedding Platform for AI Apps on Azure</title>
       <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_3/</link>
-      <pubDate>Tue, 02 Jun 2026 17:20:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2026 19:15:48 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_3/</guid>
       <description>
         
           
-            A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry The hardest part of building AI systems today is no longer getting access to a capable model. It is knowing how to choose, validate, optimize, and operate the right model across the full lifecycle of a real application. Take a retrieval-augmented gener
-Link to article: https://devblogs.microsoft.com/foundry/build-2026-foundry-models 
+            Today we are open-sourcing OmniVec, a platform for building and operating the embedding pipelines that keep the vector representation of your operational data in sync as it changes. You register data sources, embedding model(s), vector stores (destination), and OmniVec does the rest: initi
+Link to article: https://devblogs.microsoft.com/cosmosdb/introducing-omnivec-an-open-source-embedding-platform-for-ai-apps-on-azure 
           
           
         
@@ -43,16 +60,16 @@ Link to article: https://devblogs.microsoft.com/foundry/build-2026-foundry-model
     </item>
     
     <item>
-      <title>What&#39;s Coming Next in Visual Studio: Our Microsoft Build 2026 Announcements</title>
+      <title>Azure DocumentDB – General Availability of Service-Managed Failovers</title>
       <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_4/</link>
-      <pubDate>Tue, 02 Jun 2026 17:10:39 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2026 19:15:47 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_4/</guid>
       <description>
         
           
-            Microsoft Build kicks off today in San Francisco, June 2 and 3. If you cannot make it in person, the sessions are streaming online for free, and I want to walk you through what we are announcing for Visual Studio this week. One idea tie most of it together. Code is an asset, not just an artifact. The tools around it should
-Link to article: https://devblogs.microsoft.com/visualstudio/whats-coming-next-in-visual-studio-our-microsoft-build-2026-announcements 
+            We are excited to announce the general availability of service-managed failovers in Azure DocumentDB, eliminating the need for human intervention to recover from a regional outage. Running a production database means planning for the unlikely. Regional outages are rare, but when they happen, every second lost can have significant business i
+Link to article: https://devblogs.microsoft.com/documentdb/azure-documentdb-general-availability-of-service-managed-failovers 
           
           
         
@@ -60,16 +77,16 @@ Link to article: https://devblogs.microsoft.com/visualstudio/whats-coming-next-i
     </item>
     
     <item>
-      <title>Build and run agents at scale with Microsoft Foundry at Build 2026</title>
+      <title>Instant Free Tier Clusters in Azure DocumentDB</title>
       <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_5/</link>
-      <pubDate>Tue, 02 Jun 2026 17:10:22 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2026 19:15:46 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_5/</guid>
       <description>
         
           
-            Developers are already building agents, and the early productivity gains speak for themselves. Thanks to coding agents like GitHub Copilot, standing up a working prototype is the easy part. The hard part starts after the prototype. The moment an agent leaves your laptop and has to run inside an enterprise workflow, the crac
-Link to article: https://devblogs.microsoft.com/foundry/agent-service-build2026 
+            Feedback from developers using Azure DocumentDB consistently pointed to one small but still impactful item on their wish list: provisioning a free tier cluster took a few minutes. For a developer just getting started, or an agentic workflow spinning up ephemeral clusters to validate a solution, those minutes are vital. Today, that wait is e
+Link to article: https://devblogs.microsoft.com/documentdb/instant-free-tier-clusters-in-azure-documentdb 
           
           
         
@@ -77,33 +94,16 @@ Link to article: https://devblogs.microsoft.com/foundry/agent-service-build2026
     </item>
     
     <item>
-      <title>Build agents you can trust across any framework with open evals and a control standard</title>
-      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_7/</link>
-      <pubDate>Tue, 02 Jun 2026 17:10:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_7/</guid>
-      <description>
-        
-          
-            Build agents you can trust across any framework with open evals and a control standard We are four years into the generative AI era, and agents are everywhere. Enterprises are deploying them at scale, but trust has not kept pace. The gap is concrete: written policies do not translate into working runtime controls, evaluating agent sa
-Link to article: https://devblogs.microsoft.com/foundry/build-2026-open-trust-stack-ai-agents 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval</title>
+      <title>Azure Cosmos DB All Versions and Deletes Change Feed Mode is Now Generally Available</title>
       <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_6/</link>
-      <pubDate>Tue, 02 Jun 2026 17:10:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2026 19:15:42 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_6/</guid>
       <description>
         
           
-            Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval Developers building agent fleets keep hitting the same pattern: the agent logic is ready, but the knowledge infrastructure underneath is complex to do well. Getting to production means solving for stability, scale, data access, answer quality, sec
-Link to article: https://devblogs.microsoft.com/foundry/build-smarter-agents-faster-with-foundry-iq 
+            Modern applications don&#39;t just write data and move on. They react to it. A new order triggers an inventory update. A profile change syncs to a search index. A deleted record kicks off a compliance workflow. Azure Cosmos DB&#39;s change feed makes this possible by giving you a real-time stream of every change happening in
+Link to article: https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-all-versions-and-deletes-change-feed-mode-is-now-generally-available 
           
           
         
@@ -111,16 +111,33 @@ Link to article: https://devblogs.microsoft.com/foundry/build-smarter-agents-fas
     </item>
     
     <item>
-      <title>Announcing Intelligent Terminal 0.1</title>
+      <title>Change Partition Keys in Azure Cosmos DB is Now Generally Available</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_7/</link>
+      <pubDate>Tue, 02 Jun 2026 19:15:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_7/</guid>
+      <description>
+        
+          
+            We&#39;re excited to announce the general availability of Change Partition Key in Azure Cosmos DB for NoSQL, now with online copy support. You can repartition containers directly in the Azure portal with near-zero downtime and without stopping writes to the source container. Why Partition Key Choice Matters In Azure Cos
+Link to article: https://devblogs.microsoft.com/cosmosdb/change-partition-keys-in-azure-cosmos-db-is-now-generally-available 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Change Streams in Azure DocumentDB: Richer Events, Historical Replay, and Multi-Node Change Streams (Public Preview)</title>
       <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_8/</link>
-      <pubDate>Tue, 02 Jun 2026 17:00:09 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2026 19:15:39 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_8/</guid>
       <description>
         
           
-            Today we&#39;re announcing Intelligent Terminal version 0.1, an open-source experimental fork of Windows Terminal with native agent integration. Get started Install from the Microsoft Store: Intelligent Terminal on the Mi
-Link to article: https://devblogs.microsoft.com/commandline/announcing-intelligent-terminal-version-0-1 
+            Real-time, event-driven applications are now the expectation, not the exception. Teams want dashboards that update the instant something happens, microservices that react the moment data lands, and pipelines that move changes downstream without polling a database on a timer. Since Change S
+Link to article: https://devblogs.microsoft.com/documentdb/change-streams-in-azure-documentdb-richer-events-historical-replay-and-multi-node-change-streams-public-preview 
           
           
         
@@ -128,33 +145,16 @@ Link to article: https://devblogs.microsoft.com/commandline/announcing-intellige
     </item>
     
     <item>
-      <title>What&#39;s new in Microsoft Foundry | Build Edition</title>
-      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_9/</link>
-      <pubDate>Tue, 02 Jun 2026 17:00:00 +0000</pubDate>
+      <title>Build, scale, and monetize apps and agents with Microsoft Marketplace</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_15/</link>
+      <pubDate>Tue, 02 Jun 2026 12:25:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_15/</guid>
       <description>
         
           
-            TL;DR At Build 2026, Microsoft Foundry added more of the platform pieces developers need for production agents: runtime, tools, memory, grounding, models, observability, and governance. This recap highlights what shipped, what is in preview, and where to start. Agent development got faster: Microsoft Age
-Link to article: https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-build-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What&#39;s New in Hosted Agents in Foundry Agent Service</title>
-      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_11/</link>
-      <pubDate>Tue, 02 Jun 2026 16:09:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_11/</guid>
-      <description>
-        
-          
-            A few weeks ago, we announced the public preview refresh of hosted agents in Foundry Agent Service — a fundamentally re-imagined ag
-Link to article: https://devblogs.microsoft.com/foundry/hosted-agents-build26 
+            At Microsoft Build, we are sharing how Microsoft Marketplace brings development, distribution, and monetization together— so apps and agents move beyond prototyping into real-world usage at scale. Microsoft Marketplace connects tens of th
+Link to article: https://devblogs.microsoft.com/all-things-azure/build-scale-and-monetize-apps-and-agents-with-microsoft-marketplace 
           
           
         
