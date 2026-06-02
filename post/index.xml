@@ -7,13 +7,250 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 02 Jun 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jun 2026 18:00:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chain of Responsibility vs Decorator Pattern in C#: Key Differences Explained</title>
+      <title>Frontier Tuning: Teaching AI to work the way you do</title>
       <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_0/</link>
-      <pubDate>Tue, 02 Jun 2026 13:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2026 18:00:27 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_0/</guid>
+      <description>
+        
+          
+            Today at Microsoft Build, we introduced Frontier Tuning, a new approach to making AI work the way your business does by applying reinforcement learning inside your compliance
+Link to article: https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-teaching-ai-to-work-the-way-you-do 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The art and science of hyperparameter optimization on Amazon Nova Forge</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_1/</link>
+      <pubDate>Tue, 02 Jun 2026 17:39:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_1/</guid>
+      <description>
+        
+          
+            Fine-tuning for domain-specific tasks means improving performance in one area without degrading the model’s general capabilities, and getting that balance right is harder than it looks. This post walks through how to navigate that balance, from selecting the right customization strategy for your data and task, to configuring the training parameters that most influence outcomes, like learning rate, batch size, and checkpointing. We also cover the common mistakes that lead to wasted training runs and how to catch them early, so you can improve domain performance without degrading general capabilities or burning through compute on avoidable failures.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Object detection with Amazon Nova 2 Lite</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_2/</link>
+      <pubDate>Tue, 02 Jun 2026 17:31:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we&#39;ll walk through implementing object detection with Amazon Nova 2 Lite. You&#39;ll learn how to deploy an object detection application using Amazon Bedrock, AWS Lambda, and Amazon API Gateway. You&#39;ll also learn how to craft effective prompts, process structured JSON output, and visualize results. We explore practical applications across manufacturing, agriculture, and logistics.
+Link to article: https://aws.amazon.com/blogs/machine-learning/object-detection-with-amazon-nova-2-lite/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_3/</link>
+      <pubDate>Tue, 02 Jun 2026 17:20:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_3/</guid>
+      <description>
+        
+          
+            A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry The hardest part of building AI systems today is no longer getting access to a capable model. It is knowing how to choose, validate, optimize, and operate the right model across the full lifecycle of a real application. Take a retrieval-augmented gener
+Link to article: https://devblogs.microsoft.com/foundry/build-2026-foundry-models 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What&#39;s Coming Next in Visual Studio: Our Microsoft Build 2026 Announcements</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_4/</link>
+      <pubDate>Tue, 02 Jun 2026 17:10:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_4/</guid>
+      <description>
+        
+          
+            Microsoft Build kicks off today in San Francisco, June 2 and 3. If you cannot make it in person, the sessions are streaming online for free, and I want to walk you through what we are announcing for Visual Studio this week. One idea tie most of it together. Code is an asset, not just an artifact. The tools around it should
+Link to article: https://devblogs.microsoft.com/visualstudio/whats-coming-next-in-visual-studio-our-microsoft-build-2026-announcements 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build and run agents at scale with Microsoft Foundry at Build 2026</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_5/</link>
+      <pubDate>Tue, 02 Jun 2026 17:10:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_5/</guid>
+      <description>
+        
+          
+            Developers are already building agents, and the early productivity gains speak for themselves. Thanks to coding agents like GitHub Copilot, standing up a working prototype is the easy part. The hard part starts after the prototype. The moment an agent leaves your laptop and has to run inside an enterprise workflow, the crac
+Link to article: https://devblogs.microsoft.com/foundry/agent-service-build2026 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build agents you can trust across any framework with open evals and a control standard</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_7/</link>
+      <pubDate>Tue, 02 Jun 2026 17:10:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_7/</guid>
+      <description>
+        
+          
+            Build agents you can trust across any framework with open evals and a control standard We are four years into the generative AI era, and agents are everywhere. Enterprises are deploying them at scale, but trust has not kept pace. The gap is concrete: written policies do not translate into working runtime controls, evaluating agent sa
+Link to article: https://devblogs.microsoft.com/foundry/build-2026-open-trust-stack-ai-agents 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_6/</link>
+      <pubDate>Tue, 02 Jun 2026 17:10:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_6/</guid>
+      <description>
+        
+          
+            Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval Developers building agent fleets keep hitting the same pattern: the agent logic is ready, but the knowledge infrastructure underneath is complex to do well. Getting to production means solving for stability, scale, data access, answer quality, sec
+Link to article: https://devblogs.microsoft.com/foundry/build-smarter-agents-faster-with-foundry-iq 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing Intelligent Terminal 0.1</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_8/</link>
+      <pubDate>Tue, 02 Jun 2026 17:00:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_8/</guid>
+      <description>
+        
+          
+            Today we&#39;re announcing Intelligent Terminal version 0.1, an open-source experimental fork of Windows Terminal with native agent integration. Get started Install from the Microsoft Store: Intelligent Terminal on the Mi
+Link to article: https://devblogs.microsoft.com/commandline/announcing-intelligent-terminal-version-0-1 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What&#39;s new in Microsoft Foundry | Build Edition</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_9/</link>
+      <pubDate>Tue, 02 Jun 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_9/</guid>
+      <description>
+        
+          
+            TL;DR At Build 2026, Microsoft Foundry added more of the platform pieces developers need for production agents: runtime, tools, memory, grounding, models, observability, and governance. This recap highlights what shipped, what is in preview, and where to start. Agent development got faster: Microsoft Age
+Link to article: https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-build-2026 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Secure AI Agents: A Practical Overview for Development Teams</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_10/</link>
+      <pubDate>Tue, 02 Jun 2026 16:11:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_10/</guid>
+      <description>
+        
+          
+            In our State of Agentic AI report, 45% of organizations said they struggle to ensure the tools their agents use are secure and enterprise-ready. That number reflects a broader reality: AI agents are moving into production faster than the security practices around them are maturing. The challenge is not that organizations lack security awareness. It’s...
+Link to article: https://www.docker.com/blog/how-to-secure-ai-agents/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What&#39;s New in Hosted Agents in Foundry Agent Service</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_11/</link>
+      <pubDate>Tue, 02 Jun 2026 16:09:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_11/</guid>
+      <description>
+        
+          
+            A few weeks ago, we announced the public preview refresh of hosted agents in Foundry Agent Service — a fundamentally re-imagined ag
+Link to article: https://devblogs.microsoft.com/foundry/hosted-agents-build26 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_12/</link>
+      <pubDate>Tue, 02 Jun 2026 15:45:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_12/</guid>
+      <description>
+        
+          
+            This post walks through how Baz built their Spec Review agent using Amazon Bedrock and Amazon Bedrock AgentCore. We&#39;ll cover the architecture decisions, implementation details, and the business outcomes they achieved by leveraging these AWS services to automate their code review process
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Toolbox App 3.5: Better Remote Development Observability, More Reliable Enterprise Configuration, and Smoother Everyday Interactions</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_13/</link>
+      <pubDate>Tue, 02 Jun 2026 14:37:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_13/</guid>
+      <description>
+        
+          
+            Toolbox App 3.5 focuses on making daily work smoother and managed development environments easier to monitor. The app now supports interface zooming with familiar shortcuts, provides OpenTelemetry metrics for enterprise remote development connections, and handles several long-standing reliability issues more gracefully. Remote development observability The Toolbox App now emits OpenTelemetry metrics for remote development connection […]
+Link to article: https://blog.jetbrains.com/toolbox-app/2026/06/toolbox-app-3-5-better-remote-development-observability-more-reliable-enterprise-configuration-and-smoother-everyday-interactions/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chain of Responsibility vs Decorator Pattern in C#: Key Differences Explained</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_14/</link>
+      <pubDate>Tue, 02 Jun 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_14/</guid>
       <description>
         
           
@@ -27,10 +264,10 @@ Link to article: https://www.devleader.ca/2026/06/02/chain-of-responsibility-vs-
     
     <item>
       <title>Top Agentic Frameworks for Building Applications 2026</title>
-      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_15/</link>
       <pubDate>Tue, 02 Jun 2026 12:12:37 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_15/</guid>
       <description>
         
           
@@ -43,11 +280,28 @@ Link to article: https://blog.jetbrains.com/pycharm/2026/06/top-agentic-framewor
     </item>
     
     <item>
+      <title>Travelers deploys AI-powered claims countrywide with OpenAI</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_16/</link>
+      <pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_16/</guid>
+      <description>
+        
+          
+            Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.
+Link to article: https://openai.com/index/travelers 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Architecting Resilient AI Solutions on Microsoft Azure with Regions and Availability Zones</title>
-      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_17/</link>
       <pubDate>Tue, 02 Jun 2026 11:09:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_17/</guid>
       <description>
         
           
@@ -60,16 +314,16 @@ Link to article: https://build5nines.com/architecting-resilient-ai-solutions-on-
     </item>
     
     <item>
-      <title>Staging Part 1 - Sharing is Caring</title>
-      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_3/</link>
-      <pubDate>Tue, 02 Jun 2026 07:09:01 +0000</pubDate>
+      <title>Codex for every role, tool, and workflow</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_18/</link>
+      <pubDate>Tue, 02 Jun 2026 09:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_18/</guid>
       <description>
         
           
-            A key phase in installing a package is staging the package: var packageUri = new Uri(&amp;quot;C:\Packages\ContosoParts-v1.2.3.4-x64.msix&amp;quot;); var options = new StagePackageOptions(); var packageManager
-Link to article: https://devblogs.microsoft.com/insidemsix/staging-sharing-is-caring 
+            Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.
+Link to article: https://openai.com/index/codex-for-every-role-tool-workflow 
           
           
         
@@ -78,14 +332,14 @@ Link to article: https://devblogs.microsoft.com/insidemsix/staging-sharing-is-ca
     
     <item>
       <title>Advancing youth safety and opportunity through global leadership</title>
-      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_19/</link>
       <pubDate>Tue, 02 Jun 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_19/</guid>
       <description>
         
           
-            OpenAI calls for global action on youth AI safety through a dedicated AI Safety Institute
+            OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.
 Link to article: https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership 
           
           
@@ -95,10 +349,10 @@ Link to article: https://openai.com/index/advancing-youth-safety-and-opportunity
     
     <item>
       <title>Building a secure auth code flow setup using AgentCore Gateway with MCP clients</title>
-      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_20/</link>
       <pubDate>Tue, 02 Jun 2026 03:23:35 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_20/</guid>
       <description>
         
           
@@ -112,10 +366,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/building-a-secure
     
     <item>
       <title>Codex is becoming a productivity tool for everyone</title>
-      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_21/</link>
       <pubDate>Tue, 02 Jun 2026 02:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_21/</guid>
       <description>
         
           

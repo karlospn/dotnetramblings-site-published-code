@@ -7,18 +7,154 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 02 Jun 2026 07:09:01 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jun 2026 18:00:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Staging Part 1 - Sharing is Caring</title>
+      <title>Frontier Tuning: Teaching AI to work the way you do</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_0/</link>
+      <pubDate>Tue, 02 Jun 2026 18:00:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_0/</guid>
+      <description>
+        
+          
+            Today at Microsoft Build, we introduced Frontier Tuning, a new approach to making AI work the way your business does by applying reinforcement learning inside your compliance
+Link to article: https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-teaching-ai-to-work-the-way-you-do 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry</title>
       <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_3/</link>
-      <pubDate>Tue, 02 Jun 2026 07:09:01 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2026 17:20:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_3/</guid>
       <description>
         
           
-            A key phase in installing a package is staging the package: var packageUri = new Uri(&amp;quot;C:\Packages\ContosoParts-v1.2.3.4-x64.msix&amp;quot;); var options = new StagePackageOptions(); var packageManager
-Link to article: https://devblogs.microsoft.com/insidemsix/staging-sharing-is-caring 
+            A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry The hardest part of building AI systems today is no longer getting access to a capable model. It is knowing how to choose, validate, optimize, and operate the right model across the full lifecycle of a real application. Take a retrieval-augmented gener
+Link to article: https://devblogs.microsoft.com/foundry/build-2026-foundry-models 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What&#39;s Coming Next in Visual Studio: Our Microsoft Build 2026 Announcements</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_4/</link>
+      <pubDate>Tue, 02 Jun 2026 17:10:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_4/</guid>
+      <description>
+        
+          
+            Microsoft Build kicks off today in San Francisco, June 2 and 3. If you cannot make it in person, the sessions are streaming online for free, and I want to walk you through what we are announcing for Visual Studio this week. One idea tie most of it together. Code is an asset, not just an artifact. The tools around it should
+Link to article: https://devblogs.microsoft.com/visualstudio/whats-coming-next-in-visual-studio-our-microsoft-build-2026-announcements 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build and run agents at scale with Microsoft Foundry at Build 2026</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_5/</link>
+      <pubDate>Tue, 02 Jun 2026 17:10:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_5/</guid>
+      <description>
+        
+          
+            Developers are already building agents, and the early productivity gains speak for themselves. Thanks to coding agents like GitHub Copilot, standing up a working prototype is the easy part. The hard part starts after the prototype. The moment an agent leaves your laptop and has to run inside an enterprise workflow, the crac
+Link to article: https://devblogs.microsoft.com/foundry/agent-service-build2026 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build agents you can trust across any framework with open evals and a control standard</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_7/</link>
+      <pubDate>Tue, 02 Jun 2026 17:10:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_7/</guid>
+      <description>
+        
+          
+            Build agents you can trust across any framework with open evals and a control standard We are four years into the generative AI era, and agents are everywhere. Enterprises are deploying them at scale, but trust has not kept pace. The gap is concrete: written policies do not translate into working runtime controls, evaluating agent sa
+Link to article: https://devblogs.microsoft.com/foundry/build-2026-open-trust-stack-ai-agents 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_6/</link>
+      <pubDate>Tue, 02 Jun 2026 17:10:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_6/</guid>
+      <description>
+        
+          
+            Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval Developers building agent fleets keep hitting the same pattern: the agent logic is ready, but the knowledge infrastructure underneath is complex to do well. Getting to production means solving for stability, scale, data access, answer quality, sec
+Link to article: https://devblogs.microsoft.com/foundry/build-smarter-agents-faster-with-foundry-iq 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing Intelligent Terminal 0.1</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_8/</link>
+      <pubDate>Tue, 02 Jun 2026 17:00:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_8/</guid>
+      <description>
+        
+          
+            Today we&#39;re announcing Intelligent Terminal version 0.1, an open-source experimental fork of Windows Terminal with native agent integration. Get started Install from the Microsoft Store: Intelligent Terminal on the Mi
+Link to article: https://devblogs.microsoft.com/commandline/announcing-intelligent-terminal-version-0-1 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What&#39;s new in Microsoft Foundry | Build Edition</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_9/</link>
+      <pubDate>Tue, 02 Jun 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_9/</guid>
+      <description>
+        
+          
+            TL;DR At Build 2026, Microsoft Foundry added more of the platform pieces developers need for production agents: runtime, tools, memory, grounding, models, observability, and governance. This recap highlights what shipped, what is in preview, and where to start. Agent development got faster: Microsoft Age
+Link to article: https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-build-2026 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What&#39;s New in Hosted Agents in Foundry Agent Service</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_11/</link>
+      <pubDate>Tue, 02 Jun 2026 16:09:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_11/</guid>
+      <description>
+        
+          
+            A few weeks ago, we announced the public preview refresh of hosted agents in Foundry Agent Service — a fundamentally re-imagined ag
+Link to article: https://devblogs.microsoft.com/foundry/hosted-agents-build26 
           
           
         

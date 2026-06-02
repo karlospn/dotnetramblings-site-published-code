@@ -7,13 +7,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 02 Jun 2026 03:23:35 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jun 2026 17:39:03 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The art and science of hyperparameter optimization on Amazon Nova Forge</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_1/</link>
+      <pubDate>Tue, 02 Jun 2026 17:39:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_1/</guid>
+      <description>
+        
+          
+            Fine-tuning for domain-specific tasks means improving performance in one area without degrading the model’s general capabilities, and getting that balance right is harder than it looks. This post walks through how to navigate that balance, from selecting the right customization strategy for your data and task, to configuring the training parameters that most influence outcomes, like learning rate, batch size, and checkpointing. We also cover the common mistakes that lead to wasted training runs and how to catch them early, so you can improve domain performance without degrading general capabilities or burning through compute on avoidable failures.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Object detection with Amazon Nova 2 Lite</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_2/</link>
+      <pubDate>Tue, 02 Jun 2026 17:31:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we&#39;ll walk through implementing object detection with Amazon Nova 2 Lite. You&#39;ll learn how to deploy an object detection application using Amazon Bedrock, AWS Lambda, and Amazon API Gateway. You&#39;ll also learn how to craft effective prompts, process structured JSON output, and visualize results. We explore practical applications across manufacturing, agriculture, and logistics.
+Link to article: https://aws.amazon.com/blogs/machine-learning/object-detection-with-amazon-nova-2-lite/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_12/</link>
+      <pubDate>Tue, 02 Jun 2026 15:45:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_12/</guid>
+      <description>
+        
+          
+            This post walks through how Baz built their Spec Review agent using Amazon Bedrock and Amazon Bedrock AgentCore. We&#39;ll cover the architecture decisions, implementation details, and the business outcomes they achieved by leveraging these AWS services to automate their code review process
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Building a secure auth code flow setup using AgentCore Gateway with MCP clients</title>
-      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_20/</link>
       <pubDate>Tue, 02 Jun 2026 03:23:35 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_20/</guid>
       <description>
         
           
