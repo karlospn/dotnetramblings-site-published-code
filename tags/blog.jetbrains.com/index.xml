@@ -7,13 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 03 Jun 2026 13:12:33 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jun 2026 20:20:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Async VFS Content Writes – What Plugin Authors Need to Know</title>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_1/</link>
+      <pubDate>Wed, 03 Jun 2026 20:20:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_1/</guid>
+      <description>
+        
+          
+            Some plugin code follows this pattern: Historically, it was reasonable to assume that once the save finishes, the file on disk already contains the latest editor text. That is no longer guaranteed. The IntelliJ Platform can now update the VFS first and finish the disk write in the background a bit later. Code that reads […]
+Link to article: https://blog.jetbrains.com/platform/2026/06/async-vfs-content-writes-what-plugin-authors-need-to-know/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>IntelliJ IDEA 2025.3.6 Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_17/</link>
       <pubDate>Wed, 03 Jun 2026 13:12:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_17/</guid>
       <description>
         
           
@@ -27,10 +44,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/06/intellij-idea-2025-3-6/
     
     <item>
       <title>RustWeek 2026: What We Learned, Who We Met, and What’s Next for Rust</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_13/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_19/</link>
       <pubDate>Wed, 03 Jun 2026 11:46:01 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_19/</guid>
       <description>
         
           
@@ -44,10 +61,10 @@ Link to article: https://blog.jetbrains.com/rust/2026/06/03/rustrover-at-rustwee
     
     <item>
       <title>Kotlin 2.4.0 Released</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_15/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_21/</link>
       <pubDate>Wed, 03 Jun 2026 10:14:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_15/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_21/</guid>
       <description>
         
           
@@ -61,10 +78,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2026/06/kotlin-2-4-0-released
     
     <item>
       <title>WPF Hot Reload Is Here: Edit Your XAML and Watch It Update Live in Rider</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_18/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_24/</link>
       <pubDate>Wed, 03 Jun 2026 08:59:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_18/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_24/</guid>
       <description>
         
           

@@ -7,13 +7,97 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 03 Jun 2026 17:55:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jun 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fundamental’s Large Tabular Model NEXUS is now available on Amazon SageMaker JumpStart</title>
+      <title>Authentication and Authorization in ASP.NET Core Web API: JWT and Policies</title>
       <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_0/</link>
-      <pubDate>Wed, 03 Jun 2026 17:55:37 +0000</pubDate>
+      <pubDate>Wed, 03 Jun 2026 21:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_0/</guid>
+      <description>
+        
+          
+            Master asp.net core authentication with JWT bearer tokens and policy-based authorization. Full setup with code examples for .NET 10 Web API projects.
+Link to article: https://www.devleader.ca/2026/06/03/authentication-and-authorization-in-aspnet-core-web-api-jwt-and-policies 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Async VFS Content Writes – What Plugin Authors Need to Know</title>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_1/</link>
+      <pubDate>Wed, 03 Jun 2026 20:20:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_1/</guid>
+      <description>
+        
+          
+            Some plugin code follows this pattern: Historically, it was reasonable to assume that once the save finishes, the file on disk already contains the latest editor text. That is no longer guaranteed. The IntelliJ Platform can now update the VFS first and finish the disk write in the background a bit later. Code that reads […]
+Link to article: https://blog.jetbrains.com/platform/2026/06/async-vfs-content-writes-what-plugin-authors-need-to-know/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to build self-driving AI operations on Amazon Bedrock at scale</title>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_2/</link>
+      <pubDate>Wed, 03 Jun 2026 20:14:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we introduce Amazon Bedrock Ops Alert, a three-layer automated monitoring solution that proactively detects operational issues, dynamically adjusts alarm thresholds, classifies alarms by category, automatically creates context-aware support cases, helps prevent duplicate cases when an unresolved case of the same alarm category is already active, and delivers contextualized notifications to AI SRE teams. We walk through the solution architecture and how you can deploy it in your own environment.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Microsoft is migrating repositories to GitHub</title>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_3/</link>
+      <pubDate>Wed, 03 Jun 2026 18:48:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_3/</guid>
+      <description>
+        
+          
+            For the past decade, Azure DevOps has powered software development at Microsoft, supporting some of our largest repositories and most complex engineering workflows across Azure Repos, Boards, and Pipelines. Software development is being reshaped by AI, and where code lives now have a direct impact on how much value organizations can
+Link to article: https://devblogs.microsoft.com/devops/how-microsoft-is-migrating-repositories-to-github 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Wolverine Hit Five Million Downloads</title>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_4/</link>
+      <pubDate>Wed, 03 Jun 2026 18:21:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_4/</guid>
+      <description>
+        
+          
+            I’m having an aggravating day at work today, so just indulge me in writing this up for fun whilst I’m waiting for some very slow CI builds to finish… If you’re not familiar with Wolverine, it’s a series of application frameworks for server side .NET development including asynchronous messaging, asynchronous processing via in process messaging, … Continue reading Wolverine Hit Five Million Downloads →
+Link to article: https://jeremydmiller.com/2026/06/03/wolverine-hit-five-million-downloads/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fundamental’s Large Tabular Model NEXUS is now available on Amazon SageMaker JumpStart</title>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_5/</link>
+      <pubDate>Wed, 03 Jun 2026 17:55:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_5/</guid>
       <description>
         
           
@@ -27,10 +111,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/fundamentals-larg
     
     <item>
       <title>Expanding the Reach of Document Translation - New Capabilities Announced at Microsoft Build</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_7/</link>
       <pubDate>Wed, 03 Jun 2026 17:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_7/</guid>
       <description>
         
           
@@ -44,10 +128,10 @@ Link to article: https://devblogs.microsoft.com/foundry/document-translation-bui
     
     <item>
       <title>Visual Studio Code 1.123</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_6/</link>
       <pubDate>Wed, 03 Jun 2026 17:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_6/</guid>
       <description>
         
           
@@ -61,10 +145,10 @@ Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1
     
     <item>
       <title>Reducing container cold start times using SOCI index on DLAMI and DLC</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_8/</link>
       <pubDate>Wed, 03 Jun 2026 16:26:35 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_8/</guid>
       <description>
         
           
@@ -78,10 +162,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/reducing-containe
     
     <item>
       <title>Microsoft Agent Framework at BUILD 2026: Agent Harness, Hosted Agents, CodeAct, and more</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_9/</link>
       <pubDate>Wed, 03 Jun 2026 16:07:28 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_9/</guid>
       <description>
         
           
@@ -95,10 +179,10 @@ Link to article: https://devblogs.microsoft.com/agent-framework/microsoft-agent-
     
     <item>
       <title>Announcing Foundry Managed Compute: Run open models in Microsoft Foundry</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_10/</link>
       <pubDate>Wed, 03 Jun 2026 16:00:54 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_10/</guid>
       <description>
         
           
@@ -112,10 +196,10 @@ Link to article: https://devblogs.microsoft.com/foundry/announcing-foundry-manag
     
     <item>
       <title>Introducing Agent Optimizer in Foundry Agent Service</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_11/</link>
       <pubDate>Wed, 03 Jun 2026 16:00:43 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_11/</guid>
       <description>
         
           
@@ -129,10 +213,10 @@ Link to article: https://devblogs.microsoft.com/foundry/agent-optimizer-build202
     
     <item>
       <title>Making agent memory more reliable, transparent, and production-ready</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_12/</link>
       <pubDate>Wed, 03 Jun 2026 16:00:30 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_12/</guid>
       <description>
         
           
@@ -146,10 +230,10 @@ Link to article: https://devblogs.microsoft.com/foundry/memory-build2026
     
     <item>
       <title>Discovery to Execution: Scaling Agents with Toolboxes and Routines in Microsoft Foundry</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_13/</link>
       <pubDate>Wed, 03 Jun 2026 16:00:15 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_13/</guid>
       <description>
         
           
@@ -163,10 +247,10 @@ Link to article: https://devblogs.microsoft.com/foundry/toolbox-build-26
     
     <item>
       <title>From Building Agents to Working with Them: Enterprise Agent Distribution in Microsoft Foundry</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_14/</link>
       <pubDate>Wed, 03 Jun 2026 16:00:04 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_14/</guid>
       <description>
         
           
@@ -180,10 +264,10 @@ Link to article: https://devblogs.microsoft.com/foundry/from-building-agents-to-
     
     <item>
       <title>Improve your agent’s tool-calling accuracy with SFT and DPO on Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_10/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_15/</link>
       <pubDate>Wed, 03 Jun 2026 15:56:50 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_15/</guid>
       <description>
         
           
@@ -195,11 +279,28 @@ Link to article: https://devblogs.microsoft.com/foundry/from-building-agents-to-
     </item>
     
     <item>
+      <title>Introducing new capabilities to GPT-Rosalind</title>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_16/</link>
+      <pubDate>Wed, 03 Jun 2026 13:15:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_16/</guid>
+      <description>
+        
+          
+            GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.
+Link to article: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>IntelliJ IDEA 2025.3.6 Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_17/</link>
       <pubDate>Wed, 03 Jun 2026 13:12:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_17/</guid>
       <description>
         
           
@@ -213,10 +314,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/06/intellij-idea-2025-3-6/
     
     <item>
       <title>How to Implement Iterator Pattern in C#: Step-by-Step Guide</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_12/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_18/</link>
       <pubDate>Wed, 03 Jun 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_18/</guid>
       <description>
         
           
@@ -230,10 +331,10 @@ Link to article: https://www.devleader.ca/2026/06/03/how-to-implement-iterator-p
     
     <item>
       <title>RustWeek 2026: What We Learned, Who We Met, and What’s Next for Rust</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_13/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_19/</link>
       <pubDate>Wed, 03 Jun 2026 11:46:01 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_19/</guid>
       <description>
         
           
@@ -247,10 +348,10 @@ Link to article: https://blog.jetbrains.com/rust/2026/06/03/rustrover-at-rustwee
     
     <item>
       <title>Design an Agentic AI Systems Enterprises Can Actually Trust?</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_14/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_20/</link>
       <pubDate>Wed, 03 Jun 2026 11:17:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_14/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_20/</guid>
       <description>
         
           
@@ -264,10 +365,10 @@ Link to article: https://build5nines.com/design-an-agentic-ai-systems-enterprise
     
     <item>
       <title>Kotlin 2.4.0 Released</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_15/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_21/</link>
       <pubDate>Wed, 03 Jun 2026 10:14:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_15/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_21/</guid>
       <description>
         
           
@@ -281,10 +382,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2026/06/kotlin-2-4-0-released
     
     <item>
       <title>A blueprint for democratic governance of frontier AI</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_17/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_22/</link>
       <pubDate>Wed, 03 Jun 2026 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_17/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_22/</guid>
       <description>
         
           
@@ -298,10 +399,10 @@ Link to article: https://openai.com/index/frontier-safety-blueprint
     
     <item>
       <title>OpenAI public policy agenda</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_16/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_23/</link>
       <pubDate>Wed, 03 Jun 2026 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_16/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_23/</guid>
       <description>
         
           
@@ -315,10 +416,10 @@ Link to article: https://openai.com/index/public-policy-agenda
     
     <item>
       <title>WPF Hot Reload Is Here: Edit Your XAML and Watch It Update Live in Rider</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_18/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_24/</link>
       <pubDate>Wed, 03 Jun 2026 08:59:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_18/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_24/</guid>
       <description>
         
           
@@ -332,10 +433,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/06/03/wpf-hot-reload-in-
     
     <item>
       <title>Build smarter document workflows: What&#39;s new in Azure Content Understanding at Build 2026</title>
-      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_19/</link>
+      <link>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_25/</link>
       <pubDate>Wed, 03 Jun 2026 00:40:21 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_19/</guid>
+      <guid>https://www.dotnetramblings.com/post/03_06_2026/03_06_2026_25/</guid>
       <description>
         
           
