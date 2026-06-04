@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 02 Jun 2026 16:11:02 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jun 2026 17:02:51 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/docker.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hardened Images Explained: Fewer CVEs, Smaller Attack Surface</title>
+      <link>https://www.dotnetramblings.com/post/04_06_2026/04_06_2026_1/</link>
+      <pubDate>Thu, 04 Jun 2026 17:02:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_06_2026/04_06_2026_1/</guid>
+      <description>
+        
+          
+            When security teams scan their container environments for the first time, they often discover hundreds of known vulnerabilities, and almost none of them trace back to application code. The overwhelming majority come from packages that shipped with the base image: shells, compilers, debug utilities, and libraries the application never calls. In a software supply chain...
+Link to article: https://www.docker.com/blog/what-are-hardened-images/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How to Secure AI Agents: A Practical Overview for Development Teams</title>
       <link>https://www.dotnetramblings.com/post/02_06_2026/02_06_2026_12/</link>
