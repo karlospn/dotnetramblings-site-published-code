@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Build5nines.com | .NET Ramblings</title>
+<title>DRY Is the Most Misunderstood Rule in Programming | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="DRY was never about code that looks the same. It&#39;s about knowledge. Most of the tangled abstractions I&#39;ve had to unwind started as a well-meaning attempt to …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Build5nines.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/build5nines.com/" />
-<meta property="og:title" content="Build5nines.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="DRY Is the Most Misunderstood Rule in Programming" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/06_06_2026/06_06_2026_2/" />
+<meta property="og:title" content="DRY Is the Most Misunderstood Rule in Programming" />
+<meta property="og:description" content="DRY was never about code that looks the same. It&#39;s about knowledge. Most of the tangled abstractions I&#39;ve had to unwind started as a well-meaning attempt to …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/build5nines.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/build5nines.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/06_06_2026/06_06_2026_2/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/github-copilot-has-a-model-governance-gap-hiding-in-plain-sight/" title="GitHub Copilot Has a Model Governance Gap Hiding in Plain Sight">GitHub Copilot Has a Model Governance Gap Hiding in Plain Sight</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">DRY Is the Most Misunderstood Rule in Programming</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,293 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Jun 6, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
+      Jun 6, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="GitHub Copilot Has a Model Governance Gap Hiding in Plain Sight"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/devops.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>A developer opens GitHub Copilot Chat, sees a list of available models, and picks the one that sounds strongest. Maybe it is the largest model.…
-Link to article: <a href="https://build5nines.com/github-copilot-has-a-model-governance-gap-hiding-in-plain-sight/">https://build5nines.com/github-copilot-has-a-model-governance-gap-hiding-in-plain-sight/</a></p>
-          
-          <br>
-          <a href="https://build5nines.com/github-copilot-has-a-model-governance-gap-hiding-in-plain-sight/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/big-thinkers-martin-fowler-how-continuous-architecture-changed-modern-software-engineering/" title="Big Thinkers: Martin Fowler – How Continuous Architecture Changed Modern Software Engineering">Big Thinkers: Martin Fowler – How Continuous Architecture Changed Modern Software Engineering</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 4, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>DRY was never about code that looks the same. It's about knowledge. Most of the tangled abstractions I've had to unwind started as a well-meaning attempt to remove duplication that was never really duplication. Here's how I think about it now, and the rule I use instead.</p>
+<ul>
+<li>Link to article: <a href="https://www.milanjovanovic.tech/blog/dry-is-the-most-misunderstood-rule-in-programming">https://www.milanjovanovic.tech/blog/dry-is-the-most-misunderstood-rule-in-programming</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Big Thinkers: Martin Fowler – How Continuous Architecture Changed Modern Software Engineering"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/devops.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Modern cloud architecture rarely stands still. Systems evolve continuously through CI/CD pipelines, infrastructure as code, feature flags, observability tooling, and iterative deployment practices. Architecture is…
-Link to article: …</p>
-          
-          <br>
-          <a href="https://build5nines.com/big-thinkers-martin-fowler-how-continuous-architecture-changed-modern-software-engineering/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/design-an-agentic-ai-systems-enterprises-can-actually-trust/" title="Design an Agentic AI Systems Enterprises Can Actually Trust?">Design an Agentic AI Systems Enterprises Can Actually Trust?</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 3, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Design an Agentic AI Systems Enterprises Can Actually Trust?"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>There is a moment every developer eventually hits with AI automation. The demo works. The agent reads the ticket, checks the logs, writes a summary,…
-Link to article: <a href="https://build5nines.com/design-an-agentic-ai-systems-enterprises-can-actually-trust/">https://build5nines.com/design-an-agentic-ai-systems-enterprises-can-actually-trust/</a></p>
-          
-          <br>
-          <a href="https://build5nines.com/design-an-agentic-ai-systems-enterprises-can-actually-trust/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/architecting-resilient-ai-solutions-on-microsoft-azure-with-regions-and-availability-zones/" title="Architecting Resilient AI Solutions on Microsoft Azure with Regions and Availability Zones">Architecting Resilient AI Solutions on Microsoft Azure with Regions and Availability Zones</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 2, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Architecting Resilient AI Solutions on Microsoft Azure with Regions and Availability Zones"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Modern AI solutions are reshaping industries, driving demand for cloud architectures that are scalable, resilient, and globally accessible. Microsoft Azure’s expansive network of Regions and…
-Link to article: …</p>
-          
-          <br>
-          <a href="https://build5nines.com/architecting-resilient-ai-solutions-on-microsoft-azure-with-regions-and-availability-zones/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://build5nines.com/how-to-use-build5nines-sharpvector-with-microsoft-agent-framework-for-local-rag-in-c/" title="How to Use Build5Nines.SharpVector with Microsoft Agent Framework for Local RAG in C#">How to Use Build5Nines.SharpVector with Microsoft Agent Framework for Local RAG in C#</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 30, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How to Use Build5Nines.SharpVector with Microsoft Agent Framework for Local RAG in C#"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/dotnet.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>There is a moment every developer hits when building an AI agent: the demo works, the model responds, the tool calls fire, and everything feels…
-Link to article: <a href="https://build5nines.com/how-to-use-build5nines-sharpvector-with-microsoft-agent-framework-for-local-rag-in-c/">https://build5nines.com/how-to-use-build5nines-sharpvector-with-microsoft-agent-framework-for-local-rag-in-c/</a></p>
-          
-          <br>
-          <a href="https://build5nines.com/how-to-use-build5nines-sharpvector-with-microsoft-agent-framework-for-local-rag-in-c/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -451,9 +184,8 @@ Link to article: <a href="https://build5nines.com/how-to-use-build5nines-sharpve
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
