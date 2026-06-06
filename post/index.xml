@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 05 Jun 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DRY Is the Most Misunderstood Rule in Programming</title>
+      <link>https://www.dotnetramblings.com/post/06_06_2026/06_06_2026_0/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_06_2026/06_06_2026_0/</guid>
+      <description>
+        
+          
+            DRY was never about code that looks the same. It&#39;s about knowledge. Most of the tangled abstractions I&#39;ve had to unwind started as a well-meaning attempt to remove duplication that was never really duplication. Here&#39;s how I think about it now, and the rule I use instead.
+Link to article: https://www.milanjovanovic.tech/blog/dry-is-the-most-misunderstood-rule-in-programming 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Error Handling in ASP.NET Core Web API: Problem Details and Global Handlers</title>
       <link>https://www.dotnetramblings.com/post/05_06_2026/05_06_2026_0/</link>
@@ -1778,227 +1795,6 @@ Link to article: https://www.devleader.ca/2026/05/30/template-method-pattern-rea
           
             For years we faked union types with marker interfaces, base classes, and the OneOf library. C# 15 finally bakes them into the language - and here&#39;s a quick tour of what they look like and why I think they&#39;re a big deal.
 Link to article: https://www.milanjovanovic.tech/blog/union-types-are-finally-coming-to-csharp 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>UnsafeAccessor in C#: Access Private Members Without Reflection Overhead</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_0/</link>
-      <pubDate>Fri, 29 May 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_0/</guid>
-      <description>
-        
-          
-            Learn how UnsafeAccessor in C# (.NET 8+) gives you direct access to private fields, methods, and constructors -- avoids reflection lookup overhead on the hot path, AOT-friendly when the target type and member are statically known at compile time.
-Link to article: https://www.devleader.ca/2026/05/29/unsafeaccessor-in-c-access-private-members-without-reflection-overhead 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Local AI Is Coming for the Cloud AI Business Model</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_1/</link>
-      <pubDate>Fri, 29 May 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_1/</guid>
-      <description>
-        
-          
-            You open your AI coding assistant, paste in a question, ask it to reason through a design, generate some code, fix the code, explain the…
-Link to article: https://build5nines.com/local-ai-is-coming-for-the-cloud-ai-business-model/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What Does It Actually Take for an IDE to Understand Rust?</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_2/</link>
-      <pubDate>Fri, 29 May 2026 15:30:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_2/</guid>
-      <description>
-        
-          
-            Disclaimer: This article was created using AI-based writing and communication companions. With their help, the core topics of this rich and nuanced livestream were distilled into a compact blog post format. How do Rust IDEs understand code? That was the central question explored in a recent RustRover livestream featuring Lukas Wirth, Rust engineer at Zed […]
-Link to article: https://blog.jetbrains.com/rust/2026/05/29/how-rust-ides-understand-code/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Hibernate 7.4 New Features</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_3/</link>
-      <pubDate>Fri, 29 May 2026 14:29:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_3/</guid>
-      <description>
-        
-          
-            Hibernate 7.4 introduced several improvements that simplify loading a page of data along with their associated child collection, historical data access, and audit logging. The article will focus on the following features: You can check out the sample code for this article in this GitHub repository. Limits and Fetch Joins One common requirement in data-driven […]
-Link to article: https://blog.jetbrains.com/idea/2026/05/hibernate-7-4-new-features/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How We Use AlphaEvolve to Make Complex IDE Algorithms Faster</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_4/</link>
-      <pubDate>Fri, 29 May 2026 13:46:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_4/</guid>
-      <description>
-        
-          
-            AlphaEvolve is a Google DeepMind algorithm-discovery system that uses Gemini to generate, test, and refine possible algorithm improvements. Its job is not to answer questions; it searches for faster ways to solve complex algorithmic problems. We tried it on a narrow but important part of IntelliJ-based IDEs: indexing, the background work that makes navigation, search, […]
-Link to article: https://blog.jetbrains.com/ai/2026/05/how-we-use-alphaevolve-to-make-complex-ide-algorithms-faster/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>When to Use Chain of Responsibility Pattern in C#: Decision Guide with Examples</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_5/</link>
-      <pubDate>Fri, 29 May 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_5/</guid>
-      <description>
-        
-          
-            Discover when to use the chain of responsibility pattern in C# with decision criteria, practical scenarios, and examples showing where handler chains fit best.
-Link to article: https://www.devleader.ca/2026/05/29/when-to-use-chain-of-responsibility-pattern-in-c-decision-guide-with-examples 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>JetBrains Academy – May Digest</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_6/</link>
-      <pubDate>Fri, 29 May 2026 12:53:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_6/</guid>
-      <description>
-        
-          
-            Hey! This month’s list is short, but every item is worth your time. Apply for one of up to 40 JetBrains Foundation scholarships for the CSAI BSc program by June 9, try a new AI tools course for developers, discover a program that brings hands-on coding practice into JetBrains IDEs, and read about the value of […]
-Link to article: https://blog.jetbrains.com/education/2026/05/29/jetbrains-academy-may-2026/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Can Enterprises Prevent Agentic AI from Taking the Wrong Action?</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_7/</link>
-      <pubDate>Fri, 29 May 2026 12:34:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_7/</guid>
-      <description>
-        
-          
-            There is a big difference between an AI assistant that summarizes a document and an AI agent that deletes a production resource because it “reasoned”…
-Link to article: https://build5nines.com/how-can-enterprises-prevent-agentic-ai-from-taking-the-wrong-action/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Boston Children’s uses AI to unlock new diagnoses</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_8/</link>
-      <pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_8/</guid>
-      <description>
-        
-          
-            Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.
-Link to article: https://openai.com/index/boston-childrens-hospital 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Braintrust turns customer requests into code with Codex</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_9/</link>
-      <pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_9/</guid>
-      <description>
-        
-          
-            How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.
-Link to article: https://openai.com/index/braintrust 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>TeamCity 2026.1.1 Is Now Available</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_10/</link>
-      <pubDate>Fri, 29 May 2026 11:11:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_10/</guid>
-      <description>
-        
-          
-            Today we’re rolling out the first bug-fix for TeamCity On-Premises 2026.1 servers. This update addresses over 20 issues and performance issues, including: See TeamCity 2026.1.1 Release Notes for the complete list of resolved issues. Why update? Staying up to date with minor releases ensures your TeamCity instance benefits from the following: Compatibility TeamCity 2026.1.1 shares […]
-Link to article: https://blog.jetbrains.com/teamcity/2026/05/teamcity-2026-1-1-bug-fix/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Strengthening societal resilience with Rosalind Biodefense</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_11/</link>
-      <pubDate>Fri, 29 May 2026 03:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_11/</guid>
-      <description>
-        
-          
-            OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.
-Link to article: https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A shared playbook for trustworthy third party evaluations</title>
-      <link>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_12/</link>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/29_05_2026/29_05_2026_12/</guid>
-      <description>
-        
-          
-            OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.
-Link to article: https://openai.com/index/trustworthy-third-party-evaluations-foundations 
           
           
         
