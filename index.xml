@@ -7,13 +7,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 09 Jun 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jun 2026 16:10:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Iterator vs Observer Pattern in C#: Key Differences Explained</title>
+      <title>Build an agentic incident triage assistant with Amazon Quick and New Relic</title>
       <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_0/</link>
-      <pubDate>Tue, 09 Jun 2026 13:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 Jun 2026 16:10:37 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_0/</guid>
+      <description>
+        
+          
+            This post shows engineering teams how to apply that principle to one of the most time-sensitive workflows in engineering: incident triage. You will build a custom incident triage assistant agent using Amazon Quick that orchestrates a response with the New Relic Model Context Protocol (MCP) Server and Asana through native integrations. From a single prompt, the Amazon Quick agent investigates the incident, assembles a root cause analysis (RCA) brief with evidence links, and creates a tracked Asana task ready for handoff.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Staging Part 2 - Disk Space Optimization</title>
+      <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_1/</link>
+      <pubDate>Tue, 09 Jun 2026 16:00:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_1/</guid>
+      <description>
+        
+          
+            &amp;quot;Disk space optimizations&amp;quot; is one of the key features of MSIX: Disk space optimizations. With MSIX there is no duplication of files across apps and Windows manages the shared files across apps. The apps are still independent
+Link to article: https://devblogs.microsoft.com/insidemsix/staging-disk-space-optimization 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Copilot Code Reviews for Azure Repos</title>
+      <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_2/</link>
+      <pubDate>Tue, 09 Jun 2026 15:12:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_2/</guid>
+      <description>
+        
+          
+            Over the last several years, we have encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI powered and agentic development experiences that GitHub is delivering. At the same time, we recognize that migrating repositories to GitHub can vary significantly in complexity depending
+Link to article: https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Iterator vs Observer Pattern in C#: Key Differences Explained</title>
+      <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_3/</link>
+      <pubDate>Tue, 09 Jun 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_3/</guid>
       <description>
         
           
@@ -27,10 +77,10 @@ Link to article: https://www.devleader.ca/2026/06/09/iterator-vs-observer-patter
     
     <item>
       <title>Fewer False Alarms, Better Coding Flow in RustRover 2026.2</title>
-      <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_4/</link>
       <pubDate>Tue, 09 Jun 2026 11:35:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_4/</guid>
       <description>
         
           
@@ -44,10 +94,10 @@ Link to article: https://blog.jetbrains.com/rust/2026/06/09/fewer-false-positive
     
     <item>
       <title>Azure Bicep at Scale: Architecture, Repos, and Landing Zones Done Right</title>
-      <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_5/</link>
       <pubDate>Tue, 09 Jun 2026 11:10:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_5/</guid>
       <description>
         
           
@@ -61,10 +111,10 @@ Link to article: https://build5nines.com/azure-bicep-at-scale-architecture-repos
     
     <item>
       <title>EF Core at scale: 5 ways to retrieve large datasets efficiently</title>
-      <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_6/</link>
       <pubDate>Tue, 09 Jun 2026 08:56:58 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_6/</guid>
       <description>
         
           
@@ -78,10 +128,10 @@ Link to article: https://blog.elmah.io/ef-core-at-scale-5-ways-to-retrieve-large
     
     <item>
       <title>🚀React Native Windows v0.83 is here!!</title>
-      <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_7/</link>
       <pubDate>Tue, 09 Jun 2026 06:24:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_06_2026/09_06_2026_7/</guid>
       <description>
         
           
