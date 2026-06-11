@@ -7,13 +7,165 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 11 Jun 2026 12:07:28 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Jun 2026 17:54:29 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MPS 2026.1 Release Candidate Arrives</title>
+      <title>Your agent just scaffolded a project from 2020</title>
       <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_0/</link>
-      <pubDate>Thu, 11 Jun 2026 12:07:28 +0000</pubDate>
+      <pubDate>Thu, 11 Jun 2026 17:54:29 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_0/</guid>
+      <description>
+        
+          
+            Your agent ran a scaffold command. Project generated, dependencies resolved, no errors. Everything looks fine. Except it&#39;s based on the project structure from 2020, and neither you nor the agent noticed. How npx picks the right-but-wrong version When an agent scaffolds a project or runs a CLI tool, it often reaches for
+Link to article: https://devblogs.microsoft.com/blog/your-agent-just-scaffolded-a-project-from-2020 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Windows App Development CLI v0.3.2 — bundling support, smarter initialization, and more</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_1/</link>
+      <pubDate>Thu, 11 Jun 2026 17:16:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_1/</guid>
+      <description>
+        
+          
+            Windows App
+Link to article: https://devblogs.microsoft.com/ifdef-windows/windows-app-development-cli-v0-3-2-bundling-support-smarter-initialization-and-more 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MSVC Build Tools Preview updates - June 2026</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_2/</link>
+      <pubDate>Thu, 11 Jun 2026 17:09:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_2/</guid>
+      <description>
+        
+          
+            The MSVC Build Tools Preview is updated regularly with the latest features and fixes from the MSVC development team. This post covers updates from the past month, currently targeting the v14.52 release. This encompasses changes across the compiler frontend, backend, linker, standard library, and related tools. Although you can acquire the M
+Link to article: https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-june-2026 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Copilot Autofix for GitHub Advanced Security for Azure DevOps</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_3/</link>
+      <pubDate>Thu, 11 Jun 2026 15:54:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_3/</guid>
+      <description>
+        
+          
+            Over the last few years, we&#39;ve encouraged customers to move their repositories from Azure Repos to GitHub, where the newest AI-powered and agentic development experiences land first. Migrating isn&#39;t equally simple for everyone. A move to GitHub can range from straightforward to a multi-year program, depending on an organization&#39;s si
+Link to article: https://devblogs.microsoft.com/devops/copilot-autofix-for-github-advanced-security-for-azure-devops 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Evaluate AI agents systematically with Agent-EvalKit</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_4/</link>
+      <pubDate>Thu, 11 Jun 2026 15:49:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_4/</guid>
+      <description>
+        
+          
+            Agent-EvalKit is an open-source toolkit (Apache 2.0) that makes this evaluation infrastructure available by integrating with AI coding assistants, including Claude Code, Kiro CLI, and Kilo Code. This post walks through how Agent-EvalKit works across its six evaluation phases, using a travel research agent built with the Strands Agents SDK and Amazon Bedrock as a running example.
+Link to article: https://aws.amazon.com/blogs/machine-learning/evaluate-ai-agents-systematically-with-agent-evalkit/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Spot trends faster, sort smarter: Unlocking Sparklines and Custom Sort in Amazon Quick</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_5/</link>
+      <pubDate>Thu, 11 Jun 2026 15:36:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_5/</guid>
+      <description>
+        
+          
+            Today, we’re excited to announce two new capabilities that make Quick Sight dashboards even more expressive and business-aligned: sparklines and custom sort for controls. In this post, we walk through both features, what they are, when to use them, and how to configure them, with real-world scenarios that bring them together in a practical, decision-ready dashboard.
+Link to article: https://aws.amazon.com/blogs/machine-learning/spot-trends-faster-sort-smarter-unlocking-sparklines-and-custom-sort-in-amazon-quick/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_6/</link>
+      <pubDate>Thu, 11 Jun 2026 15:11:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_6/</guid>
+      <description>
+        
+          
+            Blueprint instruction optimization is a BDA feature that automatically refines your extraction instructions to address this challenge directly. You provide three to ten example documents with expected values, and BDA refines your blueprint instructions to improve accuracy in minutes, not weeks. No separate model fine-tuning is required. By the end of this post, you can optimize your blueprints to improve accuracy, run the optimization workflow through the Amazon Bedrock console or the API, and apply best practices for selecting examples and ground truth.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Review pull requests without leaving Visual Studio</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_7/</link>
+      <pubDate>Thu, 11 Jun 2026 15:00:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_7/</guid>
+      <description>
+        
+          
+            Pull request integration in Visual Studio has been one of the most requested Git features. Developers have been asking for a way to open a PR, inspect the changes, discuss feedback, and finish the review without switching to the browser
+Link to article: https://devblogs.microsoft.com/visualstudio/review-pull-requests-without-leaving-visual-studio 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Iterator Pattern Real-World Example in C#: Complete Implementation</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_8/</link>
+      <pubDate>Thu, 11 Jun 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_8/</guid>
+      <description>
+        
+          
+            Build a real-world iterator pattern example in C# with a complete paginated data access layer showing lazy evaluation, async iteration, and LINQ integration.
+Link to article: https://www.devleader.ca/2026/06/11/iterator-pattern-realworld-example-in-c-complete-implementation 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MPS 2026.1 Release Candidate Arrives</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_9/</link>
+      <pubDate>Thu, 11 Jun 2026 12:07:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_9/</guid>
       <description>
         
           
@@ -27,10 +179,10 @@ Link to article: https://blog.jetbrains.com/mps/2026/06/the-mps-2026-1-rc1/
     
     <item>
       <title>Docker Hardened Images enhanced vulnerability scanning with Docker and Aikido</title>
-      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_10/</link>
       <pubDate>Thu, 11 Jun 2026 12:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_10/</guid>
       <description>
         
           
@@ -44,10 +196,10 @@ Link to article: https://www.docker.com/blog/docker-hardened-images-enhanced-vul
     
     <item>
       <title>Best Python AI Frameworks in 2026</title>
-      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_11/</link>
       <pubDate>Thu, 11 Jun 2026 11:28:08 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_11/</guid>
       <description>
         
           
@@ -61,10 +213,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2026/06/best-python-ai-frame
     
     <item>
       <title>Contribute to the State of PHP Survey</title>
-      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_12/</link>
       <pubDate>Thu, 11 Jun 2026 10:38:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_12/</guid>
       <description>
         
           
@@ -78,10 +230,10 @@ Link to article: https://blog.jetbrains.com/phpstorm/2026/06/state-of-php-survey
     
     <item>
       <title>Big Thinkers: Werner Vogels – The Operational Philosophy Behind AWS and Hyperscale Cloud Architecture</title>
-      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_13/</link>
       <pubDate>Thu, 11 Jun 2026 10:25:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_13/</guid>
       <description>
         
           
@@ -95,10 +247,10 @@ Link to article: https://build5nines.com/big-thinkers-werner-vogels-the-operatio
     
     <item>
       <title>Agents League Hackathon 2026 - Enterprise Agents</title>
-      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_14/</link>
       <pubDate>Thu, 11 Jun 2026 04:52:01 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_14/</guid>
       <description>
         
           
@@ -112,10 +264,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/agents-league-ha
     
     <item>
       <title>How frontier teams are reinventing AI-native development</title>
-      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_15/</link>
       <pubDate>Thu, 11 Jun 2026 00:54:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_15/</guid>
       <description>
         
           
@@ -128,11 +280,28 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/how-frontier-team
     </item>
     
     <item>
-      <title>How an astrophysicist uses Codex to help simulate black holes</title>
-      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_8/</link>
+      <title>BBVA puts AI at the core of banking with OpenAI</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_19/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_19/</guid>
+      <description>
+        
+          
+            Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.
+Link to article: https://openai.com/index/bbva 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How an astrophysicist uses Codex to help simulate black holes</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_17/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_17/</guid>
       <description>
         
           
@@ -145,11 +314,28 @@ Link to article: https://openai.com/index/using-codex-to-simulate-black-holes
     </item>
     
     <item>
-      <title>Supporting Europe’s work in ensuring a trustworthy AI ecosystem</title>
-      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_7/</link>
+      <title>OpenAI to acquire Ona</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_16/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_16/</guid>
+      <description>
+        
+          
+            OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.
+Link to article: https://openai.com/index/openai-to-acquire-ona 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Supporting Europe’s work in ensuring a trustworthy AI ecosystem</title>
+      <link>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_18/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_06_2026/11_06_2026_18/</guid>
       <description>
         
           
