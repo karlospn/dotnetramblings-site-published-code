@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 08 Jun 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jun 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New lines are more than  and 
+</title>
+      <link>https://www.dotnetramblings.com/post/15_06_2026/15_06_2026_5/</link>
+      <pubDate>Mon, 15 Jun 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_06_2026/15_06_2026_5/</guid>
+      <description>
+        
+          
+            When we talk about new lines, most developers think about \r\n (Windows) and \n (Unix-like systems). That works most of the time, but it is not the full picture. Unicode and several regex engines recognize additional line break characters. If your application parses user input, logs, CSV-like content, or cross-platform data, this can matter more than you think. The line breaks you should know The most…
+Link to article: https://www.meziantou.net/new-lines-are-more-than-r-and-n.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>New features and Roslyn analyzers for Meziantou.Framework.FullPath</title>
       <link>https://www.dotnetramblings.com/post/08_06_2026/08_06_2026_15/</link>
