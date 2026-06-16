@@ -25,22 +25,5 @@ Link to article: https://damienbod.com/2026/06/15/software-development-and-ai/
       </description>
     </item>
     
-    <item>
-      <title>ASP.NET Core background tasks with NCronJob and SignalR</title>
-      <link>https://www.dotnetramblings.com/post/08_06_2026/08_06_2026_16/</link>
-      <pubDate>Mon, 08 Jun 2026 05:39:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/08_06_2026/08_06_2026_16/</guid>
-      <description>
-        
-          
-            I was recommended NCronJob for implementing a background worker in ASP.NET Core and so I decided to give it a try, read the docs and learn this. This NuGet package is open source and works great. I implemented two simple jobs, one concurrent and one not concurrent which sends messages via SignalR. Code: https://github.com/damienbod/AspNetCoreNCronJob To […]
-Link to article: https://damienbod.com/2026/06/08/asp-net-core-background-tasks-with-ncronjob-and-signalr/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
