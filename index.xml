@@ -9,11 +9,94 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Wed, 17 Jun 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Junie: The JetBrains AI Coding Agent Leaves Beta.</title>
+      <title>Stop Blaming Event-Driven Architecture</title>
       <link>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_1/</link>
-      <pubDate>Wed, 17 Jun 2026 09:07:19 +0000</pubDate>
+      <pubDate>Wed, 17 Jun 2026 14:19:29 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_1/</guid>
+      <description>
+        
+          
+            So, you adopted event-driven architecture because your system was a rat’s nest of coupling, and events were the answer to decouple it. But now debugging is a nightmare. You have events coming in out of order. You have retries causing duplicates and multiple different side effects. Local development is a pain. It’s frustrating, right? But… Read More »Stop Blaming Event-Driven Architecture The post Stop Blaming Event-Driven Architecture appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention</title>
+      <link>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_2/</link>
+      <pubDate>Wed, 17 Jun 2026 13:58:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_2/</guid>
+      <description>
+        
+          
+             Link to article: https://devblogs.microsoft.com/cosmosdb/azure-backup-for-azure-cosmos-db-public-preview-adds-immutable-backups-and-long-term-retention 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Your JetBrains IDE Expertise, Now on LinkedIn</title>
+      <link>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_3/</link>
+      <pubDate>Wed, 17 Jun 2026 13:11:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_3/</guid>
+      <description>
+        
+          
+            Every developer has tools they rely on daily. The workflows they’ve built around them, the ways they’ve learned to move faster, debug smarter, and write better code – that kind of hands-on experience can be hard to put into words. We’re collaborating with LinkedIn to make it easier for you to showcase your expertise with […]
+Link to article: https://blog.jetbrains.com/blog/2026/06/17/your-jetbrains-ide-expertise-now-on-linkedin/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>When to Use Memento Pattern in C#: Decision Guide with Examples</title>
+      <link>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_4/</link>
+      <pubDate>Wed, 17 Jun 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_4/</guid>
+      <description>
+        
+          
+            Learn when to use the memento pattern in C# with decision criteria, practical scenarios for undo/redo, and state snapshot examples.
+Link to article: https://www.devleader.ca/2026/06/17/when-to-use-memento-pattern-in-c-decision-guide-with-examples 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Do You Integrate Agentic AI with Legacy Enterprise Systems?</title>
+      <link>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_5/</link>
+      <pubDate>Wed, 17 Jun 2026 11:36:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_5/</guid>
+      <description>
+        
+          
+            Every enterprise has that one system. Maybe it is a claims platform built before REST was fashionable. Maybe it is an ERP customization that only…
+Link to article: https://build5nines.com/how-do-you-integrate-agentic-ai-with-legacy-enterprise-systems/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Junie: The JetBrains AI Coding Agent Leaves Beta.</title>
+      <link>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_6/</link>
+      <pubDate>Wed, 17 Jun 2026 09:07:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_6/</guid>
       <description>
         
           
@@ -27,15 +110,32 @@ Link to article: https://blog.jetbrains.com/junie/2026/06/junie-coding-agent-out
     
     <item>
       <title>Step Rejection Fine-Tuning: Squeezing More Signal from Noisy Agent Trajectories</title>
-      <link>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_7/</link>
       <pubDate>Wed, 17 Jun 2026 08:57:24 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_7/</guid>
       <description>
         
           
             If you want to dive straight into the technical details, you can read our full paper here. Imagine you are mentoring a junior developer. If they make a single logical error on line 42 of a 100-line script, do you throw away the entire file and tell them they learned nothing? Of course not. You […]
 Link to article: https://blog.jetbrains.com/research/2026/06/step-rejection-fine-tuning/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Improving token efficiency in GitHub Copilot</title>
+      <link>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_8/</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_06_2026/17_06_2026_8/</guid>
+      <description>
+        
+          
+            Learn how we&#39;re improving token efficiency in GitHub Copilot to reduce costs and latency for users. Read the full article
+Link to article: https://devblogs.microsoft.com/vscode-blog/improving-token-efficiency-in-github-copilot 
           
           
         
