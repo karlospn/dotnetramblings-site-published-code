@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 19 Jun 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Modular Monolith Boundary I Couldn&#39;t Take Back</title>
+      <link>https://www.dotnetramblings.com/post/20_06_2026/20_06_2026_0/</link>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_06_2026/20_06_2026_0/</guid>
+      <description>
+        
+          
+            We built the system exactly the way a modular monolith is supposed to be built, and that&#39;s how I ended up with two modules I couldn&#39;t pull apart a year later. Here&#39;s how a reasonable boundary decision turns into one you can&#39;t undo, and the early signals I walked right past.
+Link to article: https://www.milanjovanovic.tech/blog/the-modular-monolith-boundary-i-couldnt-take-back 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>EF Core CRUD Operations in C#: Create, Read, Update, Delete</title>
       <link>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_0/</link>
@@ -1339,208 +1356,6 @@ Link to article: https://www.devleader.ca/2026/06/13/memento-design-pattern-in-c
           
             Long-running business processes are hard to get right. Dapr Workflow lets you write them as plain C# code that survives crashes and restarts, and Aspire makes the whole thing run with a single command. Here&#39;s how to wire the two together.
 Link to article: https://www.milanjovanovic.tech/blog/building-dapr-workflows-in-dotnet-with-aspire 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Open Closed Principle C#: Extending Without Modifying</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_0/</link>
-      <pubDate>Fri, 12 Jun 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_0/</guid>
-      <description>
-        
-          
-            Learn the open closed principle c# with real examples. Extend behavior without modifying existing code using Strategy pattern and .NET 10 features.
-Link to article: https://www.devleader.ca/2026/06/12/open-closed-principle-c-extending-without-modifying 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building Supercharger: How Rocket Close optimized title operations with agentic AI</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_1/</link>
-      <pubDate>Fri, 12 Jun 2026 20:43:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_1/</guid>
-      <description>
-        
-          
-            In this post, we explore how Rocket Close built a solution using Strands Agents, large language models (LLMs), Amazon Bedrock, Amazon Bedrock Knowledge Bases, and Model Context Protocol (MCP) tools. We cover solution features, the rationale for the technology stack, lessons learned, and the business impact at Rocket Close.
-Link to article: https://aws.amazon.com/blogs/machine-learning/building-supercharger-how-rocket-close-optimized-title-operations-with-agentic-ai/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>GitHub Copilot modernization for C&#43;&#43; is out of preview</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_2/</link>
-      <pubDate>Fri, 12 Jun 2026 18:46:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_2/</guid>
-      <description>
-        
-          
-            GitHub Copilot modernization for C++ is out of preview as of Visual Studio 2026 version 18.7. This agent, accessible by typing @Modernize in the Copilot Chat window, can be used to upgrade your projects to use a newer version of the Mic
-Link to article: https://devblogs.microsoft.com/cppblog/ghcp-modernization-available 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_3/</link>
-      <pubDate>Fri, 12 Jun 2026 14:49:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_3/</guid>
-      <description>
-        
-          
-            This post shows how to build a custom meeting prep and follow-up assistant using Amazon Quick and Cisco Webex MCP servers. From a single prompt, the agent finds an upcoming Webex meeting, reviews prior meeting summaries and transcripts, and pulls related Vidcast highlights and transcript context. It then searches Webex message threads for unresolved follow-ups and creates a concise prep brief. After the meeting, the same assistant can summarize the discussion and identify action items.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>From PDFs to insights: Architecting an intelligent document processing pipeline with AWS generative AI services</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_4/</link>
-      <pubDate>Fri, 12 Jun 2026 14:43:11 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_4/</guid>
-      <description>
-        
-          
-            This post outlines the development of a cost-effective and scalable intelligent document processing pipeline on AWS, powered by Amazon Bedrock and its features. BDA is a managed service within Amazon Bedrock that automates the extraction of insights from documents. We demonstrate how BDA extracts and analyzes document content, while Strands Agent hosted on Amazon Bedrock AgentCore Runtime coordinate specialized processing tasks, and Amazon Bedrock Knowledge Base enable contextual understanding across multiple documents.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Built from the inside out: How AWS Professional Services became a frontier team first</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_5/</link>
-      <pubDate>Fri, 12 Jun 2026 13:00:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_5/</guid>
-      <description>
-        
-          
-            AWS Professional Services (AWS ProServe) compressed engagement timelines from months to days, not by adding artificial intelligence (AI) tools to an existing process, but by fundamentally rebuilding how we deliver from the inside out. In this post, we share how AWS ProServe became a frontier team, the practices that enabled it, and what your engineering organization can take from our experience.
-Link to article: https://aws.amazon.com/blogs/machine-learning/built-from-the-inside-out-how-aws-professional-services-became-a-frontier-team-first/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Mediator Pattern Best Practices in C#: Code Organization and Maintainability</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_6/</link>
-      <pubDate>Fri, 12 Jun 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_6/</guid>
-      <description>
-        
-          
-            Mediator pattern best practices in C# for clean code organization, maintainability, and avoiding common pitfalls with behavioral design patterns.
-Link to article: https://www.devleader.ca/2026/06/12/mediator-pattern-best-practices-in-c-code-organization-and-maintainability 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>dotInsights | June 2026</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_7/</link>
-      <pubDate>Fri, 12 Jun 2026 11:43:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_7/</guid>
-      <description>
-        
-          
-            Did you know? The var keyword isn’t a keyword! It’s one of several “contextual” keywords in C#, and it only has special meaning when used to declare a variable. Try defining a class called var and see what happens to the rest of your codebase… Welcome to dotInsights by JetBrains! This newsletter is the home […]
-Link to article: https://blog.jetbrains.com/dotnet/2026/06/12/dotinsights-june-2026/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>New OpenAI Academy courses for the next era of work</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_8/</link>
-      <pubDate>Fri, 12 Jun 2026 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_8/</guid>
-      <description>
-        
-          
-            OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.
-Link to article: https://openai.com/index/academy-courses-applying-ai-at-work 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Inside JetPride: How JetBrains Employees Built an LGBTQIA&#43; Community</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_9/</link>
-      <pubDate>Fri, 12 Jun 2026 07:59:58 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_9/</guid>
-      <description>
-        
-          
-            What makes a workplace feel welcoming? Sometimes it’s finding colleagues who share your interests. Sometimes it’s discovering people with similar experiences. Sometimes it’s knowing you can talk openly about your life, ask questions, share perspectives, and be yourself without giving it a second thought. JetPride, our LGBTQIA+ employee resource group (ERG), is one place where […]
-Link to article: https://blog.jetbrains.com/life-at-jetbrains/2026/06/inside-jetpride-how-jetbrains-employees-built-an-lgbtqia-community/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_10/</link>
-      <pubDate>Fri, 12 Jun 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_10/</guid>
-      <description>
-        
-          
-            Introduction Multi-agent chatbots in large retail organizations face a critical architecture challenge: how to evolve from a modular monolith to a microservices architecture that enables agent reuse across teams and use cases. This post shares lessons from Microsoft&#39;s Industry Solutions Engineering (ISE) partnersh
-Link to article: https://devblogs.microsoft.com/ise/coordinator-patterns-multi-agent-systems 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Preply combines AI and human tutors to personalize learning</title>
-      <link>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_11/</link>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_06_2026/12_06_2026_11/</guid>
-      <description>
-        
-          
-            Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.
-Link to article: https://openai.com/index/preply 
           
           
         
