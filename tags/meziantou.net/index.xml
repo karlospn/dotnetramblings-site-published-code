@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 15 Jun 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jun 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generate a Kiota client at build time from an ASP.NET Core OpenAPI file</title>
+      <link>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_4/</link>
+      <pubDate>Mon, 22 Jun 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_4/</guid>
+      <description>
+        
+          
+            In a previous post, I explained how to generate the OpenAPI document during the ASP.NET Core build and commit it to the repository. That gives you a versioned API contract that is easy to review in pull requests. In this post, let&#39;s go one step further: use that generated OpenAPI file as the input for Kiota, so your typed .NET client is also generated during build. The goal is simple: The server produces…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>New lines are more than  and 
 </title>

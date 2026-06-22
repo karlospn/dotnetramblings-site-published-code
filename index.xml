@@ -7,7 +7,142 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 21 Jun 2026 23:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jun 2026 13:21:18 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data</title>
+      <link>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_0/</link>
+      <pubDate>Mon, 22 Jun 2026 13:21:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_0/</guid>
+      <description>
+        
+          
+            Deep Agents is an agent harness built on LangGraph, for agents that need to work through a task over many steps instead of a single LLM call. The agent runs tools, looks at the results, and uses that to
+Link to article: https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How We Measure the ROI of JetBrains IDEs</title>
+      <link>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_1/</link>
+      <pubDate>Mon, 22 Jun 2026 13:20:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_1/</guid>
+      <description>
+        
+          
+            Organizations already spend hundreds of thousands of dollars on software, so it’s only natural that when they evaluate new paid tools, one question is top of mind: “Will this actually pay off?” Our ROI (return on investment) calculator was designed to help estimate the potential gains of JetBrains IDEs and AI Ultimate subscriptions. The ROI […]
+Link to article: https://blog.jetbrains.com/research/2026/06/how-we-measure-the-roi-of-jetbrains-ides/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>When to Use Interpreter Pattern in C#: Decision Guide with Examples</title>
+      <link>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_2/</link>
+      <pubDate>Mon, 22 Jun 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_2/</guid>
+      <description>
+        
+          
+            Learn when to use the interpreter pattern in C# with decision criteria, DSL scenarios, and code examples for grammar-based processing.
+Link to article: https://www.devleader.ca/2026/06/22/when-to-use-interpreter-pattern-in-c-decision-guide-with-examples 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AWS Image Builder Plugin for TeamCity</title>
+      <link>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_3/</link>
+      <pubDate>Mon, 22 Jun 2026 12:17:43 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_3/</guid>
+      <description>
+        
+          
+            Cloud build agents are one of those CI/CD features that feel almost magical when everything works well. Your TeamCity server can scale build capacity up when the queue gets busy, then wind it back down when the rush is over. You get extra power exactly when you need it, without keeping machines idle the rest […]
+Link to article: https://blog.jetbrains.com/teamcity/2026/06/teamcity-aws-ami-builder/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Generate a Kiota client at build time from an ASP.NET Core OpenAPI file</title>
+      <link>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_4/</link>
+      <pubDate>Mon, 22 Jun 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_4/</guid>
+      <description>
+        
+          
+            In a previous post, I explained how to generate the OpenAPI document during the ASP.NET Core build and commit it to the repository. That gives you a versioned API contract that is easy to review in pull requests. In this post, let&#39;s go one step further: use that generated OpenAPI file as the input for Kiota, so your typed .NET client is also generated during build. The goal is simple: The server produces…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Retirement of Azure DevOps issuer in Workload identity federation service connections</title>
+      <link>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_5/</link>
+      <pubDate>Mon, 22 Jun 2026 09:35:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_5/</guid>
+      <description>
+        
+          
+            We are announcing the deprecation of the Azure DevOps issuer in workload identity federation (WIF) service connections, with planned retirement on July 1, 2027. The Azure DevOps issuer uses the https://vstoken.dev.azure.com prefix in federated credentials. This change is part of Microsoft&#39;s bro
+Link to article: https://devblogs.microsoft.com/devops/retirement-of-azure-devops-issuer-in-workload-identity-federation-service-connections 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>PHP Version Migration That Doesn’t Break Everything</title>
+      <link>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_6/</link>
+      <pubDate>Mon, 22 Jun 2026 07:10:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_6/</guid>
+      <description>
+        
+          
+            PHP Version Migration Demo PHP powers 71.8% of all websites with a known server-side language. It is a living language that underpins a significant portion of the modern web and one that keeps getting better. For example, EKSNEKS notes that migrating from PHP 7 to PHP 8 alone can deliver 18–42% performance gains depending on […]
+Link to article: https://blog.jetbrains.com/qodana/2026/06/php-version-migration/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Copilot ĺœ¨ JetBrains IDEďźšĺŠŸčƒ˝ć›´ć–°ä¸Ž Claude ä˝œä¸ş Agent ćäž›ć–šé˘„č§ˆ</title>
+      <link>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_7/</link>
+      <pubDate>Mon, 22 Jun 2026 02:03:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_06_2026/22_06_2026_7/</guid>
+      <description>
+        
+          
+            ćœŹćŹĄć›´ć–°ä¸ş GitHub Copilot for JetBrains IDEs ĺ¸ŚćĽäş†ĺŻšćĽč‡Ş GitHub çš„çť„çť‡ĺ’Œäźä¸šçş§ agent çš„ć”ŻćŒďźŒčŽŠä˝ ĺŻäťĽĺœ¨ Copilot CLI äźščŻä¸­ćŽ’é˜Ÿĺ’Œĺź•ĺŻźćśˆćŻďźŒĺź•ĺ…Ľäş†ĺ…¨ć–°çš„ agent č°ƒčŻ•ć—Ľĺż—ć‘˜čŚč§†ĺ›žďźŒĺšśĺ°† Claude ä˝œä¸ş agent ćäž›ć–šĺ¸Śĺ…Ľĺ…Źĺź€é˘„č§ˆă€‚ ć­¤ĺ¤–ďźŒćœŹćŹĄć›´ć–°čż˜ĺŒ…ĺŤć¨Ąĺž‹é€‰ć‹Šĺ™¨ĺ
+Link to article: https://devblogs.microsoft.com/java-ch/new-features-claude-as-agent-provider-preview 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Samsung Electronics brings ChatGPT and Codex to employees</title>
       <link>https://www.dotnetramblings.com/post/21_06_2026/21_06_2026_0/</link>
@@ -1373,57 +1508,6 @@ Link to article: https://www.devleader.ca/2026/06/15/how-to-get-tech-debt-priori
           
             This is a bit of rambling from me and what I believe is a good setup for developing software together with AI tools. I believe the AI tools are good, which will help good developers produce better software for our end clients. What is the aim of creating software? This is a super hard question […]
 Link to article: https://damienbod.com/2026/06/15/software-development-and-ai/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Interface Segregation Principle C#: Focused Interfaces That Scale</title>
-      <link>https://www.dotnetramblings.com/post/14_06_2026/14_06_2026_0/</link>
-      <pubDate>Sun, 14 Jun 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_06_2026/14_06_2026_0/</guid>
-      <description>
-        
-          
-            Master the interface segregation principle c# with before/after examples, DI registration in .NET 10, and tips for designing focused, role-based interfaces.
-Link to article: https://www.devleader.ca/2026/06/14/interface-segregation-principle-c-focused-interfaces-that-scale 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Mediator vs Observer Pattern in C#: Key Differences Explained</title>
-      <link>https://www.dotnetramblings.com/post/14_06_2026/14_06_2026_1/</link>
-      <pubDate>Sun, 14 Jun 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_06_2026/14_06_2026_1/</guid>
-      <description>
-        
-          
-            Compare the mediator vs observer pattern in C# with code examples, use cases, and guidance on choosing the right behavioral pattern.
-Link to article: https://www.devleader.ca/2026/06/14/mediator-vs-observer-pattern-in-c-key-differences-explained 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Boost Your .NET Projects: Copilot, Benchmarks, and the Truth About Faster Code</title>
-      <link>https://www.dotnetramblings.com/post/14_06_2026/14_06_2026_2/</link>
-      <pubDate>Sun, 14 Jun 2026 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_06_2026/14_06_2026_2/</guid>
-      <description>
-        
-          
-            The article discusses the limitations and benefits of using Copilot for code optimization in the Spargine .NET project. While some suggestions from Copilot significantly improved performance, others were ineffective or detrimental. The author emphasizes the importance of thorough testing and verification of AI-generated changes to ensure quality and efficiency in code.
-Link to article: https://dotnettips.com/2026/06/14/boost-your-net-projects-copilot-benchmarks-and-the-truth-about-faster-code/ 
           
           
         
