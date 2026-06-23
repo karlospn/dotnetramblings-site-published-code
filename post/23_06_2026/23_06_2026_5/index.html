@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Conditional &amp; Iterative Deployments with Azure Bicep | .NET Ramblings</title>
+<title>Avoiding ToString() allocations with StringBuilder.MoveChunks: Exploring the .NET 11 preview - Part 3 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,24 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Every team eventually reaches the point where their Infrastructure as Code stops being “a few clean resource declarations” and starts becoming a living model …" />
+<meta name="description" content="in this post I take a short look at the new MoveChunks API, explore how it works, what it&#39;s for, and how the new API provides opportunities for public APIs
+Link …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Conditional &amp; Iterative Deployments with Azure Bicep" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/azure.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/23_06_2026/23_06_2026_4/" />
-<meta property="og:title" content="Conditional &amp; Iterative Deployments with Azure Bicep" />
-<meta property="og:description" content="Every team eventually reaches the point where their Infrastructure as Code stops being “a few clean resource declarations” and starts becoming a living model …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/azure.png" />
+<meta name="twitter:title" content="Avoiding ToString() allocations with StringBuilder.MoveChunks: Exploring the .NET 11 preview - Part 3" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/23_06_2026/23_06_2026_5/" />
+<meta property="og:title" content="Avoiding ToString() allocations with StringBuilder.MoveChunks: Exploring the .NET 11 preview - Part 3" />
+<meta property="og:description" content="in this post I take a short look at the new MoveChunks API, explore how it works, what it&#39;s for, and how the new API provides opportunities for public APIs
+Link …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/23_06_2026/23_06_2026_4/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/23_06_2026/23_06_2026_5/">
 
 
 
@@ -132,7 +134,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Conditional &amp; Iterative Deployments with Azure Bicep</h1>
+    <h1 class="post_title">Avoiding ToString() allocations with StringBuilder.MoveChunks: Exploring the .NET 11 preview - Part 3</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +142,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Jun 23, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/build5nines.com/' title="build5nines.com" class="post_tag button button_translucent">build5nines.com
+      Jun 23, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/andrewlock.net/' title="andrewlock.net" class="post_tag button button_translucent">andrewlock.net
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Every team eventually reaches the point where their Infrastructure as Code stops being “a few clean resource declarations” and starts becoming a living model of…</p>
+    <div class="post_body"><p>in this post I take a short look at the new MoveChunks API, explore how it works, what it's for, and how the new API provides opportunities for public APIs</p>
 <ul>
-<li>Link to article: <a href="https://build5nines.com/conditional-iterative-deployments-with-azure-bicep/">https://build5nines.com/conditional-iterative-deployments-with-azure-bicep/</a></li>
+<li>Link to article: <a href="https://andrewlock.net/exploring-the-dotnet-11-preview-3-avoiding-tostring-allocations-with-stringbuilder-movechunks/">https://andrewlock.net/exploring-the-dotnet-11-preview-3-avoiding-tostring-allocations-with-stringbuilder-movechunks/</a></li>
 </ul>
 
     </div>
