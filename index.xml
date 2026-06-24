@@ -7,13 +7,96 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 24 Jun 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jun 2026 18:24:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>When the model has never seen your code</title>
+      <title>Huntington Bank: Redacting sensitive data from 400M&#43; documents with AWS</title>
+      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_0/</link>
+      <pubDate>Wed, 24 Jun 2026 18:24:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_0/</guid>
+      <description>
+        
+          
+            In this post, we walk through how Huntington built a scalable AWS solution to detect and redact Personally Identifiable Information (PII) and Payment Card Industry (PCI) data from over 400 million documents, reducing processing time from years to just a few months while achieving 95%+ redaction accuracy.
+Link to article: https://aws.amazon.com/blogs/machine-learning/huntington-bank-redacting-sensitive-data-from-400m-documents-with-aws/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a healthcare appointment agent with Amazon Nova 2 Sonic</title>
       <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_1/</link>
-      <pubDate>Wed, 24 Jun 2026 14:04:52 +0000</pubDate>
+      <pubDate>Wed, 24 Jun 2026 18:20:27 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_1/</guid>
+      <description>
+        
+          
+            In this post, you will learn how to build a voice agent that handles appointment reminder conversations using Amazon Nova 2 Sonic and Amazon Bedrock AgentCore. The agent authenticates patients by voice, manages appointments (confirm, cancel, or reschedule), collects pre-visit health information, and escalates to human staff when needed. You handle routine calls at scale, which can help reduce no-show rates. This sample focuses on the agentic side of the problem: voice conversation and tool orchestration.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI-powered BI with Snowflake and Amazon Quick</title>
+      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_2/</link>
+      <pubDate>Wed, 24 Jun 2026 18:19:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_2/</guid>
+      <description>
+        
+          
+            In this post, you will learn how to build an end-to-end integration between Snowflake semantic views and Amazon Quick. The sample data is user review data for a media company. You start by loading movie review data from Amazon Simple Storage Service (Amazon S3) into Snowflake, define a semantic view in SQL to add business meaning, explore it with natural-language queries through Cortex Analyst, and then generate an Amazon Quick dataset and dashboard.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.126</title>
+      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_3/</link>
+      <pubDate>Wed, 24 Jun 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_3/</guid>
+      <description>
+        
+          
+            Learn what is new in Visual Studio Code 1.126 Read the full article
+Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.126 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Loka Built a Natural, Low-Latency Voice Agent with Amazon Nova 2 Sonic</title>
+      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_4/</link>
+      <pubDate>Wed, 24 Jun 2026 16:56:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_4/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate the architecture and approach Loka used to solve a common frustration: robotic, slow voice assistants that cause customers to hang up, damaging brand reputation and driving up support costs.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-loka-built-a-natural-low-latency-voice-agent-with-amazon-nova-2-sonic/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>When the model has never seen your code</title>
+      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_5/</link>
+      <pubDate>Wed, 24 Jun 2026 14:04:52 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_5/</guid>
       <description>
         
           
@@ -27,10 +110,10 @@ Link to article: https://devblogs.microsoft.com/blog/when-the-model-has-never-se
     
     <item>
       <title>Resilience Patterns Can Make Your System Less Resilient</title>
-      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_6/</link>
       <pubDate>Wed, 24 Jun 2026 13:36:23 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_6/</guid>
       <description>
         
           
@@ -43,10 +126,10 @@ Link to article: https://devblogs.microsoft.com/blog/when-the-model-has-never-se
     
     <item>
       <title>Kotlin Toolchain 0.11: The Next Step for Amper</title>
-      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_7/</link>
       <pubDate>Wed, 24 Jun 2026 13:04:32 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_7/</guid>
       <description>
         
           
@@ -60,10 +143,10 @@ Link to article: https://blog.jetbrains.com/amper/2026/06/kotlin-toolchain-0-11/
     
     <item>
       <title>Interpreter Pattern Best Practices in C#: Code Organization and Maintainability</title>
-      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_8/</link>
       <pubDate>Wed, 24 Jun 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_8/</guid>
       <description>
         
           
@@ -77,10 +160,10 @@ Link to article: https://www.devleader.ca/2026/06/24/interpreter-pattern-best-pr
     
     <item>
       <title>Azure Bicep Has a Plan Mode: Use It On Your Next Production Deployment</title>
-      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_9/</link>
       <pubDate>Wed, 24 Jun 2026 11:45:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_9/</guid>
       <description>
         
           
@@ -94,10 +177,10 @@ Link to article: https://build5nines.com/azure-bicep-has-a-plan-mode-use-it-on-y
     
     <item>
       <title>OpenAI and Broadcom unveil LLM-optimized inference chip</title>
-      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_10/</link>
       <pubDate>Wed, 24 Jun 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_10/</guid>
       <description>
         
           
@@ -111,10 +194,10 @@ Link to article: https://openai.com/index/openai-broadcom-jalapeno-inference-chi
     
     <item>
       <title>YouTrack Helpdesk Now Includes Customer Groups</title>
-      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_11/</link>
       <pubDate>Wed, 24 Jun 2026 04:58:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_11/</guid>
       <description>
         
           
