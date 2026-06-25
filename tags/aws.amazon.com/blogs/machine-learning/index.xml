@@ -7,7 +7,74 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 24 Jun 2026 18:24:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jun 2026 16:41:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_0/</link>
+      <pubDate>Thu, 25 Jun 2026 16:41:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_0/</guid>
+      <description>
+        
+          
+            This post shows you how to configure training jobs on Amazon SageMaker AI to get the most out of Blackwell’s architecture on AWS. You learn how to select batch sizes and sequence lengths that take advantage of Blackwell’s expanded memory, choose the right precision format for your model size (1B to 64B parameters), and apply activation checkpointing strategically. By the end, you have a practical framework for tuning your training configuration and launching distributed training jobs on P6-B200 instances.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Implementing super resolution by deploying SeedVR2 on Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_1/</link>
+      <pubDate>Thu, 25 Jun 2026 16:40:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_1/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to implement video upscaling using SeedVR2 on SageMaker AI. We cover the solution architecture, walk through the deployment steps, and show performance comparisons that highlight the quality improvements and processing efficiency you can achieve. By the end of this post, you’ll have the practical knowledge needed to implement this super resolution solution.
+Link to article: https://aws.amazon.com/blogs/machine-learning/implementing-super-resolution-by-deploying-seedvr2-on-amazon-sagemaker-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_2/</link>
+      <pubDate>Thu, 25 Jun 2026 16:38:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we show you how to build Chaplin (Customer Health and Planned Lifecycle Intelligence Nexus), an open source solution that uses AI agents exposed through the Model Context Protocol (MCP) to provide self-service health event analytics.
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-self-service-aws-health-analytics-to-find-actionable-health-insights-with-ai-agents-powered-by-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building agentic AI applications with a modern data mesh strategy on AWS</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_3/</link>
+      <pubDate>Thu, 25 Jun 2026 16:35:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_3/</guid>
+      <description>
+        
+          
+            This post shows how to build a governed, serverless data mesh on AWS that provides the secure, scalable data foundation production agentic AI requires.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-agentic-ai-applications-with-a-modern-data-mesh-strategy-on-aws/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Huntington Bank: Redacting sensitive data from 400M&#43; documents with AWS</title>
       <link>https://www.dotnetramblings.com/post/24_06_2026/24_06_2026_2/</link>

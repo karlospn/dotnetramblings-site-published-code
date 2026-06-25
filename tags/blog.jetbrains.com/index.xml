@@ -7,13 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 25 Jun 2026 12:11:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jun 2026 15:22:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Dev Containers Story: Introducing EelApi for Plugin Authors</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_5/</link>
+      <pubDate>Thu, 25 Jun 2026 15:22:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_5/</guid>
+      <description>
+        
+          
+            Modern development has shifted one old IDE paradigm significantly: Now, not only is it possible that a project is not hosted on the same physical or remote machine as your IDE instance, it could even be that both share the same host but are separated from one another inside isolated environments. If you are a […]
+Link to article: https://blog.jetbrains.com/platform/2026/06/the-dev-containers-story-introducing-eelapi-for-plugin-authors/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The real winner of Cursor’s $60B acquisition won’t be AI coding assistants</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_6/</link>
+      <pubDate>Thu, 25 Jun 2026 15:01:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_6/</guid>
+      <description>
+        
+          
+            When news broke that SpaceX would acquire Cursor’s parent company, Anysphere, in a reported $60 billion all-stock deal, most of the discussion centered around AI. This was another milestone and enormous valuation, and signal that AI is still bringing enormous disruption. Those reactions aren’t wrong but they can overshadow the bigger story. The real significance […]
+Link to article: https://blog.jetbrains.com/qodana/2026/06/cursor-s-60b-acquisition/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Codex is now the recommended agent in JetBrains IDEs</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_7/</link>
+      <pubDate>Thu, 25 Jun 2026 14:57:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_7/</guid>
+      <description>
+        
+          
+            JetBrains AI supports multiple coding agents, including Junie, Codex, Claude Agent, and any ACP-compatible agent you bring yourself. Previously, AI users in JetBrains IDEs started in Chat mode and had to choose an agent themselves. As models became more advanced, agents became more capable and their adoption grew. We recognize that agents help users achieve […]
+Link to article: https://blog.jetbrains.com/ai/2026/06/codex-is-now-the-recommended-agent-in-jetbrains-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SSH Connections Are Moving to JetBrains Daemon in the Toolbox App 3.6 EAP</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_8/</link>
+      <pubDate>Thu, 25 Jun 2026 14:54:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_8/</guid>
+      <description>
+        
+          
+            Starting with the Toolbox App 3.6 Early Access Program (EAP), SSH connections to remote environments use the JetBrains Daemon (jetbrainsd) by default. We’re making this change available in the EAP first because jetbrainsd is becoming the shared background service for JetBrains tools. Moving SSH there helps us validate the new connection flow before using it […]
+Link to article: https://blog.jetbrains.com/toolbox-app/2026/06/ssh-connections-are-moving-to-jetbrains-daemon-in-the-toolbox-app-3-6-eap/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Your AI Agent Keeps Missing The Real Bottleneck.  JetBrains Rider Can Fix It Now.</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_9/</link>
+      <pubDate>Thu, 25 Jun 2026 14:17:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_9/</guid>
+      <description>
+        
+          
+            Here’s a case worth pondering: your app freezes for ten seconds, and you ask an AI agent what’s wrong. What does it actually do? For a long time the honest answer was: it rummages through your code and takes a wild guess. A snapshot taken by a profiler tool is runtime evidence. It knows exactly […]
+Link to article: https://blog.jetbrains.com/dotnet/2026/06/25/performance-profiling-agent-skill-in-rider/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Unglamorous Side of Rust Web Development</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_14/</link>
       <pubDate>Thu, 25 Jun 2026 12:11:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_14/</guid>
       <description>
         
           
@@ -27,14 +112,14 @@ Link to article: https://blog.jetbrains.com/rust/2026/06/25/rust-web-development
     
     <item>
       <title>Our Research on Membership Inference Attacks and Preventing Privacy Leaks</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_16/</link>
       <pubDate>Thu, 25 Jun 2026 10:02:06 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_16/</guid>
       <description>
         
           
-            There’s a stranger out there who has nothing but API access to your chatbot. They are interested in knowing whether a specific patient, employee, or customer appears in the data you trained it on. Without breaching the database or stealing backups, this person can theoretically figure out this information with carefully crafted prompts and a […]
+            Imagine there’s a stranger out there who has nothing but API access to your chatbot. They are interested in knowing whether a specific patient, employee, or customer appears in the data you trained it on. Without breaching the database or stealing backups, this person can theoretically figure out this information with carefully crafted prompts and […]
 Link to article: https://blog.jetbrains.com/research/2026/06/membership-inference/ 
           
           
@@ -44,10 +129,10 @@ Link to article: https://blog.jetbrains.com/research/2026/06/membership-inferenc
     
     <item>
       <title>Explicit Lazy Imports Are Coming to Python 3.15</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_17/</link>
       <pubDate>Thu, 25 Jun 2026 08:21:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_17/</guid>
       <description>
         
           

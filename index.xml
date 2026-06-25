@@ -7,13 +7,216 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 25 Jun 2026 13:00:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jun 2026 16:41:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Which Azure Cosmos DB Role Does My App Need?</title>
+      <title>Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell</title>
       <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_0/</link>
-      <pubDate>Thu, 25 Jun 2026 13:00:50 +0000</pubDate>
+      <pubDate>Thu, 25 Jun 2026 16:41:47 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_0/</guid>
+      <description>
+        
+          
+            This post shows you how to configure training jobs on Amazon SageMaker AI to get the most out of Blackwell’s architecture on AWS. You learn how to select batch sizes and sequence lengths that take advantage of Blackwell’s expanded memory, choose the right precision format for your model size (1B to 64B parameters), and apply activation checkpointing strategically. By the end, you have a practical framework for tuning your training configuration and launching distributed training jobs on P6-B200 instances.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Implementing super resolution by deploying SeedVR2 on Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_1/</link>
+      <pubDate>Thu, 25 Jun 2026 16:40:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_1/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to implement video upscaling using SeedVR2 on SageMaker AI. We cover the solution architecture, walk through the deployment steps, and show performance comparisons that highlight the quality improvements and processing efficiency you can achieve. By the end of this post, you’ll have the practical knowledge needed to implement this super resolution solution.
+Link to article: https://aws.amazon.com/blogs/machine-learning/implementing-super-resolution-by-deploying-seedvr2-on-amazon-sagemaker-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_2/</link>
+      <pubDate>Thu, 25 Jun 2026 16:38:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we show you how to build Chaplin (Customer Health and Planned Lifecycle Intelligence Nexus), an open source solution that uses AI agents exposed through the Model Context Protocol (MCP) to provide self-service health event analytics.
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-self-service-aws-health-analytics-to-find-actionable-health-insights-with-ai-agents-powered-by-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building agentic AI applications with a modern data mesh strategy on AWS</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_3/</link>
+      <pubDate>Thu, 25 Jun 2026 16:35:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_3/</guid>
+      <description>
+        
+          
+            This post shows how to build a governed, serverless data mesh on AWS that provides the secure, scalable data foundation production agentic AI requires.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-agentic-ai-applications-with-a-modern-data-mesh-strategy-on-aws/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>EU Cyber Resilience Act: Overview, Requirements, and Timelines</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_4/</link>
+      <pubDate>Thu, 25 Jun 2026 15:36:43 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_4/</guid>
+      <description>
+        
+          
+            Learn what the EU Cyber Resilience Act requires, including SBOM mandates, vulnerability reporting, and compliance deadlines for container teams.
+Link to article: https://www.docker.com/blog/eu-cyber-resilience-act-overview/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Dev Containers Story: Introducing EelApi for Plugin Authors</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_5/</link>
+      <pubDate>Thu, 25 Jun 2026 15:22:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_5/</guid>
+      <description>
+        
+          
+            Modern development has shifted one old IDE paradigm significantly: Now, not only is it possible that a project is not hosted on the same physical or remote machine as your IDE instance, it could even be that both share the same host but are separated from one another inside isolated environments. If you are a […]
+Link to article: https://blog.jetbrains.com/platform/2026/06/the-dev-containers-story-introducing-eelapi-for-plugin-authors/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The real winner of Cursor’s $60B acquisition won’t be AI coding assistants</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_6/</link>
+      <pubDate>Thu, 25 Jun 2026 15:01:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_6/</guid>
+      <description>
+        
+          
+            When news broke that SpaceX would acquire Cursor’s parent company, Anysphere, in a reported $60 billion all-stock deal, most of the discussion centered around AI. This was another milestone and enormous valuation, and signal that AI is still bringing enormous disruption. Those reactions aren’t wrong but they can overshadow the bigger story. The real significance […]
+Link to article: https://blog.jetbrains.com/qodana/2026/06/cursor-s-60b-acquisition/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Codex is now the recommended agent in JetBrains IDEs</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_7/</link>
+      <pubDate>Thu, 25 Jun 2026 14:57:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_7/</guid>
+      <description>
+        
+          
+            JetBrains AI supports multiple coding agents, including Junie, Codex, Claude Agent, and any ACP-compatible agent you bring yourself. Previously, AI users in JetBrains IDEs started in Chat mode and had to choose an agent themselves. As models became more advanced, agents became more capable and their adoption grew. We recognize that agents help users achieve […]
+Link to article: https://blog.jetbrains.com/ai/2026/06/codex-is-now-the-recommended-agent-in-jetbrains-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SSH Connections Are Moving to JetBrains Daemon in the Toolbox App 3.6 EAP</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_8/</link>
+      <pubDate>Thu, 25 Jun 2026 14:54:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_8/</guid>
+      <description>
+        
+          
+            Starting with the Toolbox App 3.6 Early Access Program (EAP), SSH connections to remote environments use the JetBrains Daemon (jetbrainsd) by default. We’re making this change available in the EAP first because jetbrainsd is becoming the shared background service for JetBrains tools. Moving SSH there helps us validate the new connection flow before using it […]
+Link to article: https://blog.jetbrains.com/toolbox-app/2026/06/ssh-connections-are-moving-to-jetbrains-daemon-in-the-toolbox-app-3-6-eap/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Your AI Agent Keeps Missing The Real Bottleneck.  JetBrains Rider Can Fix It Now.</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_9/</link>
+      <pubDate>Thu, 25 Jun 2026 14:17:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_9/</guid>
+      <description>
+        
+          
+            Here’s a case worth pondering: your app freezes for ten seconds, and you ask an AI agent what’s wrong. What does it actually do? For a long time the honest answer was: it rummages through your code and takes a wild guess. A snapshot taken by a profiler tool is runtime evidence. It knows exactly […]
+Link to article: https://blog.jetbrains.com/dotnet/2026/06/25/performance-profiling-agent-skill-in-rider/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Raymond&#39;s hot take on Hainanese chicken</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_10/</link>
+      <pubDate>Thu, 25 Jun 2026 14:00:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_10/</guid>
+      <description>
+        
+          
+            &amp;quot;If we give it no flavor, we can say that it&#39;s really subtle.&amp;quot;
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260625-01/?p=112469 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The case of the DLL that was not present in memory despite not being formally unloaded, part 1</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_11/</link>
+      <pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_11/</guid>
+      <description>
+        
+          
+            The team responsible for shell32.dll received a bug saying that they were responsible for a large number of crashes in a particular third party program. Opening the crash dumps showed the clear signs of a stack overflow: # Child-SP RetAddr Call Site
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260625-00/?p=112467 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Which Azure Cosmos DB Role Does My App Need?</title>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_12/</link>
+      <pubDate>Thu, 25 Jun 2026 13:00:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_12/</guid>
       <description>
         
           
@@ -27,10 +230,10 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/which-azure-cosmos-db-r
     
     <item>
       <title>Visitor Design Pattern in C#: Complete Guide with Examples</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_13/</link>
       <pubDate>Thu, 25 Jun 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_13/</guid>
       <description>
         
           
@@ -44,10 +247,10 @@ Link to article: https://www.devleader.ca/2026/06/25/visitor-design-pattern-in-c
     
     <item>
       <title>The Unglamorous Side of Rust Web Development</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_14/</link>
       <pubDate>Thu, 25 Jun 2026 12:11:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_14/</guid>
       <description>
         
           
@@ -61,10 +264,10 @@ Link to article: https://blog.jetbrains.com/rust/2026/06/25/rust-web-development
     
     <item>
       <title>Big Thinkers: Guido van Rossum – How Python Became the Connective Tissue of Modern Infrastructure and AI</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_15/</link>
       <pubDate>Thu, 25 Jun 2026 11:37:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_15/</guid>
       <description>
         
           
@@ -78,14 +281,14 @@ Link to article: https://build5nines.com/big-thinkers-guido-van-rossum-how-pytho
     
     <item>
       <title>Our Research on Membership Inference Attacks and Preventing Privacy Leaks</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_16/</link>
       <pubDate>Thu, 25 Jun 2026 10:02:06 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_16/</guid>
       <description>
         
           
-            There’s a stranger out there who has nothing but API access to your chatbot. They are interested in knowing whether a specific patient, employee, or customer appears in the data you trained it on. Without breaching the database or stealing backups, this person can theoretically figure out this information with carefully crafted prompts and a […]
+            Imagine there’s a stranger out there who has nothing but API access to your chatbot. They are interested in knowing whether a specific patient, employee, or customer appears in the data you trained it on. Without breaching the database or stealing backups, this person can theoretically figure out this information with carefully crafted prompts and […]
 Link to article: https://blog.jetbrains.com/research/2026/06/membership-inference/ 
           
           
@@ -95,10 +298,10 @@ Link to article: https://blog.jetbrains.com/research/2026/06/membership-inferenc
     
     <item>
       <title>Explicit Lazy Imports Are Coming to Python 3.15</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_17/</link>
       <pubDate>Thu, 25 Jun 2026 08:21:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_17/</guid>
       <description>
         
           
@@ -112,10 +315,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2026/06/explicit-lazy-import
     
     <item>
       <title>How agents are transforming work</title>
-      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_18/</link>
       <pubDate>Thu, 25 Jun 2026 02:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_18/</guid>
       <description>
         
           
