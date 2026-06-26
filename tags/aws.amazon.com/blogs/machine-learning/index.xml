@@ -7,7 +7,57 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 25 Jun 2026 17:55:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jun 2026 14:47:45 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build interactive PDF text extraction from Amazon S3</title>
+      <link>https://www.dotnetramblings.com/post/26_06_2026/26_06_2026_1/</link>
+      <pubDate>Fri, 26 Jun 2026 14:47:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_06_2026/26_06_2026_1/</guid>
+      <description>
+        
+          
+            In this post, you’ll build a server that extracts text from PDF files in Amazon S3 in real time. This protocol-based approach provides programmatic document access. You’ll walk through the architecture, set up the server, and run interactive document queries. Along the way, you’ll compare this approach with Amazon Textract so you can decide which tool fits your workload.
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-interactive-pdf-text-extraction-from-amazon-s3/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Cara pioneers domain-specific AI for enterprise insurance brokerages with AWS</title>
+      <link>https://www.dotnetramblings.com/post/26_06_2026/26_06_2026_2/</link>
+      <pubDate>Fri, 26 Jun 2026 14:42:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_06_2026/26_06_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we explore how Cara, built in cooperation with AWS, addresses these challenges. We walk through the technical design decisions and the AWS services that support the solution. We also share measurable outcomes Cara has delivered for enterprise brokerages.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-cara-pioneers-domain-specific-ai-for-enterprise-insurance-brokerages-with-aws/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Production-grade AI agents for financial compliance: Lessons from Stripe</title>
+      <link>https://www.dotnetramblings.com/post/26_06_2026/26_06_2026_3/</link>
+      <pubDate>Fri, 26 Jun 2026 14:38:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_06_2026/26_06_2026_3/</guid>
+      <description>
+        
+          
+            In this post, you learn how Stripe built a production-grade AI agent system for financial compliance. We cover the technical architecture of Stripe’s ReAct agent framework and the infrastructure decisions behind a dedicated agent service. We also discuss the role of human oversight in maintaining accountability, and key lessons about task decomposition, orchestration patterns, and cost optimization through prompt caching. By the end, you will understand how to design agentic systems that scale compliance operations without compromising quality or auditability.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Retrofit, don’t rebuild: Agentic overlays for transforming legacy enterprise services</title>
       <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_4/</link>
