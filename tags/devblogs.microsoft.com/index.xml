@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 25 Jun 2026 21:33:48 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:05 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your agent already has a plan</title>
+      <link>https://www.dotnetramblings.com/post/26_06_2026/26_06_2026_0/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_06_2026/26_06_2026_0/</guid>
+      <description>
+        
+          
+            If an agent isn&#39;t doing the right thing, the obvious move is to make the docs clearer. Add a tip, spell out the correct command, describe the right approach more prominently. You do all of that, and the agent still ignores it. It does what it had already decided to do. The tip wasn&#39;t ignored because it was unclear, it was ignored beca
+Link to article: https://devblogs.microsoft.com/blog/your-agent-already-has-a-plan 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Save the Date: Pure Virtual C&#43;&#43; 2026</title>
       <link>https://www.dotnetramblings.com/post/25_06_2026/25_06_2026_0/</link>
@@ -342,142 +359,6 @@ Link to article: https://devblogs.microsoft.com/ise/separating-deterministic-ext
           
             How AI coding models calibrate effort, token cost, and tool use on even the simplest task, and what that means for model selection and cost. Read the full article
 Link to article: https://devblogs.microsoft.com/vscode-blog/what-50,000-runs-of-a-5-line-eval-taught-us 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_2/</link>
-      <pubDate>Thu, 18 Jun 2026 20:37:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_2/</guid>
-      <description>
-        
-          
-            We shipped a lot at Build 2026: hosted agents, Toolboxes, Foundry IQ, Memory, Managed Compute, fine‑tuning, Frontier Tuning, and a new evaluation and optimization stack. Read
-Link to article: https://devblogs.microsoft.com/foundry/outcome-driven-learning-systems-enterprise-rl-with-openenv-and-foundry 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Meet the Agent Academy Hackathon Winners</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_3/</link>
-      <pubDate>Thu, 18 Jun 2026 19:52:38 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_3/</guid>
-      <description>
-        
-          
-            From May 12 to June 2, 2026, builders from around the world put their Agent Academy learning to the test by designing, building, and shipping real, working AI agents with Copilot Studio. After two weeks of judging, we’re thrilled to announce the Agent Academy Hackathon winners. 🏆 The Winners Recruit Track Th
-Link to article: https://devblogs.microsoft.com/powerplatform/agent-academy-hackathon-winners 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>DirectX Dump Files Preview Now Available!</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_5/</link>
-      <pubDate>Thu, 18 Jun 2026 17:05:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_5/</guid>
-      <description>
-        
-          
-            At this year’s GDC, we shared our vision for bringing console‑level GPU developer tools to Windows. As part of that announcement, we introduced DirectX Dump Files as a major step forward in GPU crash debugging on Windows. Today, we’re excited to make our DirectX Dump Files public preview available to developers! If you missed our G
-Link to article: https://devblogs.microsoft.com/directx/dx-dump-files-preview 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PIX 2606.18-preview: DirectX Dump Files and more</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_6/</link>
-      <pubDate>Thu, 18 Jun 2026 17:00:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_6/</guid>
-      <description>
-        
-          
-            Today we released PIX 2606.18-preview, available here. This PIX release coincides with the preview availability of DirectX Dump Files (.dxdmp). The PIX UI can open DirectX Dump Files directly for analysis, and the PIX API can be used to analyze them programmatically. Please visit
-Link to article: https://devblogs.microsoft.com/pix/pix-2606-18-preview 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing TypeScript 7.0 RC</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_8/</link>
-      <pubDate>Thu, 18 Jun 2026 14:31:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_8/</guid>
-      <description>
-        
-          
-            Today we are excited to announce the Release Candidate of TypeScript 7.0! If you haven&#39;t been following TypeScript 7.0&#39;s development, this release is significant in that it is built on a completely new foundation. Over the past year, we have been porting the existing TypeScript codebase from TypeScript (as a bootstrapped codebase that comp
-Link to article: https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Stop overloading your skills</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_9/</link>
-      <pubDate>Thu, 18 Jun 2026 14:25:27 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_9/</guid>
-      <description>
-        
-          
-            You built a skill for your technology. API references, authentication flows, SDK patterns, error handling, version info, all packed into one skill. The agent calls it, gets all that context, and generates code. The kicker? You&#39;ve just wasted a lot of tokens. It already knows Models have ingested your documentation, your St
-Link to article: https://devblogs.microsoft.com/blog/stop-overloading-your-skills 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why doesn&#39;t &lt;code&gt;Get­Last­Input­Info()&lt;/code&gt; return info for the user I&#39;m impersonating?</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_10/</link>
-      <pubDate>Thu, 18 Jun 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_10/</guid>
-      <description>
-        
-          
-            A customer had a Windows NT service process, and from that service process, they wanted to obtain the last input time for all signed-in users. Their strategy was to use WTS­Query­User­Token() to get the token for each user, use that token to impersonate the user, and then call Get­Last­Input­Info() to get the
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260618-00/?p=112444 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Use your own language model key in VS Code</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_17/</link>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_17/</guid>
-      <description>
-        
-          
-            Learn how to use bring your own key (BYOK) in VS Code to add models from providers like Azure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter, or use a local model with Ollama, Foundry Local, and more. Read the full article
-Link to article: https://devblogs.microsoft.com/vscode-blog/use-your-own-language-model-key-in-vs-code 
           
           
         

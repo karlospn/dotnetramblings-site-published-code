@@ -274,38 +274,5 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-campai
       </description>
     </item>
     
-    <item>
-      <title>Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_0/</link>
-      <pubDate>Thu, 18 Jun 2026 23:31:58 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_0/</guid>
-      <description>
-        
-          
-            Amazon SageMaker AI provides fully managed real-time inference hosting for machine learning models. You deploy a model to a SageMaker endpoint backed by one or more compute instances, and SageMaker handles provisioning and scaling. SageMaker supports multiple endpoint architectures. This post focuses on the two most relevant to generative AI workloads with detailed observability: Single-model endpoints (SME) and Inference component (IC) endpoints.
-Link to article: https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Amazon Bedrock AgentCore harness is now generally available: Go from idea to production-grade agent in minutes</title>
-      <link>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_4/</link>
-      <pubDate>Thu, 18 Jun 2026 17:32:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_06_2026/18_06_2026_4/</guid>
-      <description>
-        
-          
-            Today, Amazon Bedrock AgentCore harness is generally available. Two API calls (CreateHarness to define an agent, and InvokeHarness to run it), and you have an agent running in seconds. The agent runs in its own isolated environment with a filesystem and shell, so it can read files, run commands, and write code safely. It remembers users and conversations across sessions, picks up skills you point it at (including the AWS-curated catalog), browses the web, calls your tools through gateway or MCP, and switches model providers mid-session without losing context.
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
