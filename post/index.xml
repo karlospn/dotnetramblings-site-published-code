@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 26 Jun 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started With NATS JetStream in .NET</title>
+      <link>https://www.dotnetramblings.com/post/27_06_2026/27_06_2026_0/</link>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_06_2026/27_06_2026_0/</guid>
+      <description>
+        
+          
+            NATS almost never comes up when .NET developers talk about message queues, and that&#39;s a shame. It&#39;s a tiny, fast, single-binary broker, and JetStream adds durable, at-least-once delivery on top. Here&#39;s why it&#39;s worth a look and how to wire it into an ASP.NET Core app.
+Link to article: https://www.milanjovanovic.tech/blog/getting-started-with-nats-jetstream-in-dotnet 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>HttpClient in C#: The Complete Guide for .NET Developers</title>
       <link>https://www.dotnetramblings.com/post/26_06_2026/26_06_2026_0/</link>
@@ -1573,176 +1590,6 @@ Link to article: https://www.devleader.ca/2026/06/20/how-to-implement-interprete
           
             We built the system exactly the way a modular monolith is supposed to be built, and that&#39;s how I ended up with two modules I couldn&#39;t pull apart a year later. Here&#39;s how a reasonable boundary decision turns into one you can&#39;t undo, and the early signals I walked right past.
 Link to article: https://www.milanjovanovic.tech/blog/the-modular-monolith-boundary-i-couldnt-take-back 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>EF Core CRUD Operations in C#: Create, Read, Update, Delete</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_0/</link>
-      <pubDate>Fri, 19 Jun 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_0/</guid>
-      <description>
-        
-          
-            Master EF Core CRUD in C# with .NET 10 -- learn AddAsync, SaveChangesAsync, FindAsync, Where queries, tracked updates, and bulk ExecuteUpdate/ExecuteDelete.
-Link to article: https://www.devleader.ca/2026/06/19/ef-core-crud-operations-in-c-create-read-update-delete 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Kafka Support Improvements in Wolverine 6.13</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_1/</link>
-      <pubDate>Fri, 19 Jun 2026 14:43:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_1/</guid>
-      <description>
-        
-          
-            Wolverine 6.13 dropped yesterday with quite a few refinements to our existing integration with Kafka in Wolverine. We had, of course, probably fallen into the trap of just trying to make Kafka behave like a Rabbit MQ analogue. It was already on my radar to get enable more idiomatic Kafka capabilities, and a community request … Continue reading Kafka Support Improvements in Wolverine 6.13 →
-Link to article: https://jeremydmiller.com/2026/06/19/kafka-support-improvements-in-wolverine-6-13/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Web Search on Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_2/</link>
-      <pubDate>Fri, 19 Jun 2026 14:15:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_2/</guid>
-      <description>
-        
-          
-            Web Search on Amazon Bedrock AgentCore is now generally available. In this post, we walk through what makes Web Search on Amazon Bedrock AgentCore different, why it matters, and how to wire it in with a few lines of code.
-Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_3/</link>
-      <pubDate>Fri, 19 Jun 2026 14:05:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_3/</guid>
-      <description>
-        
-          
-            This post shows how to enable Adobe Marketing Agent for Amazon Quick using a Model Context Protocol (MCP). We walk you through how to configure the integration, authenticate using your Adobe credentials, and get the latest insights in Amazon Quick. The sample workflow returns audience rankings, loyalty segment summaries, journey usage, and conflict recommendations.
-Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bamboo End of Life: How to Prepare and Choose the Right CI/CD Replacement</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_4/</link>
-      <pubDate>Fri, 19 Jun 2026 13:10:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_4/</guid>
-      <description>
-        
-          
-            If your team is using Bamboo, you’ve probably seen the news: Bamboo Data Center is being retired as part of Atlassian’s broader Data Center transition strategy. Support will continue for several years, but many teams have already started thinking about the next step. Whether you’re considering Bamboo Cloud or moving to an entirely new CI/CD […]
-Link to article: https://blog.jetbrains.com/teamcity/2026/06/bamboo-end-of-life/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Memento Pattern Best Practices in C#: Code Organization and Maintainability</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_5/</link>
-      <pubDate>Fri, 19 Jun 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_5/</guid>
-      <description>
-        
-          
-            Memento pattern best practices in C# for clean state management, memory optimization, and avoiding common pitfalls with undo/redo systems.
-Link to article: https://www.devleader.ca/2026/06/19/memento-pattern-best-practices-in-c-code-organization-and-maintainability 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Structuring IntelliJ Plugins with Optional Content Modules</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_6/</link>
-      <pubDate>Fri, 19 Jun 2026 11:45:32 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_6/</guid>
-      <description>
-        
-          
-            What if one part of your plugin should load only when a specific IDE functionality is available? Plugin Model v2 is now available as an experimental way to structure, package, and build plugins, and to support such scenarios in a future-proof way. Its primary use case is in Split Mode (Remote Development) plugins. In this […]
-Link to article: https://blog.jetbrains.com/platform/2026/06/structuring-intellij-plugins-with-optional-content-modules/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>YouTrack Security Update: Upgrade Required for YouTrack Server</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_7/</link>
-      <pubDate>Fri, 19 Jun 2026 11:42:41 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_7/</guid>
-      <description>
-        
-          
-            We’re sharing this update to inform YouTrack administrators about several security vulnerabilities that were recently identified and fixed in YouTrack. For YouTrack Cloud users, this post is purely informational – YouTrack Cloud has already been patched and no action is required. For YouTrack Server administrators, we recommend upgrading to one of the fixed versions listed […]
-Link to article: https://blog.jetbrains.com/youtrack/2026/06/youtrack-security-update-youtrack-server-upgrade-required/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Separating Deterministic Extraction from AI Inference in Industrial Summarization</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_8/</link>
-      <pubDate>Fri, 19 Jun 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_8/</guid>
-      <description>
-        
-          
-            Introduction: When Valid JSON Is Not Enough 100% of our outputs were valid JSON. 0% met the data contract. We prototyped an LLM-powered system that converts operational shift logs into structured summaries consumed by dashboards, compliance workflows, and incoming crews. The output schema required specific operational sections bec
-Link to article: https://devblogs.microsoft.com/ise/separating-deterministic-extraction-from-ai-inference 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What 50,000 Runs of a 5-Line Eval Taught Us</title>
-      <link>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_9/</link>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_06_2026/19_06_2026_9/</guid>
-      <description>
-        
-          
-            How AI coding models calibrate effort, token cost, and tool use on even the simplest task, and what that means for model selection and cost. Read the full article
-Link to article: https://devblogs.microsoft.com/vscode-blog/what-50,000-runs-of-a-5-line-eval-taught-us 
           
           
         
