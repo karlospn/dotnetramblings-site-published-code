@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 27 Jun 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jun 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IO Performance: Reuse HttpClient to Avoid Connection Overhead</title>
+      <link>https://www.dotnetramblings.com/post/28_06_2026/28_06_2026_0/</link>
+      <pubDate>Sun, 28 Jun 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_06_2026/28_06_2026_0/</guid>
+      <description>
+        
+          
+            When populating collections in .NET, choosing the right bulk operation improves both clarity and efficiency. Methods like AddRange() and InsertRange() allow multiple items to be added in a single call, reducing overhead compared to repeated individual inserts and clearly expressing intent. When combined with proper capacity planning, these approaches help produce predictable, maintainable code—whether items are being appended or inserted at a specific position.
+Link to article: https://dotnettips.com/2026/06/28/io-performance-reuse-httpclient-to-avoid-connection-overhead/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>When Your Product Manager Becomes Your Boss - Dev Leader Weekly 146</title>
+      <link>https://www.dotnetramblings.com/post/28_06_2026/28_06_2026_1/</link>
+      <pubDate>Sun, 28 Jun 2026 02:38:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_06_2026/28_06_2026_1/</guid>
+      <description>
+        
+          
+            Welcome to another issue of Dev Leader Weekly! In this issue, I dig into a Reddit thread about engineers reporting directly to a product manager -- the healthy conflict you lose, the career and delivery risks, and how to make it work if you find yourself in that spot.
+Link to article: https://www.devleader.ca/2026/06/28/when-your-product-manager-becomes-your-boss-dev-leader-weekly-146 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>IHttpClientFactory in .NET: Named Clients, Typed Clients, and DI Patterns</title>
       <link>https://www.dotnetramblings.com/post/27_06_2026/27_06_2026_0/</link>

@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 26 Jun 2026 16:01:23 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jun 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/dotnettips.wordpress.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IO Performance: Reuse HttpClient to Avoid Connection Overhead</title>
+      <link>https://www.dotnetramblings.com/post/28_06_2026/28_06_2026_0/</link>
+      <pubDate>Sun, 28 Jun 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_06_2026/28_06_2026_0/</guid>
+      <description>
+        
+          
+            When populating collections in .NET, choosing the right bulk operation improves both clarity and efficiency. Methods like AddRange() and InsertRange() allow multiple items to be added in a single call, reducing overhead compared to repeated individual inserts and clearly expressing intent. When combined with proper capacity planning, these approaches help produce predictable, maintainable code—whether items are being appended or inserted at a specific position.
+Link to article: https://dotnettips.com/2026/06/28/io-performance-reuse-httpclient-to-avoid-connection-overhead/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>dotNetDave Rocks .NET Day Switzerland 2026</title>
       <link>https://www.dotnetramblings.com/post/26_06_2026/26_06_2026_2/</link>
