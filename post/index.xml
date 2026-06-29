@@ -7,13 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 29 Jun 2026 14:00:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2026 17:25:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Automating your Visual Studio extension builds with GitHub Actions</title>
+      <title>Debugging production agents with Amazon Bedrock AgentCore Observability</title>
       <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_0/</link>
-      <pubDate>Mon, 29 Jun 2026 14:00:25 +0000</pubDate>
+      <pubDate>Mon, 29 Jun 2026 17:25:21 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_0/</guid>
+      <description>
+        
+          
+            In this post, you learn how to debug production agent failures using built-in observability capabilities. We walk through common failure patterns, show how to analyze agent behavior with traces and metrics, and provide structured workflows for resolving issues such as infinite loops and tool invocation failures. This is Part 1 of a two-part series. Part 2 covers performance optimization and memory management.
+Link to article: https://aws.amazon.com/blogs/machine-learning/debugging-production-agents-with-amazon-bedrock-agentcore-observability/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Packaging and Package Identity for .NET apps with WinApp CLI on Windows</title>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_1/</link>
+      <pubDate>Mon, 29 Jun 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_1/</guid>
+      <description>
+        
+          
+            Package identity has often been a pain point for developers looking to build apps that integrate with Windows APIs. Many modern Windows features, like push notifications or the AI APIs, are gated behind package identity. For Windows apps that are unpackaged by default (like .NET console or WPF applications), this meant wrestling with packag
+Link to article: https://devblogs.microsoft.com/dotnet/packaging-dotnet-apps-winapp 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>WSL container is now available for public preview</title>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_2/</link>
+      <pubDate>Mon, 29 Jun 2026 15:29:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_2/</guid>
+      <description>
+        
+          
+            At Microsoft Build 2026, we introduced WSL containers, bringing Linux container development directly into Windows through the Windows Subsystem for Linux (WSL). Containers have become a foundational part of modern development - from cloud-native applications and AI workloads to testing and deployment pipelines and WSL containers simplify th
+Link to article: https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>JetBrains Air lands on Windows</title>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_3/</link>
+      <pubDate>Mon, 29 Jun 2026 15:22:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_3/</guid>
+      <description>
+        
+          
+            We’re excited to welcome Windows developers to JetBrains Air! Download for x64 / Download for ARM64 Since we launched the JetBrains Air, Windows support has been one of the most requested updates from the developer community. We heard that feedback and worked hard to bring Air to Windows. Air is built for agent-agnostic development – […]
+Link to article: https://blog.jetbrains.com/air/2026/06/jetbrains-air-lands-on-windows/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Role of Static Code Analysis in Fintech Compliance</title>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_4/</link>
+      <pubDate>Mon, 29 Jun 2026 14:44:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_4/</guid>
+      <description>
+        
+          
+            What’s at stake with every commit Security incidents in financial services are both frequent and costly. The average data breach in the financial industry cost USD 6.08 million in 2024. That includes incident response, customer notification, legal work, and reputational damage, but it doesn’t include the months of engineering that went into writing well-intentioned but […]
+Link to article: https://blog.jetbrains.com/qodana/2026/06/sast-in-fintech-compliance/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Automating your Visual Studio extension builds with GitHub Actions</title>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_5/</link>
+      <pubDate>Mon, 29 Jun 2026 14:00:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_5/</guid>
       <description>
         
           
@@ -27,10 +112,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/automating-your-vis
     
     <item>
       <title>When to Use Visitor Pattern in C#: Decision Guide with Examples</title>
-      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_6/</link>
       <pubDate>Mon, 29 Jun 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_6/</guid>
       <description>
         
           
@@ -44,10 +129,10 @@ Link to article: https://www.devleader.ca/2026/06/29/when-to-use-visitor-pattern
     
     <item>
       <title>Kotlin Notebook Sunset</title>
-      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_7/</link>
       <pubDate>Mon, 29 Jun 2026 12:02:16 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_7/</guid>
       <description>
         
           
@@ -61,10 +146,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/06/kotlin-notebook-sunset/
     
     <item>
       <title>Agent Harness: Working with your data, safely</title>
-      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_8/</link>
       <pubDate>Mon, 29 Jun 2026 10:41:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_8/</guid>
       <description>
         
           
@@ -78,10 +163,10 @@ Link to article: https://devblogs.microsoft.com/agent-framework/agent-harness-wo
     
     <item>
       <title>Remote Event Receivers are retiring: move to SharePoint webhooks before July 1, 2027</title>
-      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_9/</link>
       <pubDate>Mon, 29 Jun 2026 09:32:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_9/</guid>
       <description>
         
           
@@ -95,10 +180,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/remote-event-rec
     
     <item>
       <title>Spring AI 2.0 is GA: Vector Search, Memory, and Agents on Azure Cosmos DB</title>
-      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_10/</link>
       <pubDate>Mon, 29 Jun 2026 07:00:53 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_10/</guid>
       <description>
         
           
@@ -112,10 +197,10 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/spring-ai-2-0-is-ga-vec
     
     <item>
       <title>Mapping Europe’s AI Workforce Opportunity</title>
-      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_11/</link>
       <pubDate>Mon, 29 Jun 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_11/</guid>
       <description>
         
           
