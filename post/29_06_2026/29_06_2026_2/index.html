@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>WSL container is now available for public preview | .NET Ramblings</title>
+<title>Multi-tenant LLM analytics with row-level security: How we built a secure agent on AWS | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="At Microsoft Build 2026, we introduced WSL containers, bringing Linux container development directly into Windows through the Windows Subsystem for Linux (WSL). …" />
+<meta name="description" content="In this post, we show you how PAR built a production-ready multi-tenant LLM analytics system that enforces row-level security through a three-layer …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="WSL container is now available for public preview" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
+<meta name="twitter:title" content="Multi-tenant LLM analytics with row-level security: How we built a secure agent on AWS" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_2/" />
-<meta property="og:title" content="WSL container is now available for public preview" />
-<meta property="og:description" content="At Microsoft Build 2026, we introduced WSL containers, bringing Linux container development directly into Windows through the Windows Subsystem for Linux (WSL). …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
+<meta property="og:title" content="Multi-tenant LLM analytics with row-level security: How we built a secure agent on AWS" />
+<meta property="og:description" content="In this post, we show you how PAR built a production-ready multi-tenant LLM analytics system that enforces row-level security through a three-layer …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">WSL container is now available for public preview</h1>
+    <h1 class="post_title">Multi-tenant LLM analytics with row-level security: How we built a secure agent on AWS</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Jun 29, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jun 29, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>At Microsoft Build 2026, we introduced WSL containers, bringing Linux container development directly into Windows through the Windows Subsystem for Linux (WSL). Containers have become a foundational part of modern development - from cloud-native applications and AI workloads to testing and deployment pipelines and WSL containers simplify th</p>
+    <div class="post_body"><p>In this post, we show you how PAR built a production-ready multi-tenant LLM analytics system that enforces row-level security through a three-layer architecture: cryptographic request signing with AWS SigV4, semantic validation on Amazon Bedrock, and programmatic data isolation via Split-Plane SQL. We demonstrate how each layer operates independently to reduce the risk of cross-tenant data exposure, even when the LLM itself is compromised or manipulated.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview">https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview</a></li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/multi-tenant-llm-analytics-with-row-level-security-how-we-built-a-secure-agent-on-aws/">https://aws.amazon.com/blogs/machine-learning/multi-tenant-llm-analytics-with-row-level-security-how-we-built-a-secure-agent-on-aws/</a></li>
 </ul>
 
     </div>

@@ -7,13 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 29 Jun 2026 17:25:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2026 18:15:14 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Debugging production agents with Amazon Bedrock AgentCore Observability</title>
+      <title>Implement a backup strategy for Amazon Quick Sight BI assets</title>
       <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_0/</link>
-      <pubDate>Mon, 29 Jun 2026 17:25:21 +0000</pubDate>
+      <pubDate>Mon, 29 Jun 2026 18:15:14 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_0/</guid>
+      <description>
+        
+          
+            In this post, we cover best practices for implementing an effective backup strategy for BI assets in Quick Sight. We start by covering the options for selecting the assets to include in your backup, then explain the high-level APIs available for that purpose, and finalize with sample code to help you get started quickly.
+Link to article: https://aws.amazon.com/blogs/machine-learning/implement-a-backup-strategy-for-amazon-quick-sight-bi-assets/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Pair Nova 2 Lite with Claude for cost-optimized document processing</title>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_1/</link>
+      <pubDate>Mon, 29 Jun 2026 17:52:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_1/</guid>
+      <description>
+        
+          
+            In this post, we show how pairing Amazon Nova 2 Lite with Anthropic’s Claude Sonnet 4.6 delivers an efficient solution for digitizing scanned documents at scale. We built a two-model pipeline on Amazon Bedrock for digitizing scanned yearbook pages. Amazon Nova 2 Lite handles native multimodal extraction in a single call: detecting photos, extracting visible names with coordinates, and returning page-level metadata. Claude Sonnet 4.6 then performs spatial reasoning to match names to faces based on page layout.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Multi-tenant LLM analytics with row-level security: How we built a secure agent on AWS</title>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_2/</link>
+      <pubDate>Mon, 29 Jun 2026 17:39:29 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we show you how PAR built a production-ready multi-tenant LLM analytics system that enforces row-level security through a three-layer architecture: cryptographic request signing with AWS SigV4, semantic validation on Amazon Bedrock, and programmatic data isolation via Split-Plane SQL. We demonstrate how each layer operates independently to reduce the risk of cross-tenant data exposure, even when the LLM itself is compromised or manipulated.
+Link to article: https://aws.amazon.com/blogs/machine-learning/multi-tenant-llm-analytics-with-row-level-security-how-we-built-a-secure-agent-on-aws/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build an agentic AI healthcare claims pipeline with Amazon Bedrock and AWS HealthLake</title>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_3/</link>
+      <pubDate>Mon, 29 Jun 2026 17:36:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_3/</guid>
+      <description>
+        
+          
+            In this post, we show you how to build an automated claims processing pipeline using two key Amazon Bedrock capabilities: Amazon Bedrock Data Automation for intelligent document extraction from healthcare claim forms, and Amazon Bedrock AgentCore for hosting an AI agent that validates and transforms the extracted data into FHIR (Fast Healthcare Interoperable Resources) resources in AWS HealthLake. You will learn how to combine these services to create an end-to-end workflow that reduces manual processing while maintaining accuracy through automated validation checks.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Debugging production agents with Amazon Bedrock AgentCore Observability</title>
+      <link>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_4/</link>
+      <pubDate>Mon, 29 Jun 2026 17:25:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_06_2026/29_06_2026_4/</guid>
       <description>
         
           
