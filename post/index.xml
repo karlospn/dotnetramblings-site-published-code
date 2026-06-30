@@ -7,13 +7,149 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 30 Jun 2026 16:06:32 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2026 18:40:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Big Week for the Critter Stack</title>
+      <title>Introducing Claude Sonnet 5 on AWS: Anthropic’s most capable Sonnet model</title>
       <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_0/</link>
-      <pubDate>Tue, 30 Jun 2026 16:06:32 +0000</pubDate>
+      <pubDate>Tue, 30 Jun 2026 18:40:09 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_0/</guid>
+      <description>
+        
+          
+            Today, we’re excited to announce the availability of Anthropic’s most advanced Sonnet model, Claude Sonnet 5, on Amazon Bedrock and Claude Platform on AWS. Claude Sonnet 5 is the first Sonnet model of Anthropic’s latest generation and represents a meaningful step forward. It delivers top-tier intelligence at Sonnet pricing for coding, agents, and everyday professional […]
+Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-on-aws-anthropics-most-capable-sonnet-model/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MCP Beyond the Chat Window: Build Diagnostics in CI</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</link>
+      <pubDate>Tue, 30 Jun 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</guid>
+      <description>
+        
+          
+            In a previous post we introduced the Microsoft Binlog MCP Server and showed how an AI assistant can investigate MSBuild binary logs through natural language. Picture the payoff in CI: a pull request build fails, and instead of a human downloading
+Link to article: https://devblogs.microsoft.com/dotnet/mcp-build-diagnostics-workflows 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build generative UI for AI agents on Amazon Bedrock AgentCore with the AG-UI protocol</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</link>
+      <pubDate>Tue, 30 Jun 2026 16:46:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</guid>
+      <description>
+        
+          
+            This post walks through how AG-UI integrates into the Fullstack AgentCore Solution Template (FAST) to build interactive agent frontends on Amazon Bedrock AgentCore. We then show how CopilotKit extends this with generative UI, shared state, and human-in-the-loop interactions, all deployed on Amazon Bedrock AgentCore.
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-generative-ui-for-ai-agents-on-amazon-bedrock-agentcore-with-the-ag-ui-protocol/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Simplify multi-account access to Amazon Bedrock models with managed entitlements</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</link>
+      <pubDate>Tue, 30 Jun 2026 16:42:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</guid>
+      <description>
+        
+          
+            In this post, we show you how to use managed entitlements for Amazon Bedrock to subscribe once from a central account and distribute model access across your organization. This approach removes the need for AWS Marketplace permissions in workload accounts.
+Link to article: https://aws.amazon.com/blogs/machine-learning/simplify-multi-account-access-to-amazon-bedrock-models-with-managed-entitlements/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Implementing resilience patterns with Amazon Bedrock and LLM gateway</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_4/</link>
+      <pubDate>Tue, 30 Jun 2026 16:40:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_4/</guid>
+      <description>
+        
+          
+            In this post, you will learn five practical patterns for building resilient generative AI applications on AWS, progressing from native Amazon Bedrock features to multi-model orchestration using an LLM gateway. These patterns address real-world challenges such as quota exhaustion during unexpected traffic surges, maximizing availability through geographic distribution of inference, and helping prevent noisy neighbor problems in multi-tenant environments.
+Link to article: https://aws.amazon.com/blogs/machine-learning/implementing-resilience-patterns-with-amazon-bedrock-and-llm-gateway/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Outpost VFX Uses AWS to Accelerate AI Model Training for Visual Effects</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_5/</link>
+      <pubDate>Tue, 30 Jun 2026 16:37:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_5/</guid>
+      <description>
+        
+          
+            In this post, we explore how Outpost VFX achieved 8x faster training speeds using AWS infrastructure to transform their face replacement workflow, the technical architecture they implemented to overcome single-GPU limitations, and the measurable results achieved through AWS multi-GPU training.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-outpost-vfx-uses-aws-to-accelerate-ai-model-training-for-visual-effects/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building bilingual NER for cargo logistics with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_6/</link>
+      <pubDate>Tue, 30 Jun 2026 16:33:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_6/</guid>
+      <description>
+        
+          
+            In this post, we share the technical approach using token-based distillation, lessons learned, and deployment architecture. If you face similar bilingual NER challenges, you can benefit from IBS Software’s experience with the Amazon Bedrock knowledge distillation capabilities.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-bilingual-ner-for-cargo-logistics-with-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fine-tune Amazon Nova models for accurate email data extraction</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_7/</link>
+      <pubDate>Tue, 30 Jun 2026 16:26:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_7/</guid>
+      <description>
+        
+          
+            In this post, you&#39;ll learn how fine-tuning Amazon Nova models using Amazon SageMaker AI addresses these specific issues by teaching the models to recognize your exact data patterns, distinguish between similar fields, and process information more efficiently—achieving up to 94.77% extraction accuracy while reducing costs 50%.
+Link to article: https://aws.amazon.com/blogs/machine-learning/fine-tune-amazon-nova-models-for-accurate-email-data-extraction/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>A Big Week for the Critter Stack</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_8/</link>
+      <pubDate>Tue, 30 Jun 2026 16:06:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_8/</guid>
       <description>
         
           
@@ -26,10 +162,10 @@
     
     <item>
       <title>MSIX Per-User vs All Users: Install, Provision, and Uninstall Packages</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_9/</link>
       <pubDate>Tue, 30 Jun 2026 16:00:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_9/</guid>
       <description>
         
           
@@ -43,10 +179,10 @@ Link to article: https://devblogs.microsoft.com/insidemsix/msix-per-user-vs-all-
     
     <item>
       <title>Mailbox requirement set 1.16 now available for Outlook add-ins</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_10/</link>
       <pubDate>Tue, 30 Jun 2026 15:00:02 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_10/</guid>
       <description>
         
           
@@ -60,10 +196,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/mailbox-requirem
     
     <item>
       <title>Kodee’s Kotlin Roundup: Kotlin Turns 15, Kotlin 2.4.0, and the Kotlin Toolchain</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_11/</link>
       <pubDate>Tue, 30 Jun 2026 14:03:02 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_11/</guid>
       <description>
         
           
@@ -77,10 +213,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2026/06/kodees-kotlin-roundup
     
     <item>
       <title>A compatibility note on the abuse of Windows window class extra bytes</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_12/</link>
       <pubDate>Tue, 30 Jun 2026 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_12/</guid>
       <description>
         
           
@@ -94,10 +230,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260630-00/?p=11248
     
     <item>
       <title>GitHub Copilot now an Integrated Agent in JetBrains IDEs</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_13/</link>
       <pubDate>Tue, 30 Jun 2026 13:15:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_13/</guid>
       <description>
         
           
@@ -111,10 +247,10 @@ Link to article: https://blog.jetbrains.com/ai/2026/06/github-copilot-now-an-int
     
     <item>
       <title>Visitor Pattern Best Practices in C#: Code Organization and Maintainability</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_14/</link>
       <pubDate>Tue, 30 Jun 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_14/</guid>
       <description>
         
           
@@ -128,10 +264,10 @@ Link to article: https://www.devleader.ca/2026/06/30/visitor-pattern-best-practi
     
     <item>
       <title>Terraform Dependency Management: When Ordering Matters More Than You Think</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_15/</link>
       <pubDate>Tue, 30 Jun 2026 12:03:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_15/</guid>
       <description>
         
           
@@ -145,10 +281,10 @@ Link to article: https://build5nines.com/terraform-dependency-management-when-or
     
     <item>
       <title>Closed class hierarchies: Exploring the .NET 11 preview - Part 4</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_16/</link>
       <pubDate>Tue, 30 Jun 2026 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_16/</guid>
       <description>
         
           
@@ -162,10 +298,10 @@ Link to article: https://andrewlock.net/exploring-the-dotnet-11-preview-4-closed
     
     <item>
       <title>🚀React Native Windows v0.84 is here!!</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_17/</link>
       <pubDate>Tue, 30 Jun 2026 09:16:21 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_17/</guid>
       <description>
         
           
@@ -178,45 +314,11 @@ Link to article: https://devblogs.microsoft.com/react-native/react-native-window
     </item>
     
     <item>
-      <title>How ChatGPT adoption has expanded</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_10/</link>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_10/</guid>
-      <description>
-        
-          
-            New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.
-Link to article: https://openai.com/index/how-chatgpt-adoption-has-expanded 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Core dump epidemiology: fixing an 18-year-old bug</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_12/</link>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_12/</guid>
-      <description>
-        
-          
-            OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.
-Link to article: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>No more regressions with Snapshot Tests in C# using Verify: a practical guide</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_18/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_18/</guid>
       <description>
         
           
