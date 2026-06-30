@@ -7,13 +7,131 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 30 Jun 2026 12:03:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2026 16:06:32 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Terraform Dependency Management: When Ordering Matters More Than You Think</title>
+      <title>A Big Week for the Critter Stack</title>
       <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_0/</link>
-      <pubDate>Tue, 30 Jun 2026 12:03:57 +0000</pubDate>
+      <pubDate>Tue, 30 Jun 2026 16:06:32 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_0/</guid>
+      <description>
+        
+          
+            Right before heading into a short vacation, I wanted to blog about some of our recent releases this past week as the entire CritterStack has been busy lately. Between June 22 and June 29, we shipped three Wolverine releases, three Marten releases, and three Polecat releases — a week heavy on database-backed messaging, brand-new interoperability with the rest of the .NET messaging … Continue reading A Big Week for the Critter Stack →
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MSIX Per-User vs All Users: Install, Provision, and Uninstall Packages</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</link>
+      <pubDate>Tue, 30 Jun 2026 16:00:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</guid>
+      <description>
+        
+          
+            MSIX supports making a package available to all users; the formal term is provisioning. Provisioning a package family makes it available to all users, whereas registration makes a package available to a single user. Per-User vs All Users Traditional installers often provide a &amp;quot;per-machine&amp;quot; installation mode to make softwar
+Link to article: https://devblogs.microsoft.com/insidemsix/msix-per-user-vs-all-users 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Mailbox requirement set 1.16 now available for Outlook add-ins</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</link>
+      <pubDate>Tue, 30 Jun 2026 15:00:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</guid>
+      <description>
+        
+          
+            Mailbox requirement set 1.16 is now generally available for Outlook add-ins. This release reflects our continued investment in closing the gap between COM/VSTO and web add-ins, with a focus on message and information security. Mail
+Link to article: https://devblogs.microsoft.com/microsoft365dev/mailbox-requirement-set-1-16-now-available-for-outlook-add-ins 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Kodee’s Kotlin Roundup: Kotlin Turns 15, Kotlin 2.4.0, and the Kotlin Toolchain</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</link>
+      <pubDate>Tue, 30 Jun 2026 14:03:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</guid>
+      <description>
+        
+          
+            Hi everyone! May and June brought so much Kotlin news that I needed a little extra space for this roundup. Kotlin turned 15, Kotlin 2.4.0 arrived with new capabilities for developers on every platform, and I found plenty of ways to learn, experiment, build AI agents and AI-powered applications, and explore useful Kotlin Multiplatform libraries. […]
+Link to article: https://blog.jetbrains.com/kotlin/2026/06/kodees-kotlin-roundup-kotlin-turns-15-kotlin-2-4-0-and-the-kotlin-toolchain/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>A compatibility note on the abuse of Windows window class extra bytes</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_4/</link>
+      <pubDate>Tue, 30 Jun 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_4/</guid>
+      <description>
+        
+          
+            During my discussion of the evolution of system-windows window and class extra bytes, I noted that even though IDs are typically small integers, people liked to stash pointers there, so we
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260630-00/?p=112488 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>GitHub Copilot now an Integrated Agent in JetBrains IDEs</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_5/</link>
+      <pubDate>Tue, 30 Jun 2026 13:15:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_5/</guid>
+      <description>
+        
+          
+            Born out of a deep partnership between JetBrains and GitHub, this integration makes Copilot native in the agent picker and delivers a more stable agent experience directly in the IDE you already use every day. From ACP Registry to native experience Copilot was previously accessible via the ACP Registry, but this integration takes things further. […]
+Link to article: https://blog.jetbrains.com/ai/2026/06/github-copilot-now-an-integrated-agent/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visitor Pattern Best Practices in C#: Code Organization and Maintainability</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_6/</link>
+      <pubDate>Tue, 30 Jun 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_6/</guid>
+      <description>
+        
+          
+            Visitor pattern best practices in C# for clean double dispatch, extensible element hierarchies, and avoiding common anti-patterns.
+Link to article: https://www.devleader.ca/2026/06/30/visitor-pattern-best-practices-in-c-code-organization-and-maintainability 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Terraform Dependency Management: When Ordering Matters More Than You Think</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_7/</link>
+      <pubDate>Tue, 30 Jun 2026 12:03:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_7/</guid>
       <description>
         
           
@@ -27,10 +145,10 @@ Link to article: https://build5nines.com/terraform-dependency-management-when-or
     
     <item>
       <title>Closed class hierarchies: Exploring the .NET 11 preview - Part 4</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_8/</link>
       <pubDate>Tue, 30 Jun 2026 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_8/</guid>
       <description>
         
           
@@ -44,10 +162,10 @@ Link to article: https://andrewlock.net/exploring-the-dotnet-11-preview-4-closed
     
     <item>
       <title>🚀React Native Windows v0.84 is here!!</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_9/</link>
       <pubDate>Tue, 30 Jun 2026 09:16:21 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_9/</guid>
       <description>
         
           
@@ -60,11 +178,45 @@ Link to article: https://devblogs.microsoft.com/react-native/react-native-window
     </item>
     
     <item>
-      <title>No more regressions with Snapshot Tests in C# using Verify: a practical guide</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</link>
+      <title>How ChatGPT adoption has expanded</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_10/</link>
+      <pubDate>Tue, 30 Jun 2026 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_10/</guid>
+      <description>
+        
+          
+            New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.
+Link to article: https://openai.com/index/how-chatgpt-adoption-has-expanded 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Core dump epidemiology: fixing an 18-year-old bug</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_12/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_12/</guid>
+      <description>
+        
+          
+            OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.
+Link to article: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>No more regressions with Snapshot Tests in C# using Verify: a practical guide</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_11/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_11/</guid>
       <description>
         
           
