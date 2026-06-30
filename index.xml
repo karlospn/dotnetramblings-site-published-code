@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 30 Jun 2026 18:40:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2026 20:40:52 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Introducing Claude Sonnet 5 on AWS: Anthropic’s most capable Sonnet model</title>
+      <title>Building Resilient .NET Applications Using Amazon DynamoDB Warm Throughput</title>
       <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_0/</link>
-      <pubDate>Tue, 30 Jun 2026 18:40:09 +0000</pubDate>
+      <pubDate>Tue, 30 Jun 2026 20:40:52 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_0/</guid>
+      <description>
+        
+          
+            Introduction When your .NET application needs to handle a planned, instantaneous traffic spike, you want Amazon DynamoDB to be ready from the moment the spike begins. DynamoDB auto scaling is designed to adapt to gradual traffic changes by evaluating utilization over a period before increasing provisioned capacity. For planned events where demand increases instantaneously, warm […]
+Link to article: https://aws.amazon.com/blogs/dotnet/building-resilient-net-applications-using-amazon-dynamodb-warm-throughput/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Compose your API surface with Data API builder custom paths</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</link>
+      <pubDate>Tue, 30 Jun 2026 19:38:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</guid>
+      <description>
+        
+          
+            In May, Data API builder (DAB) 2.0 was released to preview, and in June it went generally available. With this new release, DAB introduced a new feature for REST endpoints: the ability to customize endpoints with compound paths. This feature allows developers to compose a sophisticated API surface dedicated to their business structure, not the
+Link to article: https://devblogs.microsoft.com/azure-sql/data-api-builder-custom-rest-paths 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Claude Sonnet 5 on AWS: Anthropic’s most capable Sonnet model</title>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</link>
+      <pubDate>Tue, 30 Jun 2026 18:40:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-claud
     
     <item>
       <title>MCP Beyond the Chat Window: Build Diagnostics in CI</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</link>
       <pubDate>Tue, 30 Jun 2026 17:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/mcp-build-diagnostics-wor
     
     <item>
       <title>Build generative UI for AI agents on Amazon Bedrock AgentCore with the AG-UI protocol</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_4/</link>
       <pubDate>Tue, 30 Jun 2026 16:46:17 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_4/</guid>
       <description>
         
           
@@ -61,10 +95,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/build-generative-
     
     <item>
       <title>Simplify multi-account access to Amazon Bedrock models with managed entitlements</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_5/</link>
       <pubDate>Tue, 30 Jun 2026 16:42:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_5/</guid>
       <description>
         
           
@@ -78,10 +112,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/simplify-multi-ac
     
     <item>
       <title>Implementing resilience patterns with Amazon Bedrock and LLM gateway</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_6/</link>
       <pubDate>Tue, 30 Jun 2026 16:40:47 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_6/</guid>
       <description>
         
           
@@ -95,10 +129,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/implementing-resi
     
     <item>
       <title>How Outpost VFX Uses AWS to Accelerate AI Model Training for Visual Effects</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_7/</link>
       <pubDate>Tue, 30 Jun 2026 16:37:09 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_7/</guid>
       <description>
         
           
@@ -112,10 +146,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/how-outpost-vfx-u
     
     <item>
       <title>Building bilingual NER for cargo logistics with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_8/</link>
       <pubDate>Tue, 30 Jun 2026 16:33:46 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_8/</guid>
       <description>
         
           
@@ -129,10 +163,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/building-bilingua
     
     <item>
       <title>Fine-tune Amazon Nova models for accurate email data extraction</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_9/</link>
       <pubDate>Tue, 30 Jun 2026 16:26:48 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_9/</guid>
       <description>
         
           
@@ -146,10 +180,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/fine-tune-amazon-
     
     <item>
       <title>A Big Week for the Critter Stack</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_10/</link>
       <pubDate>Tue, 30 Jun 2026 16:06:32 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_10/</guid>
       <description>
         
           
@@ -162,10 +196,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/fine-tune-amazon-
     
     <item>
       <title>MSIX Per-User vs All Users: Install, Provision, and Uninstall Packages</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_11/</link>
       <pubDate>Tue, 30 Jun 2026 16:00:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_11/</guid>
       <description>
         
           
@@ -179,10 +213,10 @@ Link to article: https://devblogs.microsoft.com/insidemsix/msix-per-user-vs-all-
     
     <item>
       <title>Mailbox requirement set 1.16 now available for Outlook add-ins</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_10/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_12/</link>
       <pubDate>Tue, 30 Jun 2026 15:00:02 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_12/</guid>
       <description>
         
           
@@ -196,10 +230,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/mailbox-requirem
     
     <item>
       <title>Kodee’s Kotlin Roundup: Kotlin Turns 15, Kotlin 2.4.0, and the Kotlin Toolchain</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_13/</link>
       <pubDate>Tue, 30 Jun 2026 14:03:02 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_13/</guid>
       <description>
         
           
@@ -213,10 +247,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2026/06/kodees-kotlin-roundup
     
     <item>
       <title>A compatibility note on the abuse of Windows window class extra bytes</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_12/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_14/</link>
       <pubDate>Tue, 30 Jun 2026 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_14/</guid>
       <description>
         
           
@@ -230,10 +264,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260630-00/?p=11248
     
     <item>
       <title>GitHub Copilot now an Integrated Agent in JetBrains IDEs</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_13/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_15/</link>
       <pubDate>Tue, 30 Jun 2026 13:15:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_15/</guid>
       <description>
         
           
@@ -247,10 +281,10 @@ Link to article: https://blog.jetbrains.com/ai/2026/06/github-copilot-now-an-int
     
     <item>
       <title>Visitor Pattern Best Practices in C#: Code Organization and Maintainability</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_14/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_16/</link>
       <pubDate>Tue, 30 Jun 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_14/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_16/</guid>
       <description>
         
           
@@ -264,10 +298,10 @@ Link to article: https://www.devleader.ca/2026/06/30/visitor-pattern-best-practi
     
     <item>
       <title>Terraform Dependency Management: When Ordering Matters More Than You Think</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_15/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_17/</link>
       <pubDate>Tue, 30 Jun 2026 12:03:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_15/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_17/</guid>
       <description>
         
           
@@ -281,10 +315,10 @@ Link to article: https://build5nines.com/terraform-dependency-management-when-or
     
     <item>
       <title>Closed class hierarchies: Exploring the .NET 11 preview - Part 4</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_16/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_18/</link>
       <pubDate>Tue, 30 Jun 2026 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_16/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_18/</guid>
       <description>
         
           
@@ -298,10 +332,10 @@ Link to article: https://andrewlock.net/exploring-the-dotnet-11-preview-4-closed
     
     <item>
       <title>🚀React Native Windows v0.84 is here!!</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_17/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_19/</link>
       <pubDate>Tue, 30 Jun 2026 09:16:21 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_17/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_19/</guid>
       <description>
         
           
@@ -315,10 +349,10 @@ Link to article: https://devblogs.microsoft.com/react-native/react-native-window
     
     <item>
       <title>No more regressions with Snapshot Tests in C# using Verify: a practical guide</title>
-      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_18/</link>
+      <link>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_20/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_18/</guid>
+      <guid>https://www.dotnetramblings.com/post/30_06_2026/30_06_2026_20/</guid>
       <description>
         
           
