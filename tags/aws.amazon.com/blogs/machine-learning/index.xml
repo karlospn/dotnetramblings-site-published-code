@@ -7,13 +7,132 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 01 Jul 2026 03:13:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jul 2026 18:14:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_0/</link>
+      <pubDate>Wed, 01 Jul 2026 18:14:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_0/</guid>
+      <description>
+        
+          
+            We&#39;re excited to introduce US-based frontier open-weight models in AWS GovCloud (US). With this release, Amazon Bedrock now supports OpenAI’s open-weight GPT OSS models (120B and 20B) and NVIDIA Nemotron (Nano 9B v2, Nano 12B v2, Nano 30B, Super 120B) models. In this post, we cover these models and their capabilities, the inference options for data residency, the available service tiers and how to get started.
+Link to article: https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building a serverless A2A gateway for agent discovery, routing, and access control</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_1/</link>
+      <pubDate>Wed, 01 Jul 2026 18:07:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_1/</guid>
+      <description>
+        
+          
+            In this post, you will learn how to build a serverless A2A gateway on AWS that hosts multiple agents behind a single domain using path-based routing (/agents/{agentId}). Standard A2A clients work without modification.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-a-serverless-a2a-gateway-for-agent-discovery-routing-and-access-control/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Structured memory filtering with metadata in AgentCore Memory</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_2/</link>
+      <pubDate>Wed, 01 Jul 2026 18:03:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_2/</guid>
+      <description>
+        
+          
+            In this post, you will learn how metadata works across configuration, ingestion, and retrieval, explore enterprise use cases including multi-agent and multi-tenant architectures, and discover best practices for implementation.
+Link to article: https://aws.amazon.com/blogs/machine-learning/structured-memory-filtering-with-metadata-in-agentcore-memory/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune, and personalized PageRank</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_3/</link>
+      <pubDate>Wed, 01 Jul 2026 18:01:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_3/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to implement HippoRAG using a comprehensive AWS stack. We use Amazon Bedrock for LLM capabilities, Amazon Neptune for graph database functionality, Amazon Neptune Analytics for advanced graph algorithms including Personalized PageRank, and Amazon Titan Embeddings for vector representations. This implementation showcases how to build and deploy HippoRAG within AWS infrastructure for enterprise-scale applications.
+Link to article: https://aws.amazon.com/blogs/machine-learning/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pagerank/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Inscribe uses Amazon Bedrock to stop document fraud in seconds</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_4/</link>
+      <pubDate>Wed, 01 Jul 2026 17:53:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_4/</guid>
+      <description>
+        
+          
+            In this post, you will learn how Inscribe developed an agentic AI system using Amazon Bedrock that reasons across documents the way an expert fraud analyst would. With this new agentic AI system, Inscribe now detects tampered, fabricated, and AI-generated financial documents in under 90 seconds. This is a 20x improvement over traditional manual review, while maintaining the accuracy and explainability required by financial services regulations.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-inscribe-uses-amazon-bedrock-to-stop-document-fraud-in-seconds/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Simplify model selection in Amazon Bedrock with the open source Model Profiler</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_5/</link>
+      <pubDate>Wed, 01 Jul 2026 17:46:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_5/</guid>
+      <description>
+        
+          
+            The Amazon Bedrock Model Profiler is an open source tool that aggregates model metadata from multiple AWS APIs and external sources into a single, searchable interface. In this post, you’ll learn what the Model Profiler provides, the real-world scenarios it supports, and how to deploy it in your own environment in under five minutes.
+Link to article: https://aws.amazon.com/blogs/machine-learning/simplify-model-selection-in-amazon-bedrock-with-the-open-source-model-profiler/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerate protein design with BoltzGen on Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_6/</link>
+      <pubDate>Wed, 01 Jul 2026 17:44:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_6/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to deploy BoltzGen on SageMaker AI and run an end-to-end protein design experiment. By the end of the walkthrough, you have a working setup that scales from quick validation runs to production batch processing. The setup offers two execution modes for different stages of research and uses step-level caching to reduce compute expenses during iterative workflows.
+Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-protein-design-with-boltzgen-on-amazon-sagemaker-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Safely Releasing Frontier Models to Customers</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_13/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_21/</link>
       <pubDate>Wed, 01 Jul 2026 03:13:19 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_21/</guid>
       <description>
         
           

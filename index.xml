@@ -7,13 +7,132 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 01 Jul 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jul 2026 18:14:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Visual Studio Code 1.127</title>
+      <title>Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)</title>
       <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_0/</link>
-      <pubDate>Wed, 01 Jul 2026 17:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jul 2026 18:14:34 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_0/</guid>
+      <description>
+        
+          
+            We&#39;re excited to introduce US-based frontier open-weight models in AWS GovCloud (US). With this release, Amazon Bedrock now supports OpenAI’s open-weight GPT OSS models (120B and 20B) and NVIDIA Nemotron (Nano 9B v2, Nano 12B v2, Nano 30B, Super 120B) models. In this post, we cover these models and their capabilities, the inference options for data residency, the available service tiers and how to get started.
+Link to article: https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building a serverless A2A gateway for agent discovery, routing, and access control</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_1/</link>
+      <pubDate>Wed, 01 Jul 2026 18:07:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_1/</guid>
+      <description>
+        
+          
+            In this post, you will learn how to build a serverless A2A gateway on AWS that hosts multiple agents behind a single domain using path-based routing (/agents/{agentId}). Standard A2A clients work without modification.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-a-serverless-a2a-gateway-for-agent-discovery-routing-and-access-control/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Structured memory filtering with metadata in AgentCore Memory</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_2/</link>
+      <pubDate>Wed, 01 Jul 2026 18:03:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_2/</guid>
+      <description>
+        
+          
+            In this post, you will learn how metadata works across configuration, ingestion, and retrieval, explore enterprise use cases including multi-agent and multi-tenant architectures, and discover best practices for implementation.
+Link to article: https://aws.amazon.com/blogs/machine-learning/structured-memory-filtering-with-metadata-in-agentcore-memory/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune, and personalized PageRank</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_3/</link>
+      <pubDate>Wed, 01 Jul 2026 18:01:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_3/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to implement HippoRAG using a comprehensive AWS stack. We use Amazon Bedrock for LLM capabilities, Amazon Neptune for graph database functionality, Amazon Neptune Analytics for advanced graph algorithms including Personalized PageRank, and Amazon Titan Embeddings for vector representations. This implementation showcases how to build and deploy HippoRAG within AWS infrastructure for enterprise-scale applications.
+Link to article: https://aws.amazon.com/blogs/machine-learning/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pagerank/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Inscribe uses Amazon Bedrock to stop document fraud in seconds</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_4/</link>
+      <pubDate>Wed, 01 Jul 2026 17:53:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_4/</guid>
+      <description>
+        
+          
+            In this post, you will learn how Inscribe developed an agentic AI system using Amazon Bedrock that reasons across documents the way an expert fraud analyst would. With this new agentic AI system, Inscribe now detects tampered, fabricated, and AI-generated financial documents in under 90 seconds. This is a 20x improvement over traditional manual review, while maintaining the accuracy and explainability required by financial services regulations.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-inscribe-uses-amazon-bedrock-to-stop-document-fraud-in-seconds/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Simplify model selection in Amazon Bedrock with the open source Model Profiler</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_5/</link>
+      <pubDate>Wed, 01 Jul 2026 17:46:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_5/</guid>
+      <description>
+        
+          
+            The Amazon Bedrock Model Profiler is an open source tool that aggregates model metadata from multiple AWS APIs and external sources into a single, searchable interface. In this post, you’ll learn what the Model Profiler provides, the real-world scenarios it supports, and how to deploy it in your own environment in under five minutes.
+Link to article: https://aws.amazon.com/blogs/machine-learning/simplify-model-selection-in-amazon-bedrock-with-the-open-source-model-profiler/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerate protein design with BoltzGen on Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_6/</link>
+      <pubDate>Wed, 01 Jul 2026 17:44:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_6/</guid>
+      <description>
+        
+          
+            In this post, we demonstrate how to deploy BoltzGen on SageMaker AI and run an end-to-end protein design experiment. By the end of the walkthrough, you have a working setup that scales from quick validation runs to production batch processing. The setup offers two execution modes for different stages of research and uses step-level caching to reduce compute expenses during iterative workflows.
+Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-protein-design-with-boltzgen-on-amazon-sagemaker-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.127</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_7/</link>
+      <pubDate>Wed, 01 Jul 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_7/</guid>
       <description>
         
           
@@ -27,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1
     
     <item>
       <title>Visual Studio Code 1.128 (Insiders)</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_8/</link>
       <pubDate>Wed, 01 Jul 2026 17:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_8/</guid>
       <description>
         
           
@@ -43,11 +162,28 @@ Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1
     </item>
     
     <item>
+      <title>TeamCity 2026.1.2 and 2025.11.6 Are Now Available</title>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_9/</link>
+      <pubDate>Wed, 01 Jul 2026 16:57:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_9/</guid>
+      <description>
+        
+          
+            Today we’re releasing two bug-fix updates for TeamCity On-Premises 2025.11 and 2026.1 servers. The 2026.1.2 update addresses a little over 10 issues, including the following: Version 2025.11.6 focuses exclusively on resolving security issues and does not include general bug fixes. To keep your server secure, we strongly recommend installing this update. See TeamCity 2026.1.2 Release […]
+Link to article: https://blog.jetbrains.com/teamcity/2026/07/teamcity-2026-1-2-and-2025-11-6/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>AI Won’t End Outsourcing or Entry-Level Jobs, but It Will Rewrite Both</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_10/</link>
       <pubDate>Wed, 01 Jul 2026 16:33:28 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_10/</guid>
       <description>
         
           
@@ -61,10 +197,10 @@ Link to article: https://build5nines.com/ai-wont-end-outsourcing-or-entry-level-
     
     <item>
       <title>What AI benchmarks are not telling you</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_11/</link>
       <pubDate>Wed, 01 Jul 2026 14:31:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_11/</guid>
       <description>
         
           
@@ -78,10 +214,10 @@ Link to article: https://devblogs.microsoft.com/blog/what-ai-benchmarks-are-not-
     
     <item>
       <title>It rather involved being on the other side of this airtight hatchway: Changing administrative settings</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_12/</link>
       <pubDate>Wed, 01 Jul 2026 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_12/</guid>
       <description>
         
           
@@ -95,10 +231,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260701-00/?p=11249
     
     <item>
       <title>JetBrains Engineering Hiring Process: A Recruiter Explains What to Expect (And How to Prepare)</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_13/</link>
       <pubDate>Wed, 01 Jul 2026 13:31:48 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_13/</guid>
       <description>
         
           
@@ -112,10 +248,10 @@ Link to article: https://blog.jetbrains.com/life-at-jetbrains/2026/07/jetbrains-
     
     <item>
       <title>Visitor vs Strategy Pattern in C#: Key Differences Explained</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_14/</link>
       <pubDate>Wed, 01 Jul 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_14/</guid>
       <description>
         
           
@@ -129,10 +265,10 @@ Link to article: https://www.devleader.ca/2026/07/01/visitor-vs-strategy-pattern
     
     <item>
       <title>Why AI Agents Need Isolation</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_15/</link>
       <pubDate>Wed, 01 Jul 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_15/</guid>
       <description>
         
           
@@ -146,10 +282,10 @@ Link to article: https://www.docker.com/blog/why-ai-agents-need-isolation/
     
     <item>
       <title>What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_16/</link>
       <pubDate>Wed, 01 Jul 2026 12:52:43 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_16/</guid>
       <description>
         
           
@@ -163,10 +299,10 @@ Link to article: https://devblogs.microsoft.com/azure-sql/whats-new-across-micro
     
     <item>
       <title>Kotlin Comes to BlueJ</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_17/</link>
       <pubDate>Wed, 01 Jul 2026 09:50:23 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_17/</guid>
       <description>
         
           
@@ -180,10 +316,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2026/07/kotlin-comes-to-bluej
     
     <item>
       <title>Improving Embedded Software Quality With Parasoft C/C&#43;&#43;test, CLion, and AI</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_10/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_18/</link>
       <pubDate>Wed, 01 Jul 2026 06:43:36 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_18/</guid>
       <description>
         
           
@@ -197,10 +333,10 @@ Link to article: https://blog.jetbrains.com/clion/2026/07/improving-embedded-sof
     
     <item>
       <title>Coding Faster with dotNetTips.com Spargine 10: July 2026 Release</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_19/</link>
       <pubDate>Wed, 01 Jul 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_19/</guid>
       <description>
         
           
@@ -214,10 +350,10 @@ Link to article: https://dotnettips.com/2026/07/01/coding-faster-with-dotnettips
     
     <item>
       <title>Access GitHub Copilot in JetBrains - GitHub Copilot Is Now a Native Agent in JetBrains AI Assistant</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_12/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_20/</link>
       <pubDate>Wed, 01 Jul 2026 04:28:51 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_20/</guid>
       <description>
         
           
@@ -231,10 +367,10 @@ Link to article: https://devblogs.microsoft.com/java/access-github-copilot-in-je
     
     <item>
       <title>Safely Releasing Frontier Models to Customers</title>
-      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_13/</link>
+      <link>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_21/</link>
       <pubDate>Wed, 01 Jul 2026 03:13:19 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/01_07_2026/01_07_2026_21/</guid>
       <description>
         
           
