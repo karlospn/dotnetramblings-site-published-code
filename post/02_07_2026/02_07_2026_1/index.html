@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>The case of the thread executing from an unloaded third-party DLL | .NET Ramblings</title>
+<title>Best practices for multi-turn reinforcement learning in Amazon SageMaker AI | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="The Explorer team was investigating a crash that was occuring at a relatively high rate and found that it took the form of a thread executing from an unloaded …" />
+<meta name="description" content="In this post, we share best practices for reliable multi-turn RL training. We cover how to build a training environment you can trust, set up an external …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="The case of the thread executing from an unloaded third-party DLL" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta name="twitter:title" content="Best practices for multi-turn reinforcement learning in Amazon SageMaker AI" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/02_07_2026/02_07_2026_1/" />
-<meta property="og:title" content="The case of the thread executing from an unloaded third-party DLL" />
-<meta property="og:description" content="The Explorer team was investigating a crash that was occuring at a relatively high rate and found that it took the form of a thread executing from an unloaded …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta property="og:title" content="Best practices for multi-turn reinforcement learning in Amazon SageMaker AI" />
+<meta property="og:description" content="In this post, we share best practices for reliable multi-turn RL training. We cover how to build a training environment you can trust, set up an external …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">The case of the thread executing from an unloaded third-party DLL</h1>
+    <h1 class="post_title">Best practices for multi-turn reinforcement learning in Amazon SageMaker AI</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Jul 2, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jul 2, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>The Explorer team was investigating a crash that was occuring at a relatively high rate and found that it took the form of a thread executing from an unloaded third-party DLL. 0:173&gt; k RetAddr Call Site 00000000<code>557c5820 &lt;Unloaded_LibUtils_CloudNs_3.dll&gt;+0x265fe 00000000</code>00000008 &lt;Unloaded_LibU</p>
+    <div class="post_body"><p>In this post, we share best practices for reliable multi-turn RL training. We cover how to build a training environment you can trust, set up an external evaluation, design a reward aligned with the end task, manage what changes once the agent runs for multiple turns, and monitor the metrics that tell you when to iterate.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20260702-00/?p=112500">https://devblogs.microsoft.com/oldnewthing/20260702-00/?p=112500</a></li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/">https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/</a></li>
 </ul>
 
     </div>

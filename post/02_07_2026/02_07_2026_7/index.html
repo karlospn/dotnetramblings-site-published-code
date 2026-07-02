@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>The case of the thread executing from an unloaded third-party DLL | .NET Ramblings</title>
+<title>Visitor Pattern Real-World Example in C#: Complete Implementation | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,22 +28,24 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="The Explorer team was investigating a crash that was occuring at a relatively high rate and found that it took the form of a thread executing from an unloaded …" />
+<meta name="description" content="A visitor pattern real-world example in C# building a document export system with HTML, Markdown, and plain text visitors.
+Link to article: …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="The case of the thread executing from an unloaded third-party DLL" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/02_07_2026/02_07_2026_4/" />
-<meta property="og:title" content="The case of the thread executing from an unloaded third-party DLL" />
-<meta property="og:description" content="The Explorer team was investigating a crash that was occuring at a relatively high rate and found that it took the form of a thread executing from an unloaded …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
+<meta name="twitter:title" content="Visitor Pattern Real-World Example in C#: Complete Implementation" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/02_07_2026/02_07_2026_7/" />
+<meta property="og:title" content="Visitor Pattern Real-World Example in C#: Complete Implementation" />
+<meta property="og:description" content="A visitor pattern real-world example in C# building a document export system with HTML, Markdown, and plain text visitors.
+Link to article: …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/02_07_2026/02_07_2026_4/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/02_07_2026/02_07_2026_7/">
 
 
 
@@ -132,7 +134,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">The case of the thread executing from an unloaded third-party DLL</h1>
+    <h1 class="post_title">Visitor Pattern Real-World Example in C#: Complete Implementation</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +142,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Jul 2, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jul 2, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>The Explorer team was investigating a crash that was occuring at a relatively high rate and found that it took the form of a thread executing from an unloaded third-party DLL. 0:173&gt; k RetAddr Call Site 00000000<code>557c5820 &lt;Unloaded_LibUtils_CloudNs_3.dll&gt;+0x265fe 00000000</code>00000008 &lt;Unloaded_LibU</p>
+    <div class="post_body"><p>A visitor pattern real-world example in C# building a document export system with HTML, Markdown, and plain text visitors.</p>
 <ul>
-<li>Link to article: <a href="https://devblogs.microsoft.com/oldnewthing/20260702-00/?p=112500">https://devblogs.microsoft.com/oldnewthing/20260702-00/?p=112500</a></li>
+<li>Link to article: <a href="https://www.devleader.ca/2026/07/02/visitor-pattern-realworld-example-in-c-complete-implementation">https://www.devleader.ca/2026/07/02/visitor-pattern-realworld-example-in-c-complete-implementation</a></li>
 </ul>
 
     </div>
