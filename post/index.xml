@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 06 Jul 2026 10:01:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jul 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Does Speaking to Agents Like Cavemen Really Save 65% of Tokens? We Test</title>
+      <title>I opened a file with &lt;CODE&gt;FILE_&lt;WBR&gt;FLAG_&lt;WBR&gt;DELETE_&lt;WBR&gt;ON_&lt;WBR&gt;CLOSE&lt;/CODE&gt;, but now I changed my mind</title>
       <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_0/</link>
-      <pubDate>Mon, 06 Jul 2026 10:01:12 +0000</pubDate>
+      <pubDate>Mon, 06 Jul 2026 14:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_0/</guid>
+      <description>
+        
+          
+            The CreateFile function has a flag called FILE_FLAG_DELETE_ON_CLOSE, which means that the file will be deleted when the last handle to the file is closed. But what if you pass that flag and then change your mind? Is there a way to call take-backs? No, there are no take-backs. The
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260706-00/?p=112506 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Need a different partition key in Azure Cosmos DB? Pick the right approach</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_1/</link>
+      <pubDate>Mon, 06 Jul 2026 13:37:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_1/</guid>
+      <description>
+        
+          
+            Once you create a container, its partition key is fixed at creation, and you can’t change it in place. However, if your original key starts causing problems like cr
+Link to article: https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Modular Monolith in C#: Complete Implementation Guide for .NET Developers</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_2/</link>
+      <pubDate>Mon, 06 Jul 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_2/</guid>
+      <description>
+        
+          
+            Build a modular monolith in C# with bounded contexts, module communication, and data isolation. Complete implementation guide with real .NET code examples.
+Link to article: https://www.devleader.ca/2026/07/06/modular-monolith-in-c-complete-implementation-guide-for-net-developers 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Natvis Comes to Linux and macOS: Visualize Your C&#43;&#43; Types Without Writing a Single Data Formatter</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_3/</link>
+      <pubDate>Mon, 06 Jul 2026 11:13:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_3/</guid>
+      <description>
+        
+          
+            If you’ve ever debugged your own C++ containers, strings, or hash tables on Linux or macOS, you know the deal: to see anything useful in the debugger, you have to write a custom data formatter. And writing a good data formatter is genuinely painful. Often, the formatter ends up longer and harder to follow than […]
+Link to article: https://blog.jetbrains.com/dotnet/2026/07/06/natvis-comes-to-linux-and-macos-in-rider-2026-2-debugger/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Does Speaking to Agents Like Cavemen Really Save 65% of Tokens? We Test</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_4/</link>
+      <pubDate>Mon, 06 Jul 2026 10:01:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_4/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-c
     
     <item>
       <title>Not all model upgrades are upgrades</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_5/</link>
       <pubDate>Mon, 06 Jul 2026 07:49:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_5/</guid>
       <description>
         
           
@@ -44,10 +112,10 @@ Link to article: https://devblogs.microsoft.com/blog/not-all-model-upgrades-are-
     
     <item>
       <title>Azure SDK Release (June 2026)</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_6/</link>
       <pubDate>Mon, 06 Jul 2026 05:56:58 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_6/</guid>
       <description>
         
           
@@ -61,10 +129,10 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-june
     
     <item>
       <title>Building MCP Servers and Clients in C#: The Complete Guide</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_7/</link>
       <pubDate>Mon, 06 Jul 2026 05:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_7/</guid>
       <description>
         
           

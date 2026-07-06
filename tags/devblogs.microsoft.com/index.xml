@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 06 Jul 2026 07:49:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jul 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Not all model upgrades are upgrades</title>
+      <title>I opened a file with &lt;CODE&gt;FILE_&lt;WBR&gt;FLAG_&lt;WBR&gt;DELETE_&lt;WBR&gt;ON_&lt;WBR&gt;CLOSE&lt;/CODE&gt;, but now I changed my mind</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_0/</link>
+      <pubDate>Mon, 06 Jul 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_0/</guid>
+      <description>
+        
+          
+            The CreateFile function has a flag called FILE_FLAG_DELETE_ON_CLOSE, which means that the file will be deleted when the last handle to the file is closed. But what if you pass that flag and then change your mind? Is there a way to call take-backs? No, there are no take-backs. The
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260706-00/?p=112506 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Need a different partition key in Azure Cosmos DB? Pick the right approach</title>
       <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_1/</link>
-      <pubDate>Mon, 06 Jul 2026 07:49:44 +0000</pubDate>
+      <pubDate>Mon, 06 Jul 2026 13:37:33 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_1/</guid>
+      <description>
+        
+          
+            Once you create a container, its partition key is fixed at creation, and you can’t change it in place. However, if your original key starts causing problems like cr
+Link to article: https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Not all model upgrades are upgrades</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_5/</link>
+      <pubDate>Mon, 06 Jul 2026 07:49:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_5/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/blog/not-all-model-upgrades-are-
     
     <item>
       <title>Azure SDK Release (June 2026)</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_6/</link>
       <pubDate>Mon, 06 Jul 2026 05:56:58 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_6/</guid>
       <description>
         
           
