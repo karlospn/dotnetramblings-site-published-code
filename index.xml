@@ -7,13 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 06 Jul 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jul 2026 17:00:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>I opened a file with &lt;CODE&gt;FILE_&lt;WBR&gt;FLAG_&lt;WBR&gt;DELETE_&lt;WBR&gt;ON_&lt;WBR&gt;CLOSE&lt;/CODE&gt;, but now I changed my mind</title>
+      <title>Run MiniMax models on Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_0/</link>
-      <pubDate>Mon, 06 Jul 2026 14:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 Jul 2026 17:00:44 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_0/</guid>
+      <description>
+        
+          
+            In this post, we walk through how to get started with MiniMax models on Amazon Bedrock, including the capabilities supported by these models, the service tiers available, how on-demand inference scales to handle your workloads, and the different APIs you can use to access them. Using these models, customers can build agentic applications, long-context document analysis pipelines, and software engineering workflows, all backed by the security and operational guarantees of AWS.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Deploying Multi-Turn RL Infrastructure for Amazon Nova on Amazon SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_1/</link>
+      <pubDate>Mon, 06 Jul 2026 16:58:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_1/</guid>
+      <description>
+        
+          
+            In this post, you deploy a two-phase infrastructure for multi-turn RL using Amazon Nova Forge on Amazon SageMaker HyperPod. By the end, you have an event-driven pipeline that starts training when you upload data to Amazon Simple Storage Service (Amazon S3). The training job teaches the model to play Wordle, a placeholder for your own RL task.
+Link to article: https://aws.amazon.com/blogs/machine-learning/deploying-multi-turn-rl-infrastructure-for-amazon-nova-on-amazon-sagemaker-hyperpod/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Automatically redact PII in images with Amazon Nova</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_2/</link>
+      <pubDate>Mon, 06 Jul 2026 16:55:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we present a multi-step pipeline directed by Amazon Nova, which uses its contextual vision reasoning to coordinate complementary tools, including Meta’s open-source Segment Anything Model (SAM 3) deployed on Amazon SageMaker AI for pixel-level segmentation, and Amazon Textract for optical character recognition (OCR). This pipeline is designed to provide comprehensive and compliant PII redaction even for challenging edge cases such as fingerprints, ID cards, or license plates in arbitrary orientations.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Streaming benchmark and recommendation results to MLflow with Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_3/</link>
+      <pubDate>Mon, 06 Jul 2026 16:53:38 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_3/</guid>
+      <description>
+        
+          
+            In this post, you learn how to use the new MLflow integration with Amazon SageMaker AI optimized inference recommendation jobs and Amazon SageMaker AI benchmark jobs to automatically stream experiment data into a unified tracking interface. This integration streams metrics, parameters, and charts into your serverless Amazon SageMaker MLflow App in real time and you get a unified experiment tracking experience.
+Link to article: https://aws.amazon.com/blogs/machine-learning/streaming-benchmark-and-recommendation-results-to-mlflow-with-amazon-sagemaker-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>I opened a file with &lt;CODE&gt;FILE_&lt;WBR&gt;FLAG_&lt;WBR&gt;DELETE_&lt;WBR&gt;ON_&lt;WBR&gt;CLOSE&lt;/CODE&gt;, but now I changed my mind</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_4/</link>
+      <pubDate>Mon, 06 Jul 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_4/</guid>
       <description>
         
           
@@ -27,10 +93,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260706-00/?p=11250
     
     <item>
       <title>Need a different partition key in Azure Cosmos DB? Pick the right approach</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_5/</link>
       <pubDate>Mon, 06 Jul 2026 13:37:33 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_5/</guid>
       <description>
         
           
@@ -44,10 +110,10 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/need-a-different-partit
     
     <item>
       <title>Modular Monolith in C#: Complete Implementation Guide for .NET Developers</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_6/</link>
       <pubDate>Mon, 06 Jul 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_6/</guid>
       <description>
         
           
@@ -61,10 +127,10 @@ Link to article: https://www.devleader.ca/2026/07/06/modular-monolith-in-c-compl
     
     <item>
       <title>Natvis Comes to Linux and macOS: Visualize Your C&#43;&#43; Types Without Writing a Single Data Formatter</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_7/</link>
       <pubDate>Mon, 06 Jul 2026 11:13:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_7/</guid>
       <description>
         
           
@@ -78,10 +144,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/07/06/natvis-comes-to-li
     
     <item>
       <title>Does Speaking to Agents Like Cavemen Really Save 65% of Tokens? We Test</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_8/</link>
       <pubDate>Mon, 06 Jul 2026 10:01:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_8/</guid>
       <description>
         
           
@@ -95,10 +161,10 @@ Link to article: https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-c
     
     <item>
       <title>Not all model upgrades are upgrades</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_9/</link>
       <pubDate>Mon, 06 Jul 2026 07:49:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_9/</guid>
       <description>
         
           
@@ -112,10 +178,10 @@ Link to article: https://devblogs.microsoft.com/blog/not-all-model-upgrades-are-
     
     <item>
       <title>Azure SDK Release (June 2026)</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_10/</link>
       <pubDate>Mon, 06 Jul 2026 05:56:58 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_10/</guid>
       <description>
         
           
@@ -129,15 +195,32 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-june
     
     <item>
       <title>Building MCP Servers and Clients in C#: The Complete Guide</title>
-      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_11/</link>
       <pubDate>Mon, 06 Jul 2026 05:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_11/</guid>
       <description>
         
           
             Learn how to build an MCP server C# developers can trust, from stdio and HTTP transports to tools, clients, security, Azure hosting, and debugging tips.
 Link to article: https://www.devleader.ca/2026/07/06/building-mcp-servers-and-clients-in-c-the-complete-guide 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Prompt Tuning Improved GPT-5.5 in VS Code</title>
+      <link>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_12/</link>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_07_2026/06_07_2026_12/</guid>
+      <description>
+        
+          
+            See how VS Code and OpenAI tested GPT-5.5 system prompt changes in a two-week experiment, cutting tool calls and tail-end token usage while speeding up edits. Read the full article
+Link to article: https://devblogs.microsoft.com/vscode-blog/how-prompt-tuning-improved-gpt-5.5-in-vs-code 
           
           
         
