@@ -7,13 +7,115 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 07 Jul 2026 12:07:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jul 2026 16:00:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI Helps Junior Developers Code Faster. This Prompt Helps Them Build Better.</title>
+      <title>Applications Are Not Packages</title>
       <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_0/</link>
-      <pubDate>Tue, 07 Jul 2026 12:07:00 +0000</pubDate>
+      <pubDate>Tue, 07 Jul 2026 16:00:09 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_0/</guid>
+      <description>
+        
+          
+            Applications are not packages. Let me repeat. Applications are not packages. This is a common misconception due to the (too) often blurring of concepts and terminology. Packages and applications are different and distinct things, so it&#39;s important to understand what those words mean (to MSIX). Packages and A
+Link to article: https://devblogs.microsoft.com/insidemsix/applications-are-not-packages 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How did Windows 95 decide that a setup program ran?</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_1/</link>
+      <pubDate>Tue, 07 Jul 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_1/</guid>
+      <description>
+        
+          
+            A little while ago, I mentioned that Windows 95 had some defenses against installers that overwrite a file with an older version. These defenses kicked in whenever it dete
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260707-00/?p=112508 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t rewrite your CLI for agents</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_2/</link>
+      <pubDate>Tue, 07 Jul 2026 13:52:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_2/</guid>
+      <description>
+        
+          
+            There&#39;s advice making the rounds: replace your CLI args with a single --json payload so agents can use your tool more effectively. The thinking being, that agents already think in structured formats, and nested data maps cleanly to JSON. Flat args on the other hand, force awkward conventions like repeating --service-name
+Link to article: https://devblogs.microsoft.com/blog/dont-rewrite-your-cli-for-agents 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What’s Next for TeamCity – CI/CD by JetBrains</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_3/</link>
+      <pubDate>Tue, 07 Jul 2026 13:47:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_3/</guid>
+      <description>
+        
+          
+            What we’re building toward As the share of code written by AI agents grows rapidly, two questions are central to effective AI adoption: How can teams turn AI usage into real productivity gains, and how can they maintain quality, security, and control while doing so? CI/CD is critical to both. Every contribution, whether written by […]
+Link to article: https://blog.jetbrains.com/teamcity/2026/07/whats-next-for-teamcity/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Benchmark Meaning Gap</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_4/</link>
+      <pubDate>Tue, 07 Jul 2026 13:10:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_4/</guid>
+      <description>
+        
+          
+            In any recent model comparison, you’ve probably seen a single number from a coding benchmark to represent “How good this model is at coding”. Those scores are tempting: they’re simple, they’re leaderboard-friendly, and they seem to tell a clear story about progress. But that story didn’t hold up when we looked more closely at benchmarks […]
+Link to article: https://blog.jetbrains.com/research/2026/07/benchmark-meaning-gap/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Set Up Serilog in ASP.NET Core: Step-by-Step Guide</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_5/</link>
+      <pubDate>Tue, 07 Jul 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_5/</guid>
+      <description>
+        
+          
+            Learn how to set up Serilog in ASP.NET Core with two-stage initialization, appsettings.json configuration, and structured request logging. .NET 9 and .NET 10.
+Link to article: https://www.devleader.ca/2026/07/07/how-to-set-up-serilog-in-aspnet-core-stepbystep-guide 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI Helps Junior Developers Code Faster. This Prompt Helps Them Build Better.</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_6/</link>
+      <pubDate>Tue, 07 Jul 2026 12:07:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_6/</guid>
       <description>
         
           
@@ -26,11 +128,62 @@ Link to article: https://build5nines.com/ai-helps-junior-developers-code-faster-
     </item>
     
     <item>
+      <title>JetBrains AI for Teams and Organizations: From Fragmented AI Usage to Coordinated Software Development</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_7/</link>
+      <pubDate>Tue, 07 Jul 2026 12:03:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_7/</guid>
+      <description>
+        
+          
+            We’re about to start rolling out a new set of AI capabilities that provide shared context, reusable agentic workflows, organization-level governance, and cost control for software production. Developers use different AI tools depending on the task – from JetBrains IDEs to terminal-based agents such as Claude Code, Codex, and other emerging solutions. That freedom is […]
+Link to article: https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agent Skills for .NET Is Now Released</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_8/</link>
+      <pubDate>Tue, 07 Jul 2026 10:03:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_8/</guid>
+      <description>
+        
+          
+            You can now give your .NET agents reusable packages of domain expertise - instructions, reference documents, and scripts they load only when a task needs them - through a stable, production-ready API. Agent Skills for .NET in Microsoft Agent Framework has moved out of experimental preview - the [Experimental] attribute is removed
+Link to article: https://devblogs.microsoft.com/agent-framework/agent-skills-for-net-is-now-released 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Improvements to reading Process outputs: Exploring the .NET 11 preview - Part 5</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_9/</link>
+      <pubDate>Tue, 07 Jul 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_9/</guid>
+      <description>
+        
+          
+            In this post I show some of the improvements to the Process API in .NET 11 for running processes and reading their outputs without risk of deadlock
+Link to article: https://andrewlock.net/exploring-the-dotnet-11-preview-5-improvments-to-process-apis/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Java Annotated Monthly – July 2026</title>
-      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_10/</link>
       <pubDate>Tue, 07 Jul 2026 09:15:19 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_10/</guid>
       <description>
         
           
@@ -44,10 +197,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/07/java-annotated-monthly-
     
     <item>
       <title>Shift-Left Static Code Analysis</title>
-      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_11/</link>
       <pubDate>Tue, 07 Jul 2026 07:52:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_11/</guid>
       <description>
         
           
@@ -61,10 +214,10 @@ Link to article: https://blog.jetbrains.com/qodana/2026/07/shift-left-static-ana
     
     <item>
       <title>What&#39;s New in Microsoft Foundry | June 2026</title>
-      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_12/</link>
       <pubDate>Tue, 07 Jul 2026 07:10:25 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_12/</guid>
       <description>
         
           
@@ -78,10 +231,10 @@ Link to article: https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-f
     
     <item>
       <title>Microsoft Agent Framework for .NET (part 1): what it is, how it works, and when to use it</title>
-      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_13/</link>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_13/</guid>
       <description>
         
           

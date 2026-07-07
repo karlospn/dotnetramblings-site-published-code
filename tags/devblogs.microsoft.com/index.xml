@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 07 Jul 2026 07:10:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jul 2026 16:00:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Applications Are Not Packages</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_0/</link>
+      <pubDate>Tue, 07 Jul 2026 16:00:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_0/</guid>
+      <description>
+        
+          
+            Applications are not packages. Let me repeat. Applications are not packages. This is a common misconception due to the (too) often blurring of concepts and terminology. Packages and applications are different and distinct things, so it&#39;s important to understand what those words mean (to MSIX). Packages and A
+Link to article: https://devblogs.microsoft.com/insidemsix/applications-are-not-packages 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How did Windows 95 decide that a setup program ran?</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_1/</link>
+      <pubDate>Tue, 07 Jul 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_1/</guid>
+      <description>
+        
+          
+            A little while ago, I mentioned that Windows 95 had some defenses against installers that overwrite a file with an older version. These defenses kicked in whenever it dete
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260707-00/?p=112508 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t rewrite your CLI for agents</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_2/</link>
+      <pubDate>Tue, 07 Jul 2026 13:52:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_2/</guid>
+      <description>
+        
+          
+            There&#39;s advice making the rounds: replace your CLI args with a single --json payload so agents can use your tool more effectively. The thinking being, that agents already think in structured formats, and nested data maps cleanly to JSON. Flat args on the other hand, force awkward conventions like repeating --service-name
+Link to article: https://devblogs.microsoft.com/blog/dont-rewrite-your-cli-for-agents 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agent Skills for .NET Is Now Released</title>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_8/</link>
+      <pubDate>Tue, 07 Jul 2026 10:03:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_8/</guid>
+      <description>
+        
+          
+            You can now give your .NET agents reusable packages of domain expertise - instructions, reference documents, and scripts they load only when a task needs them - through a stable, production-ready API. Agent Skills for .NET in Microsoft Agent Framework has moved out of experimental preview - the [Experimental] attribute is removed
+Link to article: https://devblogs.microsoft.com/agent-framework/agent-skills-for-net-is-now-released 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>What&#39;s New in Microsoft Foundry | June 2026</title>
-      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_12/</link>
       <pubDate>Tue, 07 Jul 2026 07:10:25 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_12/</guid>
       <description>
         
           
