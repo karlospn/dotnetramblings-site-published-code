@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Manage AI applications on Mac with Jamf’s AI Governance and Amazon Bedrock | .NET Ramblings</title>
+<title>Securing Amazon Bedrock AgentCore Runtime with AWS WAF | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="In this post, we show how you can use Jamf’s AI Governance with Amazon Bedrock to configure, deploy, and validate managed settings for AI applications across a …" />
+<meta name="description" content="This post shows you two architecture patterns that address this problem. Both use an internet-facing ALB with AWS WAF and route traffic through a VPC Interface …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Manage AI applications on Mac with Jamf’s AI Governance and Amazon Bedrock" />
+<meta name="twitter:title" content="Securing Amazon Bedrock AgentCore Runtime with AWS WAF" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_7/" />
-<meta property="og:title" content="Manage AI applications on Mac with Jamf’s AI Governance and Amazon Bedrock" />
-<meta property="og:description" content="In this post, we show how you can use Jamf’s AI Governance with Amazon Bedrock to configure, deploy, and validate managed settings for AI applications across a …" />
+<meta property="og:title" content="Securing Amazon Bedrock AgentCore Runtime with AWS WAF" />
+<meta property="og:description" content="This post shows you two architecture patterns that address this problem. Both use an internet-facing ALB with AWS WAF and route traffic through a VPC Interface …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Manage AI applications on Mac with Jamf’s AI Governance and Amazon Bedrock</h1>
+    <h1 class="post_title">Securing Amazon Bedrock AgentCore Runtime with AWS WAF</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -145,9 +145,9 @@
     </span>
   </div>
 
-    <div class="post_body"><p>In this post, we show how you can use Jamf’s AI Governance with Amazon Bedrock to configure, deploy, and validate managed settings for AI applications across a Mac fleet.</p>
+    <div class="post_body"><p>This post shows you two architecture patterns that address this problem. Both use an internet-facing ALB with AWS WAF and route traffic through a VPC Interface Endpoint to AgentCore Runtime. Pattern 1 places an AWS Lambda proxy between the ALB and the VPC Endpoint, giving you full control over request transformation. Pattern 2 targets the VPC Endpoint ENI IP addresses directly from the ALB, removing the Lambda hop entirely. You also learn how to close the direct-access backdoor with a resource policy so that traffic flows through AWS WAF only. Both patterns have been tested end-to-end with SigV4 and OAuth (Amazon Cognito JWT) authentication.</p>
 <ul>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/manage-ai-applications-on-mac-with-jamf-ai-governance-and-amazon-bedrock/">https://aws.amazon.com/blogs/machine-learning/manage-ai-applications-on-mac-with-jamf-ai-governance-and-amazon-bedrock/</a></li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/securing-amazon-bedrock-agentcore-runtime-with-aws-waf/">https://aws.amazon.com/blogs/machine-learning/securing-amazon-bedrock-agentcore-runtime-with-aws-waf/</a></li>
 </ul>
 
     </div>
