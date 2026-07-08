@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Devblogs.microsoft.com | .NET Ramblings</title>
+<title>Model Context Protocol (MCP) Explained for C# and .NET Developers | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Model Context Protocol explained for C# and .NET developers: what MCP is, why it matters, and how hosts, clients, servers, tools, resources, and prompts fit. …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Devblogs.microsoft.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/" />
-<meta property="og:title" content="Devblogs.microsoft.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Model Context Protocol (MCP) Explained for C# and .NET Developers" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_4/" />
+<meta property="og:title" content="Model Context Protocol (MCP) Explained for C# and .NET Developers" />
+<meta property="og:description" content="Model Context Protocol explained for C# and .NET developers: what MCP is, why it matters, and how hosts, clients, servers, tools, resources, and prompts fit. …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_4/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/blog/what-ai-benchmarks-are-not-telling-you" title="What AI benchmarks are not telling you">What AI benchmarks are not telling you</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Model Context Protocol (MCP) Explained for C# and .NET Developers</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,254 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Jul 1, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jul 8, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="What AI benchmarks are not telling you"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>This is the sixth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can't control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better outcomes. …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/blog/what-ai-benchmarks-are-not-telling-you" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/oldnewthing/20260701-00/?p=112498" title="It rather involved being on the other side of this airtight hatchway: Changing administrative settings">It rather involved being on the other side of this airtight hatchway: Changing administrative settings</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 1, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Model Context Protocol explained for C# and .NET developers: what MCP is, why it matters, and how hosts, clients, servers, tools, resources, and prompts fit.</p>
+<ul>
+<li>Link to article: <a href="https://www.devleader.ca/2026/07/08/model-context-protocol-mcp-explained-for-c-and-net-developers">https://www.devleader.ca/2026/07/08/model-context-protocol-mcp-explained-for-c-and-net-developers</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="It rather involved being on the other side of this airtight hatchway: Changing administrative settings"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>A security vulnerability report arrived that went roughly like this: An attacker can bypass security policies by modifying the following registry keys to disable ⟦security feature 1⟧ and ⟦security feature 2⟧. The statement is true, but what they don't mention is that administrator privileg
-Link to article: …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/oldnewthing/20260701-00/?p=112498" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric" title="What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)">What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 1, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/azure.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>We’re halfway through 2026, and Microsoft SQL has not slowed down. Since SQLCon/FabCon in March (where we released a ton of things, and those updates can be found in this udpates video), we shipped a wave of updates across SQL Server, Azure SQL, and SQL database in Fabric, with M
-Link to article: …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/java/access-github-copilot-in-jetbrains-github-copilot-is-now-a-native-agent-in-jetbrains-ai-assistant" title="Access GitHub Copilot in JetBrains - GitHub Copilot Is Now a Native Agent in JetBrains AI Assistant">Access GitHub Copilot in JetBrains - GitHub Copilot Is Now a Native Agent in JetBrains AI Assistant</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 1, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Access GitHub Copilot in JetBrains - GitHub Copilot Is Now a Native Agent in JetBrains AI Assistant"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/devops.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>GitHub Copilot is now a first-class, native option in JetBrains AI Assistant agent picker(read more). You can select it directly from the chat interface, no extra configuration need
-Link to article: …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/java/access-github-copilot-in-jetbrains-github-copilot-is-now-a-native-agent-in-jetbrains-ai-assistant" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/devblogs.microsoft.com/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -412,9 +184,8 @@ Link to article: …</p>
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
