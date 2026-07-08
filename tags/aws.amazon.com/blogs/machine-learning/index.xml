@@ -7,7 +7,90 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 07 Jul 2026 17:07:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jul 2026 16:57:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research</title>
+      <link>https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_2/</link>
+      <pubDate>Wed, 08 Jul 2026 16:57:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we explore how Graph-based Retrieval Augmented Generation (GraphRAG) is transforming scientific research by combining graph databases with generative AI. With this approach, you can accelerate discovery processes without compromising scientific integrity.
+Link to article: https://aws.amazon.com/blogs/machine-learning/powering-scientific-discovery-byokg-and-graphrag-for-intelligent-pharmaceutical-research/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Automatically sort and prioritize your mailboxes by using Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_3/</link>
+      <pubDate>Wed, 08 Jul 2026 16:55:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_3/</guid>
+      <description>
+        
+          
+            In this post, we show how organizations in the public sector can automate their email management using a generative AI solution powered by Amazon Bedrock.
+Link to article: https://aws.amazon.com/blogs/machine-learning/automatically-sort-and-prioritize-your-mailboxes-by-using-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building and connecting a production-ready ecommerce MCP server using Amazon Bedrock AgentCore and Mistral AI Studio</title>
+      <link>https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_4/</link>
+      <pubDate>Wed, 08 Jul 2026 16:51:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_4/</guid>
+      <description>
+        
+          
+            In this post, you build and connect that server end to end. You will implement MCP tools, set up two-layer JSON Web Token (JWT) authentication, deploy with AWS Cloud Development Kit (AWS CDK), and connect the result to Mistral AI’s Vibe. The post also covers prerequisites, solution architecture, best practices for MCP servers and Vibe connectors, and resource cleanup. The ecommerce server that you build supports product search, order placement, review submission, and returns processing using Amazon DynamoDB for data and Amazon Cognito for identity management.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Securing Amazon Bedrock AgentCore Runtime with AWS WAF</title>
+      <link>https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_6/</link>
+      <pubDate>Wed, 08 Jul 2026 15:57:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_6/</guid>
+      <description>
+        
+          
+            This post shows you two architecture patterns that address this problem. Both use an internet-facing ALB with AWS WAF and route traffic through a VPC Interface Endpoint to AgentCore Runtime. Pattern 1 places an AWS Lambda proxy between the ALB and the VPC Endpoint, giving you full control over request transformation. Pattern 2 targets the VPC Endpoint ENI IP addresses directly from the ALB, removing the Lambda hop entirely. You also learn how to close the direct-access backdoor with a resource policy so that traffic flows through AWS WAF only.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Manage AI applications on Mac with Jamf’s AI Governance and Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_7/</link>
+      <pubDate>Wed, 08 Jul 2026 15:53:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_07_2026/08_07_2026_7/</guid>
+      <description>
+        
+          
+            In this post, we show how you can use Jamf’s AI Governance with Amazon Bedrock to configure, deploy, and validate managed settings for AI applications across a Mac fleet.
+Link to article: https://aws.amazon.com/blogs/machine-learning/manage-ai-applications-on-mac-with-jamf-ai-governance-and-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Enrich your datasets with business context: Migrating from legacy Topics to semantic datasets in Amazon Quick</title>
       <link>https://www.dotnetramblings.com/post/07_07_2026/07_07_2026_2/</link>
