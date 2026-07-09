@@ -7,13 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 09 Jul 2026 14:07:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jul 2026 17:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>JetBrains Academy – June Digest</title>
+      <title>Modernize .NET applications in the GitHub Copilot app</title>
       <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_0/</link>
-      <pubDate>Thu, 09 Jul 2026 14:07:19 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 17:05:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_0/</guid>
+      <description>
+        
+          
+            Upgrading a .NET application isn&#39;t a single prompt. Every upgrade begins with understanding your application, evaluating dependencies, planning the work, applying code transformations, fixing build failures, and validating the results. Each phase uncovers new information that shapes the work that follows. A dependency update can unco
+Link to article: https://devblogs.microsoft.com/dotnet/modernize-dotnet-in-github-copilot-app 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MCP tool design: Practical approaches and tradeoffs</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_1/</link>
+      <pubDate>Thu, 09 Jul 2026 16:40:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_1/</guid>
+      <description>
+        
+          
+            In this post, we show where MCP tool design goes wrong and how to fix it with practical context engineering approaches.
+Link to article: https://aws.amazon.com/blogs/machine-learning/mcp-tool-design-practical-approaches-and-tradeoffs/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Enhancing enterprise inference on Amazon SageMaker HyperPod with data capture, Hugging Face, NVMe, and Route 53 integration</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_2/</link>
+      <pubDate>Thu, 09 Jul 2026 16:38:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we walk through five capabilities now available in SageMaker HyperPod inference: multi-tier data capture for auditing and model improvement, direct deployment from Hugging Face Hub, local NVMe model loading for faster cold starts, automated Route 53 DNS for custom domains, and pod-level IAM through custom service accounts.
+Link to article: https://aws.amazon.com/blogs/machine-learning/enhancing-enterprise-inference-on-amazon-sagemaker-hyperpod-with-data-capture-hugging-face-nvme-and-route-53-integration/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SharePoint Copilot Apps Now in Public Preview: From Intent to Action in Microsoft 365 Copilot</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_3/</link>
+      <pubDate>Thu, 09 Jul 2026 15:22:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_3/</guid>
+      <description>
+        
+          
+            It&#39;s here. Starting today, SharePoint Copilot Apps are in public preview - and they change what Copilot can do for your users. Instead of describing a task in a back-and-forth chat, users can approve an expense, triage an incident, or run an onboarding checklist as a real, interactive app
+Link to article: https://devblogs.microsoft.com/microsoft365dev/sharepoint-copilot-apps-now-in-public-preview-from-intent-to-action-in-microsoft-365-copilot 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The History of Kodee, Kotlin’s Mascot</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_4/</link>
+      <pubDate>Thu, 09 Jul 2026 14:53:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_4/</guid>
+      <description>
+        
+          
+            A few years back, the Kotlin team figured it was time their programming language had a mascot – something fun and friendly to make developers feel more at home. After all, so many other programming languages have their own characters – Gofer, elePHPant, Dart’s Dash, or Rust’s Ferris, for example. Bringing Kodee to life wasn’t […]
+Link to article: https://blog.jetbrains.com/research/2026/07/the-history-of-kodee/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>JetBrains Academy – June Digest</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_5/</link>
+      <pubDate>Thu, 09 Jul 2026 14:07:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_5/</guid>
       <description>
         
           
@@ -27,10 +112,10 @@ Link to article: https://blog.jetbrains.com/education/2026/07/09/jetbrains-acade
     
     <item>
       <title>I&#39;ve decoded a &lt;code&gt;#pragma detect_mismatch&lt;/code&gt; error and fixed the mismatch, but I still get the error</title>
-      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_6/</link>
       <pubDate>Thu, 09 Jul 2026 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_6/</guid>
       <description>
         
           
@@ -44,10 +129,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260709-00/?p=11251
     
     <item>
       <title>Agent Harness: Scaling the claw or harness capabilities</title>
-      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_7/</link>
       <pubDate>Thu, 09 Jul 2026 13:23:11 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_7/</guid>
       <description>
         
           
@@ -61,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/agent-framework/agent-harness-sc
     
     <item>
       <title>Serilog Sinks: Console, File, Seq, and More</title>
-      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_8/</link>
       <pubDate>Thu, 09 Jul 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_8/</guid>
       <description>
         
           
@@ -78,10 +163,10 @@ Link to article: https://www.devleader.ca/2026/07/09/serilog-sinks-console-file-
     
     <item>
       <title>Host a .NET Blazor WebAssembly App on Amazon S3 and Amazon CloudFront</title>
-      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_9/</link>
       <pubDate>Thu, 09 Jul 2026 11:55:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_9/</guid>
       <description>
         
           
@@ -95,10 +180,10 @@ Link to article: https://aws.amazon.com/blogs/dotnet/host-a-net-blazor-webassemb
     
     <item>
       <title>GitHub Copilot CLI: The Complete Guide to the Agentic Terminal Agent</title>
-      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_10/</link>
       <pubDate>Thu, 09 Jul 2026 11:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_10/</guid>
       <description>
         
           
@@ -112,10 +197,10 @@ Link to article: https://www.devleader.ca/2026/07/09/github-copilot-cli-the-comp
     
     <item>
       <title>Big Thinkers: John Allspaw – How Human-Centered Operations Shaped Modern DevOps and Reliability Engineering</title>
-      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_11/</link>
       <pubDate>Thu, 09 Jul 2026 10:50:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_11/</guid>
       <description>
         
           
@@ -128,11 +213,45 @@ Link to article: https://build5nines.com/big-thinkers-john-allspaw-how-human-cen
     </item>
     
     <item>
+      <title>ChatGPT is now a partner for your most ambitious work</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_13/</link>
+      <pubDate>Thu, 09 Jul 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_13/</guid>
+      <description>
+        
+          
+            ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.
+Link to article: https://openai.com/index/chatgpt-for-your-most-ambitious-work 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>GPT-5.6: Frontier intelligence that scales with your ambition</title>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_12/</link>
+      <pubDate>Thu, 09 Jul 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_12/</guid>
+      <description>
+        
+          
+            More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.
+Link to article: https://openai.com/index/gpt-5-6 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>From Noisy Queries to Precise Frames: Query Decomposition for Media Asset Search</title>
-      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_14/</link>
       <pubDate>Thu, 09 Jul 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_14/</guid>
       <description>
         
           
@@ -146,10 +265,10 @@ Link to article: https://devblogs.microsoft.com/ise/from_noisy_queries_to_precis
     
     <item>
       <title>What&#39;s New in vcpkg (June 2026)</title>
-      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_15/</link>
       <pubDate>Thu, 09 Jul 2026 01:28:54 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_07_2026/09_07_2026_15/</guid>
       <description>
         
           
