@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 10 Jul 2026 12:04:52 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jul 2026 14:45:56 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shrinking Azure Pipeline task extensions using esbuild</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_7/</link>
+      <pubDate>Fri, 10 Jul 2026 14:45:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_7/</guid>
+      <description>
+        
+          
+            TL;DR We bundled an internal Azure Pipelines task extension into a single bundled JavaScript file using esbuild. The task package dropped from tens of megabytes and thousands of files to three files per task ( script.js , task.json , and icon.png ). The change took about 20 lines of b
+Link to article: https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The case of the mysterious changes to integers when there shouldn&#39;t have been any code generation effect</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_8/</link>
+      <pubDate>Fri, 10 Jul 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_8/</guid>
+      <description>
+        
+          
+            A colleague made some code changes that should not have had any effect on the generated binary. Specifically, they migrated from the NDIS_STRING_CONST macro to
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260710-00/?p=112514 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Microsoft Agent Framework for Go public preview</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_10/</link>
       <pubDate>Fri, 10 Jul 2026 12:04:52 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_10/</guid>
       <description>
         
           

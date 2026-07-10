@@ -7,13 +7,162 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 10 Jul 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jul 2026 15:35:05 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What Is a Monolith? Monolithic Architecture Types Explained for C# Developers</title>
+      <title>Fine-tune NVIDIA Nemotron 3 models with Amazon SageMaker AI serverless model customization</title>
       <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_0/</link>
-      <pubDate>Fri, 10 Jul 2026 13:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Jul 2026 15:35:05 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_0/</guid>
+      <description>
+        
+          
+            In this post, we explore what makes the Nemotron 3 architecture unique, walk through the fine-tuning techniques available, and show you step-by-step how to get started with serverless customization using SageMaker Studio.
+Link to article: https://aws.amazon.com/blogs/machine-learning/fine-tune-nvidia-nemotron-3-models-with-amazon-sagemaker-ai-serverless-model-customization/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Real-time dental image verification with Amazon SageMaker AI at Henry Schein One</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_1/</link>
+      <pubDate>Fri, 10 Jul 2026 15:33:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_1/</guid>
+      <description>
+        
+          
+            This post describes how Henry Schein One closed that gap by building Image Verify, an AI-powered quality verification system on Amazon SageMaker AI that evaluates dental X-ray quality at the point of capture, in real time, across thousands of locations. The system went from concept to over 10,000 active locations within months and has already processed over 11 million X-rays and growing at 1.5 million per week. Henry Schein One is now scaling toward 40,000 locations globally across four regions.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a semantic layer for agentic AI on AWS with Stardog and Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_2/</link>
+      <pubDate>Fri, 10 Jul 2026 15:31:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_2/</guid>
+      <description>
+        
+          
+            In this post we show how to build a semantic layer on AWS using Stardog’s Semantic AI Application over Amazon Aurora and Amazon Redshift, and how to run a Strands Agents agent on Amazon Bedrock AgentCore that queries the layer to answer customer 360 questions across both sources without extract, transform, and load (ETL). The same Stardog deployment works behind AWS computes (Amazon Elastic Kubernetes Service (Amazon EKS), Amazon Elastic Container Service (Amazon ECS), and AWS Lambda).
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Scaling agentic workflows with native case management in Amazon Quick Automate</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_3/</link>
+      <pubDate>Fri, 10 Jul 2026 15:28:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_3/</guid>
+      <description>
+        
+          
+            In this post, we show you how to combine case management with agentic automation capabilities in Quick Automate. We introduce case management and explore the lifecycle of cases in an agentic workflow from case creation through processing to resolution. We cover how to create and manage single or multiple cases, automatically track and update status, handle exceptions, and incorporate Human-in-the-loop (HITL) steps within workflows. We also show the case creator-processor pattern that enables dynamic scaling.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Deploying quantized models on Amazon SageMaker AI with Unsloth</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_4/</link>
+      <pubDate>Fri, 10 Jul 2026 15:26:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_4/</guid>
+      <description>
+        
+          
+            In this post, you will learn four deployment patterns for taking models that have already been quantized with Unsloth and deploying them on AWS infrastructure. The patterns use Amazon Elastic Compute Cloud (Amazon EC2) for direct instance access, Amazon SageMaker AI inference endpoints for managed serving, and Amazon Elastic Kubernetes Service (Amazon EKS) or Amazon Elastic Container Service (Amazon ECS) when inference needs to fit into an existing container framework. You also learn operational practices for production deployments.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How KTern.AI built agentic AI for SAP on Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_5/</link>
+      <pubDate>Fri, 10 Jul 2026 15:23:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_5/</guid>
+      <description>
+        
+          
+            Evolving from a traditional software as a service (SaaS) platform into a next-generation agentic AI platform meant orchestrating multiple specialized agents across long-running enterprise programs. Each agent operates with persistent context, secure tool access, and production-grade reliability. We built that system on Amazon Bedrock AgentCore using the Strands Agents SDK. This post walks through how we architected it, which agents we built, and the outcomes for our customers.
+Link to article: https://aws.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Disaggregated prefill and decode for LLM inference on SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_6/</link>
+      <pubDate>Fri, 10 Jul 2026 15:20:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_6/</guid>
+      <description>
+        
+          
+            In this post, we show how to implement DPD with vLLM on Amazon SageMaker HyperPod using the HyperPod Inference Operator.
+Link to article: https://aws.amazon.com/blogs/machine-learning/disaggregated-prefill-and-decode-for-llm-inference-on-sagemaker-hyperpod/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Shrinking Azure Pipeline task extensions using esbuild</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_7/</link>
+      <pubDate>Fri, 10 Jul 2026 14:45:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_7/</guid>
+      <description>
+        
+          
+            TL;DR We bundled an internal Azure Pipelines task extension into a single bundled JavaScript file using esbuild. The task package dropped from tens of megabytes and thousands of files to three files per task ( script.js , task.json , and icon.png ). The change took about 20 lines of b
+Link to article: https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The case of the mysterious changes to integers when there shouldn&#39;t have been any code generation effect</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_8/</link>
+      <pubDate>Fri, 10 Jul 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_8/</guid>
+      <description>
+        
+          
+            A colleague made some code changes that should not have had any effect on the generated binary. Specifically, they migrated from the NDIS_STRING_CONST macro to
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260710-00/?p=112514 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What Is a Monolith? Monolithic Architecture Types Explained for C# Developers</title>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_9/</link>
+      <pubDate>Fri, 10 Jul 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_9/</guid>
       <description>
         
           
@@ -27,10 +176,10 @@ Link to article: https://www.devleader.ca/2026/07/10/what-is-a-monolith-monolith
     
     <item>
       <title>Microsoft Agent Framework for Go public preview</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_10/</link>
       <pubDate>Fri, 10 Jul 2026 12:04:52 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_10/</guid>
       <description>
         
           
@@ -44,10 +193,10 @@ Link to article: https://devblogs.microsoft.com/go/microsoft-agent-framework-for
     
     <item>
       <title>dotInsights | July 2026</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_11/</link>
       <pubDate>Fri, 10 Jul 2026 11:25:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_11/</guid>
       <description>
         
           
@@ -61,10 +210,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/07/10/dotinsights-july-2
     
     <item>
       <title>How Deutsche Telekom is rewiring telecommunications with AI</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_12/</link>
       <pubDate>Fri, 10 Jul 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_12/</guid>
       <description>
         
           
@@ -78,10 +227,10 @@ Link to article: https://openai.com/index/deutsche-telekom
     
     <item>
       <title>Build Your First MCP Server in C#: A Step-by-Step Quickstart</title>
-      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_13/</link>
       <pubDate>Fri, 10 Jul 2026 05:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_13/</guid>
       <description>
         
           
