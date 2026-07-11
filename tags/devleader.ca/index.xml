@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 10 Jul 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devleader.ca/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devleader.ca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Roslyn Analyzers in C#: The Complete Guide</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2026/11_07_2026_0/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2026/11_07_2026_0/</guid>
+      <description>
+        
+          
+            Learn what roslyn analyzers are, how they work in the .NET 10 compiler pipeline, why teams build custom diagnostics, and how to write your first rule in C#.
+Link to article: https://www.devleader.ca/2026/07/11/roslyn-analyzers-in-c-the-complete-guide 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How to Test and Debug a NuGet Package Locally Before Publishing</title>
       <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_1/</link>
@@ -325,57 +342,6 @@ Link to article: https://www.devleader.ca/2026/07/04/monolith-architecture-in-c-
           
             This week wraps up the C# Visitor pattern series with real-world examples, best practices, a decision guide, and step-by-step implementation, plus a complete guide to logging in .NET with ILogger, Serilog, and OpenTelemetry. There&#39;s also deep HttpClient in .NET 10 coverage on observability, resilience, streaming, and DNS handling, along with practical guides to creating and understanding NuGet packages.
 Link to article: https://www.devleader.ca/2026/07/04/weekly-recap-logging-in-net-httpclient-observability-and-the-complete-c-visitor-pattern-series-jul-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Create a NuGet Package in C# with dotnet pack</title>
-      <link>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_0/</link>
-      <pubDate>Fri, 03 Jul 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_0/</guid>
-      <description>
-        
-          
-            Step-by-step guide to creating a NuGet package in C# using dotnet pack. Learn how to configure your .csproj, set package properties, and generate a .nupkg file.
-Link to article: https://www.devleader.ca/2026/07/03/how-to-create-a-nuget-package-in-c-with-dotnet-pack 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>HttpClient Logging and Observability in .NET 10: ILogger, DelegatingHandler, and OpenTelemetry</title>
-      <link>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_1/</link>
-      <pubDate>Fri, 03 Jul 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_1/</guid>
-      <description>
-        
-          
-            How to implement HttpClient logging and observability in .NET 10 -- covering built-in ILogger integration, DelegatingHandler for custom request logging, OpenTelemetry tracing and metrics, and redacting sensitive headers in production.
-Link to article: https://www.devleader.ca/2026/07/03/httpclient-logging-and-observability-in-net-10-ilogger-delegatinghandler-and-opentelemetry 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Logging in .NET: The Complete Developer&#39;s Guide</title>
-      <link>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_3/</link>
-      <pubDate>Fri, 03 Jul 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_3/</guid>
-      <description>
-        
-          
-            Master logging in .NET with ILogger, structured logging, log levels, Serilog, and OpenTelemetry. Complete guide for .NET 9 and .NET 10 developers.
-Link to article: https://www.devleader.ca/2026/07/03/logging-in-net-the-complete-developers-guide 
           
           
         

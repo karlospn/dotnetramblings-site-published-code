@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 10 Jul 2026 21:38:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Test Vertical Slice Architecture</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2026/11_07_2026_1/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2026/11_07_2026_1/</guid>
+      <description>
+        
+          
+            The most common question I get about vertical slice architecture isn&#39;t about structure. It&#39;s &amp;quot;where do my tests go?&amp;quot; The layered-architecture testing habits (mock the repository, test the service) don&#39;t map onto slices, and that&#39;s a feature. Here&#39;s the testing approach that fits VSA naturally.
+Link to article: https://milanjovanovic.tech/blog/how-to-test-vertical-slice-architecture 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Roslyn Analyzers in C#: The Complete Guide</title>
+      <link>https://www.dotnetramblings.com/post/11_07_2026/11_07_2026_0/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_07_2026/11_07_2026_0/</guid>
+      <description>
+        
+          
+            Learn what roslyn analyzers are, how they work in the .NET 10 compiler pipeline, why teams build custom diagnostics, and how to write your first rule in C#.
+Link to article: https://www.devleader.ca/2026/07/11/roslyn-analyzers-in-c-the-complete-guide 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Your AI Agent Just Got a Lot Better at the Critter Stack: AI Skills 1.6.0</title>
       <link>https://www.dotnetramblings.com/post/10_07_2026/10_07_2026_0/</link>
@@ -1895,108 +1929,6 @@ Link to article: https://www.milanjovanovic.tech/blog/build-your-own-vpn-with-ta
           
             This week wraps up the C# Visitor pattern series with real-world examples, best practices, a decision guide, and step-by-step implementation, plus a complete guide to logging in .NET with ILogger, Serilog, and OpenTelemetry. There&#39;s also deep HttpClient in .NET 10 coverage on observability, resilience, streaming, and DNS handling, along with practical guides to creating and understanding NuGet packages.
 Link to article: https://www.devleader.ca/2026/07/04/weekly-recap-logging-in-net-httpclient-observability-and-the-complete-c-visitor-pattern-series-jul-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Create a NuGet Package in C# with dotnet pack</title>
-      <link>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_0/</link>
-      <pubDate>Fri, 03 Jul 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_0/</guid>
-      <description>
-        
-          
-            Step-by-step guide to creating a NuGet package in C# using dotnet pack. Learn how to configure your .csproj, set package properties, and generate a .nupkg file.
-Link to article: https://www.devleader.ca/2026/07/03/how-to-create-a-nuget-package-in-c-with-dotnet-pack 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>HttpClient Logging and Observability in .NET 10: ILogger, DelegatingHandler, and OpenTelemetry</title>
-      <link>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_1/</link>
-      <pubDate>Fri, 03 Jul 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_1/</guid>
-      <description>
-        
-          
-            How to implement HttpClient logging and observability in .NET 10 -- covering built-in ILogger integration, DelegatingHandler for custom request logging, OpenTelemetry tracing and metrics, and redacting sensitive headers in production.
-Link to article: https://www.devleader.ca/2026/07/03/httpclient-logging-and-observability-in-net-10-ilogger-delegatinghandler-and-opentelemetry 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How did we conclude that &lt;tt&gt;CcNamespace.dll&lt;/tt&gt; was the ringleader of a group of DLLs that unloaded prematurely?</title>
-      <link>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_2/</link>
-      <pubDate>Fri, 03 Jul 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_2/</guid>
-      <description>
-        
-          
-            When I presented my study of a crash caused by a thread executing from an unloaded third-party DLL, someone asked how I concluded that CcNamespace.dll was the ringleader of the fa
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260703-00/?p=112504 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Logging in .NET: The Complete Developer&#39;s Guide</title>
-      <link>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_3/</link>
-      <pubDate>Fri, 03 Jul 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_3/</guid>
-      <description>
-        
-          
-            Master logging in .NET with ILogger, structured logging, log levels, Serilog, and OpenTelemetry. Complete guide for .NET 9 and .NET 10 developers.
-Link to article: https://www.devleader.ca/2026/07/03/logging-in-net-the-complete-developers-guide 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>In Conversation With the Golden Kodee Winners</title>
-      <link>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_4/</link>
-      <pubDate>Fri, 03 Jul 2026 09:57:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_4/</guid>
-      <description>
-        
-          
-            KotlinConf 2026 marked a milestone for the Kotlin community: the very first Golden Kodee Community Awards. The awards recognize the individuals and communities whose passion and dedication help the Kotlin ecosystem thrive. From creating educational content and building engaging online communities to organizing events, fostering connections, and driving positive societal impact, the Golden Kodee Awards […]
-Link to article: https://blog.jetbrains.com/kotlin/2026/07/in-conversation-with-the-golden-kodee-winners/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Enabling MLflow OpenAI Autolog on PySpark Workers</title>
-      <link>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_5/</link>
-      <pubDate>Fri, 03 Jul 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_07_2026/03_07_2026_5/</guid>
-      <description>
-        
-          
-            Context In a recent engagement, the team built an LLM-based contract intelligence pipeline on Azure Databricks. The goal was to extract entitlements from a large corpus of inconsistently formatted service-contract PDFs — what is covered, on which equipment, and under which terms — so downstream systems can tell what is in scope a
-Link to article: https://devblogs.microsoft.com/ise/mlflow-autolog-pyspark-workers 
           
           
         
