@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 13 Jul 2026 11:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jul 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Old gh copilot Is Retired: Migrating to the New GitHub Copilot CLI</title>
+      <title>Why don&#39;t we just make the entire stack out of guard pages?</title>
       <link>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_0/</link>
-      <pubDate>Mon, 13 Jul 2026 11:00:00 +0000</pubDate>
+      <pubDate>Mon, 13 Jul 2026 14:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_0/</guid>
+      <description>
+        
+          
+            In my earlier overview of how compilers on different architectures perform stack probes,
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260713-00/?p=112528 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Serilog vs Microsoft.Extensions.Logging: Which Should You Use?</title>
+      <link>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_1/</link>
+      <pubDate>Mon, 13 Jul 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_1/</guid>
+      <description>
+        
+          
+            Serilog vs Microsoft.Extensions.Logging: understand the difference between an abstraction and a provider, when MEL is enough, and when Serilog adds real value in .NET.
+Link to article: https://www.devleader.ca/2026/07/13/serilog-vs-microsoftextensionslogging-which-should-you-use 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Enable SHA Pinning for GitHub Actions Across Personal Repositories</title>
+      <link>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_2/</link>
+      <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_2/</guid>
+      <description>
+        
+          
+            Pinning GitHub Actions to a full-length commit SHA is one of the simplest ways to reduce supply chain risk in your workflows. It ensures that a workflow keeps using the exact code you reviewed, instead of silently following a moving tag or branch. Tags are convenient, but they are mutable. A workflow that uses actions/checkout@v4 or a third-party action pinned to a tag can start running different code…
+Link to article: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Old gh copilot Is Retired: Migrating to the New GitHub Copilot CLI</title>
+      <link>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_3/</link>
+      <pubDate>Mon, 13 Jul 2026 11:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_3/</guid>
       <description>
         
           
@@ -27,10 +78,10 @@ Link to article: https://www.devleader.ca/2026/07/13/the-old-gh-copilot-is-retir
     
     <item>
       <title>What’s New in ReSharper 2026.2 for VS Code-compatible editors</title>
-      <link>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_4/</link>
       <pubDate>Mon, 13 Jul 2026 10:40:13 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_4/</guid>
       <description>
         
           
@@ -44,10 +95,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/07/13/rs-vsc-2026-2/
     
     <item>
       <title>Debugging for .NET in VS Code and Cursor: The #1 Requested Feature Is Here</title>
-      <link>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_5/</link>
       <pubDate>Mon, 13 Jul 2026 10:39:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_5/</guid>
       <description>
         
           
@@ -61,10 +112,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/07/13/rs-vsc-debugging/
     
     <item>
       <title>Distributing Roslyn Analyzers as NuGet Packages in .NET</title>
-      <link>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_6/</link>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_6/</guid>
       <description>
         
           
