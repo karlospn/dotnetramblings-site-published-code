@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 12 Jul 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributing Roslyn Analyzers as NuGet Packages in .NET</title>
+      <link>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_0/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_07_2026/13_07_2026_0/</guid>
+      <description>
+        
+          
+            Learn to package and distribute your roslyn analyzer nuget package with the right folder structure, metadata, versioning, and CI/CD automation in .NET 10.
+Link to article: https://www.devleader.ca/2026/07/13/distributing-roslyn-analyzers-as-nuget-packages-in-net 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Defining MCP Tools in C#: Attributes, JSON Schema, and Error Handling</title>
       <link>https://www.dotnetramblings.com/post/12_07_2026/12_07_2026_0/</link>
@@ -1929,57 +1946,6 @@ Link to article: https://www.devleader.ca/2026/07/06/building-mcp-servers-and-cl
           
             See how VS Code and OpenAI tested GPT-5.5 system prompt changes in a two-week experiment, cutting tool calls and tail-end token usage while speeding up edits. Read the full article
 Link to article: https://devblogs.microsoft.com/vscode-blog/how-prompt-tuning-improved-gpt-5.5-in-vs-code 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>NuGet Versioning and Semantic Versioning (SemVer) in .NET</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2026/05_07_2026_0/</link>
-      <pubDate>Sun, 05 Jul 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2026/05_07_2026_0/</guid>
-      <description>
-        
-          
-            Master NuGet versioning with SemVer 2.0 in .NET. Learn MAJOR.MINOR.PATCH rules, pre-release suffixes, version ranges in PackageReference, and csproj version properties.
-Link to article: https://www.devleader.ca/2026/07/05/nuget-versioning-and-semantic-versioning-semver-in-net 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Serilog in .NET: Complete Guide to Structured Logging</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2026/05_07_2026_1/</link>
-      <pubDate>Sun, 05 Jul 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2026/05_07_2026_1/</guid>
-      <description>
-        
-          
-            Learn Serilog in .NET from scratch. Setup, sinks, enrichers, appsettings configuration, and best practices for ASP.NET Core with .NET 9 and .NET 10.
-Link to article: https://www.devleader.ca/2026/07/05/serilog-in-net-complete-guide-to-structured-logging 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The .NET Host Process: What Runs Before Main() and Why It Sometimes Hangs</title>
-      <link>https://www.dotnetramblings.com/post/05_07_2026/05_07_2026_2/</link>
-      <pubDate>Sun, 05 Jul 2026 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_07_2026/05_07_2026_2/</guid>
-      <description>
-        
-          
-            This guide explores the essential role of the .NET host process, which initializes the runtime, resolves dependencies, and launches applications. It highlights common issues with lingering host processes, especially during BenchmarkDotNet runs, and offers diagnostic strategies to identify root causes, such as unclean shutdowns and locked files. Understanding this can streamline troubleshooting.
-Link to article: https://dotnettips.com/2026/07/05/the-net-host-process-what-runs-before-main-and-why-it-sometimes-hangs/ 
           
           
         
