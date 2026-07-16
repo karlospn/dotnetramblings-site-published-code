@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 15 Jul 2026 18:14:31 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jul 2026 15:50:52 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a restaurant telephony AI host with Amazon Bedrock AgentCore and Amazon Nova 2 Sonic</title>
+      <link>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_2/</link>
+      <pubDate>Thu, 16 Jul 2026 15:50:52 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_2/</guid>
+      <description>
+        
+          
+            In this post, we show you how to build a voice ordering system that answers a phone number and takes the order from greeting to confirmation. The system uses Amazon Bedrock AgentCore to host and run the agent and Amazon Nova 2 Sonic for real-time speech, connected to a restaurant backend through the Model Context Protocol (MCP). The walkthrough covers deploying the full stack with AWS Cloud Development Kit (AWS CDK) and bridging a phone call into the agent through a Session Initiation Protocol (SIP) gateway on Amazon Elastic Container Service (Amazon ECS) and AWS Fargate.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance</title>
       <link>https://www.dotnetramblings.com/post/15_07_2026/15_07_2026_3/</link>
