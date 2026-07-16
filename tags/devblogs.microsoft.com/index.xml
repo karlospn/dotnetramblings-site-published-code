@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 16 Jul 2026 15:00:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jul 2026 17:47:28 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>T-SQL Hygiene: What&#39;s the Big Deal with SET NOCOUNT ON?</title>
+      <link>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_0/</link>
+      <pubDate>Thu, 16 Jul 2026 17:47:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_0/</guid>
+      <description>
+        
+          
+            Perhaps you have seen SET NOCOUNT ON; at the beginning of a stored procedure and wondered why it is there. By default, SQL Server uses SET NOCOUNT OFF;, which sends messages such as “(10 rows affected)
+Link to article: https://devblogs.microsoft.com/azure-sql/tsql-nocount 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing .NET Modernization for Beginners</title>
+      <link>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_2/</link>
+      <pubDate>Thu, 16 Jul 2026 17:07:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_2/</guid>
+      <description>
+        
+          
+            We&#39;ve built a new course to help you navigate the journey when you&#39;re the owner of an application built on a legacy .NET framework and it needs to be modernized. The whole concept of modernization is overwhelming! Security updates aren&#39;t being issued any longer! Dependencies are out of date because they&#39;re not being updated! You&#39;re not alone.
+Link to article: https://devblogs.microsoft.com/dotnet/announcing-dotnet-modernization-for-beginners 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How to build long-running MCP tools on Azure Functions</title>
-      <link>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_8/</link>
       <pubDate>Thu, 16 Jul 2026 15:00:10 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_8/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/azure-sdk/long-running-mcp-tools
     
     <item>
       <title>Visual Studio Administrator? Join our Private Marketplace Preview!</title>
-      <link>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_12/</link>
       <pubDate>Thu, 16 Jul 2026 14:00:58 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_12/</guid>
       <description>
         
           
@@ -44,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/visual-studio-admin
     
     <item>
       <title>Speculating on how the buggy control panel extension truncated a value that it had right in front of it</title>
-      <link>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_13/</link>
       <pubDate>Thu, 16 Jul 2026 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_07_2026/16_07_2026_13/</guid>
       <description>
         
           
