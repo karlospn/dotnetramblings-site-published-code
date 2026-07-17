@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 17 Jul 2026 11:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2026 14:22:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GitHub Copilot CLI Slash Commands: Inside the Session Modes and Shortcuts</title>
+      <title>Faster C&#43;&#43; iterative builds with GitHub Copilot</title>
       <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_0/</link>
-      <pubDate>Fri, 17 Jul 2026 11:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Jul 2026 14:22:57 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_0/</guid>
+      <description>
+        
+          
+            Slow builds are a consistent theme of feedback from C++ developers. We built GitHub Copilot build performance for Windows so you can leverage Copilot to optimize your project’s build times. This workflow will find optimizations that bring your build times down. At first, we only measured the impact of build optimizations on full clean bui
+Link to article: https://devblogs.microsoft.com/cppblog/faster-c-iterative-builds-with-github-copilot 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Why has the display control panel pointer truncation bug gone unfixed for so long?</title>
+      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_1/</link>
+      <pubDate>Fri, 17 Jul 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_1/</guid>
+      <description>
+        
+          
+            Last time, we speculated on how the buggy control panel extension truncated a value that it had right in front of it. When we sent our analysis to the
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260717-00/?p=112541 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Kotlin Turns 15: Celebrate the Kotlin Effect</title>
+      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_2/</link>
+      <pubDate>Fri, 17 Jul 2026 13:29:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_2/</guid>
+      <description>
+        
+          
+            🎉 Kotlin turns 15! 🎉 For 15 years, you’ve helped shape Kotlin into the language it is today. Whether you’ve built apps, contributed to the ecosystem, taught others, or simply chosen Kotlin for your next project – thank you for being part of the journey. Today, we’re celebrating Kotlin and the people who have made […]
+Link to article: https://blog.jetbrains.com/kotlin/2026/07/kotlin-turns-15-celebrate-the-kotlin-effect/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MCP Transports in C#: stdio vs. Streamable HTTP vs. Legacy SSE</title>
+      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_3/</link>
+      <pubDate>Fri, 17 Jul 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_3/</guid>
+      <description>
+        
+          
+            Compare MCP transports in C# across stdio, Streamable HTTP, stateless/stateful sessions, and legacy SSE migration so .NET teams choose safe .NET wiring.
+Link to article: https://www.devleader.ca/2026/07/17/mcp-transports-in-c-stdio-vs-streamable-http-vs-legacy-sse 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>GitHub Copilot CLI Slash Commands: Inside the Session Modes and Shortcuts</title>
+      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_4/</link>
+      <pubDate>Fri, 17 Jul 2026 11:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_4/</guid>
       <description>
         
           
@@ -26,11 +94,28 @@ Link to article: https://www.devleader.ca/2026/07/17/github-copilot-cli-slash-co
     </item>
     
     <item>
+      <title>A scorecard for the AI age</title>
+      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_5/</link>
+      <pubDate>Fri, 17 Jul 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_5/</guid>
+      <description>
+        
+          
+            Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.
+Link to article: https://openai.com/index/a-scorecard-for-the-ai-age 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>How to test agent skills without hitting real APIs</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_6/</link>
       <pubDate>Fri, 17 Jul 2026 09:27:50 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_6/</guid>
       <description>
         
           
@@ -44,10 +129,10 @@ Link to article: https://devblogs.microsoft.com/blog/how-to-test-agent-skills-wi
     
     <item>
       <title>PhpStorm 2026.2 is Now Out</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_7/</link>
       <pubDate>Fri, 17 Jul 2026 09:18:17 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_7/</guid>
       <description>
         
           
@@ -61,10 +146,10 @@ Link to article: https://blog.jetbrains.com/phpstorm/2026/07/phpstorm-2026-2-is-
     
     <item>
       <title>Key Takeaways From PHPverse 2026</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_8/</link>
       <pubDate>Fri, 17 Jul 2026 07:57:46 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_8/</guid>
       <description>
         
           
@@ -78,10 +163,10 @@ Link to article: https://blog.jetbrains.com/phpstorm/2026/07/key-takeaways-from-
     
     <item>
       <title>Build Once, Run Everywhere: Unified Manifest for Office Add-Ins now Generally Available</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_9/</link>
       <pubDate>Fri, 17 Jul 2026 00:00:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_9/</guid>
       <description>
         
           
