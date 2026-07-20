@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 17 Jul 2026 14:22:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jul 2026 14:05:15 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI agents, meet the Azure Cosmos DB vNext emulator</title>
+      <link>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_0/</link>
+      <pubDate>Mon, 20 Jul 2026 14:05:15 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_0/</guid>
+      <description>
+        
+          
+            If you use the Azure Cosmos DB vNext emulator, you probably know the local development loop: start the emulator, connect to it, create some resources, load test data, run queries, and inspect the results. Each step is straightforward, but together they add setup work before you can test the application you are actually building. How agent
+Link to article: https://devblogs.microsoft.com/cosmosdb/use-ai-agents-with-cosmosdb-vnext-emulator 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Making an agile version of a Windows Runtime delegate in C&#43;&#43;/WinRT, part 1</title>
+      <link>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_1/</link>
+      <pubDate>Mon, 20 Jul 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_1/</guid>
+      <description>
+        
+          
+            Suppose you have some C++/WinRT code that receives a delegate from an outside source, and you might invoke that delegate from a potentially different COM context. However, the original delegate may not be agile. How can you make an agile version of that delegate? The easy way is to wrap the delegate in an agile_ref
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260720-00/?p=112545 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Faster C&#43;&#43; iterative builds with GitHub Copilot</title>
       <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_3/</link>
