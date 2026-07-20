@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 20 Jul 2026 14:05:15 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jul 2026 17:00:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>T-SQL Hygiene: Introducing the Covering Index</title>
+      <link>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_2/</link>
+      <pubDate>Mon, 20 Jul 2026 17:00:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_2/</guid>
+      <description>
+        
+          
+            Often in applications, we write database queries. And often, the same query is executed again and again. To make queries against large tables faster, we can add an index. This is a general improvement for anyone accessing the table. However, there is a specially designed index called a covering index that can make queries against large tables
+Link to article: https://devblogs.microsoft.com/azure-sql/tsql-covering-index 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Pure Virtual C&#43;&#43; 2026 Is Tomorrow and On-Demand Sessions Are Now Available</title>
+      <link>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_5/</link>
+      <pubDate>Mon, 20 Jul 2026 16:05:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_5/</guid>
+      <description>
+        
+          
+            Pure Virtual
+Link to article: https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2026-is-tomorrow-and-on-demand-sessions-are-now-available 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI agents, meet the Azure Cosmos DB vNext emulator</title>
-      <link>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_0/</link>
+      <link>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_6/</link>
       <pubDate>Mon, 20 Jul 2026 14:05:15 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_0/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_6/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://devblogs.microsoft.com/cosmosdb/use-ai-agents-with-cosm
     
     <item>
       <title>Making an agile version of a Windows Runtime delegate in C&#43;&#43;/WinRT, part 1</title>
-      <link>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_7/</link>
       <pubDate>Mon, 20 Jul 2026 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/20_07_2026/20_07_2026_7/</guid>
       <description>
         
           
