@@ -7,13 +7,96 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 23 Jul 2026 15:00:27 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jul 2026 17:00:20 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Build locally, ship to Azure: meet Azure SQL Developer</title>
+      <title>Evaluating AI Agents: A production blueprint with Strands and AgentCore</title>
       <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_0/</link>
-      <pubDate>Thu, 23 Jul 2026 15:00:27 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2026 17:00:20 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_0/</guid>
+      <description>
+        
+          
+            Together, Motorway and AWS built an end-to-end evaluation pipeline that reduced incorrect results from 1 in 8 queries to 1 in 50 and cut issue detection time from few hours to few minutes. The pipeline combines the Strands Agents SDK with Amazon Bedrock AgentCore, a fully managed service for deploying and operating AI agents at scale. In this post, you will learn how to build this pipeline for your own agents.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building trade assistant: How Jefferies optimized front office trading operations with AI</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_1/</link>
+      <pubDate>Thu, 23 Jul 2026 16:42:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_1/</guid>
+      <description>
+        
+          
+            In this post, we explore how Jefferies overcame these challenges with a solution built on Strands Agents, an agent harness SDK for building AI agents that can reason, plan, and act by orchestrating calls to foundation models (FMs) and external tools. The solution uses large language models (LLMs), Amazon Bedrock, and Amazon Bedrock Knowledge Bases. It also uses Model Context Protocol (MCP), an open standard that helps AI agents securely connect to diverse data sources and tools through a unified interface.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building multi-Region visualizations with Highcharts in Amazon Quick</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_2/</link>
+      <pubDate>Thu, 23 Jul 2026 16:40:59 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_2/</guid>
+      <description>
+        
+          
+            This post shows you how to build multi-Region carrier performance dashboards in Quick Sight using Highcharts custom visualizations to overcome native chart limitations. You will learn how to maintain data sovereignty across AWS Regions while creating unified visualizations through the Quick Sight federated dataset capability. The solution includes production-ready chart configurations and addresses security, compliance, and scalability requirements.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-multi-region-visualizations-with-highcharts-in-amazon-quick/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Detecting silent agent failures with Amazon Bedrock AgentCore optimization</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_3/</link>
+      <pubDate>Thu, 23 Jul 2026 16:38:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_3/</guid>
+      <description>
+        
+          
+            Amazon Bedrock AgentCore optimization surfaces silent behavioral failures in production AI agents: the ones that pass every health check but still deliver wrong outcomes. Learn how insights discovers, explains, and ranks failure patterns across sessions so you can fix the highest-impact issues first.
+Link to article: https://aws.amazon.com/blogs/machine-learning/detecting-silent-agent-failures-with-amazon-bedrock-agentcore-optimization/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agentic retrieval for Amazon Bedrock Managed Knowledge Base</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_4/</link>
+      <pubDate>Thu, 23 Jul 2026 16:30:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_4/</guid>
+      <description>
+        
+          
+            This post focuses on why classic retrieval falls short on multi-part questions, how the AgenticRetrieveStream API works (including request construction and trace parsing), and when to choose it over the standard Retrieve API.
+Link to article: https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build locally, ship to Azure: meet Azure SQL Developer</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_5/</link>
+      <pubDate>Thu, 23 Jul 2026 15:00:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_5/</guid>
       <description>
         
           
@@ -27,10 +110,10 @@ Link to article: https://devblogs.microsoft.com/azure-sql/azure-sql-developer-pr
     
     <item>
       <title>Securing Remote MCP Servers in C#: OAuth 2.0, JWT, and Protected Resource Metadata</title>
-      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_6/</link>
       <pubDate>Thu, 23 Jul 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_6/</guid>
       <description>
         
           
@@ -44,10 +127,10 @@ Link to article: https://www.devleader.ca/2026/07/23/securing-remote-mcp-servers
     
     <item>
       <title>Smarter Spring Development in Eclipse with GitHub Copilot</title>
-      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_7/</link>
       <pubDate>Thu, 23 Jul 2026 11:13:52 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_7/</guid>
       <description>
         
           
@@ -61,10 +144,10 @@ Link to article: https://devblogs.microsoft.com/java/smarter-spring-development-
     
     <item>
       <title>GitHub Copilot CLI Custom Agents and Skills</title>
-      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_8/</link>
       <pubDate>Thu, 23 Jul 2026 11:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_8/</guid>
       <description>
         
           
@@ -78,10 +161,10 @@ Link to article: https://www.devleader.ca/2026/07/23/github-copilot-cli-custom-a
     
     <item>
       <title>Axum Support in RustRover 2026.2: Build Web Backends Faster</title>
-      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_9/</link>
       <pubDate>Thu, 23 Jul 2026 10:57:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_9/</guid>
       <description>
         
           
@@ -95,15 +178,32 @@ Link to article: https://blog.jetbrains.com/rust/2026/07/23/axum-support-in-rust
     
     <item>
       <title>Code Coverage: How to Measure It, Understand the Metrics, and Improve Your Tests</title>
-      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_10/</link>
       <pubDate>Thu, 23 Jul 2026 09:49:34 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_10/</guid>
       <description>
         
           
             Code coverage is one of those metrics that every development team talks about but few use to its full potential. Whether you’re shipping a SaaS product or maintaining a legacy monolith, understanding what your tests actually exercise-and what they miss-can make the difference between a confident release and a 2AM incident page. This article walks you […]
 Link to article: https://blog.jetbrains.com/qodana/2026/07/code-coverage-tests/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Launching Health in ChatGPT</title>
+      <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_11/</link>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_11/</guid>
+      <description>
+        
+          
+            Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.
+Link to article: https://openai.com/index/health-in-chatgpt 
           
           
         
