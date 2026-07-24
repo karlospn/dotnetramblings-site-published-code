@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Posts | .NET Ramblings</title>
+<title>Faster blob copying in Azure Blob Storage | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="I generally try to avoid copying blobs in Azure and just reference a single copy, but there are some situations where you do need to make a copy. The technique …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Faster blob copying in Azure Blob Storage" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/azure.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/24_07_2026/24_07_2026_9/" />
+<meta property="og:title" content="Faster blob copying in Azure Blob Storage" />
+<meta property="og:description" content="I generally try to avoid copying blobs in Azure and just reference a single copy, but there are some situations where you do need to make a copy. The technique …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/azure.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/post/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/24_07_2026/24_07_2026_9/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/phpstorm/2026/07/key-takeaways-from-phpverse-2026/" title="Key Takeaways From PHPverse 2026">Key Takeaways From PHPverse 2026</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Faster blob copying in Azure Blob Storage</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,196 +140,130 @@
 </svg>
 </span>
     <span class="post_date">
-      Jul 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Jul 24, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/markheath.net/' title="markheath.net" class="post_tag button button_translucent">markheath.net
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Key Takeaways From PHPverse 2026"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>On June 9, PHPverse 2026 brought together PHP developers from different backgrounds to watch talks by domain experts, exchange opinions, and even try to catch a running elePHPant. The five-hour live stream has been viewed 15,000 times in total and received 10,206 live chat comments, with over 2,600 people watching …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/phpstorm/2026/07/key-takeaways-from-phpverse-2026/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline" title="Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies">Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>I generally try to avoid copying blobs in Azure and just reference a single copy, but there are some situations where you do need to make a copy. The technique you choose can make a big difference to how long that copy takes.
+For example, the &quot;naive&quot; approach of downloading the source and re-uploading it to the destination is conceptually simple but likely to be very slow. On my laptop, a 10GB copy using this technique took about one hour, but that same copy can be done server side in minutes, and if you use a parallel block copy approach (similar to that used by AzCopy) you can copy a file of this size in seconds.
+In this post, I'll explain three approaches to blob copying and share some timings.
+Download and re-upload (Avoid!)
+The &quot;naive&quot; approach is to open the source as a stream and then upload it straight back up:
+await using var src = await source.OpenReadAsync();
+await using var dst = await target.OpenWriteAsync(overwrite: true);
+await src.CopyToAsync(dst);</p>
+<p>The problems here are first that the speed is bound by your local connection (about 25 Mbps in my tests), and you're paying for egress bandwidth.
+The only situation where this approach makes sense is if for some reason you need to transform the data during the copy (in which case it's not really a copy anyway!)
+Server-side copy (StartCopyFromUriAsync)
+There's a much better approach offered by the Azure Blob storage SDK, where you generate a SAS URI for the source (typically a short-lived user-delegation SAS) and it performs the copy for you server-side. This operation is asynchronous and you are expected to  poll until it completes.
+var copy = await target.StartCopyFromUriAsync(sourceSasUri);
+await copy.WaitForCompletionAsync();   // poll until Azure finishes</p>
+<p>There are several benefits here - you're not streaming any data through your machine, and you're not paying egress cost. It's also robust - the copy continues even if your process goes down after initiating the copy.
+This approach was my preferred technique for all blob copies until I noticed that it doesn't perform nearly as fast as AzCopy when copying across storage accounts.
+Parallel block-from-URL copy
+If you really want the fastest cross-storage account copying speed, the technique I've used is to mimic how AzCopy behaves and split the source blob into ranges and use a technique that allows you to stage blocks from a URL. This means that you can instruct Azure to copy many blocks in parallel. Once all the blocks are staged, you then commit the list of blocks.
+You will need to decide what block size to use. A block blob can have up to 50,000 blocks, so if you're copying vast files you need to use sufficiently large block sizes (say 100MiB if you want to upload multi-TiB files). In the example below I also show how to limit the number of blocks that are staged at a time.
+const long blockSize = 100 * 1024 * 1024; // 100 MiB</p>
+<p>var length = (await source.GetPropertiesAsync()).Value.ContentLength;</p>
+<p>// pre-compute an ordered (blockId, range) list — block IDs must be equal-length strings
+var blocks = new List&lt;(string Id, HttpRange Range)&gt;();
+for (long offset = 0; offset &lt; length; offset += blockSize)
+{
+var blockId = Convert.ToBase64String(
+Encoding.UTF8.GetBytes($&quot;block-{blocks.Count:D6}&quot;));
+blocks.Add((blockId, new HttpRange(offset, Math.Min(blockSize, length - offset))));
+}</p>
+<p>// stage up to 8 blocks at a time
+await Parallel.ForEachAsync(blocks,
+new ParallelOptions { MaxDegreeOfParallelism = 8 },
+async (block, ct) =&gt;
+await target.StageBlockFromUriAsync(sourceSasUri, block.Id,
+new StageBlockFromUriOptions { SourceRange = block.Range },
+cancellationToken: ct));</p>
+<p>// commit in order (the list is already ordered)
+await target.CommitBlockListAsync(blocks.Select(b =&gt; b.Id));</p>
+<p>With this approach, again the bytes are never downloaded to your machine, and this gives a great speed-up. Of course, unlike with StartCopyFromUriAsync you'll need to make sure that you handle resilience - if you're interrupted half-way through, you'll need to finish staging blocks and committing the block list once they're all done.
+Copying within the same storage account
+An important caveat is that if the source and destination blobs are in the same storage account, you should just use the server-side copy technique with StartCopyFromUriAsync. It's essentially instantaneous regardless of blob size. For example, in my tests, a 10 GB same-account server-side copy completed in under a second, compared with ~17 s for the
+parallel copy technique (which still has to transfer the entire file as blocks).
+Example timings
+I tried each of these three techniques for files of various sizes (100MB, 1GB, 10GB), and between storage accounts in the same and different regions, as well as within a storage account.</p>
+<p>Scenario
+Size
+Server-side
+Parallel
+Naive</p>
+<p>Same region (cross-account)
+100 MB
+31.5 s
+2.7 s
+35.9 s</p>
+<p>Same region (cross-account)
+1 GB
+65.2 s
+2.4 s
+5m 56s</p>
+<p>Same region (cross-account)
+10 GB
+4m 04s
+9.2 s
+72m 02s</p>
+<p>Cross region (cross-account)
+100 MB
+20.9 s
+2.4 s
+31.0 s</p>
+<p>Cross region (cross-account)
+1 GB
+92.1 s
+2.9 s
+5m 00s</p>
+<p>Cross region (cross-account)
+10 GB
+4m 39s
+21.2 s
+53m 33s</p>
+<p>Same account
+100 MB
+0.7 s
+1.5 s
+32.6 s</p>
+<p>Same account
+1 GB
+0.4 s
+3.0 s
+4m 41s</p>
+<p>Same account
+10 GB
+0.4 s
+16.8 s
+54m 55s</p>
+<p>As you can see, the parallel copy technique is by far the fastest in all situations except same-account copies.
+Important caveats: I only did one timing for each scenario, and of course the naive copy is more a measure of how fast my local internet connection was working than anything to do with how fast Azure blob storage works. I also did the parallel copy without constraining the number of blocks in parallel at all (which could have been about 100 for the largest file).
+Is it an exact copy?
+I validated that the parallel copy technique resulted in the same file hash, so yes, this technique does faithfully replicate the original file contents. But of course there is more to a blob than just its contents.
+Azure blobs can also have metadata, tags, and properties. Each of the three techniques will allow you to also copy these across, but you must opt in (and ensure that any readable SAS URI for the source file has permissions to access this metadata). See my earlier tutorial here for guidance on copying metadata.
+Azure blobs are also stored in an access tier (e.g. hot, cold, cool, archive). Unless you explicitly specify a target tier, you'll just use the account default. And of course if your source blob is in archive, it will need to be rehydrated first, which could be a very slow process.
+Block blobs are made up of a series of blocks. With the parallel technique, we ignore the block structure of the source file, and recreate a new blob with (typically fewer) blocks than the source blob. This rarely matters but is worth being aware of.
+Summary
+If you need to copy blobs between storage accounts, the fastest technique I'm aware of is the parallel block-from-URL copy. This keeps the data
+off your machine and is by far the quickest for anything non-trivial. The key exception is whenever you copy within a single storage account, where you should just use the plain server-side copy as it's effectively instantaneous. And avoid the download and re-upload approach to blob copying.</p>
+<ul>
+<li>Link to article: <a href="https://markheath.net/post/2026/7/24/fast-blob-copy-azure">https://markheath.net/post/2026/7/24/fast-blob-copy-azure</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Introduction: The Problem Imagine a catalog of 50,000 visual assets—characters, environments, props—and no way to search them except scrolling. Someone asks: &quot;Find me all the night scenes with a warrior holding a weapon.&quot; Without structured metadata, that search is impossible. Manual tagging does not scale. …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/microsoft365dev/unified-manifest-for-office-add-ins-now-ga" title="Build Once, Run Everywhere: Unified Manifest for Office Add-Ins now Generally Available">Build Once, Run Everywhere: Unified Manifest for Office Add-Ins now Generally Available</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Build Once, Run Everywhere: Unified Manifest for Office Add-Ins now Generally Available"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>We’re excited to announce the general availability of unified manifest support for Word, Excel, PowerPoint Add-ins, in addition to Outlook Add-ins. Unified manifest support first launched for Outlook Add-ins. Now, it extends across Word, Excel, and PowerPoint, making it possible to build a single app that works across …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/microsoft365dev/unified-manifest-for-office-add-ins-now-ga" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/5/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 6" class="page-link" role="button">6</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
@@ -361,9 +287,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>

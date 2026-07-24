@@ -162,6 +162,22 @@ Link to article: https://blog.jetbrains.com/mps/2026/07/new_bugfix_releases_mps-
     </item>
     
     <item>
+      <title>Faster blob copying in Azure Blob Storage</title>
+      <link>https://www.dotnetramblings.com/post/24_07_2026/24_07_2026_9/</link>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_07_2026/24_07_2026_9/</guid>
+      <description>
+        
+          
+            I generally try to avoid copying blobs in Azure and just reference a single copy, but there are some situations where you do need to make a copy. The technique you choose can make a big difference to how long that copy takes. For example, the &amp;quot;naive&amp;quot; approach of downloading the source and re-uploading it to the destination is conceptually simple but likely to be very slow. On my laptop, a 10GB copy using this technique took about one hour, but that same copy can be done server side in minutes, and if you use a parallel block copy approach (similar to that used by AzCopy) you can copy a file of this size in seconds.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Best practices for applying Amazon Bedrock Guardrails to code generation workflows</title>
       <link>https://www.dotnetramblings.com/post/23_07_2026/23_07_2026_0/</link>
       <pubDate>Thu, 23 Jul 2026 23:03:44 +0000</pubDate>
