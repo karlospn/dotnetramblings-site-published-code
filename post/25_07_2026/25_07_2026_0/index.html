@@ -4,13 +4,12 @@
   lang="en"
   data-figures=""
   
-    class="home"
+    class="page"
   
   
   >
   <head>
-	<meta name="generator" content="Hugo 0.131.0">
-<title>.NET Ramblings</title>
+<title>The System Design Behind My New SaaS | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,25 +27,25 @@
 
 <meta property="og:locale" content="en" />
 
-<meta property="og:type" content="website">
-<meta name="description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
+<meta property="og:type" content="article">
+<meta name="description" content="I just shipped Katabench, and it&#39;s the most fun system I&#39;ve ever built: it takes C# from strangers and runs it safely on servers I own.
+Link to article: …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content=".NET Ramblings" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/" />
-<meta property="og:title" content=".NET Ramblings" />
-<meta property="og:description" content="Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="The System Design Behind My New SaaS" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/25_07_2026/25_07_2026_0/" />
+<meta property="og:title" content="The System Design Behind My New SaaS" />
+<meta property="og:description" content="I just shipped Katabench, and it&#39;s the most fun system I&#39;ve ever built: it takes C# from strangers and runs it safely on servers I own.
+Link to article: …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/index.xml" title=".NET Ramblings" />
-<link rel="alternate" type="application/json" href="https://www.dotnetramblings.com/index.json" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/25_07_2026/25_07_2026_0/">
 
 
 
@@ -90,7 +89,7 @@
       
         
 
-  <div class="nav_parent nav_active">
+  <div class="nav_parent">
     <a href="https://www.dotnetramblings.com/" class="nav_item" title="Home">Home </a>
   </div>
   <div class="nav_parent">
@@ -132,21 +131,10 @@
 </header>
 
     <main>
-
   
-
-
-
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis" title="How to test agent skills without hitting real APIs">How to test agent skills without hitting real APIs</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">The System Design Behind My New SaaS</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -154,317 +142,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Jul 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
+      Jul 25, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/milanjovanovic.tech/' title="milanjovanovic.tech" class="post_tag button button_translucent">milanjovanovic.tech
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="How to test agent skills without hitting real APIs"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>You shipped a skill that calls an API. The agent uses it, user get results. But how do you know the results are good? How do you know your last change didn't quietly break the happy path, or that switching models won't regress the scenarios you already got right? You need to evaluate. Run your skill through a set of …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/phpstorm/2026/07/phpstorm-2026-2-is-now-out/" title="PhpStorm 2026.2 is Now Out">PhpStorm 2026.2 is Now Out</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>I just shipped Katabench, and it's the most fun system I've ever built: it takes C# from strangers and runs it safely on servers I own.</p>
+<ul>
+<li>Link to article: <a href="https://milanjovanovic.tech/blog/the-system-design-behind-my-new-saas">https://milanjovanovic.tech/blog/the-system-design-behind-my-new-saas</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="PhpStorm 2026.2 is Now Out"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Welcome to the PhpStorm 2026.2 release overview. This version advances PhpStorm as a platform for your preferred coding agents, models, and AI subscriptions, improves PHP and Laravel support, and delivers productivity gains for working with Git repositories, databases, and the built-in terminal. Download PhpStorm …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/phpstorm/2026/07/phpstorm-2026-2-is-now-out/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://blog.jetbrains.com/phpstorm/2026/07/key-takeaways-from-phpverse-2026/" title="Key Takeaways From PHPverse 2026">Key Takeaways From PHPverse 2026</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Key Takeaways From PHPverse 2026"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>On June 9, PHPverse 2026 brought together PHP developers from different backgrounds to watch talks by domain experts, exchange opinions, and even try to catch a running elePHPant. The five-hour live stream has been viewed 15,000 times in total and received 10,206 live chat comments, with over 2,600 people watching …</p>
-          
-          <br>
-          <a href="https://blog.jetbrains.com/phpstorm/2026/07/key-takeaways-from-phpverse-2026/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline" title="Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies">Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Introduction: The Problem Imagine a catalog of 50,000 visual assets—characters, environments, props—and no way to search them except scrolling. Someone asks: &quot;Find me all the night scenes with a warrior holding a weapon.&quot; Without structured metadata, that search is impossible. Manual tagging does not scale. …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devblogs.microsoft.com/microsoft365dev/unified-manifest-for-office-add-ins-now-ga" title="Build Once, Run Everywhere: Unified Manifest for Office Add-Ins now Generally Available">Build Once, Run Everywhere: Unified Manifest for Office Add-Ins now Generally Available</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jul 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devblogs.microsoft.com/' title="devblogs.microsoft.com" class="post_tag button button_translucent">devblogs.microsoft.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Build Once, Run Everywhere: Unified Manifest for Office Add-Ins now Generally Available"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>We’re excited to announce the general availability of unified manifest support for Word, Excel, PowerPoint Add-ins, in addition to Outlook Add-ins. Unified manifest support first launched for Outlook Add-ins. Now, it extends across Word, Excel, and PowerPoint, making it possible to build a single app that works across …</p>
-          
-          <br>
-          <a href="https://devblogs.microsoft.com/microsoft365dev/unified-manifest-for-office-add-ins-now-ga" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/5/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 6" class="page-link" role="button">6</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope=''>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -481,9 +186,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>

@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 24 Jul 2026 21:41:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The System Design Behind My New SaaS</title>
+      <link>https://www.dotnetramblings.com/post/25_07_2026/25_07_2026_0/</link>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_07_2026/25_07_2026_0/</guid>
+      <description>
+        
+          
+            I just shipped Katabench, and it&#39;s the most fun system I&#39;ve ever built: it takes C# from strangers and runs it safely on servers I own.
+Link to article: https://milanjovanovic.tech/blog/the-system-design-behind-my-new-saas 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Critter Stack Roadmap for the Rest of 2026?</title>
       <link>https://www.dotnetramblings.com/post/24_07_2026/24_07_2026_0/</link>
@@ -1544,244 +1561,6 @@ Link to article: https://milanjovanovic.tech/blog/how-i-migrated-my-website-to-c
         
           
             Anyone who&#39;s tried using the frontier AI coding assistants such as Claude Code or Open AI Codex will know that they can rapidly accelerate development, generating new code much faster than a typical human developer. But that still leaves a big question - is AI-generated code ready to deliver and safe for production? It&#39;s one thing for your code to be &amp;quot;demo-ready&amp;quot;, but that&#39;s not necessarily the same thing as it being secure, resilient, observable, and cost-effective etc.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Transform your sales organization with Amazon Quick: your new agentic AI teammate</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_0/</link>
-      <pubDate>Fri, 17 Jul 2026 18:42:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_0/</guid>
-      <description>
-        
-          
-            In this post, we walk through a few ways that Quick delivers on this promise. We cover the entire sales cycle, from identifying your highest-priority prospect, contacting them, working the deal to close, and keeping the CRM up to date as the account matures, while protecting your scarcest resource: your time.
-Link to article: https://aws.amazon.com/blogs/machine-learning/transform-your-sales-organization-with-amazon-quick-your-new-agentic-ai-teammate/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Mobile Layout for Amazon Quick dashboards</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_1/</link>
-      <pubDate>Fri, 17 Jul 2026 17:13:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_1/</guid>
-      <description>
-        
-          
-            Teams that rely on dashboards for daily decisions often must pinch and zoom to interact with controls originally designed for larger displays. Checking revenue during a morning standup, reviewing pipeline metrics between meetings, or monitoring operations while traveling all require extra effort when the dashboard was built for a desktop screen. Mobile Layout for Amazon […]
-Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-mobile-layout-for-amazon-quick-dashboards/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Smartsheet built a remote MCP server on AWS</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_2/</link>
-      <pubDate>Fri, 17 Jul 2026 16:32:06 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_2/</guid>
-      <description>
-        
-          
-            In this post, we cover a high-level view of the Smartsheet remote MCP architecture, with a focus on the AWS infrastructure behind it. This includes security, governance, scaling and deployment, and the AI-specific optimizations Smartsheet built on AWS.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-smartsheet-built-a-remote-mcp-server-on-aws/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Faster C&#43;&#43; iterative builds with GitHub Copilot</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_3/</link>
-      <pubDate>Fri, 17 Jul 2026 14:22:57 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_3/</guid>
-      <description>
-        
-          
-            Slow builds are a consistent theme of feedback from C++ developers. We built GitHub Copilot build performance for Windows so you can leverage Copilot to optimize your project’s build times. This workflow will find optimizations that bring your build times down. At first, we only measured the impact of build optimizations on full clean bui
-Link to article: https://devblogs.microsoft.com/cppblog/faster-c-iterative-builds-with-github-copilot 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why has the display control panel pointer truncation bug gone unfixed for so long?</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_4/</link>
-      <pubDate>Fri, 17 Jul 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_4/</guid>
-      <description>
-        
-          
-            Last time, we speculated on how the buggy control panel extension truncated a value that it had right in front of it. When we sent our analysis to the
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260717-00/?p=112541 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Kotlin Turns 15: Celebrate the Kotlin Effect</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_5/</link>
-      <pubDate>Fri, 17 Jul 2026 13:29:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_5/</guid>
-      <description>
-        
-          
-            🎉 Kotlin turns 15! 🎉 For 15 years, you’ve helped shape Kotlin into the language it is today. Whether you’ve built apps, contributed to the ecosystem, taught others, or simply chosen Kotlin for your next project – thank you for being part of the journey. Today, we’re celebrating Kotlin and the people who have made […]
-Link to article: https://blog.jetbrains.com/kotlin/2026/07/kotlin-turns-15-celebrate-the-kotlin-effect/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>MCP Transports in C#: stdio vs. Streamable HTTP vs. Legacy SSE</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_6/</link>
-      <pubDate>Fri, 17 Jul 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_6/</guid>
-      <description>
-        
-          
-            Compare MCP transports in C# across stdio, Streamable HTTP, stateless/stateful sessions, and legacy SSE migration so .NET teams choose safe .NET wiring.
-Link to article: https://www.devleader.ca/2026/07/17/mcp-transports-in-c-stdio-vs-streamable-http-vs-legacy-sse 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>GitHub Copilot CLI Slash Commands: Inside the Session Modes and Shortcuts</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_7/</link>
-      <pubDate>Fri, 17 Jul 2026 11:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_7/</guid>
-      <description>
-        
-          
-            Practical guide to GitHub Copilot CLI slash commands, modes, shortcuts, context controls, and TUI workflow habits for agentic coding sessions in 2026.
-Link to article: https://www.devleader.ca/2026/07/17/github-copilot-cli-slash-commands-inside-the-session-modes-and-shortcuts 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A scorecard for the AI age</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_8/</link>
-      <pubDate>Fri, 17 Jul 2026 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_8/</guid>
-      <description>
-        
-          
-            Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.
-Link to article: https://openai.com/index/a-scorecard-for-the-ai-age 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to test agent skills without hitting real APIs</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_9/</link>
-      <pubDate>Fri, 17 Jul 2026 09:27:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_9/</guid>
-      <description>
-        
-          
-            You shipped a skill that calls an API. The agent uses it, user get results. But how do you know the results are good? How do you know your last change didn&#39;t quietly break the happy path, or that switching models won&#39;t regress the scenarios you already got right? You need to evaluate. Run your skill through a set of scenari
-Link to article: https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PhpStorm 2026.2 is Now Out</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_10/</link>
-      <pubDate>Fri, 17 Jul 2026 09:18:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_10/</guid>
-      <description>
-        
-          
-            Welcome to the PhpStorm 2026.2 release overview. This version advances PhpStorm as a platform for your preferred coding agents, models, and AI subscriptions, improves PHP and Laravel support, and delivers productivity gains for working with Git repositories, databases, and the built-in terminal. Download PhpStorm 2026.2 AI in PhpStorm PhpStorm 2026.2 adds native support for more […]
-Link to article: https://blog.jetbrains.com/phpstorm/2026/07/phpstorm-2026-2-is-now-out/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Key Takeaways From PHPverse 2026</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_11/</link>
-      <pubDate>Fri, 17 Jul 2026 07:57:46 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_11/</guid>
-      <description>
-        
-          
-            On June 9, PHPverse 2026 brought together PHP developers from different backgrounds to watch talks by domain experts, exchange opinions, and even try to catch a running elePHPant. The five-hour live stream has been viewed 15,000 times in total and received 10,206 live chat comments, with over 2,600 people watching concurrently at peak hours. Our […]
-Link to article: https://blog.jetbrains.com/phpstorm/2026/07/key-takeaways-from-phpverse-2026/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_12/</link>
-      <pubDate>Fri, 17 Jul 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_12/</guid>
-      <description>
-        
-          
-            Introduction: The Problem Imagine a catalog of 50,000 visual assets—characters, environments, props—and no way to search them except scrolling. Someone asks: &amp;quot;Find me all the night scenes with a warrior holding a weapon.&amp;quot; Without structured metadata, that search is impossible. Manual tagging does not scale. We needed
-Link to article: https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build Once, Run Everywhere: Unified Manifest for Office Add-Ins now Generally Available</title>
-      <link>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_13/</link>
-      <pubDate>Fri, 17 Jul 2026 00:00:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_07_2026/17_07_2026_13/</guid>
-      <description>
-        
-          
-            We’re excited to announce the general availability of unified manifest support for Word, Excel, PowerPoint Add-ins, in addition to Outlook Add-ins. Unified manifest support first launched for Outlook Add-ins. Now, it extends across Word, Excel, and PowerPoint, making it possible to build a single app that works across Micros
-Link to article: https://devblogs.microsoft.com/microsoft365dev/unified-manifest-for-office-add-ins-now-ga 
           
           
         
