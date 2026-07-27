@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 27 Jul 2026 09:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jul 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Testing and Debugging Your C# MCP Server with MCP Inspector</title>
+      <title>Get a Unicode character name from a Rune in .NET</title>
       <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_0/</link>
-      <pubDate>Mon, 27 Jul 2026 09:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_0/</guid>
+      <description>
+        
+          
+            If you have a Rune and want its Unicode name (for example GRINNING FACE for 😀), there is no built-in API in .NET today. Here are two practical options: Use the ICU library available on the operating system Use the Meziantou.Framework.Unicode NuGet package Method 1: Use ICU from the OS ICU exposes u_charName, which returns the Unicode name for a code point. using System; using…
+Link to article: https://www.meziantou.net/get-a-unicode-character-name-from-a-rune-in-dotnet.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How do you rewrite C/C&#43;&#43; projects to Rust?</title>
+      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_1/</link>
+      <pubDate>Mon, 27 Jul 2026 11:02:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_1/</guid>
+      <description>
+        
+          
+            Disclaimer: This article was created with the assistance of AI and reviewed by the JetBrains RustRover team. C and C++ to Rust migrations are no longer just an experimental idea. More teams are now looking at Rust as a practical way to improve memory safety, reduce long-term maintenance costs, and modernize performance-critical systems. But a […]
+Link to article: https://blog.jetbrains.com/rust/2026/07/27/cpp-to-rust-migration/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Running GitHub Copilot CLI in Scripts and CI/CD Pipelines (Headless Mode)</title>
+      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_2/</link>
+      <pubDate>Mon, 27 Jul 2026 11:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_2/</guid>
+      <description>
+        
+          
+            Learn GitHub Copilot CLI headless automation with copilot -p prompts, CI auth, safe permissions, models, secrets, schedulers, and cloud sandbox workflows.
+Link to article: https://www.devleader.ca/2026/07/27/running-github-copilot-cli-in-scripts-and-cicd-pipelines-headless-mode 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Testing and Debugging Your C# MCP Server with MCP Inspector</title>
+      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_3/</link>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_3/</guid>
       <description>
         
           
@@ -27,10 +78,10 @@ Link to article: https://www.devleader.ca/2026/07/27/testing-and-debugging-your-
     
     <item>
       <title>Reverse Engineering with Hibernate 7.4 and IntelliJ IDEA</title>
-      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_4/</link>
       <pubDate>Mon, 27 Jul 2026 07:38:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_4/</guid>
       <description>
         
           
@@ -44,10 +95,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/07/reverse-engineering-wit
     
     <item>
       <title>Implement SAML as an external provider in an ASP.NET Core Identity application using Duende as an OIDC server</title>
-      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_5/</link>
       <pubDate>Mon, 27 Jul 2026 06:22:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_5/</guid>
       <description>
         
           
@@ -61,10 +112,10 @@ Link to article: https://damienbod.com/2026/07/27/implement-saml-as-an-external-
     
     <item>
       <title>How AI is expanding what people do at work</title>
-      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_6/</link>
       <pubDate>Mon, 27 Jul 2026 03:30:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_6/</guid>
       <description>
         
           

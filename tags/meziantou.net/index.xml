@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meziantou.net on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/meziantou.net/</link>
+    <description>Recent content in Meziantou.net on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Mon, 27 Jul 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get a Unicode character name from a Rune in .NET</title>
+      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_0/</link>
+      <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_0/</guid>
+      <description>
+        
+          
+            If you have a Rune and want its Unicode name (for example GRINNING FACE for 😀), there is no built-in API in .NET today. Here are two practical options: Use the ICU library available on the operating system Use the Meziantou.Framework.Unicode NuGet package Method 1: Use ICU from the OS ICU exposes u_charName, which returns the Unicode name for a code point. using System; using…
+Link to article: https://www.meziantou.net/get-a-unicode-character-name-from-a-rune-in-dotnet.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
