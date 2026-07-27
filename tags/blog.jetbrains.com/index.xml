@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 27 Jul 2026 11:02:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jul 2026 14:17:02 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TeamCity 2026.1.3 and 2025.11.7 Are Now Available</title>
+      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_3/</link>
+      <pubDate>Mon, 27 Jul 2026 14:17:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_3/</guid>
+      <description>
+        
+          
+            We’re rolling out new maintenance updates for TeamCity On-Premises 2026.1 and 2025.11. Both releases are primarily focused on security, addressing more than 20 security vulnerabilities each (including a critical CVE-2026-63077 vulnerability that allows attackers to bypass authentication checks and execute arbitrary operating system commands with the privileges of the TeamCity server process). In addition, 2026.1.3 resolves several functional issues, including: Because these […]
+Link to article: https://blog.jetbrains.com/teamcity/2026/07/teamcity-2026-1-3-2025-11-7-bugfix/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Critical Security Issue Affecting TeamCity On-Premises (CVE-2026-63077) – Update to 2025.11.7 or 2026.1.3 Now</title>
+      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_4/</link>
+      <pubDate>Mon, 27 Jul 2026 14:09:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_4/</guid>
+      <description>
+        
+          
+            Summary Details A critical security vulnerability has been identified in TeamCity On-Premises. If exploited, this flaw may enable an unauthenticated attacker with HTTP(S) access to a TeamCity server to bypass authentication checks and execute arbitrary operating system commands with the privileges of the TeamCity server process. All versions of TeamCity On-Premises are affected. TeamCity Cloud […]
+Link to article: https://blog.jetbrains.com/teamcity/2026/07/cve-2026-63077/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How do you rewrite C/C&#43;&#43; projects to Rust?</title>
-      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_6/</link>
       <pubDate>Mon, 27 Jul 2026 11:02:50 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_6/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://blog.jetbrains.com/rust/2026/07/27/cpp-to-rust-migratio
     
     <item>
       <title>Reverse Engineering with Hibernate 7.4 and IntelliJ IDEA</title>
-      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_9/</link>
       <pubDate>Mon, 27 Jul 2026 07:38:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/27_07_2026/27_07_2026_9/</guid>
       <description>
         
           
