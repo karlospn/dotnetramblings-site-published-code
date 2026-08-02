@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 01 Aug 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Aug 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>P/Invoke Showdown: [DllImport] vs. [LibraryImport] in Modern .NET</title>
+      <link>https://www.dotnetramblings.com/post/02_08_2026/02_08_2026_0/</link>
+      <pubDate>Sun, 02 Aug 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_08_2026/02_08_2026_0/</guid>
+      <description>
+        
+          
+            Is [LibraryImport] always faster than [DllImport]? Not necessarily. I benchmarked both across native Windows API calls, string marshalling, handles, out parameters, and allocation-heavy scenarios. The results may surprise you.
+Link to article: https://dotnettips.com/2026/08/02/p-invoke-showdown-dllimport-vs-libraryimport-in-modern-net/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Distributed Tracing Across .NET Services with OpenTelemetry: W3C Trace Context and Baggage</title>
       <link>https://www.dotnetramblings.com/post/01_08_2026/01_08_2026_1/</link>
