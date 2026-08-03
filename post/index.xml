@@ -7,7 +7,75 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 02 Aug 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Aug 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker AI Governance: Audit Logs, Now Where Your Security Team Already Works</title>
+      <link>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_1/</link>
+      <pubDate>Mon, 03 Aug 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_1/</guid>
+      <description>
+        
+          
+            Now in Docker AI Governance: a single searchable record of every policy decision your agents trigger, streamed to the SIEM your security team already runs, so you can show what your agents did and what your policy stopped. Today, Docker AI Governance now streams every policy decision in your organization into the SIEM your security...
+Link to article: https://www.docker.com/blog/docker-ai-governance-audit-logs-now-where-your-security-team-already-works/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Empty sandboxes break developer experience</title>
+      <link>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_0/</link>
+      <pubDate>Mon, 03 Aug 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_0/</guid>
+      <description>
+        
+          
+            Learn how Docker Sandbox kits turn empty sandboxes into productive development environments with repeatable tooling, credentials, and configuration.
+Link to article: https://www.docker.com/blog/empty-sandboxes-break-developer-experience/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Our First Moves to Get AI Spend Under Control</title>
+      <link>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_2/</link>
+      <pubDate>Mon, 03 Aug 2026 12:14:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_2/</guid>
+      <description>
+        
+          
+            Over the past six months at JetBrains, our AI development expenses have increased roughly 10x. When the costs started rising, of course we noticed – and realized that we simply didn’t know how to control them systematically. We didn’t know because our developers don’t just use the AI tools we build. They decide for themselves […]
+Link to article: https://blog.jetbrains.com/ai/2026/08/our-first-moves-to-get-ai-spend-under-control/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Adding a Clone method to a C# record</title>
+      <link>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_3/</link>
+      <pubDate>Mon, 03 Aug 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_3/</guid>
+      <description>
+        
+          
+            Adding a Clone method to a C# record When using records, creating a copy with with is concise: var sample = new Sample(&amp;quot;meziantou&amp;quot;); _ = sample with { }; public record Sample(string Value); This works well, but sample with { } is not always obvious as a discoverable Clone API for consumers. Why public Sample Clone() is not allowed Records already have compiler-generated clone behavior used by with.…
+Link to article: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>P/Invoke Showdown: [DllImport] vs. [LibraryImport] in Modern .NET</title>
       <link>https://www.dotnetramblings.com/post/02_08_2026/02_08_2026_0/</link>
