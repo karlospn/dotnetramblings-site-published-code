@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Empty sandboxes break developer experience | .NET Ramblings</title>
+<title>Adding a Clone method to a C# record | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,24 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Learn how Docker Sandbox kits turn empty sandboxes into productive development environments with repeatable tooling, credentials, and configuration.
-Link to …" />
+<meta name="description" content="Adding a Clone method to a C# record When using records, creating a copy with with is concise: var sample = new Sample(&quot;meziantou&quot;); _ = sample with { …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Empty sandboxes break developer experience" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/docker.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_7/" />
-<meta property="og:title" content="Empty sandboxes break developer experience" />
-<meta property="og:description" content="Learn how Docker Sandbox kits turn empty sandboxes into productive development environments with repeatable tooling, credentials, and configuration.
-Link to …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/docker.png" />
+<meta name="twitter:title" content="Adding a Clone method to a C# record" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_10/" />
+<meta property="og:title" content="Adding a Clone method to a C# record" />
+<meta property="og:description" content="Adding a Clone method to a C# record When using records, creating a copy with with is concise: var sample = new Sample(&quot;meziantou&quot;); _ = sample with { …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_7/">
+<link rel="canonical" href="https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_10/">
 
 
 
@@ -134,7 +132,7 @@ Link to …" />
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Empty sandboxes break developer experience</h1>
+    <h1 class="post_title">Adding a Clone method to a C# record</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -142,14 +140,14 @@ Link to …" />
 </svg>
 </span>
     <span class="post_date">
-      Aug 3, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Aug 3, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/meziantou.net/' title="meziantou.net" class="post_tag button button_translucent">meziantou.net
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Learn how Docker Sandbox kits turn empty sandboxes into productive development environments with repeatable tooling, credentials, and configuration.</p>
+    <div class="post_body"><p>Adding a Clone method to a C# record When using records, creating a copy with with is concise: var sample = new Sample(&quot;meziantou&quot;); _ = sample with { }; public record Sample(string Value); This works well, but sample with { } is not always obvious as a discoverable Clone API for consumers. Why public Sample Clone() is not allowed Records already have compiler-generated clone behavior used by with.…</p>
 <ul>
-<li>Link to article: <a href="https://www.docker.com/blog/empty-sandboxes-break-developer-experience/">https://www.docker.com/blog/empty-sandboxes-break-developer-experience/</a></li>
+<li>Link to article: <a href="https://www.meziantou.net/adding-a-clone-method-to-a-csharp-record.htm?utm_medium=social&utm_source=syndication">https://www.meziantou.net/adding-a-clone-method-to-a-csharp-record.htm?utm_medium=social&utm_source=syndication</a></li>
 </ul>
 
     </div>
