@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 31 Jul 2026 15:00:15 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Aug 2026 18:10:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime</title>
+      <link>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_0/</link>
+      <pubDate>Mon, 03 Aug 2026 18:10:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_0/</guid>
+      <description>
+        
+          
+            Many developers publish packages to NuGet.org via API keys. In recent years, API keys and Personal Access Tokens (PATs) have been frequently used as an attack vector to gain access to systems. There are multiple problems with API keys and PATs; the two biggest ones are that they are loose strings that are easy to lose, and they have traditi
+Link to article: https://devblogs.microsoft.com/dotnet/strengthening-nuget-supply-chain-security-reducing-api-key-lifetime 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>From generated code to trusted code with a unit-test agent</title>
       <link>https://www.dotnetramblings.com/post/31_07_2026/31_07_2026_4/</link>
