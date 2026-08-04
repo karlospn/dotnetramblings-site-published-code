@@ -7,13 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 04 Aug 2026 16:02:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Aug 2026 18:39:14 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Automated web insight extraction with Amazon Bedrock AgentCore</title>
+      <title>Introducing Web Search on Amazon Bedrock for foundation model grounding</title>
       <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_0/</link>
-      <pubDate>Tue, 04 Aug 2026 16:02:21 +0000</pubDate>
+      <pubDate>Tue, 04 Aug 2026 18:39:14 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_0/</guid>
+      <description>
+        
+          
+            Today, we are introducing the general availability of Web Search on Amazon Bedrock. It is a server-side built-in tool that grounds model responses in current web knowledge. With Web Search, grounding becomes a native capability of Amazon Bedrock, with no third-party vendors to onboard, no external APIs to orchestrate, and no additional third party vendor security reviews to conduct. In this post, we walk through what Web Search on Amazon Bedrock is, why it matters, how to enable it using the OpenAI Responses API, and how to get started with the tool.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build Production-Ready Agents with the GitHub Copilot Harness and Agent Framework</title>
+      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_1/</link>
+      <pubDate>Tue, 04 Aug 2026 18:25:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_1/</guid>
+      <description>
+        
+          
+            Developers increasingly want to build agents that can reason about code, modify files, execute commands, interact with developer tools, and work across entire repositories. While GitHub Copilot already provides a powerful coding harness for these scenarios, developers often need additional capabili
+Link to article: https://devblogs.microsoft.com/agent-framework/build-production-ready-agents-with-the-github-copilot-harness-and-agent-framework 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Automated web insight extraction with Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_2/</link>
+      <pubDate>Tue, 04 Aug 2026 16:02:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_2/</guid>
       <description>
         
           
@@ -26,11 +59,28 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/automated-web-ins
     </item>
     
     <item>
+      <title>dotInsights | August 2026</title>
+      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_3/</link>
+      <pubDate>Tue, 04 Aug 2026 15:55:52 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_3/</guid>
+      <description>
+        
+          
+            Did you know? Ever wondered why C# uses the semicolon to terminate a statement? Obviously it comes from the C/C++ heritage it shares with other languages like Java, but where did C get it from? That would be Algol, where the semicolon was used to separate statements. But why the semicolon? In natural language grammar, […]
+Link to article: https://blog.jetbrains.com/dotnet/2026/08/04/dotinsights-august-2026/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>The Software Supply Chain Is Under Siege. Devs Are Still the First Line of Defense</title>
-      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_4/</link>
       <pubDate>Tue, 04 Aug 2026 15:10:16 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_4/</guid>
       <description>
         
           
@@ -44,10 +94,10 @@ Link to article: https://www.docker.com/blog/software-supply-chain-security-omdi
     
     <item>
       <title>Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit</title>
-      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_5/</link>
       <pubDate>Tue, 04 Aug 2026 14:00:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_5/</guid>
       <description>
         
           
@@ -60,10 +110,10 @@ Link to article: https://www.docker.com/blog/software-supply-chain-security-omdi
     
     <item>
       <title>IntelliJ IDEA Goes LSP: Java and Kotlin Intelligence Comes to VS Code, Cursor, and Agentic Flows</title>
-      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_6/</link>
       <pubDate>Tue, 04 Aug 2026 10:48:16 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_6/</guid>
       <description>
         
           
@@ -77,10 +127,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/08/intellij-idea-goes-lsp/
     
     <item>
       <title>Automatic CSRF protection based on Fetch Metadata headers: Exploring the .NET 11 preview - Part 6</title>
-      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_8/</link>
       <pubDate>Tue, 04 Aug 2026 09:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_8/</guid>
       <description>
         
           
@@ -94,10 +144,10 @@ Link to article: https://andrewlock.net/exploring-the-dotnet-11-preview-6-automa
     
     <item>
       <title>Kodee’s Kotlin Roundup: Birthday Wishes, Shipaton 2026, and the New Kotlin AI Benchmark</title>
-      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_9/</link>
       <pubDate>Tue, 04 Aug 2026 08:14:27 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_9/</guid>
       <description>
         
           
@@ -111,10 +161,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2026/08/kodees-kotlin-roundup
     
     <item>
       <title>Modern authentication in ASP.NET Core with 2FA and passkey</title>
-      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_7/</link>
       <pubDate>Tue, 04 Aug 2026 09:11:23 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_7/</guid>
       <description>
         
           
@@ -128,10 +178,10 @@ Link to article: https://blog.elmah.io/modern-authentication-in-asp-net-ore-with
     
     <item>
       <title>New ways to learn and teach with ChatGPT Work and Codex</title>
-      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_10/</link>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/04_08_2026/04_08_2026_10/</guid>
       <description>
         
           
