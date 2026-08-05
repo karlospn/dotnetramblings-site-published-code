@@ -7,13 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 05 Aug 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Aug 2026 18:50:02 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Go 1.27 Release Party – Free Online Event With the Go Team</title>
+      <title>How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_0/</link>
+      <pubDate>Wed, 05 Aug 2026 18:50:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_0/</guid>
+      <description>
+        
+          
+            Learn how LendingTree built a production multi-agent mortgage assistant on Amazon Bedrock. Three coordinated agents use LangGraph, the Model Context Protocol, and Amazon Nova models with built-in guardrails to deliver 24/7 personalized mortgage guidance while meeting strict financial-services compliance.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Mobileye transformed support operations using Amazon Bedrock AgentCore</title>
       <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_1/</link>
-      <pubDate>Wed, 05 Aug 2026 13:50:30 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 18:09:03 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_1/</guid>
+      <description>
+        
+          
+            In this post, we&#39;ll explore how Mobileye deployed an AI support agentic solution on Amazon Bedrock AgentCore - from the support bottleneck that sparked the idea, through the proof of concept that validated it, to the hybrid architecture that bridges on-premises systems with AWS cloud services. This approach is relevant for enterprises struggling to scale AI Agents while maintaining enterprise grade governance and security standards.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How we built an MCP bridge to give our AgentCore-hosted AI agent access to local MCP tools</title>
+      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_2/</link>
+      <pubDate>Wed, 05 Aug 2026 18:02:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_2/</guid>
+      <description>
+        
+          
+            AI agents on Amazon Bedrock AgentCore run in the cloud, but users&#39; tools and files live on their laptops. Learn how to build a secure MCP bridge that lets a cloud-hosted agent call local MCP servers by tunneling signed messages over the existing WebSocket connection through a browser extension and Chrome native messaging, with no open ports or VPN required.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-we-built-an-mcp-bridge-to-give-our-agentcore-hosted-ai-agent-access-to-local-mcp-tools/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Run production AI agents in n8n with Amazon Bedrock AgentCore harness</title>
+      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_3/</link>
+      <pubDate>Wed, 05 Aug 2026 18:00:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_3/</guid>
+      <description>
+        
+          
+            Amazon Bedrock AgentCore harness is now generally available. Learn how to add it as an agent step in n8n workflows using a new open-source community node, and build agents with persistent memory, real tools, code execution, and VPC isolation — all from the n8n editor with no infrastructure or agent code.
+Link to article: https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.132</title>
+      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_4/</link>
+      <pubDate>Wed, 05 Aug 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_4/</guid>
+      <description>
+        
+          
+            Learn what&#39;s new in Visual Studio Code 1.132 Read the full article
+Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.132 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Go 1.27 Release Party – Free Online Event With the Go Team</title>
+      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_5/</link>
+      <pubDate>Wed, 05 Aug 2026 13:50:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_5/</guid>
       <description>
         
           
@@ -27,10 +112,10 @@ Link to article: https://blog.jetbrains.com/go/2026/08/05/new-livestream-go-127/
     
     <item>
       <title>Governance Is a Developer Experience Problem</title>
-      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_6/</link>
       <pubDate>Wed, 05 Aug 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_6/</guid>
       <description>
         
           
@@ -44,10 +129,10 @@ Link to article: https://www.docker.com/blog/governance-is-a-developer-experienc
     
     <item>
       <title>Azure DevOps Remote MCP Server is generally available</title>
-      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_7/</link>
       <pubDate>Wed, 05 Aug 2026 12:58:52 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_7/</guid>
       <description>
         
           
@@ -61,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-s
     
     <item>
       <title>Java Annotated Monthly – August 2026</title>
-      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_8/</link>
       <pubDate>Wed, 05 Aug 2026 12:30:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_8/</guid>
       <description>
         
           
@@ -78,10 +163,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/08/java-annotated-monthly-
     
     <item>
       <title>Qodana User Spotlight: Meet Fullstack Software Engineer Drew Penrod</title>
-      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_9/</link>
       <pubDate>Wed, 05 Aug 2026 08:17:16 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/05_08_2026/05_08_2026_9/</guid>
       <description>
         
           
