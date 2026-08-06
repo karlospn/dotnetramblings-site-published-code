@@ -7,13 +7,267 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 06 Aug 2026 10:43:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Aug 2026 18:57:55 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Figma Connect for WebStorm: Stage One of a Better Design-to-Code Experience</title>
+      <title>Securing AI agents with temporal policies in Amazon Bedrock AgentCore</title>
       <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_0/</link>
-      <pubDate>Thu, 06 Aug 2026 10:43:04 +0000</pubDate>
+      <pubDate>Thu, 06 Aug 2026 18:57:55 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_0/</guid>
+      <description>
+        
+          
+            Temporal policies in Amazon Bedrock AgentCore let you define stateful rules that evaluate authorization based on an agent&#39;s session history. Learn how to enforce workflow sequencing, prevent data fabrication, cap financial exposure, and require human approval for high-value actions.
+Link to article: https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>TimescaleDB Support within Marten</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_1/</link>
+      <pubDate>Thu, 06 Aug 2026 18:02:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_1/</guid>
+      <description>
+        
+          
+            This is a recent addition to Marten. We’ve started supporting many of the common PostgreSQL extensions that hare frequently supported by the major cloud providers. Outside of metrics collection or sensor data, I don’t have a great handle on what folks might use this for, so I’d love to hear from other folks what they’d … Continue reading TimescaleDB Support within Marten →
+Link to article: https://jeremydmiller.com/2026/08/06/timescaledb-support-within-marten/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Configure rate limits for AI traffic on AgentCore gateway</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_2/</link>
+      <pubDate>Thu, 06 Aug 2026 17:50:42 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_2/</guid>
+      <description>
+        
+          
+            Learn how to configure rate limits on Amazon Bedrock AgentCore gateway to enforce per-user and per-target traffic controls. Define request, token, and connection limits scoped by JWT claims or IAM identity to protect downstream models, tools, and agents from traffic spikes.
+Link to article: https://aws.amazon.com/blogs/machine-learning/configure-rate-limits-for-ai-traffic-on-agentcore-gateway/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Test reporting in Microsoft.Testing.Platform: from red build to root cause</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_3/</link>
+      <pubDate>Thu, 06 Aug 2026 17:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_3/</guid>
+      <description>
+        
+          
+            When a test fails in CI, &amp;quot;the build is red&amp;quot; is only the starting point. The useful questions are whether this change caused the failure, whether the test has failed before, and where to find the evidence. If answering them means searching a job log, downloading an artifact, and finding the teammate who remembers how that test behaved last m
+Link to article: https://devblogs.microsoft.com/dotnet/microsoft-testing-platform-reporting 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_4/</link>
+      <pubDate>Thu, 06 Aug 2026 16:43:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_4/</guid>
+      <description>
+        
+          
+            Learn about new capabilities in Amazon Bedrock AgentCore: temporal policies powered by Dogwood, a new open source policy language for AI agents, and rate limiting on the gateway. These features give you deterministic control over sequences of agent actions and cost ceilings that hold regardless of agent behavior.
+Link to article: https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build visibility for Codex on Amazon Bedrock with OpenTelemetry and Amazon CloudWatch</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_5/</link>
+      <pubDate>Thu, 06 Aug 2026 16:30:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_5/</guid>
+      <description>
+        
+          
+            As engineering teams adopt coding agents like Codex, leaders need visibility into adoption, consumption, and reliability. This post shows how to route Codex OpenTelemetry metrics through a local collector to Amazon CloudWatch for an AWS native view of usage by user, team, and cost center.
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-visibility-for-codex-on-amazon-bedrock-with-opentelemetry-and-amazon-cloudwatch/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Enforcing data residency with single-Region Claude Code on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_6/</link>
+      <pubDate>Thu, 06 Aug 2026 16:21:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_6/</guid>
+      <description>
+        
+          
+            A regulated customer needed all Claude Code inference processed in a single AWS Region (London), not just in-geography. This post shows two ways to pin Claude Code on Amazon Bedrock to one Region: an application inference profile or the Mantle endpoint, paired with an IAM Region condition, plus how to verify compliance in AWS CloudTrail.
+Link to article: https://aws.amazon.com/blogs/machine-learning/enforcing-data-residency-with-single-region-claude-code-on-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing the preview of the Work IQ Developer Tools</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_7/</link>
+      <pubDate>Thu, 06 Aug 2026 16:17:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_7/</guid>
+      <description>
+        
+          
+            Software is shifting from apps built for people to agents that can reason over context and act on someone&#39;s behalf. Microsoft 365 Copilot put that shift in front of hundreds of millions of users, and Work IQ gave agents a production-ready intelligence layer to build on. What&#39;s been missing is the path in between: getting from an idea to a prod
+Link to article: https://devblogs.microsoft.com/microsoft365dev/announcing-the-preview-of-the-work-iq-developer-tools 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agent Skills for Automated Reasoning policies in Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_8/</link>
+      <pubDate>Thu, 06 Aug 2026 16:12:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_8/</guid>
+      <description>
+        
+          
+            Learn how to run the full Amazon Bedrock Automated Reasoning policy lifecycle from your coding agent. A suite of open source Agent Skills builds, reviews, tests, debugs, deploys, and validates a custom policy end to end, turning a specialized console task into a repeatable engineering workflow.
+Link to article: https://aws.amazon.com/blogs/machine-learning/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building an agentic app deployer with Amazon Bedrock and AWS Lambda</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_9/</link>
+      <pubDate>Thu, 06 Aug 2026 16:11:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_9/</guid>
+      <description>
+        
+          
+            PDI Technologies built PDI Brew, an agentic platform on AWS where non-technical employees describe a tool in plain English and receive a fully provisioned, multi-tenant web application in seconds. See how a pluggable planner and an AWS Lambda provisioning agent turn plain-English intent into governed, multi-tenant apps backed by Amazon Bedrock.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-an-agentic-app-deployer-with-amazon-bedrock-and-aws-lambda/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>LLM optimization integration for Amazon SageMaker Python SDK</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_10/</link>
+      <pubDate>Thu, 06 Aug 2026 16:08:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_10/</guid>
+      <description>
+        
+          
+            The Amazon SageMaker Python SDK v3 now exposes generative AI inference recommendations in Amazon SageMaker AI directly in your notebook. Benchmark an endpoint, generate data-driven deployment recommendations, and deploy the recommended configuration without leaving your notebook workflow.
+Link to article: https://aws.amazon.com/blogs/machine-learning/llm-optimization-integration-for-amazon-sagemaker-python-sdk/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_11/</link>
+      <pubDate>Thu, 06 Aug 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_11/</guid>
+      <description>
+        
+          
+            GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.
+Link to article: https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Pull request annotations on work item cards</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_12/</link>
+      <pubDate>Thu, 06 Aug 2026 14:00:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_12/</guid>
+      <description>
+        
+          
+            It&#39;s now easier to track development progress without leaving your Kanban board. Azure Boards now displays pull request annotations directly on work item cards, making it easy to see at a glance when work is actively moving through code review.
+Link to article: https://devblogs.microsoft.com/devops/pull-request-annotations-on-work-item-cards 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Decoupling in Software Architecture Moves Complexity</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_13/</link>
+      <pubDate>Thu, 06 Aug 2026 13:08:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_13/</guid>
+      <description>
+        
+          
+            What happens when someone clicks the Place Order button? To the end user, it is pretty simple. It is a button click. But in a large system, there can be a lot going on behind that button. We have to save the order, record the payment, charge the customer’s credit card, reserve inventory, send a… Read More »Decoupling in Software Architecture Moves Complexity The post Decoupling in Software Architecture Moves Complexity appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Println Debugging Done Right</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_14/</link>
+      <pubDate>Thu, 06 Aug 2026 11:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_14/</guid>
+      <description>
+        
+          
+            The simplest tools are often the most useful, and debugging is a prime example of this. There are many advanced debugging techniques, and while they all have their use cases, println debugging is still the #1 choice, whether you’re doing it manually or with the help of coding agents. Inserting a println statement to inspect […]
+Link to article: https://blog.jetbrains.com/idea/2026/08/println-debugging-done-right/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Figma Connect for WebStorm: Stage One of a Better Design-to-Code Experience</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_15/</link>
+      <pubDate>Thu, 06 Aug 2026 10:43:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_15/</guid>
       <description>
         
           
@@ -26,16 +280,67 @@ Link to article: https://blog.jetbrains.com/webstorm/2026/08/figma-connect-webst
     </item>
     
     <item>
+      <title>Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_16/</link>
+      <pubDate>Thu, 06 Aug 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_16/</guid>
+      <description>
+        
+          
+            ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.
+Link to article: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token</title>
-      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_17/</link>
       <pubDate>Thu, 06 Aug 2026 08:57:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_17/</guid>
       <description>
         
           
             We&#39;re excited to announce the Azure DevOps service connection, a new way to access Azure DevOps from your pipelines using a Microsoft Entra workload identity (a service principal or managed identity) instead of a Personal Access Token (PAT) or session token. This post walks through what it is, how to set it up, and the many
 Link to article: https://devblogs.microsoft.com/devops/you-can-now-use-the-azure-devops-service-connection-instead-of-a-pat-or-build-session-token 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Working with the American Psychological Association on youth mental health and AI</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_18/</link>
+      <pubDate>Thu, 06 Aug 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_18/</guid>
+      <description>
+        
+          
+            OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.
+Link to article: https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From asking to doing: How the world is putting ChatGPT to work</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_19/</link>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_19/</guid>
+      <description>
+        
+          
+            New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.
+Link to article: https://openai.com/index/how-the-world-is-putting-chatgpt-to-work 
           
           
         

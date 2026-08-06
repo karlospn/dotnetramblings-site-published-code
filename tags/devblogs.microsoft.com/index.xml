@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 06 Aug 2026 08:57:40 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Aug 2026 17:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test reporting in Microsoft.Testing.Platform: from red build to root cause</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_3/</link>
+      <pubDate>Thu, 06 Aug 2026 17:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_3/</guid>
+      <description>
+        
+          
+            When a test fails in CI, &amp;quot;the build is red&amp;quot; is only the starting point. The useful questions are whether this change caused the failure, whether the test has failed before, and where to find the evidence. If answering them means searching a job log, downloading an artifact, and finding the teammate who remembers how that test behaved last m
+Link to article: https://devblogs.microsoft.com/dotnet/microsoft-testing-platform-reporting 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing the preview of the Work IQ Developer Tools</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_7/</link>
+      <pubDate>Thu, 06 Aug 2026 16:17:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_7/</guid>
+      <description>
+        
+          
+            Software is shifting from apps built for people to agents that can reason over context and act on someone&#39;s behalf. Microsoft 365 Copilot put that shift in front of hundreds of millions of users, and Work IQ gave agents a production-ready intelligence layer to build on. What&#39;s been missing is the path in between: getting from an idea to a prod
+Link to article: https://devblogs.microsoft.com/microsoft365dev/announcing-the-preview-of-the-work-iq-developer-tools 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Pull request annotations on work item cards</title>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_12/</link>
+      <pubDate>Thu, 06 Aug 2026 14:00:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_12/</guid>
+      <description>
+        
+          
+            It&#39;s now easier to track development progress without leaving your Kanban board. Azure Boards now displays pull request annotations directly on work item cards, making it easy to see at a glance when work is actively moving through code review.
+Link to article: https://devblogs.microsoft.com/devops/pull-request-annotations-on-work-item-cards 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token</title>
-      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_17/</link>
       <pubDate>Thu, 06 Aug 2026 08:57:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/06_08_2026/06_08_2026_17/</guid>
       <description>
         
           
