@@ -42,22 +42,5 @@ Link to article: https://jeremydmiller.
       </description>
     </item>
     
-    <item>
-      <title>Binary Event Serialization for Marten</title>
-      <link>https://www.dotnetramblings.com/post/31_07_2026/31_07_2026_11/</link>
-      <pubDate>Fri, 31 Jul 2026 00:07:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/31_07_2026/31_07_2026_11/</guid>
-      <description>
-        
-          
-            This is a potentially big performance optimization you can opt into starting with Marten 9.0. Not coincidentally, we’re using this for CritterWatch to help optimize the responsiveness and database size for a JasperFx client this week. Marten can serialize individual event types to a binary wire format (MemoryPack, MessagePack, or anything else implementing IEventBinarySerializer) instead of the … Continue reading Binary Event Serialization for Marten →
-Link to article: https://jeremydmiller.com/2026/07/30/binary-event-serialization-for-marten/ 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
