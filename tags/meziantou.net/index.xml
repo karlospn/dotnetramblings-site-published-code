@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 03 Aug 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Aug 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Snapshot testing in .NET with Meziantou.Framework.SnapshotTesting</title>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_0/</link>
+      <pubDate>Mon, 10 Aug 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_0/</guid>
+      <description>
+        
+          
+            Snapshot testing is a technique where the output of a function or component is serialized and saved to disk the first time the test runs. On every subsequent run, the library re-serializes the output and compares it against the saved file. If they differ, the test fails. Meziantou.Framework.SnapshotTesting is a .NET library that makes snapshot testing straightforward. It handles serialization, file…
+Link to article: https://www.meziantou.net/snapshot-testing-in-dotnet-with-meziantou-framework-snapshottesting.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Adding a Clone method to a C# record</title>
       <link>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_11/</link>
