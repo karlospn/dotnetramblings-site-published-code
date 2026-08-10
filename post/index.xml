@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 10 Aug 2026 15:07:05 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Aug 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Run interactive IDEs on Amazon EKS with SageMaker AI to power up your AI workflows</title>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_1/</link>
+      <pubDate>Mon, 10 Aug 2026 16:34:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_1/</guid>
+      <description>
+        
+          
+            The Amazon SageMaker AI Spaces add-on for Amazon EKS runs managed JupyterLab and Code Editor environments on the cluster your ML team already operates. This post shows how to install and configure the add-on, connect from the browser and from VS Code over SSH-over-SSM, and move your team to OpenID Connect sign-in with Amazon Cognito.
+Link to article: https://aws.amazon.com/blogs/machine-learning/run-interactive-ides-on-amazon-eks-with-sagemaker-ai-to-power-up-your-ai-workflows/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How nOps shipped FinOps agents 75% faster with Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_2/</link>
+      <pubDate>Mon, 10 Aug 2026 16:30:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_2/</guid>
+      <description>
+        
+          
+            nOps rebuilt its Clara FinOps AI agent on Amazon Bedrock AgentCore, replacing a self-managed Amazon EKS stack running LangChain and LangGraph. The move cut time-to-production by 75% (from 10-12 months to 4 months), improved response quality, and reduced operational overhead while keeping analytics governed through Databricks Lakehouse Metric Views.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-nops-shipped-finops-agents-75-faster-with-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Blazingly Fast or Blazingly Hyped? A Reality Check on Rewriting in Rust</title>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_3/</link>
+      <pubDate>Mon, 10 Aug 2026 15:42:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_3/</guid>
+      <description>
+        
+          
+            This is a guest post by Mateusz Maćkowski and Marek Grzelak, co-maintainers of cot.rs and speakers at Rustikon 2026. You can watch the full talk here. RIIR. If you’ve spent any time in open source communities, you’ve seen it. Someone opens an issue on a C or C++ project and suggests rewriting in Rust for […]
+Link to article: https://blog.jetbrains.com/rust/2026/08/10/rewriting-in-rust/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>From Azure Functions to AWS Lambda: A .NET Developer’s Migration Playbook</title>
-      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_0/</link>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_4/</link>
       <pubDate>Mon, 10 Aug 2026 15:07:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_0/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_4/</guid>
       <description>
         
           
@@ -27,10 +78,10 @@ Link to article: https://aws.amazon.com/blogs/dotnet/from-azure-functions-to-aws
     
     <item>
       <title>OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas</title>
-      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_5/</link>
       <pubDate>Mon, 10 Aug 2026 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_5/</guid>
       <description>
         
           
@@ -44,10 +95,10 @@ Link to article: https://openai.com/index/responsible-ai-infrastructure-texas
     
     <item>
       <title>IntelliJ IDEA 2026.2.1 Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_6/</link>
       <pubDate>Mon, 10 Aug 2026 13:33:37 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_6/</guid>
       <description>
         
           
@@ -61,10 +112,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/08/intellij-idea-2026-2-1/
     
     <item>
       <title>Chrome DevTools Connect for WebStorm: Your AI agent can now interact with the browser</title>
-      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_7/</link>
       <pubDate>Mon, 10 Aug 2026 12:05:17 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_7/</guid>
       <description>
         
           
@@ -78,10 +129,10 @@ Link to article: https://blog.jetbrains.com/webstorm/2026/08/chrome-connect-webs
     
     <item>
       <title>Model ML completes finance work more efficiently with GPT-5.6 Sol</title>
-      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_8/</link>
       <pubDate>Mon, 10 Aug 2026 12:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_8/</guid>
       <description>
         
           
@@ -95,10 +146,10 @@ Link to article: https://openai.com/index/model-ml
     
     <item>
       <title>Snapshot testing in .NET with Meziantou.Framework.SnapshotTesting</title>
-      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_9/</link>
       <pubDate>Mon, 10 Aug 2026 12:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_9/</guid>
       <description>
         
           
@@ -112,10 +163,10 @@ Link to article: https://www.meziantou.net/snapshot-testing-in-dotnet-with-mezia
     
     <item>
       <title></title>
-      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_10/</link>
       <pubDate>Mon, 10 Aug 2026 10:11:25 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_10/</guid>
       <description>
         
           
@@ -129,10 +180,10 @@ Link to article: https://blog.jetbrains.com/qodana/2026/08/alexey-gopachenko/
     
     <item>
       <title>Implement BFF using Auth0, Angular and ASP.NET Core</title>
-      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_11/</link>
       <pubDate>Mon, 10 Aug 2026 05:33:55 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_08_2026/10_08_2026_11/</guid>
       <description>
         
           
