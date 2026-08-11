@@ -25,22 +25,5 @@ Link to article: https://www.meziantou.net/snapshot-testing-in-dotnet-with-mezia
       </description>
     </item>
     
-    <item>
-      <title>Adding a Clone method to a C# record</title>
-      <link>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_11/</link>
-      <pubDate>Mon, 03 Aug 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_08_2026/03_08_2026_11/</guid>
-      <description>
-        
-          
-            Adding a Clone method to a C# record When using records, creating a copy with with is concise: var sample = new Sample(&amp;quot;meziantou&amp;quot;); _ = sample with { }; public record Sample(string Value); This works well, but sample with { } is not always obvious as a discoverable Clone API for consumers. Why public Sample Clone() is not allowed Records already have compiler-generated clone behavior used by with.…
-Link to article: https://www.
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
