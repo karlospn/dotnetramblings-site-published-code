@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 12 Aug 2026 07:58:30 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Aug 2026 12:05:32 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Top 5 AI Features in IntelliJ IDEA</title>
+      <title>What’s New in PyCharm 2026.2.1</title>
       <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_1/</link>
-      <pubDate>Wed, 12 Aug 2026 07:58:30 +0000</pubDate>
+      <pubDate>Wed, 12 Aug 2026 12:05:32 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_1/</guid>
+      <description>
+        
+          
+            This PyCharm release is a big one for anyone building with AI. Your agents can now roll up their sleeves inside your Jupyter notebooks – working against a live kernel instead of firing off disconnected scripts. And they finally know which Python to use, so packages land in the right environment every time. We’re also […]
+Link to article: https://blog.jetbrains.com/pycharm/2026/08/what-s-new-in-pycharm-2026-2-1/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>We Stopped AI Agents From Installing Into the Wrong Python: Task Success Rates Jumped to 95%&#43;</title>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_2/</link>
+      <pubDate>Wed, 12 Aug 2026 12:01:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_2/</guid>
+      <description>
+        
+          
+            AI agents are supposed to save you time. Ask one to install a dependency or run your project, though, and it often does the opposite: It installs into the wrong Python, ignores the uv or virtual environment your project uses, and hands back a broken setup for you to fix yourself. PyCharm’s new Agent Environment […]
+Link to article: https://blog.jetbrains.com/pycharm/2026/08/we-stopped-ai-agents-from-installing-into-the-wrong-python-task-success-rates-jumped-to-95/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>We Gave AI Agents a Live Jupyter Kernel in PyCharm</title>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_3/</link>
+      <pubDate>Wed, 12 Aug 2026 12:00:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_3/</guid>
+      <description>
+        
+          
+            If you’ve handed notebook work to an AI agent, you know how it tends to go: More often than not, it corrupts your .ipynb, loses your trained model the moment the run finishes, or burns budget sitting idle through a long job while you watch. To solve this, we’re introducing a brand-new Jupyter skill. Built […]
+Link to article: https://blog.jetbrains.com/pycharm/2026/08/we-gave-ai-agents-a-live-jupyter-kernel-in-pycharm/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Unbundling and Deprecating Low-Usage Plugins in PyCharm</title>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_4/</link>
+      <pubDate>Wed, 12 Aug 2026 11:59:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_4/</guid>
+      <description>
+        
+          
+            As part of ongoing maintenance, we are unbundling and deprecating low-usage plugins starting with PyCharm 2026.2. This includes support for Data Wrangler, Hugging Face, and Google Colab, among others. A more focused set of bundled plugins means a leaner codebase, enabling us to keep PyCharm fast and responsive and invest our effort where it has […]
+Link to article: https://blog.jetbrains.com/pycharm/2026/08/unbundling-and-deprecating-low-usage-plugins-in-pycharm/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Top 5 AI Features in IntelliJ IDEA</title>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_5/</link>
+      <pubDate>Wed, 12 Aug 2026 07:58:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_5/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/08/top-5-ai-features-in-in
     
     <item>
       <title>Agent Skills in IntelliJ IDEA</title>
-      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_6/</link>
       <pubDate>Wed, 12 Aug 2026 07:58:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_6/</guid>
       <description>
         
           
