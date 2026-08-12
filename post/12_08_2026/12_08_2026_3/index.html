@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>We Gave AI Agents a Live Jupyter Kernel in PyCharm | .NET Ramblings</title>
+<title>Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="If you’ve handed notebook work to an AI agent, you know how it tends to go: More often than not, it corrupts your .ipynb, loses your trained model the moment …" />
+<meta name="description" content="Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token. This post builds a tiered KV …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="We Gave AI Agents a Live Jupyter Kernel in PyCharm" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/ai.png"/>
+<meta name="twitter:title" content="Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_3/" />
-<meta property="og:title" content="We Gave AI Agents a Live Jupyter Kernel in PyCharm" />
-<meta property="og:description" content="If you’ve handed notebook work to an AI agent, you know how it tends to go: More often than not, it corrupts your .ipynb, loses your trained model the moment …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/ai.png" />
+<meta property="og:title" content="Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine" />
+<meta property="og:description" content="Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token. This post builds a tiered KV …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">We Gave AI Agents a Live Jupyter Kernel in PyCharm</h1>
+    <h1 class="post_title">Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 12, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
+      Aug 12, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/' title="aws.amazon.com/blogs/machine-learning" class="post_tag button button_translucent">aws.amazon.com/blogs/machine-learning
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>If you’ve handed notebook work to an AI agent, you know how it tends to go: More often than not, it corrupts your .ipynb, loses your trained model the moment the run finishes, or burns budget sitting idle through a long job while you watch. To solve this, we’re introducing a brand-new Jupyter skill. Built […]</p>
+    <div class="post_body"><p>Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token. This post builds a tiered KV cache on Amazon SageMaker HyperPod that extends the cache into a shared, distributed NVMe pool with Curvine, so replicas reuse cache at near-local-disk speeds on cost-efficient instances.</p>
 <ul>
-<li>Link to article: <a href="https://blog.jetbrains.com/pycharm/2026/08/we-gave-ai-agents-a-live-jupyter-kernel-in-pycharm/">https://blog.jetbrains.com/pycharm/2026/08/we-gave-ai-agents-a-live-jupyter-kernel-in-pycharm/</a></li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/">https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/</a></li>
 </ul>
 
     </div>

@@ -9,11 +9,62 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Wed, 12 Aug 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What’s New in PyCharm 2026.2.1</title>
+      <title>How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS</title>
       <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_1/</link>
-      <pubDate>Wed, 12 Aug 2026 12:05:32 +0000</pubDate>
+      <pubDate>Wed, 12 Aug 2026 13:46:28 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_1/</guid>
+      <description>
+        
+          
+            Learn how OneAdvanced, a UK enterprise software provider, built a UK-sovereign AI platform by self-hosting Llama 4 Maverick and Llama Guard 4 on Amazon SageMaker AI, with a RAG pipeline on pgvector and over 50 agents built with Strands Agents SDK on Amazon ECS.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Pay with confidence: How Solv Labs built verifiable, auditable agent payments on Amazon Bedrock AgentCore payments</title>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_2/</link>
+      <pubDate>Wed, 12 Aug 2026 13:44:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_2/</guid>
+      <description>
+        
+          
+            Solv Labs built a governed agent-payments workflow on Amazon Bedrock AgentCore payments, where every transaction is authorized, attested in an AWS Nitro Enclave, priced for risk, and anchored to a public blockchain before settlement. See how the pattern gives enterprises a verifiable, auditable trail for autonomous agent payments in regulated environments.
+Link to article: https://aws.amazon.com/blogs/machine-learning/pay-with-confidence-how-solv-labs-built-verifiable-auditable-agent-payments-on-amazon-bedrock-agentcore-payments/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine</title>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_3/</link>
+      <pubDate>Wed, 12 Aug 2026 13:42:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_3/</guid>
+      <description>
+        
+          
+            Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token. This post builds a tiered KV cache on Amazon SageMaker HyperPod that extends the cache into a shared, distributed NVMe pool with Curvine, so replicas reuse cache at near-local-disk speeds on cost-efficient instances.
+Link to article: https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What’s New in PyCharm 2026.2.1</title>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_4/</link>
+      <pubDate>Wed, 12 Aug 2026 12:05:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_4/</guid>
       <description>
         
           
@@ -27,10 +78,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2026/08/what-s-new-in-pychar
     
     <item>
       <title>We Stopped AI Agents From Installing Into the Wrong Python: Task Success Rates Jumped to 95%&#43;</title>
-      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_5/</link>
       <pubDate>Wed, 12 Aug 2026 12:01:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_5/</guid>
       <description>
         
           
@@ -44,10 +95,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2026/08/we-stopped-ai-agents
     
     <item>
       <title>We Gave AI Agents a Live Jupyter Kernel in PyCharm</title>
-      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_6/</link>
       <pubDate>Wed, 12 Aug 2026 12:00:34 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_6/</guid>
       <description>
         
           
@@ -61,10 +112,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2026/08/we-gave-ai-agents-a-
     
     <item>
       <title>Unbundling and Deprecating Low-Usage Plugins in PyCharm</title>
-      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_7/</link>
       <pubDate>Wed, 12 Aug 2026 11:59:50 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_7/</guid>
       <description>
         
           
@@ -78,10 +129,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2026/08/unbundling-and-depre
     
     <item>
       <title>Top 5 AI Features in IntelliJ IDEA</title>
-      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_8/</link>
       <pubDate>Wed, 12 Aug 2026 07:58:30 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_8/</guid>
       <description>
         
           
@@ -95,10 +146,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/08/top-5-ai-features-in-in
     
     <item>
       <title>Agent Skills in IntelliJ IDEA</title>
-      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_9/</link>
       <pubDate>Wed, 12 Aug 2026 07:58:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_9/</guid>
       <description>
         
           
@@ -112,15 +163,32 @@ Link to article: https://blog.jetbrains.com/idea/2026/08/agent-skills-in-intelli
     
     <item>
       <title>Boost Your .NET Projects with Spargine: Human-Friendly Encoding with Crockford Base32</title>
-      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_11/</link>
       <pubDate>Wed, 12 Aug 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_11/</guid>
       <description>
         
           
             Crockford Base32, created by Douglas Crockford, is a human-friendly encoding method designed to represent binary data clearly, minimizing character confusion. It excludes easily mistaken characters, offers case-insensitive decoding, and avoids padding. Available in Spargine&#39;s DotNetTips.Spargine.Core, it simplifies generating identifiers and codes for improved readability and communication.
 Link to article: https://dotnettips.com/2026/08/12/boost-your-net-projects-with-spargine-human-friendly-encoding-with-crockford-base32/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From assistance to execution: How enterprises put AI to work</title>
+      <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_10/</link>
+      <pubDate>Wed, 12 Aug 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_10/</guid>
+      <description>
+        
+          
+            OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.
+Link to article: https://openai.com/index/how-enterprises-put-ai-to-work 
           
           
         
