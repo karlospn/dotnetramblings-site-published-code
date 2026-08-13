@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 12 Aug 2026 21:43:20 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Aug 2026 06:35:26 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qodana Lints Your Code. What’s Checking Your DevOps and Platform Engineering Stack?</title>
+      <link>https://www.dotnetramblings.com/post/13_08_2026/13_08_2026_0/</link>
+      <pubDate>Thu, 13 Aug 2026 06:35:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_08_2026/13_08_2026_0/</guid>
+      <description>
+        
+          
+            A developer in DevOps pushes a Kubernetes deployment with no resource limits, a pod running as root explicitly, and a GitHub Actions workflow runs with mutable tags – and it goes straight to production, unnoticed. No quality gate. No IDE warning. No CI failure. An innocuous change, silently shipped, but with high consequences. Qodana lints your application code. It catches unused variables, security vulnerabilities, code style violations, and architectural issues […]
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Introducing Fisher: Sqlite Backed Document Db &amp; Event Store Critter</title>
       <link>https://www.dotnetramblings.com/post/12_08_2026/12_08_2026_0/</link>
