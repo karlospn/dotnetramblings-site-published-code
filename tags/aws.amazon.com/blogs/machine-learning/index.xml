@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 13 Aug 2026 16:02:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Aug 2026 16:02:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge</title>
+      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_0/</link>
+      <pubDate>Fri, 14 Aug 2026 16:02:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_0/</guid>
+      <description>
+        
+          
+            In multi-turn reinforcement learning, your custom reward function decides what the model actually learns. This post shows how to design a composite multi-turn reward for Amazon Nova Forge, execute model-generated code safely inside it, and instrument each component to catch the pitfalls that quietly collapse a reward.
+Link to article: https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building agentic workflows with SageMaker AI and Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_1/</link>
+      <pubDate>Fri, 14 Aug 2026 15:58:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_1/</guid>
+      <description>
+        
+          
+            Learn how to combine OpenAI-compatible endpoints on Amazon SageMaker AI with Amazon Bedrock AgentCore runtime to build a multi-agent workflow where each specialized agent uses the model best suited to its job. This post also shows how to get token-level observability from SageMaker endpoints that Strands Agents does not instrument by default.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Monitor on-premises and multi-cloud AI agents with AgentCore Observability</title>
       <link>https://www.dotnetramblings.com/post/13_08_2026/13_08_2026_5/</link>
