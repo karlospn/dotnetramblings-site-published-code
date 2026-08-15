@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 14 Aug 2026 20:57:43 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Do You Build a Social Media Feed? (System Design)</title>
+      <link>https://www.dotnetramblings.com/post/15_08_2026/15_08_2026_0/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_08_2026/15_08_2026_0/</guid>
+      <description>
+        
+          
+            The home feed looks like the easiest feature in a social app: fetch posts from the accounts you follow, sort, return a page.
+Link to article: https://milanjovanovic.tech/blog/how-do-you-build-a-social-media-feed-system-design 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>End-to-end .NET modernization with AWS Transform and Kiro</title>
       <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_0/</link>
@@ -1581,159 +1598,6 @@ Link to article: https://dotnettips.com/2026/08/09/net-threads-the-performance-t
           
             Every time I show a rich domain model, someone tells me it can&#39;t work with EF Core: &amp;quot;EF needs public setters and a public constructor, so the anemic model is…
 Link to article: https://milanjovanovic.tech/blog/persisting-a-rich-domain-model-with-ef-core 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>NLog Layout Renderers and Structured Logging in C#</title>
-      <link>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_0/</link>
-      <pubDate>Fri, 07 Aug 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_0/</guid>
-      <description>
-        
-          
-            Master NLog layout renderers and structured logging in C#. Learn how to use JsonLayout, message templates, MDC correlation IDs, and custom layout renderers with real .NET examples.
-Link to article: https://www.devleader.ca/2026/08/07/nlog-layout-renderers-and-structured-logging-in-c 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_1/</link>
-      <pubDate>Fri, 07 Aug 2026 16:26:58 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_1/</guid>
-      <description>
-        
-          
-            In this post, you learn how Cohere Health built a multi-tenant agentic architecture on AgentCore using AgentCore Runtime’s secure MicroVM isolation, unified tool access through AgentCore Gateway, AgentCore Memory, and the Agent Skills open standard to rapidly scale policy digitization capabilities, while preserving transparency, version control, and human oversight.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How TReNDS automates root-cause analysis with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_2/</link>
-      <pubDate>Fri, 07 Aug 2026 16:22:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_2/</guid>
-      <description>
-        
-          
-            TReNDS, a research center at Georgia State University, built an agentic AI pipeline on Amazon Bedrock and the open-source Strands Agents SDK that automatically investigates production errors in real time, reducing root-cause analysis from 15 to 30 minutes of manual work to under 60 seconds.
-Link to article: https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Determining playoff clinching scenarios in the NHL using constraint programming</title>
-      <link>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_3/</link>
-      <pubDate>Fri, 07 Aug 2026 16:21:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_3/</guid>
-      <description>
-        
-          
-            The AWS Generative AI Innovation Center built an automated system that uses constraint programming and custom tree search to determine, with mathematical certainty, when and how an NHL team clinches a playoff spot. The approach was validated against four full NHL seasons of officially published results.
-Link to article: https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Responding to the next frontier of critical cyber capabilities</title>
-      <link>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_4/</link>
-      <pubDate>Fri, 07 Aug 2026 15:20:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_4/</guid>
-      <description>
-        
-          
-            OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.
-Link to article: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 5</title>
-      <link>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_5/</link>
-      <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_5/</guid>
-      <description>
-        
-          
-            Last time, I confessed that I lied when i said that we can&#39;t use std::unique_ptr to manage the registration cookie. T
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260807-00/?p=112597 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>CVE-2026-63077: Additional Guidance Following Reports of Active Exploitation</title>
-      <link>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_6/</link>
-      <pubDate>Fri, 07 Aug 2026 13:22:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_6/</guid>
-      <description>
-        
-          
-            This post is a follow-up to our July 27, 2026, announcement about CVE-2026-63077. Summary What has changed since our initial announcement Since our initial announcement on July 27, 2026, we have received reports of active exploitation, as well as attempted exploitation, targeting unpatched TeamCity servers. Before these reports were received, we had already investigated the […]
-Link to article: https://blog.jetbrains.com/teamcity/2026/08/cve-2026-63077-update/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How HSP GRUPPE builds AI capabilities for tax advisory</title>
-      <link>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_7/</link>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_7/</guid>
-      <description>
-        
-          
-            Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.
-Link to article: https://openai.com/index/hsp-gruppe 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>JetBrains Academy – July Digest</title>
-      <link>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_8/</link>
-      <pubDate>Fri, 07 Aug 2026 08:23:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_08_2026/07_08_2026_8/</guid>
-      <description>
-        
-          
-            Somewhere between the fifteenth open tab and the third iced coffee, it hit me. Maybe we don’t hate meetings. We just hate the ones where nobody has anything to say. Welcome back to another mandatory meeting. This one’s got range: Kotlin just turned 15, IntelliJ IDEA Conf dropped a lineup worth clearing your calendar for, […]
-Link to article: https://blog.jetbrains.com/education/2026/08/07/jetbrains-academy-july-2026-2-2/ 
           
           
         
