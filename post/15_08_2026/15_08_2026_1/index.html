@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Tags | .NET Ramblings</title>
+<title>NAudio 3 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="I&#39;m really pleased to announce the release of NAudio version 3, which includes a complete modernization of the entire library, many bug-fixes and performance …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Tags" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/" />
-<meta property="og:title" content="Tags" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="NAudio 3" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/15_08_2026/15_08_2026_1/" />
+<meta property="og:title" content="NAudio 3" />
+<meta property="og:description" content="I&#39;m really pleased to announce the release of NAudio version 3, which includes a complete modernization of the entire library, many bug-fixes and performance …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/15_08_2026/15_08_2026_1/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Developer.microsoft.com/En-Us/Reactor">Developer.microsoft.com/En-Us/Reactor</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">NAudio 3</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,353 +140,45 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 14, 2026</span>
-    <span class="post_time"> · 0 min read</span>
+      Aug 15, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/markheath.net/' title="markheath.net" class="post_tag button button_translucent">markheath.net
+        </a>
+    </span>
   </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Jeremydmiller.com">Jeremydmiller.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 13, 2026</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
+    <div class="post_body"><p>I'm really pleased to announce the release of NAudio version 3, which includes a complete modernization of the entire library, many bug-fixes and performance improvements, and adds several key new features including cross-platform support on Linux and the ability to host VST 3 effects.
+There's too many changes to discuss them all in detail in this post, but I did want to highlight a few of the most important changes.
+First of all, almost all of the interop of the COM Interop has been rewritten, making use of the newer GeneratedComInterface attribute which supports NativeAOT and uses source generation. Likewise, interop that used the legacy DllImport approach is rewritten to use LibraryImport. This improves performance and provides better support for trimming.
+Second, there has been a significant redesign to the core interfaces such as IWaveProvider and ISampleProvider to use Span<T> for passing round audio buffers. This allows for higher performing code and eliminates the need for unnecessary copying of audio buffers. This will only affect you if you've created your own custom implementations of these interfaces, and even then it's a relatively easy change to make (and arguably simpler to work with).
+Third, I embarked on a review of every single open issue and pull request. There were hundreds of these and this took a huge amount of time, even with AI assistance. This resulted in a lot of bug fixes and improvements to the library. Virtually all the reported issues are now resolved. Many thanks to everyone who reported a bug, created a PR, or suggested a new feature. I regret that many of these contributions went unacknowledged for a long time - I was simply unable to keep up with the volume of them, but I am glad to have finally got round to reviewing them all.
+Fourth, the library has gained several very powerful new capabilities - including a whole suite of fully managed effects, and the ability to host VST3 effects. There's even a fully managed sampler and sequencer, and improved SoundFont 2 support, meaning you can render a multi-timbral MIDI file through a GM SoundFont.
+Fifth, there are new and improved classes for working with WASAPI and ASIO, the two most important and modern audio playback and recording APIs for Windows. Going forwards, you should use WasapiPlayer, WasapiRecorder, or AsioDevice for all your audio recording and playback needs. These expose even more capabilities than were previously supported including WASAPI low latency mode, and individual process audio capture.
+Sixth, NAudio is no longer Windows-only. I've moved all the Windows-only features into their own assemblies, leaving NAudio.Core and NAudio.Midi as fully cross-platform. And a new NAudio.Alsa library supports playback and recording on Linux, and is augmented by NAudio.SoundFile which opens the door to reading and writing many common audio file formats on Linux (and other platforms). I'm hopeful that MacOS support is going to follow in the near future thanks to an in-progress community contribution.
+This is of course a big change to the library, and so there is an NAudio 2 to NAudio 3migration guide available which I'd encourage you to use (especially useful if you want to point an AI coding harness at it to evaluate your existing NAudio 2 codebase for upgrades).
+This rework took me several months and hundreds of hours, but even then it was only possible due to the acceleration that Claude Code was able to provide. Six months of access was generously provided by Anthropic as part of their Claude for Open Source initiative so many thanks to them.
+Of course, I know that AI-assisted coding can be a controversial topic with concerns that it produces vibe-coded &quot;slop&quot;. I've endeavoured to ensure that the quality bar remains as high as possible. One advantage with a library like NAudio is that, as much of the code consists of interop wrappers, it's usually apparent very quickly whether it works or not. But there certainly were a few nasty bugs and access violations that took a long time to track down, even with AI assistance. So I've allowed a period of stabilization and published lots of preview releases to allow the community to give as much feedback as possible, and I think now is a good time to release where we're up to.
+There are still a few ideas on my NAudio wishlist that didn't make the cut this time (especially around improving the situation for repositionable sample providers), but I think there is enough disruption for this major release. In fact, in many ways NAudio is now quite close to being &quot;complete&quot; - I don't necessarily want to try to add every conceivable audio-related capability to the library, but instead provide a powerful and extensible toolkit that supports audio development on .NET and provides many of the most essential capabilities in an easy to consume manner. I hope you'll agree that NAudio 3 achieves this goal, but of course I welcome feedback, so do raise issues on GitHub if you encounter any issues.</p>
+<ul>
+<li>Link to article: <a href="https://markheath.net/post/2026/8/15/naudio-3-release">https://markheath.net/post/2026/8/15/naudio-3-release</a></li>
+</ul>
 
     </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@TechWorldwithNana">Youtube.com/@TechWorldwithNana</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 13, 2026</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
+<div class="post_comments">
+  
+  
+  
+</div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Ndcconferences.com">Ndcconferences.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 13, 2026</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Openai.com/Blog">Openai.com/Blog</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 13, 2026</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@Dotnet">Youtube.com/@Dotnet</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 13, 2026</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Dotnettips.wordpress.com">Dotnettips.wordpress.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 12, 2026</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Blog.elmah.io">Blog.elmah.io</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 11, 2026</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Youtube.com/@Visualstudio">Youtube.com/@Visualstudio</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 10, 2026</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Meziantou.net">Meziantou.net</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 10, 2026</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="" title="Damienbod.com">Damienbod.com</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 10, 2026</span>
-    <span class="post_time"> · 0 min read</span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p></p>
-          
-          <br>
-          <a href="" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/tags/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -511,9 +195,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
