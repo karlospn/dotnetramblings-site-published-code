@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 15 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Aug 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>General Performance: Object Initializers – Readability Versus Performance</title>
+      <link>https://www.dotnetramblings.com/post/16_08_2026/16_08_2026_0/</link>
+      <pubDate>Sun, 16 Aug 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_08_2026/16_08_2026_0/</guid>
+      <description>
+        
+          
+            The post discusses two methods for initializing objects in C#: traditional property assignment and object initializers. While the traditional method is slightly faster, object initializers enhance code readability. It recommends using object initializers for maintainability, reserving traditional assignments for performance-critical scenarios where benchmarks indicate a significant advantage.
+Link to article: https://dotnettips.com/2026/08/16/general-performance-object-initializers-readability-versus-performance/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How Do You Build a Social Media Feed? (System Design)</title>
       <link>https://www.dotnetramblings.com/post/15_08_2026/15_08_2026_0/</link>
