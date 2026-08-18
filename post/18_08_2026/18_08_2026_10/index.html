@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Top 10 Ways to Reduce .NET Memory Usage in Kubernetes | .NET Ramblings</title>
+<title>Build a Type-Safe C# Pipeline From Scratch | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +28,16 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="If your .NET pods are each using 1–2 GB of RAM, you may be leaving a lot of pod density — and money — on the table. Here are the first things I would look at. …" />
+<meta name="description" content="Build a type-safe C# pipeline from scratch with generic stage contracts, heterogeneous transitions, immutable messages, and compiler-checked composition.
+Link …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Top 10 Ways to Reduce .NET Memory Usage in Kubernetes" />
+<meta name="twitter:title" content="Build a Type-Safe C# Pipeline From Scratch" />
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/dotnet.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/18_08_2026/18_08_2026_10/" />
-<meta property="og:title" content="Top 10 Ways to Reduce .NET Memory Usage in Kubernetes" />
-<meta property="og:description" content="If your .NET pods are each using 1–2 GB of RAM, you may be leaving a lot of pod density — and money — on the table. Here are the first things I would look at. …" />
+<meta property="og:title" content="Build a Type-Safe C# Pipeline From Scratch" />
+<meta property="og:description" content="Build a type-safe C# pipeline from scratch with generic stage contracts, heterogeneous transitions, immutable messages, and compiler-checked composition.
+Link …" />
 <meta property="og:image" content="https://www.dotnetramblings.com/images/dotnet.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
@@ -132,7 +134,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Top 10 Ways to Reduce .NET Memory Usage in Kubernetes</h1>
+    <h1 class="post_title">Build a Type-Safe C# Pipeline From Scratch</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,33 +142,14 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 18, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/ardalis.com/blog/' title="ardalis.com/blog" class="post_tag button button_translucent">ardalis.com/blog
+      Aug 18, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/devleader.ca/' title="devleader.ca" class="post_tag button button_translucent">devleader.ca
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>If your .NET pods are each using 1–2 GB of RAM, you may be leaving a lot of pod density — and money — on the table. Here are the first things I would look at.</p>
-<ol>
-<li>Set Realistic Kubernetes Memory Limits
-Do not let every pod believe it has access to the whole node.</li>
-</ol>
-<p>1
-2
-3
-4
-5
-6
-7</p>
-<p>resources:
-requests:
-memory: &quot;512Mi&quot;
-cpu: &quot;100m&quot;
-limits:
-memory: &quot;768Mi&quot;
-cpu: &quot;1000m&quot;</p>
-<p>This gives the .NET runtime better boundaries and helps Kubernetes schedule pods more predictably. The .NET GC specifically looks at the container’s memory limit (not the request) to decide how much heap it’s allowed to use, so an unset or overly generous limit is what lets the managed heap grow far larger than you intended.</p>
+    <div class="post_body"><p>Build a type-safe C# pipeline from scratch with generic stage contracts, heterogeneous transitions, immutable messages, and compiler-checked composition.</p>
 <ul>
-<li>Link to article: <a href="https://ardalis.com/top-10-ways-to-reduce-net-memory-usage-in-kubernetes/">https://ardalis.com/top-10-ways-to-reduce-net-memory-usage-in-kubernetes/</a></li>
+<li>Link to article: <a href="https://www.devleader.ca/2026/08/18/build-a-typesafe-c-pipeline-from-scratch">https://www.devleader.ca/2026/08/18/build-a-typesafe-c-pipeline-from-scratch</a></li>
 </ul>
 
     </div>
