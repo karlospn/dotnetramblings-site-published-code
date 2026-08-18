@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ardalis.com/Blog on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/ardalis.com/blog/</link>
+    <description>Recent content in Ardalis.com/Blog on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Tue, 18 Aug 2026 08:57:55 -0400</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/ardalis.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Top 10 Ways to Reduce .NET Memory Usage in Kubernetes</title>
+      <link>https://www.dotnetramblings.com/post/18_08_2026/18_08_2026_6/</link>
+      <pubDate>Tue, 18 Aug 2026 08:57:55 -0400</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_08_2026/18_08_2026_6/</guid>
+      <description>
+        
+          
+            If your .NET pods are each using 1–2 GB of RAM, you may be leaving a lot of pod density — and money — on the table. Here are the first things I would look at.
+Set Realistic Kubernetes Memory Limits Do not let every pod believe it has access to the whole node. 1 2 3 4 5 6 7
+resources: requests: memory: &amp;quot;512Mi&amp;quot; cpu: &amp;quot;100m&amp;quot; limits: memory: &amp;quot;768Mi&amp;quot; cpu: &amp;quot;1000m&amp;quot;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
