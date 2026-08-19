@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 19 Aug 2026 21:01:30 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Aug 2026 22:13:20 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Outgrowing SQL Server Express? Upgrade to Azure SQL Database Free Tier in 3 Steps</title>
+      <title>Domain and publish date filters for Web Search on AgentCore</title>
       <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_0/</link>
-      <pubDate>Wed, 19 Aug 2026 21:01:30 +0000</pubDate>
+      <pubDate>Wed, 19 Aug 2026 22:13:20 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_0/</guid>
+      <description>
+        
+          
+            Web Search on Amazon Bedrock AgentCore now supports runtime domain and published-date filtering. New per-request filters give developers per-call control over which web sources their agents consult and how fresh those sources must be, all enforced server-side. This release also expands Web Search to the Europe (Ireland) and Asia Pacific (Tokyo) Regions.
+Link to article: https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Automate Document Processing with Quick Automate and the IDP Accelerator</title>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_1/</link>
+      <pubDate>Wed, 19 Aug 2026 22:09:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_1/</guid>
+      <description>
+        
+          
+            Classifying, extracting, and validating high volumes of documents is a challenge across banking, insurance, healthcare, and the public sector. See how a mid-size mortgage lender automates its entire document intake pipeline, from email to validated data, using the AWS GAIIC IDP Accelerator and Amazon Quick Automate.
+Link to article: https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-quick-automate-and-the-idp-accelerator/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Asynchronous patterns for calling Amazon Bedrock AgentCore agents in serverless pipelines</title>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_2/</link>
+      <pubDate>Wed, 19 Aug 2026 22:06:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_2/</guid>
+      <description>
+        
+          
+            In this post, you learn three serverless patterns (task-token callback, direct service integration, and durable functions) for invoking Amazon Bedrock AgentCore agents asynchronously from AWS Step Functions pipelines, eliminating idle compute costs while your AI agent processes requests.
+Link to article: https://aws.amazon.com/blogs/machine-learning/asynchronous-patterns-for-calling-amazon-bedrock-agentcore-agents-in-serverless-pipelines/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Outgrowing SQL Server Express? Upgrade to Azure SQL Database Free Tier in 3 Steps</title>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_3/</link>
+      <pubDate>Wed, 19 Aug 2026 21:01:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_3/</guid>
       <description>
         
           
@@ -27,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/azure-sql/upgrade-from-sql-serve
     
     <item>
       <title>How Fanatics Betting and Gaming built a multi-agent customer support system</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_4/</link>
       <pubDate>Wed, 19 Aug 2026 20:40:45 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_4/</guid>
       <description>
         
           
@@ -44,10 +95,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/how-fanatics-bett
     
     <item>
       <title>KnowledgeForge: mining gold from the ITSM ticket graveyard</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_5/</link>
       <pubDate>Wed, 19 Aug 2026 20:36:50 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_5/</guid>
       <description>
         
           
@@ -61,10 +112,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mi
     
     <item>
       <title>Offering Zero Data Retention for frontier models</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_6/</link>
       <pubDate>Wed, 19 Aug 2026 19:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_6/</guid>
       <description>
         
           
@@ -78,10 +129,10 @@ Link to article: https://openai.com/index/offering-zero-data-retention-for-front
     
     <item>
       <title>Event Driven Architecture and Coupling: You’re Not as Decoupled as You Think</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_7/</link>
       <pubDate>Wed, 19 Aug 2026 17:57:02 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_7/</guid>
       <description>
         
           
@@ -94,10 +145,10 @@ Link to article: https://openai.com/index/offering-zero-data-retention-for-front
     
     <item>
       <title>New in Air: Claude Subscriptions, Multiproject View, and Improved Markdown</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_8/</link>
       <pubDate>Wed, 19 Aug 2026 17:35:10 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_8/</guid>
       <description>
         
           
@@ -111,10 +162,10 @@ Link to article: https://blog.jetbrains.com/air/2026/08/new-in-air-claude-subscr
     
     <item>
       <title>MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_9/</link>
       <pubDate>Wed, 19 Aug 2026 17:18:32 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_9/</guid>
       <description>
         
           
@@ -128,10 +179,10 @@ Link to article: https://devblogs.microsoft.com/azure-sql/vscode-mssql-august202
     
     <item>
       <title>Visual Studio Code 1.134</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_10/</link>
       <pubDate>Wed, 19 Aug 2026 17:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_10/</guid>
       <description>
         
           
@@ -145,10 +196,10 @@ Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1
     
     <item>
       <title>Signatures, be true: domain errors and functional handling in Kotlin</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_11/</link>
       <pubDate>Wed, 19 Aug 2026 15:52:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_11/</guid>
       <description>
         
           
@@ -162,10 +213,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2026/08/signatures-be-true-do
     
     <item>
       <title>Rider Hands AI Agents The Keys To Its Refactoring Engine For Safer, Faster, And Cheaper Results</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_12/</link>
       <pubDate>Wed, 19 Aug 2026 15:37:39 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_12/</guid>
       <description>
         
           
@@ -179,10 +230,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/08/19/rider-refactoring-
     
     <item>
       <title>Rider 2026.2.1 and ReSharper 2026.2.1 Are Here!</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_10/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_13/</link>
       <pubDate>Wed, 19 Aug 2026 15:36:45 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_13/</guid>
       <description>
         
           
@@ -196,10 +247,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/08/19/rider-resharper-20
     
     <item>
       <title>How to Set Up T3 Code and Tailscale on Windows and Phone</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_13/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_16/</link>
       <pubDate>Wed, 19 Aug 2026 11:02:57 -0400</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_16/</guid>
       <description>
         
           
@@ -212,10 +263,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/08/19/rider-resharper-20
     
     <item>
       <title>CritterWatch 1.0 Live Stream Today</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_14/</link>
       <pubDate>Wed, 19 Aug 2026 14:55:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_14/</guid>
       <description>
         
           
@@ -229,10 +280,10 @@ Link to article: https://jeremydmiller.com/2026/08/19/critterwatch-1-0-live-stre
     
     <item>
       <title>What’s Fixed and Improved in PyCharm 2026.2</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_12/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_15/</link>
       <pubDate>Wed, 19 Aug 2026 13:54:13 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_15/</guid>
       <description>
         
           
@@ -246,10 +297,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2026/08/what-s-fixed-and-imp
     
     <item>
       <title>How to Migrate From Atlassian Jira and Confluence to YouTrack: Expert Guide</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_14/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_17/</link>
       <pubDate>Wed, 19 Aug 2026 10:27:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_14/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_17/</guid>
       <description>
         
           
@@ -263,10 +314,10 @@ Link to article: https://blog.jetbrains.com/youtrack/2026/08/how-to-migrate-from
     
     <item>
       <title>Replit expands access to software creation with GPT-5.6 Luna</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_15/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_18/</link>
       <pubDate>Wed, 19 Aug 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_15/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_18/</guid>
       <description>
         
           
@@ -280,10 +331,10 @@ Link to article: https://openai.com/index/replit
     
     <item>
       <title>Boost Your .NET Networking with Spargine: SocketExtensions That Röck</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_16/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_19/</link>
       <pubDate>Wed, 19 Aug 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_16/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_19/</guid>
       <description>
         
           
