@@ -9,11 +9,27 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Wed, 19 Aug 2026 19:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More</title>
+      <title>Event Driven Architecture and Coupling: You’re Not as Decoupled as You Think</title>
       <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_1/</link>
-      <pubDate>Wed, 19 Aug 2026 17:18:32 +0000</pubDate>
+      <pubDate>Wed, 19 Aug 2026 17:57:02 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_1/</guid>
+      <description>
+        
+          
+            So, you broke apart your monolith. You introduced a message broker. You’re using event driven architecture. Events are flying everywhere. You’re decoupled now, right? But somehow nothing feels any better because your system is still really brittle. YouTube Check out my YouTube channel, where I post all kinds of content on Software Architecture &amp;amp; Design, including this… Read More »Event Driven Architecture and Coupling: You’re Not as Decoupled as You Think The post Event Driven Architecture and Coupling: You’re Not as Decoupled as You Think appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More</title>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_2/</link>
+      <pubDate>Wed, 19 Aug 2026 17:18:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_2/</guid>
       <description>
         
           
@@ -27,10 +43,10 @@ Link to article: https://devblogs.microsoft.com/azure-sql/vscode-mssql-august202
     
     <item>
       <title>Visual Studio Code 1.134</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_3/</link>
       <pubDate>Wed, 19 Aug 2026 17:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_3/</guid>
       <description>
         
           
@@ -43,11 +59,62 @@ Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1
     </item>
     
     <item>
-      <title>How to Set Up T3 Code and Tailscale on Windows and Phone</title>
+      <title>Signatures, be true: domain errors and functional handling in Kotlin</title>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_4/</link>
+      <pubDate>Wed, 19 Aug 2026 15:52:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_4/</guid>
+      <description>
+        
+          
+            Here’s a function that signs a document: In Kotlin, Unit means the function completes without returning a meaningful value – roughly equivalent to void in Java. Got it? Now, tell me what could go wrong. You can’t. Yet, the code might be invalid. The signing window might have closed. The database might be down. The […]
+Link to article: https://blog.jetbrains.com/kotlin/2026/08/signatures-be-true-domain-errors-and-functional-handling-in-kotlin/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Rider Hands AI Agents The Keys To Its Refactoring Engine For Safer, Faster, And Cheaper Results</title>
       <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_5/</link>
-      <pubDate>Wed, 19 Aug 2026 11:02:57 -0400</pubDate>
+      <pubDate>Wed, 19 Aug 2026 15:37:39 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_5/</guid>
+      <description>
+        
+          
+            We traced a frontier model through fifteen C# refactoring tasks and counted what it reached for. It piped text into interactive commands 468 times. It called git 422 times and sed 392 times. It ran dotnet build 163 times. Across 2,513 tool calls it performed a structural refactoring operation exactly zero times. Not because it […]
+Link to article: https://blog.jetbrains.com/dotnet/2026/08/19/rider-refactoring-code-skill/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Rider 2026.2.1 and ReSharper 2026.2.1 Are Here!</title>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_6/</link>
+      <pubDate>Wed, 19 Aug 2026 15:36:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_6/</guid>
+      <description>
+        
+          
+            Our first minor update for the 2026.2 release cycle is ready to download. Here’s what’s new. Rider Rider 2026.2 put AI-assisted development front and center, and v2026.2.1 keeps that momentum going: The refactoring-code skill, bundled in JetBrains Rider Median task time before: 157.9s → after: 26.6s 83% faster Cost per solved task before: USD 0.52 […]
+Link to article: https://blog.jetbrains.com/dotnet/2026/08/19/rider-resharper-2026-2-1/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to Set Up T3 Code and Tailscale on Windows and Phone</title>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_9/</link>
+      <pubDate>Wed, 19 Aug 2026 11:02:57 -0400</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_9/</guid>
       <description>
         
           
@@ -60,10 +127,10 @@ Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1
     
     <item>
       <title>CritterWatch 1.0 Live Stream Today</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_7/</link>
       <pubDate>Wed, 19 Aug 2026 14:55:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_7/</guid>
       <description>
         
           
@@ -77,10 +144,10 @@ Link to article: https://jeremydmiller.com/2026/08/19/critterwatch-1-0-live-stre
     
     <item>
       <title>What’s Fixed and Improved in PyCharm 2026.2</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_8/</link>
       <pubDate>Wed, 19 Aug 2026 13:54:13 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_8/</guid>
       <description>
         
           
@@ -94,10 +161,10 @@ Link to article: https://blog.jetbrains.com/pycharm/2026/08/what-s-fixed-and-imp
     
     <item>
       <title>How to Migrate From Atlassian Jira and Confluence to YouTrack: Expert Guide</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_10/</link>
       <pubDate>Wed, 19 Aug 2026 10:27:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_10/</guid>
       <description>
         
           
@@ -111,10 +178,10 @@ Link to article: https://blog.jetbrains.com/youtrack/2026/08/how-to-migrate-from
     
     <item>
       <title>Replit expands access to software creation with GPT-5.6 Luna</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_11/</link>
       <pubDate>Wed, 19 Aug 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_11/</guid>
       <description>
         
           
@@ -128,10 +195,10 @@ Link to article: https://openai.com/index/replit
     
     <item>
       <title>Boost Your .NET Networking with Spargine: SocketExtensions That Röck</title>
-      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_12/</link>
       <pubDate>Wed, 19 Aug 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/19_08_2026/19_08_2026_12/</guid>
       <description>
         
           
