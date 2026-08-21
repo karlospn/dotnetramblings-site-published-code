@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Docker.com | .NET Ramblings</title>
+<title>Spring Boot Configuration Management Best Practices | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,23 +28,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Spring Boot provides comprehensive externalized application configuration support. It enables one application artifact to run in different environments by …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Docker.com" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.dotnetramblings.com/tags/docker.com/" />
-<meta property="og:title" content="Docker.com" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Spring Boot Configuration Management Best Practices" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
+<meta property="og:url" content="https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_1/" />
+<meta property="og:title" content="Spring Boot Configuration Management Best Practices" />
+<meta property="og:description" content="Spring Boot provides comprehensive externalized application configuration support. It enables one application artifact to run in different environments by …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.dotnetramblings.com/tags/docker.com/">
-<link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/tags/docker.com/index.xml" title=".NET Ramblings" />
+<link rel="canonical" href="https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_1/">
 
 
 
@@ -128,19 +129,10 @@
 </header>
 
     <main>
-
-
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/running-ai-agents-in-github-actions-with-docker-sandboxes/" title="Running AI agents in GitHub Actions with Docker Sandboxes">Running AI agents in GitHub Actions with Docker Sandboxes</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Spring Boot Configuration Management Best Practices</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,350 +140,34 @@
 </svg>
 </span>
     <span class="post_date">
-      Aug 21, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
+      Aug 21, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/blog.jetbrains.com/' title="blog.jetbrains.com" class="post_tag button button_translucent">blog.jetbrains.com
         </a>
     </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Running AI agents in GitHub Actions with Docker Sandboxes"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Run AI agents in GitHub Actions with Docker Sandboxes. See how isolated agents can run Testcontainers tests, fix code, and open draft pull requests.
-Link to article: <a href="https://www.docker.com/blog/running-ai-agents-in-github-actions-with-docker-sandboxes/">https://www.docker.com/blog/running-ai-agents-in-github-actions-with-docker-sandboxes/</a></p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/running-ai-agents-in-github-actions-with-docker-sandboxes/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/docker-verified-publisher-applications-are-now-self-serve/" title="Docker Verified Publisher Applications Are Now Self-Serve">Docker Verified Publisher Applications Are Now Self-Serve</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 20, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
+    <div class="post_body"><p>Spring Boot provides comprehensive externalized application configuration support. It enables one application artifact to run in different environments by supplying values from various sources such as: In this article, we’ll explore the best practices for managing Spring Boot application configuration. A well-designed configuration strategy should ensure that: Configuration properties classification Typically, Spring Boot application configuration […]</p>
+<ul>
+<li>Link to article: <a href="https://blog.jetbrains.com/idea/2026/08/spring-boot-configuration-management-best-practices/">https://blog.jetbrains.com/idea/2026/08/spring-boot-configuration-management-best-practices/</a></li>
+</ul>
 
     </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
+<div class="post_comments">
   
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Docker Verified Publisher Applications Are Now Self-Serve"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
   
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Apply to become a Docker Verified Publisher (DVP) now directly through Docker Hub. Get your verified content seen first by devs looking for trusted options.
-Link to article: <a href="https://www.docker.com/blog/docker-verified-publisher-applications-are-now-self-serve/">https://www.docker.com/blog/docker-verified-publisher-applications-are-now-self-serve/</a></p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/docker-verified-publisher-applications-are-now-self-serve/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/ai-agent-security-systems-problem/" title="17,600 Actions: Agent Security Is a Systems Problem">17,600 Actions: Agent Security Is a Systems Problem</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 18, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
+  
+</div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="17,600 Actions: Agent Security Is a Systems Problem"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/ai.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>The OpenAI/Hugging Face incident exposed a new challenge for AI agent security. 17,600 attacker actions show why AI agent security can’t rely on human review. Explore the controls needed to constrain, observe, and govern agents at speed.
-Link to article: <a href="https://www.docker.com/blog/ai-agent-security-systems-problem/">https://www.docker.com/blog/ai-agent-security-systems-problem/</a></p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/ai-agent-security-systems-problem/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/coding-agent-horror-stories-the-command-you-already-approved/" title="Coding Agent Horror Stories: The Command You Already Approved">Coding Agent Horror Stories: The Command You Already Approved</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 18, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Coding Agent Horror Stories: The Command You Already Approved"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Learn how AI coding agents can run attacker code through commands you already approved and how Docker Sandboxes limit what an attack can reach.
-Link to article: <a href="https://www.docker.com/blog/coding-agent-horror-stories-the-command-you-already-approved/">https://www.docker.com/blog/coding-agent-horror-stories-the-command-you-already-approved/</a></p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/coding-agent-horror-stories-the-command-you-already-approved/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/make-zero-cves-your-new-default/" title="Make zero CVEs your new default">Make zero CVEs your new default</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 17, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Make zero CVEs your new default"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Somewhere in the past year, supply-chain attacks stopped being isolated incidents. The compromises now reach the tools the industry trusts to defend itself, with Trivy and KICS among this year’s targets. Mark Lechner, Docker’s Chief Information Security Officer, called the latest wave “a permanent shift in the threat …</p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/make-zero-cves-your-new-default/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.docker.com/blog/reproducible-esp32-firmware-development-with-docker-and-docker-sandboxes/" title="Reproducible ESP32 Firmware Development with Docker and Docker Sandboxes">Reproducible ESP32 Firmware Development with Docker and Docker Sandboxes</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 14, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/docker.com/' title="docker.com" class="post_tag button button_translucent">docker.com
-        </a>
-    </span>
-  </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
-      
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Reproducible ESP32 Firmware Development with Docker and Docker Sandboxes"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/docker.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Build ESP32 firmware with reproducible Docker environments and use Docker Sandboxes for isolated AI-assisted development and hardware testing.
-Link to article: <a href="https://www.docker.com/blog/reproducible-esp32-firmware-development-with-docker-and-docker-sandboxes/">https://www.docker.com/blog/reproducible-esp32-firmware-development-with-docker-and-docker-sandboxes/</a></p>
-          
-          <br>
-          <a href="https://www.docker.com/blog/reproducible-esp32-firmware-development-with-docker-and-docker-sandboxes/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-      <li>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -508,9 +184,8 @@ Link to article: <a href="https://www.docker.com/blog/reproducible-esp32-firmwar
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
