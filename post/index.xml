@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 21 Aug 2026 19:19:54 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From 17ms to 0.04ms: How to Design the Right SQL Index</title>
+      <link>https://www.dotnetramblings.com/post/22_08_2026/22_08_2026_0/</link>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_08_2026/22_08_2026_0/</guid>
+      <description>
+        
+          
+            What does a good SQL index look like? I seeded Postgres with 1 million comments and measured every indexing decision with EXPLAIN ANALYZE: a 17ms sequential…
+Link to article: https://milanjovanovic.tech/blog/how-to-design-the-right-sql-index 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The JasperFx / CritterStack AI and Event Modeling Strategy</title>
       <link>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_0/</link>
@@ -1580,175 +1597,6 @@ Link to article: https://milanjovanovic.tech/blog/how-do-you-build-a-social-medi
         
           
             I&#39;m really pleased to announce the release of NAudio version 3, which includes a complete modernization of the entire library, many bug-fixes and performance improvements, and adds several key new features including cross-platform support on Linux and the ability to host VST 3 effects. There&#39;s too many changes to discuss them all in detail in this post, but I did want to highlight a few of the most important changes. First of all, almost all of the interop of the COM Interop has been rewritten, making use of the newer GeneratedComInterface attribute which supports NativeAOT and uses source generation.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>End-to-end .NET modernization with AWS Transform and Kiro</title>
-      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_0/</link>
-      <pubDate>Fri, 14 Aug 2026 20:57:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_0/</guid>
-      <description>
-        
-          
-            You can accelerate .NET application modernization with AWS Transform for full-stack Windows modernization—but there may be some follow on work. End-to-end modernization often involves post-transformation tasks to finalize your application for production readiness. By finalize, I mean validating, debugging, and completing your modernized application so that it is ready for use. It’s the human reviewer’s […]
-Link to article: https://aws.amazon.com/blogs/dotnet/end-to-end-net-modernization-with-aws-transform-and-kiro/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Windows App Development CLI v0.6 - create new WinUI applications, sign packages with Azure, and more</title>
-      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_1/</link>
-      <pubDate>Fri, 14 Aug 2026 18:43:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_1/</guid>
-      <description>
-        
-          
-             Link to article: https://devblogs.microsoft.com/ifdef-windows/windows-app-development-cli-v0-6-create-new-winui-applications-sign-packages-with-azure-and-more 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge</title>
-      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_2/</link>
-      <pubDate>Fri, 14 Aug 2026 16:02:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_2/</guid>
-      <description>
-        
-          
-            In multi-turn reinforcement learning, your custom reward function decides what the model actually learns. This post shows how to design a composite multi-turn reward for Amazon Nova Forge, execute model-generated code safely inside it, and instrument each component to catch the pitfalls that quietly collapse a reward.
-Link to article: https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building agentic workflows with SageMaker AI and Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_3/</link>
-      <pubDate>Fri, 14 Aug 2026 15:58:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_3/</guid>
-      <description>
-        
-          
-            Learn how to combine OpenAI-compatible endpoints on Amazon SageMaker AI with Amazon Bedrock AgentCore runtime to build a multi-agent workflow where each specialized agent uses the model best suited to its job. This post also shows how to get token-level observability from SageMaker endpoints that Strands Agents does not instrument by default.
-Link to article: https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Forcing an ARM64X executable to run as a specific architecture</title>
-      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_4/</link>
-      <pubDate>Fri, 14 Aug 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_4/</guid>
-      <description>
-        
-          
-            ARM64X is a fat binary Windows executable and DLL format for 64-bit ARM systems. For DLLs, the choice is clear, since only one of them will work: The version of the DLL that is loaded is the one that matches the host process. If the host process uses the Windows ARM64 ABI, then the ARM
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260814-00/?p=112613 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Pipeline Pattern in C#: A Modern .NET Guide</title>
-      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_5/</link>
-      <pubDate>Fri, 14 Aug 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_5/</guid>
-      <description>
-        
-          
-            Learn the pipeline pattern in C#, its core stages, execution models, tradeoffs, and how to choose a stable .NET 10 implementation for production systems.
-Link to article: https://www.devleader.ca/2026/08/14/pipeline-pattern-in-c-a-modern-net-guide 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Reproducible ESP32 Firmware Development with Docker and Docker Sandboxes</title>
-      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_6/</link>
-      <pubDate>Fri, 14 Aug 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_6/</guid>
-      <description>
-        
-          
-            Build ESP32 firmware with reproducible Docker environments and use Docker Sandboxes for isolated AI-assisted development and hardware testing.
-Link to article: https://www.docker.com/blog/reproducible-esp32-firmware-development-with-docker-and-docker-sandboxes/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Exploring Compose HTML for Server Side Rendering</title>
-      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_7/</link>
-      <pubDate>Fri, 14 Aug 2026 12:15:09 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_7/</guid>
-      <description>
-        
-          
-            Something is happening in server-rendered web development. React shipped Server Components. HTMX made “hypermedia” cool again. Phoenix LiveView proved a server can push interactive UI updates without a client framework in sight. Every ecosystem seems to be rediscovering the server as a place to render UI, except one: the JVM. What if Compose, the UI […]
-Link to article: https://blog.jetbrains.com/kotlin/2026/08/exploring-compose-html-for-server-side-rendering/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Go 1.26.6-1 and 1.25.13-1 Microsoft builds now available</title>
-      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_8/</link>
-      <pubDate>Fri, 14 Aug 2026 11:08:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_8/</guid>
-      <description>
-        
-          
-            A new release of the Microsoft build of Go including security fixes is now available for download. For more information about this release and the changes included, see the table below: Microsoft Release Upstream Tag
-Link to article: https://devblogs.microsoft.com/go/go-1-26-6-1-and-1-25-13-1-microsoft-builds-now-available 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Git-APE SaaS Factory</title>
-      <link>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_9/</link>
-      <pubDate>Fri, 14 Aug 2026 05:29:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/14_08_2026/14_08_2026_9/</guid>
-      <description>
-        
-          
-            Agentic Platform Engineering for SaaS.
-Link to article: https://devblogs.microsoft.com/all-things-azure/git-ape-saas-factory 
           
           
         
