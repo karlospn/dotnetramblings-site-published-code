@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meziantou.net on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/meziantou.net/</link>
+    <description>Recent content in Meziantou.net on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Mon, 24 Aug 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/meziantou.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Limit what NuGet packages can do in your project</title>
+      <link>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_0/</link>
+      <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_0/</guid>
+      <description>
+        
+          
+            When you add a NuGet package to a project, you often think about the runtime library only. In reality, packages can also import MSBuild props/targets and Roslyn analyzers. Those assets run during restore, design-time build, or build. I&#39;ve already provided some examples of how this can cause issues in . This means a package can execute code on your machine or in CI without you notice. If you only need a…
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
