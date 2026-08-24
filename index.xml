@@ -7,13 +7,131 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 24 Aug 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Aug 2026 16:22:03 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MinIO End of Life: How to Stay Patched and Audit-Ready with Docker ELS</title>
+      <title>Agentic Resource Discovery (ARD): An open specification for agent discovery</title>
       <link>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_0/</link>
-      <pubDate>Mon, 24 Aug 2026 13:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Aug 2026 16:22:03 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_0/</guid>
+      <description>
+        
+          
+            AWS Agent Registry gives your organization a centralized, searchable catalog for agents, tools, and skills. It works with the open Agentic Resource Discovery (ARD) standard to enable cross-environment discovery and governance at scale.
+Link to article: https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building a restaurant telephony AI host with Amazon Connect</title>
+      <link>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_1/</link>
+      <pubDate>Mon, 24 Aug 2026 16:13:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_1/</guid>
+      <description>
+        
+          
+            Learn how to build a voice ordering system for restaurants that answers a phone call and takes an order end to end, with no app, no website, and no sign-in. It uses Amazon Connect for telephony, Amazon Connect Agentic Voice for real-time speech, an Amazon Connect AI agent for reasoning, and Amazon Bedrock AgentCore Gateway to reach backend tools through MCP.
+Link to article: https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Powering Memory in Foundry Agent Service, with Azure Cosmos DB</title>
+      <link>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_2/</link>
+      <pubDate>Mon, 24 Aug 2026 16:04:43 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_2/</guid>
+      <description>
+        
+          
+             Link to article: https://devblogs.microsoft.com/cosmosdb/powering-memory-in-foundry-agent-service-with-azure-cosmos-db 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI-powered metadata correction and harmonization</title>
+      <link>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_3/</link>
+      <pubDate>Mon, 24 Aug 2026 15:53:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_3/</guid>
+      <description>
+        
+          
+            Metadata harmonization (standardizing labels, identifiers, and formats so datasets can work together) is still largely manual. This post shows how AI-powered metadata correction works in practice, covering two approaches, human-in-the-loop validation and autonomous agent-driven workflows, plus governance considerations for production deployment.
+Link to article: https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Help AI Coding Agents Write Up-To-Date Code With Modern Golang Skills</title>
+      <link>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_4/</link>
+      <pubDate>Mon, 24 Aug 2026 14:18:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_4/</guid>
+      <description>
+        
+          
+            TL;DR Why AI coding agents need modern Go skills AI coding agents can produce working Go code, but they typically rely on outdated patterns. Older syntax appears more often in their training data. Newer language features and standard library additions may also fall outside their training cutoff. The GoLand team created Modern Go Guidelines to […]
+Link to article: https://blog.jetbrains.com/go/2026/08/24/help-ai-coding-agents-write-up-to-date-code-with-modern-golang-skills/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How We Optimized the Qwen 3.6 Model for Our Junie Agent</title>
+      <link>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_5/</link>
+      <pubDate>Mon, 24 Aug 2026 14:11:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_5/</guid>
+      <description>
+        
+          
+            A while ago, we launched a long-term project to enable users to run Junie entirely locally, with local inference, across a wide variety of hardware setups. After much anticipation, we recently released an initial version of Junie Local that works on a MacBook M5 with Qwen3.6-27B. In this blog post, I will share what it […]
+Link to article: https://blog.jetbrains.com/junie/2026/08/qwen-for-junie/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Junie Can Now Run Entirely on Your Mac – No Credits, No Cloud</title>
+      <link>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_6/</link>
+      <pubDate>Mon, 24 Aug 2026 14:10:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_6/</guid>
+      <description>
+        
+          
+            Our first step into on-device coding agents Junie has been able to connect to local model runtimes for a while. Point it at Ollama or LM Studio, load a local model, and the agent runs against it. Plenty of people are already doing this. But it also means you have to pick the model, tune […]
+Link to article: https://blog.jetbrains.com/junie/2026/08/junie-local-launch/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MinIO End of Life: How to Stay Patched and Audit-Ready with Docker ELS</title>
+      <link>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_7/</link>
+      <pubDate>Mon, 24 Aug 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_7/</guid>
       <description>
         
           
@@ -27,10 +145,10 @@ Link to article: https://www.docker.com/blog/minio-end-of-life-how-to-stay-patch
     
     <item>
       <title>Limit what NuGet packages can do in your project</title>
-      <link>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_8/</link>
       <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/24_08_2026/24_08_2026_8/</guid>
       <description>
         
           
