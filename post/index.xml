@@ -9,11 +9,78 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Tue, 25 Aug 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Try Azure SRE Agent with no always-on charges</title>
+      <title>What Kind of Packaged Process Is It?</title>
       <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_1/</link>
-      <pubDate>Tue, 25 Aug 2026 15:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 16:00:30 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_1/</guid>
+      <description>
+        
+          
+            As previously discussed, we can divide processes into the two broad categories of packaged vs unpackaged, based on if the process HAS or LACKS package identity. Packaged processes can be divided into three broad categories: Universal
+Link to article: https://devblogs.microsoft.com/insidemsix/types-of-packaged-applications 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Start here: Azure SQL Foundations series</title>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_2/</link>
+      <pubDate>Tue, 25 Aug 2026 16:00:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_2/</guid>
+      <description>
+        
+          
+            Most developers I talk to aren&#39;t asking whether Azure SQL Database can handle their next app. They&#39;re asking where to start when it comes to modernization, migration, and AI in the database. If you&#39;re reading this, you&#39;re probably in a similar boat: you&#39;ve got an existing schema or databases, a scaling question you haven&#39;t had to answer yet, a
+Link to article: https://devblogs.microsoft.com/blog/start-here-azure-sql-foundations-series 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio August Update — Work Smarter Across Models and Branches</title>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_3/</link>
+      <pubDate>Tue, 25 Aug 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_3/</guid>
+      <description>
+        
+          
+            The August update gives you more control over two parts of development that can get complicated quickly: choosing the right level of AI assistance and managing work across Git branches and repositories. You can now tune model thinking effort for the task in front of you, share custom agents across your organization, and see your Copilot usa
+Link to article: https://devblogs.microsoft.com/visualstudio/visual-studio-august-update-work-smarter-across-models-and-branches 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Wolverine 6.30: Optimized at least once delivery with “Native Acks”</title>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_4/</link>
+      <pubDate>Tue, 25 Aug 2026 15:58:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_4/</guid>
+      <description>
+        
+          
+            Wolverine 6.30 is out. It is a big release with one clear headline: a new endpoint mode, EndpointMode.NativeAck, plus the supporting cast it needed to be trustworthy — lease renewal, an additional idempotency guard, partitioning, and a five-node chaos harness to address a reported issue. This release came with feature requests from JasperFx Software clients, and just to remind folks, being a JasperFx support client means that like … Continue reading Wolverine 6.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Try Azure SRE Agent with no always-on charges</title>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_5/</link>
+      <pubDate>Tue, 25 Aug 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_5/</guid>
       <description>
         
           
@@ -27,14 +94,14 @@ Link to article: https://devblogs.microsoft.com/blog/try-azure-sre-agent-with-no
     
     <item>
       <title>PowerToys 0.101 is here: Window Hopper, Insider updates, and Command Palette compact mode</title>
-      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_6/</link>
       <pubDate>Tue, 25 Aug 2026 13:24:02 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_6/</guid>
       <description>
         
           
-            We&#39;
+            We&#39;re back with a f
 Link to article: https://devblogs.microsoft.com/commandline/powertoys-0-101-is-here-window-hopper-insider-updates-and-command-palette-compact-mode 
           
           
@@ -44,10 +111,10 @@ Link to article: https://devblogs.microsoft.com/commandline/powertoys-0-101-is-h
     
     <item>
       <title>Combining C# Specifications With AND, OR, and NOT</title>
-      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_7/</link>
       <pubDate>Tue, 25 Aug 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_7/</guid>
       <description>
         
           
@@ -61,10 +128,10 @@ Link to article: https://www.devleader.ca/2026/08/25/combining-c-specifications-
     
     <item>
       <title>Finding the total number of processors on a machine with .NET</title>
-      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_9/</link>
       <pubDate>Tue, 25 Aug 2026 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_9/</guid>
       <description>
         
           
@@ -78,10 +145,10 @@ Link to article: https://andrewlock.net/finding-the-total-number-of-processors-o
     
     <item>
       <title>Ideas Worth a Longer Conversation: The JetBrains Research Podcast</title>
-      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_10/</link>
       <pubDate>Tue, 25 Aug 2026 08:30:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_10/</guid>
       <description>
         
           
@@ -95,10 +162,10 @@ Link to article: https://blog.jetbrains.com/research/2026/08/jbr-podcast/
     
     <item>
       <title>Building your first MCP server in ASP.NET Core</title>
-      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_8/</link>
       <pubDate>Tue, 25 Aug 2026 10:22:20 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_8/</guid>
       <description>
         
           
@@ -111,11 +178,28 @@ Link to article: https://blog.elmah.io/building-your-first-mcp-server-in-asp-net
     </item>
     
     <item>
+      <title>The full stack behind abundant intelligence</title>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_11/</link>
+      <pubDate>Tue, 25 Aug 2026 07:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_11/</guid>
+      <description>
+        
+          
+            OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.
+Link to article: https://openai.com/index/the-full-stack-behind-abundant-intelligence 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Jalapeño’s first results show industry-leading speed and efficiency in AI inference</title>
-      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_12/</link>
       <pubDate>Tue, 25 Aug 2026 07:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_12/</guid>
       <description>
         
           
@@ -129,10 +213,10 @@ Link to article: https://openai.com/index/jalapeno-first-results
     
     <item>
       <title>Disrupting a new covert influence campaign from Russia</title>
-      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_13/</link>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/25_08_2026/25_08_2026_13/</guid>
       <description>
         
           
