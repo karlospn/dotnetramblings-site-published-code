@@ -9,11 +9,113 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Wed, 26 Aug 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Error Handling in C# Pipelines: Exceptions, Results, and Short-Circuiting</title>
+      <title>The Visual Studio Debugger Agentic Workflow Gets a Test-Driven Upgrade</title>
       <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_1/</link>
-      <pubDate>Wed, 26 Aug 2026 13:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Aug 2026 16:00:47 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_1/</guid>
+      <description>
+        
+          
+            A few months ago, we introduced a new guided agentic workflow in the Visual Studio Debugger Agent designed to help you move from a bug report to a verified fix without spending your morning guessing where to begin.
+Link to article: https://devblogs.microsoft.com/visualstudio/the-visual-studio-debugger-agentic-workflow-gets-a-test-driven-upgrade 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Connect Amazon Bedrock AgentCore to cross-account knowledge bases</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_2/</link>
+      <pubDate>Wed, 26 Aug 2026 15:48:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_2/</guid>
+      <description>
+        
+          
+            Learn how Amazon Bedrock AgentCore agents in one account can generate answers from an Amazon Bedrock knowledge base backed by Amazon Redshift Serverless in another account, without copying source data. This post covers the architecture, security boundary, and two orchestration models: a code-based Strands agent and a declarative AgentCore harness.
+Link to article: https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Copilot Code Reviews for Azure Repos (public preview)</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_3/</link>
+      <pubDate>Wed, 26 Aug 2026 15:17:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_3/</guid>
+      <description>
+        
+          
+            Today, we’re announcing the public preview of GitHub Copilot Code Review for Azure Repos, making the feature available to all Azure DevOps customers using the service. There’s no longer a need to sign up for early access. Customers can now enable Copilot Code Review for their Azure Repos repositories and start using it. With the
+Link to article: https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-public-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing agent and workflow channels</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_4/</link>
+      <pubDate>Wed, 26 Aug 2026 14:47:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_4/</guid>
+      <description>
+        
+          
+            An agent or workflow is only useful when people and other systems can reach it through the interfaces and channels they already use. That might be an OpenAI Responses client, Telegram, another agent using A2A, or an MCP client. As a builder of agents and workflow, you need control over which channels you expose it to
+Link to article: https://devblogs.microsoft.com/agent-framework/introducing-agent-and-workflow-channels 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI Agents in DataGrip</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_5/</link>
+      <pubDate>Wed, 26 Aug 2026 13:45:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_5/</guid>
+      <description>
+        
+          
+            The most recent DataGrip release is packed with goodies, but the headline feature is the ability to work with AI agents. Today, we dropped a new video showing you how to get the most out of this integration. Whether you prefer Claude Code, Codex, or Junie, DataGrip powers them up with database capabilities, thanks to […]
+Link to article: https://blog.jetbrains.com/datagrip/2026/08/26/ai-agents-in-datagrip/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Compose Multiplatform 1.12.0 Released</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_6/</link>
+      <pubDate>Wed, 26 Aug 2026 13:28:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_6/</guid>
+      <description>
+        
+          
+            Compose Multiplatform 1.12.0 is out! This version brings new tooling for AI assistants, improvements to web resource management, and finer control over desktop window states. Here are the highlights of this release: For a complete overview of the changes, check out What’s new in Compose Multiplatform 1.12.0 or the release notes on GitHub. Get Started […]
+Link to article: https://blog.jetbrains.com/kotlin/2026/08/compose-multiplatform-1-12-0/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Error Handling in C# Pipelines: Exceptions, Results, and Short-Circuiting</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_7/</link>
+      <pubDate>Wed, 26 Aug 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_7/</guid>
       <description>
         
           
@@ -27,10 +129,10 @@ Link to article: https://www.devleader.ca/2026/08/26/error-handling-in-c-pipelin
     
     <item>
       <title>New Azure SQL Foundations video series with GitHub samples</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_8/</link>
       <pubDate>Wed, 26 Aug 2026 12:37:45 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_8/</guid>
       <description>
         
           
@@ -44,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundati
     
     <item>
       <title>How Ubuntu Is Using Rust to Rebuild Core System Tools</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_9/</link>
       <pubDate>Wed, 26 Aug 2026 11:07:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_9/</guid>
       <description>
         
           
@@ -61,10 +163,10 @@ Link to article: https://blog.jetbrains.com/rust/2026/08/26/ubuntu-rust/
     
     <item>
       <title>OpenTelemetry Comes to IntelliJ IDEA, GoLand, PyCharm, and WebStorm</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_10/</link>
       <pubDate>Wed, 26 Aug 2026 07:40:10 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_10/</guid>
       <description>
         
           
@@ -78,10 +180,10 @@ Link to article: https://blog.jetbrains.com/platform/2026/08/opentelemetry-plugi
     
     <item>
       <title>Boost Your .NET Projects with Spargine: Simplify Entity Framework Core with DbContextExtensions</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_11/</link>
       <pubDate>Wed, 26 Aug 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_11/</guid>
       <description>
         
           
@@ -95,10 +197,10 @@ Link to article: https://dotnettips.com/2026/08/26/boost-your-net-projects-with-
     
     <item>
       <title>How loveholidays is making everyone a builder with Codex</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_13/</link>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_13/</guid>
       <description>
         
           
@@ -112,10 +214,10 @@ Link to article: https://openai.com/index/loveholidays
     
     <item>
       <title>Introducing the Agent Host for persistent, portable agent sessions</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_12/</link>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_12/</guid>
       <description>
         
           
