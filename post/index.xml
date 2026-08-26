@@ -7,13 +7,132 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 26 Aug 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Aug 2026 17:17:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Visual Studio Debugger Agentic Workflow Gets a Test-Driven Upgrade</title>
+      <title>How Much Code Do Developers Really Let Agents Write?</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_0/</link>
+      <pubDate>Wed, 26 Aug 2026 17:17:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_0/</guid>
+      <description>
+        
+          
+            “100% of my code is written by [insert whichever AI coding agent is popular right now]!”You’ve probably heard this claim many times this year. We wanted to find out how many developers have actually fully outsourced code writing to agents and how the share of agent-generated code differs across regions, tech stacks, and seniority levels. […]
+Link to article: https://blog.jetbrains.com/research/2026/08/how-much-code-do-developers-really-let-agents-write/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.135</title>
       <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_1/</link>
-      <pubDate>Wed, 26 Aug 2026 16:00:47 +0000</pubDate>
+      <pubDate>Wed, 26 Aug 2026 17:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_1/</guid>
+      <description>
+        
+          
+            Learn what&#39;s new in Visual Studio Code 1.135 Read the full article
+Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.135 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How GoDaddy transformed its analytics with Amazon Quick</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_2/</link>
+      <pubDate>Wed, 26 Aug 2026 16:51:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_2/</guid>
+      <description>
+        
+          
+            In this post, you will learn how GoDaddy migrated from their legacy business intelligence (BI) tool to Amazon Quick. This was a two-year transformation that delivered results across every dimension of the business: 15,000 hours saved annually, 50% reduction in dashboard count, rendering times cut to under 5 seconds, and AI-powered self-service analytics now accessible to every employee.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-godaddy-transformed-its-analytics-with-amazon-quick/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Natera’s intelligent appointment scheduling with Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_3/</link>
+      <pubDate>Wed, 26 Aug 2026 16:36:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_3/</guid>
+      <description>
+        
+          
+            Learn how Natera built an automated voice agent on Amazon Bedrock AgentCore that lets patients book mobile phlebotomy appointments through natural conversation. The post covers the dual-WebSocket bridge, event-driven latency masking, and progressive-trust authentication behind 100% tool-calling accuracy and sub-7-second latency.
+Link to article: https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Bring your own model with Amazon SageMaker AI: Script mode in SDK v3</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_4/</link>
+      <pubDate>Wed, 26 Aug 2026 16:31:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_4/</guid>
+      <description>
+        
+          
+            The SageMaker Python SDK v3 redesigns script mode with unified ModelTrainer and ModelBuilder classes. This post walks through two end-to-end examples, a scikit-learn Random Forest and a multi-GPU Stable Diffusion 3.5 LoRA fine-tune, showing how SourceCode syncs your local code into any container at runtime so you can iterate without rebuilding Docker images.
+Link to article: https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Preparing data for supervised fine-tuning Part 2: Advanced data strategies</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_5/</link>
+      <pubDate>Wed, 26 Aug 2026 16:24:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_5/</guid>
+      <description>
+        
+          
+            The advanced side of supervised fine-tuning data prep. This second post in a two-part series covers evaluating data readiness with learning curves, selecting high-value data subsets, augmenting data with synthetic and distilled examples, and mixing data sources to prevent catastrophic forgetting.
+Link to article: https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-2-advanced-data-strategies/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Preparing data for supervised fine-tuning Part 1: Formatting and quality</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_6/</link>
+      <pubDate>Wed, 26 Aug 2026 16:24:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_6/</guid>
+      <description>
+        
+          
+            Data preparation determines the ceiling of any supervised fine-tuning project. This first post in a two-part series covers the foundations of SFT data prep: quality checks, conversational (JSONL) formatting, reasoning and tool-calling schemas, and a representative train/evaluation split.
+Link to article: https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-1-formatting-and-quality/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Visual Studio Debugger Agentic Workflow Gets a Test-Driven Upgrade</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_7/</link>
+      <pubDate>Wed, 26 Aug 2026 16:00:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_7/</guid>
       <description>
         
           
@@ -27,10 +146,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/the-visual-studio-d
     
     <item>
       <title>Connect Amazon Bedrock AgentCore to cross-account knowledge bases</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_8/</link>
       <pubDate>Wed, 26 Aug 2026 15:48:10 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_8/</guid>
       <description>
         
           
@@ -44,10 +163,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/connect-amazon-be
     
     <item>
       <title>Copilot Code Reviews for Azure Repos (public preview)</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_9/</link>
       <pubDate>Wed, 26 Aug 2026 15:17:16 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_9/</guid>
       <description>
         
           
@@ -61,10 +180,10 @@ Link to article: https://devblogs.microsoft.com/devops/copilot-code-reviews-for-
     
     <item>
       <title>Introducing agent and workflow channels</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_10/</link>
       <pubDate>Wed, 26 Aug 2026 14:47:23 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_10/</guid>
       <description>
         
           
@@ -78,10 +197,10 @@ Link to article: https://devblogs.microsoft.com/agent-framework/introducing-agen
     
     <item>
       <title>AI Agents in DataGrip</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_11/</link>
       <pubDate>Wed, 26 Aug 2026 13:45:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_11/</guid>
       <description>
         
           
@@ -95,10 +214,10 @@ Link to article: https://blog.jetbrains.com/datagrip/2026/08/26/ai-agents-in-dat
     
     <item>
       <title>Compose Multiplatform 1.12.0 Released</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_12/</link>
       <pubDate>Wed, 26 Aug 2026 13:28:41 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_12/</guid>
       <description>
         
           
@@ -112,10 +231,10 @@ Link to article: https://blog.jetbrains.com/kotlin/2026/08/compose-multiplatform
     
     <item>
       <title>Error Handling in C# Pipelines: Exceptions, Results, and Short-Circuiting</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_13/</link>
       <pubDate>Wed, 26 Aug 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_13/</guid>
       <description>
         
           
@@ -129,10 +248,10 @@ Link to article: https://www.devleader.ca/2026/08/26/error-handling-in-c-pipelin
     
     <item>
       <title>New Azure SQL Foundations video series with GitHub samples</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_14/</link>
       <pubDate>Wed, 26 Aug 2026 12:37:45 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_14/</guid>
       <description>
         
           
@@ -146,10 +265,10 @@ Link to article: https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundati
     
     <item>
       <title>How Ubuntu Is Using Rust to Rebuild Core System Tools</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_15/</link>
       <pubDate>Wed, 26 Aug 2026 11:07:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_15/</guid>
       <description>
         
           
@@ -162,11 +281,45 @@ Link to article: https://blog.jetbrains.com/rust/2026/08/26/ubuntu-rust/
     </item>
     
     <item>
+      <title>Bringing ChatGPT for Teachers to more U.S. school districts</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_16/</link>
+      <pubDate>Wed, 26 Aug 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_16/</guid>
+      <description>
+        
+          
+            ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.
+Link to article: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Learning never stops: How AI makes learning continuous</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_17/</link>
+      <pubDate>Wed, 26 Aug 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_17/</guid>
+      <description>
+        
+          
+            OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.
+Link to article: https://openai.com/index/learning-never-stops 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>OpenTelemetry Comes to IntelliJ IDEA, GoLand, PyCharm, and WebStorm</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_10/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_18/</link>
       <pubDate>Wed, 26 Aug 2026 07:40:10 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_18/</guid>
       <description>
         
           
@@ -180,10 +333,10 @@ Link to article: https://blog.jetbrains.com/platform/2026/08/opentelemetry-plugi
     
     <item>
       <title>Boost Your .NET Projects with Spargine: Simplify Entity Framework Core with DbContextExtensions</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_19/</link>
       <pubDate>Wed, 26 Aug 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_19/</guid>
       <description>
         
           
@@ -197,10 +350,10 @@ Link to article: https://dotnettips.com/2026/08/26/boost-your-net-projects-with-
     
     <item>
       <title>How loveholidays is making everyone a builder with Codex</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_13/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_21/</link>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_21/</guid>
       <description>
         
           
@@ -214,10 +367,10 @@ Link to article: https://openai.com/index/loveholidays
     
     <item>
       <title>Introducing the Agent Host for persistent, portable agent sessions</title>
-      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_12/</link>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_20/</link>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_20/</guid>
       <description>
         
           

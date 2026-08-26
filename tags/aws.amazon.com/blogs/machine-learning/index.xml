@@ -7,13 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 26 Aug 2026 15:48:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Aug 2026 16:51:53 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Connect Amazon Bedrock AgentCore to cross-account knowledge bases</title>
+      <title>How GoDaddy transformed its analytics with Amazon Quick</title>
       <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_2/</link>
-      <pubDate>Wed, 26 Aug 2026 15:48:10 +0000</pubDate>
+      <pubDate>Wed, 26 Aug 2026 16:51:53 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_2/</guid>
+      <description>
+        
+          
+            In this post, you will learn how GoDaddy migrated from their legacy business intelligence (BI) tool to Amazon Quick. This was a two-year transformation that delivered results across every dimension of the business: 15,000 hours saved annually, 50% reduction in dashboard count, rendering times cut to under 5 seconds, and AI-powered self-service analytics now accessible to every employee.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-godaddy-transformed-its-analytics-with-amazon-quick/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Natera’s intelligent appointment scheduling with Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_3/</link>
+      <pubDate>Wed, 26 Aug 2026 16:36:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_3/</guid>
+      <description>
+        
+          
+            Learn how Natera built an automated voice agent on Amazon Bedrock AgentCore that lets patients book mobile phlebotomy appointments through natural conversation. The post covers the dual-WebSocket bridge, event-driven latency masking, and progressive-trust authentication behind 100% tool-calling accuracy and sub-7-second latency.
+Link to article: https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Bring your own model with Amazon SageMaker AI: Script mode in SDK v3</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_4/</link>
+      <pubDate>Wed, 26 Aug 2026 16:31:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_4/</guid>
+      <description>
+        
+          
+            The SageMaker Python SDK v3 redesigns script mode with unified ModelTrainer and ModelBuilder classes. This post walks through two end-to-end examples, a scikit-learn Random Forest and a multi-GPU Stable Diffusion 3.5 LoRA fine-tune, showing how SourceCode syncs your local code into any container at runtime so you can iterate without rebuilding Docker images.
+Link to article: https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Preparing data for supervised fine-tuning Part 2: Advanced data strategies</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_5/</link>
+      <pubDate>Wed, 26 Aug 2026 16:24:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_5/</guid>
+      <description>
+        
+          
+            The advanced side of supervised fine-tuning data prep. This second post in a two-part series covers evaluating data readiness with learning curves, selecting high-value data subsets, augmenting data with synthetic and distilled examples, and mixing data sources to prevent catastrophic forgetting.
+Link to article: https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-2-advanced-data-strategies/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Preparing data for supervised fine-tuning Part 1: Formatting and quality</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_6/</link>
+      <pubDate>Wed, 26 Aug 2026 16:24:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_6/</guid>
+      <description>
+        
+          
+            Data preparation determines the ceiling of any supervised fine-tuning project. This first post in a two-part series covers the foundations of SFT data prep: quality checks, conversational (JSONL) formatting, reasoning and tool-calling schemas, and a representative train/evaluation split.
+Link to article: https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-1-formatting-and-quality/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Connect Amazon Bedrock AgentCore to cross-account knowledge bases</title>
+      <link>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_8/</link>
+      <pubDate>Wed, 26 Aug 2026 15:48:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_08_2026/26_08_2026_8/</guid>
       <description>
         
           
