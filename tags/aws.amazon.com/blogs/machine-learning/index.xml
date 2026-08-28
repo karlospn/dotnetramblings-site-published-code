@@ -7,7 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 27 Aug 2026 23:04:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Aug 2026 19:31:05 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Batch write and discover records in Amazon SageMaker Feature Store</title>
+      <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_0/</link>
+      <pubDate>Fri, 28 Aug 2026 19:31:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_0/</guid>
+      <description>
+        
+          
+            Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates record identifiers within a feature group. In this post, we walk through each API with code examples you can use to get started.
+Link to article: https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Decathlon runs demand forecasting at scale with Chronos-2</title>
+      <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_1/</link>
+      <pubDate>Fri, 28 Aug 2026 16:22:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_1/</guid>
+      <description>
+        
+          
+            Decathlon, one of the world&#39;s largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents. Learn how they deployed Chronos-2 on AWS to improve forecast accuracy by 11-15 points while cutting operational complexity and running weekly inference for about $0.03 on CPU-only instances.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components</title>
+      <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_2/</link>
+      <pubDate>Fri, 28 Aug 2026 16:20:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_2/</guid>
+      <description>
+        
+          
+            Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting.
+Link to article: https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build agentic creative workflows with Amazon Quick and fal</title>
       <link>https://www.dotnetramblings.com/post/27_08_2026/27_08_2026_0/</link>

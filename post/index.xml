@@ -7,18 +7,120 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 28 Aug 2026 05:03:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Aug 2026 19:31:05 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project Loom in IntelliJ IDEA: Virtual Threads, Scoped Values, and Structured Concurrency</title>
+      <title>Batch write and discover records in Amazon SageMaker Feature Store</title>
       <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_0/</link>
-      <pubDate>Fri, 28 Aug 2026 05:03:34 +0000</pubDate>
+      <pubDate>Fri, 28 Aug 2026 19:31:05 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_0/</guid>
       <description>
         
           
+            Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates record identifiers within a feature group. In this post, we walk through each API with code examples you can use to get started.
+Link to article: https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Decathlon runs demand forecasting at scale with Chronos-2</title>
+      <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_1/</link>
+      <pubDate>Fri, 28 Aug 2026 16:22:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_1/</guid>
+      <description>
+        
+          
+            Decathlon, one of the world&#39;s largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents. Learn how they deployed Chronos-2 on AWS to improve forecast accuracy by 11-15 points while cutting operational complexity and running weekly inference for about $0.03 on CPU-only instances.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components</title>
+      <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_2/</link>
+      <pubDate>Fri, 28 Aug 2026 16:20:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_2/</guid>
+      <description>
+        
+          
+            Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting.
+Link to article: https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The State of Django 2026: Boring is so back</title>
+      <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_3/</link>
+      <pubDate>Fri, 28 Aug 2026 14:17:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_3/</guid>
+      <description>
+        
+          
+            Welcome to the highlights from the fifth annual Django Developers Survey, a collaboration between the Django Software Foundation and PyCharm. This year’s report draws on responses from nearly 3,500 Django developers across more than 40 countries — from students in their first year to veterans with decades of experience. In software, “boring” is a compliment. […]
+Link to article: https://blog.jetbrains.com/pycharm/2026/08/the-state-of-django-2026-boring-is-so-back/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Security Incident Affecting JetBrains Cadence</title>
+      <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_4/</link>
+      <pubDate>Fri, 28 Aug 2026 09:50:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_4/</guid>
+      <description>
+        
+          
+            We are investigating a security incident affecting JetBrains Cadence. Cadence is a JetBrains-hosted service that integrates with PyCharm through an optional plugin, and lets you run your projects on cloud compute resources. Our investigation has confirmed unauthorized access to the service and the exposure of customer data associated with its use. We have contacted affected […]
+Link to article: https://blog.jetbrains.com/pycharm/2026/08/cadence-security-incident-august-2026/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Project Loom in IntelliJ IDEA: Virtual Threads, Scoped Values, and Structured Concurrency</title>
+      <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_5/</link>
+      <pubDate>Fri, 28 Aug 2026 05:03:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_5/</guid>
+      <description>
+        
+          
             Java concurrency is a powerful feature, but it can be difficult to get right. Writing correct multithreaded code requires a deep understanding of thread pools, synchronization, cancellation, and error propagation. Even experienced developers regularly introduce subtle bugs like thread leaks, swallowed exceptions, and race conditions that only surface under specific circumstances. Traditionally, Java concurrency has […]
 Link to article: https://blog.jetbrains.com/idea/2026/08/project-loom-in-intellij-idea-virtual-threads-scoped-values-and-structured-concurrency/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Supporting Thailand’s next generation of AI startups</title>
+      <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_6/</link>
+      <pubDate>Fri, 28 Aug 2026 02:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_6/</guid>
+      <description>
+        
+          
+            OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.
+Link to article: https://openai.com/index/supporting-next-generation-ai-startups-thailand 
           
           
         
