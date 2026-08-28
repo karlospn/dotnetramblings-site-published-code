@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 27 Aug 2026 15:31:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Aug 2026 05:03:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/blog.jetbrains.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Loom in IntelliJ IDEA: Virtual Threads, Scoped Values, and Structured Concurrency</title>
+      <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_0/</link>
+      <pubDate>Fri, 28 Aug 2026 05:03:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_0/</guid>
+      <description>
+        
+          
+            Java concurrency is a powerful feature, but it can be difficult to get right. Writing correct multithreaded code requires a deep understanding of thread pools, synchronization, cancellation, and error propagation. Even experienced developers regularly introduce subtle bugs like thread leaks, swallowed exceptions, and race conditions that only surface under specific circumstances. Traditionally, Java concurrency has […]
+Link to article: https://blog.jetbrains.com/idea/2026/08/project-loom-in-intellij-idea-virtual-threads-scoped-values-and-structured-concurrency/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Differential Privacy for Hugging Face Trainers – Without Rewriting Your Training Loop</title>
       <link>https://www.dotnetramblings.com/post/27_08_2026/27_08_2026_7/</link>
@@ -206,40 +223,6 @@ Link to article: https://blog.jetbrains.com/junie/2026/08/junie-local-launch/
           
             Spring Boot provides comprehensive externalized application configuration support. It enables one application artifact to run in different environments by supplying values from various sources such as: In this article, we’ll explore the best practices for managing Spring Boot application configuration.A well-designed configuration strategy should ensure that: Configuration properties classification Typically, Spring Boot application configuration falls […]
 Link to article: https://blog.jetbrains.com/idea/2026/08/spring-boot-configuration-management-best-practices/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PyCharm for AI-assisted Django Workflows</title>
-      <link>https://www.dotnetramblings.com/post/20_08_2026/20_08_2026_12/</link>
-      <pubDate>Thu, 20 Aug 2026 13:06:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_08_2026/20_08_2026_12/</guid>
-      <description>
-        
-          
-            The 2026 Django Developers Survey (results coming soon!) found that AI is part of the weekly or daily workflow for 90% of respondents. AI can write code quickly, but Django developers still need to understand the application, evaluate what the agent produces, and be accountable for what ships. That makes your IDE more important, not […]
-Link to article: https://blog.jetbrains.com/pycharm/2026/08/pycharm-for-ai-assisted-django-workflows/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Ready for Go 1.27 on Day One</title>
-      <link>https://www.dotnetramblings.com/post/20_08_2026/20_08_2026_13/</link>
-      <pubDate>Thu, 20 Aug 2026 10:19:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_08_2026/20_08_2026_13/</guid>
-      <description>
-        
-          
-            Go 1.27 is here, and the release notes have plenty to explore. Language updates include generic methods, promoted field names in struct composite literals, and improved function type inference. Beyond the language itself, Go 1.27 expands go fix with new modernizers and adds a profile for finding goroutine leaks. These updates touch many parts of […]
-Link to article: https://blog.jetbrains.com/go/2026/08/20/ready-for-go-1-27-on-day-one/ 
           
           
         
