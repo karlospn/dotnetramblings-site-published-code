@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 22 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/milanjovanovic.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your ASP.NET Core Endpoints Don&#39;t Have a Timeout</title>
+      <link>https://www.dotnetramblings.com/post/29_08_2026/29_08_2026_0/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_08_2026/29_08_2026_0/</guid>
+      <description>
+        
+          
+            ASP.NET Core doesn&#39;t enforce an application timeout on incoming requests by default. The built-in middleware can add one, but it only cancels RequestAborted.
+Link to article: https://milanjovanovic.tech/blog/your-aspnetcore-endpoints-dont-have-a-timeout 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>From 17ms to 0.04ms: How to Design the Right SQL Index</title>
       <link>https://www.dotnetramblings.com/post/22_08_2026/22_08_2026_1/</link>

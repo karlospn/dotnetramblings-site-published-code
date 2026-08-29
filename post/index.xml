@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 28 Aug 2026 19:31:05 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your ASP.NET Core Endpoints Don&#39;t Have a Timeout</title>
+      <link>https://www.dotnetramblings.com/post/29_08_2026/29_08_2026_0/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_08_2026/29_08_2026_0/</guid>
+      <description>
+        
+          
+            ASP.NET Core doesn&#39;t enforce an application timeout on incoming requests by default. The built-in middleware can add one, but it only cancels RequestAborted.
+Link to article: https://milanjovanovic.tech/blog/your-aspnetcore-endpoints-dont-have-a-timeout 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Batch write and discover records in Amazon SageMaker Feature Store</title>
       <link>https://www.dotnetramblings.com/post/28_08_2026/28_08_2026_0/</link>
@@ -1426,176 +1443,6 @@ Link to article: https://www.devleader.ca/2026/08/22/async-pipelines-in-c-await-
           
             What does a good SQL index look like? I seeded Postgres with 1 million comments and measured every indexing decision with EXPLAIN ANALYZE: a 17ms sequential…
 Link to article: https://milanjovanovic.tech/blog/how-to-design-the-right-sql-index 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The JasperFx / CritterStack AI and Event Modeling Strategy</title>
-      <link>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_0/</link>
-      <pubDate>Fri, 21 Aug 2026 19:19:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_0/</guid>
-      <description>
-        
-          
-            Assuming you haven’t been living under a rock, you’ve probably noticed that topics related to Artificial Intelligence (AI) are pretty well dominating most conversations about software development right now. I’d like to lay out the Critter Stack community and JasperFx‘s strategy is for AI assisted software development at this moment and talk about all the … Continue reading The JasperFx / CritterStack AI and Event Modeling Strategy →
-Link to article: https://jeremydmiller.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Agentic Data Operations Platform (ADOP): Data engineering into hours</title>
-      <link>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_1/</link>
-      <pubDate>Fri, 21 Aug 2026 17:06:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_1/</guid>
-      <description>
-        
-          
-            The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the full Bronze-to-Silver-to-Gold data pipeline lifecycle, compressing new-source onboarding from weeks to hours while keeping data governance and compliance controls inline.
-Link to article: https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Govern AI agent tool access with Amazon Bedrock AgentCore Gateway</title>
-      <link>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_2/</link>
-      <pubDate>Fri, 21 Aug 2026 17:02:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_2/</guid>
-      <description>
-        
-          
-            Give your AI agents governed, auditable access to enterprise tools without consolidating infrastructure. This post walks through a four-scope maturity model (Connect, Control, Catalog, and Harden) for building a governed tool gateway with Amazon Bedrock AgentCore, advancing only when real governance pain demands it.
-Link to article: https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Today I will... Modernize a .NET application</title>
-      <link>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_3/</link>
-      <pubDate>Fri, 21 Aug 2026 17:00:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_3/</guid>
-      <description>
-        
-          
-            Today I will modernize a .NET Framework application to .NET 10 using the GitHub Copilot modernization tooling built-in to Visual Studio. The tooling helps us upgrade applications running on legacy versions of .NET and also mig
-Link to article: https://devblogs.microsoft.com/visualstudio/today-i-will-modernize-a-net-application 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Reduce RAG costs on Amazon Bedrock with query-aware compression</title>
-      <link>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_4/</link>
-      <pubDate>Fri, 21 Aug 2026 16:59:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_4/</guid>
-      <description>
-        
-          
-            Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale. This post describes a query-aware context compression pattern on Amazon Bedrock: after retrieval, a smaller model filters retrieved chunks against the query before the primary model answers, reducing input tokens and cost while preserving answer quality.
-Link to article: https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerating aircraft IFEC diagnostics with agentic AI on AWS</title>
-      <link>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_5/</link>
-      <pubDate>Fri, 21 Aug 2026 16:57:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_5/</guid>
-      <description>
-        
-          
-            Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageMaker, and AWS Glue that diagnoses in-flight entertainment and connectivity (IFEC) issues across a global fleet, reducing diagnosis time from hours to minutes while maintaining accuracy.
-Link to article: https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Reducing C&#43;&#43; template bloat by factoring out the type-dependent portions of the function, practical exam</title>
-      <link>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_6/</link>
-      <pubDate>Fri, 21 Aug 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_6/</guid>
-      <description>
-        
-          
-            A short time ago, we observed that there&#39;s usually no need to wrap a callable in a lambda, and more recently observed that
-Link to article: https://devblogs.microsoft.com/oldnewthing/20260821-00/?p=112632 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Running AI agents in GitHub Actions with Docker Sandboxes</title>
-      <link>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_8/</link>
-      <pubDate>Fri, 21 Aug 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_8/</guid>
-      <description>
-        
-          
-            Run AI agents in GitHub Actions with Docker Sandboxes. See how isolated agents can run Testcontainers tests, fix code, and open draft pull requests.
-Link to article: https://www.docker.com/blog/running-ai-agents-in-github-actions-with-docker-sandboxes/ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Specification Pattern With EF Core Without a Repository</title>
-      <link>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_7/</link>
-      <pubDate>Fri, 21 Aug 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_7/</guid>
-      <description>
-        
-          
-            Use the Specification Pattern with EF Core DbContext queries while keeping tracking, result limits, cancellation, SQL checks, and relational tests explicit.
-Link to article: https://www.devleader.ca/2026/08/21/specification-pattern-with-ef-core-without-a-repository 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Spring Boot Configuration Management Best Practices</title>
-      <link>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_9/</link>
-      <pubDate>Fri, 21 Aug 2026 08:35:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_08_2026/21_08_2026_9/</guid>
-      <description>
-        
-          
-            Spring Boot provides comprehensive externalized application configuration support. It enables one application artifact to run in different environments by supplying values from various sources such as: In this article, we’ll explore the best practices for managing Spring Boot application configuration.A well-designed configuration strategy should ensure that: Configuration properties classification Typically, Spring Boot application configuration falls […]
-Link to article: https://blog.jetbrains.com/idea/2026/08/spring-boot-configuration-management-best-practices/ 
           
           
         
