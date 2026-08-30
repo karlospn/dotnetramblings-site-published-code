@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 29 Aug 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Aug 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collection Performance: Use Caution when using Range Expressions in Hot Paths when Collection Slicing</title>
+      <link>https://www.dotnetramblings.com/post/30_08_2026/30_08_2026_0/</link>
+      <pubDate>Sun, 30 Aug 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_08_2026/30_08_2026_0/</guid>
+      <description>
+        
+          
+            Range expressions make collection slicing concise, but they can introduce unexpected overhead in hot paths. This subscriber-only article compares several ways to create slices with Memory, Span, ReadOnlyMemory, and ReadOnlySpan—and explains when using start-and-length overloads may be the smarter performance choice.
+Link to article: https://dotnettips.com/2026/08/30/collection-performance-use-caution-when-using-range-expressions-in-hot-paths-when-collection-slicing/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Specification vs Repository vs Query Object in .NET</title>
       <link>https://www.dotnetramblings.com/post/29_08_2026/29_08_2026_0/</link>
