@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Damienbod.com on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/tags/damienbod.com/</link>
+    <description>Recent content in Damienbod.com on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Tue, 01 Sep 2026 06:02:53 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/damienbod.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using multiline Parameters for Aspire and ASP.NET Core with user secrets and Azure default deployments</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_3/</link>
+      <pubDate>Tue, 01 Sep 2026 06:02:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_3/</guid>
+      <description>
+        
+          
+            Multiple line secrets or configuration do not work in Aspire per default. An example of this is using a PEM file for certificates. This posts shows how the multiple line configuration parameters can be setup in Aspire, ASP.NET Core and works with user secrets and Azure default deployments. Code: https://github.com/swiss-ssi-group/swiyu-passkeys-idp-loi-loa Adding an base64 encoding layer […]
+Link to article: https://damienbod.com/2026/09/01/using-multiline-parameters-for-aspire-and-asp-net-core-with-user-secrets-and-azure-default-deployments/ 
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

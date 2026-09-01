@@ -7,7 +7,75 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 31 Aug 2026 19:50:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Sep 2026 10:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The pain of serializing unions and closed class hierarchies with System.Text.Json: Exploring the .NET 11 preview - Part 7</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_0/</link>
+      <pubDate>Tue, 01 Sep 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_0/</guid>
+      <description>
+        
+          
+            In this post I discuss the System.Text.Json support for unions and closed hierarchies coming in .NET 11, the decisions made, and some of the sharp edges I hit
+Link to article: https://andrewlock.net/exploring-the-dotnet-11-preview-7-the-pain-of-serializing-unions-and-closed-class-hierarchies-with-system-text-json/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Ensuring Code Compliance in Public Sector Software Projects</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_1/</link>
+      <pubDate>Tue, 01 Sep 2026 07:54:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_1/</guid>
+      <description>
+        
+          
+            The public sector handles sensitive citizen data, which is why software projects built with secure coding are imperative to deliver high trust levels. Code compliance with data protection laws, financial governance standards, and various regulations and policies is an obligation that must be consistently met to maintain trust and accountability. According to IBM’s Cost of […]
+Link to article: https://blog.jetbrains.com/qodana/2026/09/ensuring-code-compliance/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Authenticating TeamCity Builds to External Services With OIDC</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_2/</link>
+      <pubDate>Tue, 01 Sep 2026 06:58:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_2/</guid>
+      <description>
+        
+          
+            Static credentials in CI/CD environments are a significant source of security risks and operational overhead. They can be accidentally leaked through logs and build artifacts. And you can never be sure who’s copying, saving, or sharing them with others during the CI/CD setup process. In addition, they require regular rotation to meet security requirements. That’s […]
+Link to article: https://blog.jetbrains.com/teamcity/2026/09/authenticating-teamcity-builds-with-oidc/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using multiline Parameters for Aspire and ASP.NET Core with user secrets and Azure default deployments</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_3/</link>
+      <pubDate>Tue, 01 Sep 2026 06:02:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_3/</guid>
+      <description>
+        
+          
+            Multiple line secrets or configuration do not work in Aspire per default. An example of this is using a PEM file for certificates. This posts shows how the multiple line configuration parameters can be setup in Aspire, ASP.NET Core and works with user secrets and Azure default deployments. Code: https://github.com/swiss-ssi-group/swiyu-passkeys-idp-loi-loa Adding an base64 encoding layer […]
+Link to article: https://damienbod.com/2026/09/01/using-multiline-parameters-for-aspire-and-asp-net-core-with-user-secrets-and-azure-default-deployments/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AWS recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025</title>
       <link>https://www.dotnetramblings.com/post/31_08_2026/31_08_2026_0/</link>
