@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 31 Aug 2026 18:37:17 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Sep 2026 16:00:54 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Servicing While In Use and ERROR_PACKAGES_IN_USE</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_4/</link>
+      <pubDate>Tue, 01 Sep 2026 16:00:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_4/</guid>
+      <description>
+        
+          
+            How does MSIX service a package while it&#39;s in use? Simple: It doesn&#39;t. A core principle of MSIX servicing is: Do not service a package while it&#39;s in use. Deployment provides several ways to deal with that constraint. Options range from terminating applications to deferring servicing until the
+Link to article: https://devblogs.microsoft.com/insidemsix/msix-servicing-while-in-use 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Today I will... review GitHub PRs</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_5/</link>
+      <pubDate>Tue, 01 Sep 2026 16:00:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_5/</guid>
+      <description>
+        
+          
+            Today I will show you how we can tackle one of the most common tasks when working in a development team or managing an open-source project, and that is working with Pull Requests. While we&#39;re going to be using the GitHub tooling within Visual Studio for this, the approach would be very similar with Azure DevOps. Getting our
+Link to article: https://devblogs.microsoft.com/visualstudio/today-i-will-review-github-prs 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Power Azure SRE Agent with the tools it needs</title>
       <link>https://www.dotnetramblings.com/post/31_08_2026/31_08_2026_4/</link>

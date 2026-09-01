@@ -7,7 +7,109 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 31 Aug 2026 19:50:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Sep 2026 16:17:54 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From theory to delivery: How Atos upskilled 400 engineers in agentic AI</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_1/</link>
+      <pubDate>Tue, 01 Sep 2026 16:17:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_1/</guid>
+      <description>
+        
+          
+            When Atos set out to upskill 400 engineers in agentic AI, hands-on learning was the missing ingredient. Over three days, engineers built multi-agent systems on AWS through an AI League event. This post explains why Atos chose the format, what engineers built and learned, and what other enterprises should consider.
+Link to article: https://aws.amazon.com/blogs/machine-learning/from-theory-to-delivery-how-atos-upskilled-400-engineers-in-agentic-ai/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Tokenomics at scale: How Jamf built real-time spend enforcement for Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_2/</link>
+      <pubDate>Tue, 01 Sep 2026 16:03:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_2/</guid>
+      <description>
+        
+          
+            As generative AI adoption scales, cost governance becomes a top challenge. Learn how Jamf built real-time, per-user spend enforcement for Amazon Bedrock using IAM Customer Managed Policies, an Amazon Athena cost view, and a serverless AWS Lambda loop that applies tiered model limits in near-real-time without disrupting active sessions.
+Link to article: https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-how-jamf-built-real-time-spend-enforcement-for-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Securing Amazon Quick from POC to production: Agents, Flows, and Spaces</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_3/</link>
+      <pubDate>Tue, 01 Sep 2026 16:02:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_3/</guid>
+      <description>
+        
+          
+            Amazon Quick proof-of-concept projects often stall when security teams review the production plan. This post walks through designing dashboards, Spaces, knowledge bases, agents, and Flows with security controls that hold as you scale: dataset shaping, agent isolation, document classification, and approval gates.
+Link to article: https://aws.amazon.com/blogs/machine-learning/securing-amazon-quick-from-poc-to-production-agents-flows-and-spaces/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How t54 built a trust layer with Amazon Bedrock AgentCore payments</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_6/</link>
+      <pubDate>Tue, 01 Sep 2026 15:50:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_6/</guid>
+      <description>
+        
+          
+            t54 built x402-secure, a trust layer on Amazon Bedrock AgentCore payments that scores every endpoint before an autonomous agent pays it. See how session budgets, credential isolation, and a deterministic trust gate have governed more than 20 million agent-initiated transactions with no human in the loop.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-t54-built-a-trust-layer-with-amazon-bedrock-agentcore-payments/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How ZS democratized secure ad-hoc analytics with Amazon SageMaker</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_7/</link>
+      <pubDate>Tue, 01 Sep 2026 15:47:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_7/</guid>
+      <description>
+        
+          
+            Learn how ZS built a security-hardened Amazon SageMaker platform that balances developer agility with healthcare-grade governance, serving 1,000+ daily active users across 200+ SageMaker domains.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-zs-democratized-secure-ad-hoc-analytics-with-amazon-sagemaker/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Boomi Scribe streamlines documentation using AWS</title>
+      <link>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_8/</link>
+      <pubDate>Tue, 01 Sep 2026 15:45:36 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_09_2026/01_09_2026_8/</guid>
+      <description>
+        
+          
+            Boomi Scribe is an AI-powered agent on AWS that automatically generates documentation for enterprise integration workflows. Learn how Boomi uses Amazon Bedrock, Amazon SageMaker AI, Amazon S3, Amazon DynamoDB, and AWS Lambda to parse integration DAGs, generate detailed documentation, and compare component versions at scale.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-boomi-scribe-streamlines-documentation-using-aws/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AWS recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025</title>
       <link>https://www.dotnetramblings.com/post/31_08_2026/31_08_2026_0/</link>
