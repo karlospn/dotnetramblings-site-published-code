@@ -9,11 +9,79 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Wed, 02 Sep 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Behind SPFx Dev Skills: testing what agents know and fixing what they miss</title>
+      <title>Stop alt-tabbing into the wrong Visual Studio</title>
       <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_1/</link>
-      <pubDate>Wed, 02 Sep 2026 10:14:00 +0000</pubDate>
+      <pubDate>Wed, 02 Sep 2026 14:00:12 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_1/</guid>
+      <description>
+        
+          
+            A user asked for per-solution color themes. It already ships, and it goes further than they asked. You run several instances of Visual Studio side by side, one per solution, and they all look identical. Same taskbar icon, same alt-tab thumbnail, same chrome. So, you land in the wrong one, start typing, and realize thirty seconds la
+Link to article: https://devblogs.microsoft.com/visualstudio/stop-alt-tabbing-into-the-wrong-visual-studio 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Stop Guessing at Hard Faults</title>
+      <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_2/</link>
+      <pubDate>Wed, 02 Sep 2026 13:32:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_2/</guid>
+      <description>
+        
+          
+            CLion’s new AI skill lets agents find the root cause without manual digging. Embedded debugging takes a lot of manual work. You’re flashing real hardware, juggling debug probes or DAP adapters, and when something goes wrong at a lower level (a hard fault), the processor doesn’t tell you why, only that it happened. Finding the […]
+Link to article: https://blog.jetbrains.com/clion/2026/09/hard-fault-debugging/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Below the Harness: Governing a Multi-Model, Multi-Harness World</title>
+      <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_4/</link>
+      <pubDate>Wed, 02 Sep 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_4/</guid>
+      <description>
+        
+          
+            We believe the future is a multi-model, multi-harness world. And we think it needs a new trust model. In 1988, Norm Hardy described a problem that had been quietly breaking systems for years: the confused deputy. A program that takes action using its permissions instead of yours. Today, every AI agent is that deputy. It...
+Link to article: https://www.docker.com/blog/below-the-harness-governing-a-multi-model-multi-harness-world/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using Specifications for Domain Rules and Validation</title>
+      <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_3/</link>
+      <pubDate>Wed, 02 Sep 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_3/</guid>
+      <description>
+        
+          
+            Specification Pattern DDD validation uses pure C# rules while structured results, request checks, and aggregate invariant enforcement stay clearly separate.
+Link to article: https://www.devleader.ca/2026/09/02/using-specifications-for-domain-rules-and-validation 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Behind SPFx Dev Skills: testing what agents know and fixing what they miss</title>
+      <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_5/</link>
+      <pubDate>Wed, 02 Sep 2026 10:14:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_5/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/behind-spfx-dev-
     
     <item>
       <title>How to Handle Errors in Go</title>
-      <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_6/</link>
       <pubDate>Wed, 02 Sep 2026 08:48:31 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_6/</guid>
       <description>
         
           
@@ -44,10 +112,10 @@ Link to article: https://blog.jetbrains.com/go/2026/09/02/how-to-handle-errors-i
     
     <item>
       <title>Getting started with RAG in ASP.NET Core</title>
-      <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_7/</link>
       <pubDate>Wed, 02 Sep 2026 08:44:26 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_7/</guid>
       <description>
         
           
@@ -61,10 +129,10 @@ Link to article: https://blog.elmah.io/getting-started-with-rag-in-asp-net-core/
     
     <item>
       <title>Boost Your .NET Projects with Spargine: Simplify Thread Pool Execution with ThreadPoolHelper</title>
-      <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_8/</link>
       <pubDate>Wed, 02 Sep 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_8/</guid>
       <description>
         
           
