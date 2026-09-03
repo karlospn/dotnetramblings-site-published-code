@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 02 Sep 2026 18:09:53 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Sep 2026 19:09:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advocating Uptime: Schema Changes in 6 Phases</title>
+      <link>https://www.dotnetramblings.com/post/03_09_2026/03_09_2026_0/</link>
+      <pubDate>Thu, 03 Sep 2026 19:09:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_09_2026/03_09_2026_0/</guid>
+      <description>
+        
+          
+            Schema change is inevitable. We do not get everything right the first time, and even when we do, the world around the database keeps changing. Requirements mature, products evolve, and assumptions that made sense years ago eventually stop matching reality. Businesses change too. We acquire companies, merge
+Link to article: https://devblogs.microsoft.com/azure-sql/schema-change 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Test what you ship: MSTest and Native AOT</title>
+      <link>https://www.dotnetramblings.com/post/03_09_2026/03_09_2026_1/</link>
+      <pubDate>Thu, 03 Sep 2026 18:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_09_2026/03_09_2026_1/</guid>
+      <description>
+        
+          
+            If you ship an application with Native AOT, a green managed test run leaves a gap. Native AOT compiles ahead of time, removes unused code, and requires alternatives to runti
+Link to article: https://devblogs.microsoft.com/dotnet/mstest-source-generation 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Go 1.27.1-1 and 1.26.8-1 Microsoft builds now available</title>
       <link>https://www.dotnetramblings.com/post/02_09_2026/02_09_2026_7/</link>
