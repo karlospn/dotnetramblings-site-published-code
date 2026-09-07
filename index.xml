@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 07 Sep 2026 09:35:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Sep 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Rider 2026.3 Early Access Program Is Open</title>
+      <title>Pipeline vs Chain of Responsibility vs ASP.NET Core Middleware</title>
       <link>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_0/</link>
-      <pubDate>Mon, 07 Sep 2026 09:35:21 +0000</pubDate>
+      <pubDate>Mon, 07 Sep 2026 13:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_0/</guid>
+      <description>
+        
+          
+            Compare Pipeline, Chain of Responsibility, and ASP.NET Core middleware by transformation, handler selection, continuation, ordering, and short-circuiting.
+Link to article: https://www.devleader.ca/2026/09/07/pipeline-vs-chain-of-responsibility-vs-aspnet-core-middleware 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Run temporary containers in .NET tests with Meziantou.Framework.TemporaryContainers</title>
+      <link>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_1/</link>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_1/</guid>
+      <description>
+        
+          
+            Integration tests are much more valuable when they run against real services. Instead of mocking a database or cache, you can start a temporary container, run your test, and dispose everything at the end. The Meziantou.Framework.TemporaryContainers package provides a lightweight API to manage disposable containers from .NET. Its main difference with the existing libraries is that it is not tied to Docker.…
+Link to article: https://www.meziantou.net/run-temporary-containers-in-dotnet-tests-with-meziantou-framework-temporaryconta.htm?utm_medium=social&amp;utm_source=syndication 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Kotlin 2.4.20 Released</title>
+      <link>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_2/</link>
+      <pubDate>Mon, 07 Sep 2026 11:30:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_2/</guid>
+      <description>
+        
+          
+            The Kotlin 2.4.20 release is out! Here are the main highlights: For the complete list of changes, see What’s new in Kotlin 2.4.20 or the release notes on GitHub. How to install Kotlin 2.4.20 The latest version of Kotlin is included in the latest versions of IntelliJ IDEA and Android Studio. To update to the […]
+Link to article: https://blog.jetbrains.com/kotlin/2026/09/kotlin-2-4-20-released/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Java Annotated Monthly – September 2026</title>
+      <link>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_3/</link>
+      <pubDate>Mon, 07 Sep 2026 11:27:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_3/</guid>
+      <description>
+        
+          
+            This month’s Java Annotated Monthly brings you the latest Java news, a generous dose of AI-focused articles, Kotlin updates, and highlights from a variety of technologies and frameworks, plus plenty more worth adding to your reading list. Our featured writer, Aicha Laafia, takes a closer look at upcoming JEPs and shares her key findings on […]
+Link to article: https://blog.jetbrains.com/idea/2026/09/java-annotated-monthly-september-2026/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Rider 2026.3 Early Access Program Is Open</title>
+      <link>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_4/</link>
+      <pubDate>Mon, 07 Sep 2026 09:35:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_4/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/09/07/rider-2026-3-eap/
     
     <item>
       <title>Supporting independent journalism in Ukraine</title>
-      <link>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_5/</link>
       <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_5/</guid>
       <description>
         
           
