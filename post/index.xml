@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 08 Sep 2026 16:35:02 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Sep 2026 19:12:51 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Go 1.27.1-2 Microsoft build now available</title>
+      <title>Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod</title>
       <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_0/</link>
-      <pubDate>Tue, 08 Sep 2026 16:35:02 +0000</pubDate>
+      <pubDate>Tue, 08 Sep 2026 19:12:51 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_0/</guid>
+      <description>
+        
+          
+            Pathway&#39;s Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway develops and scales BDH on Amazon SageMaker HyperPod, and how BDH-CQ set a new cost-efficiency mark on the ARC-AGI-1 benchmark.
+Link to article: https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_1/</link>
+      <pubDate>Tue, 08 Sep 2026 18:29:15 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_1/</guid>
+      <description>
+        
+          
+            Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call without reading or rewriting the entire record. It is available for both the Standard (Amazon DynamoDB) and In-Memory (Amazon ElastiCache) online store tiers.
+Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</link>
+      <pubDate>Tue, 08 Sep 2026 17:03:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</guid>
+      <description>
+        
+          
+            Governing models across accounts is the next step after automatic model registration. This post extends managed MLflow and Amazon SageMaker AI Model Registry sync to two cross-account governance topologies: a hub-and-spoke pattern that centralizes governance with AWS RAM, and a hybrid pattern that keeps development accounts isolated.
+Link to article: https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_3/</link>
+      <pubDate>Tue, 08 Sep 2026 17:03:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_3/</guid>
+      <description>
+        
+          
+            Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) into the SageMaker AI Model Registry, with lifecycle stage promotion. Part 1 shows how to govern candidate models in a single account using IAM guardrails.
+Link to article: https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Go 1.27.1-2 Microsoft build now available</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_4/</link>
+      <pubDate>Tue, 08 Sep 2026 16:35:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_4/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/go/go-1-27-1-2-microsoft-build-n
     
     <item>
       <title>Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_5/</link>
       <pubDate>Tue, 08 Sep 2026 16:23:21 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_5/</guid>
       <description>
         
           
@@ -44,10 +112,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/automated-agent-e
     
     <item>
       <title>Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_6/</link>
       <pubDate>Tue, 08 Sep 2026 16:21:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_6/</guid>
       <description>
         
           
@@ -61,10 +129,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/benchmarking-smal
     
     <item>
       <title>How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_7/</link>
       <pubDate>Tue, 08 Sep 2026 16:15:23 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_7/</guid>
       <description>
         
           
@@ -78,10 +146,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-bui
     
     <item>
       <title>How DiDi built intelligent contact center QA with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_8/</link>
       <pubDate>Tue, 08 Sep 2026 16:11:11 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_8/</guid>
       <description>
         
           
@@ -95,10 +163,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/how-didi-built-in
     
     <item>
       <title>MSIX PackageVolume: How Package Storage Works</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_9/</link>
       <pubDate>Tue, 08 Sep 2026 16:00:27 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_9/</guid>
       <description>
         
           
@@ -112,10 +180,10 @@ Link to article: https://devblogs.microsoft.com/insidemsix/msix-packagevolume
     
     <item>
       <title>Today I will... find hidden latency across a distributed .NET application</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_10/</link>
       <pubDate>Tue, 08 Sep 2026 16:00:22 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_10/</guid>
       <description>
         
           
@@ -129,10 +197,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/today-i-will-find-h
     
     <item>
       <title>dotInsights | September 2026</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_11/</link>
       <pubDate>Tue, 08 Sep 2026 14:16:12 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_11/</guid>
       <description>
         
           
@@ -146,10 +214,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/09/08/dotinsights-septem
     
     <item>
       <title>A sample use of the &lt;code&gt;winstart.bat&lt;/code&gt; file in Windows 95</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_12/</link>
       <pubDate>Tue, 08 Sep 2026 14:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_12/</guid>
       <description>
         
           
@@ -163,10 +231,10 @@ Link to article: https://devblogs.microsoft.com/oldnewthing/20260908-00/?p=11267
     
     <item>
       <title>The Work Now Within Reach</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_13/</link>
       <pubDate>Tue, 08 Sep 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_13/</guid>
       <description>
         
           
@@ -180,10 +248,10 @@ Link to article: https://openai.com/index/the-work-now-within-reach
     
     <item>
       <title>Debug Past an HTTP 403 Without Breaking Spring Security</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_10/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_14/</link>
       <pubDate>Tue, 08 Sep 2026 12:34:18 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_14/</guid>
       <description>
         
           
@@ -196,11 +264,28 @@ Link to article: https://blog.jetbrains.com/idea/2026/09/debug-past-an-http-403-
     </item>
     
     <item>
+      <title>Introducing ChatGPT Images 2.5</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_15/</link>
+      <pubDate>Tue, 08 Sep 2026 11:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_15/</guid>
+      <description>
+        
+          
+            ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.
+Link to article: https://openai.com/index/introducing-chatgpt-images-2-5 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>TypeScript 7 in WebStorm: Faster Coding Assistance for Angular and React, No Migration Required</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_16/</link>
       <pubDate>Tue, 08 Sep 2026 10:54:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_16/</guid>
       <description>
         
           
@@ -213,11 +298,45 @@ Link to article: https://blog.jetbrains.com/webstorm/2026/09/typescript-7-in-web
     </item>
     
     <item>
+      <title>On the Navier–Stokes Millennium Prize Problem</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_17/</link>
+      <pubDate>Tue, 08 Sep 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_17/</guid>
+      <description>
+        
+          
+            We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.
+Link to article: https://openai.com/index/navier-stokes-solution 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Funding grants for new research into AI and teen development</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_18/</link>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_18/</guid>
+      <description>
+        
+          
+            Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.
+Link to article: https://openai.com/index/teen-development-research-grants 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Using C# 14 to build &amp;quot;Smart records&amp;quot; for config &amp;amp; settings models</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_12/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_19/</link>
       <pubDate>Tue, 08 Sep 2026 07:44:39 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_19/</guid>
       <description>
         
           
@@ -231,10 +350,10 @@ Link to article: https://blog.elmah.io/using-c-14-to-build-smart-records-for-con
     
     <item>
       <title>The Agentic Road to Revenue</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_13/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_20/</link>
       <pubDate>Tue, 08 Sep 2026 04:45:34 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_20/</guid>
       <description>
         
           
@@ -247,11 +366,28 @@ Link to article: https://devblogs.microsoft.com/all-things-azure/the-agentic-roa
     </item>
     
     <item>
-      <title>OpenAI expands initiatives to support journalism from classrooms to newsrooms</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_14/</link>
+      <title>1Password increases engineering productivity 21% with Codex</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_22/</link>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_14/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_22/</guid>
+      <description>
+        
+          
+            Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.
+Link to article: https://openai.com/index/1password 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI expands initiatives to support journalism from classrooms to newsrooms</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_21/</link>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_21/</guid>
       <description>
         
           
