@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 08 Sep 2026 04:45:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Sep 2026 16:35:02 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/devblogs.microsoft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go 1.27.1-2 Microsoft build now available</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_0/</link>
+      <pubDate>Tue, 08 Sep 2026 16:35:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_0/</guid>
+      <description>
+        
+          
+            A new release of the Microsoft build of Go is now available for download. This revision fixes a compatibility issue that may cause panics when using OpenSSL 3.3 with a provider that implements the ML-KEM or ML-DSA algorithms. This improves compatibility with Azure Linux 3.
+Link to article: https://devblogs.microsoft.com/go/go-1-27-1-2-microsoft-build-now-available 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MSIX PackageVolume: How Package Storage Works</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_5/</link>
+      <pubDate>Tue, 08 Sep 2026 16:00:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_5/</guid>
+      <description>
+        
+          
+            An MSIX package can be staged in several ways and locations: PackageVolume Development Mode System package StageInPlace Ex
+Link to article: https://devblogs.microsoft.com/insidemsix/msix-packagevolume 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Today I will... find hidden latency across a distributed .NET application</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_6/</link>
+      <pubDate>Tue, 08 Sep 2026 16:00:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_6/</guid>
+      <description>
+        
+          
+            When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without revealing the actual bottleneck. This article sho
+Link to article: https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>A sample use of the &lt;code&gt;winstart.bat&lt;/code&gt; file in Windows 95</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_8/</link>
+      <pubDate>Tue, 08 Sep 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_8/</guid>
+      <description>
+        
+          
+            In my earlier discussion of the the litte-known winstart.bat batch file in Windows 3.1 and Windows 95, Danielix Klimax wondered
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260908-00/?p=112679 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Agentic Road to Revenue</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_13/</link>
       <pubDate>Tue, 08 Sep 2026 04:45:34 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_13/</guid>
       <description>
         
           

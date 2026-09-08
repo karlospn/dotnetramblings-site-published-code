@@ -7,7 +7,75 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 04 Sep 2026 21:45:52 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Sep 2026 16:23:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_1/</link>
+      <pubDate>Tue, 08 Sep 2026 16:23:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_1/</guid>
+      <description>
+        
+          
+            Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore runtime, invoke the agent with test prompts, score the responses, and automatically block pull requests when agent behavior regresses.
+Link to article: https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</link>
+      <pubDate>Tue, 08 Sep 2026 16:21:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</guid>
+      <description>
+        
+          
+            Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G7&#39;s NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM inference.
+Link to article: https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_3/</link>
+      <pubDate>Tue, 08 Sep 2026 16:15:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_3/</guid>
+      <description>
+        
+          
+            HPE Zerto built an agentic troubleshooting system powered by Amazon Bedrock that runs on-premises inside the customer environment. This post describes the multi-agent architecture, the on-premises deployment model built with Strands Agents, and the engineering challenges of grounding agents in live disaster recovery data.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How DiDi built intelligent contact center QA with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_4/</link>
+      <pubDate>Tue, 08 Sep 2026 16:11:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_4/</guid>
+      <description>
+        
+          
+            DiDi built a transparent, self-owned contact center quality assurance (QA) system on Amazon Bedrock, replacing an opaque third-party tool. Intent verification accuracy rose from 38% to 86%, compliance scoring topped 90%, and Voice of Customer trend analysis dropped from hours to minutes across Spanish and Portuguese support.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-didi-built-intelligent-contact-center-qa-with-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore</title>
       <link>https://www.dotnetramblings.com/post/04_09_2026/04_09_2026_0/</link>

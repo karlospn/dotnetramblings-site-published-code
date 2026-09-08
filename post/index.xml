@@ -7,13 +7,200 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 08 Sep 2026 10:54:49 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Sep 2026 16:35:02 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>TypeScript 7 in WebStorm: Faster Coding Assistance for Angular and React, No Migration Required</title>
+      <title>Go 1.27.1-2 Microsoft build now available</title>
       <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_0/</link>
-      <pubDate>Tue, 08 Sep 2026 10:54:49 +0000</pubDate>
+      <pubDate>Tue, 08 Sep 2026 16:35:02 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_0/</guid>
+      <description>
+        
+          
+            A new release of the Microsoft build of Go is now available for download. This revision fixes a compatibility issue that may cause panics when using OpenSSL 3.3 with a provider that implements the ML-KEM or ML-DSA algorithms. This improves compatibility with Azure Linux 3.
+Link to article: https://devblogs.microsoft.com/go/go-1-27-1-2-microsoft-build-now-available 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_1/</link>
+      <pubDate>Tue, 08 Sep 2026 16:23:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_1/</guid>
+      <description>
+        
+          
+            Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore runtime, invoke the agent with test prompts, score the responses, and automatically block pull requests when agent behavior regresses.
+Link to article: https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</link>
+      <pubDate>Tue, 08 Sep 2026 16:21:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</guid>
+      <description>
+        
+          
+            Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G7&#39;s NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM inference.
+Link to article: https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_3/</link>
+      <pubDate>Tue, 08 Sep 2026 16:15:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_3/</guid>
+      <description>
+        
+          
+            HPE Zerto built an agentic troubleshooting system powered by Amazon Bedrock that runs on-premises inside the customer environment. This post describes the multi-agent architecture, the on-premises deployment model built with Strands Agents, and the engineering challenges of grounding agents in live disaster recovery data.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How DiDi built intelligent contact center QA with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_4/</link>
+      <pubDate>Tue, 08 Sep 2026 16:11:11 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_4/</guid>
+      <description>
+        
+          
+            DiDi built a transparent, self-owned contact center quality assurance (QA) system on Amazon Bedrock, replacing an opaque third-party tool. Intent verification accuracy rose from 38% to 86%, compliance scoring topped 90%, and Voice of Customer trend analysis dropped from hours to minutes across Spanish and Portuguese support.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-didi-built-intelligent-contact-center-qa-with-amazon-bedrock/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MSIX PackageVolume: How Package Storage Works</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_5/</link>
+      <pubDate>Tue, 08 Sep 2026 16:00:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_5/</guid>
+      <description>
+        
+          
+            An MSIX package can be staged in several ways and locations: PackageVolume Development Mode System package StageInPlace Ex
+Link to article: https://devblogs.microsoft.com/insidemsix/msix-packagevolume 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Today I will... find hidden latency across a distributed .NET application</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_6/</link>
+      <pubDate>Tue, 08 Sep 2026 16:00:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_6/</guid>
+      <description>
+        
+          
+            When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without revealing the actual bottleneck. This article sho
+Link to article: https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>dotInsights | September 2026</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_7/</link>
+      <pubDate>Tue, 08 Sep 2026 14:16:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_7/</guid>
+      <description>
+        
+          
+            Did you know? Fun fact: The C# compiler (Roslyn) is open source and written in C#. It exposes APIs to analyze and generate code. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. ☕ Coffee Break Take […]
+Link to article: https://blog.jetbrains.com/dotnet/2026/09/08/dotinsights-september-2026/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>A sample use of the &lt;code&gt;winstart.bat&lt;/code&gt; file in Windows 95</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_8/</link>
+      <pubDate>Tue, 08 Sep 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_8/</guid>
+      <description>
+        
+          
+            In my earlier discussion of the the litte-known winstart.bat batch file in Windows 3.1 and Windows 95, Danielix Klimax wondered
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260908-00/?p=112679 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Work Now Within Reach</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_9/</link>
+      <pubDate>Tue, 08 Sep 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_9/</guid>
+      <description>
+        
+          
+            Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.
+Link to article: https://openai.com/index/the-work-now-within-reach 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Debug Past an HTTP 403 Without Breaking Spring Security</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_10/</link>
+      <pubDate>Tue, 08 Sep 2026 12:34:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_10/</guid>
+      <description>
+        
+          
+            You set a breakpoint inside a Spring MVC controller, or a service, send the request to an HTTP endpoint, and nothing happens. The response is back – and it is a 403 (or 401, or a redirect to a login page). At that point, the bug you were trying to catch is no longer the […]
+Link to article: https://blog.jetbrains.com/idea/2026/09/debug-past-an-http-403-without-breaking-spring-security/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>TypeScript 7 in WebStorm: Faster Coding Assistance for Angular and React, No Migration Required</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_11/</link>
+      <pubDate>Tue, 08 Sep 2026 10:54:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_11/</guid>
       <description>
         
           
@@ -27,10 +214,10 @@ Link to article: https://blog.jetbrains.com/webstorm/2026/09/typescript-7-in-web
     
     <item>
       <title>Using C# 14 to build &amp;quot;Smart records&amp;quot; for config &amp;amp; settings models</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_12/</link>
       <pubDate>Tue, 08 Sep 2026 07:44:39 +0200</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_12/</guid>
       <description>
         
           
@@ -44,15 +231,32 @@ Link to article: https://blog.elmah.io/using-c-14-to-build-smart-records-for-con
     
     <item>
       <title>The Agentic Road to Revenue</title>
-      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_13/</link>
       <pubDate>Tue, 08 Sep 2026 04:45:34 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_13/</guid>
       <description>
         
           
             The Agentic Road to Revenue
 Link to article: https://devblogs.microsoft.com/all-things-azure/the-agentic-road-to-revenue 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI expands initiatives to support journalism from classrooms to newsrooms</title>
+      <link>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_14/</link>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_09_2026/08_09_2026_14/</guid>
+      <description>
+        
+          
+            OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.
+Link to article: https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms 
           
           
         
