@@ -7,13 +7,132 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 09 Sep 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Sep 2026 18:11:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Get Gemini 3.8 Flash With 75% Off</title>
+      <title>How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_0/</link>
+      <pubDate>Wed, 09 Sep 2026 18:11:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_0/</guid>
+      <description>
+        
+          
+            Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows how AgentCore payments, Identity, Memory, Code Interpreter, and Observability let a small team buy premium market data per query, isolate analysis in a sandbox, and keep every action auditable.
+Link to article: https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Paul Christiano joins OpenAI Foundation Board</title>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_3/</link>
+      <pubDate>Wed, 09 Sep 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_3/</guid>
+      <description>
+        
+          
+            Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.
+Link to article: https://openai.com/index/paul-christiano-joins-openai-foundation-board 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.137</title>
       <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_1/</link>
-      <pubDate>Wed, 09 Sep 2026 14:18:17 +0000</pubDate>
+      <pubDate>Wed, 09 Sep 2026 17:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_1/</guid>
+      <description>
+        
+          
+            Learn what&#39;s new in Visual Studio Code 1.137 Read the full article
+Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.137 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.137 (Insiders)</title>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_2/</link>
+      <pubDate>Wed, 09 Sep 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_2/</guid>
+      <description>
+        
+          
+            Learn what is new in Visual Studio Code Insiders. Read the full article
+Link to article: https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-137-insiders 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Why Rider and ReSharper Were Slow to Start, and How Microsoft Helped Fix the Problem</title>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_4/</link>
+      <pubDate>Wed, 09 Sep 2026 16:45:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_4/</guid>
+      <description>
+        
+          
+            When we launched ReSharper’s out-of-process (OOP) architecture, users reported slower startup times for IDEs using ReSharper on Windows. After profiling, the cause surprised us: Microsoft Defender was scanning our process for longer than we expected. This post is about what we found, what we learned working with Microsoft, and a tool we built that allows […]
+Link to article: https://blog.jetbrains.com/dotnet/2026/09/09/why-rider-and-resharper-were-slow-to-start-and-how-microsoft-helped-fix-the-problem/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers</title>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_5/</link>
+      <pubDate>Wed, 09 Sep 2026 15:51:29 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_5/</guid>
+      <description>
+        
+          
+            TorchServe is no longer maintained, leaving teams to own the entire GPU inference stack. The AWS Ray Serve Deep Learning Container is a supported, pre-tested container with the framework, GPU drivers, and serving layer already assembled. This post walks through deploying a vision-language model on Amazon EKS using the Ray Serve DLC on a single GPU node.
+Link to article: https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Automate user-level custom permissions for Amazon Quick</title>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_6/</link>
+      <pubDate>Wed, 09 Sep 2026 15:45:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_6/</guid>
+      <description>
+        
+          
+            Amazon Quick custom permissions let you enforce least-privilege access by toggling features per user. This post walks through four patterns to automate custom permissions across the user lifecycle: a RegisterUser API parameter, account and role defaults, event-driven Amazon EventBridge and AWS Lambda automation, and a retroactive batch update script.
+Link to article: https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Get Gemini 3.8 Flash With 75% Off</title>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_7/</link>
+      <pubDate>Wed, 09 Sep 2026 14:18:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_7/</guid>
       <description>
         
           
@@ -27,10 +146,10 @@ Link to article: https://blog.jetbrains.com/junie/2026/09/junie-gemini-3-8-flash
     
     <item>
       <title>Join our live webinars: Migrating from Atlassian to YouTrack</title>
-      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_8/</link>
       <pubDate>Wed, 09 Sep 2026 12:51:07 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_8/</guid>
       <description>
         
           
@@ -44,10 +163,10 @@ Link to article: https://blog.jetbrains.com/youtrack/2026/09/migrating-from-atla
     
     <item>
       <title>Rust AI in Practice: Building LLM Applications With Rig</title>
-      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_9/</link>
       <pubDate>Wed, 09 Sep 2026 12:02:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_9/</guid>
       <description>
         
           
@@ -61,10 +180,10 @@ Link to article: https://blog.jetbrains.com/rust/2026/09/09/rust-ai-in-practice/
     
     <item>
       <title>The Evolution of WSL Support in JetBrains IDEs</title>
-      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_10/</link>
       <pubDate>Wed, 09 Sep 2026 10:39:49 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_10/</guid>
       <description>
         
           
@@ -78,10 +197,10 @@ Link to article: https://blog.jetbrains.com/platform/2026/09/the-evolution-of-ws
     
     <item>
       <title>Your work might not need the smartest model</title>
-      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_11/</link>
       <pubDate>Wed, 09 Sep 2026 09:14:04 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_11/</guid>
       <description>
         
           
@@ -95,10 +214,10 @@ Link to article: https://devblogs.microsoft.com/blog/your-work-might-not-need-th
     
     <item>
       <title>Boost Your .NET Projects with Spargine: Safer and Simpler Async Code with TaskExtensions</title>
-      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_12/</link>
       <pubDate>Wed, 09 Sep 2026 06:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_12/</guid>
       <description>
         
           
