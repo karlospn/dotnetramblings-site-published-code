@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 10 Sep 2026 18:16:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Sep 2026 21:58:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Amazon Quick is now generally available on desktop</title>
+      <title>Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference</title>
       <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_0/</link>
-      <pubDate>Thu, 10 Sep 2026 18:16:37 +0000</pubDate>
+      <pubDate>Thu, 10 Sep 2026 21:58:09 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_0/</guid>
+      <description>
+        
+          
+            Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the same instance so the KV cache stays warm. In benchmarks on Llama 3.1 70B, it reduced P50 time-to-first-token by up to 77% and raised KV cache hit rates from about 25% to over 80%.
+Link to article: https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reduce inference cold starts on Amazon SageMaker HyperPod with model caching</title>
+      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_1/</link>
+      <pubDate>Thu, 10 Sep 2026 21:37:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_1/</guid>
+      <description>
+        
+          
+            Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to enable it.
+Link to article: https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0</title>
+      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_3/</link>
+      <pubDate>Thu, 10 Sep 2026 21:15:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_3/</guid>
+      <description>
+        
+          
+            TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and audio content. This walkthrough shows how to build a knowledge base powered by Marengo 3.0 and run semantic queries against your media.
+Link to article: https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Amazon Quick is now generally available on desktop</title>
+      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_4/</link>
+      <pubDate>Thu, 10 Sep 2026 18:16:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_4/</guid>
       <description>
         
           
@@ -27,10 +78,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-n
     
     <item>
       <title>Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate</title>
-      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_7/</link>
       <pubDate>Thu, 10 Sep 2026 16:08:57 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_7/</guid>
       <description>
         
           
@@ -44,10 +95,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/build-an-end-to-e
     
     <item>
       <title>Model-agnostic PII detection with LLMs</title>
-      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_8/</link>
       <pubDate>Thu, 10 Sep 2026 16:02:16 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_8/</guid>
       <description>
         
           
@@ -61,10 +112,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/model-agnostic-pi
     
     <item>
       <title>Agent Evaluation Metric for multi-turn conversations</title>
-      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_10/</link>
       <pubDate>Thu, 10 Sep 2026 15:55:41 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_10/</guid>
       <description>
         
           
@@ -78,10 +129,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/agent-evaluation-
     
     <item>
       <title>How AvioBook builds turnaround insights from operational data with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_11/</link>
       <pubDate>Thu, 10 Sep 2026 15:53:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_11/</guid>
       <description>
         
           
