@@ -7,7 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 10 Sep 2026 21:58:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Sep 2026 18:26:38 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations</title>
+      <link>https://www.dotnetramblings.com/post/11_09_2026/11_09_2026_0/</link>
+      <pubDate>Fri, 11 Sep 2026 18:26:38 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_09_2026/11_09_2026_0/</guid>
+      <description>
+        
+          
+            Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCore Evaluations for continuous quality scoring and AWS DevOps Agent for autonomous infrastructure investigation, shown on a four-agent airline reservation system.
+Link to article: https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload</title>
+      <link>https://www.dotnetramblings.com/post/11_09_2026/11_09_2026_1/</link>
+      <pubDate>Fri, 11 Sep 2026 18:24:38 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_09_2026/11_09_2026_1/</guid>
+      <description>
+        
+          
+            Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock.
+Link to article: https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build interactive MCP Apps using Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/11_09_2026/11_09_2026_2/</link>
+      <pubDate>Fri, 11 Sep 2026 18:23:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_09_2026/11_09_2026_2/</guid>
+      <description>
+        
+          
+            Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same rich experience across AI hosts like ChatGPT and Claude that support the extension.
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference</title>
       <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_0/</link>
