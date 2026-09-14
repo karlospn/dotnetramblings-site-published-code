@@ -7,13 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 14 Sep 2026 07:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Sep 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon</title>
+      <title>Why didn&#39;t &lt;code&gt;ReadDirectoryChangesW&lt;/code&gt; provide a way to correlate the two sides of a rename operation?</title>
       <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_0/</link>
-      <pubDate>Mon, 14 Sep 2026 07:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Sep 2026 14:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_0/</guid>
+      <description>
+        
+          
+            Brian Dellisanti asked why Read­Directory­ChangesW didn&#39;t provide a way to correlate the two sides of a rename operation. I wasn&#39;t there, but I can guess. My guess is that the implementation alwa
+Link to article: https://devblogs.microsoft.com/oldnewthing/20260914-00/?p=112696 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MulticloudDB SDK: Cross-cloud portability in the coding agent era</title>
+      <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_1/</link>
+      <pubDate>Mon, 14 Sep 2026 13:25:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_1/</guid>
+      <description>
+        
+          
+            Building cross-cloud solutions with best-of-breed cloud-native databases means learning multiple SDKs, translating queries, handling different errors, and testing across providers. The Multicloud DB SDK for Java lets you share that work across
+Link to article: https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Dynamic Filtering, Sorting, and Pagination With Specifications</title>
+      <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_2/</link>
+      <pubDate>Mon, 14 Sep 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_2/</guid>
+      <description>
+        
+          
+            Dynamic filtering, sorting, and pagination stay safe with allowlisted EF Core specifications, unique ordering, bounded pages, and reliable relational tests.
+Link to article: https://www.devleader.ca/2026/09/14/dynamic-filtering-sorting-and-pagination-with-specifications 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>XPath for custom types in .NET</title>
+      <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_3/</link>
+      <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_3/</guid>
+      <description>
+        
+          
+            XPath is widely known as the query language for XML documents. Most .NET developers associate it with XPathNavigator, XmlDocument, or XDocument. But what most people don&#39;t realize is that XPath can work with custom types too. In this post, I&#39;ll show you how to implement XPath for your own types and how it can be useful for searching complex object hierarchies. The problem Imagine you have a rich object…
+Link to article: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon</title>
+      <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_4/</link>
+      <pubDate>Mon, 14 Sep 2026 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_4/</guid>
       <description>
         
           
@@ -27,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/ise/japanese-llm-evaluation-pipe
     
     <item>
       <title>What’s New for C&#43;&#43; Developers in Visual Studio 2026 (18.7 – 18.10)</title>
-      <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_5/</link>
       <pubDate>Mon, 14 Sep 2026 06:38:16 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_5/</guid>
       <description>
         
           
@@ -44,10 +112,10 @@ Link to article: https://devblogs.microsoft.com/cppblog/whats-new-for-c-develope
     
     <item>
       <title>Microsoft at CppCon 2026</title>
-      <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_6/</link>
       <pubDate>Mon, 14 Sep 2026 00:16:42 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_6/</guid>
       <description>
         
           
@@ -61,10 +129,10 @@ Link to article: https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2026
     
     <item>
       <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
-      <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_7/</link>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_7/</guid>
       <description>
         
           
