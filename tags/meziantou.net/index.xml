@@ -25,22 +25,5 @@ Link to article: https://www.
       </description>
     </item>
     
-    <item>
-      <title>Run temporary containers in .NET tests with Meziantou.Framework.TemporaryContainers</title>
-      <link>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_2/</link>
-      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/07_09_2026/07_09_2026_2/</guid>
-      <description>
-        
-          
-            Integration tests are much more valuable when they run against real services. Instead of mocking a database or cache, you can start a temporary container, run your test, and dispose everything at the end. The Meziantou.Framework.TemporaryContainers package provides a lightweight API to manage disposable containers from .NET. Its main difference with the existing libraries is that it is not tied to Docker.…
-Link to article: https://www.meziantou.net/run-temporary-containers-in-dotnet-tests-with-meziantou-framework-temporaryconta.htm?utm_medium=social&amp;utm_source=syndication 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
