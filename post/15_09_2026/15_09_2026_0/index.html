@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Scale multi-tenant SaaS with per-tenant version pinning using Amazon CloudFront | .NET Ramblings</title>
+<title>Avoid API Breaking Changes | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +28,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Multi-tenant SaaS providers often need to control which application version each tenant runs, a practice called per-tenant version pinning, so they can roll out …" />
+<meta name="description" content="Have you ever changed your backing data model and then all of a sudden all your clients explode? It’s not because you broke your code. You broke your contract. …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Scale multi-tenant SaaS with per-tenant version pinning using Amazon CloudFront" />
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png"/>
+<meta name="twitter:title" content="Avoid API Breaking Changes" />
+<meta name="twitter:image" content="https://www.dotnetramblings.com/images/misc.png"/>
 <meta property="og:url" content="https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_0/" />
-<meta property="og:title" content="Scale multi-tenant SaaS with per-tenant version pinning using Amazon CloudFront" />
-<meta property="og:description" content="Multi-tenant SaaS providers often need to control which application version each tenant runs, a practice called per-tenant version pinning, so they can roll out …" />
-<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png" />
+<meta property="og:title" content="Avoid API Breaking Changes" />
+<meta property="og:description" content="Have you ever changed your backing data model and then all of a sudden all your clients explode? It’s not because you broke your code. You broke your contract. …" />
+<meta property="og:image" content="https://www.dotnetramblings.com/images/misc.png" />
   <meta name="keywords" content="dotnet,azure,aws,.net,containers,devops,microsoft,tech,news,genai,ai,ml,gpt,chatgpt" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -132,7 +132,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Scale multi-tenant SaaS with per-tenant version pinning using Amazon CloudFront</h1>
+    <h1 class="post_title">Avoid API Breaking Changes</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -140,14 +140,15 @@
 </svg>
 </span>
     <span class="post_date">
-      Sep 15, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/dotnet/' title="aws.amazon.com/blogs/dotnet" class="post_tag button button_translucent">aws.amazon.com/blogs/dotnet
+      Sep 15, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/codeopinion.com/' title="codeopinion.com" class="post_tag button button_translucent">codeopinion.com
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Multi-tenant SaaS providers often need to control which application version each tenant runs, a practice called per-tenant version pinning, so they can roll out new releases incrementally and move tenants between versions without downtime and manual changes. A common approach is to configure the Application Load Balancer with hostname-based routing rules, but this doesn’t scale. […]</p>
+    <div class="post_body"><p>Have you ever changed your backing data model and then all of a sudden all your clients explode? It’s not because you broke your code. You broke your contract. Most times API breaking changes occur because you’re exposing your domain model or data model. You’re not just sharing data. You’re leaking implementation details. What you… Read More »Avoid API Breaking Changes
+The post Avoid API Breaking Changes appeared first on CodeOpinion.</p>
 <ul>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/dotnet/scale-multi-tenant-saas-with-per-tenant-version-pinning-using-amazon-cloudfront/">https://aws.amazon.com/blogs/dotnet/scale-multi-tenant-saas-with-per-tenant-version-pinning-using-amazon-cloudfront/</a></li>
+<li>Link to article: <a href="https://codeopinion.com/avoid-api-breaking-changes/">https://codeopinion.com/avoid-api-breaking-changes/</a></li>
 </ul>
 
     </div>

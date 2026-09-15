@@ -7,13 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 15 Sep 2026 18:14:41 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Sep 2026 19:39:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Scale multi-tenant SaaS with per-tenant version pinning using Amazon CloudFront</title>
+      <title>Avoid API Breaking Changes</title>
       <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_0/</link>
-      <pubDate>Tue, 15 Sep 2026 18:14:41 +0000</pubDate>
+      <pubDate>Tue, 15 Sep 2026 19:39:50 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_0/</guid>
+      <description>
+        
+          
+            Have you ever changed your backing data model and then all of a sudden all your clients explode? It’s not because you broke your code. You broke your contract. Most times API breaking changes occur because you’re exposing your domain model or data model. You’re not just sharing data. You’re leaking implementation details. What you… Read More »Avoid API Breaking Changes The post Avoid API Breaking Changes appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Foundry Dev Pack: One Command to Start Building</title>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_1/</link>
+      <pubDate>Tue, 15 Sep 2026 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_1/</guid>
+      <description>
+        
+          
+            Setting up your Microsoft Foundry environment just got a lot simpler. We launched Foundry Dev Pack to consolidate initial installation steps into a single setup process. The Foundry Dev Pack is an all-in-one installer that prepares your machine for Foundry development by installing the tools that you’ll need across your terminal, IDE, or
+Link to article: https://devblogs.microsoft.com/foundry/foundry-devpack-announcement 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Scale multi-tenant SaaS with per-tenant version pinning using Amazon CloudFront</title>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_2/</link>
+      <pubDate>Tue, 15 Sep 2026 18:14:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_2/</guid>
       <description>
         
           
@@ -27,10 +60,10 @@ Link to article: https://aws.amazon.com/blogs/dotnet/scale-multi-tenant-saas-wit
     
     <item>
       <title>Optimizing cost and latency with Amazon Bedrock prompt caching</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_3/</link>
       <pubDate>Tue, 15 Sep 2026 16:18:19 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_3/</guid>
       <description>
         
           
@@ -44,10 +77,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/optimizing-cost-a
     
     <item>
       <title>Build an AI-powered product tagging system with Amazon SageMaker serverless model customization</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_4/</link>
       <pubDate>Tue, 15 Sep 2026 16:11:36 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_4/</guid>
       <description>
         
           
@@ -61,10 +94,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/build-an-ai-power
     
     <item>
       <title>Announcing instance preference lists for Amazon SageMaker AI training jobs</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_5/</link>
       <pubDate>Tue, 15 Sep 2026 16:01:47 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_5/</guid>
       <description>
         
           
@@ -78,10 +111,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/announcing-instan
     
     <item>
       <title>PackageType: Main, Framework, Resource, Optional, Bundle</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_6/</link>
       <pubDate>Tue, 15 Sep 2026 16:00:38 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_6/</guid>
       <description>
         
           
@@ -95,10 +128,10 @@ Link to article: https://devblogs.microsoft.com/insidemsix/msix-package-types
     
     <item>
       <title>Today I will... improve test coverage</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_7/</link>
       <pubDate>Tue, 15 Sep 2026 16:00:21 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_7/</guid>
       <description>
         
           
@@ -112,10 +145,10 @@ Link to article: https://devblogs.microsoft.com/visualstudio/today-i-will-improv
     
     <item>
       <title>Build an interview coach app with the GitHub Copilot SDK</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_8/</link>
       <pubDate>Tue, 15 Sep 2026 16:00:11 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_8/</guid>
       <description>
         
           
@@ -129,10 +162,10 @@ Link to article: https://devblogs.microsoft.com/blog/build-an-interview-coach-ap
     
     <item>
       <title>From Redis pressure to a healthier service</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_9/</link>
       <pubDate>Tue, 15 Sep 2026 15:47:43 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_9/</guid>
       <description>
         
           
@@ -146,10 +179,10 @@ Link to article: https://devblogs.microsoft.com/powerplatform/azure-managed-redi
     
     <item>
       <title>Java 27 in IntelliJ IDEA</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_10/</link>
       <pubDate>Tue, 15 Sep 2026 14:49:02 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_10/</guid>
       <description>
         
           
@@ -163,10 +196,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/09/java-27-in-intellij-ide
     
     <item>
       <title>Build a Bounded Processing Pipeline With System.Threading.Channels</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_11/</link>
       <pubDate>Tue, 15 Sep 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_11/</guid>
       <description>
         
           
@@ -180,10 +213,10 @@ Link to article: https://www.devleader.ca/2026/09/15/build-a-bounded-processing-
     
     <item>
       <title>Coding agents are picking Azure SQL Database</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_10/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_12/</link>
       <pubDate>Tue, 15 Sep 2026 12:55:05 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_12/</guid>
       <description>
         
           
@@ -197,10 +230,10 @@ Link to article: https://devblogs.microsoft.com/azure-sql/coding-agents-are-pick
     
     <item>
       <title>Performance Improvements in .NET 11</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_13/</link>
       <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_13/</guid>
       <description>
         
           
@@ -214,10 +247,10 @@ Link to article: https://devblogs.microsoft.com/dotnet/performance-improvements-
     
     <item>
       <title>Understanding Device Bound Session Credentials (DBSC)</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_12/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_14/</link>
       <pubDate>Tue, 15 Sep 2026 10:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_14/</guid>
       <description>
         
           
@@ -231,10 +264,10 @@ Link to article: https://andrewlock.net/understanding-device-bound-session-crede
     
     <item>
       <title>Testing beyond your imagination: Property-based testing in C# with FsCheck</title>
-      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_13/</link>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_15/</link>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_15/</guid>
       <description>
         
           

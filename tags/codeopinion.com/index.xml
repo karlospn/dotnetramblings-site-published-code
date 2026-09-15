@@ -7,6 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 08 Sep 2026 20:48:06 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/codeopinion.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Sep 2026 19:39:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/codeopinion.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avoid API Breaking Changes</title>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_0/</link>
+      <pubDate>Tue, 15 Sep 2026 19:39:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_0/</guid>
+      <description>
+        
+          
+            Have you ever changed your backing data model and then all of a sudden all your clients explode? It’s not because you broke your code. You broke your contract. Most times API breaking changes occur because you’re exposing your domain model or data model. You’re not just sharing data. You’re leaking implementation details. What you… Read More »Avoid API Breaking Changes The post Avoid API Breaking Changes appeared first on CodeOpinion.
+          
+          
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>
