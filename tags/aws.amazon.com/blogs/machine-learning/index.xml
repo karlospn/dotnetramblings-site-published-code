@@ -7,7 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 14 Sep 2026 21:22:45 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Sep 2026 16:18:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing cost and latency with Amazon Bedrock prompt caching</title>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_1/</link>
+      <pubDate>Tue, 15 Sep 2026 16:18:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_1/</guid>
+      <description>
+        
+          
+            Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models. This post walks through six practical prompt caching scenarios using the Converse API: message content, system prompt, tool definition, mixed TTL, tenant isolation, and LangChain integration.
+Link to article: https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build an AI-powered product tagging system with Amazon SageMaker serverless model customization</title>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_2/</link>
+      <pubDate>Tue, 15 Sep 2026 16:11:36 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_2/</guid>
+      <description>
+        
+          
+            Manually tagging thousands of catalog products is slow and inconsistent. This walkthrough shows how to customize Qwen3-8B with supervised fine-tuning (SFT) and reinforcement learning with verifiable rewards (RLVR) on Amazon SageMaker serverless model customization, then deploy it for asynchronous inference to build a cost-efficient product tagging system.
+Link to article: https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing instance preference lists for Amazon SageMaker AI training jobs</title>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_3/</link>
+      <pubDate>Tue, 15 Sep 2026 16:01:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_3/</guid>
+      <description>
+        
+          
+            Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance types, and SageMaker AI automatically launches on the first type with available capacity, eliminating manual retry loops and capacity-watching scripts.
+Link to article: https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale</title>
       <link>https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_0/</link>

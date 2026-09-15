@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 09 Sep 2026 20:40:56 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Sep 2026 18:14:41 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scale multi-tenant SaaS with per-tenant version pinning using Amazon CloudFront</title>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_0/</link>
+      <pubDate>Tue, 15 Sep 2026 18:14:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_0/</guid>
+      <description>
+        
+          
+            Multi-tenant SaaS providers often need to control which application version each tenant runs, a practice called per-tenant version pinning, so they can roll out new releases incrementally and move tenants between versions without downtime and manual changes. A common approach is to configure the Application Load Balancer with hostname-based routing rules, but this doesn’t scale. […]
+Link to article: https://aws.amazon.com/blogs/dotnet/scale-multi-tenant-saas-with-per-tenant-version-pinning-using-amazon-cloudfront/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Modernize your legacy WCF services: Automated migration to ASP.NET Core Web API using AWS Transform custom</title>
       <link>https://www.dotnetramblings.com/post/09_09_2026/09_09_2026_4/</link>
