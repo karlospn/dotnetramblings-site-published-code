@@ -7,13 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 16 Sep 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2026 19:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Visual Studio Code 1.138</title>
+      <title>Improving HCLS AI reasoning with open-source agent skills</title>
       <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_0/</link>
-      <pubDate>Wed, 16 Sep 2026 17:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Sep 2026 19:00:00 +0000</pubDate>
       
       <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_0/</guid>
+      <description>
+        
+          
+            AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-source agent skills across 11 HCLS domains that close this gap, with installation steps, three worked use cases, and a 410-prompt evaluation showing a 70-86% win rate.
+Link to article: https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From Specialist Agents to Distributed Skills over MCP</title>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_1/</link>
+      <pubDate>Wed, 16 Sep 2026 18:59:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_1/</guid>
+      <description>
+        
+          
+            Keep your domain services distributed. Move the specialist&#39;s instructions, not another model, into the orchestrator. A multi-agent system often starts with a straightforward design: one agent understands the user&#39;s request, delegates to specialist agents, and combines their answers. That was the starting point for my ski resort
+Link to article: https://devblogs.microsoft.com/agent-framework/from-specialist-agents-to-distributed-skills-over-mcp 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fault tolerant distributed training on Amazon EKS using NVRx</title>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_2/</link>
+      <pubDate>Wed, 16 Sep 2026 18:59:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_2/</guid>
+      <description>
+        
+          
+            Integrate NVIDIA Resiliency Extension (NVRx) into PyTorch FSDP training on Amazon EKS to overlap checkpoint I/O with training and recover from GPU faults in seconds. This post covers async checkpointing, in-process restart, and ft_launcher in-job restart, with H100 benchmarks at 2 to 8 nodes showing 99%+ training efficiency and second-scale recovery.
+Link to article: https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code 1.138</title>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_3/</link>
+      <pubDate>Wed, 16 Sep 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_3/</guid>
       <description>
         
           
@@ -27,10 +78,10 @@ Link to article: https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1
     
     <item>
       <title>Visual Studio Code 1.138 (Insiders)</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_1/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_4/</link>
       <pubDate>Wed, 16 Sep 2026 17:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_1/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_4/</guid>
       <description>
         
           
@@ -44,10 +95,10 @@ Link to article: https://devblogs.microsoft.com/external-blogs/visual-studio-cod
     
     <item>
       <title>Investing in a more reliable Microsoft Graph PowerShell experience</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_2/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_5/</link>
       <pubDate>Wed, 16 Sep 2026 16:02:40 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_2/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_5/</guid>
       <description>
         
           
@@ -61,10 +112,10 @@ Link to article: https://devblogs.microsoft.com/microsoft365dev/investing-in-a-m
     
     <item>
       <title>Helping older adults use AI in everyday life</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_3/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_6/</link>
       <pubDate>Wed, 16 Sep 2026 16:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_3/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_6/</guid>
       <description>
         
           
@@ -78,10 +129,10 @@ Link to article: https://openai.com/index/helping-older-adults-use-ai-in-everyda
     
     <item>
       <title>Optimizing agent system prompts with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_7/</link>
       <pubDate>Wed, 16 Sep 2026 15:47:39 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_7/</guid>
       <description>
         
           
@@ -95,10 +146,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/optimizing-agent-
     
     <item>
       <title>Build a serverless PII redaction pipeline with Amazon Bedrock Data Automation</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_8/</link>
       <pubDate>Wed, 16 Sep 2026 15:17:37 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_8/</guid>
       <description>
         
           
@@ -112,10 +163,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-serverles
     
     <item>
       <title>Logpoints Walkthrough</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_6/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_9/</link>
       <pubDate>Wed, 16 Sep 2026 14:14:04 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_6/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_9/</guid>
       <description>
         
           
@@ -129,10 +180,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/09/logpoints-walkthrough/
     
     <item>
       <title>Rider and ReSharper 2026.2.2 Are Out!</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_7/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_10/</link>
       <pubDate>Wed, 16 Sep 2026 14:12:44 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_7/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_10/</guid>
       <description>
         
           
@@ -146,10 +197,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/09/16/rd-rs-2026-2-2/
     
     <item>
       <title>AI Is Changing How We Code. It’s Also Changing How We Learn.</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_8/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_11/</link>
       <pubDate>Wed, 16 Sep 2026 14:00:09 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_8/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_11/</guid>
       <description>
         
           
@@ -162,10 +213,10 @@ Link to article: https://blog.jetbrains.com/dotnet/2026/09/16/rd-rs-2026-2-2/
     
     <item>
       <title>Reimagining advertising with AI</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_9/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_12/</link>
       <pubDate>Wed, 16 Sep 2026 13:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_9/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_12/</guid>
       <description>
         
           
@@ -179,10 +230,10 @@ Link to article: https://openai.com/index/reimagining-advertising-with-ai
     
     <item>
       <title>Behind the Scenes: How the OpenTelemetry Plugin Maps Your Microservices in Real-Time</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_10/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_13/</link>
       <pubDate>Wed, 16 Sep 2026 12:34:47 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_10/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_13/</guid>
       <description>
         
           
@@ -195,11 +246,28 @@ Link to article: https://blog.jetbrains.com/platform/2026/09/how-to-service-map-
     </item>
     
     <item>
+      <title>How to connect AI usage to business value</title>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_14/</link>
+      <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_14/</guid>
+      <description>
+        
+          
+            Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.
+Link to article: https://openai.com/index/how-to-connect-ai-usage-to-business-value 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>IntelliJ IDEA 2026.2.3 Is Out!</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_11/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_15/</link>
       <pubDate>Wed, 16 Sep 2026 10:53:53 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_11/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_15/</guid>
       <description>
         
           
@@ -213,10 +281,10 @@ Link to article: https://blog.jetbrains.com/idea/2026/09/intellij-idea-2026-2-3/
     
     <item>
       <title>Your AI coding agent evaluation is only as good as its sandbox</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_12/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_16/</link>
       <pubDate>Wed, 16 Sep 2026 09:09:51 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_12/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_16/</guid>
       <description>
         
           
@@ -230,10 +298,10 @@ Link to article: https://devblogs.microsoft.com/blog/your-ai-coding-agent-evalua
     
     <item>
       <title>How workers are unlocking new ways of working</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_13/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_17/</link>
       <pubDate>Wed, 16 Sep 2026 09:00:00 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_13/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_17/</guid>
       <description>
         
           
@@ -247,10 +315,10 @@ Link to article: https://openai.com/index/unlocking-new-ways-of-working
     
     <item>
       <title>Important updates: GitHub Copilot support ending for JetBrains 2025.1.x</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_14/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_18/</link>
       <pubDate>Wed, 16 Sep 2026 06:17:08 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_14/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_18/</guid>
       <description>
         
           

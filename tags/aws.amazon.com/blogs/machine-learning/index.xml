@@ -7,13 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 16 Sep 2026 15:47:39 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2026 19:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/tags/aws.amazon.com/blogs/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving HCLS AI reasoning with open-source agent skills</title>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_0/</link>
+      <pubDate>Wed, 16 Sep 2026 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_0/</guid>
+      <description>
+        
+          
+            AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-source agent skills across 11 HCLS domains that close this gap, with installation steps, three worked use cases, and a 410-prompt evaluation showing a 70-86% win rate.
+Link to article: https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fault tolerant distributed training on Amazon EKS using NVRx</title>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_2/</link>
+      <pubDate>Wed, 16 Sep 2026 18:59:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_2/</guid>
+      <description>
+        
+          
+            Integrate NVIDIA Resiliency Extension (NVRx) into PyTorch FSDP training on Amazon EKS to overlap checkpoint I/O with training and recover from GPU faults in seconds. This post covers async checkpointing, in-process restart, and ft_launcher in-job restart, with H100 benchmarks at 2 to 8 nodes showing 99%+ training efficiency and second-scale recovery.
+Link to article: https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/ 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Optimizing agent system prompts with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_4/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_7/</link>
       <pubDate>Wed, 16 Sep 2026 15:47:39 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_4/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_7/</guid>
       <description>
         
           
@@ -27,10 +61,10 @@ Link to article: https://aws.amazon.com/blogs/machine-learning/optimizing-agent-
     
     <item>
       <title>Build a serverless PII redaction pipeline with Amazon Bedrock Data Automation</title>
-      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_5/</link>
+      <link>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_8/</link>
       <pubDate>Wed, 16 Sep 2026 15:17:37 +0000</pubDate>
       
-      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_5/</guid>
+      <guid>https://www.dotnetramblings.com/post/16_09_2026/16_09_2026_8/</guid>
       <description>
         
           
