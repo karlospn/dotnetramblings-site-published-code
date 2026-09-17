@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Containers on .NET Ramblings</title>
+    <link>https://www.dotnetramblings.com/topics/containers/</link>
+    <description>Recent content in Containers on .NET Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>.NET Ramblings</copyright>
+    <lastBuildDate>Tue, 15 Sep 2026 16:00:38 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/topics/containers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PackageType: Main, Framework, Resource, Optional, Bundle</title>
+      <link>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_6/</link>
+      <pubDate>Tue, 15 Sep 2026 16:00:38 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/15_09_2026/15_09_2026_6/</guid>
+      <description>
+        
+          
+            Every MSIX package is one of four package types: Main Framework Resource Optional MSIX also supports Bundle packages. Bundles are somewhat different from those four package types: a Bundle is a container for one or more MSIX packages. Windows APIs nevertheless expose Bundle alongside t
+Worth a read for developers following Containers. Link to article: https://devblogs.microsoft.com/insidemsix/msix-package-types 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reduce inference cold starts on Amazon SageMaker HyperPod with model caching</title>
+      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_1/</link>
+      <pubDate>Thu, 10 Sep 2026 21:37:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_1/</guid>
+      <description>
+        
+          
+            Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to enable it.
+Worth a read for developers following AWS and Containers. Link to article: https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Use C# unions and closed hierarchies in ASP.NET Core</title>
+      <link>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_6/</link>
+      <pubDate>Thu, 10 Sep 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_09_2026/10_09_2026_6/</guid>
+      <description>
+        
+          
+            Sometimes an API contract says that a value can have more than one JSON type. Kubernetes has a practical example: maxUnavailable can be an absolute number, such as 2, or a percentage, such as &amp;quot;25%&amp;quot;. Imag
+Worth a read for developers following .NET and Containers. Link to article: https://devblogs.microsoft.com/dotnet/unions-and-closed-hierarchies-in-aspnetcore 
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
