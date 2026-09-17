@@ -55,7 +55,7 @@
 
 <link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
 
-<link rel="stylesheet" href="/css/news.min.723bb5e7cc945632797cfd4b1962287341617c41695bb8793de5757944b864662bb72e1fbab1dc416b20c56593ff11dcb787f773f9c8d0a5169fc0356777e97a.css" integrity="sha512-cju158yUVjJ5fP1LGWIoc0FhfEFpW7h5PeV1eUS4ZGYrty4furHcQWsgxWWT/xHct4f3c/nI0KUWn8A1Z3fpeg==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/news.min.ecbc8af1c27b6a0583a5f389c9e85b999d0a01677593e47815fa9bf66a759b0fac9e596d45c4cd694c070bfe04af928f443f517b826c6492fb5898fef91a1469.css" integrity="sha512-7LyK8cJ7agWDpfOJyehbmZ0KAWd1k&#43;R4Ffqb9mp1mw&#43;snlltRcTNaUwHC/4Er5KPRD9Re4JsZJL7WJj&#43;&#43;RoUaQ==" crossorigin="anonymous">
 
   </head>
   <body
@@ -146,28 +146,39 @@
       <h1>Security</h1>
       <p>9 stories about Security.</p>
     </header>
-    <div class="discovery-panel">
-      <div class="filter-row" role="group" aria-label="Content type">
-        <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
-        <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
-        <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
-        <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
-      </div>
-      <div class="preference-row">
-        <label>
-          Search this topic
-          <input type="search" data-news-search placeholder="Title or source">
-        </label>
-        <label>
-          Card density
-          <select data-density>
-            <option value="comfortable">Comfortable</option>
-            <option value="compact">Compact</option>
-          </select>
-        </label>
-        <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
-      </div>
+    
+<div class="discovery-panel" data-discovery-controls>
+  <label class="search-control">
+    <span class="sr-only">Search</span>
+    <input type="search" data-news-search placeholder="Search this topic">
+  </label>
+  
+    <label class="select-control">
+      <span>Type</span>
+      <select data-type-select>
+        <option value="all">All content</option>
+        <option value="article">Articles</option>
+        <option value="video">Videos</option>
+      </select>
+    </label>
+  
+  
+  <button type="button" class="saved-filter" data-type-filter="bookmarks">☆ Saved</button>
+  <details class="browser-settings">
+    <summary aria-label="Display settings">Settings</summary>
+    <div>
+      <label>
+        Density
+        <select data-density>
+          <option value="comfortable">Comfortable</option>
+          <option value="compact">Compact</option>
+        </select>
+      </label>
+      <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
     </div>
+  </details>
+</div>
+
     <div class="news-grid" id="news-grid">
       
         
@@ -183,7 +194,7 @@
     
       <img src="https://i.ytimg.com/vi/Dt0T0ga_zNA/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -202,25 +213,24 @@
         <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
       
     </div>
-    <p class="news-card__summary">Just because AI labels a vulnerability as critical doesn&#39;t mean it&#39;s critical for your business. Before rushing to patch everything, ask: ...
-Worth a watch for developers following AI and Security. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI and Security.</p>
+    <p class="news-card__summary">Just because AI labels a vulnerability as critical doesn&#39;t mean it&#39;s critical for your business. Before rushing to patch everything, ask: ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=Dt0T0ga_zNA" class="story-link" data-outbound>
-        Watch on IBM Technology Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark AI Says It&amp;#39;s a 10/10 Vulnerability... But Is It? 🤔">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DDt0T0ga_zNA" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DDt0T0ga_zNA&text=AI%2bSays%2bIt%2526%252339%253Bs%2ba%2b10%252F10%2bVulnerability...%2bBut%2bIs%2bIt%253F%2b%25F0%259F%25A4%2594" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=AI%2bSays%2bIt%2526%252339%253Bs%2ba%2b10%252F10%2bVulnerability...%2bBut%2bIs%2bIt%253F%2b%25F0%259F%25A4%2594&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DDt0T0ga_zNA">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide IBM Technology Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from IBM Technology Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -240,7 +250,7 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
     
       <img src="/images/aws.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -258,27 +268,25 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
       
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
-        <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
-      
     </div>
-    <p class="news-card__summary">Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-message scale, plus the sandbox design …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AWS and AI.</p>
+    <p class="news-card__summary">Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at …</p>
     <div class="news-card__footer">
       <a href="https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale" class="story-link" data-outbound>
-        Read on AWS Machine Learning Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fabnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fabnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale&text=Abnormal%2bAI%253A%2bAmazon%2bBedrock%2bAgentCore%2bfor%2bagentic%2bemail%2bsecurity%2bat%2bscale" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Abnormal%2bAI%253A%2bAmazon%2bBedrock%2bAgentCore%2bfor%2bagentic%2bemail%2bsecurity%2bat%2bscale&body=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fabnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide AWS Machine Learning Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from AWS Machine Learning Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -298,7 +306,7 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
     
       <img src="/images/aws.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -316,27 +324,25 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
       
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
-        <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
-      
     </div>
-    <p class="news-card__summary">Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a portal, configuring GitHub and Slack 3LO …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AWS and AI.</p>
+    <p class="news-card__summary">Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a …</p>
     <div class="news-card__footer">
       <a href="https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore" class="story-link" data-outbound>
-        Read on AWS Machine Learning Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fmanage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fmanage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore&text=Manage%2bend-user%2bOAuth%2bconsent%2bfor%2bAI%2bagents%2bwith%2bAmazon%2bBedrock%2bAgentCore" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Manage%2bend-user%2bOAuth%2bconsent%2bfor%2bAI%2bagents%2bwith%2bAmazon%2bBedrock%2bAgentCore&body=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fmanage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide AWS Machine Learning Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from AWS Machine Learning Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -356,7 +362,7 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/X0UI0O8YzJM/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -374,28 +380,25 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
       
         <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
       
-        <button type="button" class="topic-badge" data-topic-filter="testing">Testing</button>
-      
     </div>
-    <p class="news-card__summary">Learn more about Shift-Left Testing here → https://ibm.biz/~GjS7OaN8v AI can generate software faster than ever, but speed ...
-Worth a watch for developers following AI and Security. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI and Security.</p>
+    <p class="news-card__summary">Learn more about Shift-Left Testing here → https://ibm.biz/~GjS7OaN8v AI can generate software faster than ever, but speed ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=X0UI0O8YzJM" class="story-link" data-outbound>
-        Watch on IBM Technology Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark How Developers Secure AI-Generated Code: 5 Security Best Practices">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DX0UI0O8YzJM" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DX0UI0O8YzJM&text=How%2bDevelopers%2bSecure%2bAI-Generated%2bCode%253A%2b5%2bSecurity%2bBest%2bPractices" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=How%2bDevelopers%2bSecure%2bAI-Generated%2bCode%253A%2b5%2bSecurity%2bBest%2bPractices&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DX0UI0O8YzJM">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide IBM Technology Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from IBM Technology Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -415,7 +418,7 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -433,28 +436,25 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
       
         <button type="button" class="topic-badge" data-topic-filter="data">Data</button>
       
-        <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
-      
     </div>
-    <p class="news-card__summary">EF Core query filters can be bypassed. PostgreSQL row-level security enforces tenant isolation on reads and writes, if you connect with the right database role…
-Worth a read for developers following .NET and Data. Link …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following .NET and Data.</p>
+    <p class="news-card__summary">EF Core query filters can be bypassed. PostgreSQL row-level security enforces tenant isolation on reads and writes, if you connect with the right database role…</p>
     <div class="news-card__footer">
       <a href="https://milanjovanovic.tech/blog/postgres-row-level-security-with-ef-core" class="story-link" data-outbound>
-        Read on Milan&#39;s .NET Weekly →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Let Postgres Enforce Tenant Isolation">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fmilanjovanovic.tech%252Fblog%252Fpostgres-row-level-security-with-ef-core" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fmilanjovanovic.tech%252Fblog%252Fpostgres-row-level-security-with-ef-core&text=Let%2bPostgres%2bEnforce%2bTenant%2bIsolation" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Let%2bPostgres%2bEnforce%2bTenant%2bIsolation&body=https%253A%252F%252Fmilanjovanovic.tech%252Fblog%252Fpostgres-row-level-security-with-ef-core">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Milan&#39;s .NET Weekly</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Milan&#39;s .NET Weekly">Hide</button>
       </div>
     </div>
   </div>
@@ -474,7 +474,7 @@ Worth a read for developers following .NET and Data. Link …</p>
     
       <img src="https://i.ytimg.com/vi/rpK3ryHcT5I/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -493,25 +493,24 @@ Worth a read for developers following .NET and Data. Link …</p>
         <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
       
     </div>
-    <p class="news-card__summary">This session makes the case for &amp;quot;guardrails, not gates&amp;quot;: governance that&#39;s built into the platform itself rather than bolted on ...
-Worth a watch for developers following Azure and Security. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure and Security.</p>
+    <p class="news-card__summary">This session makes the case for &#34;guardrails, not gates&#34;: governance that&#39;s built into the platform itself rather than bolted on ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=rpK3ryHcT5I" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Governance at Scale: Enforcing Network Security Baselines with Azure Policy &amp;amp; Landing Zones">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DrpK3ryHcT5I" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DrpK3ryHcT5I&text=Governance%2bat%2bScale%253A%2bEnforcing%2bNetwork%2bSecurity%2bBaselines%2bwith%2bAzure%2bPolicy%2b%2526amp%253B%2bLanding%2bZones" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Governance%2bat%2bScale%253A%2bEnforcing%2bNetwork%2bSecurity%2bBaselines%2bwith%2bAzure%2bPolicy%2b%2526amp%253B%2bLanding%2bZones&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DrpK3ryHcT5I">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -531,7 +530,7 @@ Worth a watch for developers following Azure and Security. Link to video: …</p
     
       <img src="https://i.ytimg.com/vi/ahK9hZ7L-Kc/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -550,25 +549,24 @@ Worth a watch for developers following Azure and Security. Link to video: …</p
         <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
       
     </div>
-    <p class="news-card__summary">AI agents don&#39;t see rule-breaking the way humans do. Learn why security requires enforcement, not guidelines, and what ...
-Worth a watch for developers following AI and Security. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI and Security.</p>
+    <p class="news-card__summary">AI agents don&#39;t see rule-breaking the way humans do. Learn why security requires enforcement, not guidelines, and what ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=ahK9hZ7L-Kc" class="story-link" data-outbound>
-        Watch on IBM Technology Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Why AI Agents Don&amp;#39;t Think They&amp;#39;re Cheating">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DahK9hZ7L-Kc" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DahK9hZ7L-Kc&text=Why%2bAI%2bAgents%2bDon%2526%252339%253Bt%2bThink%2bThey%2526%252339%253Bre%2bCheating" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Why%2bAI%2bAgents%2bDon%2526%252339%253Bt%2bThink%2bThey%2526%252339%253Bre%2bCheating&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DahK9hZ7L-Kc">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide IBM Technology Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from IBM Technology Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -588,7 +586,7 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/1dI09ZGoc3I/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -606,28 +604,25 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
       
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
-        <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
-      
     </div>
-    <p class="news-card__summary">LIVE AI-Era DevOps Masterclass - incl. Q&amp;amp;A. I&#39;ll show you the market shifts reshaping engineering jobs right now — and what they ...
-Worth a watch for developers following DevOps and AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following DevOps and AI.</p>
+    <p class="news-card__summary">LIVE AI-Era DevOps Masterclass - incl. Q&amp;A. I&#39;ll show you the market shifts reshaping engineering jobs right now — and what they ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=1dI09ZGoc3I" class="story-link" data-outbound>
-        Watch on TechWorld with Nana →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark From CDs in India to Building AI Security at PayPal">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D1dI09ZGoc3I" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D1dI09ZGoc3I&text=From%2bCDs%2bin%2bIndia%2bto%2bBuilding%2bAI%2bSecurity%2bat%2bPayPal" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=From%2bCDs%2bin%2bIndia%2bto%2bBuilding%2bAI%2bSecurity%2bat%2bPayPal&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D1dI09ZGoc3I">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide TechWorld with Nana</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from TechWorld with Nana">Hide</button>
       </div>
     </div>
   </div>
@@ -647,7 +642,7 @@ Worth a watch for developers following DevOps and AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/AHWS8PNVdEA/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -664,25 +659,24 @@ Worth a watch for developers following DevOps and AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
       
     </div>
-    <p class="news-card__summary">Den Delimarsky, Lead Maintainer of MCP and Member of Technical Staff at Anthropic, discusses how MCP authorization reached ...
-Worth a watch for developers following Security. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Security.</p>
+    <p class="news-card__summary">Den Delimarsky, Lead Maintainer of MCP and Member of Technical Staff at Anthropic, discusses how MCP authorization reached ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=AHWS8PNVdEA" class="story-link" data-outbound>
-        Watch on Microsoft Developer Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Evolution of MCP auth">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DAHWS8PNVdEA" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DAHWS8PNVdEA&text=Evolution%2bof%2bMCP%2bauth" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Evolution%2bof%2bMCP%2bauth&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DAHWS8PNVdEA">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -788,7 +782,7 @@ Worth a watch for developers following Security. Link to video: …</p>
 
   <script src="https://www.dotnetramblings.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
-<script src="/js/news.min.3e81207c75e89e54bbb472688e0a6351d4026f0106516881a856dd34e4a3a8ba4f8afb963ce9a8ec76573b90e8897e9815ac755837670f89609e448e5a7f2a43.js" integrity="sha512-PoEgfHXonlS7tHJojgpjUdQCbwEGUWiBqFbdNOSjqLpPivuWPOmo7HZXO5DoiX6YFax1WDdnD4lgnkSOWn8qQw==" crossorigin="anonymous"></script>
+<script src="/js/news.min.db922ba5bde3f4aeeeedd077c39d79e8d7032a5453bd8bb827a0eed64505376001c336decb337e743aaba9b1adc7ff163eef626f7c8e697b859dc3cf0560790a.js" integrity="sha512-25Irpb3j9K7u7dB3w5156NcDKlRTvYu4J6Du1kUFN2ABwzbeyzN&#43;dDqrqbGtx/8WPu9ib3yOaXuFncPPBWB5Cg==" crossorigin="anonymous"></script>
 
   </body>
 </html>

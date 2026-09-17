@@ -55,7 +55,7 @@
 
 <link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
 
-<link rel="stylesheet" href="/css/news.min.723bb5e7cc945632797cfd4b1962287341617c41695bb8793de5757944b864662bb72e1fbab1dc416b20c56593ff11dcb787f773f9c8d0a5169fc0356777e97a.css" integrity="sha512-cju158yUVjJ5fP1LGWIoc0FhfEFpW7h5PeV1eUS4ZGYrty4furHcQWsgxWWT/xHct4f3c/nI0KUWn8A1Z3fpeg==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/news.min.ecbc8af1c27b6a0583a5f389c9e85b999d0a01677593e47815fa9bf66a759b0fac9e596d45c4cd694c070bfe04af928f443f517b826c6492fb5898fef91a1469.css" integrity="sha512-7LyK8cJ7agWDpfOJyehbmZ0KAWd1k&#43;R4Ffqb9mp1mw&#43;snlltRcTNaUwHC/4Er5KPRD9Re4JsZJL7WJj&#43;&#43;RoUaQ==" crossorigin="anonymous">
 
   </head>
   <body
@@ -146,28 +146,39 @@
       <h1>General</h1>
       <p>39 stories about General.</p>
     </header>
-    <div class="discovery-panel">
-      <div class="filter-row" role="group" aria-label="Content type">
-        <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
-        <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
-        <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
-        <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
-      </div>
-      <div class="preference-row">
-        <label>
-          Search this topic
-          <input type="search" data-news-search placeholder="Title or source">
-        </label>
-        <label>
-          Card density
-          <select data-density>
-            <option value="comfortable">Comfortable</option>
-            <option value="compact">Compact</option>
-          </select>
-        </label>
-        <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
-      </div>
+    
+<div class="discovery-panel" data-discovery-controls>
+  <label class="search-control">
+    <span class="sr-only">Search</span>
+    <input type="search" data-news-search placeholder="Search this topic">
+  </label>
+  
+    <label class="select-control">
+      <span>Type</span>
+      <select data-type-select>
+        <option value="all">All content</option>
+        <option value="article">Articles</option>
+        <option value="video">Videos</option>
+      </select>
+    </label>
+  
+  
+  <button type="button" class="saved-filter" data-type-filter="bookmarks">☆ Saved</button>
+  <details class="browser-settings">
+    <summary aria-label="Display settings">Settings</summary>
+    <div>
+      <label>
+        Density
+        <select data-density>
+          <option value="comfortable">Comfortable</option>
+          <option value="compact">Compact</option>
+        </select>
+      </label>
+      <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
     </div>
+  </details>
+</div>
+
     <div class="news-grid" id="news-grid">
       
         
@@ -183,7 +194,7 @@
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -200,24 +211,24 @@
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">As we mentioned in the last cmath blog post, MSVC is using LLVM-libc for compile-time evaluation and runtime execution of math functions when /Zc:cmath is enabled. I invited LLVM-libc contributors Michael Jones and Tue …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">As we mentioned in the last cmath blog post, MSVC is using LLVM-libc for compile-time evaluation and runtime execution of math functions when /Zc:cmath is enabled. I invited …</p>
     <div class="news-card__footer">
       <a href="https://devblogs.microsoft.com/cppblog/bringing-correctly-rounded-math-to-production-with-llvm-libc" class="story-link" data-outbound>
-        Read on Microsoft Developer Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Bringing Correctly Rounded Math to Production with LLVM-libc">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fcppblog%252Fbringing-correctly-rounded-math-to-production-with-llvm-libc" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fcppblog%252Fbringing-correctly-rounded-math-to-production-with-llvm-libc&text=Bringing%2bCorrectly%2bRounded%2bMath%2bto%2bProduction%2bwith%2bLLVM-libc" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Bringing%2bCorrectly%2bRounded%2bMath%2bto%2bProduction%2bwith%2bLLVM-libc&body=https%253A%252F%252Fdevblogs.microsoft.com%252Fcppblog%252Fbringing-correctly-rounded-math-to-production-with-llvm-libc">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -237,7 +248,7 @@
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -254,24 +265,24 @@
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">If you’ve never heard of it (there’s something like umpteen seasons of a basic cable reality show about it somewhere), just set a timer first to quit before you spend all day reading about it. One of the most kill joy …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">If you’ve never heard of it (there’s something like umpteen seasons of a basic cable reality show about it somewhere), just set a timer first to quit before you spend all day …</p>
     <div class="news-card__footer">
       <a href="https://jeremydmiller.com/2026/09/16/oak-island-mystery-problems" class="story-link" data-outbound>
-        Read on The Shade Tree Developer →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Oak Island Mystery Problems">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fjeremydmiller.com%252F2026%252F09%252F16%252Foak-island-mystery-problems" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fjeremydmiller.com%252F2026%252F09%252F16%252Foak-island-mystery-problems&text=Oak%2bIsland%2bMystery%2bProblems" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Oak%2bIsland%2bMystery%2bProblems&body=https%253A%252F%252Fjeremydmiller.com%252F2026%252F09%252F16%252Foak-island-mystery-problems">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The Shade Tree Developer</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The Shade Tree Developer">Hide</button>
       </div>
     </div>
   </div>
@@ -291,7 +302,7 @@
     
       <img src="https://i.ytimg.com/vi/hIM_mjM-pzI/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -308,25 +319,24 @@
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Kat Excellence walked me through why she chose a CS degree over a bootcamp. Student-only internships, a broader education, ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Kat Excellence walked me through why she chose a CS degree over a bootcamp. Student-only internships, a broader education, ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=hIM_mjM-pzI" class="story-link" data-outbound>
-        Watch on Scott Hanselman Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Why Kat picked college over a bootcamp">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DhIM_mjM-pzI" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DhIM_mjM-pzI&text=Why%2bKat%2bpicked%2bcollege%2bover%2ba%2bbootcamp" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Why%2bKat%2bpicked%2bcollege%2bover%2ba%2bbootcamp&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DhIM_mjM-pzI">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Scott Hanselman Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Scott Hanselman Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -346,7 +356,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -363,25 +373,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">We&#39;re focusing Microsoft Graph PowerShell on the platform where we can give you the most reliable, capable, and well-maintained experience: PowerShell 7
-Worth a read for developers following General. Link to article: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">We&#39;re focusing Microsoft Graph PowerShell on the platform where we can give you the most reliable, capable, and well-maintained experience: PowerShell 7</p>
     <div class="news-card__footer">
       <a href="https://devblogs.microsoft.com/microsoft365dev/investing-in-a-more-reliable-microsoft-graph-powershell-experience" class="story-link" data-outbound>
-        Read on Microsoft Developer Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Investing in a more reliable Microsoft Graph PowerShell experience">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fmicrosoft365dev%252Finvesting-in-a-more-reliable-microsoft-graph-powershell-experience" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fmicrosoft365dev%252Finvesting-in-a-more-reliable-microsoft-graph-powershell-experience&text=Investing%2bin%2ba%2bmore%2breliable%2bMicrosoft%2bGraph%2bPowerShell%2bexperience" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Investing%2bin%2ba%2bmore%2breliable%2bMicrosoft%2bGraph%2bPowerShell%2bexperience&body=https%253A%252F%252Fdevblogs.microsoft.com%252Fmicrosoft365dev%252Finvesting-in-a-more-reliable-microsoft-graph-powershell-experience">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -401,7 +410,7 @@ Worth a read for developers following General. Link to article: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -418,24 +427,24 @@ Worth a read for developers following General. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Modern development tools, especially IntelliJ IDEA, have such comprehensive debugging support that for virtually any niche use case, there is a specialized tool for the job. This can make it hard to know where to begin. …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">Modern development tools, especially IntelliJ IDEA, have such comprehensive debugging support that for virtually any niche use case, there is a specialized tool for the job. This …</p>
     <div class="news-card__footer">
       <a href="https://blog.jetbrains.com/idea/2026/09/logpoints-walkthrough" class="story-link" data-outbound>
-        Read on The Jetbrains Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Logpoints Walkthrough">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fblog.jetbrains.com%252Fidea%252F2026%252F09%252Flogpoints-walkthrough" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fblog.jetbrains.com%252Fidea%252F2026%252F09%252Flogpoints-walkthrough&text=Logpoints%2bWalkthrough" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Logpoints%2bWalkthrough&body=https%253A%252F%252Fblog.jetbrains.com%252Fidea%252F2026%252F09%252Flogpoints-walkthrough">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The Jetbrains Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The Jetbrains Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -455,7 +464,7 @@ Worth a read for developers following General. Link to article: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -472,24 +481,24 @@ Worth a read for developers following General. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">We’ve just released IntelliJ IDEA 2026.2.3. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. The latest update …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">We’ve just released IntelliJ IDEA 2026.2.3. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also …</p>
     <div class="news-card__footer">
       <a href="https://blog.jetbrains.com/idea/2026/09/intellij-idea-2026-2-3" class="story-link" data-outbound>
-        Read on The Jetbrains Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark IntelliJ IDEA 2026.2.3 Is Out!">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fblog.jetbrains.com%252Fidea%252F2026%252F09%252Fintellij-idea-2026-2-3" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fblog.jetbrains.com%252Fidea%252F2026%252F09%252Fintellij-idea-2026-2-3&text=IntelliJ%2bIDEA%2b2026.2.3%2bIs%2bOut%2521" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=IntelliJ%2bIDEA%2b2026.2.3%2bIs%2bOut%2521&body=https%253A%252F%252Fblog.jetbrains.com%252Fidea%252F2026%252F09%252Fintellij-idea-2026-2-3">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The Jetbrains Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The Jetbrains Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -509,7 +518,7 @@ Worth a read for developers following General. Link to article: …</p>
     
       <img src="https://i.ytimg.com/vi/23bgvqLhp4Y/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -526,25 +535,24 @@ Worth a read for developers following General. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">A building collapses when one structural failure triggers a domino effect. Software systems can fail the exact same way - except ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">A building collapses when one structural failure triggers a domino effect. Software systems can fail the exact same way - except ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=23bgvqLhp4Y" class="story-link" data-outbound>
-        Watch on InfoQ Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Hidden Dependencies Are Ruining Your Code">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D23bgvqLhp4Y" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D23bgvqLhp4Y&text=Hidden%2bDependencies%2bAre%2bRuining%2bYour%2bCode" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Hidden%2bDependencies%2bAre%2bRuining%2bYour%2bCode&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D23bgvqLhp4Y">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide InfoQ Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from InfoQ Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -564,7 +572,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/yfHSFgHFWWI/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -581,25 +589,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">ReSharper 2026.2 now includes tools for #performance &amp;amp; #memory profiling, and code coverage out-of-the-box! There&#39;s ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">ReSharper 2026.2 now includes tools for #performance &amp; #memory profiling, and code coverage out-of-the-box! There&#39;s ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=yfHSFgHFWWI" class="story-link" data-outbound>
-        Watch on Jetbrains TV →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark dotCover, dotMemory, and dotTrace built-in to ReSharper">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DyfHSFgHFWWI" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DyfHSFgHFWWI&text=dotCover%252C%2bdotMemory%252C%2band%2bdotTrace%2bbuilt-in%2bto%2bReSharper" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=dotCover%252C%2bdotMemory%252C%2band%2bdotTrace%2bbuilt-in%2bto%2bReSharper&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DyfHSFgHFWWI">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Jetbrains TV</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Jetbrains TV">Hide</button>
       </div>
     </div>
   </div>
@@ -619,7 +626,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -636,24 +643,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Have you ever changed your backing data model and then all of a sudden all your clients explode? It’s not because you broke your code. You broke your contract. Most times API breaking changes occur because you’re …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">Have you ever changed your backing data model and then all of a sudden all your clients explode? It’s not because you broke your code. You broke your contract. Most times API …</p>
     <div class="news-card__footer">
       <a href="https://codeopinion.com/avoid-api-breaking-changes" class="story-link" data-outbound>
-        Read on Code Opinion →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Avoid API Breaking Changes">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fcodeopinion.com%252Favoid-api-breaking-changes" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fcodeopinion.com%252Favoid-api-breaking-changes&text=Avoid%2bAPI%2bBreaking%2bChanges" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Avoid%2bAPI%2bBreaking%2bChanges&body=https%253A%252F%252Fcodeopinion.com%252Favoid-api-breaking-changes">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Code Opinion</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Code Opinion">Hide</button>
       </div>
     </div>
   </div>
@@ -673,7 +680,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -690,24 +697,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Setting up your Microsoft Foundry environment just got a lot simpler. We launched Foundry Dev Pack to consolidate initial installation steps into a single setup process. The Foundry Dev Pack is an all-in-one installer …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">Setting up your Microsoft Foundry environment just got a lot simpler. We launched Foundry Dev Pack to consolidate initial installation steps into a single setup process. The …</p>
     <div class="news-card__footer">
       <a href="https://devblogs.microsoft.com/foundry/foundry-devpack-announcement" class="story-link" data-outbound>
-        Read on Microsoft Developer Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Introducing Foundry Dev Pack: One Command to Start Building">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Ffoundry%252Ffoundry-devpack-announcement" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Ffoundry%252Ffoundry-devpack-announcement&text=Introducing%2bFoundry%2bDev%2bPack%253A%2bOne%2bCommand%2bto%2bStart%2bBuilding" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Introducing%2bFoundry%2bDev%2bPack%253A%2bOne%2bCommand%2bto%2bStart%2bBuilding&body=https%253A%252F%252Fdevblogs.microsoft.com%252Ffoundry%252Ffoundry-devpack-announcement">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -727,7 +734,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/NsXahU2N04c/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -744,25 +751,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Kat uses career envy as a signal. If someone&#39;s path makes you jealous, that is data about what you want. Kat Excellence writes at ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Kat uses career envy as a signal. If someone&#39;s path makes you jealous, that is data about what you want. Kat Excellence writes at ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=NsXahU2N04c" class="story-link" data-outbound>
-        Watch on Scott Hanselman Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Use career envy as a signal">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DNsXahU2N04c" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DNsXahU2N04c&text=Use%2bcareer%2benvy%2bas%2ba%2bsignal" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Use%2bcareer%2benvy%2bas%2ba%2bsignal&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DNsXahU2N04c">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Scott Hanselman Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Scott Hanselman Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -782,7 +788,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/SP9zcGxgP3U/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -799,25 +805,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">&amp;quot;You can close it at 5 p.m. on a Friday and not open it until Monday — and that should be the norm.&amp;quot; Jake Wharton on why the ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">&#34;You can close it at 5 p.m. on a Friday and not open it until Monday — and that should be the norm.&#34; Jake Wharton on why the ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=SP9zcGxgP3U" class="story-link" data-outbound>
-        Watch on Jetbrains TV →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark &amp;quot;Why I don&amp;#39;t have Slack on my phone&amp;quot; — Jake Wharton">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSP9zcGxgP3U" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSP9zcGxgP3U&text=%2526quot%253BWhy%2bI%2bdon%2526%252339%253Bt%2bhave%2bSlack%2bon%2bmy%2bphone%2526quot%253B%2b%25E2%2580%2594%2bJake%2bWharton" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=%2526quot%253BWhy%2bI%2bdon%2526%252339%253Bt%2bhave%2bSlack%2bon%2bmy%2bphone%2526quot%253B%2b%25E2%2580%2594%2bJake%2bWharton&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSP9zcGxgP3U">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Jetbrains TV</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Jetbrains TV">Hide</button>
       </div>
     </div>
   </div>
@@ -837,7 +842,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/J3RWKDI_fT4/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -854,25 +859,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">These are the names to remember. Mariia Drobina. Marius Helle. Aanor Le Gouic. Jeromeian Arbonida. They are all headed to ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">These are the names to remember. Mariia Drobina. Marius Helle. Aanor Le Gouic. Jeromeian Arbonida. They are all headed to ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=J3RWKDI_fT4" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Finalists Revealed: What a Winning Power BI Dataviz Looks Like">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DJ3RWKDI_fT4" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DJ3RWKDI_fT4&text=Finalists%2bRevealed%253A%2bWhat%2ba%2bWinning%2bPower%2bBI%2bDataviz%2bLooks%2bLike" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Finalists%2bRevealed%253A%2bWhat%2ba%2bWinning%2bPower%2bBI%2bDataviz%2bLooks%2bLike&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DJ3RWKDI_fT4">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -892,7 +896,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -909,24 +913,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">In line with the six-month release cadence, Java 27 was released on September 15, 2026. In this blog post, we will look at what’s included in this release, how IntelliJ IDEA continues to support the latest Java versions, …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">In line with the six-month release cadence, Java 27 was released on September 15, 2026. In this blog post, we will look at what’s included in this release, how IntelliJ IDEA …</p>
     <div class="news-card__footer">
       <a href="https://blog.jetbrains.com/idea/2026/09/java-27-in-intellij-idea" class="story-link" data-outbound>
-        Read on The Jetbrains Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Java 27 in IntelliJ IDEA">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fblog.jetbrains.com%252Fidea%252F2026%252F09%252Fjava-27-in-intellij-idea" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fblog.jetbrains.com%252Fidea%252F2026%252F09%252Fjava-27-in-intellij-idea&text=Java%2b27%2bin%2bIntelliJ%2bIDEA" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Java%2b27%2bin%2bIntelliJ%2bIDEA&body=https%253A%252F%252Fblog.jetbrains.com%252Fidea%252F2026%252F09%252Fjava-27-in-intellij-idea">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The Jetbrains Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The Jetbrains Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -946,7 +950,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/uzH1BaRiAcc/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -963,25 +967,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Kat says juniors are the best code reviewers on the team. No context means you catch what the seniors stopped seeing.
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Kat says juniors are the best code reviewers on the team. No context means you catch what the seniors stopped seeing.</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=uzH1BaRiAcc" class="story-link" data-outbound>
-        Watch on Scott Hanselman Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Juniors are the best code reviewers">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DuzH1BaRiAcc" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DuzH1BaRiAcc&text=Juniors%2bare%2bthe%2bbest%2bcode%2breviewers" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Juniors%2bare%2bthe%2bbest%2bcode%2breviewers&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DuzH1BaRiAcc">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Scott Hanselman Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Scott Hanselman Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -1001,7 +1004,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -1018,24 +1021,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Version 3.8 of the Toolbox App restores keyboard navigation in project and tool lists. On macOS, manual IDE updates stay available even when the system reports the installation directory as protected. IDE updates remain …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">Version 3.8 of the Toolbox App restores keyboard navigation in project and tool lists. On macOS, manual IDE updates stay available even when the system reports the installation …</p>
     <div class="news-card__footer">
       <a href="https://blog.jetbrains.com/toolbox-app/2026/09/toolbox-app-3-8-improves-ide-update-handling-on-macos-and-fixes-keyboard-navigation" class="story-link" data-outbound>
-        Read on The Jetbrains Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Toolbox App 3.8: Improves IDE Update Handling on macOS and Fixes Keyboard Navigation">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fblog.jetbrains.com%252Ftoolbox-app%252F2026%252F09%252Ftoolbox-app-3-8-improves-ide-update-handling-on-macos-and-fixes-keyboard-navigation" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fblog.jetbrains.com%252Ftoolbox-app%252F2026%252F09%252Ftoolbox-app-3-8-improves-ide-update-handling-on-macos-and-fixes-keyboard-navigation&text=Toolbox%2bApp%2b3.8%253A%2bImproves%2bIDE%2bUpdate%2bHandling%2bon%2bmacOS%2band%2bFixes%2bKeyboard%2bNavigation" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Toolbox%2bApp%2b3.8%253A%2bImproves%2bIDE%2bUpdate%2bHandling%2bon%2bmacOS%2band%2bFixes%2bKeyboard%2bNavigation&body=https%253A%252F%252Fblog.jetbrains.com%252Ftoolbox-app%252F2026%252F09%252Ftoolbox-app-3-8-improves-ide-update-handling-on-macos-and-fixes-keyboard-navigation">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The Jetbrains Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The Jetbrains Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -1055,7 +1058,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/ZhJsMKliqE8/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1072,25 +1075,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Mark Russinovich explores a fascinating question: if Windows were designed today, would the Registry still exist? He explains the ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Mark Russinovich explores a fascinating question: if Windows were designed today, would the Registry still exist? He explains the ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=ZhJsMKliqE8" class="story-link" data-outbound>
-        Watch on Microsoft Developer Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark If Windows were designed today, would the Registry exist?">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DZhJsMKliqE8" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DZhJsMKliqE8&text=If%2bWindows%2bwere%2bdesigned%2btoday%252C%2bwould%2bthe%2bRegistry%2bexist%253F" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=If%2bWindows%2bwere%2bdesigned%2btoday%252C%2bwould%2bthe%2bRegistry%2bexist%253F&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DZhJsMKliqE8">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -1110,7 +1112,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -1127,25 +1129,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Brian Dellisanti asked why Read­Directory­ChangesW didn&#39;t provide a way to correlate the two sides of a rename operation. I wasn&#39;t there, but I can guess. My guess is that the implementation alwa
-Worth a read for …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">Brian Dellisanti asked why Read­Directory­ChangesW didn&#39;t provide a way to correlate the two sides of a rename operation. I wasn&#39;t there, but I can guess. My guess is that the …</p>
     <div class="news-card__footer">
       <a href="https://devblogs.microsoft.com/oldnewthing/20260914-00?p=112696" class="story-link" data-outbound>
-        Read on Microsoft Developer Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Why didn&#39;t &lt;code&gt;ReadDirectoryChangesW&lt;/code&gt; provide a way to correlate the two sides of a rename operation?">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Foldnewthing%252F20260914-00%253Fp%253D112696" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Foldnewthing%252F20260914-00%253Fp%253D112696&text=Why%2bdidn%2527t%2b%253Ccode%253EReadDirectoryChangesW%253C%252Fcode%253E%2bprovide%2ba%2bway%2bto%2bcorrelate%2bthe%2btwo%2bsides%2bof%2ba%2brename%2boperation%253F" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Why%2bdidn%2527t%2b%253Ccode%253EReadDirectoryChangesW%253C%252Fcode%253E%2bprovide%2ba%2bway%2bto%2bcorrelate%2bthe%2btwo%2bsides%2bof%2ba%2brename%2boperation%253F&body=https%253A%252F%252Fdevblogs.microsoft.com%252Foldnewthing%252F20260914-00%253Fp%253D112696">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -1165,7 +1166,7 @@ Worth a read for …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -1182,25 +1183,24 @@ Worth a read for …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Dynamic filtering, sorting, and pagination stay safe with allowlisted EF Core specifications, unique ordering, bounded pages, and reliable relational tests.
-Worth a read for developers following General. Link to article: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">Dynamic filtering, sorting, and pagination stay safe with allowlisted EF Core specifications, unique ordering, bounded pages, and reliable relational tests.</p>
     <div class="news-card__footer">
       <a href="https://www.devleader.ca/2026/09/14/dynamic-filtering-sorting-and-pagination-with-specifications" class="story-link" data-outbound>
-        Read on Dev Leader →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Dynamic Filtering, Sorting, and Pagination With Specifications">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.devleader.ca%252F2026%252F09%252F14%252Fdynamic-filtering-sorting-and-pagination-with-specifications" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.devleader.ca%252F2026%252F09%252F14%252Fdynamic-filtering-sorting-and-pagination-with-specifications&text=Dynamic%2bFiltering%252C%2bSorting%252C%2band%2bPagination%2bWith%2bSpecifications" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Dynamic%2bFiltering%252C%2bSorting%252C%2band%2bPagination%2bWith%2bSpecifications&body=https%253A%252F%252Fwww.devleader.ca%252F2026%252F09%252F14%252Fdynamic-filtering-sorting-and-pagination-with-specifications">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Dev Leader</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Dev Leader">Hide</button>
       </div>
     </div>
   </div>
@@ -1220,7 +1220,7 @@ Worth a read for developers following General. Link to article: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -1237,24 +1237,24 @@ Worth a read for developers following General. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Microsoft will be at CppCon 2026 in Aurora, Colorado, which is taking place from September 14 through 18. Join us for talks from Microsoft speakers and colleagues across the C++ community and visit the Microsoft booth …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">Microsoft will be at CppCon 2026 in Aurora, Colorado, which is taking place from September 14 through 18. Join us for talks from Microsoft speakers and colleagues across the C++ …</p>
     <div class="news-card__footer">
       <a href="https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2026" class="story-link" data-outbound>
-        Read on Microsoft Developer Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Microsoft at CppCon 2026">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fcppblog%252Fmicrosoft-at-cppcon-2026" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fcppblog%252Fmicrosoft-at-cppcon-2026&text=Microsoft%2bat%2bCppCon%2b2026" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Microsoft%2bat%2bCppCon%2b2026&body=https%253A%252F%252Fdevblogs.microsoft.com%252Fcppblog%252Fmicrosoft-at-cppcon-2026">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -1274,7 +1274,7 @@ Worth a read for developers following General. Link to article: …</p>
     
       <img src="https://i.ytimg.com/vi/fxlLAn5l10Q/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1291,26 +1291,24 @@ Worth a read for developers following General. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Link to article: https://www.youtube.com/watch?v=fxlLAn5l10Q
-Worth a watch for developers following General.
-Link to video: https://www.youtube.com/watch?v=fxlLAn5l10Q</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">- Link to article: https://www.youtube.com/watch?v=fxlLAn5l10Q</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=fxlLAn5l10Q" class="story-link" data-outbound>
-        Watch on Jetbrains TV →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Germany vs. USA: How Tech Workers Get Fired">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DfxlLAn5l10Q" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DfxlLAn5l10Q&text=Germany%2bvs.%2bUSA%253A%2bHow%2bTech%2bWorkers%2bGet%2bFired" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Germany%2bvs.%2bUSA%253A%2bHow%2bTech%2bWorkers%2bGet%2bFired&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DfxlLAn5l10Q">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Jetbrains TV</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Jetbrains TV">Hide</button>
       </div>
     </div>
   </div>
@@ -1330,7 +1328,7 @@ Link to video: https://www.youtube.com/watch?v=fxlLAn5l10Q</p>
     
       <img src="https://i.ytimg.com/vi/J2pJdH59NF8/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1347,25 +1345,24 @@ Link to video: https://www.youtube.com/watch?v=fxlLAn5l10Q</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">The best language for error handling? Jake Wharton&#39;s answer isn&#39;t Kotlin. Creator of Retrofit and OkHttp on years of pain: leaking ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">The best language for error handling? Jake Wharton&#39;s answer isn&#39;t Kotlin. Creator of Retrofit and OkHttp on years of pain: leaking ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=J2pJdH59NF8" class="story-link" data-outbound>
-        Watch on Jetbrains TV →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Is Rust Better Than Kotlin?">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DJ2pJdH59NF8" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DJ2pJdH59NF8&text=Is%2bRust%2bBetter%2bThan%2bKotlin%253F" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Is%2bRust%2bBetter%2bThan%2bKotlin%253F&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DJ2pJdH59NF8">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Jetbrains TV</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Jetbrains TV">Hide</button>
       </div>
     </div>
   </div>
@@ -1385,7 +1382,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/0xdca9f6cy4/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1402,25 +1399,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Kotlin used to make developers stand out. Now, Jake Wharton says it has become an expectation, especially in Android ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Kotlin used to make developers stand out. Now, Jake Wharton says it has become an expectation, especially in Android ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=0xdca9f6cy4" class="story-link" data-outbound>
-        Watch on Jetbrains TV →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Kotlin Isn’t a Career Advantage Anymore?">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D0xdca9f6cy4" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D0xdca9f6cy4&text=Kotlin%2bIsn%25E2%2580%2599t%2ba%2bCareer%2bAdvantage%2bAnymore%253F" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Kotlin%2bIsn%25E2%2580%2599t%2ba%2bCareer%2bAdvantage%2bAnymore%253F&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D0xdca9f6cy4">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Jetbrains TV</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Jetbrains TV">Hide</button>
       </div>
     </div>
   </div>
@@ -1440,7 +1436,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/dCUYpxW-r-w/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1457,25 +1453,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Astra and Fable landed within days of each other. So which one should developers actually use? Ulysses explores how ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Astra and Fable landed within days of each other. So which one should developers actually use? Ulysses explores how ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=dCUYpxW-r-w" class="story-link" data-outbound>
-        Watch on SSW TV | Videos for developers, by developers →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Why Developers Are Switching Their Hardest Tasks to Astra | Ulysses Maclaren &amp;amp; Josh Berman">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdCUYpxW-r-w" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdCUYpxW-r-w&text=Why%2bDevelopers%2bAre%2bSwitching%2bTheir%2bHardest%2bTasks%2bto%2bAstra%2b%257C%2bUlysses%2bMaclaren%2b%2526amp%253B%2bJosh%2bBerman" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Why%2bDevelopers%2bAre%2bSwitching%2bTheir%2bHardest%2bTasks%2bto%2bAstra%2b%257C%2bUlysses%2bMaclaren%2b%2526amp%253B%2bJosh%2bBerman&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdCUYpxW-r-w">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide SSW TV | Videos for developers, by developers</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from SSW TV | Videos for developers, by developers">Hide</button>
       </div>
     </div>
   </div>
@@ -1601,7 +1596,7 @@ Worth a watch for developers following General. Link to video: …</p>
 
   <script src="https://www.dotnetramblings.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
-<script src="/js/news.min.3e81207c75e89e54bbb472688e0a6351d4026f0106516881a856dd34e4a3a8ba4f8afb963ce9a8ec76573b90e8897e9815ac755837670f89609e448e5a7f2a43.js" integrity="sha512-PoEgfHXonlS7tHJojgpjUdQCbwEGUWiBqFbdNOSjqLpPivuWPOmo7HZXO5DoiX6YFax1WDdnD4lgnkSOWn8qQw==" crossorigin="anonymous"></script>
+<script src="/js/news.min.db922ba5bde3f4aeeeedd077c39d79e8d7032a5453bd8bb827a0eed64505376001c336decb337e743aaba9b1adc7ff163eef626f7c8e697b859dc3cf0560790a.js" integrity="sha512-25Irpb3j9K7u7dB3w5156NcDKlRTvYu4J6Du1kUFN2ABwzbeyzN&#43;dDqrqbGtx/8WPu9ib3yOaXuFncPPBWB5Cg==" crossorigin="anonymous"></script>
 
   </body>
 </html>

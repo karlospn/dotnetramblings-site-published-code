@@ -55,7 +55,7 @@
 
 <link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
 
-<link rel="stylesheet" href="/css/news.min.723bb5e7cc945632797cfd4b1962287341617c41695bb8793de5757944b864662bb72e1fbab1dc416b20c56593ff11dcb787f773f9c8d0a5169fc0356777e97a.css" integrity="sha512-cju158yUVjJ5fP1LGWIoc0FhfEFpW7h5PeV1eUS4ZGYrty4furHcQWsgxWWT/xHct4f3c/nI0KUWn8A1Z3fpeg==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/news.min.ecbc8af1c27b6a0583a5f389c9e85b999d0a01677593e47815fa9bf66a759b0fac9e596d45c4cd694c070bfe04af928f443f517b826c6492fb5898fef91a1469.css" integrity="sha512-7LyK8cJ7agWDpfOJyehbmZ0KAWd1k&#43;R4Ffqb9mp1mw&#43;snlltRcTNaUwHC/4Er5KPRD9Re4JsZJL7WJj&#43;&#43;RoUaQ==" crossorigin="anonymous">
 
   </head>
   <body
@@ -146,28 +146,39 @@
       <h1>AI</h1>
       <p>121 stories about AI.</p>
     </header>
-    <div class="discovery-panel">
-      <div class="filter-row" role="group" aria-label="Content type">
-        <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
-        <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
-        <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
-        <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
-      </div>
-      <div class="preference-row">
-        <label>
-          Search this topic
-          <input type="search" data-news-search placeholder="Title or source">
-        </label>
-        <label>
-          Card density
-          <select data-density>
-            <option value="comfortable">Comfortable</option>
-            <option value="compact">Compact</option>
-          </select>
-        </label>
-        <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
-      </div>
+    
+<div class="discovery-panel" data-discovery-controls>
+  <label class="search-control">
+    <span class="sr-only">Search</span>
+    <input type="search" data-news-search placeholder="Search this topic">
+  </label>
+  
+    <label class="select-control">
+      <span>Type</span>
+      <select data-type-select>
+        <option value="all">All content</option>
+        <option value="article">Articles</option>
+        <option value="video">Videos</option>
+      </select>
+    </label>
+  
+  
+  <button type="button" class="saved-filter" data-type-filter="bookmarks">☆ Saved</button>
+  <details class="browser-settings">
+    <summary aria-label="Display settings">Settings</summary>
+    <div>
+      <label>
+        Density
+        <select data-density>
+          <option value="comfortable">Comfortable</option>
+          <option value="compact">Compact</option>
+        </select>
+      </label>
+      <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
     </div>
+  </details>
+</div>
+
     <div class="news-grid" id="news-grid">
       
         
@@ -183,7 +194,7 @@
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -200,25 +211,24 @@
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.
-Worth a read for developers following AI. Link to article: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AI.</p>
+    <p class="news-card__summary">Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.</p>
     <div class="news-card__footer">
       <a href="https://openai.com/index/introducing-the-agents-api" class="story-link" data-outbound>
-        Read on The OpenAI Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Introducing the Agents API">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fopenai.com%252Findex%252Fintroducing-the-agents-api" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fopenai.com%252Findex%252Fintroducing-the-agents-api&text=Introducing%2bthe%2bAgents%2bAPI" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Introducing%2bthe%2bAgents%2bAPI&body=https%253A%252F%252Fopenai.com%252Findex%252Fintroducing-the-agents-api">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The OpenAI Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The OpenAI Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -353,7 +363,7 @@ Worth a read for developers following AI. Link to article: …</p>
 
   <script src="https://www.dotnetramblings.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
-<script src="/js/news.min.3e81207c75e89e54bbb472688e0a6351d4026f0106516881a856dd34e4a3a8ba4f8afb963ce9a8ec76573b90e8897e9815ac755837670f89609e448e5a7f2a43.js" integrity="sha512-PoEgfHXonlS7tHJojgpjUdQCbwEGUWiBqFbdNOSjqLpPivuWPOmo7HZXO5DoiX6YFax1WDdnD4lgnkSOWn8qQw==" crossorigin="anonymous"></script>
+<script src="/js/news.min.db922ba5bde3f4aeeeedd077c39d79e8d7032a5453bd8bb827a0eed64505376001c336decb337e743aaba9b1adc7ff163eef626f7c8e697b859dc3cf0560790a.js" integrity="sha512-25Irpb3j9K7u7dB3w5156NcDKlRTvYu4J6Du1kUFN2ABwzbeyzN&#43;dDqrqbGtx/8WPu9ib3yOaXuFncPPBWB5Cg==" crossorigin="anonymous"></script>
 
   </body>
 </html>

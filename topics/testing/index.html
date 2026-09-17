@@ -55,7 +55,7 @@
 
 <link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
 
-<link rel="stylesheet" href="/css/news.min.723bb5e7cc945632797cfd4b1962287341617c41695bb8793de5757944b864662bb72e1fbab1dc416b20c56593ff11dcb787f773f9c8d0a5169fc0356777e97a.css" integrity="sha512-cju158yUVjJ5fP1LGWIoc0FhfEFpW7h5PeV1eUS4ZGYrty4furHcQWsgxWWT/xHct4f3c/nI0KUWn8A1Z3fpeg==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/news.min.ecbc8af1c27b6a0583a5f389c9e85b999d0a01677593e47815fa9bf66a759b0fac9e596d45c4cd694c070bfe04af928f443f517b826c6492fb5898fef91a1469.css" integrity="sha512-7LyK8cJ7agWDpfOJyehbmZ0KAWd1k&#43;R4Ffqb9mp1mw&#43;snlltRcTNaUwHC/4Er5KPRD9Re4JsZJL7WJj&#43;&#43;RoUaQ==" crossorigin="anonymous">
 
   </head>
   <body
@@ -146,28 +146,39 @@
       <h1>Testing</h1>
       <p>5 stories about Testing.</p>
     </header>
-    <div class="discovery-panel">
-      <div class="filter-row" role="group" aria-label="Content type">
-        <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
-        <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
-        <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
-        <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
-      </div>
-      <div class="preference-row">
-        <label>
-          Search this topic
-          <input type="search" data-news-search placeholder="Title or source">
-        </label>
-        <label>
-          Card density
-          <select data-density>
-            <option value="comfortable">Comfortable</option>
-            <option value="compact">Compact</option>
-          </select>
-        </label>
-        <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
-      </div>
+    
+<div class="discovery-panel" data-discovery-controls>
+  <label class="search-control">
+    <span class="sr-only">Search</span>
+    <input type="search" data-news-search placeholder="Search this topic">
+  </label>
+  
+    <label class="select-control">
+      <span>Type</span>
+      <select data-type-select>
+        <option value="all">All content</option>
+        <option value="article">Articles</option>
+        <option value="video">Videos</option>
+      </select>
+    </label>
+  
+  
+  <button type="button" class="saved-filter" data-type-filter="bookmarks">☆ Saved</button>
+  <details class="browser-settings">
+    <summary aria-label="Display settings">Settings</summary>
+    <div>
+      <label>
+        Density
+        <select data-density>
+          <option value="comfortable">Comfortable</option>
+          <option value="compact">Compact</option>
+        </select>
+      </label>
+      <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
     </div>
+  </details>
+</div>
+
     <div class="news-grid" id="news-grid">
       
         
@@ -183,7 +194,7 @@
     
       <img src="/images/ai.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -200,24 +211,24 @@
         <button type="button" class="topic-badge" data-topic-filter="testing">Testing</button>
       
     </div>
-    <p class="news-card__summary">Today I want to look at how we can improve on the test coverage that we have in the Interview Coach application. This application has some unit tests in it already, but I&#39;m sure there is room for improvement. Defining …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following Testing.</p>
+    <p class="news-card__summary">Today I want to look at how we can improve on the test coverage that we have in the Interview Coach application. This application has some unit tests in it already, but I&#39;m sure …</p>
     <div class="news-card__footer">
       <a href="https://devblogs.microsoft.com/visualstudio/today-i-will-improve-test-coverage" class="story-link" data-outbound>
-        Read on Microsoft Developer Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Today I will... improve test coverage">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fvisualstudio%252Ftoday-i-will-improve-test-coverage" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fvisualstudio%252Ftoday-i-will-improve-test-coverage&text=Today%2bI%2bwill...%2bimprove%2btest%2bcoverage" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Today%2bI%2bwill...%2bimprove%2btest%2bcoverage&body=https%253A%252F%252Fdevblogs.microsoft.com%252Fvisualstudio%252Ftoday-i-will-improve-test-coverage">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -237,7 +248,7 @@
     
       <img src="/images/dotnet.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -256,24 +267,24 @@
         <button type="button" class="topic-badge" data-topic-filter="testing">Testing</button>
       
     </div>
-    <p class="news-card__summary">Property-based testing is a powerful alternative to example-based testing. Instead of defining specific inputs and verifying their outcomes, you define properties that should always hold true. Let’s learn how to use …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following .NET and Testing.</p>
+    <p class="news-card__summary">Property-based testing is a powerful alternative to example-based testing. Instead of defining specific inputs and verifying their outcomes, you define properties that should …</p>
     <div class="news-card__footer">
       <a href="https://www.code4it.dev/blog/property-based-testing-fscheck" class="story-link" data-outbound>
-        Read on Code4IT →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Testing beyond your imagination: Property-based testing in C# with FsCheck">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.code4it.dev%252Fblog%252Fproperty-based-testing-fscheck" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.code4it.dev%252Fblog%252Fproperty-based-testing-fscheck&text=Testing%2bbeyond%2byour%2bimagination%253A%2bProperty-based%2btesting%2bin%2bC%2523%2bwith%2bFsCheck" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Testing%2bbeyond%2byour%2bimagination%253A%2bProperty-based%2btesting%2bin%2bC%2523%2bwith%2bFsCheck&body=https%253A%252F%252Fwww.code4it.dev%252Fblog%252Fproperty-based-testing-fscheck">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Code4IT</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Code4IT">Hide</button>
       </div>
     </div>
   </div>
@@ -293,7 +304,7 @@
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -311,27 +322,25 @@
       
         <button type="button" class="topic-badge" data-topic-filter="data">Data</button>
       
-        <button type="button" class="topic-badge" data-topic-filter="testing">Testing</button>
-      
     </div>
-    <p class="news-card__summary">Building cross-cloud solutions with best-of-breed cloud-native databases means learning multiple SDKs, translating queries, handling different errors, and testing across providers. The Multicloud DB SDK for Java lets you …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AI and Data.</p>
+    <p class="news-card__summary">Building cross-cloud solutions with best-of-breed cloud-native databases means learning multiple SDKs, translating queries, handling different errors, and testing across providers. …</p>
     <div class="news-card__footer">
       <a href="https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era" class="story-link" data-outbound>
-        Read on Microsoft Developer Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark MulticloudDB SDK: Cross-cloud portability in the coding agent era">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fcosmosdb%252Fmulticlouddb-sdk-cross-cloud-portability-in-the-coding-agent-era" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fcosmosdb%252Fmulticlouddb-sdk-cross-cloud-portability-in-the-coding-agent-era&text=MulticloudDB%2bSDK%253A%2bCross-cloud%2bportability%2bin%2bthe%2bcoding%2bagent%2bera" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=MulticloudDB%2bSDK%253A%2bCross-cloud%2bportability%2bin%2bthe%2bcoding%2bagent%2bera&body=https%253A%252F%252Fdevblogs.microsoft.com%252Fcosmosdb%252Fmulticlouddb-sdk-cross-cloud-portability-in-the-coding-agent-era">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -351,7 +360,7 @@
     
       <img src="https://i.ytimg.com/vi/X0UI0O8YzJM/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -369,28 +378,25 @@
       
         <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
       
-        <button type="button" class="topic-badge" data-topic-filter="testing">Testing</button>
-      
     </div>
-    <p class="news-card__summary">Learn more about Shift-Left Testing here → https://ibm.biz/~GjS7OaN8v AI can generate software faster than ever, but speed ...
-Worth a watch for developers following AI and Security. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI and Security.</p>
+    <p class="news-card__summary">Learn more about Shift-Left Testing here → https://ibm.biz/~GjS7OaN8v AI can generate software faster than ever, but speed ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=X0UI0O8YzJM" class="story-link" data-outbound>
-        Watch on IBM Technology Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark How Developers Secure AI-Generated Code: 5 Security Best Practices">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DX0UI0O8YzJM" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DX0UI0O8YzJM&text=How%2bDevelopers%2bSecure%2bAI-Generated%2bCode%253A%2b5%2bSecurity%2bBest%2bPractices" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=How%2bDevelopers%2bSecure%2bAI-Generated%2bCode%253A%2b5%2bSecurity%2bBest%2bPractices&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DX0UI0O8YzJM">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide IBM Technology Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from IBM Technology Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -410,7 +416,7 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -429,24 +435,24 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="testing">Testing</button>
       
     </div>
-    <p class="news-card__summary">When writing asynchronous methods, consider returning ValueTask instead of Task for performance-sensitive scenarios, especially when methods frequently complete synchronously. ValueTask can improve speed and reduce …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following .NET and Testing.</p>
+    <p class="news-card__summary">When writing asynchronous methods, consider returning ValueTask instead of Task for performance-sensitive scenarios, especially when methods frequently complete synchronously. …</p>
     <div class="news-card__footer">
       <a href="https://dotnettips.com/2026/09/13/task-vs-valuetask-reducing-async-allocations-and-boosting-performance" class="story-link" data-outbound>
-        Read on dotNetTips.com →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Task vs. ValueTask: Reducing Async Allocations and Boosting Performance">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdotnettips.com%252F2026%252F09%252F13%252Ftask-vs-valuetask-reducing-async-allocations-and-boosting-performance" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdotnettips.com%252F2026%252F09%252F13%252Ftask-vs-valuetask-reducing-async-allocations-and-boosting-performance&text=Task%2bvs.%2bValueTask%253A%2bReducing%2bAsync%2bAllocations%2band%2bBoosting%2bPerformance" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Task%2bvs.%2bValueTask%253A%2bReducing%2bAsync%2bAllocations%2band%2bBoosting%2bPerformance&body=https%253A%252F%252Fdotnettips.com%252F2026%252F09%252F13%252Ftask-vs-valuetask-reducing-async-allocations-and-boosting-performance">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide dotNetTips.com</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from dotNetTips.com">Hide</button>
       </div>
     </div>
   </div>
@@ -552,7 +558,7 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
 
   <script src="https://www.dotnetramblings.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
-<script src="/js/news.min.3e81207c75e89e54bbb472688e0a6351d4026f0106516881a856dd34e4a3a8ba4f8afb963ce9a8ec76573b90e8897e9815ac755837670f89609e448e5a7f2a43.js" integrity="sha512-PoEgfHXonlS7tHJojgpjUdQCbwEGUWiBqFbdNOSjqLpPivuWPOmo7HZXO5DoiX6YFax1WDdnD4lgnkSOWn8qQw==" crossorigin="anonymous"></script>
+<script src="/js/news.min.db922ba5bde3f4aeeeedd077c39d79e8d7032a5453bd8bb827a0eed64505376001c336decb337e743aaba9b1adc7ff163eef626f7c8e697b859dc3cf0560790a.js" integrity="sha512-25Irpb3j9K7u7dB3w5156NcDKlRTvYu4J6Du1kUFN2ABwzbeyzN&#43;dDqrqbGtx/8WPu9ib3yOaXuFncPPBWB5Cg==" crossorigin="anonymous"></script>
 
   </body>
 </html>

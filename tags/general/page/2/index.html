@@ -55,7 +55,7 @@
 
 <link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
 
-<link rel="stylesheet" href="/css/news.min.723bb5e7cc945632797cfd4b1962287341617c41695bb8793de5757944b864662bb72e1fbab1dc416b20c56593ff11dcb787f773f9c8d0a5169fc0356777e97a.css" integrity="sha512-cju158yUVjJ5fP1LGWIoc0FhfEFpW7h5PeV1eUS4ZGYrty4furHcQWsgxWWT/xHct4f3c/nI0KUWn8A1Z3fpeg==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/news.min.ecbc8af1c27b6a0583a5f389c9e85b999d0a01677593e47815fa9bf66a759b0fac9e596d45c4cd694c070bfe04af928f443f517b826c6492fb5898fef91a1469.css" integrity="sha512-7LyK8cJ7agWDpfOJyehbmZ0KAWd1k&#43;R4Ffqb9mp1mw&#43;snlltRcTNaUwHC/4Er5KPRD9Re4JsZJL7WJj&#43;&#43;RoUaQ==" crossorigin="anonymous">
 
   </head>
   <body
@@ -146,28 +146,39 @@
       <h1>General</h1>
       <p>39 stories about General.</p>
     </header>
-    <div class="discovery-panel">
-      <div class="filter-row" role="group" aria-label="Content type">
-        <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
-        <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
-        <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
-        <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
-      </div>
-      <div class="preference-row">
-        <label>
-          Search this topic
-          <input type="search" data-news-search placeholder="Title or source">
-        </label>
-        <label>
-          Card density
-          <select data-density>
-            <option value="comfortable">Comfortable</option>
-            <option value="compact">Compact</option>
-          </select>
-        </label>
-        <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
-      </div>
+    
+<div class="discovery-panel" data-discovery-controls>
+  <label class="search-control">
+    <span class="sr-only">Search</span>
+    <input type="search" data-news-search placeholder="Search this topic">
+  </label>
+  
+    <label class="select-control">
+      <span>Type</span>
+      <select data-type-select>
+        <option value="all">All content</option>
+        <option value="article">Articles</option>
+        <option value="video">Videos</option>
+      </select>
+    </label>
+  
+  
+  <button type="button" class="saved-filter" data-type-filter="bookmarks">☆ Saved</button>
+  <details class="browser-settings">
+    <summary aria-label="Display settings">Settings</summary>
+    <div>
+      <label>
+        Density
+        <select data-density>
+          <option value="comfortable">Comfortable</option>
+          <option value="compact">Compact</option>
+        </select>
+      </label>
+      <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
     </div>
+  </details>
+</div>
+
     <div class="news-grid" id="news-grid">
       
         
@@ -183,7 +194,7 @@
     
       <img src="https://i.ytimg.com/vi/ifJGeJPrrec/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -200,25 +211,24 @@
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">AGI gets talked about constantly, but what would it actually look like if we were getting close? Ulysses explores two signs ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">AGI gets talked about constantly, but what would it actually look like if we were getting close? Ulysses explores two signs ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=ifJGeJPrrec" class="story-link" data-outbound>
-        Watch on SSW TV | Videos for developers, by developers →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark The AGI Warning Sign Nobody Should Ignore | Ulysses Maclaren &amp;amp; Josh Berman">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DifJGeJPrrec" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DifJGeJPrrec&text=The%2bAGI%2bWarning%2bSign%2bNobody%2bShould%2bIgnore%2b%257C%2bUlysses%2bMaclaren%2b%2526amp%253B%2bJosh%2bBerman" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=The%2bAGI%2bWarning%2bSign%2bNobody%2bShould%2bIgnore%2b%257C%2bUlysses%2bMaclaren%2b%2526amp%253B%2bJosh%2bBerman&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DifJGeJPrrec">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide SSW TV | Videos for developers, by developers</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from SSW TV | Videos for developers, by developers">Hide</button>
       </div>
     </div>
   </div>
@@ -238,7 +248,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/dDE_iLNNBIA/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -255,25 +265,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Ve más allá de las herramientas tradicionales de MCP y descubre cómo llevar el protocolo a nuevos escenarios. Explora MCP ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Ve más allá de las herramientas tradicionales de MCP y descubre cómo llevar el protocolo a nuevos escenarios. Explora MCP ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=dDE_iLNNBIA" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Capacidades avanzadas de MCP: Apps, Tasks y WebMCP">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdDE_iLNNBIA" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdDE_iLNNBIA&text=Capacidades%2bavanzadas%2bde%2bMCP%253A%2bApps%252C%2bTasks%2by%2bWebMCP" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Capacidades%2bavanzadas%2bde%2bMCP%253A%2bApps%252C%2bTasks%2by%2bWebMCP&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdDE_iLNNBIA">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -293,7 +302,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/xT3VAGlHc4E/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -310,25 +319,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Aprender cómo implementar servidores y clientes MCP, exponer herramientas y recursos, y conectarlos con aplicaciones de IA.
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Aprender cómo implementar servidores y clientes MCP, exponer herramientas y recursos, y conectarlos con aplicaciones de IA.</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=xT3VAGlHc4E" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Construyendo servidores y clientes MCP">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DxT3VAGlHc4E" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DxT3VAGlHc4E&text=Construyendo%2bservidores%2by%2bclientes%2bMCP" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Construyendo%2bservidores%2by%2bclientes%2bMCP&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DxT3VAGlHc4E">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -348,7 +356,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -365,24 +373,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Proposal P0533R9 made numerous math functions in the standard library compile-time evaluable in C++23. Implementing the feature required a good bit of time and effort, but MSVC is preparing its experimental …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">Proposal P0533R9 made numerous math functions in the standard library compile-time evaluable in C++23. Implementing the feature required a good bit of time and effort, but MSVC is …</p>
     <div class="news-card__footer">
       <a href="https://devblogs.microsoft.com/cppblog/msvc-c23-constexpr-cmath-with-llvm-libc" class="story-link" data-outbound>
-        Read on Microsoft Developer Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark MSVC C&#43;&#43;23: constexpr cmath with LLVM Libc">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fcppblog%252Fmsvc-c23-constexpr-cmath-with-llvm-libc" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fcppblog%252Fmsvc-c23-constexpr-cmath-with-llvm-libc&text=MSVC%2bC%252B%252B23%253A%2bconstexpr%2bcmath%2bwith%2bLLVM%2bLibc" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=MSVC%2bC%252B%252B23%253A%2bconstexpr%2bcmath%2bwith%2bLLVM%2bLibc&body=https%253A%252F%252Fdevblogs.microsoft.com%252Fcppblog%252Fmsvc-c23-constexpr-cmath-with-llvm-libc">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -402,7 +410,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/BCQawSIzCpI/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -419,25 +427,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Conoce los fundamentos de MCP, sus elementos primitivos y los componentes que conforman su arquitectura, para entender ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Conoce los fundamentos de MCP, sus elementos primitivos y los componentes que conforman su arquitectura, para entender ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=BCQawSIzCpI" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Fundamentos y arquitectura de MCP">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DBCQawSIzCpI" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DBCQawSIzCpI&text=Fundamentos%2by%2barquitectura%2bde%2bMCP" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Fundamentos%2by%2barquitectura%2bde%2bMCP&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DBCQawSIzCpI">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -457,7 +464,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/sL-uMtgYhWY/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -474,25 +481,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Microsoft certifications can feel like a maze of exams, role-based certifications, specializations, and constantly evolving ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Microsoft certifications can feel like a maze of exams, role-based certifications, specializations, and constantly evolving ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=sL-uMtgYhWY" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Microsoft Certifications Explained!">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DsL-uMtgYhWY" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DsL-uMtgYhWY&text=Microsoft%2bCertifications%2bExplained%2521" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Microsoft%2bCertifications%2bExplained%2521&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DsL-uMtgYhWY">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -512,7 +518,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/nqQafMPG8gM/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -529,25 +535,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Who actually owns JavaScript – a company, a committee, or all of us? Aki Rose Braun (Ecma International) breaks it down from ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Who actually owns JavaScript – a company, a committee, or all of us? Aki Rose Braun (Ecma International) breaks it down from ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=nqQafMPG8gM" class="story-link" data-outbound>
-        Watch on Jetbrains TV →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Who owns JavaScript?">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DnqQafMPG8gM" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DnqQafMPG8gM&text=Who%2bowns%2bJavaScript%253F" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Who%2bowns%2bJavaScript%253F&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DnqQafMPG8gM">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Jetbrains TV</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Jetbrains TV">Hide</button>
       </div>
     </div>
   </div>
@@ -567,7 +572,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/_N7r60UvSGg/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -584,25 +589,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">IDEs and pizza have a lot in common. Why? Both bring the essentials together: dough, sauce, cheese, and toppings... and editing, ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">IDEs and pizza have a lot in common. Why? Both bring the essentials together: dough, sauce, cheese, and toppings... and editing, ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=_N7r60UvSGg" class="story-link" data-outbound>
-        Watch on Jetbrains TV →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Make a pizza and talk the future of IDEs with Ilya">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D_N7r60UvSGg" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D_N7r60UvSGg&text=Make%2ba%2bpizza%2band%2btalk%2bthe%2bfuture%2bof%2bIDEs%2bwith%2bIlya" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Make%2ba%2bpizza%2band%2btalk%2bthe%2bfuture%2bof%2bIDEs%2bwith%2bIlya&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D_N7r60UvSGg">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Jetbrains TV</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Jetbrains TV">Hide</button>
       </div>
     </div>
   </div>
@@ -622,7 +626,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -639,25 +643,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Learn how EF Core specifications can shape DTO projections, deliberate includes, tracking behavior, and single or split queries without over-fetching.
-Worth a read for developers following General. Link to article: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">Learn how EF Core specifications can shape DTO projections, deliberate includes, tracking behavior, and single or split queries without over-fetching.</p>
     <div class="news-card__footer">
       <a href="https://www.devleader.ca/2026/09/10/ef-core-specifications-for-includes-projection-and-tracking" class="story-link" data-outbound>
-        Read on Dev Leader →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark EF Core Specifications for Includes, Projection, and Tracking">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.devleader.ca%252F2026%252F09%252F10%252Fef-core-specifications-for-includes-projection-and-tracking" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.devleader.ca%252F2026%252F09%252F10%252Fef-core-specifications-for-includes-projection-and-tracking&text=EF%2bCore%2bSpecifications%2bfor%2bIncludes%252C%2bProjection%252C%2band%2bTracking" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=EF%2bCore%2bSpecifications%2bfor%2bIncludes%252C%2bProjection%252C%2band%2bTracking&body=https%253A%252F%252Fwww.devleader.ca%252F2026%252F09%252F10%252Fef-core-specifications-for-includes-projection-and-tracking">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Dev Leader</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Dev Leader">Hide</button>
       </div>
     </div>
   </div>
@@ -677,7 +680,7 @@ Worth a read for developers following General. Link to article: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -694,24 +697,24 @@ Worth a read for developers following General. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Register for the Meetup On September 15, the Zephyr community is coming together for an in-person meetup at the JetBrains office in Amsterdam. The Zephyr Project is an open-source collaboration project hosted by the …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following General.</p>
+    <p class="news-card__summary">Register for the Meetup On September 15, the Zephyr community is coming together for an in-person meetup at the JetBrains office in Amsterdam. The Zephyr Project is an open-source …</p>
     <div class="news-card__footer">
       <a href="https://blog.jetbrains.com/clion/2026/09/join-us-at-the-zephyr-project-meetup-in-amsterdam" class="story-link" data-outbound>
-        Read on The Jetbrains Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Join Us at the Zephyr Project Meetup in Amsterdam">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fblog.jetbrains.com%252Fclion%252F2026%252F09%252Fjoin-us-at-the-zephyr-project-meetup-in-amsterdam" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fblog.jetbrains.com%252Fclion%252F2026%252F09%252Fjoin-us-at-the-zephyr-project-meetup-in-amsterdam&text=Join%2bUs%2bat%2bthe%2bZephyr%2bProject%2bMeetup%2bin%2bAmsterdam" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Join%2bUs%2bat%2bthe%2bZephyr%2bProject%2bMeetup%2bin%2bAmsterdam&body=https%253A%252F%252Fblog.jetbrains.com%252Fclion%252F2026%252F09%252Fjoin-us-at-the-zephyr-project-meetup-in-amsterdam">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The Jetbrains Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The Jetbrains Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -731,7 +734,7 @@ Worth a read for developers following General. Link to article: …</p>
     
       <img src="https://i.ytimg.com/vi/gsYbbWaowEU/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -748,25 +751,24 @@ Worth a read for developers following General. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Every CPQ, CLM, and billing rollout I&#39;ve run wires Salesforce or Vlocity to DocuSign, Stripe or Zuora-type billing, and ERP through ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Every CPQ, CLM, and billing rollout I&#39;ve run wires Salesforce or Vlocity to DocuSign, Stripe or Zuora-type billing, and ERP through ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=gsYbbWaowEU" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark The Quote-to-Cash Blind Spot: Secret Scanning for Enterprise Revenue Systems">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DgsYbbWaowEU" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DgsYbbWaowEU&text=The%2bQuote-to-Cash%2bBlind%2bSpot%253A%2bSecret%2bScanning%2bfor%2bEnterprise%2bRevenue%2bSystems" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=The%2bQuote-to-Cash%2bBlind%2bSpot%253A%2bSecret%2bScanning%2bfor%2bEnterprise%2bRevenue%2bSystems&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DgsYbbWaowEU">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -786,7 +788,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/_VzwtDOqX0M/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -803,25 +805,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Toolboxes in Microsoft Foundry make MCP enterprise-ready. It supports runtime tool search, MCP skill extensions, and the latest ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Toolboxes in Microsoft Foundry make MCP enterprise-ready. It supports runtime tool search, MCP skill extensions, and the latest ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=_VzwtDOqX0M" class="story-link" data-outbound>
-        Watch on Microsoft Developer Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark A unified MCP layer with Toolboxes in Microsoft Foundry">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D_VzwtDOqX0M" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D_VzwtDOqX0M&text=A%2bunified%2bMCP%2blayer%2bwith%2bToolboxes%2bin%2bMicrosoft%2bFoundry" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=A%2bunified%2bMCP%2blayer%2bwith%2bToolboxes%2bin%2bMicrosoft%2bFoundry&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D_VzwtDOqX0M">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -841,7 +842,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/ylSrbsZXc54/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -858,25 +859,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Dynamic Client Registration made every MCP client mint a fresh client_id with every server it met, a per-server credential tax that ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Dynamic Client Registration made every MCP client mint a fresh client_id with every server it met, a per-server credential tax that ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=ylSrbsZXc54" class="story-link" data-outbound>
-        Watch on Microsoft Developer Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark MCP auth: Stop registering, Start linking">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DylSrbsZXc54" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DylSrbsZXc54&text=MCP%2bauth%253A%2bStop%2bregistering%252C%2bStart%2blinking" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=MCP%2bauth%253A%2bStop%2bregistering%252C%2bStart%2blinking&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DylSrbsZXc54">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -896,7 +896,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/lP93VxU76aI/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -913,25 +913,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Join Caitie McCaffrey for a look at the state of the Model Context Protocol and the major changes introduced in the latest ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Join Caitie McCaffrey for a look at the state of the Model Context Protocol and the major changes introduced in the latest ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=lP93VxU76aI" class="story-link" data-outbound>
-        Watch on Microsoft Developer Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark State of MCP">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DlP93VxU76aI" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DlP93VxU76aI&text=State%2bof%2bMCP" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=State%2bof%2bMCP&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DlP93VxU76aI">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -951,7 +950,7 @@ Worth a watch for developers following General. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/C81lgsW5kIA/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -968,25 +967,24 @@ Worth a watch for developers following General. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="general">General</button>
       
     </div>
-    <p class="news-card__summary">Chat is great, but sometimes the answer is a button, a chart, or a form. MCP Apps let servers render interactive interfaces directly ...
-Worth a watch for developers following General. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following General.</p>
+    <p class="news-card__summary">Chat is great, but sometimes the answer is a button, a chart, or a form. MCP Apps let servers render interactive interfaces directly ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=C81lgsW5kIA" class="story-link" data-outbound>
-        Watch on Microsoft Developer Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark When chatbots grow buttons: Building MCP apps with FastMCP">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DC81lgsW5kIA" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DC81lgsW5kIA&text=When%2bchatbots%2bgrow%2bbuttons%253A%2bBuilding%2bMCP%2bapps%2bwith%2bFastMCP" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=When%2bchatbots%2bgrow%2bbuttons%253A%2bBuilding%2bMCP%2bapps%2bwith%2bFastMCP&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DC81lgsW5kIA">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -1112,7 +1110,7 @@ Worth a watch for developers following General. Link to video: …</p>
 
   <script src="https://www.dotnetramblings.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
-<script src="/js/news.min.3e81207c75e89e54bbb472688e0a6351d4026f0106516881a856dd34e4a3a8ba4f8afb963ce9a8ec76573b90e8897e9815ac755837670f89609e448e5a7f2a43.js" integrity="sha512-PoEgfHXonlS7tHJojgpjUdQCbwEGUWiBqFbdNOSjqLpPivuWPOmo7HZXO5DoiX6YFax1WDdnD4lgnkSOWn8qQw==" crossorigin="anonymous"></script>
+<script src="/js/news.min.db922ba5bde3f4aeeeedd077c39d79e8d7032a5453bd8bb827a0eed64505376001c336decb337e743aaba9b1adc7ff163eef626f7c8e697b859dc3cf0560790a.js" integrity="sha512-25Irpb3j9K7u7dB3w5156NcDKlRTvYu4J6Du1kUFN2ABwzbeyzN&#43;dDqrqbGtx/8WPu9ib3yOaXuFncPPBWB5Cg==" crossorigin="anonymous"></script>
 
   </body>
 </html>

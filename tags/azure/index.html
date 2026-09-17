@@ -55,7 +55,7 @@
 
 <link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
 
-<link rel="stylesheet" href="/css/news.min.723bb5e7cc945632797cfd4b1962287341617c41695bb8793de5757944b864662bb72e1fbab1dc416b20c56593ff11dcb787f773f9c8d0a5169fc0356777e97a.css" integrity="sha512-cju158yUVjJ5fP1LGWIoc0FhfEFpW7h5PeV1eUS4ZGYrty4furHcQWsgxWWT/xHct4f3c/nI0KUWn8A1Z3fpeg==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/news.min.ecbc8af1c27b6a0583a5f389c9e85b999d0a01677593e47815fa9bf66a759b0fac9e596d45c4cd694c070bfe04af928f443f517b826c6492fb5898fef91a1469.css" integrity="sha512-7LyK8cJ7agWDpfOJyehbmZ0KAWd1k&#43;R4Ffqb9mp1mw&#43;snlltRcTNaUwHC/4Er5KPRD9Re4JsZJL7WJj&#43;&#43;RoUaQ==" crossorigin="anonymous">
 
   </head>
   <body
@@ -146,28 +146,39 @@
       <h1>Azure</h1>
       <p>18 stories about Azure.</p>
     </header>
-    <div class="discovery-panel">
-      <div class="filter-row" role="group" aria-label="Content type">
-        <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
-        <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
-        <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
-        <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
-      </div>
-      <div class="preference-row">
-        <label>
-          Search this topic
-          <input type="search" data-news-search placeholder="Title or source">
-        </label>
-        <label>
-          Card density
-          <select data-density>
-            <option value="comfortable">Comfortable</option>
-            <option value="compact">Compact</option>
-          </select>
-        </label>
-        <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
-      </div>
+    
+<div class="discovery-panel" data-discovery-controls>
+  <label class="search-control">
+    <span class="sr-only">Search</span>
+    <input type="search" data-news-search placeholder="Search this topic">
+  </label>
+  
+    <label class="select-control">
+      <span>Type</span>
+      <select data-type-select>
+        <option value="all">All content</option>
+        <option value="article">Articles</option>
+        <option value="video">Videos</option>
+      </select>
+    </label>
+  
+  
+  <button type="button" class="saved-filter" data-type-filter="bookmarks">☆ Saved</button>
+  <details class="browser-settings">
+    <summary aria-label="Display settings">Settings</summary>
+    <div>
+      <label>
+        Density
+        <select data-density>
+          <option value="comfortable">Comfortable</option>
+          <option value="compact">Compact</option>
+        </select>
+      </label>
+      <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
     </div>
+  </details>
+</div>
+
     <div class="news-grid" id="news-grid">
       
         
@@ -183,7 +194,7 @@
     
       <img src="https://i.ytimg.com/vi/c1QQp9KrRSY/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -202,25 +213,24 @@
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Part of the Modern AI Apps with Azure Cosmos DB Series. Modern AI apps need chat history, vector search, state management, ...
-Worth a watch for developers following Azure and AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure and AI.</p>
+    <p class="news-card__summary">Part of the Modern AI Apps with Azure Cosmos DB Series. Modern AI apps need chat history, vector search, state management, ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=c1QQp9KrRSY" class="story-link" data-outbound>
-        Watch on Azure Cosmos Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Building AI Apps Faster with Agentic Coding and Azure Cosmos DB">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dc1QQp9KrRSY" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dc1QQp9KrRSY&text=Building%2bAI%2bApps%2bFaster%2bwith%2bAgentic%2bCoding%2band%2bAzure%2bCosmos%2bDB" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Building%2bAI%2bApps%2bFaster%2bwith%2bAgentic%2bCoding%2band%2bAzure%2bCosmos%2bDB&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dc1QQp9KrRSY">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Azure Cosmos Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Azure Cosmos Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -240,7 +250,7 @@ Worth a watch for developers following Azure and AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/vQPCLpPLuRg/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -259,25 +269,24 @@ Worth a watch for developers following Azure and AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Part of the Modern AI Apps with Azure Cosmos DB Series. Modern AI apps need chat history, vector search, state management, ...
-Worth a watch for developers following Azure and AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure and AI.</p>
+    <p class="news-card__summary">Part of the Modern AI Apps with Azure Cosmos DB Series. Modern AI apps need chat history, vector search, state management, ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=vQPCLpPLuRg" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Building AI Apps Faster with Agentic Coding and Azure Cosmos DB">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DvQPCLpPLuRg" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DvQPCLpPLuRg&text=Building%2bAI%2bApps%2bFaster%2bwith%2bAgentic%2bCoding%2band%2bAzure%2bCosmos%2bDB" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Building%2bAI%2bApps%2bFaster%2bwith%2bAgentic%2bCoding%2band%2bAzure%2bCosmos%2bDB&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DvQPCLpPLuRg">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -297,7 +306,7 @@ Worth a watch for developers following Azure and AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/CCwAKJD6Vok/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -314,25 +323,24 @@ Worth a watch for developers following Azure and AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="azure">Azure</button>
       
     </div>
-    <p class="news-card__summary">Microsoft finally added Backup and Recovery to Entra ID… but it&#39;s NOT the backup most admins think it is. WATCH NEXT ...
-Worth a watch for developers following Azure. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure.</p>
+    <p class="news-card__summary">Microsoft finally added Backup and Recovery to Entra ID… but it&#39;s NOT the backup most admins think it is. WATCH NEXT ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=CCwAKJD6Vok" class="story-link" data-outbound>
-        Watch on Azure Academy →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Entra ID Backup Is Not What You Expected #SHORTS">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DCCwAKJD6Vok" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DCCwAKJD6Vok&text=Entra%2bID%2bBackup%2bIs%2bNot%2bWhat%2bYou%2bExpected%2b%2523SHORTS" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Entra%2bID%2bBackup%2bIs%2bNot%2bWhat%2bYou%2bExpected%2b%2523SHORTS&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DCCwAKJD6Vok">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Azure Academy</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Azure Academy">Hide</button>
       </div>
     </div>
   </div>
@@ -352,7 +360,7 @@ Worth a watch for developers following Azure. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/-jBHU8oB_hE/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -371,25 +379,24 @@ Worth a watch for developers following Azure. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="architecture">Architecture</button>
       
     </div>
-    <p class="news-card__summary">How can we ensure that utility-scale quantum computing will enable positive global impacts while minimizing risks? In Lecture 8 ...
-Worth a watch for developers following Azure and Architecture. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure and Architecture.</p>
+    <p class="news-card__summary">How can we ensure that utility-scale quantum computing will enable positive global impacts while minimizing risks? In Lecture 8 ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=-jBHU8oB_hE" class="story-link" data-outbound>
-        Watch on Microsoft Azure Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Building the Modern Quantum Architecture—Lecture 8: Responsible Computing with Utility-Scale Quantum">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D-jBHU8oB_hE" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D-jBHU8oB_hE&text=Building%2bthe%2bModern%2bQuantum%2bArchitecture%25E2%2580%2594Lecture%2b8%253A%2bResponsible%2bComputing%2bwith%2bUtility-Scale%2bQuantum" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Building%2bthe%2bModern%2bQuantum%2bArchitecture%25E2%2580%2594Lecture%2b8%253A%2bResponsible%2bComputing%2bwith%2bUtility-Scale%2bQuantum&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D-jBHU8oB_hE">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Azure Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Azure Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -409,7 +416,7 @@ Worth a watch for developers following Azure and Architecture. Link to video: �
     
       <img src="/images/azure.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -427,27 +434,25 @@ Worth a watch for developers following Azure and Architecture. Link to video: �
       
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
-        <button type="button" class="topic-badge" data-topic-filter="data">Data</button>
-      
     </div>
-    <p class="news-card__summary">The engineering journey behind an Azure Managed Redis migration for Copilot Studio agent flows Microsoft Copilot Studio helps organizations build agents and automate business processes. Agent flows let those agents carry …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following Azure and AI.</p>
+    <p class="news-card__summary">The engineering journey behind an Azure Managed Redis migration for Copilot Studio agent flows Microsoft Copilot Studio helps organizations build agents and automate business …</p>
     <div class="news-card__footer">
       <a href="https://devblogs.microsoft.com/powerplatform/azure-managed-redis-migration" class="story-link" data-outbound>
-        Read on Microsoft Developer Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark From Redis pressure to a healthier service">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fpowerplatform%252Fazure-managed-redis-migration" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fpowerplatform%252Fazure-managed-redis-migration&text=From%2bRedis%2bpressure%2bto%2ba%2bhealthier%2bservice" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=From%2bRedis%2bpressure%2bto%2ba%2bhealthier%2bservice&body=https%253A%252F%252Fdevblogs.microsoft.com%252Fpowerplatform%252Fazure-managed-redis-migration">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -467,7 +472,7 @@ Worth a watch for developers following Azure and Architecture. Link to video: �
     
       <img src="https://i.ytimg.com/vi/CajZaMLcM4Y/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -484,25 +489,24 @@ Worth a watch for developers following Azure and Architecture. Link to video: �
         <button type="button" class="topic-badge" data-topic-filter="azure">Azure</button>
       
     </div>
-    <p class="news-card__summary">Entra ID Admins, Microsoft quietly pulled the plug on legacy MFA and SSPR… but most environments are still running on ...
-Worth a watch for developers following Azure. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure.</p>
+    <p class="news-card__summary">Entra ID Admins, Microsoft quietly pulled the plug on legacy MFA and SSPR… but most environments are still running on ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=CajZaMLcM4Y" class="story-link" data-outbound>
-        Watch on Azure Academy →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Why hackers love your text message codes">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DCajZaMLcM4Y" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DCajZaMLcM4Y&text=Why%2bhackers%2blove%2byour%2btext%2bmessage%2bcodes" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Why%2bhackers%2blove%2byour%2btext%2bmessage%2bcodes&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DCajZaMLcM4Y">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Azure Academy</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Azure Academy">Hide</button>
       </div>
     </div>
   </div>
@@ -522,7 +526,7 @@ Worth a watch for developers following Azure. Link to video: …</p>
     
       <img src="/images/azure.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -540,27 +544,25 @@ Worth a watch for developers following Azure. Link to video: …</p>
       
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
-        <button type="button" class="topic-badge" data-topic-filter="data">Data</button>
-      
     </div>
-    <p class="news-card__summary">I went looking for Azure SQL Database in a recent coding agent benchmark, honestly unsure whether Microsoft SQL would show up. Armature ran a study where real coding agent CLIs (Claude Code, Codex, Cursor) were dropped …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following Azure and AI.</p>
+    <p class="news-card__summary">I went looking for Azure SQL Database in a recent coding agent benchmark, honestly unsure whether Microsoft SQL would show up. Armature ran a study where real coding agent CLIs …</p>
     <div class="news-card__footer">
       <a href="https://devblogs.microsoft.com/azure-sql/coding-agents-are-picking-azure-sql-database" class="story-link" data-outbound>
-        Read on Microsoft Developer Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Coding agents are picking Azure SQL Database">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fazure-sql%252Fcoding-agents-are-picking-azure-sql-database" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Fazure-sql%252Fcoding-agents-are-picking-azure-sql-database&text=Coding%2bagents%2bare%2bpicking%2bAzure%2bSQL%2bDatabase" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Coding%2bagents%2bare%2bpicking%2bAzure%2bSQL%2bDatabase&body=https%253A%252F%252Fdevblogs.microsoft.com%252Fazure-sql%252Fcoding-agents-are-picking-azure-sql-database">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -580,7 +582,7 @@ Worth a watch for developers following Azure. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/M7KtWz5WADY/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -597,25 +599,24 @@ Worth a watch for developers following Azure. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="azure">Azure</button>
       
     </div>
-    <p class="news-card__summary">Entra ID Admins, Microsoft quietly pulled the plug on legacy MFA and SSPR… but most environments are still running on ...
-Worth a watch for developers following Azure. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure.</p>
+    <p class="news-card__summary">Entra ID Admins, Microsoft quietly pulled the plug on legacy MFA and SSPR… but most environments are still running on ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=M7KtWz5WADY" class="story-link" data-outbound>
-        Watch on Azure Academy →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Entra ID Admin Sneaky Problems">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DM7KtWz5WADY" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DM7KtWz5WADY&text=Entra%2bID%2bAdmin%2bSneaky%2bProblems" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Entra%2bID%2bAdmin%2bSneaky%2bProblems&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DM7KtWz5WADY">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Azure Academy</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Azure Academy">Hide</button>
       </div>
     </div>
   </div>
@@ -635,7 +636,7 @@ Worth a watch for developers following Azure. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/C6CkxsjjEas/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -652,25 +653,24 @@ Worth a watch for developers following Azure. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="azure">Azure</button>
       
     </div>
-    <p class="news-card__summary">Really quick update! Charity event URL at https://give.curechildhoodcancer.org/fundraiser/7465401 Looking for content on a ...
-Worth a watch for developers following Azure. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure.</p>
+    <p class="news-card__summary">Really quick update! Charity event URL at https://give.curechildhoodcancer.org/fundraiser/7465401 Looking for content on a ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=C6CkxsjjEas" class="story-link" data-outbound>
-        Watch on John Savill&#39;s Technical Training →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Azure Weekly Update - 11th September 2026">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DC6CkxsjjEas" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DC6CkxsjjEas&text=Azure%2bWeekly%2bUpdate%2b-%2b11th%2bSeptember%2b2026" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Azure%2bWeekly%2bUpdate%2b-%2b11th%2bSeptember%2b2026&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DC6CkxsjjEas">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide John Savill&#39;s Technical Training</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from John Savill&#39;s Technical Training">Hide</button>
       </div>
     </div>
   </div>
@@ -690,7 +690,7 @@ Worth a watch for developers following Azure. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/Yy7Cvkccq4o/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -707,25 +707,24 @@ Worth a watch for developers following Azure. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="azure">Azure</button>
       
     </div>
-    <p class="news-card__summary">Entra ID Admins, Microsoft quietly pulled the plug on legacy MFA and SSPR… but most environments are still running on ...
-Worth a watch for developers following Azure. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure.</p>
+    <p class="news-card__summary">Entra ID Admins, Microsoft quietly pulled the plug on legacy MFA and SSPR… but most environments are still running on ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=Yy7Cvkccq4o" class="story-link" data-outbound>
-        Watch on Azure Academy →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Microsoft Azure SSPR Migration Is Easier Apples">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DYy7Cvkccq4o" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DYy7Cvkccq4o&text=Microsoft%2bAzure%2bSSPR%2bMigration%2bIs%2bEasier%2bApples" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Microsoft%2bAzure%2bSSPR%2bMigration%2bIs%2bEasier%2bApples&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DYy7Cvkccq4o">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Azure Academy</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Azure Academy">Hide</button>
       </div>
     </div>
   </div>
@@ -745,7 +744,7 @@ Worth a watch for developers following Azure. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/rpK3ryHcT5I/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -764,25 +763,24 @@ Worth a watch for developers following Azure. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
       
     </div>
-    <p class="news-card__summary">This session makes the case for &amp;quot;guardrails, not gates&amp;quot;: governance that&#39;s built into the platform itself rather than bolted on ...
-Worth a watch for developers following Azure and Security. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure and Security.</p>
+    <p class="news-card__summary">This session makes the case for &#34;guardrails, not gates&#34;: governance that&#39;s built into the platform itself rather than bolted on ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=rpK3ryHcT5I" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Governance at Scale: Enforcing Network Security Baselines with Azure Policy &amp;amp; Landing Zones">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DrpK3ryHcT5I" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DrpK3ryHcT5I&text=Governance%2bat%2bScale%253A%2bEnforcing%2bNetwork%2bSecurity%2bBaselines%2bwith%2bAzure%2bPolicy%2b%2526amp%253B%2bLanding%2bZones" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Governance%2bat%2bScale%253A%2bEnforcing%2bNetwork%2bSecurity%2bBaselines%2bwith%2bAzure%2bPolicy%2b%2526amp%253B%2bLanding%2bZones&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DrpK3ryHcT5I">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -802,7 +800,7 @@ Worth a watch for developers following Azure and Security. Link to video: …</p
     
       <img src="/images/azure.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -821,24 +819,24 @@ Worth a watch for developers following Azure and Security. Link to video: …</p
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Azure AI Speech continues to deliver regular improvements to LLM Speech throughout the year, helping developers build more accurate and capable voice experiences. We’re announcing LLM Speech 2607, our latest model …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following Azure and AI.</p>
+    <p class="news-card__summary">Azure AI Speech continues to deliver regular improvements to LLM Speech throughout the year, helping developers build more accurate and capable voice experiences. We’re announcing …</p>
     <div class="news-card__footer">
       <a href="https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607" class="story-link" data-outbound>
-        Read on Microsoft Developer Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Ffoundry%252Fannouncing-azure-ai-speech-llm-2607" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Ffoundry%252Fannouncing-azure-ai-speech-llm-2607&text=Announcing%2bAzure%2bAI%2bSpeech%2bLLM%2b2607%253A%2bBetter%2bMultilingual%2bAccuracy%252C%2bEasier%2bCustomization" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Announcing%2bAzure%2bAI%2bSpeech%2bLLM%2b2607%253A%2bBetter%2bMultilingual%2bAccuracy%252C%2bEasier%2bCustomization&body=https%253A%252F%252Fdevblogs.microsoft.com%252Ffoundry%252Fannouncing-azure-ai-speech-llm-2607">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -858,7 +856,7 @@ Worth a watch for developers following Azure and Security. Link to video: …</p
     
       <img src="https://i.ytimg.com/vi/romAMrrpdmw/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -877,26 +875,24 @@ Worth a watch for developers following Azure and Security. Link to video: …</p
         <button type="button" class="topic-badge" data-topic-filter="data">Data</button>
       
     </div>
-    <p class="news-card__summary">Link to article: https://www.youtube.com/watch?v=romAMrrpdmw
-Worth a watch for developers following Azure and Data.
-Link to video: https://www.youtube.com/watch?v=romAMrrpdmw</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure and Data.</p>
+    <p class="news-card__summary">- Link to article: https://www.youtube.com/watch?v=romAMrrpdmw</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=romAMrrpdmw" class="story-link" data-outbound>
-        Watch on Microsoft Developer Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Trailer: Azure SQL Database Foundations">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DromAMrrpdmw" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DromAMrrpdmw&text=Trailer%253A%2bAzure%2bSQL%2bDatabase%2bFoundations" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Trailer%253A%2bAzure%2bSQL%2bDatabase%2bFoundations&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DromAMrrpdmw">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -916,7 +912,7 @@ Link to video: https://www.youtube.com/watch?v=romAMrrpdmw</p>
     
       <img src="https://i.ytimg.com/vi/q2FXWZ8Ve0k/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -935,25 +931,24 @@ Link to video: https://www.youtube.com/watch?v=romAMrrpdmw</p>
         <button type="button" class="topic-badge" data-topic-filter="data">Data</button>
       
     </div>
-    <p class="news-card__summary">Automatic index compaction (currently in public preview across Azure SQL DB, MI, and SQL database in Fabric) is a game ...
-Worth a watch for developers following Azure and Data. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure and Data.</p>
+    <p class="news-card__summary">Automatic index compaction (currently in public preview across Azure SQL DB, MI, and SQL database in Fabric) is a game ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=q2FXWZ8Ve0k" class="story-link" data-outbound>
-        Watch on Microsoft Developer Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark The End of Index Maintenance? | Data Exposed">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dq2FXWZ8Ve0k" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dq2FXWZ8Ve0k&text=The%2bEnd%2bof%2bIndex%2bMaintenance%253F%2b%257C%2bData%2bExposed" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=The%2bEnd%2bof%2bIndex%2bMaintenance%253F%2b%257C%2bData%2bExposed&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dq2FXWZ8Ve0k">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -973,7 +968,7 @@ Worth a watch for developers following Azure and Data. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/FgIS96IfKjU/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -990,25 +985,24 @@ Worth a watch for developers following Azure and Data. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="azure">Azure</button>
       
     </div>
-    <p class="news-card__summary">Learn how Azure Cosmos DB capacity modes work in this practical comparison of provisioned throughput vs. serverless. Discover ...
-Worth a watch for developers following Azure. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure.</p>
+    <p class="news-card__summary">Learn how Azure Cosmos DB capacity modes work in this practical comparison of provisioned throughput vs. serverless. Discover ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=FgIS96IfKjU" class="story-link" data-outbound>
-        Watch on Azure Cosmos Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Azure Cosmos DB Capacity Modes Explained: Provisioned vs Serverless">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DFgIS96IfKjU" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DFgIS96IfKjU&text=Azure%2bCosmos%2bDB%2bCapacity%2bModes%2bExplained%253A%2bProvisioned%2bvs%2bServerless" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Azure%2bCosmos%2bDB%2bCapacity%2bModes%2bExplained%253A%2bProvisioned%2bvs%2bServerless&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DFgIS96IfKjU">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Azure Cosmos Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Azure Cosmos Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -1028,7 +1022,7 @@ Worth a watch for developers following Azure. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/Vtj7NShFnvE/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1045,25 +1039,24 @@ Worth a watch for developers following Azure. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="azure">Azure</button>
       
     </div>
-    <p class="news-card__summary">Entra ID Admins, Microsoft quietly pulled the plug on legacy MFA and SSPR… but most environments are still running on ...
-Worth a watch for developers following Azure. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure.</p>
+    <p class="news-card__summary">Entra ID Admins, Microsoft quietly pulled the plug on legacy MFA and SSPR… but most environments are still running on ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=Vtj7NShFnvE" class="story-link" data-outbound>
-        Watch on Azure Academy →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Microsoft Azure Self Service Password Reset Migration">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DVtj7NShFnvE" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DVtj7NShFnvE&text=Microsoft%2bAzure%2bSelf%2bService%2bPassword%2bReset%2bMigration" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Microsoft%2bAzure%2bSelf%2bService%2bPassword%2bReset%2bMigration&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DVtj7NShFnvE">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Azure Academy</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Azure Academy">Hide</button>
       </div>
     </div>
   </div>
@@ -1083,7 +1076,7 @@ Worth a watch for developers following Azure. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/kxEsD9osBuU/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1102,25 +1095,24 @@ Worth a watch for developers following Azure. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">In this episode of New Breakpoint, Michelle Sandford sits down with Nirmal Thewarathanthri to explore how Azure SRE Agent ...
-Worth a watch for developers following Azure and AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure and AI.</p>
+    <p class="news-card__summary">In this episode of New Breakpoint, Michelle Sandford sits down with Nirmal Thewarathanthri to explore how Azure SRE Agent ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=kxEsD9osBuU" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Azure SRE Agent and App Modernisation with GitHub Copilot">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DkxEsD9osBuU" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DkxEsD9osBuU&text=Azure%2bSRE%2bAgent%2band%2bApp%2bModernisation%2bwith%2bGitHub%2bCopilot" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Azure%2bSRE%2bAgent%2band%2bApp%2bModernisation%2bwith%2bGitHub%2bCopilot&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DkxEsD9osBuU">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -1140,7 +1132,7 @@ Worth a watch for developers following Azure and AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/l1s-__qiXiU/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1159,25 +1151,24 @@ Worth a watch for developers following Azure and AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">AI agents are transforming how applications interact with data, systems, and users. In this session, discover the latest Microsoft AI ...
-Worth a watch for developers following Azure and AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure and AI.</p>
+    <p class="news-card__summary">AI agents are transforming how applications interact with data, systems, and users. In this session, discover the latest Microsoft AI ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=l1s-__qiXiU" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Learn Azure in Hong Kong | Build, Run, and Govern AI Agents on Azure">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dl1s-__qiXiU" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dl1s-__qiXiU&text=Learn%2bAzure%2bin%2bHong%2bKong%2b%257C%2bBuild%252C%2bRun%252C%2band%2bGovern%2bAI%2bAgents%2bon%2bAzure" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Learn%2bAzure%2bin%2bHong%2bKong%2b%257C%2bBuild%252C%2bRun%252C%2band%2bGovern%2bAI%2bAgents%2bon%2bAzure&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dl1s-__qiXiU">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -1283,7 +1274,7 @@ Worth a watch for developers following Azure and AI. Link to video: …</p>
 
   <script src="https://www.dotnetramblings.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
-<script src="/js/news.min.3e81207c75e89e54bbb472688e0a6351d4026f0106516881a856dd34e4a3a8ba4f8afb963ce9a8ec76573b90e8897e9815ac755837670f89609e448e5a7f2a43.js" integrity="sha512-PoEgfHXonlS7tHJojgpjUdQCbwEGUWiBqFbdNOSjqLpPivuWPOmo7HZXO5DoiX6YFax1WDdnD4lgnkSOWn8qQw==" crossorigin="anonymous"></script>
+<script src="/js/news.min.db922ba5bde3f4aeeeedd077c39d79e8d7032a5453bd8bb827a0eed64505376001c336decb337e743aaba9b1adc7ff163eef626f7c8e697b859dc3cf0560790a.js" integrity="sha512-25Irpb3j9K7u7dB3w5156NcDKlRTvYu4J6Du1kUFN2ABwzbeyzN&#43;dDqrqbGtx/8WPu9ib3yOaXuFncPPBWB5Cg==" crossorigin="anonymous"></script>
 
   </body>
 </html>

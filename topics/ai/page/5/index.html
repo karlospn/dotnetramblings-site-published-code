@@ -55,7 +55,7 @@
 
 <link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
 
-<link rel="stylesheet" href="/css/news.min.723bb5e7cc945632797cfd4b1962287341617c41695bb8793de5757944b864662bb72e1fbab1dc416b20c56593ff11dcb787f773f9c8d0a5169fc0356777e97a.css" integrity="sha512-cju158yUVjJ5fP1LGWIoc0FhfEFpW7h5PeV1eUS4ZGYrty4furHcQWsgxWWT/xHct4f3c/nI0KUWn8A1Z3fpeg==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/news.min.ecbc8af1c27b6a0583a5f389c9e85b999d0a01677593e47815fa9bf66a759b0fac9e596d45c4cd694c070bfe04af928f443f517b826c6492fb5898fef91a1469.css" integrity="sha512-7LyK8cJ7agWDpfOJyehbmZ0KAWd1k&#43;R4Ffqb9mp1mw&#43;snlltRcTNaUwHC/4Er5KPRD9Re4JsZJL7WJj&#43;&#43;RoUaQ==" crossorigin="anonymous">
 
   </head>
   <body
@@ -146,28 +146,39 @@
       <h1>AI</h1>
       <p>121 stories about AI.</p>
     </header>
-    <div class="discovery-panel">
-      <div class="filter-row" role="group" aria-label="Content type">
-        <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
-        <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
-        <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
-        <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
-      </div>
-      <div class="preference-row">
-        <label>
-          Search this topic
-          <input type="search" data-news-search placeholder="Title or source">
-        </label>
-        <label>
-          Card density
-          <select data-density>
-            <option value="comfortable">Comfortable</option>
-            <option value="compact">Compact</option>
-          </select>
-        </label>
-        <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
-      </div>
+    
+<div class="discovery-panel" data-discovery-controls>
+  <label class="search-control">
+    <span class="sr-only">Search</span>
+    <input type="search" data-news-search placeholder="Search this topic">
+  </label>
+  
+    <label class="select-control">
+      <span>Type</span>
+      <select data-type-select>
+        <option value="all">All content</option>
+        <option value="article">Articles</option>
+        <option value="video">Videos</option>
+      </select>
+    </label>
+  
+  
+  <button type="button" class="saved-filter" data-type-filter="bookmarks">☆ Saved</button>
+  <details class="browser-settings">
+    <summary aria-label="Display settings">Settings</summary>
+    <div>
+      <label>
+        Density
+        <select data-density>
+          <option value="comfortable">Comfortable</option>
+          <option value="compact">Compact</option>
+        </select>
+      </label>
+      <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
     </div>
+  </details>
+</div>
+
     <div class="news-grid" id="news-grid">
       
         
@@ -183,7 +194,7 @@
     
       <img src="https://i.ytimg.com/vi/SNhmFJzieR4/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -200,25 +211,24 @@
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Zack Reneau-Wedeen, Head of Product at Sierra, pushes back on the default reach for multi-agent systems. When agents are ...
-Worth a watch for developers following AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI.</p>
+    <p class="news-card__summary">Zack Reneau-Wedeen, Head of Product at Sierra, pushes back on the default reach for multi-agent systems. When agents are ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=SNhmFJzieR4" class="story-link" data-outbound>
-        Watch on LangChain Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Why Sierra uses one agent per brand instead of multi-agent systems">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSNhmFJzieR4" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSNhmFJzieR4&text=Why%2bSierra%2buses%2bone%2bagent%2bper%2bbrand%2binstead%2bof%2bmulti-agent%2bsystems" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Why%2bSierra%2buses%2bone%2bagent%2bper%2bbrand%2binstead%2bof%2bmulti-agent%2bsystems&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DSNhmFJzieR4">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide LangChain Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from LangChain Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -238,7 +248,7 @@ Worth a watch for developers following AI. Link to video: …</p>
     
       <img src="/images/aws.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -257,24 +267,24 @@ Worth a watch for developers following AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Learn how to build an end-to-end RFI questionnaire workflow with Amazon Quick Automate. Read a multi-tab RFI workbook from Amazon S3, use natural-language prompts to extract and structure the questionnaire data, refine …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AWS and AI.</p>
+    <p class="news-card__summary">Learn how to build an end-to-end RFI questionnaire workflow with Amazon Quick Automate. Read a multi-tab RFI workbook from Amazon S3, use natural-language prompts to extract and …</p>
     <div class="news-card__footer">
       <a href="https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate" class="story-link" data-outbound>
-        Read on AWS Machine Learning Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fbuild-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fbuild-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate&text=Build%2ban%2bend-to-end%2bRFI%2bquestionnaire%2bworkflow%2busing%2bAmazon%2bQuick%2bAutomate" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Build%2ban%2bend-to-end%2bRFI%2bquestionnaire%2bworkflow%2busing%2bAmazon%2bQuick%2bAutomate&body=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fbuild-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide AWS Machine Learning Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from AWS Machine Learning Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -294,7 +304,7 @@ Worth a watch for developers following AI. Link to video: …</p>
     
       <img src="/images/aws.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -313,24 +323,24 @@ Worth a watch for developers following AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to detect live in a prompt rather than in code, one detector adapts to new entity …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AWS and AI.</p>
+    <p class="news-card__summary">A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to detect live in a prompt rather than in …</p>
     <div class="news-card__footer">
       <a href="https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms" class="story-link" data-outbound>
-        Read on AWS Machine Learning Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Model-agnostic PII detection with LLMs">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fmodel-agnostic-pii-detection-with-llms" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fmodel-agnostic-pii-detection-with-llms&text=Model-agnostic%2bPII%2bdetection%2bwith%2bLLMs" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Model-agnostic%2bPII%2bdetection%2bwith%2bLLMs&body=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fmodel-agnostic-pii-detection-with-llms">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide AWS Machine Learning Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from AWS Machine Learning Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -350,7 +360,7 @@ Worth a watch for developers following AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/ahK9hZ7L-Kc/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -369,25 +379,24 @@ Worth a watch for developers following AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
       
     </div>
-    <p class="news-card__summary">AI agents don&#39;t see rule-breaking the way humans do. Learn why security requires enforcement, not guidelines, and what ...
-Worth a watch for developers following AI and Security. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI and Security.</p>
+    <p class="news-card__summary">AI agents don&#39;t see rule-breaking the way humans do. Learn why security requires enforcement, not guidelines, and what ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=ahK9hZ7L-Kc" class="story-link" data-outbound>
-        Watch on IBM Technology Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Why AI Agents Don&amp;#39;t Think They&amp;#39;re Cheating">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DahK9hZ7L-Kc" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DahK9hZ7L-Kc&text=Why%2bAI%2bAgents%2bDon%2526%252339%253Bt%2bThink%2bThey%2526%252339%253Bre%2bCheating" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Why%2bAI%2bAgents%2bDon%2526%252339%253Bt%2bThink%2bThey%2526%252339%253Bre%2bCheating&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DahK9hZ7L-Kc">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide IBM Technology Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from IBM Technology Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -407,7 +416,7 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
     
       <img src="/images/ai.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -424,25 +433,24 @@ Worth a watch for developers following AI and Security. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.
-Worth a read for developers following AI. Link to article: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AI.</p>
+    <p class="news-card__summary">César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.</p>
     <div class="news-card__footer">
       <a href="https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials" class="story-link" data-outbound>
-        Read on The OpenAI Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fopenai.com%252Findex%252Fusing-codex-chatgpt-to-search-for-new-antimicrobials" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fopenai.com%252Findex%252Fusing-codex-chatgpt-to-search-for-new-antimicrobials&text=How%2ba%2bresearcher%2buses%2bCodex%2band%2bChatGPT%2bto%2bsearch%2bfor%2bnew%2bantimicrobial%2bmolecules" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=How%2ba%2bresearcher%2buses%2bCodex%2band%2bChatGPT%2bto%2bsearch%2bfor%2bnew%2bantimicrobial%2bmolecules&body=https%253A%252F%252Fopenai.com%252Findex%252Fusing-codex-chatgpt-to-search-for-new-antimicrobials">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The OpenAI Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The OpenAI Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -462,7 +470,7 @@ Worth a read for developers following AI. Link to article: …</p>
     
       <img src="/images/misc.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -481,24 +489,24 @@ Worth a read for developers following AI. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Multi-turn agents fail in ways single-turn evaluation misses: one early mistake corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM), a decomposable, turn-level way to measure agent quality, …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AWS and AI.</p>
+    <p class="news-card__summary">Multi-turn agents fail in ways single-turn evaluation misses: one early mistake corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM), a decomposable, …</p>
     <div class="news-card__footer">
       <a href="https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations" class="story-link" data-outbound>
-        Read on AWS Machine Learning Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Agent Evaluation Metric for multi-turn conversations">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fagent-evaluation-metric-for-multi-turn-conversations" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fagent-evaluation-metric-for-multi-turn-conversations&text=Agent%2bEvaluation%2bMetric%2bfor%2bmulti-turn%2bconversations" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Agent%2bEvaluation%2bMetric%2bfor%2bmulti-turn%2bconversations&body=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fagent-evaluation-metric-for-multi-turn-conversations">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide AWS Machine Learning Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from AWS Machine Learning Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -518,7 +526,7 @@ Worth a read for developers following AI. Link to article: …</p>
     
       <img src="/images/aws.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -537,24 +545,24 @@ Worth a read for developers following AI. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">AvioBook, a Thales Group Company, prototyped Connected Analytics on Amazon Bedrock AgentCore to turn AvioBook Connect&#39;s operational data into plain-language, evidence-based answers for airline managers and dispatchers, …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AWS and AI.</p>
+    <p class="news-card__summary">AvioBook, a Thales Group Company, prototyped Connected Analytics on Amazon Bedrock AgentCore to turn AvioBook Connect&#39;s operational data into plain-language, evidence-based answers …</p>
     <div class="news-card__footer">
       <a href="https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights" class="story-link" data-outbound>
-        Read on AWS Machine Learning Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark How AvioBook builds turnaround insights from operational data with Amazon Bedrock AgentCore">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fhow-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fhow-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights&text=How%2bAvioBook%2bbuilds%2bturnaround%2binsights%2bfrom%2boperational%2bdata%2bwith%2bAmazon%2bBedrock%2bAgentCore" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=How%2bAvioBook%2bbuilds%2bturnaround%2binsights%2bfrom%2boperational%2bdata%2bwith%2bAmazon%2bBedrock%2bAgentCore&body=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fhow-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide AWS Machine Learning Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from AWS Machine Learning Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -574,7 +582,7 @@ Worth a read for developers following AI. Link to article: …</p>
     
       <img src="https://i.ytimg.com/vi/dN_birVmIHs/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -591,25 +599,24 @@ Worth a read for developers following AI. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Discover what to learn first, how to get started building with Copilot Studio, and how Agent Academy can help you develop ...
-Worth a watch for developers following AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI.</p>
+    <p class="news-card__summary">Discover what to learn first, how to get started building with Copilot Studio, and how Agent Academy can help you develop ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=dN_birVmIHs" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Skill up on Microsoft Copilot Studio">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdN_birVmIHs" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdN_birVmIHs&text=Skill%2bup%2bon%2bMicrosoft%2bCopilot%2bStudio" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Skill%2bup%2bon%2bMicrosoft%2bCopilot%2bStudio&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DdN_birVmIHs">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -629,7 +636,7 @@ Worth a watch for developers following AI. Link to video: …</p>
     
       <img src="/images/ai.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -646,25 +653,24 @@ Worth a watch for developers following AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.
-Worth a read for developers following AI. Link to article: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AI.</p>
+    <p class="news-card__summary">Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.</p>
     <div class="news-card__footer">
       <a href="https://openai.com/index/put-data-to-work" class="story-link" data-outbound>
-        Read on The OpenAI Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Now everyone can put data to work">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fopenai.com%252Findex%252Fput-data-to-work" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fopenai.com%252Findex%252Fput-data-to-work&text=Now%2beveryone%2bcan%2bput%2bdata%2bto%2bwork" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Now%2beveryone%2bcan%2bput%2bdata%2bto%2bwork&body=https%253A%252F%252Fopenai.com%252Findex%252Fput-data-to-work">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The OpenAI Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The OpenAI Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -684,7 +690,7 @@ Worth a read for developers following AI. Link to article: …</p>
     
       <img src="https://i.ytimg.com/vi/XE5-hb-H-OY/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -701,25 +707,24 @@ Worth a read for developers following AI. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Chat LangChain gets thousands of traces a day, which is far too many to read by hand. In this walkthrough we set up an online ...
-Worth a watch for developers following AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI.</p>
+    <p class="news-card__summary">Chat LangChain gets thousands of traces a day, which is far too many to read by hand. In this walkthrough we set up an online ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=XE5-hb-H-OY" class="story-link" data-outbound>
-        Watch on LangChain Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Score Every Production Trace with an LLM Judge, from Your Terminal (LangSmith CLI)">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DXE5-hb-H-OY" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DXE5-hb-H-OY&text=Score%2bEvery%2bProduction%2bTrace%2bwith%2ban%2bLLM%2bJudge%252C%2bfrom%2bYour%2bTerminal%2b%2528LangSmith%2bCLI%2529" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Score%2bEvery%2bProduction%2bTrace%2bwith%2ban%2bLLM%2bJudge%252C%2bfrom%2bYour%2bTerminal%2b%2528LangSmith%2bCLI%2529&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DXE5-hb-H-OY">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide LangChain Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from LangChain Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -739,7 +744,7 @@ Worth a watch for developers following AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/0AvDE-dDXXw/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -756,25 +761,24 @@ Worth a watch for developers following AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Jake Wharton has never written code with an AI agent. Here&#39;s why.
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=0AvDE-dDXXw </p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI.</p>
+    <p class="news-card__summary">Jake Wharton has never written code with an AI agent. Here&#39;s why.</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=0AvDE-dDXXw" class="story-link" data-outbound>
-        Watch on Jetbrains TV →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark I Refuse to Code With AI">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D0AvDE-dDXXw" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D0AvDE-dDXXw&text=I%2bRefuse%2bto%2bCode%2bWith%2bAI" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=I%2bRefuse%2bto%2bCode%2bWith%2bAI&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D0AvDE-dDXXw">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Jetbrains TV</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Jetbrains TV">Hide</button>
       </div>
     </div>
   </div>
@@ -794,7 +798,7 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
     
       <img src="https://i.ytimg.com/vi/IVT1LRFfL7Y/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -813,26 +817,24 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Link to article: https://www.youtube.com/watch?v=IVT1LRFfL7Y
-Worth a watch for developers following Visual Studio and AI.
-Link to video: https://www.youtube.com/watch?v=IVT1LRFfL7Y</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Visual Studio and AI.</p>
+    <p class="news-card__summary">- Link to article: https://www.youtube.com/watch?v=IVT1LRFfL7Y</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=IVT1LRFfL7Y" class="story-link" data-outbound>
-        Watch on Microsoft Visual Studio Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Turn Your Expertise Into AI Skills #visualstudio #agents">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DIVT1LRFfL7Y" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DIVT1LRFfL7Y&text=Turn%2bYour%2bExpertise%2bInto%2bAI%2bSkills%2b%2523visualstudio%2b%2523agents" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Turn%2bYour%2bExpertise%2bInto%2bAI%2bSkills%2b%2523visualstudio%2b%2523agents&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DIVT1LRFfL7Y">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Visual Studio Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Visual Studio Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -852,7 +854,7 @@ Link to video: https://www.youtube.com/watch?v=IVT1LRFfL7Y</p>
     
       <img src="https://i.ytimg.com/vi/9WjPdgOK-68/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -869,25 +871,24 @@ Link to video: https://www.youtube.com/watch?v=IVT1LRFfL7Y</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Jake Wharton quit his job at Cash App in November 2025, in the middle of massive tech layoffs. After that, he published nine ...
-Worth a watch for developers following AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI.</p>
+    <p class="news-card__summary">Jake Wharton quit his job at Cash App in November 2025, in the middle of massive tech layoffs. After that, he published nine ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=9WjPdgOK-68" class="story-link" data-outbound>
-        Watch on Jetbrains TV →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Kotlin 2026: Layoffs, AI, Google — Is the Golden Age Over? Jake Wharton Explains">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D9WjPdgOK-68" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D9WjPdgOK-68&text=Kotlin%2b2026%253A%2bLayoffs%252C%2bAI%252C%2bGoogle%2b%25E2%2580%2594%2bIs%2bthe%2bGolden%2bAge%2bOver%253F%2bJake%2bWharton%2bExplains" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Kotlin%2b2026%253A%2bLayoffs%252C%2bAI%252C%2bGoogle%2b%25E2%2580%2594%2bIs%2bthe%2bGolden%2bAge%2bOver%253F%2bJake%2bWharton%2bExplains&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D9WjPdgOK-68">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Jetbrains TV</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Jetbrains TV">Hide</button>
       </div>
     </div>
   </div>
@@ -907,7 +908,7 @@ Worth a watch for developers following AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/1dI09ZGoc3I/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -925,28 +926,25 @@ Worth a watch for developers following AI. Link to video: …</p>
       
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
-        <button type="button" class="topic-badge" data-topic-filter="security">Security</button>
-      
     </div>
-    <p class="news-card__summary">LIVE AI-Era DevOps Masterclass - incl. Q&amp;amp;A. I&#39;ll show you the market shifts reshaping engineering jobs right now — and what they ...
-Worth a watch for developers following DevOps and AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following DevOps and AI.</p>
+    <p class="news-card__summary">LIVE AI-Era DevOps Masterclass - incl. Q&amp;A. I&#39;ll show you the market shifts reshaping engineering jobs right now — and what they ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=1dI09ZGoc3I" class="story-link" data-outbound>
-        Watch on TechWorld with Nana →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark From CDs in India to Building AI Security at PayPal">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D1dI09ZGoc3I" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D1dI09ZGoc3I&text=From%2bCDs%2bin%2bIndia%2bto%2bBuilding%2bAI%2bSecurity%2bat%2bPayPal" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=From%2bCDs%2bin%2bIndia%2bto%2bBuilding%2bAI%2bSecurity%2bat%2bPayPal&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D1dI09ZGoc3I">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide TechWorld with Nana</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from TechWorld with Nana">Hide</button>
       </div>
     </div>
   </div>
@@ -966,7 +964,7 @@ Worth a watch for developers following DevOps and AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/xKJBViaYviw/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -983,25 +981,24 @@ Worth a watch for developers following DevOps and AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Writing code isn&#39;t the hardest part of software engineering anymore. The real skill in 2026? Orchestrating an army of #AIagents.
-Worth a watch for developers following AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI.</p>
+    <p class="news-card__summary">Writing code isn&#39;t the hardest part of software engineering anymore. The real skill in 2026? Orchestrating an army of #AIagents.</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=xKJBViaYviw" class="story-link" data-outbound>
-        Watch on InfoQ Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark The real skill in 2026? Orchestrating an army of #AIagents.">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DxKJBViaYviw" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DxKJBViaYviw&text=The%2breal%2bskill%2bin%2b2026%253F%2bOrchestrating%2ban%2barmy%2bof%2b%2523AIagents." target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=The%2breal%2bskill%2bin%2b2026%253F%2bOrchestrating%2ban%2barmy%2bof%2b%2523AIagents.&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DxKJBViaYviw">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide InfoQ Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from InfoQ Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -1021,7 +1018,7 @@ Worth a watch for developers following AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/zqowMgMgSjA/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1038,25 +1035,24 @@ Worth a watch for developers following AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Learn more about the difference between AI Accelerators &amp;amp; GPUs here → https://ibm.biz/~aQ0A1Q6sb Learn more about GPU ...
-Worth a watch for developers following AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI.</p>
+    <p class="news-card__summary">Learn more about the difference between AI Accelerators &amp; GPUs here → https://ibm.biz/~aQ0A1Q6sb Learn more about GPU ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=zqowMgMgSjA" class="story-link" data-outbound>
-        Watch on IBM Technology Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark How GPUs Accelerate Data &amp;amp; Analytics with AI">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DzqowMgMgSjA" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DzqowMgMgSjA&text=How%2bGPUs%2bAccelerate%2bData%2b%2526amp%253B%2bAnalytics%2bwith%2bAI" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=How%2bGPUs%2bAccelerate%2bData%2b%2526amp%253B%2bAnalytics%2bwith%2bAI&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DzqowMgMgSjA">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide IBM Technology Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from IBM Technology Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -1076,7 +1072,7 @@ Worth a watch for developers following AI. Link to video: …</p>
     
       <img src="/images/ai.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -1093,25 +1089,24 @@ Worth a watch for developers following AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.
-Worth a read for developers following AI. Link to article: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AI.</p>
+    <p class="news-card__summary">OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.</p>
     <div class="news-card__footer">
       <a href="https://openai.com/index/expanding-ai-access-us-government" class="story-link" data-outbound>
-        Read on The OpenAI Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Expanding AI access and cyber defense for federal, state, local, and tribal governments">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fopenai.com%252Findex%252Fexpanding-ai-access-us-government" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fopenai.com%252Findex%252Fexpanding-ai-access-us-government&text=Expanding%2bAI%2baccess%2band%2bcyber%2bdefense%2bfor%2bfederal%252C%2bstate%252C%2blocal%252C%2band%2btribal%2bgovernments" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Expanding%2bAI%2baccess%2band%2bcyber%2bdefense%2bfor%2bfederal%252C%2bstate%252C%2blocal%252C%2band%2btribal%2bgovernments&body=https%253A%252F%252Fopenai.com%252Findex%252Fexpanding-ai-access-us-government">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The OpenAI Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The OpenAI Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -1131,7 +1126,7 @@ Worth a read for developers following AI. Link to article: …</p>
     
       <img src="/images/ai.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -1148,25 +1143,24 @@ Worth a read for developers following AI. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.
-Worth a read for developers following AI. Link to article: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AI.</p>
+    <p class="news-card__summary">Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.</p>
     <div class="news-card__footer">
       <a href="https://openai.com/index/introducing-chatgpt-financial-services" class="story-link" data-outbound>
-        Read on The OpenAI Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Introducing ChatGPT for Financial Services">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fopenai.com%252Findex%252Fintroducing-chatgpt-financial-services" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fopenai.com%252Findex%252Fintroducing-chatgpt-financial-services&text=Introducing%2bChatGPT%2bfor%2bFinancial%2bServices" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Introducing%2bChatGPT%2bfor%2bFinancial%2bServices&body=https%253A%252F%252Fopenai.com%252Findex%252Fintroducing-chatgpt-financial-services">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The OpenAI Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The OpenAI Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -1186,7 +1180,7 @@ Worth a read for developers following AI. Link to article: …</p>
     
       <img src="https://i.ytimg.com/vi/kxEsD9osBuU/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1205,25 +1199,24 @@ Worth a read for developers following AI. Link to article: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">In this episode of New Breakpoint, Michelle Sandford sits down with Nirmal Thewarathanthri to explore how Azure SRE Agent ...
-Worth a watch for developers following Azure and AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure and AI.</p>
+    <p class="news-card__summary">In this episode of New Breakpoint, Michelle Sandford sits down with Nirmal Thewarathanthri to explore how Azure SRE Agent ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=kxEsD9osBuU" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Azure SRE Agent and App Modernisation with GitHub Copilot">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DkxEsD9osBuU" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DkxEsD9osBuU&text=Azure%2bSRE%2bAgent%2band%2bApp%2bModernisation%2bwith%2bGitHub%2bCopilot" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Azure%2bSRE%2bAgent%2band%2bApp%2bModernisation%2bwith%2bGitHub%2bCopilot&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DkxEsD9osBuU">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -1243,7 +1236,7 @@ Worth a watch for developers following Azure and AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/yRKScx-TLmg/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1260,25 +1253,24 @@ Worth a watch for developers following Azure and AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Learn how MCP servers have evolved beyond local tool calls into richer, production-ready agent capabilities. Through a live VS ...
-Worth a watch for developers following AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI.</p>
+    <p class="news-card__summary">Learn how MCP servers have evolved beyond local tool calls into richer, production-ready agent capabilities. Through a live VS ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=yRKScx-TLmg" class="story-link" data-outbound>
-        Watch on Microsoft Developer Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Building MCP servers with VS Code — Level up your MCP">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DyRKScx-TLmg" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DyRKScx-TLmg&text=Building%2bMCP%2bservers%2bwith%2bVS%2bCode%2b%25E2%2580%2594%2bLevel%2bup%2byour%2bMCP" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Building%2bMCP%2bservers%2bwith%2bVS%2bCode%2b%25E2%2580%2594%2bLevel%2bup%2byour%2bMCP&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DyRKScx-TLmg">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -1298,7 +1290,7 @@ Worth a watch for developers following AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/nPMbXzJqKmQ/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1315,25 +1307,24 @@ Worth a watch for developers following AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">We&#39;ll discuss the MCP Triggers &amp;amp; Events experimental extension, which lets agents poll MCP servers for events and get webhook ...
-Worth a watch for developers following AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI.</p>
+    <p class="news-card__summary">We&#39;ll discuss the MCP Triggers &amp; Events experimental extension, which lets agents poll MCP servers for events and get webhook ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=nPMbXzJqKmQ" class="story-link" data-outbound>
-        Watch on Microsoft Developer Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Event-driven agents, powered by MCP">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DnPMbXzJqKmQ" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DnPMbXzJqKmQ&text=Event-driven%2bagents%252C%2bpowered%2bby%2bMCP" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Event-driven%2bagents%252C%2bpowered%2bby%2bMCP&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DnPMbXzJqKmQ">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -1353,7 +1344,7 @@ Worth a watch for developers following AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/_pE2eqmCHr0/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1370,25 +1361,24 @@ Worth a watch for developers following AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">Sam Morrow is a co-creator of GitHub&#39;s MCP, an MCP Spec Maintainer, and Copilot client developer. Find out the latest MCP ...
-Worth a watch for developers following AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following AI.</p>
+    <p class="news-card__summary">Sam Morrow is a co-creator of GitHub&#39;s MCP, an MCP Spec Maintainer, and Copilot client developer. Find out the latest MCP ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=_pE2eqmCHr0" class="story-link" data-outbound>
-        Watch on Microsoft Developer Youtube Channel →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark MCP: Server, Client &amp;amp; Protocol at GitHub">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D_pE2eqmCHr0" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D_pE2eqmCHr0&text=MCP%253A%2bServer%252C%2bClient%2b%2526amp%253B%2bProtocol%2bat%2bGitHub" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=MCP%253A%2bServer%252C%2bClient%2b%2526amp%253B%2bProtocol%2bat%2bGitHub&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D_pE2eqmCHr0">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Developer Youtube Channel</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Developer Youtube Channel">Hide</button>
       </div>
     </div>
   </div>
@@ -1408,7 +1398,7 @@ Worth a watch for developers following AI. Link to video: …</p>
     
       <img src="https://i.ytimg.com/vi/l1s-__qiXiU/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="/images/misc.png">
     
-    <span class="content-badge">▶ Video</span>
+    <span class="content-badge">▶</span>
     
   </a>
   <div class="news-card__body">
@@ -1427,25 +1417,24 @@ Worth a watch for developers following AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">AI agents are transforming how applications interact with data, systems, and users. In this session, discover the latest Microsoft AI ...
-Worth a watch for developers following Azure and AI. Link to video: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a watch for developers following Azure and AI.</p>
+    <p class="news-card__summary">AI agents are transforming how applications interact with data, systems, and users. In this session, discover the latest Microsoft AI ...</p>
     <div class="news-card__footer">
       <a href="https://www.youtube.com/watch?v=l1s-__qiXiU" class="story-link" data-outbound>
-        Watch on Microsoft Reactor →
+        Watch video →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Learn Azure in Hong Kong | Build, Run, and Govern AI Agents on Azure">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dl1s-__qiXiU" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dl1s-__qiXiU&text=Learn%2bAzure%2bin%2bHong%2bKong%2b%257C%2bBuild%252C%2bRun%252C%2band%2bGovern%2bAI%2bAgents%2bon%2bAzure" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Learn%2bAzure%2bin%2bHong%2bKong%2b%257C%2bBuild%252C%2bRun%252C%2band%2bGovern%2bAI%2bAgents%2bon%2bAzure&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dl1s-__qiXiU">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide Microsoft Reactor</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from Microsoft Reactor">Hide</button>
       </div>
     </div>
   </div>
@@ -1465,7 +1454,7 @@ Worth a watch for developers following Azure and AI. Link to video: …</p>
     
       <img src="/images/ai.png" alt="" loading="lazy">
     
-    <span class="content-badge">Article</span>
+    
     
   </a>
   <div class="news-card__body">
@@ -1482,25 +1471,24 @@ Worth a watch for developers following Azure and AI. Link to video: …</p>
         <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
       
     </div>
-    <p class="news-card__summary">GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.
-Worth a read for developers following AI. Link to article: …</p>
-    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AI.</p>
+    <p class="news-card__summary">GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.</p>
     <div class="news-card__footer">
       <a href="https://openai.com/index/introducing-gpt-live-1-in-the-api" class="story-link" data-outbound>
-        Read on The OpenAI Blog →
+        Read article →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark Build more natural voice experiences with GPT‑Live‑1 in the API">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fopenai.com%252Findex%252Fintroducing-gpt-live-1-in-the-api" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fopenai.com%252Findex%252Fintroducing-gpt-live-1-in-the-api&text=Build%2bmore%2bnatural%2bvoice%2bexperiences%2bwith%2bGPT%25E2%2580%2591Live%25E2%2580%25911%2bin%2bthe%2bAPI" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject=Build%2bmore%2bnatural%2bvoice%2bexperiences%2bwith%2bGPT%25E2%2580%2591Live%25E2%2580%25911%2bin%2bthe%2bAPI&body=https%253A%252F%252Fopenai.com%252Findex%252Fintroducing-gpt-live-1-in-the-api">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide The OpenAI Blog</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from The OpenAI Blog">Hide</button>
       </div>
     </div>
   </div>
@@ -1635,7 +1623,7 @@ Worth a read for developers following AI. Link to article: …</p>
 
   <script src="https://www.dotnetramblings.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
-<script src="/js/news.min.3e81207c75e89e54bbb472688e0a6351d4026f0106516881a856dd34e4a3a8ba4f8afb963ce9a8ec76573b90e8897e9815ac755837670f89609e448e5a7f2a43.js" integrity="sha512-PoEgfHXonlS7tHJojgpjUdQCbwEGUWiBqFbdNOSjqLpPivuWPOmo7HZXO5DoiX6YFax1WDdnD4lgnkSOWn8qQw==" crossorigin="anonymous"></script>
+<script src="/js/news.min.db922ba5bde3f4aeeeedd077c39d79e8d7032a5453bd8bb827a0eed64505376001c336decb337e743aaba9b1adc7ff163eef626f7c8e697b859dc3cf0560790a.js" integrity="sha512-25Irpb3j9K7u7dB3w5156NcDKlRTvYu4J6Du1kUFN2ABwzbeyzN&#43;dDqrqbGtx/8WPu9ib3yOaXuFncPPBWB5Cg==" crossorigin="anonymous"></script>
 
   </body>
 </html>
