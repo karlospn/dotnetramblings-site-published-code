@@ -9,7 +9,7 @@
   <head>
 <title>Weekly digest | .NET Ramblings</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FLNJKRG5D1"></script>
 <script>
@@ -44,19 +44,14 @@
 <link rel="canonical" href="https://www.dotnetramblings.com/digest/">
 <link rel="alternate" type="application/rss+xml" href="https://www.dotnetramblings.com/digest/index.xml" title=".NET Ramblings" />
 
+<link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
 
-<link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity = "sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
-
-
-
-<link rel="preload" href="https://www.dotnetramblings.com/en/js/bundle.3d98ba0ad69ec3c2206b2484efe69a87e5e9ac96a247f6f6b4030a18081e33d91c7eca808b062a38592b28a662f6806471b3b4590752a93179c6c0adcf9235f0.js" as="script" integrity=
-"sha512-PZi6Ctaew8IgaySE7&#43;aah&#43;XprJaiR/b2tAMKGAgeM9kcfsqAiwYqOFkrKKZi9oBkcbO0WQdSqTF5xsCtz5I18A==" crossorigin="anonymous">
-
+<link rel="preload" href="https://www.dotnetramblings.com/en/js/bundle.3d98ba0ad69ec3c2206b2484efe69a87e5e9ac96a247f6f6b4030a18081e33d91c7eca808b062a38592b28a662f6806471b3b4590752a93179c6c0adcf9235f0.js" as="script" integrity="sha512-PZi6Ctaew8IgaySE7&#43;aah&#43;XprJaiR/b2tAMKGAgeM9kcfsqAiwYqOFkrKKZi9oBkcbO0WQdSqTF5xsCtz5I18A==" crossorigin="anonymous">
 
 <link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
 
-<link rel="stylesheet" href="/css/news.min.11744ab3c2f75704f9554c54b4f2876ba7376a776a6eaa99c90168bc38d442fe4795d3004b9e4840c9007fd6fae9a02913fd33294beaaf7868e1a674e9ae3f63.css" integrity="sha512-EXRKs8L3VwT5VUxUtPKHa6c3andqbqqZyQFovDjUQv5HldMAS55IQMkAf9b66aApE/0zKUvqr3ho4aZ06a4/Yw==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/news.min.8fa68fe805d3e006f419567f8c96c18c521f5792bb482c07e61fe97ac13a6ebbe7b31ddaaa8ccb4e88e1a52b25669e734128058c87ef4aae9ab4b39bee361542.css" integrity="sha512-j6aP6AXT4Ab0GVZ/jJbBjFIfV5K7SCwH5h/pesE6brvnsx3aqozLTojhpSslZp5zQSgFjIfvSq6atLOb7jYVQg==" crossorigin="anonymous">
 
   </head>
   <body
@@ -65,6 +60,7 @@
     id="documentTop"
     data-lang="en"
   >
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
 <header class="nav_header" >
   <nav class="nav"><a href='https://www.dotnetramblings.com/' class="nav_brand nav_item" title=".NET Ramblings">
@@ -140,7 +136,7 @@
   </nav>
 </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
   <div class="news-shell wrap">
     <header class="directory-header">
       <p class="eyebrow">Up to 180 days of history</p>
@@ -154,8 +150,13 @@
       </select>
     </div>
     
-<div class="discovery-panel" data-discovery-controls>
-  <span class="toolbar-label">Filter this week</span>
+<details class="filter-disclosure" open>
+  <summary>
+    <span>Filter this week</span>
+    <span class="filter-disclosure__hint">Search and refine</span>
+  </summary>
+  <div class="discovery-panel" data-discovery-controls>
+    <span class="toolbar-label">Filter this week</span>
   <label class="search-control">
     <span class="sr-only">Search</span>
     <input type="search" data-news-search placeholder="Search this week">
@@ -196,20 +197,21 @@
     </label>
   
   <button type="button" class="saved-filter" data-type-filter="bookmarks" aria-pressed="false">☆ Saved</button>
-  <details class="browser-settings">
-    <summary aria-label="Display settings">Settings</summary>
-    <div>
-      <label>
-        Density
-        <select data-density>
-          <option value="comfortable">Comfortable</option>
-          <option value="compact">Compact</option>
-        </select>
-      </label>
-      <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
-    </div>
-  </details>
-</div>
+    <details class="browser-settings">
+      <summary aria-label="Display settings">Settings</summary>
+      <div>
+        <label>
+          Density
+          <select data-density>
+            <option value="comfortable">Comfortable</option>
+            <option value="compact">Compact</option>
+          </select>
+        </label>
+        <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
+      </div>
+    </details>
+  </div>
+</details>
 
     <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-week-mode="true">
       
@@ -1626,7 +1628,7 @@
 
   <script src="https://www.dotnetramblings.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
-<script src="/js/news.min.2b48ff413e5083c988c87e1047f499913e8379b895ca35cc6adf21f25efd18c9185fda6e1783655e584a222ba8e44a0b708c8a48df8e8dd5ef7ae6961d89b649.js" integrity="sha512-K0j/QT5Qg8mIyH4QR/SZkT6DebiVyjXMat8h8l79GMkYX9puF4NlXlhKIiuo5EoLcIyKSN&#43;OjdXveuaWHYm2SQ==" crossorigin="anonymous"></script>
+<script src="/js/news.min.dba05575a9c182d7f7580071f0ad4bdba9cb3cebb3021132a9d283dc4d4d86d7a9445305caaa6ffa8a00cc456d0298ec44f19c2634ce87288d248c8f2d2143a2.js" integrity="sha512-26BVdanBgtf3WABx8K1L26nLPOuzAhEyqdKD3E1NhtepRFMFyqpv&#43;ooAzEVtApjsRPGcJjTOhyiNJIyPLSFDog==" crossorigin="anonymous"></script>
 
   </body>
 </html>
