@@ -131,71 +131,89 @@
 </header>
 
     <main>
-
-
-
-<div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://openai.com/index/introducing-the-agents-api" title="Introducing the Agents API">Introducing the Agents API</a>
-      </h3>
+  <div class="news-shell wrap">
+    <header class="directory-header taxonomy-header">
+      <div>
+        <p class="eyebrow">Topic briefing</p>
+        <h1>AI</h1>
+        <p>121 stories about AI.</p>
+      </div>
+      <a class="button" href="/topics/ai/index.xml">Follow this topic via RSS</a>
+    </header>
+    <div class="discovery-panel">
+      <div class="filter-row" role="group" aria-label="Content type">
+        <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
+        <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
+        <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
+        <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
+      </div>
+      <div class="preference-row">
+        <label>
+          Search this topic
+          <input type="search" data-news-search placeholder="Title or source">
+        </label>
+        <label>
+          Card density
+          <select data-density>
+            <option value="comfortable">Comfortable</option>
+            <option value="compact">Compact</option>
+          </select>
+        </label>
+        <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
+      </div>
+    </div>
+    <div class="news-grid" id="news-grid">
       
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 10, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/ai/' title="AI" class="post_tag button button_translucent">AI
-        </a>
-    </span>
+        
+<article
+  class="news-card"
+  data-news-card
+  data-url="https://openai.com/index/introducing-the-agents-api"
+  data-source="openai"
+  data-topics="ai"
+  data-content-type="article"
+  data-date="2026-09-10T00:00:00Z">
+  <a class="news-card__image" href="https://openai.com/index/introducing-the-agents-api" data-outbound>
+    
+      <img src="/images/misc.png" alt="" loading="lazy">
+    
+    <span class="content-badge">Article</span>
+    
+  </a>
+  <div class="news-card__body">
+    <div class="source-line">
+      <span>The OpenAI Blog</span>
+      <span>
+        <time datetime="2026-09-10T00:00:00Z" data-relative-time>Sep 10</time>
+        
+      </span>
+    </div>
+    <h3><a href="https://openai.com/index/introducing-the-agents-api" data-outbound>Introducing the Agents API</a></h3>
+    <div class="topic-list">
+      
+        <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
+      
+    </div>
+    <p class="news-card__summary">Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.
+Worth a read for developers following AI. Link to article: …</p>
+    <p class="why-it-matters"><strong>Why it matters:</strong> Worth a read for developers following AI.</p>
+    <div class="news-card__footer">
+      <a href="https://openai.com/index/introducing-the-agents-api" class="story-link" data-outbound>
+        Read on The OpenAI Blog →
+      </a>
+      <div class="card-actions">
+        <button type="button" data-bookmark aria-label="Bookmark Introducing the Agents API">☆</button>
+        <button type="button" data-share aria-label="Share Introducing the Agents API">Share</button>
+        <button type="button" data-hide-source aria-label="Hide stories from The OpenAI Blog">Hide</button>
+      </div>
+    </div>
   </div>
+</article>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail"><figure>
-    <picture>
-  
       
-        
-          
-          
-          
-          
-          
-          
-      <img
-        loading="lazy"
-        decoding="async"
-        alt="Introducing the Agents API"
-        
-          class="image_figure image_thumbnail image_internal image_unprocessed"
-          src="https://www.dotnetramblings.com/images/misc.png"
-        
-        
-      />
-  
-      </picture>
-  </figure>
-      </div>
-      
-        <div class="pale">
-          
-            <p>Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.
-Worth a read for developers following AI. Link to article: <a href="https://openai.com/index/introducing-the-agents-api">https://openai.com/index/introducing-the-agents-api</a></p>
-          
-          <br>
-          <a href="https://openai.com/index/introducing-the-agents-api" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
     </div>
-  </li>
-      <li>
+    <p class="empty-state" id="empty-state" hidden>No stories match these filters.</p>
+    <div class="news-pagination">
     <ul class="pagination pagination-default">
       <li class="page-item">
         <a href="/topics/ai/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
@@ -224,35 +242,8 @@ Worth a read for developers following AI. Link to article: <a href="https://open
       <li class="page-item disabled">
         <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
-    </ul>
-      </li>
-    </ul>
+    </ul></div>
   </div>
-<aside class="sidebar">
-  <section class="sidebar_inner">
-    <br>
-    
-  
-  <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='topics'>
-    <label for="find" class="search_label"><svg class="icon">
-  <title>search</title>
-  <use xlink:href="#search"></use>
-</svg>
-
-    </label>
-    
-    <div class="search_results results"></div>
-  </div>
-
-
-    
-    
-  </section>
-</aside>
-
-</div>
-
 
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
