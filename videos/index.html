@@ -146,49 +146,50 @@
       <p>Fresh talks, tutorials, demos, and explainers from the developer community.</p>
     </header>
     <div class="discovery-panel" data-discovery-controls>
-  <div class="filter-row" role="group" aria-label="Content type">
-    <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
-    <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
-    <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
-    <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
-  </div>
-  <div class="filter-row" role="group" aria-label="Topic">
-    <button type="button" class="filter-chip is-active" data-topic-filter="all">All topics</button>
-    
-      <button type="button" class="filter-chip" data-topic-filter=".net">.NET</button>
-    
-      <button type="button" class="filter-chip" data-topic-filter="azure">Azure</button>
-    
-      <button type="button" class="filter-chip" data-topic-filter="aws">AWS</button>
-    
-      <button type="button" class="filter-chip" data-topic-filter="ai">AI</button>
-    
-      <button type="button" class="filter-chip" data-topic-filter="devops">DevOps</button>
-    
-      <button type="button" class="filter-chip" data-topic-filter="containers">Containers</button>
-    
-      <button type="button" class="filter-chip" data-topic-filter="architecture">Architecture</button>
-    
-      <button type="button" class="filter-chip" data-topic-filter="security">Security</button>
-    
-  </div>
-  <div class="preference-row">
-    <label>
-      Search this page
-      <input type="search" data-news-search placeholder="Title, source, or topic">
-    </label>
-    <label>
-      Card density
-      <select data-density>
-        <option value="comfortable">Comfortable</option>
-        <option value="compact">Compact</option>
-      </select>
-    </label>
-    <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
-  </div>
-</div>
-
-    <div class="news-grid" id="news-grid">
+      <div class="filter-row" role="group" aria-label="Videos">
+        <button type="button" class="filter-chip is-active" data-type-filter="all">All videos</button>
+        <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
+      </div>
+      <div class="filter-row" role="group" aria-label="Topic">
+        <button type="button" class="filter-chip is-active" data-topic-filter="all">All topics</button>
+        
+          <button type="button" class="filter-chip" data-topic-filter=".net">.NET</button>
+        
+          <button type="button" class="filter-chip" data-topic-filter="azure">Azure</button>
+        
+          <button type="button" class="filter-chip" data-topic-filter="aws">AWS</button>
+        
+          <button type="button" class="filter-chip" data-topic-filter="ai">AI</button>
+        
+          <button type="button" class="filter-chip" data-topic-filter="devops">DevOps</button>
+        
+          <button type="button" class="filter-chip" data-topic-filter="containers">Containers</button>
+        
+          <button type="button" class="filter-chip" data-topic-filter="architecture">Architecture</button>
+        
+          <button type="button" class="filter-chip" data-topic-filter="security">Security</button>
+        
+      </div>
+      <div class="preference-row">
+        <label>
+          Search videos
+          <input type="search" data-news-search placeholder="Title, source, or topic">
+        </label>
+        <label>
+          Card density
+          <select data-density>
+            <option value="comfortable">Comfortable</option>
+            <option value="compact">Compact</option>
+          </select>
+        </label>
+        <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
+      </div>
+    </div>
+    <p class="results-summary" aria-live="polite">
+      Showing <span id="rendered-count">24</span>
+      of <span id="visible-count">111</span> videos
+    </p>
+    <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-content-scope="video">
       
         
 <article
@@ -1335,36 +1336,11 @@ Link to video: https://www.youtube.com/watch?v=wXWDhUCOZcc</p>
       
     </div>
     <p class="empty-state" id="empty-state" hidden>No videos match these filters.</p>
-    <div class="news-pagination">
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/videos/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/videos/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/videos/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item">
-        <a href="/videos/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item">
-        <a href="/videos/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/videos/page/5/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul></div>
+    <nav class="client-pagination" data-client-pagination aria-label="Filtered video pages" hidden>
+      <button type="button" data-page-previous>← Previous</button>
+      <span data-page-status aria-live="polite"></span>
+      <button type="button" data-page-next>Next →</button>
+    </nav>
   </div>
 
     </main><svg width="0" height="0" class="hidden">
