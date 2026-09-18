@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 17 Sep 2026 21:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Sep 2026 13:08:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Amazon SageMaker HyperPod Inference Gateway</title>
+      <link>https://www.dotnetramblings.com/post/18_09_2026/f24c916df15c/</link>
+      <pubDate>Fri, 18 Sep 2026 13:08:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_09_2026/f24c916df15c/</guid>
+      <description>
+        
+          
+            Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS. It uses real-time GPU signals to send each inference request to the best-suited pod, cutting first-token latency by up to 82% with no changes to your model servers or client applications.
+Worth a read for developers following AWS and Containers. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Modernize .NET repos at scale with the AWS Transform web experience</title>
+      <link>https://www.dotnetramblings.com/post/18_09_2026/cecf568e19cc/</link>
+      <pubDate>Fri, 18 Sep 2026 10:04:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_09_2026/cecf568e19cc/</guid>
+      <description>
+        
+          
+            If you have multiple .NET Framework solutions to modernize, you may be wondering how to do that efficiently – especially if you have dozens, hundreds, or thousands of repositories. You can accelerate .NET code modernization with AWS Transform, converting old Windows .NET Framework applications to modern .NET on Linux. In a prior post, I covered […]
+Worth a read for developers following .NET and AWS. Link to article: https://aws.amazon.com/blogs/dotnet/modernize-net-repos-at-scale-with-the-aws-transform-web-experience 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Securing RAG in .NET: Indirect Prompt Injection and Corpus Poisoning</title>
       <link>https://www.dotnetramblings.com/post/17_09_2026/a7a96c236c14/</link>
