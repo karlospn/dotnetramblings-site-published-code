@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Build interactive MCP Apps using Amazon Bedrock AgentCore | .NET Ramblings</title>
+<title>Adding an Index Made This Query Slower | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,18 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same …">
+<meta name="description" content="A query already had a usable index. Adding another index made Postgres choose a plan that discarded almost half a million rows to return ten.
+Worth a read for …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Build interactive MCP Apps using Amazon Bedrock AgentCore">
-<meta name="twitter:description" content="Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same …">
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/11_09_2026/11_09_2026_2/">
-<meta property="og:title" content="Build interactive MCP Apps using Amazon Bedrock AgentCore">
-<meta property="og:description" content="Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same …">
-<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png">
+<meta name="twitter:title" content="Adding an Index Made This Query Slower">
+<meta name="twitter:description" content="A query already had a usable index. Adding another index made Postgres choose a plan that discarded almost half a million rows to return ten.
+Worth a read for …">
+<meta name="twitter:image" content="https://milanjovanovic.tech/blog-covers/mnw_212.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/19_09_2026/94ba7efb2200/">
+<meta property="og:title" content="Adding an Index Made This Query Slower">
+<meta property="og:description" content="A query already had a usable index. Adding another index made Postgres choose a plan that discarded almost half a million rows to return ten.
+Worth a read for …">
+<meta property="og:image" content="https://milanjovanovic.tech/blog-covers/mnw_212.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +44,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore">
+<link rel="canonical" href="https://milanjovanovic.tech/blog/when-postgres-picks-the-wrong-index">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -140,7 +143,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Build interactive MCP Apps using Amazon Bedrock AgentCore</h1>
+    <h1 class="post_title">Adding an Index Made This Query Slower</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -148,16 +151,16 @@
 </svg>
 </span>
     <span class="post_date">
-      Sep 11, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/aws/' title="AWS" class="post_tag button button_translucent">AWS
-        </a><a href='https://www.dotnetramblings.com/tags/ai/' title="AI" class="post_tag button button_translucent">AI
+      Sep 19, 2026</span><span>&nbsp;· <a href='https://www.dotnetramblings.com/tags/.net/' title=".NET" class="post_tag button button_translucent">.NET
+        </a><a href='https://www.dotnetramblings.com/tags/data/' title="Data" class="post_tag button button_translucent">Data
         </a>
     </span>
   </div>
 
-    <div class="post_body"><p>Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same rich experience across AI hosts like ChatGPT and Claude that support the extension.</p>
+    <div class="post_body"><p>A query already had a usable index. Adding another index made Postgres choose a plan that discarded almost half a million rows to return ten.</p>
 <ul>
-<li>Worth a read for developers following AWS and AI.</li>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore">https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore</a></li>
+<li>Worth a read for developers following .NET and Data.</li>
+<li>Link to article: <a href="https://milanjovanovic.tech/blog/when-postgres-picks-the-wrong-index">https://milanjovanovic.tech/blog/when-postgres-picks-the-wrong-index</a></li>
 </ul>
 
     </div>
