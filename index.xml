@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 20 Sep 2026 11:00:32 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Sep 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Querying Roslyn syntax trees with XPath</title>
+      <link>https://www.dotnetramblings.com/post/20_09_2026/81f7d2b4fe6a/</link>
+      <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_09_2026/81f7d2b4fe6a/</guid>
+      <description>
+        
+          
+            In , I showed that XPathNavigator is not tied to XML. Any tree can be exposed as a node-set, and the XPath engine of System.Xml.XPath does the rest. That post used a folder hierarchy as an example. Here is a much more interesting tree: the C# syntax tree produced by Roslyn. The occasion for it was an issue on Meziantou.Analyzer: Rule to forbid primary constructors? (Opposite of IDE0290). The request was…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>When Should AI Systems Use Super Agents?</title>
       <link>https://www.dotnetramblings.com/videos/20_09_2026/21835a692cff/</link>
