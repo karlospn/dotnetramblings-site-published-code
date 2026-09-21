@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Python News, Articles and Videos | .NET Ramblings</title>
+<title>Run Positron on Amazon SageMaker AI for data science workflows | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,24 +24,24 @@
 
 
 <meta property="og:locale" content="en">
-<meta property="og:type" content="website">
-<meta name="description" content="Read Python development news, frameworks, tooling, AI integrations, and practical software engineering guides.">
+<meta property="og:type" content="article">
+<meta name="description" content="Positron, Posit&amp;#39;s IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena table, validates …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Python News, Articles and Videos">
-<meta name="twitter:description" content="Read Python development news, frameworks, tooling, AI integrations, and practical software engineering guides.">
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/topics/python/">
-<meta property="og:title" content="Python News, Articles and Videos">
-<meta property="og:description" content="Read Python development news, frameworks, tooling, AI integrations, and practical software engineering guides.">
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png">
+<meta name="twitter:title" content="Run Positron on Amazon SageMaker AI for data science workflows">
+<meta name="twitter:description" content="Positron, Posit&amp;#39;s IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena table, validates …">
+<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/18/ML-21876-featured-image.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/21_09_2026/6a6ddf1877cd/">
+<meta property="og:title" content="Run Positron on Amazon SageMaker AI for data science workflows">
+<meta property="og:description" content="Positron, Posit&amp;#39;s IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena table, validates …">
+<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/18/ML-21876-featured-image.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.dotnetramblings.com/topics/python/">
+<meta name="robots" content="noindex, follow, noarchive">
+<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -47,7 +49,6 @@
 <link rel="preload" href="https://www.dotnetramblings.com/en/js/bundle.3d98ba0ad69ec3c2206b2484efe69a87e5e9ac96a247f6f6b4030a18081e33d91c7eca808b062a38592b28a662f6806471b3b4590752a93179c6c0adcf9235f0.js" as="script" integrity="sha512-PZi6Ctaew8IgaySE7&#43;aah&#43;XprJaiR/b2tAMKGAgeM9kcfsqAiwYqOFkrKKZi9oBkcbO0WQdSqTF5xsCtz5I18A==" crossorigin="anonymous">
 
 <link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"ItemList","itemListElement":[{"@type":"ListItem","name":"Run Positron on Amazon SageMaker AI for data science workflows","position":1,"url":"https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows"},{"@type":"ListItem","name":"The Hidden Reason Python JITs Keep Dying","position":2,"url":"https://www.youtube.com/watch?v=41TrTKSlmjY"}],"name":"Python latest content","numberOfItems":2},{"@type":"VideoObject","contentUrl":"https://www.youtube.com/watch?v=41TrTKSlmjY","description":"Why do almost all Python JIT compilers die? Building a JIT is massive: ⚡ HotSpot: 1000s of person-years ⚡ V8: ~50 full-time ...","name":"The Hidden Reason Python JITs Keep Dying","publisher":{"@type":"Organization","name":"InfoQ Youtube Channel","url":"https://www.infoq.com/"},"thumbnailUrl":["https://i.ytimg.com/vi/41TrTKSlmjY/hqdefault.jpg"],"uploadDate":"2026-09-18T10:27:13Z"}]}</script>
 
 
 <link rel="stylesheet" href="/css/news.min.0ac0f8510d1c28a036e4de87261a8dd705521324a043e6f0f4a492a51b317bdd96b22575b2c1eeadaef07d9034adc55fcd324a3ec965f30f6b35191cd1ad6ca0.css" integrity="sha512-CsD4UQ0cKKA25N6HJhqN1wVSEySgQ&#43;bw9KSSpRsxe92WsiV1ssHura7wfZA0rcVfzTJKPsll8w9rNRkc0a1soA==" crossorigin="anonymous">
@@ -139,193 +140,66 @@
 </header>
 
     <main id="main-content" tabindex="-1">
-  <div class="news-shell wrap">
-    <header class="directory-header">
-      <p class="eyebrow">.NET community topic</p>
-      <h1>Python</h1>
-      <p>Read Python development news, frameworks, tooling, AI integrations, and practical software engineering guides.</p>
-      
-    </header>
-    
-    
-<details class="filter-disclosure" open>
-  <summary>
-    <span>Filter stories</span>
-    <span class="filter-disclosure__hint">Search and refine</span>
-  </summary>
-  <div class="discovery-panel" data-discovery-controls>
-    <span class="toolbar-label">Filter stories</span>
-  <label class="search-control">
-    <span class="sr-only">Search</span>
-    <input type="search" data-news-search placeholder="Search this topic">
-  </label>
   
-    <label class="select-control">
-      <span>Type</span>
-      <select data-type-select>
-        <option value="article">Articles</option>
-        <option value="all" selected>All content</option>
-        <option value="video">Videos</option>
-      </select>
+<div class="grid-inverse wrap content">
+  <article class="post_content">
+    <h1 class="post_title">Run Positron on Amazon SageMaker AI for data science workflows</h1>
+  <div class="post_meta">
+      <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+      <span class="post_date">Sep 21, 2026</span>
+      <span>
+          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
+          <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
+          <a href="https://www.dotnetramblings.com/topics/python/" title="Python" class="post_tag button button_translucent">Python</a>
+      </span>
+  </div>
+
+    <div class="post_body"><p>Positron, Posit's IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena table, validates features in R, trains an XGBoost model in Python, deploys a real-time SageMaker AI endpoint, and reports results with Quarto, all in one governed SageMaker Studio Space.</p>
+<ul>
+<li>Worth a read for developers following AWS and AI.</li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows">https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows</a></li>
+</ul>
+
+    </div>
+<div class="post_comments">
+  
+  
+  
+</div>
+
+
+
+
+  </article>
+<aside class="sidebar">
+  <section class="sidebar_inner">
+    <br>
+    
+  
+  <div class="search">
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
+    <label for="find" class="search_label"><svg class="icon">
+  <title>search</title>
+  <use xlink:href="#search"></use>
+</svg>
+
     </label>
+    
+    <div class="search_results results"></div>
+  </div>
+
+
+    
+    
+  </section>
+</aside>
+
   
-  
-  
-  <button type="button" class="new-filter" data-new-filter aria-pressed="false" hidden>
-    New <span data-new-count></span>
-  </button>
-  <button type="button" class="saved-filter" data-type-filter="bookmarks" aria-pressed="false">☆ Saved</button>
-  <div class="density-toggle" role="group" aria-label="Story layout">
-    <button type="button" data-density-option="comfortable" aria-pressed="true">Comfortable</button>
-    <button type="button" data-density-option="compact" aria-pressed="false">Compact</button>
-  </div>
-    <details class="browser-settings">
-      <summary aria-label="Source settings">Sources</summary>
-      <div>
-        <div class="settings-header">
-          <strong>Source settings</strong>
-          <button type="button" data-close-settings aria-label="Close settings">×</button>
-        </div>
-        <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
-      </div>
-    </details>
-  </div>
-</details>
-
-    <p class="results-summary" aria-live="polite">
-      Showing <span id="rendered-count">2</span>
-      of <span id="visible-count">2</span> <span id="result-label">stories</span>
-    </p>
-    <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-topic-scope="python">
-      
-        
-<article
-  class="news-card"
-  data-news-card
-  data-url="https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows"
-  data-source="aws-ml-blog"
-  data-topics="aws,ai,python"
-  data-ai-subtopics=""
-  data-content-type="article"
-  data-date="2026-09-21T16:34:21Z">
-  <a class="news-card__image" href="https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows" data-outbound>
-    
-      <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/18/ML-21876-featured-image.png" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback-image="/images/aws.png">
-    
-    
-    
-  </a>
-  <div class="news-card__body">
-    <div class="source-line">
-      <span>AWS Machine Learning Blog</span>
-      <span>
-        <time datetime="2026-09-21T16:34:21Z" data-relative-time>Sep 21</time>
-         · 10 min read
-      </span>
-    </div>
-    <h3><a href="https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows" data-outbound>Run Positron on Amazon SageMaker AI for data science workflows</a></h3>
-    <div class="topic-list">
-      
-        <button type="button" class="topic-badge" data-topic-filter="aws">AWS</button>
-      
-        <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
-      
-    </div>
-    <p class="news-card__summary">Positron, Posit&#39;s IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena table, validates features in R, trains an …</p>
-    <div class="news-card__footer">
-      <a href="https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows" class="story-link" data-outbound>
-        Read article →
-      </a>
-      <div class="card-actions">
-        <button type="button" data-bookmark aria-label="Bookmark Run Positron on Amazon SageMaker AI for data science workflows">☆</button>
-        <details class="share-control">
-          <summary aria-label="More actions">•••</summary>
-          <div class="share-menu">
-            <div class="share-menu__header">
-              <strong>Share</strong>
-              <button type="button" data-close-share aria-label="Close share menu">×</button>
-            </div>
-            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Frun-positron-on-amazon-sagemaker-ai-for-data-science-workflows" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Frun-positron-on-amazon-sagemaker-ai-for-data-science-workflows&text=Run%2bPositron%2bon%2bAmazon%2bSageMaker%2bAI%2bfor%2bdata%2bscience%2bworkflows" target="_blank" rel="noopener">X</a>
-            <a href="mailto:?subject=Run%2bPositron%2bon%2bAmazon%2bSageMaker%2bAI%2bfor%2bdata%2bscience%2bworkflows&body=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Frun-positron-on-amazon-sagemaker-ai-for-data-science-workflows">Email</a>
-            <button type="button" data-copy-link>Copy link</button>
-            <button type="button" data-hide-source>Hide AWS Machine Learning Blog</button>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</article>
-
-      
-        
-<article
-  class="news-card"
-  data-news-card
-  data-url="https://www.youtube.com/watch?v=41TrTKSlmjY"
-  data-source="infoq"
-  data-topics="python"
-  data-ai-subtopics=""
-  data-content-type="video"
-  data-date="2026-09-18T10:27:13Z">
-  <a class="news-card__image" href="https://www.youtube.com/watch?v=41TrTKSlmjY" data-outbound>
-    
-      <img src="https://i.ytimg.com/vi/41TrTKSlmjY/hqdefault.jpg" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback-image="/images/youtube.png">
-    
-    <span class="content-badge">▶</span>
-    
-  </a>
-  <div class="news-card__body">
-    <div class="source-line">
-      <span>InfoQ Youtube Channel</span>
-      <span>
-        <time datetime="2026-09-18T10:27:13Z" data-relative-time>Sep 18</time>
-        
-      </span>
-    </div>
-    <h3><a href="https://www.youtube.com/watch?v=41TrTKSlmjY" data-outbound>The Hidden Reason Python JITs Keep Dying</a></h3>
-    <div class="topic-list">
-      
-        <button type="button" class="topic-badge" data-topic-filter="python">Python</button>
-      
-    </div>
-    <p class="news-card__summary">Why do almost all Python JIT compilers die? Building a JIT is massive: ⚡ HotSpot: 1000s of person-years ⚡ V8: ~50 full-time ...</p>
-    <div class="news-card__footer">
-      <a href="https://www.youtube.com/watch?v=41TrTKSlmjY" class="story-link" data-outbound>
-        Watch video →
-      </a>
-      <div class="card-actions">
-        <button type="button" data-bookmark aria-label="Bookmark The Hidden Reason Python JITs Keep Dying">☆</button>
-        <details class="share-control">
-          <summary aria-label="More actions">•••</summary>
-          <div class="share-menu">
-            <div class="share-menu__header">
-              <strong>Share</strong>
-              <button type="button" data-close-share aria-label="Close share menu">×</button>
-            </div>
-            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D41TrTKSlmjY" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D41TrTKSlmjY&text=The%2bHidden%2bReason%2bPython%2bJITs%2bKeep%2bDying" target="_blank" rel="noopener">X</a>
-            <a href="mailto:?subject=The%2bHidden%2bReason%2bPython%2bJITs%2bKeep%2bDying&body=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D41TrTKSlmjY">Email</a>
-            <button type="button" data-copy-link>Copy link</button>
-            <button type="button" data-hide-source>Hide InfoQ Youtube Channel</button>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</article>
-
-      
-    </div>
-    <p class="empty-state" id="empty-state" hidden>No stories match these filters.</p>
-    <nav class="client-pagination" data-client-pagination aria-label="Python result pages" hidden>
-      <button type="button" data-page-previous>← Previous</button>
-      <span data-page-status aria-live="polite"></span>
-      <button type="button" data-page-next>Next →</button>
-    </nav>
-    
-  </div>
-
+</div>
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>

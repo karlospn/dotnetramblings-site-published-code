@@ -7,7 +7,126 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 21 Sep 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Sep 2026 18:30:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>xAI’s Grok 4.6 is now available in Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2026/57a4ea79770d/</link>
+      <pubDate>Mon, 21 Sep 2026 18:30:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2026/57a4ea79770d/</guid>
+      <description>
+        
+          
+            xAI&#39;s Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token context window and four reasoning effort levels. It runs on both the bedrock-mantle and bedrock-runtime endpoints, with Converse API and cross-Region inference support.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How BMW Group detects cost anomalies across 14,000 cloud accounts</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2026/760ee151a8da/</link>
+      <pubDate>Mon, 21 Sep 2026 16:36:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2026/760ee151a8da/</guid>
+      <description>
+        
+          
+            BMW Group operates CLEA, a FinOps platform monitoring more than 14,000 cloud accounts. This post shows how BMW added automated daily cost anomaly detection, moving from reactive dashboards to proactive alerts using Prophet forecasting, AWS Step Functions, and a serverless pipeline that processes every account for about $50 per month.
+Worth a read for developers following AWS and DevOps. Link to article: https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Run Positron on Amazon SageMaker AI for data science workflows</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2026/6a6ddf1877cd/</link>
+      <pubDate>Mon, 21 Sep 2026 16:34:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2026/6a6ddf1877cd/</guid>
+      <description>
+        
+          
+            Positron, Posit&#39;s IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena table, validates features in R, trains an XGBoost model in Python, deploys a real-time SageMaker AI endpoint, and reports results with Quarto, all in one governed SageMaker Studio Space.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Benchling secured multi-tenant AI agents with Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2026/f4990a11668b/</link>
+      <pubDate>Mon, 21 Sep 2026 16:27:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2026/f4990a11668b/</guid>
+      <description>
+        
+          
+            Learn how Benchling built a defense-in-depth security architecture to run untrusted, AI agent-generated scientific code across thousands of life sciences tenants using Amazon Bedrock AgentCore Code Interpreter in VPC mode, combined with Amazon Route 53 Resolver DNS Firewall and VPC endpoint policies to block data exfiltration, including through DNS.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reducing medical claims review time with AI on AWS: The EXL Medical IDP solution</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2026/9aa8643754e5/</link>
+      <pubDate>Mon, 21 Sep 2026 16:24:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2026/9aa8643754e5/</guid>
+      <description>
+        
+          
+            EXL built an AI-powered Medical intelligent document processing (IDP) solution on AWS, combining IDP with domain-specific large language models on Amazon SageMaker and Amazon Bedrock to extract, summarize, and query medical records at enterprise scale and cut claims review time from over 100 minutes per case.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/reducing-medical-claims-review-time-with-ai-on-aws-the-exl-medical-idp-solution 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Advisory Group on Mathematics and Artificial Intelligence</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2026/a7ca59844a94/</link>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2026/a7ca59844a94/</guid>
+      <description>
+        
+          
+            OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.
+Worth a read for developers following AI. Link to article: https://openai.com/index/advisory-group-on-mathematics-and-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Higgsfield AI ships new video features in a day with GPT-6 Astra</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2026/d37f5b2c5927/</link>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2026/d37f5b2c5927/</guid>
+      <description>
+        
+          
+            With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.
+Worth a read for developers following AI. Link to article: https://openai.com/index/higgsfield-from-prompt-to-production-with-astra 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Using JsonPath with System.Text.Json to query JSON in .NET</title>
       <link>https://www.dotnetramblings.com/post/21_09_2026/b6695c9ab98b/</link>
@@ -19,6 +138,40 @@
           
             When you need to extract values from complex JSON payloads, manual navigation quickly becomes hard to read and maintain. Meziantou.Framework.JsonPath provides a JSONPath implementation for System.Text.Json based on RFC 9535, so you can query JSON documents using concise, standard expressions. Installation Install the package from NuGet: dotnet add package Meziantou.Framework.JsonPath Parse and evaluate a…
 Worth a read for developers following .NET. Link to article: https://www.meziantou.net/using-jsonpath-with-system-text-json-to-query-json-in-dotnet.htm 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building standards for the next phase of AI</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2026/2c9792fbb14a/</link>
+      <pubDate>Mon, 21 Sep 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2026/2c9792fbb14a/</guid>
+      <description>
+        
+          
+            OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.
+Worth a read for developers following AI. Link to article: https://openai.com/index/building-standards-next-phase-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Expanding OpenAI Academy with new learning paths</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2026/530db518a73a/</link>
+      <pubDate>Mon, 21 Sep 2026 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2026/530db518a73a/</guid>
+      <description>
+        
+          
+            Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.
+Worth a read for developers following AI. Link to article: https://openai.com/index/expanding-openai-academy-with-new-learning-paths 
           
           
         
