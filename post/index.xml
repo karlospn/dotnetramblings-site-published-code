@@ -1436,39 +1436,5 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
       </description>
     </item>
     
-    <item>
-      <title>Observing .NET RAG Systems: OpenTelemetry, Latency, and Cost</title>
-      <link>https://www.dotnetramblings.com/post/13_09_2026/13_09_2026_0/</link>
-      <pubDate>Sun, 13 Sep 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_09_2026/13_09_2026_0/</guid>
-      <description>
-        
-          
-            Learn OpenTelemetry RAG .NET tracing to connect retrieval, generation, latency, and cost boundaries with privacy-minimizing telemetry and evaluation signals.
-Worth a read for developers following .NET and AI. Link to article: https://www.devleader.ca/2026/09/13/observing-net-rag-systems-opentelemetry-latency-and-cost 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Task vs. ValueTask: Reducing Async Allocations and Boosting Performance</title>
-      <link>https://www.dotnetramblings.com/post/13_09_2026/13_09_2026_1/</link>
-      <pubDate>Sun, 13 Sep 2026 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/13_09_2026/13_09_2026_1/</guid>
-      <description>
-        
-          
-            When writing asynchronous methods, consider returning ValueTask instead of Task for performance-sensitive scenarios, especially when methods frequently complete synchronously. ValueTask can improve speed and reduce memory allocation, but it comes with usage restrictions. Use Task as a default while applying ValueTask selectively after proper testing.
-Worth a read for developers following .NET and Testing. Link to article: https://dotnettips.com/2026/09/13/task-vs-valuetask-reducing-async-allocations-and-boosting-performance 
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>
