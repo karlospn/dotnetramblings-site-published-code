@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 20 Sep 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Sep 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using JsonPath with System.Text.Json to query JSON in .NET</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2026/b6695c9ab98b/</link>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2026/b6695c9ab98b/</guid>
+      <description>
+        
+          
+            When you need to extract values from complex JSON payloads, manual navigation quickly becomes hard to read and maintain. Meziantou.Framework.JsonPath provides a JSONPath implementation for System.Text.Json based on RFC 9535, so you can query JSON documents using concise, standard expressions. Installation Install the package from NuGet: dotnet add package Meziantou.Framework.JsonPath Parse and evaluate a…
+Worth a read for developers following .NET. Link to article: https://www.meziantou.net/using-jsonpath-with-system-text-json-to-query-json-in-dotnet.htm 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How V7 gives AI agents institutional memory</title>
+      <link>https://www.dotnetramblings.com/post/21_09_2026/d1749ba76a98/</link>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_09_2026/d1749ba76a98/</guid>
+      <description>
+        
+          
+            Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.
+Worth a read for developers following AI. Link to article: https://openai.com/index/v7 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Querying Roslyn syntax trees with XPath</title>
       <link>https://www.dotnetramblings.com/post/20_09_2026/81f7d2b4fe6a/</link>
