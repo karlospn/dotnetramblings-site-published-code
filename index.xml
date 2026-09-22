@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 22 Sep 2026 12:21:32 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Sep 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Specification Pattern Performance and EF Core Translation Traps</title>
+      <link>https://www.dotnetramblings.com/post/22_09_2026/81a87413c44b/</link>
+      <pubDate>Tue, 22 Sep 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_09_2026/81a87413c44b/</guid>
+      <description>
+        
+          
+            Diagnose Specification Pattern performance in EF Core through translation boundaries, SQL inspection, query shape, command counts, plans, and measured evidence.
+Worth a read for developers following Data. Link to article: https://www.devleader.ca/2026/09/22/specification-pattern-performance-and-ef-core-translation-traps 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>What a week! 🇳🇴 #ndcoslo #softwaredeveloper</title>
       <link>https://www.dotnetramblings.com/videos/22_09_2026/48616c469b5e/</link>
@@ -53,6 +70,40 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
           
             Learn more about AI Agents here → https://ibm.biz/~4btU3fpmZ Everyone is focused on AI agents, but that may not be the real ...
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=XzL_vtYAO-4 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Experimental support for Device Bound Session Credentials (DBSC) in ASP.NET Core: Exploring the .NET 11 preview - Part 8</title>
+      <link>https://www.dotnetramblings.com/post/22_09_2026/269ed48ff75c/</link>
+      <pubDate>Tue, 22 Sep 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_09_2026/269ed48ff75c/</guid>
+      <description>
+        
+          
+            In this post I look at the new experimental support for DBSC provided by the Microsoft.AspNetCore.Authentication.DeviceBoundSessions package
+Worth a read for developers following .NET and Security. Link to article: https://andrewlock.net/exploring-the-dotnet-11-preview-8-experimental-support-for-device-bound-session-credentials-in-aspnetcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>My coding agent wrote outside the repo. Nothing stopped it.</title>
+      <link>https://www.dotnetramblings.com/post/22_09_2026/6124f23ae224/</link>
+      <pubDate>Tue, 22 Sep 2026 08:35:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_09_2026/6124f23ae224/</guid>
+      <description>
+        
+          
+            You let a coding agent loose on a repository. It reads what it needs, then writes — a file two directories up, a ~/.config it had no business in, a /tmp script it runs next. When you look at how, the answer is dull: the agent&#39;s write tool
+Worth a read for developers following AI. Link to article: https://goatreview.com/my-coding-agent-wrote-outside-the-repo-nothing-stopped-it 
           
           
         
