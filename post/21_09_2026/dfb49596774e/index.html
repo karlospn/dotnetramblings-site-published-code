@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale | .NET Ramblings</title>
+<title>RAG Retrieval Authorization and Data Lifecycle: Tenant Filters, Provenance, and Deletion | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat …">
+<meta name="description" content="Learn RAG access control and data lifecycle patterns for .NET: server-derived scopes, tenant filters, provenance, revisions, deletion, caches, and audit trails. …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale">
-<meta name="twitter:description" content="Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat …">
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/aws.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/14_09_2026/14_09_2026_0/">
-<meta property="og:title" content="Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale">
-<meta property="og:description" content="Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat …">
-<meta property="og:image" content="https://www.dotnetramblings.com/images/aws.png">
+<meta name="twitter:title" content="RAG Retrieval Authorization and Data Lifecycle: Tenant Filters, Provenance, and Deletion">
+<meta name="twitter:description" content="Learn RAG access control and data lifecycle patterns for .NET: server-derived scopes, tenant filters, provenance, revisions, deletion, caches, and audit trails. …">
+<meta name="twitter:image" content="https://devleader-d2f9ggbjfpdqcka7.z01.azurefd.net/media/10-rag-retrieval-authorization-data-lifecycle-dotnet-hero.webp">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/21_09_2026/dfb49596774e/">
+<meta property="og:title" content="RAG Retrieval Authorization and Data Lifecycle: Tenant Filters, Provenance, and Deletion">
+<meta property="og:description" content="Learn RAG access control and data lifecycle patterns for .NET: server-derived scopes, tenant filters, provenance, revisions, deletion, caches, and audit trails. …">
+<meta property="og:image" content="https://devleader-d2f9ggbjfpdqcka7.z01.azurefd.net/media/10-rag-retrieval-authorization-data-lifecycle-dotnet-hero.webp">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale">
+<link rel="canonical" href="https://www.devleader.ca/2026/09/21/rag-retrieval-authorization-and-data-lifecycle-tenant-filters-provenance-and-deletion">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -143,25 +143,25 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale</h1>
+    <h1 class="post_title">RAG Retrieval Authorization and Data Lifecycle: Tenant Filters, Provenance, and Deletion</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Sep 14, 2026</span>
+      <span class="post_date">Sep 21, 2026</span>
       <span>
-          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
           <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
           <a href="https://www.dotnetramblings.com/topics/security/" title="Security" class="post_tag button button_translucent">Security</a>
+          <a href="https://www.dotnetramblings.com/topics/.net/" title=".NET" class="post_tag button button_translucent">.NET</a>
       </span>
   </div>
 
-    <div class="post_body"><p>Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-message scale, plus the sandbox design decisions and practical lessons for builders deploying Code Interpreter in production.</p>
+    <div class="post_body"><p>Learn RAG access control and data lifecycle patterns for .NET: server-derived scopes, tenant filters, provenance, revisions, deletion, caches, and audit trails.</p>
 <ul>
-<li>Worth a read for developers following AWS and AI.</li>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale">https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale</a></li>
+<li>Worth a read for developers following AI and Security.</li>
+<li>Link to article: <a href="https://www.devleader.ca/2026/09/21/rag-retrieval-authorization-and-data-lifecycle-tenant-filters-provenance-and-deletion">https://www.devleader.ca/2026/09/21/rag-retrieval-authorization-and-data-lifecycle-tenant-filters-provenance-and-deletion</a></li>
 </ul>
 
     </div>
