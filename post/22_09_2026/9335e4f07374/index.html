@@ -4,10 +4,12 @@
   lang="en"
   data-figures=""
   
+    class="page"
+  
   
   >
   <head>
-<title>Containers News, Articles and Videos | .NET Ramblings</title>
+<title>Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,24 +24,24 @@
 
 
 <meta property="og:locale" content="en">
-<meta property="og:type" content="website">
-<meta name="description" content="Browse Docker, Kubernetes, container security, orchestration, and cloud-native application content for .NET and platform engineers.">
+<meta property="og:type" content="article">
+<meta name="description" content="Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn&amp;#39;t prove the agent picked the right …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Containers News, Articles and Videos">
-<meta name="twitter:description" content="Browse Docker, Kubernetes, container security, orchestration, and cloud-native application content for .NET and platform engineers.">
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/topics/containers/">
-<meta property="og:title" content="Containers News, Articles and Videos">
-<meta property="og:description" content="Browse Docker, Kubernetes, container security, orchestration, and cloud-native application content for .NET and platform engineers.">
-<meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png">
+<meta name="twitter:title" content="Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore">
+<meta name="twitter:description" content="Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn&amp;#39;t prove the agent picked the right …">
+<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/16/ML-21794-featured-image.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/22_09_2026/9335e4f07374/">
+<meta property="og:title" content="Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore">
+<meta property="og:description" content="Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn&amp;#39;t prove the agent picked the right …">
+<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/16/ML-21794-featured-image.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.dotnetramblings.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.dotnetramblings.com/topics/containers/">
+<meta name="robots" content="noindex, follow, noarchive">
+<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -47,7 +49,6 @@
 <link rel="preload" href="https://www.dotnetramblings.com/en/js/bundle.3d98ba0ad69ec3c2206b2484efe69a87e5e9ac96a247f6f6b4030a18081e33d91c7eca808b062a38592b28a662f6806471b3b4590752a93179c6c0adcf9235f0.js" as="script" integrity="sha512-PZi6Ctaew8IgaySE7&#43;aah&#43;XprJaiR/b2tAMKGAgeM9kcfsqAiwYqOFkrKKZi9oBkcbO0WQdSqTF5xsCtz5I18A==" crossorigin="anonymous">
 
 <link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"ItemList","itemListElement":[{"@type":"ListItem","name":"Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker","position":1,"url":"https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026"},{"@type":"ListItem","name":"Deploy Hugging Face models on Amazon SageMaker AI with coding agents","position":2,"url":"https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents"},{"@type":"ListItem","name":"Introducing Amazon SageMaker HyperPod Inference Gateway","position":3,"url":"https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway"},{"@type":"ListItem","name":"PackageType: Main, Framework, Resource, Optional, Bundle","position":4,"url":"https://devblogs.microsoft.com/insidemsix/msix-package-types"}],"name":"Containers latest content","numberOfItems":4}]}</script>
 
 
 <link rel="stylesheet" href="/css/news.min.abce9445705e77c1fb3bbe9301fddb666149bedfe23e722b28caf54792d2bd6882c8e989084b662c935f78631ed3c429489f98b1cc3508989244e80fc25696b3.css" integrity="sha512-q86URXBed8H7O76TAf3bZmFJvt/iPnIrKMr1R5LSvWiCyOmJCEtmLJNfeGMe08QpSJ&#43;Yscw1CJiSROgPwlaWsw==" crossorigin="anonymous">
@@ -142,315 +143,65 @@
 </header>
 
     <main id="main-content" tabindex="-1">
-  <div class="news-shell wrap">
-    <header class="directory-header">
-      <p class="eyebrow">.NET community topic</p>
-      <h1>Containers</h1>
-      <p>Browse Docker, Kubernetes, container security, orchestration, and cloud-native application content for .NET and platform engineers.</p>
-      
-    </header>
-    
-    
-<details class="filter-disclosure" open>
-  <summary>
-    <span>Filter stories</span>
-    <span class="filter-disclosure__hint">Search and refine</span>
-  </summary>
-  <div class="discovery-panel" data-discovery-controls>
-    <span class="toolbar-label">Filter stories</span>
-  <label class="search-control">
-    <span class="sr-only">Search</span>
-    <input type="search" data-news-search placeholder="Search this topic">
-  </label>
   
-    <label class="select-control">
-      <span>Type</span>
-      <select data-type-select>
-        <option value="article">Articles</option>
-        <option value="all" selected>All content</option>
-        <option value="video">Videos</option>
-      </select>
+<div class="grid-inverse wrap content">
+  <article class="post_content">
+    <h1 class="post_title">Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore</h1>
+  <div class="post_meta">
+      <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+      <span class="post_date">Sep 22, 2026</span>
+      <span>
+          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
+          <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
+      </span>
+  </div>
+
+    <div class="post_body"><p>Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn't prove the agent picked the right skill or followed it. Learn how to measure skill selection and instruction following with Strands Evals and Amazon Bedrock AgentCore Evaluations.</p>
+<ul>
+<li>Worth a read for developers following AWS and AI.</li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore">https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore</a></li>
+</ul>
+
+    </div>
+<div class="post_comments">
+  
+  
+  
+</div>
+
+
+
+
+  </article>
+<aside class="sidebar">
+  <section class="sidebar_inner">
+    <br>
+    
+  
+  <div class="search">
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
+    <label for="find" class="search_label"><svg class="icon">
+  <title>search</title>
+  <use xlink:href="#search"></use>
+</svg>
+
     </label>
+    
+    <div class="search_results results"></div>
+  </div>
+
+
+    
+    
+  </section>
+</aside>
+
   
-  
-  
-  <button type="button" class="new-filter" data-new-filter aria-pressed="false" hidden>
-    New <span data-new-count></span>
-  </button>
-  <button type="button" class="saved-filter" data-type-filter="bookmarks" aria-pressed="false">☆ Saved</button>
-  <div class="density-toggle" role="group" aria-label="Story layout">
-    <button type="button" data-density-option="comfortable" aria-pressed="true">Comfortable</button>
-    <button type="button" data-density-option="compact" aria-pressed="false">Compact</button>
-  </div>
-    <details class="browser-settings">
-      <summary aria-label="Source settings">Sources</summary>
-      <div>
-        <div class="settings-header">
-          <strong>Source settings</strong>
-          <button type="button" data-close-settings aria-label="Close settings">×</button>
-        </div>
-        <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
-      </div>
-    </details>
-  </div>
-</details>
-
-    <p class="results-summary" aria-live="polite">
-      Showing <span id="rendered-count">4</span>
-      of <span id="visible-count">4</span> <span id="result-label">stories</span>
-    </p>
-    <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-topic-scope="containers">
-      
-        
-<article
-  class="news-card"
-  data-news-card
-  data-url="https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026"
-  data-source="docker"
-  data-topics="containers,ai,security"
-  data-ai-subtopics="security"
-  data-content-type="article"
-  data-date="2026-09-22T15:06:15Z">
-  <a class="news-card__image" href="https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026" data-outbound>
-    
-      <img src="https://www.docker.com/app/uploads/2025/03/image.png" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback-image="/images/docker.png">
-    
-    
-    
-  </a>
-  <div class="news-card__body">
-    <div class="source-line">
-      <span>Docker</span>
-      <span>
-        <time datetime="2026-09-22T15:06:15Z" data-relative-time>Sep 22</time>
-         · 4 min read
-      </span>
-    </div>
-    <h3><a href="https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026" data-outbound>Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker</a></h3>
-    <div class="topic-list">
-      
-        <button type="button" class="topic-badge" data-topic-filter="containers">Containers</button>
-      
-        <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
-      
-    </div>
-    <p class="news-card__summary">Meet the partners and customers bringing practical AI, security, and development sessions to the Docker Pavilion at WeAreDevelopers. The post explains why a strong ecosystem …</p>
-    <div class="news-card__footer">
-      <a href="https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026" class="story-link" data-outbound>
-        Read article →
-      </a>
-      <div class="card-actions">
-        <button type="button" data-bookmark aria-label="Bookmark Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker">☆</button>
-        <details class="share-control">
-          <summary aria-label="More actions">•••</summary>
-          <div class="share-menu">
-            <div class="share-menu__header">
-              <strong>Share</strong>
-              <button type="button" data-close-share aria-label="Close share menu">×</button>
-            </div>
-            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fwww.docker.com%252Fblog%252Fwearedevelopers-partner-customer-sessions-2026" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fwww.docker.com%252Fblog%252Fwearedevelopers-partner-customer-sessions-2026&text=Meet%2bthe%2bEcosystem%253A%2bPartners%2band%2bCustomers%2bat%2bWeAreDevelopers%2bwith%2bDocker" target="_blank" rel="noopener">X</a>
-            <a href="mailto:?subject=Meet%2bthe%2bEcosystem%253A%2bPartners%2band%2bCustomers%2bat%2bWeAreDevelopers%2bwith%2bDocker&body=https%253A%252F%252Fwww.docker.com%252Fblog%252Fwearedevelopers-partner-customer-sessions-2026">Email</a>
-            <button type="button" data-copy-link>Copy link</button>
-            <button type="button" data-hide-source>Hide Docker</button>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</article>
-
-      
-        
-<article
-  class="news-card"
-  data-news-card
-  data-url="https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents"
-  data-source="aws-ml-blog"
-  data-topics="aws,ai,containers"
-  data-ai-subtopics="agents,copilot"
-  data-content-type="article"
-  data-date="2026-09-18T15:25:23Z">
-  <a class="news-card__image" href="https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents" data-outbound>
-    
-      <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/15/ML-21283-featured-image.png" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback-image="/images/aws.png">
-    
-    
-    
-  </a>
-  <div class="news-card__body">
-    <div class="source-line">
-      <span>AWS Machine Learning Blog</span>
-      <span>
-        <time datetime="2026-09-18T15:25:23Z" data-relative-time>Sep 18</time>
-        
-      </span>
-    </div>
-    <h3><a href="https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents" data-outbound>Deploy Hugging Face models on Amazon SageMaker AI with coding agents</a></h3>
-    <div class="topic-list">
-      
-        <button type="button" class="topic-badge" data-topic-filter="aws">AWS</button>
-      
-        <button type="button" class="topic-badge" data-topic-filter="ai">AI</button>
-      
-    </div>
-    <p class="news-card__summary">Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the …</p>
-    <div class="news-card__footer">
-      <a href="https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents" class="story-link" data-outbound>
-        Read article →
-      </a>
-      <div class="card-actions">
-        <button type="button" data-bookmark aria-label="Bookmark Deploy Hugging Face models on Amazon SageMaker AI with coding agents">☆</button>
-        <details class="share-control">
-          <summary aria-label="More actions">•••</summary>
-          <div class="share-menu">
-            <div class="share-menu__header">
-              <strong>Share</strong>
-              <button type="button" data-close-share aria-label="Close share menu">×</button>
-            </div>
-            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fdeploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fdeploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents&text=Deploy%2bHugging%2bFace%2bmodels%2bon%2bAmazon%2bSageMaker%2bAI%2bwith%2bcoding%2bagents" target="_blank" rel="noopener">X</a>
-            <a href="mailto:?subject=Deploy%2bHugging%2bFace%2bmodels%2bon%2bAmazon%2bSageMaker%2bAI%2bwith%2bcoding%2bagents&body=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fdeploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents">Email</a>
-            <button type="button" data-copy-link>Copy link</button>
-            <button type="button" data-hide-source>Hide AWS Machine Learning Blog</button>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</article>
-
-      
-        
-<article
-  class="news-card"
-  data-news-card
-  data-url="https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway"
-  data-source="aws-ml-blog"
-  data-topics="aws,containers,ai"
-  data-ai-subtopics=""
-  data-content-type="article"
-  data-date="2026-09-18T13:08:34Z">
-  <a class="news-card__image" href="https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway" data-outbound>
-    
-      <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/16/ML-21822-featured-image-2.png" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback-image="/images/aws.png">
-    
-    
-    
-  </a>
-  <div class="news-card__body">
-    <div class="source-line">
-      <span>AWS Machine Learning Blog</span>
-      <span>
-        <time datetime="2026-09-18T13:08:34Z" data-relative-time>Sep 18</time>
-        
-      </span>
-    </div>
-    <h3><a href="https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway" data-outbound>Introducing Amazon SageMaker HyperPod Inference Gateway</a></h3>
-    <div class="topic-list">
-      
-        <button type="button" class="topic-badge" data-topic-filter="aws">AWS</button>
-      
-        <button type="button" class="topic-badge" data-topic-filter="containers">Containers</button>
-      
-    </div>
-    <p class="news-card__summary">Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS. It uses real-time GPU signals to send each inference request to the …</p>
-    <div class="news-card__footer">
-      <a href="https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway" class="story-link" data-outbound>
-        Read article →
-      </a>
-      <div class="card-actions">
-        <button type="button" data-bookmark aria-label="Bookmark Introducing Amazon SageMaker HyperPod Inference Gateway">☆</button>
-        <details class="share-control">
-          <summary aria-label="More actions">•••</summary>
-          <div class="share-menu">
-            <div class="share-menu__header">
-              <strong>Share</strong>
-              <button type="button" data-close-share aria-label="Close share menu">×</button>
-            </div>
-            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fintroducing-amazon-sagemaker-hyperpod-inference-gateway" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fintroducing-amazon-sagemaker-hyperpod-inference-gateway&text=Introducing%2bAmazon%2bSageMaker%2bHyperPod%2bInference%2bGateway" target="_blank" rel="noopener">X</a>
-            <a href="mailto:?subject=Introducing%2bAmazon%2bSageMaker%2bHyperPod%2bInference%2bGateway&body=https%253A%252F%252Faws.amazon.com%252Fblogs%252Fmachine-learning%252Fintroducing-amazon-sagemaker-hyperpod-inference-gateway">Email</a>
-            <button type="button" data-copy-link>Copy link</button>
-            <button type="button" data-hide-source>Hide AWS Machine Learning Blog</button>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</article>
-
-      
-        
-<article
-  class="news-card"
-  data-news-card
-  data-url="https://devblogs.microsoft.com/insidemsix/msix-package-types"
-  data-source="microsoft-devblogs"
-  data-topics=".net,containers"
-  data-ai-subtopics=""
-  data-content-type="article"
-  data-date="2026-09-15T16:00:38Z">
-  <a class="news-card__image" href="https://devblogs.microsoft.com/insidemsix/msix-package-types" data-outbound>
-    
-      <img src="/images/docker.png" alt="" width="640" height="360" loading="lazy" decoding="async">
-    
-    
-    
-  </a>
-  <div class="news-card__body">
-    <div class="source-line">
-      <span>Microsoft .NET Blog</span>
-      <span>
-        <time datetime="2026-09-15T16:00:38Z" data-relative-time>Sep 15</time>
-        
-      </span>
-    </div>
-    <h3><a href="https://devblogs.microsoft.com/insidemsix/msix-package-types" data-outbound>PackageType: Main, Framework, Resource, Optional, Bundle</a></h3>
-    <div class="topic-list">
-      
-        <button type="button" class="topic-badge" data-topic-filter=".net">.NET</button>
-      
-        <button type="button" class="topic-badge" data-topic-filter="containers">Containers</button>
-      
-    </div>
-    <p class="news-card__summary">Every MSIX package is one of four package types: Main Framework Resource Optional MSIX also supports Bundle packages. Bundles are somewhat different from those four package types: …</p>
-    <div class="news-card__footer">
-      <a href="https://devblogs.microsoft.com/insidemsix/msix-package-types" class="story-link" data-outbound>
-        Read article →
-      </a>
-      <div class="card-actions">
-        <button type="button" data-bookmark aria-label="Bookmark PackageType: Main, Framework, Resource, Optional, Bundle">☆</button>
-        <details class="share-control">
-          <summary aria-label="More actions">•••</summary>
-          <div class="share-menu">
-            <div class="share-menu__header">
-              <strong>Share</strong>
-              <button type="button" data-close-share aria-label="Close share menu">×</button>
-            </div>
-            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%253A%252F%252Fdevblogs.microsoft.com%252Finsidemsix%252Fmsix-package-types" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://twitter.com/intent/tweet?url=https%253A%252F%252Fdevblogs.microsoft.com%252Finsidemsix%252Fmsix-package-types&text=PackageType%253A%2bMain%252C%2bFramework%252C%2bResource%252C%2bOptional%252C%2bBundle" target="_blank" rel="noopener">X</a>
-            <a href="mailto:?subject=PackageType%253A%2bMain%252C%2bFramework%252C%2bResource%252C%2bOptional%252C%2bBundle&body=https%253A%252F%252Fdevblogs.microsoft.com%252Finsidemsix%252Fmsix-package-types">Email</a>
-            <button type="button" data-copy-link>Copy link</button>
-            <button type="button" data-hide-source>Hide Microsoft .NET Blog</button>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</article>
-
-      
-    </div>
-    <p class="empty-state" id="empty-state" hidden>No stories match these filters.</p>
-    <nav class="client-pagination" data-client-pagination aria-label="Containers result pages" hidden>
-      <button type="button" data-page-previous>← Previous</button>
-      <span data-page-status aria-live="polite"></span>
-      <button type="button" data-page-next>Next →</button>
-    </nav>
-    
-  </div>
-
+</div>
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
