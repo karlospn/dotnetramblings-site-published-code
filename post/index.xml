@@ -7,7 +7,176 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 23 Sep 2026 20:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Sep 2026 17:15:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manufacturing Trust for AI Agents | Docker’s WeAreDevelopers Keynote</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2026/191f158a1319/</link>
+      <pubDate>Thu, 24 Sep 2026 17:15:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2026/191f158a1319/</guid>
+      <description>
+        
+          
+            Docker&#39;s WeAreDevelopers keynote shows how Sandboxes, Kits, and Cloud Sandboxes give AI agents strong isolation and reproducible authority.
+Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/manufacturing-trust-for-ai-agents-keynote 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Speaker-labeled transcription with WhisperX on SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2026/91b7777ba953/</link>
+      <pubDate>Thu, 24 Sep 2026 16:20:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2026/91b7777ba953/</guid>
+      <description>
+        
+          
+            The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. Learn how to deploy it to Amazon SageMaker AI real-time and asynchronous endpoints for word-level, speaker-labeled transcription, plus the production details that matter: the GPU AMI pin, scaling, and cost controls.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a multi-account AI agent with AgentCore Gateway and MCP</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2026/11a1146fb8b2/</link>
+      <pubDate>Thu, 24 Sep 2026 16:12:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2026/11a1146fb8b2/</guid>
+      <description>
+        
+          
+            Build a multi-account architecture that keeps each team&#39;s data in its own AWS account while giving AI agents a unified way to query across them. A central platform account runs the agent using Amazon Bedrock AgentCore Gateway and MCP, while line-of-business accounts expose their data as MCP servers with secure cross-account access and fine-grained authorization.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Aderant builds intelligent ticket triage with Amazon Nova</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2026/c55381360779/</link>
+      <pubDate>Thu, 24 Sep 2026 16:06:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2026/c55381360779/</guid>
+      <description>
+        
+          
+            Learn how Aderant built an intelligent ticket triage system on Amazon Nova Lite through Amazon Bedrock, automating context gathering, classification, routing, and knowledge enrichment for its cloud operations team.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docker and CNCF partner on an open spec for agent permissions</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2026/2ec96f925933/</link>
+      <pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2026/2ec96f925933/</guid>
+      <description>
+        
+          
+            Docker is bringing the open source Sandbox Kit Spec to the CNCF, so AI agent permissions become a neutral, vendor independent standard built on OCI.
+Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/docker-sandbox-kit-spec-cncf 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From Dockerfile to Kit: the Docker Sandboxes Kit Specification</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2026/e985d81f9505/</link>
+      <pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2026/e985d81f9505/</guid>
+      <description>
+        
+          
+            Docker&#39;s Sandbox Kit Specification v3 packages an AI agent&#39;s network rules, credentials, and volumes as an ordinary, pinnable OCI image.
+Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/docker-sandbox-kit-spec 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Cloud Sandboxes: Start on Your Laptop, Finish in the Cloud</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2026/f0deb9910459/</link>
+      <pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2026/f0deb9910459/</guid>
+      <description>
+        
+          
+            Run agents on your laptop, in the cloud, and move between them with one command, all safely. Earlier this year we launched Docker Sandboxes: microVM environments where coding agents can work autonomously in a safe way.
+Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/introducing-cloud-sandboxes-start-on-your-laptop-finish-in-the-cloud 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>dotNetDave Rocks Codemotion Milan 2026</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2026/931d018a5d39/</link>
+      <pubDate>Thu, 24 Sep 2026 15:58:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2026/931d018a5d39/</guid>
+      <description>
+        
+          
+            dotNetDave&#39;s No Rest for the Wicked World Tour will arrive in Milan for Codemotion Milan 2026 on October 28th-29th. This marks his first speaking engagement in Italy, where he will present &amp;quot;Unleash Your Inner Rockstar: The 5 Steps to Dynamic Public Speaking!&amp;quot; Join to enhance your public speaking skills and career.
+Worth a read for developers following .NET. Link to article: https://dotnettips.com/2026/09/24/dotnetdave-rocks-codemotion-milan-2026 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>dotNetDave Rocks .NET Developer Days 2026 Warsaw</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2026/b29677237d07/</link>
+      <pubDate>Thu, 24 Sep 2026 15:53:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2026/b29677237d07/</guid>
+      <description>
+        
+          
+            David McCarter, also known as dotNetDave, will speak at .NET Developer Days 2026 in Warsaw on October 20-21. His sessions focus on performance benchmarking using BenchmarkDotNet and software engineering principles likened to rock music. Attendees will gain insights on effective code measurement, testing, and embracing engineering judgment.
+Worth a read for developers following .NET and Testing. Link to article: https://dotnettips.com/2026/09/24/dotnetdave-rocks-net-developer-days-2026-warsaw 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Multi-Tenant Best Practices Can Backfire</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2026/b4c946205575/</link>
+      <pubDate>Thu, 24 Sep 2026 14:03:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2026/b4c946205575/</guid>
+      <description>
+        
+          
+            You have a multi-tenant system, but you discover a pretty horrible bug. How can that be? You followed all the best practices! Your HTTP API places a message on a queue to generate an invoice. A background process picks up that message and executes it. Everything looks like it worked. There were no exceptions, no… Read More » Multi-Tenant Best Practices Can Backfire The post Multi-Tenant Best Practices Can Backfire…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Microsoft is updating its author-signing certificate starting September 23, 2026</title>
       <link>https://www.dotnetramblings.com/post/23_09_2026/29381cc33b58/</link>
