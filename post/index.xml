@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 17:15:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Sep 2026 21:44:38 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logical Message Deduplication with Wolverine</title>
+      <link>https://www.dotnetramblings.com/post/24_09_2026/40d3a41206a9/</link>
+      <pubDate>Thu, 24 Sep 2026 21:44:38 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_09_2026/40d3a41206a9/</guid>
+      <description>
+        
+          
+            Wolverine has long had support for message idempotency using Wolverine’s transactional inbox to track messages that have already been handled, but that usage only applies to Wolverine metadata and does nothing from an upstream sender (or let’s be honest, your code) accidentally sending the same logical message. Recent versions of Wolverine added “logical message deduplication” … Continue reading Logical Message…
+Worth a read for developers following General. Link to article: https://jeremydmiller.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Manufacturing Trust for AI Agents | Docker’s WeAreDevelopers Keynote</title>
       <link>https://www.dotnetramblings.com/post/24_09_2026/191f158a1319/</link>
@@ -256,6 +273,40 @@ Worth a read for developers following AWS and AI. Link to article: https://aws.a
           
             Marking two years of OpenAI Academy and bringing AI skills to even more communities.
 Worth a read for developers following AI. Link to article: https://openai.com/index/two-years-of-openai-academy 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Your architecture diagram is not your resilience</title>
+      <link>https://www.dotnetramblings.com/post/23_09_2026/5214a2a52a67/</link>
+      <pubDate>Wed, 23 Sep 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_09_2026/5214a2a52a67/</guid>
+      <description>
+        
+          
+            For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain. The post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog .
+Worth a read for developers following Architecture and Azure. Link to article: https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Designing agent-first platforms: What changes when agents do the work</title>
+      <link>https://www.dotnetramblings.com/post/23_09_2026/03377595a69c/</link>
+      <pubDate>Wed, 23 Sep 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/23_09_2026/03377595a69c/</guid>
+      <description>
+        
+          
+            The organizations pulling ahead are not simply adding AI to what they already have. They are designing for a different kind of software. The post Designing agent-first platforms: What changes when agents do the work appeared first on Microsoft Azure Blog .
+Worth a read for developers following AI and Azure. Link to article: https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work 
           
           
         
