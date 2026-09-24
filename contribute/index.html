@@ -25,17 +25,14 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Do you create content related to .NET? We&amp;#39;re thrilled to welcome you!
-Even if your content isn&amp;#39;t strictly about .NET, but focuses on software development, cloud …">
+<meta name="description" content="Have a .NET-related blog or YouTube channel to suggest? Contributions from creators and readers are welcome. Sources should regularly publish content relevant …">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Contribute">
-<meta name="twitter:description" content="Do you create content related to .NET? We&amp;#39;re thrilled to welcome you!
-Even if your content isn&amp;#39;t strictly about .NET, but focuses on software development, cloud …">
+<meta name="twitter:description" content="Have a .NET-related blog or YouTube channel to suggest? Contributions from creators and readers are welcome. Sources should regularly publish content relevant …">
 <meta name="twitter:image" content="https://www.dotnetramblings.com/images/thumbnail.png">
 <meta property="og:url" content="https://www.dotnetramblings.com/contribute/">
 <meta property="og:title" content="Contribute">
-<meta property="og:description" content="Do you create content related to .NET? We&amp;#39;re thrilled to welcome you!
-Even if your content isn&amp;#39;t strictly about .NET, but focuses on software development, cloud …">
+<meta property="og:description" content="Have a .NET-related blog or YouTube channel to suggest? Contributions from creators and readers are welcome. Sources should regularly publish content relevant …">
 <meta property="og:image" content="https://www.dotnetramblings.com/images/thumbnail.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
@@ -54,7 +51,7 @@ Even if your content isn&amp;#39;t strictly about .NET, but focuses on software 
 <link rel="stylesheet" type="text/css" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" crossorigin="anonymous">
 
 
-<link rel="stylesheet" href="/css/news.min.abce9445705e77c1fb3bbe9301fddb666149bedfe23e722b28caf54792d2bd6882c8e989084b662c935f78631ed3c429489f98b1cc3508989244e80fc25696b3.css" integrity="sha512-q86URXBed8H7O76TAf3bZmFJvt/iPnIrKMr1R5LSvWiCyOmJCEtmLJNfeGMe08QpSJ&#43;Yscw1CJiSROgPwlaWsw==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/news.min.246fba538a62d31dec096601aecf1369c085ffe6c319ee8f93338e1ac70665d7ae727c3c4671fa4c9ffb7441f7338c2ffc98c276d2e5a35697ca4aa2bc0ad29d.css" integrity="sha512-JG&#43;6U4pi0x3sCWYBrs8TacCF/&#43;bDGe6PkzOOGscGZdeucnw8RnH6TJ/7dEH3M4wv/JjCdtLlo1aXykqivArSnQ==" crossorigin="anonymous">
 
   </head>
   <body
@@ -160,38 +157,21 @@ Even if your content isn&amp;#39;t strictly about .NET, but focuses on software 
       <span class="post_time"> · 1 min read</span>
   </div>
 
-    <div class="post_body"><p>Do you create content related to .NET? We're thrilled to welcome you!</p>
-<p>Even if your content isn't strictly about .NET, but focuses on software development, cloud computing, AI, or any other tech-related subject, we're excited to feature your posts here!</p>
-<h1 id="how-to-add-your-site">How to add your site</h1>
-<h2 id="prerequisite">Prerequisite</h2>
-<ul>
-<li>A functioning RSS feed or a Youtube Channel that can be accessed via the Internet.</li>
-</ul>
-<h2 id="enrollment-process">Enrollment Process</h2>
-<p>1 - Visit my Github repository: <a href="https://github.com/karlospn/building-a-dotnet-news-aggregator-site">https://github.com/karlospn/building-a-dotnet-news-aggregator-site</a></p>
-<p>2 - The <code>/data</code> folder contain the current feeds utilized by this site.</p>
-<p>3 - Create a new <code>yml</code> file with the following attributes:</p>
-<ul>
-<li><code>Feed (required)</code>: The URL of the RSS feed or the Youtube channel.</li>
-<li><code>Title (required)</code>: The name of your site.</li>
-<li><code>Website (required)</code>: The URL of your site.</li>
-<li><code>Description (optional)</code>:  A brief description of your site's content.</li>
-<li><code>Author (optional)</code>: The name of the site's author.</li>
-</ul>
-<p>Here's an example of adding an RSS feed:</p>
+    <div class="post_body"><p>Have a .NET-related blog or YouTube channel to suggest? Contributions from creators and readers are welcome. Sources should regularly publish content relevant to .NET developers; related cloud, DevOps, and AI content is welcome when it is useful to that audience.</p>
+<h2 id="suggest-an-rss-feed-or-youtube-channel">Suggest an RSS feed or YouTube channel</h2>
+<ol>
+<li>Check the existing <a href="/feeds/">Sources</a> to avoid duplicates.</li>
+<li>Add one <code>.yml</code> file for the source in the repository's <a href="https://github.com/karlospn/building-a-dotnet-news-aggregator-site/tree/main/data"><code>data/</code> folder</a>, using the existing files as examples. Include <code>Feed</code> (the public RSS URL or YouTube channel URL), <code>Title</code> (the source name), and <code>Website</code> (the source's website URL). <code>Description</code> and <code>Author</code> are optional.</li>
+<li>Open a pull request with a brief explanation of the source's relevance to .NET developers.</li>
+</ol>
+<p>For example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="ln">1</span><span class="cl"><span class="nt">Feed</span><span class="p">:</span><span class="w"> </span><span class="l">https://www.mytechramblings.com/index.xml</span><span class="w">
 </span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="w"></span><span class="nt">Title</span><span class="p">:</span><span class="w"> </span><span class="l">My technical ramblings</span><span class="w">
-</span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w"></span><span class="nt">Website</span><span class="p">:</span><span class="w"> </span><span class="l">https://www.mytechramblings.com</span><span class="w">
+</span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w"></span><span class="nt">Website</span><span class="p">:</span><span class="w"> </span><span class="l">https://www.mytechramblings.com/</span><span class="w">
 </span></span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="w"></span><span class="nt">Description</span><span class="p">:</span><span class="w"> </span><span class="l">Technical ramblings from a software engineer</span><span class="w">
 </span></span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="w"></span><span class="nt">Author</span><span class="p">:</span><span class="w"> </span><span class="l">Carlos Pons</span><span class="w">
-</span></span></span></code></pre></div><p>And here's an example of adding a Youtube channel:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="ln">1</span><span class="cl"><span class="nt">Feed</span><span class="p">:</span><span class="w"> </span><span class="l">https://www.youtube.com/@ChilliCream</span><span class="w">
-</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="w"></span><span class="nt">Title</span><span class="p">:</span><span class="w"> </span><span class="l">ChilliCream</span><span class="w">
-</span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w"></span><span class="nt">Website</span><span class="p">:</span><span class="w"> </span><span class="l">https://chillicream.com/</span><span class="w">
-</span></span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="w"></span><span class="nt">Description</span><span class="p">:</span><span class="w"> </span><span class="l">The Ultimate GraphQL Platform</span><span class="w">
-</span></span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="w"></span><span class="nt">Author</span><span class="p">:</span><span class="w"> </span><span class="l">ChilliCream</span><span class="w">
-</span></span></span></code></pre></div><p>4 - Open a Pull Request and await our approval.</p>
-<p>5 - Your posts will then begin to appear on our site.</p>
+</span></span></span></code></pre></div><p>To propose an account for <a href="/community/">Community Pulse</a>, open a <a href="https://github.com/karlospn/building-a-dotnet-news-aggregator-site/issues">GitHub issue</a> with its Bluesky or Mastodon profile and why its posts would be relevant. Community accounts are curated separately from the <code>data/</code> feed files; do not add them there.</p>
+<p>Suggestions are reviewed for fit and reliability. Submission does not guarantee inclusion or publication of every post.</p>
 
     </div>
 <div class="post_comments">
@@ -323,7 +303,7 @@ Even if your content isn&amp;#39;t strictly about .NET, but focuses on software 
 
   <script src="https://www.dotnetramblings.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
-<script src="/js/news.min.2d89cc27a0b1cb5295bc0b0893b2b7c3584e4f50b8a315ee4d8b2dc9fc1ffe25c4725763fe682a95e5d489f24e6a93f4743b6e5122ee307d9a4252745cb8246c.js" integrity="sha512-LYnMJ6Cxy1KVvAsIk7K3w1hOT1C4oxXuTYstyfwf/iXEcldj/mgqleXUifJOapP0dDtuUSLuMH2aQlJ0XLgkbA==" crossorigin="anonymous"></script>
+<script src="/js/news.min.b2f9c7375c2ab893ce86931093f1b58f18135a72ed496742cbfa4967287f8805e1775cd98b195a88baff37f069cda80e61d92698e97309309eaaebfdcf7670fd.js" integrity="sha512-svnHN1wquJPOhpMQk/G1jxgTWnLtSWdCy/pJZyh/iAXhd1zZixlaiLr/N/BpzagOYdkmmOlzCTCequv9z3Zw/Q==" crossorigin="anonymous"></script>
 
   </body>
 </html>
