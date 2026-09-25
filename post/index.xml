@@ -7,7 +7,143 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 21:44:38 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Sep 2026 19:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proaction boosts sales 60% and saves 75&#43; hours with Codex</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2026/d2d497e5eee4/</link>
+      <pubDate>Fri, 25 Sep 2026 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2026/d2d497e5eee4/</guid>
+      <description>
+        
+          
+            With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.
+Worth a read for developers following AI. Link to article: https://openai.com/index/proaction 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AG-UI Protocol now has a first-class .NET SDK</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2026/768fa9bd86fd/</link>
+      <pubDate>Fri, 25 Sep 2026 17:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2026/768fa9bd86fd/</guid>
+      <description>
+        
+          
+            The new AG-UI .NET SDK enables .NET services to expose and consume interoperable agent endpoints using Microsoft.Extensions.AI. The post AG-UI Protocol now has a first-class .NET SDK appeared first on .NET Blog .
+Worth a read for developers following .NET and AI. Link to article: https://devblogs.microsoft.com/dotnet/ag-ui-dotnet-sdk 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2026/f3a074486b06/</link>
+      <pubDate>Fri, 25 Sep 2026 16:29:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2026/f3a074486b06/</guid>
+      <description>
+        
+          
+            Learn how to scale Mixture-of-Experts (MoE) reinforcement learning on Amazon EKS using Elastic Fabric Adapter (EFA) and DeepEP. This post presents an architecture that combines Amazon EKS, EFA, and Amazon S3 and increased aggregate reinforcement learning rollout throughput by 40% for large-scale RLHF and GRPO training.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2026/44df1f0ad2a5/</link>
+      <pubDate>Fri, 25 Sep 2026 16:18:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2026/44df1f0ad2a5/</guid>
+      <description>
+        
+          
+            Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, and hosting the trained LoRA adapter for inference.
+Worth a read for developers following AWS and Containers. Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>NarrateAI: production-ready LLM quality assurance on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2026/5c491d084833/</link>
+      <pubDate>Fri, 25 Sep 2026 16:15:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2026/5c491d084833/</guid>
+      <description>
+        
+          
+            NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composite evaluation, and data accuracy verification—that reach about 99% numerical accuracy while streaming responses in real time.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2026/fbfeb983c98c/</link>
+      <pubDate>Fri, 25 Sep 2026 16:09:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2026/fbfeb983c98c/</guid>
+      <description>
+        
+          
+            Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time endpoint, and clone a voice from a short reference clip. Cross-lingual cloning preserves the speaker&#39;s identity across languages.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Datacor built self-service rental analytics with Amazon Quick Sight</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2026/3d3961d3118f/</link>
+      <pubDate>Fri, 25 Sep 2026 15:54:42 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2026/3d3961d3118f/</guid>
+      <description>
+        
+          
+            Learn how Datacor built a self-service rental analytics experience for gas and welding distributors by embedding Amazon Quick Sight dashboards and natural language querying into its TrackAbout platform, powered by an automated cross-cloud data pipeline and multi-tenant row-level security.
+Worth a read for developers following AWS and DevOps. Link to article: https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Multi-Region training with Amazon SageMaker HyperPod and Qumulo</title>
+      <link>https://www.dotnetramblings.com/post/25_09_2026/4ac4a69f34d4/</link>
+      <pubDate>Fri, 25 Sep 2026 15:49:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_09_2026/4ac4a69f34d4/</guid>
+      <description>
+        
+          
+            Amazon SageMaker HyperPod and Cloud Native Qumulo let you place training compute in one AWS Region while keeping your dataset in another. This post shares the architecture and validation results from a cross-Region training run, where a remote cluster matched a co-located cluster&#39;s throughput after a brief NeuralCache warmup.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Logical Message Deduplication with Wolverine</title>
       <link>https://www.dotnetramblings.com/post/24_09_2026/40d3a41206a9/</link>
