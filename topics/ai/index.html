@@ -1680,7 +1680,7 @@
         <p>Stable releases from selected .NET AI projects over the past year; not an exhaustive list of AI tools.</p>
       </div>
       
-        <span>Latest release Sep 22, 2026</span>
+        <span>Latest release Sep 25, 2026</span>
       
     </div>
     
@@ -1696,6 +1696,21 @@
             <button type="button" data-release-filter="deprecation" aria-pressed="false">Deprecations (4)</button>
       </div>
       <div class="release-list">
+        
+          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
+            <div class="release-item__meta">
+              <span>Microsoft.Extensions.AI</span>
+              <time datetime="2026-09-25T16:16:19&#43;00:00">Sep 25, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/dotnet/extensions/releases/tag/v10.10.1" rel="noopener">Microsoft.Extensions.AI 10.10.1</a></h3>
+              <p>This release fixes two OpenAI integration issues: a TypeLoadException on tool-carrying Responses API calls and a streaming crash against third-party OpenAI-compatible endpoints, by upgrading the OpenAI SDK to 2.14.0. | Package | Version | |---------|---------| |…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Sdk Release</span>
+              <span>Official</span>
+            </div>
+          </article>
         
           <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
             <div class="release-item__meta">
@@ -3850,21 +3865,6 @@
             <div class="release-item__content">
               <h3><a href="https://github.com/microsoft/onnxruntime/releases/tag/v1.23.1" rel="noopener">ONNX Runtime 1.23.1</a></h3>
               <p>- Fix Attention GQA implementation on CPU (#25966) - Address edge GetMemInfo edge cases (#26021) - Implement new Python APIs (#25999) - MemcpyFromHost and MemcpyToHost support for plugin EPs (#26088) - [TRT RTX EP] Fix bug for generating the correct subgraph in GetCapability…</p>
-            </div>
-            <div class="release-item__labels">
-              <span class="release-type">Sdk Release</span>
-              <span>Official</span>
-            </div>
-          </article>
-        
-          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
-            <div class="release-item__meta">
-              <span>ONNX Runtime</span>
-              <time datetime="2025-09-26T04:33:48&#43;00:00">Sep 26, 2025</time>
-            </div>
-            <div class="release-item__content">
-              <h3><a href="https://github.com/microsoft/onnxruntime/releases/tag/v1.23.0" rel="noopener">ONNX Runtime 1.23.0</a></h3>
-              <p>- This release introduces Execution Provider (EP) Plugin API, which is a new infrastructure for building plugin-based EPs. (#24887 , #25137, #25124, #25147, #25127, #25159, #25191, #2524) - This release introduces the ability to dynamically download and install execution…</p>
             </div>
             <div class="release-item__labels">
               <span class="release-type">Sdk Release</span>
