@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Adding Observability to .NET Microservices on EKS with ADOT Auto-Instrumentation and Helm | .NET Ramblings</title>
+<title>I Replaced a $120/Year SaaS With My Own App | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,18 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Introduction This post walks you through the process of adding telemetry to your .NET applications running on Kubernetes using AWS Distro for OpenTelemetry …">
+<meta name="description" content="I paid $120 a year for a transcription tool until a coding agent helped me get my own version running in under an hour.
+Worth a read for developers following …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Adding Observability to .NET Microservices on EKS with ADOT Auto-Instrumentation and Helm">
-<meta name="twitter:description" content="Introduction This post walks you through the process of adding telemetry to your .NET applications running on Kubernetes using AWS Distro for OpenTelemetry …">
-<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/b4c96d80854dd27e76d8cc9e21960eebda52e962/2026/09/18/adding-observability-to-dotnet-microservices-on-eks-with-adot-1260x630.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/18_09_2026/0c4cc3bf6288/">
-<meta property="og:title" content="Adding Observability to .NET Microservices on EKS with ADOT Auto-Instrumentation and Helm">
-<meta property="og:description" content="Introduction This post walks you through the process of adding telemetry to your .NET applications running on Kubernetes using AWS Distro for OpenTelemetry …">
-<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/b4c96d80854dd27e76d8cc9e21960eebda52e962/2026/09/18/adding-observability-to-dotnet-microservices-on-eks-with-adot-1260x630.png">
+<meta name="twitter:title" content="I Replaced a $120/Year SaaS With My Own App">
+<meta name="twitter:description" content="I paid $120 a year for a transcription tool until a coding agent helped me get my own version running in under an hour.
+Worth a read for developers following …">
+<meta name="twitter:image" content="https://milanjovanovic.tech/blog-covers/mnw_213.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/26_09_2026/9b146604ee21/">
+<meta property="og:title" content="I Replaced a $120/Year SaaS With My Own App">
+<meta property="og:description" content="I paid $120 a year for a transcription tool until a coding agent helped me get my own version running in under an hour.
+Worth a read for developers following …">
+<meta property="og:image" content="https://milanjovanovic.tech/blog-covers/mnw_213.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +44,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://aws.amazon.com/blogs/dotnet/adding-observability-to-net-microservices-on-eks-with-adot-auto-instrumentation-and-helm">
+<link rel="canonical" href="https://milanjovanovic.tech/blog/speech-to-text-in-dotnet-with-assemblyai">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,25 +149,24 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Adding Observability to .NET Microservices on EKS with ADOT Auto-Instrumentation and Helm</h1>
+    <h1 class="post_title">I Replaced a $120/Year SaaS With My Own App</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Sep 18, 2026</span>
+      <span class="post_date">Sep 26, 2026</span>
       <span>
           <a href="https://www.dotnetramblings.com/topics/.net/" title=".NET" class="post_tag button button_translucent">.NET</a>
-          <a href="https://www.dotnetramblings.com/topics/architecture/" title="Architecture" class="post_tag button button_translucent">Architecture</a>
-          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
+          <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
       </span>
   </div>
 
-    <div class="post_body"><p>Introduction This post walks you through the process of adding telemetry to your .NET applications running on Kubernetes using AWS Distro for OpenTelemetry (ADOT) to gain observability into your applications, which allows you to find and fix operational issues quickly. ADOT uses OpenTelemetry, an open-source, vendor-neutral observability framework that standardizes how you instrument applications to […]</p>
+    <div class="post_body"><p>I paid $120 a year for a transcription tool until a coding agent helped me get my own version running in under an hour.</p>
 <ul>
-<li>Worth a read for developers following .NET and Architecture.</li>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/dotnet/adding-observability-to-net-microservices-on-eks-with-adot-auto-instrumentation-and-helm">https://aws.amazon.com/blogs/dotnet/adding-observability-to-net-microservices-on-eks-with-adot-auto-instrumentation-and-helm</a></li>
+<li>Worth a read for developers following .NET and AI.</li>
+<li>Link to article: <a href="https://milanjovanovic.tech/blog/speech-to-text-in-dotnet-with-assemblyai">https://milanjovanovic.tech/blog/speech-to-text-in-dotnet-with-assemblyai</a></li>
 </ul>
 
     </div>

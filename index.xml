@@ -9,6 +9,23 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>I Replaced a $120/Year SaaS With My Own App</title>
+      <link>https://www.dotnetramblings.com/post/26_09_2026/9b146604ee21/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_09_2026/9b146604ee21/</guid>
+      <description>
+        
+          
+            I paid $120 a year for a transcription tool until a coding agent helped me get my own version running in under an hour.
+Worth a read for developers following .NET and AI. Link to article: https://milanjovanovic.tech/blog/speech-to-text-in-dotnet-with-assemblyai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Critter Stack Roadmap: CritterWatch 1.1, Spec Driven Development, and Event Modeling</title>
       <link>https://www.dotnetramblings.com/post/25_09_2026/8d18096d4c9e/</link>
       <pubDate>Fri, 25 Sep 2026 21:25:20 +0000</pubDate>
@@ -3156,23 +3173,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
     </item>
     
     <item>
-      <title>Amazon SageMaker Inference: 2026 year-to-date launches in review</title>
-      <link>https://www.dotnetramblings.com/post/18_09_2026/fe1a0ab278d3/</link>
-      <pubDate>Fri, 18 Sep 2026 20:52:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_09_2026/fe1a0ab278d3/</guid>
-      <description>
-        
-          
-            Amazon SageMaker AI shipped 13 inference launches in year-to-date across two deployment paths: fully managed endpoints and Amazon SageMaker HyperPod Inference. This post reviews each launch, from inference recommendations and capacity-aware instance pools to tiered KV caching and disaggregated prefill and decode.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Cloud Report | Let&#39;s build a new game with Kiro</title>
       <link>https://www.dotnetramblings.com/videos/18_09_2026/62dfd79e2279/</link>
       <pubDate>Fri, 18 Sep 2026 20:06:12 +0000</pubDate>
@@ -3241,23 +3241,6 @@ Worth a watch for developers following Azure and AI. Link to video: https://www.
     </item>
     
     <item>
-      <title>Adding Observability to .NET Microservices on EKS with ADOT Auto-Instrumentation and Helm</title>
-      <link>https://www.dotnetramblings.com/post/18_09_2026/0c4cc3bf6288/</link>
-      <pubDate>Fri, 18 Sep 2026 17:15:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_09_2026/0c4cc3bf6288/</guid>
-      <description>
-        
-          
-            Introduction This post walks you through the process of adding telemetry to your .NET applications running on Kubernetes using AWS Distro for OpenTelemetry (ADOT) to gain observability into your applications, which allows you to find and fix operational issues quickly. ADOT uses OpenTelemetry, an open-source, vendor-neutral observability framework that standardizes how you instrument applications to […]
-Worth a read for developers following .NET and Architecture. Link to article: https://aws.amazon.com/blogs/dotnet/adding-observability-to-net-microservices-on-eks-with-adot-auto-instrumentation-and-helm 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>How Jev detects PII vs LLMs, explained in under 20 seconds</title>
       <link>https://www.dotnetramblings.com/videos/18_09_2026/91f9d8782c42/</link>
       <pubDate>Fri, 18 Sep 2026 17:11:50 +0000</pubDate>
@@ -3292,23 +3275,6 @@ Worth a watch for developers following AWS. Link to video: https://www.youtube.c
     </item>
     
     <item>
-      <title>Introducing Kimi K3 on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/18_09_2026/2d2ff4af69a5/</link>
-      <pubDate>Fri, 18 Sep 2026 16:52:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_09_2026/2d2ff4af69a5/</guid>
-      <description>
-        
-          
-            Kimi K3 from Moonshot AI is now available on Amazon Bedrock, giving you a powerful new open-weight option for coding and knowledge work. It offers native vision, a 1-million-token context window, and explicit prompt caching to reduce latency and input costs.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>AI Agents Need More Than Code. Here&#39;s Why.</title>
       <link>https://www.dotnetramblings.com/videos/18_09_2026/7f6318c483b0/</link>
       <pubDate>Fri, 18 Sep 2026 16:00:38 +0000</pubDate>
@@ -3336,57 +3302,6 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
           
             Amanda Silver shares Microsoft&#39;s open source journey, from early ASP.NET support for jQuery to open-sourcing TypeScript, ...
 Worth a watch for developers following .NET and AI. Link to video: https://www.youtube.com/watch?v=YJIBPHqHznU 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime</title>
-      <link>https://www.dotnetramblings.com/post/18_09_2026/271cc6cc6ef3/</link>
-      <pubDate>Fri, 18 Sep 2026 15:38:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_09_2026/271cc6cc6ef3/</guid>
-      <description>
-        
-          
-            Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestration and vector-enhanced knowledge retrieval while reducing infrastructure management. The framework-agnostic pattern applies across healthcare, financial services, and manufacturing.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The new AgentCore runtime: Elastic, optimized, and consistently fast starts</title>
-      <link>https://www.dotnetramblings.com/post/18_09_2026/3b6074e1101c/</link>
-      <pubDate>Fri, 18 Sep 2026 15:31:34 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_09_2026/3b6074e1101c/</guid>
-      <description>
-        
-          
-            Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost efficiency that production agents demand. It reclaims memory as sessions release it and delivers consistent cold starts regardless of image size or concurrency.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deploy Hugging Face models on Amazon SageMaker AI with coding agents</title>
-      <link>https://www.dotnetramblings.com/post/18_09_2026/2f23b39ba223/</link>
-      <pubDate>Fri, 18 Sep 2026 15:25:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_09_2026/2f23b39ba223/</guid>
-      <description>
-        
-          
-            Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents 
           
           
         
@@ -3447,23 +3362,6 @@ Link to video: https://www.youtube.com/watch?v=P__jsmofagg
     </item>
     
     <item>
-      <title>Introducing Amazon SageMaker HyperPod Inference Gateway</title>
-      <link>https://www.dotnetramblings.com/post/18_09_2026/f24c916df15c/</link>
-      <pubDate>Fri, 18 Sep 2026 13:08:34 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_09_2026/f24c916df15c/</guid>
-      <description>
-        
-          
-            Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS. It uses real-time GPU signals to send each inference request to the best-suited pod, cutting first-token latency by up to 82% with no changes to your model servers or client applications.
-Worth a read for developers following AWS and Containers. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Entra ID Now Has Native Automatic Backups #SHORTS</title>
       <link>https://www.dotnetramblings.com/videos/18_09_2026/2d5fae1db6ab/</link>
       <pubDate>Fri, 18 Sep 2026 13:00:06 +0000</pubDate>
@@ -3474,40 +3372,6 @@ Worth a read for developers following AWS and Containers. Link to article: https
           
             Microsoft finally added Backup and Recovery to Entra ID… but it&#39;s NOT the backup most admins think it is. WATCH NEXT ...
 Worth a watch for developers following Azure. Link to video: https://www.youtube.com/watch?v=39Bxmj24ozc 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Test C# and EF Core Specifications Correctly</title>
-      <link>https://www.dotnetramblings.com/post/18_09_2026/8285290ecc39/</link>
-      <pubDate>Fri, 18 Sep 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_09_2026/8285290ecc39/</guid>
-      <description>
-        
-          
-            Learn which tests correctly prove C# and EF Core specifications, evaluator seams, relational translation, generated SQL, and production database semantics.
-Worth a read for developers following .NET and Data. Link to article: https://www.devleader.ca/2026/09/18/how-to-test-c-and-ef-core-specifications-correctly 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing the Australian Youth Safety Blueprint</title>
-      <link>https://www.dotnetramblings.com/post/18_09_2026/559b0cf11197/</link>
-      <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_09_2026/559b0cf11197/</guid>
-      <description>
-        
-          
-            OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.
-Worth a read for developers following AI. Link to article: https://openai.com/index/australian-youth-safety-blueprint 
           
           
         
@@ -3542,23 +3406,6 @@ Worth a watch for developers following Python. Link to video: https://www.youtub
           
             What exactly is AI model distillation, and why does it become controversial when another company does it to your model? Ulysses ...
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=VqiNub5grV4 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Modernize .NET repos at scale with the AWS Transform web experience</title>
-      <link>https://www.dotnetramblings.com/post/18_09_2026/cecf568e19cc/</link>
-      <pubDate>Fri, 18 Sep 2026 10:04:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/18_09_2026/cecf568e19cc/</guid>
-      <description>
-        
-          
-            If you have multiple .NET Framework solutions to modernize, you may be wondering how to do that efficiently – especially if you have dozens, hundreds, or thousands of repositories. You can accelerate .NET code modernization with AWS Transform, converting old Windows .NET Framework applications to modern .NET on Linux. In a prior post, I covered […]
-Worth a read for developers following .NET and AWS. Link to article: https://aws.amazon.com/blogs/dotnet/modernize-net-repos-at-scale-with-the-aws-transform-web-experience 
           
           
         
