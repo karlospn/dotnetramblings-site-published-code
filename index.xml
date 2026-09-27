@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 27 Sep 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Sep 2026 11:00:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Is Exposing Your Data: An AI Security Problem You Can&#39;t See</title>
+      <link>https://www.dotnetramblings.com/videos/27_09_2026/eb33021f8783/</link>
+      <pubDate>Sun, 27 Sep 2026 11:00:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/27_09_2026/eb33021f8783/</guid>
+      <description>
+        
+          
+            Learn more about Exposed Data here → https://ibm.biz/~DSFj8t9c9 AI is exposing your data in ways most teams can&#39;t see.
+Worth a watch for developers following AI and Security. Link to video: https://www.youtube.com/watch?v=kyJ1vd7yEPc 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>One Engineer, $120K in Token Spend, 800K Lines of Rust</title>
+      <link>https://www.dotnetramblings.com/videos/27_09_2026/3ca30890f7be/</link>
+      <pubDate>Sun, 27 Sep 2026 07:00:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/27_09_2026/3ca30890f7be/</guid>
+      <description>
+        
+          
+            Migrating the GitHub Copilot runtime to Rust, using Copilot: ...
+Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=dN11EApmfkM 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>HttpClient Keep-Alive: Why Disabling Connection Reuse Can Destroy Performance</title>
       <link>https://www.dotnetramblings.com/post/27_09_2026/06a5731d72c3/</link>
@@ -19,6 +53,23 @@
           
             Disabling keep-alive in HttpClient can severely degrade application performance, as it prevents connection reuse. While it may be justified in rare cases, such as for legacy systems or troubleshooting, most reasons are misguided. Instead, maintain keep-alive for efficiency and configure PooledConnectionLifetime to manage connections effectively.
 Worth a read for developers following .NET. Link to article: https://dotnettips.com/2026/09/27/httpclient-keep-alive-why-disabling-connection-reuse-can-destroy-performance 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>.NET Memory Dumps, Database Time Migration &amp; AI Agent Memory | The Upload</title>
+      <link>https://www.dotnetramblings.com/videos/26_09_2026/44cc0d9d6292/</link>
+      <pubDate>Sat, 26 Sep 2026 22:55:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/26_09_2026/44cc0d9d6292/</guid>
+      <description>
+        
+          
+            This week on The Upload: .NET apps capture memory dumps when things go wrong, Microsoft breaks down the challenges of ...
+Worth a watch for developers following .NET and AI. Link to video: https://www.youtube.com/watch?v=PS-IRAWuFOM 
           
           
         
@@ -3316,23 +3367,6 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
           
             Logging is crucial for app monitoring, extending beyond exceptions to include diagnostic events like request timing and connection details. Spargine offers three HTTP listeners—HttpEventListener, HttpEventListenerAsyncLocal, and HttpRequestsObserver—each providing various levels of detail to help troubleshoot performance issues and improve logging for .NET applications.
 Worth a read for developers following .NET. Link to article: https://dotnettips.com/2026/09/20/boost-your-net-projects-with-spargine-monitor-and-log-http-traffic 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The &#34;Free Lunch&#34; That Cost Millions</title>
-      <link>https://www.dotnetramblings.com/videos/19_09_2026/ee54ca924628/</link>
-      <pubDate>Sat, 19 Sep 2026 09:00:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/19_09_2026/ee54ca924628/</guid>
-      <description>
-        
-          
-            Moving from microservices back to a monolith saved Amazon Prime Video 90% on infrastructure costs! Holly Cummins breaks ...
-Worth a watch for developers following AWS and Architecture. Link to video: https://www.youtube.com/watch?v=-4aYIOTt_CU 
           
           
         
