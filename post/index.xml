@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Sep 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HttpClient Keep-Alive: Why Disabling Connection Reuse Can Destroy Performance</title>
+      <link>https://www.dotnetramblings.com/post/27_09_2026/06a5731d72c3/</link>
+      <pubDate>Sun, 27 Sep 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_09_2026/06a5731d72c3/</guid>
+      <description>
+        
+          
+            Disabling keep-alive in HttpClient can severely degrade application performance, as it prevents connection reuse. While it may be justified in rare cases, such as for legacy systems or troubleshooting, most reasons are misguided. Instead, maintain keep-alive for efficiency and configure PooledConnectionLifetime to manage connections effectively.
+Worth a read for developers following .NET. Link to article: https://dotnettips.com/2026/09/27/httpclient-keep-alive-why-disabling-connection-reuse-can-destroy-performance 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>I Replaced a $120/Year SaaS With My Own App</title>
       <link>https://www.dotnetramblings.com/post/26_09_2026/9b146604ee21/</link>
