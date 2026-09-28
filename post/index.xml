@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 27 Sep 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Sep 2026 00:29:02 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Critter Stack Round Up for the Past 2 Weeks</title>
+      <link>https://www.dotnetramblings.com/post/28_09_2026/279f00c2addc/</link>
+      <pubDate>Mon, 28 Sep 2026 00:29:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_09_2026/279f00c2addc/</guid>
+      <description>
+        
+          
+            Critter Stack Roundup: Two Weeks, Six Repositories, and an EF Core Sweep It’s been a busy couple of weeks across the Critter Stack. Between September 13th and today, we merged roughly 370 pull requests across JasperFx, Weasel, Marten, Polecat, Fisher, and Wolverine, and shipped a pile of releases along the way. More importantly, a big chunk of that work came from, or was driven by, people outside of JasperFx…
+Worth a read for developers following General.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>HttpClient Keep-Alive: Why Disabling Connection Reuse Can Destroy Performance</title>
       <link>https://www.dotnetramblings.com/post/27_09_2026/06a5731d72c3/</link>
@@ -1224,39 +1241,6 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
           
             Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.
 Worth a read for developers following AI. Link to article: https://openai.com/index/v7 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Querying Roslyn syntax trees with XPath</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2026/81f7d2b4fe6a/</link>
-      <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2026/81f7d2b4fe6a/</guid>
-      <description>
-        
-          
-            In , I showed that XPathNavigator is not tied to XML. Any tree can be exposed as a node-set, and the XPath engine of System.Xml.XPath does the rest. That post used a folder hierarchy as an example. Here is a much more interesting tree: the C# syntax tree produced by Roslyn. The occasion for it was an issue on Meziantou.Analyzer: Rule to forbid primary constructors? (Opposite of IDE0290). The request was…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Boost Your .NET Projects with Spargine: Monitor and Log HTTP Traffic</title>
-      <link>https://www.dotnetramblings.com/post/20_09_2026/3715558fb4bb/</link>
-      <pubDate>Sun, 20 Sep 2026 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_09_2026/3715558fb4bb/</guid>
-      <description>
-        
-          
-            Logging is crucial for app monitoring, extending beyond exceptions to include diagnostic events like request timing and connection details. Spargine offers three HTTP listeners—HttpEventListener, HttpEventListenerAsyncLocal, and HttpRequestsObserver—each providing various levels of detail to help troubleshoot performance issues and improve logging for .NET applications.
-Worth a read for developers following .NET. Link to article: https://dotnettips.com/2026/09/20/boost-your-net-projects-with-spargine-monitor-and-log-http-traffic 
           
           
         
