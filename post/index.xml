@@ -7,7 +7,109 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 28 Sep 2026 22:13:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Sep 2026 16:27:57 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt engineering fundamentals for Amazon Quick</title>
+      <link>https://www.dotnetramblings.com/post/29_09_2026/13bc4c52bea7/</link>
+      <pubDate>Tue, 29 Sep 2026 16:27:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_09_2026/13bc4c52bea7/</guid>
+      <description>
+        
+          
+            Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series covers the foundational principles and reusable frameworks (specificity, context-setting, few-shot examples, and the CRISPE framework) for consistent, high-quality results across Amazon Quick.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Prompt engineering by Quick component: Patterns and pitfalls</title>
+      <link>https://www.dotnetramblings.com/post/29_09_2026/067768027e39/</link>
+      <pubDate>Tue, 29 Sep 2026 16:27:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_09_2026/067768027e39/</guid>
+      <description>
+        
+          
+            Part 2 of our Amazon Quick prompt engineering series goes component by component. Learn the prompt patterns that get the best results from Amazon Quick Research, Quick Flows, Quick Sight, chat agents, and action integrations, plus the common pitfalls to avoid.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/prompt-engineering-by-quick-component-patterns-and-pitfalls 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/29_09_2026/0be4a27903e8/</link>
+      <pubDate>Tue, 29 Sep 2026 16:14:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_09_2026/0be4a27903e8/</guid>
+      <description>
+        
+          
+            Manually extracting data from hundreds of vendor contracts doesn&#39;t scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract intelligence platform on AWS that uses AI agents to extract and verify contract fields, then answers aggregate and single-contract questions through Amazon Quick analytics.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio September Update – Power Your Workflow with Your Model</title>
+      <link>https://www.dotnetramblings.com/post/29_09_2026/b63639f40bcf/</link>
+      <pubDate>Tue, 29 Sep 2026 16:00:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_09_2026/b63639f40bcf/</guid>
+      <description>
+        
+          
+            Bring your own AI model with updates to BYOM, fix NuGet vulnerabilities from the Error List, explore pull requests with the Git agent, see which operand decides an if condition, and attach to Podman containers. The post Visual Studio September Update – Power Your Workflow with Your Model appeared first on Visual Studio Blog .
+Worth a read for developers following Visual Studio and .NET. Link to article: https://devblogs.microsoft.com/visualstudio/visual-studio-september-update-power-your-workflow-with-your-model 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Condé Nast built multimodal video discovery with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/29_09_2026/ae902e3fdd8b/</link>
+      <pubDate>Tue, 29 Sep 2026 15:55:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_09_2026/ae902e3fdd8b/</guid>
+      <description>
+        
+          
+            Condé Nast&#39;s editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and descriptions. Working with the AWS Generative AI Innovation Center, they built a multimodal video discovery solution on Amazon Bedrock and Amazon OpenSearch Service that cut discovery time to under 2 minutes.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Microsoft Agent Framework for .NET (part 4): static methods, instance methods, MCP Clients as custom Agent tools</title>
+      <link>https://www.dotnetramblings.com/post/29_09_2026/1f4e22aae16d/</link>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_09_2026/1f4e22aae16d/</guid>
+      <description>
+        
+          
+            MAF Agents can have custom capabilities through C# methods or MCP clients. Let’s see how to define and use them.
+Worth a read for developers following .NET and AI. Link to article: https://www.code4it.dev/blog/maf-custom-tools-csharp-methods-or-mcp-clients 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Grok 4.7 is now available on Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/28_09_2026/96eb78113b18/</link>
@@ -155,6 +257,23 @@ Worth a read for developers following AWS and AI. Link to article: https://aws.a
           
             Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terraform, a cross-account adapter promotion process, a pre-classification routing pattern for multiple form versions, and production security controls such as VPC endpoints, encryption, and least-privilege IAM.
 Worth a read for developers following AWS and Infrastructure as Code. Link to article: https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Enhancing Microsoft Azure Virtual Machine lifecycle</title>
+      <link>https://www.dotnetramblings.com/post/28_09_2026/c60ba9876d98/</link>
+      <pubDate>Mon, 28 Sep 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_09_2026/c60ba9876d98/</guid>
+      <description>
+        
+          
+            Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance. The post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog .
+Worth a read for developers following Azure. Link to article: https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle 
           
           
         
