@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>How Benchling secured multi-tenant AI agents with Amazon Bedrock AgentCore | .NET Ramblings</title>
+<title>Grok 4.7 is now available on Amazon Bedrock | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Learn how Benchling built a defense-in-depth security architecture to run untrusted, AI agent-generated scientific code across thousands of life sciences …">
+<meta name="description" content="xAI&amp;#39;s Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="How Benchling secured multi-tenant AI agents with Amazon Bedrock AgentCore">
-<meta name="twitter:description" content="Learn how Benchling built a defense-in-depth security architecture to run untrusted, AI agent-generated scientific code across thousands of life sciences …">
-<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/26/ML-21025-featured-image.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/21_09_2026/f4990a11668b/">
-<meta property="og:title" content="How Benchling secured multi-tenant AI agents with Amazon Bedrock AgentCore">
-<meta property="og:description" content="Learn how Benchling built a defense-in-depth security architecture to run untrusted, AI agent-generated scientific code across thousands of life sciences …">
-<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/26/ML-21025-featured-image.png">
+<meta name="twitter:title" content="Grok 4.7 is now available on Amazon Bedrock">
+<meta name="twitter:description" content="xAI&amp;#39;s Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window …">
+<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/28/ML-21934-featured-image.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/28_09_2026/96eb78113b18/">
+<meta property="og:title" content="Grok 4.7 is now available on Amazon Bedrock">
+<meta property="og:description" content="xAI&amp;#39;s Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window …">
+<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/28/ML-21934-featured-image.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore">
+<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,25 +146,24 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">How Benchling secured multi-tenant AI agents with Amazon Bedrock AgentCore</h1>
+    <h1 class="post_title">Grok 4.7 is now available on Amazon Bedrock</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Sep 21, 2026</span>
+      <span class="post_date">Sep 28, 2026</span>
       <span>
           <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
           <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
-          <a href="https://www.dotnetramblings.com/topics/architecture/" title="Architecture" class="post_tag button button_translucent">Architecture</a>
       </span>
   </div>
 
-    <div class="post_body"><p>Learn how Benchling built a defense-in-depth security architecture to run untrusted, AI agent-generated scientific code across thousands of life sciences tenants using Amazon Bedrock AgentCore Code Interpreter in VPC mode, combined with Amazon Route 53 Resolver DNS Firewall and VPC endpoint policies to block data exfiltration, including through DNS.</p>
+    <div class="post_body"><p>xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable reasoning effort levels, reachable through the Responses, Chat Completions, and Converse APIs.</p>
 <ul>
 <li>Worth a read for developers following AWS and AI.</li>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore">https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore</a></li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock">https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock</a></li>
 </ul>
 
     </div>
