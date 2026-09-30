@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 21:36:58 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Sep 2026 01:13:14 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon Bedrock expands Claude model availability to in-country inferencing in India</title>
+      <link>https://www.dotnetramblings.com/post/30_09_2026/17f76098dbb1/</link>
+      <pubDate>Wed, 30 Sep 2026 01:13:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_09_2026/17f76098dbb1/</guid>
+      <description>
+        
+          
+            Anthropic&#39;s Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or with the Messages, InvokeModel, and Converse APIs.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore</title>
+      <link>https://www.dotnetramblings.com/post/30_09_2026/e0d0bc875e2a/</link>
+      <pubDate>Wed, 30 Sep 2026 01:13:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_09_2026/e0d0bc875e2a/</guid>
+      <description>
+        
+          
+            Amazon Bedrock now supports Anthropic&#39;s Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing requirements in South Korea or Singapore, you can now use these Anthropic models at scale, with inference processed entirely within the Region you call.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Marten Just Crossed 20 Million Downloads</title>
       <link>https://www.dotnetramblings.com/post/29_09_2026/9edb7e03a6d2/</link>
@@ -3086,23 +3120,6 @@ Worth a watch for developers following Azure. Link to video: https://www.youtube
     </item>
     
     <item>
-      <title>Better prompt caching for GPT-6</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/b6b1e4118cdb/</link>
-      <pubDate>Tue, 22 Sep 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/b6b1e4118cdb/</guid>
-      <description>
-        
-          
-            Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.
-Worth a read for developers following AI. Link to article: https://openai.com/index/better-prompt-caching-for-gpt-6 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>How To Build A Harness With Jev | A LangChain x TypeSafe Conversation</title>
       <link>https://www.dotnetramblings.com/videos/22_09_2026/b036c6d84b17/</link>
       <pubDate>Tue, 22 Sep 2026 20:55:30 +0000</pubDate>
@@ -3188,40 +3205,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
     </item>
     
     <item>
-      <title>GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/caf37906792d/</link>
-      <pubDate>Tue, 22 Sep 2026 18:30:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/caf37906792d/</guid>
-      <description>
-        
-          
-            Explore GPT-6 Astra, Sol, and GPT-6 Luna in Microsoft Foundry, with scalable model options for production AI agents, complex workflows, and high-volume tasks. The post GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry appeared first on Microsoft Azure Blog .
-Worth a read for developers following AI and Azure. Link to article: https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/6ae45bc53371/</link>
-      <pubDate>Tue, 22 Sep 2026 18:10:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/6ae45bc53371/</guid>
-      <description>
-        
-          
-            GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each workload.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Modernizing Java Applications using GitHub Copilot Modernization Agent</title>
       <link>https://www.dotnetramblings.com/videos/22_09_2026/e97279a0a489/</link>
       <pubDate>Tue, 22 Sep 2026 18:06:17 +0000</pubDate>
@@ -3256,23 +3239,6 @@ Worth a watch for developers following AWS. Link to video: https://www.youtube.c
     </item>
     
     <item>
-      <title>Introducing GPT-6 Sol and Luna</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/3d48e529ad7a/</link>
-      <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/3d48e529ad7a/</guid>
-      <description>
-        
-          
-            Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.
-Worth a read for developers following AI. Link to article: https://openai.com/index/introducing-gpt-6-sol-and-luna 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>What is LangSmith?</title>
       <link>https://www.dotnetramblings.com/videos/22_09_2026/512bdea7f09e/</link>
       <pubDate>Tue, 22 Sep 2026 17:55:23 +0000</pubDate>
@@ -3290,57 +3256,6 @@ Worth a watch for developers following AI and Testing. Link to video: https://ww
     </item>
     
     <item>
-      <title>Claude Opus 5.5 is now available on AWS</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/73832228d22b/</link>
-      <pubDate>Tue, 22 Sep 2026 17:28:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/73832228d22b/</guid>
-      <description>
-        
-          
-            Claude Opus 5.5, Anthropic&#39;s most capable Opus model for agentic coding, knowledge work, and long-running tasks, is now available on Amazon Bedrock and Claude Platform on AWS. This post covers what&#39;s new in Opus 5.5, practical guidance, and how to start building with the model on Amazon Bedrock.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/9335e4f07374/</link>
-      <pubDate>Tue, 22 Sep 2026 17:18:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/9335e4f07374/</guid>
-      <description>
-        
-          
-            Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn&#39;t prove the agent picked the right skill or followed it. Learn how to measure skill selection and instruction following with Strands Evals and Amazon Bedrock AgentCore Evaluations.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Creating a memory dump in C#</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/2ea67b264da9/</link>
-      <pubDate>Tue, 22 Sep 2026 17:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/2ea67b264da9/</guid>
-      <description>
-        
-          
-            Learn how to create a memory dump in C# to capture the state of your application for debugging purposes. The post Creating a memory dump in C# appeared first on .NET Blog .
-Worth a read for developers following .NET. Link to article: https://devblogs.microsoft.com/dotnet/creating-a-memory-dump-in-csharp 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>dbt job in Fabric: GA ready</title>
       <link>https://www.dotnetramblings.com/videos/22_09_2026/e4901b60bcbd/</link>
       <pubDate>Tue, 22 Sep 2026 17:04:56 +0000</pubDate>
@@ -3351,23 +3266,6 @@ Worth a read for developers following .NET. Link to article: https://devblogs.mi
           
             The session will focus on the General Availability of dbt Job in Microsoft Fabric and will cover: What&#39;s new in dbt Job, including key ...
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=I6zny-w3mMQ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/42305587eefe/</link>
-      <pubDate>Tue, 22 Sep 2026 17:00:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/42305587eefe/</guid>
-      <description>
-        
-          
-            AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process. The post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog .
-Worth a read for developers following Azure and AI. Link to article: https://techcommunity.
           
           
         
@@ -3453,108 +3351,6 @@ Worth a watch for developers following Architecture. Link to video: https://www.
           
             Digital sovereignty gives your organization the ability to retain complete control and authority over your technology systems, data, ...
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=jsMGpTpPZJ4 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/9d360ee52205/</link>
-      <pubDate>Tue, 22 Sep 2026 15:46:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/9d360ee52205/</guid>
-      <description>
-        
-          
-            Reactiv used Amazon Bedrock AgentCore to build a multi-agent AI Scheduler that autonomously refreshes Shopify merchants&#39; mobile apps on a schedule, reducing merchant configuration time by 80% and getting to production 33% faster.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/cbf8088ba985/</link>
-      <pubDate>Tue, 22 Sep 2026 15:35:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/cbf8088ba985/</guid>
-      <description>
-        
-          
-            Concurrency sweeps help you right-size a generative AI endpoint on Amazon SageMaker AI by systematically benchmarking it at increasing load levels. This post walks through deploying a model, running automated concurrency sweeps with the CreateAIBenchmarkJob API, and using the results to make data-driven capacity decisions about fleet size.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Trane gets building insights 60x faster with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/304a7365cf95/</link>
-      <pubDate>Tue, 22 Sep 2026 15:30:34 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/304a7365cf95/</guid>
-      <description>
-        
-          
-            In about four weeks, Trane Technologies built an AI-powered agentic solution on Amazon Bedrock AgentCore that reduced a 20-minute, multi-screen building diagnostic workflow to a 20-second natural language interaction, a 60x improvement in time-to-insight. This post shares the architectural approach and key design decisions behind the solution.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Tata Elxsi detects industrial safety risks in seconds on AWS</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/d9550b4744c8/</link>
-      <pubDate>Tue, 22 Sep 2026 15:19:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/d9550b4744c8/</guid>
-      <description>
-        
-          
-            Learn how Tata Elxsi built IRIS, a real-time industrial safety platform on AWS. IRIS filters camera video at the edge, streams metadata through Amazon Kinesis, runs computer vision on Amazon SageMaker AI, and correlates detections into high-confidence alerts, detecting unsafe conditions in seconds instead of minutes.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Extending public sector intelligence with Agentforce and AWS</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/bec0b80c5562/</link>
-      <pubDate>Tue, 22 Sep 2026 15:17:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/bec0b80c5562/</guid>
-      <description>
-        
-          
-            Public sector agencies process large volumes of unstructured evidence, such as body camera footage and scanned documents. This post shows how to combine Amazon Bedrock Data Automation with the Model Context Protocol (MCP) to turn that data into structured insights and surface them through natural language queries in Salesforce Agentforce.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/85ea026a3dd2/</link>
-      <pubDate>Tue, 22 Sep 2026 15:06:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/85ea026a3dd2/</guid>
-      <description>
-        
-          
-            Meet the partners and customers bringing practical AI, security, and development sessions to the Docker Pavilion at WeAreDevelopers. The post explains why a strong ecosystem matters to developers, announces the sessions and speakers, and invites attendees to connect with the teams building and using these technologies.
-Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026 
           
           
         
@@ -3712,23 +3508,6 @@ Worth a watch for developers following Azure. Link to video: https://www.youtube
     </item>
     
     <item>
-      <title>Specification Pattern Performance and EF Core Translation Traps</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/81a87413c44b/</link>
-      <pubDate>Tue, 22 Sep 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/81a87413c44b/</guid>
-      <description>
-        
-          
-            Diagnose Specification Pattern performance in EF Core through translation boundaries, SQL inspection, query shape, command counts, plans, and measured evidence.
-Worth a read for developers following Data. Link to article: https://www.devleader.ca/2026/09/22/specification-pattern-performance-and-ef-core-translation-traps 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>What a week! 🇳🇴 #ndcoslo #softwaredeveloper</title>
       <link>https://www.dotnetramblings.com/videos/22_09_2026/48616c469b5e/</link>
       <pubDate>Tue, 22 Sep 2026 12:21:32 +0000</pubDate>
@@ -3739,23 +3518,6 @@ Worth a read for developers following Data. Link to article: https://www.devlead
           
             Over 2000 developers came together in Oslo for five days of learning, networking and fun. A huge thank you to everyone who took ...
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=J_eKdvKuuGo 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Parallel cut research time and cost in half with GPT‐6 Astra</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/ce45d8dc0f6c/</link>
-      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/ce45d8dc0f6c/</guid>
-      <description>
-        
-          
-            GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.
-Worth a read for developers following AI. Link to article: https://openai.com/index/parallel-cuts-time-and-cost-with-astra 
           
           
         
@@ -3797,40 +3559,6 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
     </item>
     
     <item>
-      <title>Experimental support for Device Bound Session Credentials (DBSC) in ASP.NET Core: Exploring the .NET 11 preview - Part 8</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/269ed48ff75c/</link>
-      <pubDate>Tue, 22 Sep 2026 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/269ed48ff75c/</guid>
-      <description>
-        
-          
-            In this post I look at the new experimental support for DBSC provided by the Microsoft.AspNetCore.Authentication.DeviceBoundSessions package
-Worth a read for developers following .NET and Security. Link to article: https://andrewlock.net/exploring-the-dotnet-11-preview-8-experimental-support-for-device-bound-session-credentials-in-aspnetcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>My coding agent wrote outside the repo. Nothing stopped it.</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/6124f23ae224/</link>
-      <pubDate>Tue, 22 Sep 2026 08:35:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/6124f23ae224/</guid>
-      <description>
-        
-          
-            You let a coding agent loose on a repository. It reads what it needs, then writes — a file two directories up, a ~/.config it had no business in, a /tmp script it runs next. When you look at how, the answer is dull: the agent&#39;s write tool
-Worth a read for developers following AI. Link to article: https://goatreview.com/my-coding-agent-wrote-outside-the-repo-nothing-stopped-it 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Build with AI: GitHub Copilot SDK로 구축하는 Agentic 워크플로우</title>
       <link>https://www.dotnetramblings.com/videos/22_09_2026/c1cd377c5052/</link>
       <pubDate>Tue, 22 Sep 2026 06:30:43 +0000</pubDate>
@@ -3841,23 +3569,6 @@ Worth a read for developers following AI. Link to article: https://goatreview.co
           
             세션 소개 AI는 단순히 코드 작성을 돕는 것을 넘어, 복잡한 작업을 자동화하고 워크플로우를 실행하는 역할까지 수행할 수 있습니다.
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=7-4gcOBOUl4 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Swagger vs. Scalar: A comprehensive comparison for ASP.NET Core developers</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/0ea0b5a6249b/</link>
-      <pubDate>Tue, 22 Sep 2026 06:10:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/0ea0b5a6249b/</guid>
-      <description>
-        
-          
-            Swagger UI used to ship by default with ASP.NET Core API projects, but recent .NET versions replaced it with a bare OpenAPI document. This post compares Swagger and Scalar as documentation UIs, walks through setting up each one in .NET 10, and covers when to pick one over the other.
-Worth a read for developers following .NET. Link to article: https://blog.elmah.io/swagger-vs-scalar-a-comprehensive-comparison-for-asp-net-core-developers 
           
           
         
@@ -3892,23 +3603,6 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
           
             Contact us: https://bit.ly/4fAFrVx AI is changing how customers discover, compare and choose businesses. Traditional search ...
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=ywxrLPsFPVI 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Priorities and principles for effective third party assessments</title>
-      <link>https://www.dotnetramblings.com/post/22_09_2026/b4fb82cc1313/</link>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_09_2026/b4fb82cc1313/</guid>
-      <description>
-        
-          
-            OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.
-Worth a read for developers following AI. Link to article: https://openai.com/index/priorities-principles-third-party-assessments 
           
           
         
