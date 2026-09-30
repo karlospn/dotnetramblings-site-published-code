@@ -7,7 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 30 Sep 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Sep 2026 15:37:15 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Query claims in natural language with Amazon Bedrock Knowledge Bases</title>
+      <link>https://www.dotnetramblings.com/post/30_09_2026/ceaf2ea83ee9/</link>
+      <pubDate>Wed, 30 Sep 2026 15:37:15 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_09_2026/ceaf2ea83ee9/</guid>
+      <description>
+        
+          
+            This technical how-to builds a conversational claims assistant on Amazon Bedrock Knowledge Bases that answers natural-language questions with citations. It covers ingesting claim documents from Amazon S3, querying with the AgenticRetrieveStream API, multi-turn follow-ups, metadata filters, and contextual grounding guardrails.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances</title>
+      <link>https://www.dotnetramblings.com/post/30_09_2026/d679587e6a6f/</link>
+      <pubDate>Wed, 30 Sep 2026 15:21:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_09_2026/d679587e6a6f/</guid>
+      <description>
+        
+          
+            Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy a three-agent music production pipeline where the agents colocate on one GPU instance, share a filesystem, and hand work to each other to produce a finished track.
+Worth a read for developers following AWS and DevOps. Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Helping small businesses put AI to work</title>
+      <link>https://www.dotnetramblings.com/post/30_09_2026/b5e5e43443d2/</link>
+      <pubDate>Wed, 30 Sep 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_09_2026/b5e5e43443d2/</guid>
+      <description>
+        
+          
+            OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.
+Worth a read for developers following AI. Link to article: https://openai.com/index/helping-small-businesses-put-ai-to-work 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Simplify Directory File Operations in .NET with Spargine’s DirectoryInfoExtensions</title>
       <link>https://www.dotnetramblings.com/post/30_09_2026/8bce9476547d/</link>
