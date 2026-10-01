@@ -7,7 +7,194 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 01 Oct 2026 14:02:18 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Oct 2026 19:49:06 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Serve live, governed data in AI-built apps with Amazon Quick</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2026/bd12dc0a481e/</link>
+      <pubDate>Thu, 01 Oct 2026 19:49:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2026/bd12dc0a481e/</guid>
+      <description>
+        
+          
+            With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time snapshots. Each query runs as the person viewing the app, so row-level and column-level security apply per reader. Learn how to build, publish, and share a live-data app using natural language.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Trust Docker for the agents you don’t</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2026/352d2d7c3e13/</link>
+      <pubDate>Thu, 01 Oct 2026 18:26:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2026/352d2d7c3e13/</guid>
+      <description>
+        
+          
+            At WeAreDevelopers, Docker introduced Cloud Sandboxes, the open Sandbox Kit specification, and a commitment to bring Kits to the CNCF for neutral governance.
+Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/docker-cloud-sandboxes-wearedevelopers-recap 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2026/ed848eef8ff9/</link>
+      <pubDate>Thu, 01 Oct 2026 17:34:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2026/ed848eef8ff9/</guid>
+      <description>
+        
+          
+            Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post shows how NAT&#39;s memory subsystem works and how to implement Amazon S3 Vectors as a custom memory provider, using a multi-agent investment research use case.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The eternal complement</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2026/7e67b43cf9d0/</link>
+      <pubDate>Thu, 01 Oct 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2026/7e67b43cf9d0/</guid>
+      <description>
+        
+          
+            Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.
+Worth a read for developers following AI. Link to article: https://openai.com/index/the-eternal-complement 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Uplifting conversion across the acquisition funnel with personalization using contextual bandits on AWS</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2026/5357e426cc2a/</link>
+      <pubDate>Thu, 01 Oct 2026 16:51:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2026/5357e426cc2a/</guid>
+      <description>
+        
+          
+            Generative AI makes it cheap to produce personalized content at scale, but which variation do you show each customer? Amazon Payments used a multi-objective contextual bandit on Amazon SageMaker AI to personalize an acquisition funnel, achieving a high single-digit conversion lift for one audience, and learning why content, not the model, was the constraint.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2026/56f2317a112a/</link>
+      <pubDate>Thu, 01 Oct 2026 16:40:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2026/56f2317a112a/</guid>
+      <description>
+        
+          
+            Ambient agents respond to events such as an Amazon S3 upload, a schedule, or an alert instead of waiting for a chat prompt. This post walks through building framework-agnostic ambient agents on Amazon Bedrock AgentCore using Amazon SQS, AWS Lambda, and Amazon DynamoDB, with a single ask_human tool and a Jobs page for human-in-the-loop review.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Implementing Multi-Environment Access for Claude Platform on AWS</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2026/1a99b8d8b05d/</link>
+      <pubDate>Thu, 01 Oct 2026 16:32:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2026/1a99b8d8b05d/</guid>
+      <description>
+        
+          
+            Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for developers, and OIDC federation for external environments, with workspace-level isolation in a dedicated AI Services account.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Modernize .NET applications from the command line with ATX CLI</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2026/e4453e815034/</link>
+      <pubDate>Thu, 01 Oct 2026 16:32:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2026/e4453e815034/</guid>
+      <description>
+        
+          
+            AWS Transform now offers CLI-based .NET modernization with an AWS-managed transformation, which is free of charge within limits. In this post, I’ll walk you through modernizing .NET solutions from the command line using the ATX CLI. AWS Transform already offers multiple experiences, including Visual Studio IDE for developers and web console for IT professionals, so […]
+Worth a read for developers following .NET and Visual Studio. Link to article: https://aws.amazon.com/blogs/dotnet/modernize-net-applications-from-the-command-line-with-atx-cli 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Simplify dashboard drill-down with the Amazon Quick Sight hierarchy filter</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2026/087a539816c9/</link>
+      <pubDate>Thu, 01 Oct 2026 16:28:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2026/087a539816c9/</guid>
+      <description>
+        
+          
+            Amazon Quick Sight is a fully managed, cloud-native business intelligence (BI) capability for building and publishing interactive dashboards. The new hierarchy filter gives dashboard authors rich, multi-level filtering in a single compact control, reducing clutter and guiding readers to the data they need in fewer steps.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Albertsons Companies is reimagining retail from the inside out</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2026/a80484c2d584/</link>
+      <pubDate>Thu, 01 Oct 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2026/a80484c2d584/</guid>
+      <description>
+        
+          
+            Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.
+Worth a read for developers following AI. Link to article: https://openai.com/index/albertsons-reimagining-retail 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How uniopen customized Amazon Nova to their retail moderation policies for production deployment</title>
+      <link>https://www.dotnetramblings.com/post/01_10_2026/482fe13f33b0/</link>
+      <pubDate>Thu, 01 Oct 2026 15:33:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_10_2026/482fe13f33b0/</guid>
+      <description>
+        
+          
+            See how uniopen, a retail platform from Taiwan&#39;s Uni-President Enterprises Group, adapted Amazon Nova 2 Lite to its content-moderation policies using supervised fine-tuning in Amazon SageMaker AI and prompt optimization. Business-relevant evaluation and release gates kept quality in check.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-uniopen-customized-amazon-nova-to-their-retail-moderation-policies-for-production-deployment 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Understanding Code vs. Understanding Your App #visualstudio #coding</title>
       <link>https://www.dotnetramblings.com/videos/01_10_2026/fb579fda2622/</link>
