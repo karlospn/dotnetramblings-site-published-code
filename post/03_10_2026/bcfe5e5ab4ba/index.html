@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>HttpClient Keep-Alive: Why Disabling Connection Reuse Can Destroy Performance | .NET Ramblings</title>
+<title>AI Built My Game -- Then the Art Got Weird - Dev Leader Weekly 159 | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,18 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Disabling keep-alive in HttpClient can severely degrade application performance, as it prevents connection reuse. While it may be justified in rare cases, such …">
+<meta name="description" content="Welcome to another issue of Dev Leader Weekly! In this issue, I discuss using AI agents, vertical slices, and human judgment to build a Unity game.
+Worth a read …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="HttpClient Keep-Alive: Why Disabling Connection Reuse Can Destroy Performance">
-<meta name="twitter:description" content="Disabling keep-alive in HttpClient can severely degrade application performance, as it prevents connection reuse. While it may be justified in rare cases, such …">
-<meta name="twitter:image" content="https://i0.wp.com/dotnettips.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-20-2026-10_36_49-AM.png?fit=1200%2C801&amp;ssl=1">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/27_09_2026/06a5731d72c3/">
-<meta property="og:title" content="HttpClient Keep-Alive: Why Disabling Connection Reuse Can Destroy Performance">
-<meta property="og:description" content="Disabling keep-alive in HttpClient can severely degrade application performance, as it prevents connection reuse. While it may be justified in rare cases, such …">
-<meta property="og:image" content="https://i0.wp.com/dotnettips.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-20-2026-10_36_49-AM.png?fit=1200%2C801&amp;ssl=1">
+<meta name="twitter:title" content="AI Built My Game -- Then the Art Got Weird - Dev Leader Weekly 159">
+<meta name="twitter:description" content="Welcome to another issue of Dev Leader Weekly! In this issue, I discuss using AI agents, vertical slices, and human judgment to build a Unity game.
+Worth a read …">
+<meta name="twitter:image" content="https://devleader-d2f9ggbjfpdqcka7.z01.azurefd.net/media/DLW-159.webp">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/03_10_2026/bcfe5e5ab4ba/">
+<meta property="og:title" content="AI Built My Game -- Then the Art Got Weird - Dev Leader Weekly 159">
+<meta property="og:description" content="Welcome to another issue of Dev Leader Weekly! In this issue, I discuss using AI agents, vertical slices, and human judgment to build a Unity game.
+Worth a read …">
+<meta property="og:image" content="https://devleader-d2f9ggbjfpdqcka7.z01.azurefd.net/media/DLW-159.webp">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +44,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://dotnettips.com/2026/09/27/httpclient-keep-alive-why-disabling-connection-reuse-can-destroy-performance">
+<link rel="canonical" href="https://www.devleader.ca/2026/10/03/ai-built-my-game-then-the-art-got-weird-dev-leader-weekly-159">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,23 +149,23 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">HttpClient Keep-Alive: Why Disabling Connection Reuse Can Destroy Performance</h1>
+    <h1 class="post_title">AI Built My Game -- Then the Art Got Weird - Dev Leader Weekly 159</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Sep 27, 2026</span>
+      <span class="post_date">Oct 3, 2026</span>
       <span>
-          <a href="https://www.dotnetramblings.com/topics/.net/" title=".NET" class="post_tag button button_translucent">.NET</a>
+          <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
       </span>
   </div>
 
-    <div class="post_body"><p>Disabling keep-alive in HttpClient can severely degrade application performance, as it prevents connection reuse. While it may be justified in rare cases, such as for legacy systems or troubleshooting, most reasons are misguided. Instead, maintain keep-alive for efficiency and configure PooledConnectionLifetime to manage connections effectively.</p>
+    <div class="post_body"><p>Welcome to another issue of Dev Leader Weekly! In this issue, I discuss using AI agents, vertical slices, and human judgment to build a Unity game.</p>
 <ul>
-<li>Worth a read for developers following .NET.</li>
-<li>Link to article: <a href="https://dotnettips.com/2026/09/27/httpclient-keep-alive-why-disabling-connection-reuse-can-destroy-performance">https://dotnettips.com/2026/09/27/httpclient-keep-alive-why-disabling-connection-reuse-can-destroy-performance</a></li>
+<li>Worth a read for developers following AI.</li>
+<li>Link to article: <a href="https://www.devleader.ca/2026/10/03/ai-built-my-game-then-the-art-got-weird-dev-leader-weekly-159">https://www.devleader.ca/2026/10/03/ai-built-my-game-then-the-art-got-weird-dev-leader-weekly-159</a></li>
 </ul>
 
     </div>
