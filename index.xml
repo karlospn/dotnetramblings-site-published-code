@@ -7,7 +7,160 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 05 Oct 2026 14:54:47 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Oct 2026 20:03:28 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generate unit tests for your modernized code with AWS Transform for .NET</title>
+      <link>https://www.dotnetramblings.com/post/05_10_2026/0249dcf2455b/</link>
+      <pubDate>Mon, 05 Oct 2026 20:03:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_10_2026/0249dcf2455b/</guid>
+      <description>
+        
+          
+            When you modernize a .NET Framework application to modern .NET, you end up with a transformed, buildable codebase — but the question that immediately follows is always the same: how do I safely keep changing it from here? Once the code is modernized, your team keeps evolving it — fixing bugs, adding features, upgrading dependencies […]
+Worth a read for developers following .NET and AWS. Link to article: https://aws.amazon.com/blogs/dotnet/generate-unit-tests-for-your-modernized-code-with-aws-transform-for-net 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Supercharge regulated workloads with Claude Code and Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/05_10_2026/1a12289f0287/</link>
+      <pubDate>Mon, 05 Oct 2026 17:25:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_10_2026/1a12289f0287/</guid>
+      <description>
+        
+          
+            Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic&#39;s agentic coding tool, for compliance-aligned, AI-assisted development on regulated and ITAR workloads.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent</title>
+      <link>https://www.dotnetramblings.com/post/05_10_2026/f5b98f32f035/</link>
+      <pubDate>Mon, 05 Oct 2026 17:23:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_10_2026/f5b98f32f035/</guid>
+      <description>
+        
+          
+            Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep expertise in inference optimization and benchmarking. Describe what you want, and your agent generates executable SageMaker Python SDK v3 code to benchmark, recommend, and compare deployments.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>UWP and WinUI 3 apps: UI testing with MSTest</title>
+      <link>https://www.dotnetramblings.com/post/05_10_2026/b592c62b0ce9/</link>
+      <pubDate>Mon, 05 Oct 2026 17:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_10_2026/b592c62b0ce9/</guid>
+      <description>
+        
+          
+            Learn how to test UWP and WinUI 3 apps with MSTest and Microsoft.Testing.Platform across packaged, unpackaged, and AppContainer hosts. The post UWP and WinUI 3 apps: UI testing with MSTest appeared first on .NET Blog .
+Worth a read for developers following Testing and .NET. Link to article: https://devblogs.microsoft.com/dotnet/testing-uwp-and-winui-3-apps-with-mstest 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion</title>
+      <link>https://www.dotnetramblings.com/post/05_10_2026/491353fed8ce/</link>
+      <pubDate>Mon, 05 Oct 2026 15:56:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_10_2026/491353fed8ce/</guid>
+      <description>
+        
+          
+            Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS account has been a manual, error-prone chore. This post shows how to automate cross-account promotion with an idempotent, auditable MCP server on Amazon Bedrock AgentCore.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases</title>
+      <link>https://www.dotnetramblings.com/post/05_10_2026/e3250d8fd186/</link>
+      <pubDate>Mon, 05 Oct 2026 15:53:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_10_2026/e3250d8fd186/</guid>
+      <description>
+        
+          
+            Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions that single-shot retrieval answers poorly. Run the same query through both paths, read the trace events, and compare what each retrieval path costs.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Downgrading user roles in Amazon Quick</title>
+      <link>https://www.dotnetramblings.com/post/05_10_2026/0b5990956b6b/</link>
+      <pubDate>Mon, 05 Oct 2026 15:51:38 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_10_2026/0b5990956b6b/</guid>
+      <description>
+        
+          
+            Amazon Quick doesn&#39;t offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable methods: a manual delete-and-recreate approach and an AWS CLI step-down sequence that downgrades roles safely while preserving asset ownership.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Evaluating multi-agent systems for explainability and helpfulness with Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/05_10_2026/024268121131/</link>
+      <pubDate>Mon, 05 Oct 2026 15:50:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_10_2026/024268121131/</guid>
+      <description>
+        
+          
+            Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their decisions. Learn how to build a Strands-based multi-agent supply chain decisioning system and evaluate it with Amazon Bedrock AgentCore Evaluations using built-in, custom, and explainability evaluators.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Our approach to EU text provenance rules</title>
+      <link>https://www.dotnetramblings.com/post/05_10_2026/78ad53815846/</link>
+      <pubDate>Mon, 05 Oct 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_10_2026/78ad53815846/</guid>
+      <description>
+        
+          
+            How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.
+Worth a read for developers following AI. Link to article: https://openai.com/index/eu-text-provenance 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build a Cloud-Native Foundation for AI with Azure Red Hat OpenShift</title>
       <link>https://www.dotnetramblings.com/videos/05_10_2026/2e2c32abaae1/</link>
@@ -108,6 +261,23 @@ Worth a watch for developers following Azure and AI. Link to video: https://www.
     </item>
     
     <item>
+      <title>dotInsights | October 2026</title>
+      <link>https://www.dotnetramblings.com/post/05_10_2026/e9b7b84cc9d3/</link>
+      <pubDate>Mon, 05 Oct 2026 13:57:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_10_2026/e9b7b84cc9d3/</guid>
+      <description>
+        
+          
+            Did you know? The System.Threading.Interlocked class provides atomic operations on shared variables, so multiple threads can update them safely without a lock. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. ☕ Coffee Break Take a break […]
+Worth a read for developers following .NET. Link to article: https://blog.jetbrains.com/dotnet/2026/10/05/dotinsights-october-2026 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>The Correct FSLogix NTFS Permissions #SHORTS</title>
       <link>https://www.dotnetramblings.com/videos/05_10_2026/a6613d444971/</link>
       <pubDate>Mon, 05 Oct 2026 13:00:14 +0000</pubDate>
@@ -118,6 +288,23 @@ Worth a watch for developers following Azure and AI. Link to video: https://www.
           
             Azure has hundreds of services and nobody hands you the blueprint for how they connect. This crash course maps the entire ...
 Worth a watch for developers following Azure. Link to video: https://www.youtube.com/watch?v=vNB3zojbeIk 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Vercel Eve Tutorial for C# Developers: Build an ASP.NET Core Agent Client</title>
+      <link>https://www.dotnetramblings.com/post/05_10_2026/ec60272d8569/</link>
+      <pubDate>Mon, 05 Oct 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/05_10_2026/ec60272d8569/</guid>
+      <description>
+        
+          
+            Follow this Vercel Eve tutorial to connect ASP.NET Core to a pinned agent, manage transport ownership, and read equipment summaries with explicit failures.
+Worth a read for developers following .NET and AI. Link to article: https://www.devleader.ca/2026/10/05/vercel-eve-tutorial-for-c-developers-build-an-aspnet-core-agent-client 
           
           
         
