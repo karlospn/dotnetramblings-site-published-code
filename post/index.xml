@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 05 Oct 2026 23:25:17 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Oct 2026 10:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stripping extra dependencies in .NET NativeAOT apps using linker substitutions</title>
+      <link>https://www.dotnetramblings.com/post/06_10_2026/aa7fddc91541/</link>
+      <pubDate>Tue, 06 Oct 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_10_2026/aa7fddc91541/</guid>
+      <description>
+        
+          
+            In this post I describe how to perform method-substitutions with the NativeAOT linker to remove additional dependencies that the linker couldn&#39;t see were unused
+Worth a read for developers following .NET. Link to article: https://andrewlock.net/stripping-extra-dependencies-in-.net-nativeaot-apps-using-linker-substitutions 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Designing APIs for AI agents: your API has a new user</title>
+      <link>https://www.dotnetramblings.com/post/06_10_2026/234436b74366/</link>
+      <pubDate>Tue, 06 Oct 2026 06:16:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_10_2026/234436b74366/</guid>
+      <description>
+        
+          
+            AI agents are a new kind of API consumer: they call endpoints, retry requests, and chain multi-step workflows on their own. This post covers practical ASP.NET Core patterns for building agent-ready APIs, including DTOs, idempotency, pagination, machine-readable errors, auth, and llms.txt.
+Worth a read for developers following AI and .NET. Link to article: https://blog.elmah.io/designing-apis-for-ai-agents-your-api-has-a-new-user 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Introducing GLM 5.3 on Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/05_10_2026/6596bcd1df8c/</link>
