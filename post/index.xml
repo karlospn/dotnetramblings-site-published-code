@@ -7,7 +7,176 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 07 Oct 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Oct 2026 16:39:39 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CRUD vs Task Driven: Are You Losing User Intent?</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/3a1b239e2a02/</link>
+      <pubDate>Wed, 07 Oct 2026 16:39:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/3a1b239e2a02/</guid>
+      <description>
+        
+          
+            What happens when everything in your system just becomes an update? You need to cancel an order: change the status. You need to approve something: change the status. Some workflow completes: just change the status. Everything becomes an update. And it can feel great because it is simple, but you have lost one really important… Read More » CRUD vs Task Driven: Are You Losing User Intent? The post CRUD vs Task Driven:…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Beyond hours saved: Building the business case for agentic automation</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/ca46a2fab5ba/</link>
+      <pubDate>Wed, 07 Oct 2026 15:50:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/ca46a2fab5ba/</guid>
+      <description>
+        
+          
+            The RPA-era ROI model misses most of the value agentic automation creates. This post gives AI center of excellence leaders a framework to size the full value of agents across time savings, exception handling, decision quality, and maintenance economics, and to prioritize which workflows to automate first.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Qlik built grounded, enterprise-scale AI with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/61fcf1bc1cfe/</link>
+      <pubDate>Wed, 07 Oct 2026 15:48:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/61fcf1bc1cfe/</guid>
+      <description>
+        
+          
+            Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Automate remediation post AWS DevOps Agent investigation</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/7eb12f5d530e/</link>
+      <pubDate>Wed, 07 Oct 2026 15:46:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/7eb12f5d530e/</guid>
+      <description>
+        
+          
+            AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call engineer can approve with a single action.
+Worth a read for developers following AWS and DevOps. Link to article: https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building AI builders: Playbook for closing the AI knowledge-capability gap</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/8409916b02e5/</link>
+      <pubDate>Wed, 07 Oct 2026 15:44:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/8409916b02e5/</guid>
+      <description>
+        
+          
+            The biggest barrier to AI adoption isn&#39;t awareness. It&#39;s the gap between talking about AI and building with it. Here&#39;s the playbook we used to turn non-technical, customer-facing professionals into confident AI builders in six weeks, and how your organization can replicate it.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/building-ai-builders-playbook-for-closing-the-ai-knowledge-capability-gap 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/b88e0f4b4150/</link>
+      <pubDate>Wed, 07 Oct 2026 15:38:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/b88e0f4b4150/</guid>
+      <description>
+        
+          
+            Cornerstone OnDemand built Orion AI, a multi-agent system on Amazon Bedrock and Strands Agents, to turn database operations from reactive firefighting into proactive automation. A three-person team cut database diagnosis from 45 minutes to 10, a 78% reduction, in six months. See the design decisions other teams can reuse.
+Worth a read for developers following AWS and Data. Link to article: https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>109 dB of unholy racket</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/ccf9bad625f5/</link>
+      <pubDate>Wed, 07 Oct 2026 12:06:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/ccf9bad625f5/</guid>
+      <description>
+        
+          
+            Last weekend I was helping my grandmother around the house – cleaning the wood stove, the chimney and so on. While I was there, she mentioned there might be a mouse (or a rat, or Mickey himself) in the storage room, basically the room where she keeps tools, preserved fruit, pickles and the like. That sounded like a perfect job for my dachshund and me.
+Worth a read for developers following .
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Helping teens learn, plan, and shape the future of AI</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/ad4e14640e35/</link>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/ad4e14640e35/</guid>
+      <description>
+        
+          
+            College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.
+Worth a read for developers following AI. Link to article: https://openai.com/index/teens-learn-and-plan 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What to Talk About in One-on-Ones With Your Manager</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/0e9e91b63e15/</link>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/0e9e91b63e15/</guid>
+      <description>
+        
+          
+            Choose useful one-on-one topics with your manager by noticing what needs clarity, context, feedback, or support, without forcing a conversation or a checklist.
+Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/07/what-to-talk-about-in-oneonones-with-your-manager 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Radisson Hotel Group brings hotel discovery into ChatGPT</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/04e9dc3828b5/</link>
+      <pubDate>Wed, 07 Oct 2026 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/04e9dc3828b5/</guid>
+      <description>
+        
+          
+            Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.
+Worth a read for developers following AI. Link to article: https://openai.com/index/radisson 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Before You Push or Deploy: Automate Nine .NET Project Checks with the Spargine Dev Tool</title>
       <link>https://www.dotnetramblings.com/post/07_10_2026/d869f031c2c4/</link>
