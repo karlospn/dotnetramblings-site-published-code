@@ -7,7 +7,92 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 07 Oct 2026 18:52:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Oct 2026 16:20:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/08_10_2026/d66892423b04/</link>
+      <pubDate>Thu, 08 Oct 2026 16:20:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_10_2026/d66892423b04/</guid>
+      <description>
+        
+          
+            A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocation for chargeback.
+Worth a read for developers following AWS and Containers. Link to article: https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
+      <link>https://www.dotnetramblings.com/post/08_10_2026/112b5f00879d/</link>
+      <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_10_2026/112b5f00879d/</guid>
+      <description>
+        
+          
+            Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.
+Worth a read for developers following AI. Link to article: https://openai.com/index/oracle 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Vercel Eve Sessions and Streaming in C#: Recover a Disconnected Client</title>
+      <link>https://www.dotnetramblings.com/post/08_10_2026/fd6311fb1d15/</link>
+      <pubDate>Thu, 08 Oct 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_10_2026/fd6311fb1d15/</guid>
+      <description>
+        
+          
+            Learn how Vercel Eve sessions recover disconnected C# clients with persisted cursors, bounded streaming, replay boundaries, and explicit cancellation choices.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/08/vercel-eve-sessions-and-streaming-in-c-recover-a-disconnected-client 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Pollo AI turns creative ideas into campaigns with OpenAI</title>
+      <link>https://www.dotnetramblings.com/post/08_10_2026/ca1ec6c6a1a1/</link>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_10_2026/ca1ec6c6a1a1/</guid>
+      <description>
+        
+          
+            With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.
+Worth a read for developers following AI. Link to article: https://openai.com/index/pollo-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Disrupting AI-enabled “false front” operations</title>
+      <link>https://www.dotnetramblings.com/post/08_10_2026/077dea1e8a7a/</link>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_10_2026/077dea1e8a7a/</guid>
+      <description>
+        
+          
+            OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.
+Worth a read for developers following AI. Link to article: https://openai.com/index/disrupting-ai-enabled-false-front-operations 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Introducing Claude Haiku 5.5 on AWS</title>
       <link>https://www.dotnetramblings.com/post/07_10_2026/524a477f2709/</link>
@@ -137,6 +222,23 @@ Worth a read for developers following AI and AWS. Link to article: https://aws.a
           
             Cornerstone OnDemand built Orion AI, a multi-agent system on Amazon Bedrock and Strands Agents, to turn database operations from reactive firefighting into proactive automation. A three-person team cut database diagnosis from 45 minutes to 10, a 78% reduction, in six months. See the design decisions other teams can reuse.
 Worth a read for developers following AWS and Data. Link to article: https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI transformation across the infrastructure lifecycle: From supply chain to fleet operations</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/b36fabe41f88/</link>
+      <pubDate>Wed, 07 Oct 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/b36fabe41f88/</guid>
+      <description>
+        
+          
+            The opportunity is bigger than making individual tasks faster. It’s to build a system that learns from how infrastructure is designed, sourced, and operated. The post AI transformation across the infrastructure lifecycle: From supply chain to fleet operations appeared first on Microsoft Azure Blog .
+Worth a read for developers following AI and Azure. Link to article: https://azure.microsoft.com/en-us/blog/ai-transformation-across-the-infrastructure-lifecycle-from-supply-chain-to-fleet-operations 
           
           
         
