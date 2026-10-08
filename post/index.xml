@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 07 Oct 2026 16:39:39 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Oct 2026 18:52:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Claude Haiku 5.5 on AWS</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/524a477f2709/</link>
+      <pubDate>Wed, 07 Oct 2026 18:52:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/524a477f2709/</guid>
+      <description>
+        
+          
+            Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. According to Anthropic, it is the fastest, most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work, and costs around 75% less than Claude Haiku 4.5 for most tasks. This post covers its improvements and how to get started.
+Worth a read for developers following AWS and AI. Link to article: https://aws.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Rethinking access control for RAG with Amazon Quick and Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/8869352ca179/</link>
+      <pubDate>Wed, 07 Oct 2026 18:34:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/8869352ca179/</guid>
+      <description>
+        
+          
+            Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce document-level access controls in real time, verifying permissions directly with authoritative sources at query time.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>CRUD vs Task Driven: Are You Losing User Intent?</title>
       <link>https://www.dotnetramblings.com/post/07_10_2026/3a1b239e2a02/</link>
@@ -188,6 +222,23 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
           
             Before releasing code to production, it&#39;s crucial to ensure a successful build and check for issues like stale references and inconsistent package versions. The Spargine Global Dev Tool automates these checks through nine PowerShell commands, generating reports to assist developers in maintaining quality and addressing potential problems before deployment.
 Worth a read for developers following .NET. Link to article: https://dotnettips.com/2026/10/07/before-you-push-or-deploy-automate-nine-net-project-checks-with-the-spargine-dev-tool 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>GPT-6 and Intelligent UI for everyone</title>
+      <link>https://www.dotnetramblings.com/post/07_10_2026/0ca1450969b5/</link>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_10_2026/0ca1450969b5/</guid>
+      <description>
+        
+          
+            GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.
+Worth a read for developers following AI. Link to article: https://openai.com/index/gpt-6-for-everyone 
           
           
         
@@ -1138,142 +1189,6 @@ Worth a read for developers following .NET. Link to article: https://dotnettips.
           
             As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.
 Worth a read for developers following AI. Link to article: https://openai.com/index/the-den-family-social 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Query claims in natural language with Amazon Bedrock Knowledge Bases</title>
-      <link>https://www.dotnetramblings.com/post/30_09_2026/ceaf2ea83ee9/</link>
-      <pubDate>Wed, 30 Sep 2026 15:37:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_09_2026/ceaf2ea83ee9/</guid>
-      <description>
-        
-          
-            This technical how-to builds a conversational claims assistant on Amazon Bedrock Knowledge Bases that answers natural-language questions with citations. It covers ingesting claim documents from Amazon S3, querying with the AgenticRetrieveStream API, multi-turn follow-ups, metadata filters, and contextual grounding guardrails.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances</title>
-      <link>https://www.dotnetramblings.com/post/30_09_2026/d679587e6a6f/</link>
-      <pubDate>Wed, 30 Sep 2026 15:21:57 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_09_2026/d679587e6a6f/</guid>
-      <description>
-        
-          
-            Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy a three-agent music production pipeline where the agents colocate on one GPU instance, share a filesystem, and hand work to each other to produce a finished track.
-Worth a read for developers following AWS and DevOps. Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware</title>
-      <link>https://www.dotnetramblings.com/post/30_09_2026/ea795ec9f41b/</link>
-      <pubDate>Wed, 30 Sep 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_09_2026/ea795ec9f41b/</guid>
-      <description>
-        
-          
-            Microsoft is advancing Azure cloud infrastructure with more efficient systems and Circular Centers that extend the useful life of datacenter hardware. The post Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware appeared first on Microsoft Azure Blog .
-Worth a read for developers following Azure. Link to article: https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Disrupting a coordinated model-distillation campaign</title>
-      <link>https://www.dotnetramblings.com/post/30_09_2026/6a91381a4292/</link>
-      <pubDate>Wed, 30 Sep 2026 10:30:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_09_2026/6a91381a4292/</guid>
-      <description>
-        
-          
-            Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.
-Worth a read for developers following AI. Link to article: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Helping small businesses put AI to work</title>
-      <link>https://www.dotnetramblings.com/post/30_09_2026/b5e5e43443d2/</link>
-      <pubDate>Wed, 30 Sep 2026 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_09_2026/b5e5e43443d2/</guid>
-      <description>
-        
-          
-            OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.
-Worth a read for developers following AI. Link to article: https://openai.com/index/helping-small-businesses-put-ai-to-work 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Simplify Directory File Operations in .NET with Spargine’s DirectoryInfoExtensions</title>
-      <link>https://www.dotnetramblings.com/post/30_09_2026/8bce9476547d/</link>
-      <pubDate>Wed, 30 Sep 2026 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_09_2026/8bce9476547d/</guid>
-      <description>
-        
-          
-            The HttpRequestExtensions class in DotNetTips.Spargine.Extensions offers reusable methods to streamline HTTP request handling, enhancing code maintainability and consistency. Key functions include reading request bodies, managing headers, extracting bearer tokens, and validating content types. This utility supports input validation and unit testing, improving code quality in applications.
-Worth a read for developers following .NET and Testing. Link to article: https://dotnettips.com/2026/09/30/simplify-directory-file-operations-in-net-with-spargines-directoryinfoextensions 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Amazon Bedrock expands Claude model availability to in-country inferencing in India</title>
-      <link>https://www.dotnetramblings.com/post/30_09_2026/17f76098dbb1/</link>
-      <pubDate>Wed, 30 Sep 2026 01:13:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_09_2026/17f76098dbb1/</guid>
-      <description>
-        
-          
-            Anthropic&#39;s Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or with the Messages, InvokeModel, and Converse APIs.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore</title>
-      <link>https://www.dotnetramblings.com/post/30_09_2026/e0d0bc875e2a/</link>
-      <pubDate>Wed, 30 Sep 2026 01:13:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_09_2026/e0d0bc875e2a/</guid>
-      <description>
-        
-          
-            Amazon Bedrock now supports Anthropic&#39;s Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing requirements in South Korea or Singapore, you can now use these Anthropic models at scale, with inference processed entirely within the Region you call.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore 
           
           
         
