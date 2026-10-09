@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 16:20:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Oct 2026 18:33:29 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments</title>
+      <link>https://www.dotnetramblings.com/post/08_10_2026/ea6ac6a92eab/</link>
+      <pubDate>Thu, 08 Oct 2026 18:33:29 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_10_2026/ea6ac6a92eab/</guid>
+      <description>
+        
+          
+            Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Incarna&#39;s agents pay BlockRun for model inference one request at a time over x402, cutting the work of adding x402 payment support from months to days.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod</title>
       <link>https://www.dotnetramblings.com/post/08_10_2026/d66892423b04/</link>
@@ -118,6 +135,23 @@ Worth a watch for developers following AI and Azure. Link to video: https://www.
           
             Learn how Vercel Eve sessions recover disconnected C# clients with persisted cursors, bounded streaming, replay boundaries, and explicit cancellation choices.
 Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/08/vercel-eve-sessions-and-streaming-in-c-recover-a-disconnected-client 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>LegalOn halves Codex costs while maintaining development speed</title>
+      <link>https://www.dotnetramblings.com/post/08_10_2026/f6d3626eb7c8/</link>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/08_10_2026/f6d3626eb7c8/</guid>
+      <description>
+        
+          
+            LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.
+Worth a read for developers following AI. Link to article: https://openai.com/index/legalon-halves-codex-costs 
           
           
         
@@ -3186,23 +3220,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
     </item>
     
     <item>
-      <title>Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/0be132c0ceb1/</link>
-      <pubDate>Thu, 01 Oct 2026 22:06:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/0be132c0ceb1/</guid>
-      <description>
-        
-          
-            Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handle discovery, infrastructure as code generation, portfolio governance, and post-migration operations, reducing IaC development time from weeks to minutes.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Can AI Find Opal? Building Real-World AI with Microsoft Azure</title>
       <link>https://www.dotnetramblings.com/videos/01_10_2026/54207cfa1a6a/</link>
       <pubDate>Thu, 01 Oct 2026 20:54:37 +0000</pubDate>
@@ -3237,23 +3254,6 @@ Worth a watch for developers following AWS and AI. Link to video: https://www.yo
     </item>
     
     <item>
-      <title>Serve live, governed data in AI-built apps with Amazon Quick</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/bd12dc0a481e/</link>
-      <pubDate>Thu, 01 Oct 2026 19:49:06 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/bd12dc0a481e/</guid>
-      <description>
-        
-          
-            With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time snapshots. Each query runs as the person viewing the app, so row-level and column-level security apply per reader. Learn how to build, publish, and share a live-data app using natural language.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Invite Your Teammate to Your AWS Project</title>
       <link>https://www.dotnetramblings.com/videos/01_10_2026/9ec405bbc433/</link>
       <pubDate>Thu, 01 Oct 2026 18:30:36 +0000</pubDate>
@@ -3264,23 +3264,6 @@ Worth a read for developers following AWS and AI. Link to article: https://aws.a
           
             AWS Projects give you a shared environment tied to a single account where a whole team can build together. One person creates ...
 Worth a watch for developers following AWS. Link to video: https://www.youtube.com/watch?v=xk_TKy5Epzg 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Trust Docker for the agents you don’t</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/352d2d7c3e13/</link>
-      <pubDate>Thu, 01 Oct 2026 18:26:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/352d2d7c3e13/</guid>
-      <description>
-        
-          
-            At WeAreDevelopers, Docker introduced Cloud Sandboxes, the open Sandbox Kit specification, and a commitment to bring Kits to the CNCF for neutral governance.
-Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/docker-cloud-sandboxes-wearedevelopers-recap 
           
           
         
@@ -3305,57 +3288,6 @@ Worth a watch for developers following AWS. Link to video: https://www.youtube.c
     </item>
     
     <item>
-      <title>Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/ed848eef8ff9/</link>
-      <pubDate>Thu, 01 Oct 2026 17:34:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/ed848eef8ff9/</guid>
-      <description>
-        
-          
-            Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post shows how NAT&#39;s memory subsystem works and how to implement Amazon S3 Vectors as a custom memory provider, using a multi-agent investment research use case.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The eternal complement</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/7e67b43cf9d0/</link>
-      <pubDate>Thu, 01 Oct 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/7e67b43cf9d0/</guid>
-      <description>
-        
-          
-            Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.
-Worth a read for developers following AI. Link to article: https://openai.com/index/the-eternal-complement 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Uplifting conversion across the acquisition funnel with personalization using contextual bandits on AWS</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/5357e426cc2a/</link>
-      <pubDate>Thu, 01 Oct 2026 16:51:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/5357e426cc2a/</guid>
-      <description>
-        
-          
-            Generative AI makes it cheap to produce personalized content at scale, but which variation do you show each customer? Amazon Payments used a multi-objective contextual bandit on Amazon SageMaker AI to personalize an acquisition funnel, achieving a high single-digit conversion lift for one audience, and learning why content, not the model, was the constraint.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Somewhere, Elvis is still alive</title>
       <link>https://www.dotnetramblings.com/videos/01_10_2026/10495da349dc/</link>
       <pubDate>Thu, 01 Oct 2026 16:49:08 +0000</pubDate>
@@ -3373,74 +3305,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
     </item>
     
     <item>
-      <title>Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/56f2317a112a/</link>
-      <pubDate>Thu, 01 Oct 2026 16:40:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/56f2317a112a/</guid>
-      <description>
-        
-          
-            Ambient agents respond to events such as an Amazon S3 upload, a schedule, or an alert instead of waiting for a chat prompt. This post walks through building framework-agnostic ambient agents on Amazon Bedrock AgentCore using Amazon SQS, AWS Lambda, and Amazon DynamoDB, with a single ask_human tool and a Jobs page for human-in-the-loop review.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Implementing Multi-Environment Access for Claude Platform on AWS</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/1a99b8d8b05d/</link>
-      <pubDate>Thu, 01 Oct 2026 16:32:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/1a99b8d8b05d/</guid>
-      <description>
-        
-          
-            Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for developers, and OIDC federation for external environments, with workspace-level isolation in a dedicated AI Services account.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Modernize .NET applications from the command line with ATX CLI</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/e4453e815034/</link>
-      <pubDate>Thu, 01 Oct 2026 16:32:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/e4453e815034/</guid>
-      <description>
-        
-          
-            AWS Transform now offers CLI-based .NET modernization with an AWS-managed transformation, which is free of charge within limits. In this post, I’ll walk you through modernizing .NET solutions from the command line using the ATX CLI. AWS Transform already offers multiple experiences, including Visual Studio IDE for developers and web console for IT professionals, so […]
-Worth a read for developers following .NET and Visual Studio. Link to article: https://aws.amazon.com/blogs/dotnet/modernize-net-applications-from-the-command-line-with-atx-cli 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Simplify dashboard drill-down with the Amazon Quick Sight hierarchy filter</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/087a539816c9/</link>
-      <pubDate>Thu, 01 Oct 2026 16:28:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/087a539816c9/</guid>
-      <description>
-        
-          
-            Amazon Quick Sight is a fully managed, cloud-native business intelligence (BI) capability for building and publishing interactive dashboards. The new hierarchy filter gives dashboard authors rich, multi-level filtering in a single compact control, reducing clutter and guiding readers to the data they need in fewer steps.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>1B row vector search in less than a second with Azure SQL Database Hyperscale | Data Exposed</title>
       <link>https://www.dotnetramblings.com/videos/01_10_2026/863f568d5721/</link>
       <pubDate>Thu, 01 Oct 2026 16:00:27 +0000</pubDate>
@@ -3451,40 +3315,6 @@ Worth a read for developers following AWS and AI. Link to article: https://aws.a
           
             Learn about vector indexing in Microsoft SQL from the PM and engineering team. ✓ Chapters: 0:00 Intro to Product Management ...
 Worth a watch for developers following Azure and Data. Link to video: https://www.youtube.com/watch?v=LRuMaO07KlU 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Albertsons Companies is reimagining retail from the inside out</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/a80484c2d584/</link>
-      <pubDate>Thu, 01 Oct 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/a80484c2d584/</guid>
-      <description>
-        
-          
-            Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.
-Worth a read for developers following AI. Link to article: https://openai.com/index/albertsons-reimagining-retail 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How uniopen customized Amazon Nova to their retail moderation policies for production deployment</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/482fe13f33b0/</link>
-      <pubDate>Thu, 01 Oct 2026 15:33:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/482fe13f33b0/</guid>
-      <description>
-        
-          
-            See how uniopen, a retail platform from Taiwan&#39;s Uni-President Enterprises Group, adapted Amazon Nova 2 Lite to its content-moderation policies using supervised fine-tuning in Amazon SageMaker AI and prompt optimization. Business-relevant evaluation and release gates kept quality in check.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-uniopen-customized-amazon-nova-to-their-retail-moderation-policies-for-production-deployment 
           
           
         
@@ -3771,40 +3601,6 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
           
             Join this beginner-friendly livestream to learn how to build agentic applications with the GitHub Copilot SDK for Java, without ...
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=O7bJ4EAAFck 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Coding Faster with dotNetTips.com Spargine 10: October 2026 Release</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/8ca144309d7a/</link>
-      <pubDate>Thu, 01 Oct 2026 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/8ca144309d7a/</guid>
-      <description>
-        
-          
-            Spargine 10 (v2026.10.7.1), released on July 1, 2026, introduces NuGet packages for .NET 10, featuring new types, methods, and performance enhancements. The update allows for trimmable libraries, reducing application sizes and improving startup times. Community contributions are encouraged, and detailed benchmarks are available on GitHub.
-Worth a read for developers following .NET. Link to article: https://dotnettips.com/2026/10/01/coding-faster-with-dotnettips-com-spargine-10-october-2026-release 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The Den frees up 10-15 hours a week to grow with ChatGPT Work</title>
-      <link>https://www.dotnetramblings.com/post/01_10_2026/3bba52758573/</link>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/01_10_2026/3bba52758573/</guid>
-      <description>
-        
-          
-            As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.
-Worth a read for developers following AI. Link to article: https://openai.com/index/the-den-family-social 
           
           
         
