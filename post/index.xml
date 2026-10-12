@@ -7,7 +7,126 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 12 Oct 2026 06:22:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2026 17:52:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan</title>
+      <link>https://www.dotnetramblings.com/post/12_10_2026/024d9eece6c0/</link>
+      <pubDate>Mon, 12 Oct 2026 17:52:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_10_2026/024d9eece6c0/</guid>
+      <description>
+        
+          
+            Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your source Region.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Durable Task in the Real World: What Problems Does It Actually Solve?</title>
+      <link>https://www.dotnetramblings.com/post/12_10_2026/14c69997e337/</link>
+      <pubDate>Mon, 12 Oct 2026 16:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_10_2026/14c69997e337/</guid>
+      <description>
+        
+          
+            Five practical examples of when durable execution makes sense, when it does not, and what it means for AI agents. The post Durable Task in the Real World: What Problems Does It Actually Solve? appeared first on .NET Blog .
+Worth a read for developers following .NET and AI. Link to article: https://devblogs.microsoft.com/dotnet/durable-task-in-the-real-world 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Claude Code for .NET Developers: A Reviewable Repository Workflow</title>
+      <link>https://www.dotnetramblings.com/post/12_10_2026/7d6c6c632988/</link>
+      <pubDate>Mon, 12 Oct 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_10_2026/7d6c6c632988/</guid>
+      <description>
+        
+          
+            Learn how Claude Code fits a .NET repository workflow, from solution context and bounded changes to permissions, meaningful verification, and human review.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/12/claude-code-for-net-developers-a-reviewable-repository-workflow 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions</title>
+      <link>https://www.dotnetramblings.com/post/12_10_2026/9d1c125ff9b7/</link>
+      <pubDate>Mon, 12 Oct 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_10_2026/9d1c125ff9b7/</guid>
+      <description>
+        
+          
+            CVE-2026-105445: Docker Hub account conversion could re-assign personal access tokens to a new owner. Read what happened, who was affected, and the fix.
+Worth a read for developers following Containers and Security. Link to article: https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Deploy decision models with llama.cpp on Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/12_10_2026/1241afcd37b6/</link>
+      <pubDate>Mon, 12 Oct 2026 15:51:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_10_2026/1241afcd37b6/</guid>
+      <description>
+        
+          
+            Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions with the AWS Deep Learning Container for llama.cpp, then extends the runtime with SemIf to return probabilities over declared options on CPU or GPU.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Run multi-node inference workloads using Ray LLM Deep Learning Containers</title>
+      <link>https://www.dotnetramblings.com/post/12_10_2026/9b76487086db/</link>
+      <pubDate>Mon, 12 Oct 2026 15:50:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_10_2026/9b76487086db/</guid>
+      <description>
+        
+          
+            Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre-built container ships the full inference stack, so you configure the deployment instead of assembling it.
+Worth a read for developers following Containers and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From Software Engineer to Engineering Manager: Starting Well</title>
+      <link>https://www.dotnetramblings.com/post/12_10_2026/996ca3d0b99e/</link>
+      <pubDate>Mon, 12 Oct 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_10_2026/996ca3d0b99e/</guid>
+      <description>
+        
+          
+            Starting as an engineering manager means changing how you contribute. Understand expectations, support your team, and avoid becoming its permanent bottleneck.
+Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/12/from-software-engineer-to-engineering-manager-starting-well 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Releasing AI-generated software</title>
       <link>https://www.dotnetramblings.com/post/12_10_2026/6204f26d93e1/</link>
