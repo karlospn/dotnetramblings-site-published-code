@@ -7,7 +7,143 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Oct 2026 20:10:33 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building agents that transact with Anchor Browser and AgentCore payments</title>
+      <link>https://www.dotnetramblings.com/post/13_10_2026/cdd5fd8d1326/</link>
+      <pubDate>Tue, 13 Oct 2026 20:10:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_10_2026/cdd5fd8d1326/</guid>
+      <description>
+        
+          
+            Learn how the AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for x402-protected web resources and APIs. Amazon Bedrock AgentCore payments checks budgets, signs transactions, and retries requests without exposing wallet credentials to the agent runtime.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing .NET 11 Release Candidate 2</title>
+      <link>https://www.dotnetramblings.com/post/13_10_2026/db9539993e5f/</link>
+      <pubDate>Tue, 13 Oct 2026 19:40:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_10_2026/db9539993e5f/</guid>
+      <description>
+        
+          
+            .NET 11 Release Candidate 2 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 2 appeared first on .NET Blog .
+Worth a read for developers following .NET. Link to article: https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Manage private pricing offers for Amazon Bedrock with managed entitlements</title>
+      <link>https://www.dotnetramblings.com/post/13_10_2026/4826ab478a6a/</link>
+      <pubDate>Tue, 13 Oct 2026 17:17:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_10_2026/4826ab478a6a/</guid>
+      <description>
+        
+          
+            Managing AI model access across dozens or hundreds of AWS accounts creates friction when each account must accept AWS Marketplace Private Pricing Offers individually. This post shows two ways to activate MPPO entitlements in AWS License Manager: a lightweight script for a one-time fix, and CDK automation for ongoing event-driven processing.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Natural language security queries at Orca Security using Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/13_10_2026/958759977490/</link>
+      <pubDate>Tue, 13 Oct 2026 16:03:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_10_2026/958759977490/</guid>
+      <description>
+        
+          
+            Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. The post shares the multi-stage architecture and the results: 90% lower query cost, 93% fewer input tokens, and 75% lower latency than the initial baseline.
+Worth a read for developers following AWS and Security. Link to article: https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/13_10_2026/576253ed8947/</link>
+      <pubDate>Tue, 13 Oct 2026 15:54:49 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_10_2026/576253ed8947/</guid>
+      <description>
+        
+          
+            ShipStation Global&#39;s engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT questions from a curated knowledge base, reads error-message screenshots, and files Jira tickets. In its first three months it resolved 97.5% of channel queries with a 96% positive feedback rating.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build long-horizon agents with Grok 4.7 on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/13_10_2026/c4d6082c07a1/</link>
+      <pubDate>Tue, 13 Oct 2026 15:52:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_10_2026/c4d6082c07a1/</guid>
+      <description>
+        
+          
+            Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning effort levels, measuring correctness and token cost per completed task. We show how to tune the trade-off per request and monitor it in production.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Mixture-of-Experts kernel engineering on Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/13_10_2026/ba8a6ffbbe0f/</link>
+      <pubDate>Tue, 13 Oct 2026 15:17:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_10_2026/ba8a6ffbbe0f/</guid>
+      <description>
+        
+          
+            AWS engineers share kernel optimizations for fused Mixture-of-Experts (MoE) models on Amazon SageMaker AI: Swap-AB for WGMMA utilization, Triton backend routing for FP8 quantization, and eliminating Triton JIT recompilation. Together they deliver up to 10% higher throughput and up to 9% faster Time to First Token on H200 GPUs.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Higgsfield takes AI video from 1 minute to over 10</title>
+      <link>https://www.dotnetramblings.com/post/13_10_2026/ffc748cb8d88/</link>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_10_2026/ffc748cb8d88/</guid>
+      <description>
+        
+          
+            Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.
+Worth a read for developers following AI. Link to article: https://openai.com/index/higgsfield-longer-videos-voice 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>One-on-Ones With Quiet Employees: Make Space Without Forcing Conversation</title>
       <link>https://www.dotnetramblings.com/post/13_10_2026/8d1eb4a40d86/</link>
@@ -36,6 +172,23 @@ Worth a read for developers following General. Link to article: https://www.devl
           
             Ten MCP servers I run daily as a .NET developer, so Claude works from live data instead of guesses. The list covers NuGet, GitHub, Azure, Azure DevOps, Playwright and Cloudflare plus a few community picks, with an example prompt for each and notes on keeping access read-only where it matters.
 Worth a read for developers following .NET and Azure. Link to article: https://blog.elmah.io/10-mcp-servers-you-need-to-install-now-as-a-net-developer 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>.NET and .NET Framework October 2026 servicing releases updates</title>
+      <link>https://www.dotnetramblings.com/post/12_10_2026/a2ca0f274492/</link>
+      <pubDate>Mon, 12 Oct 2026 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_10_2026/a2ca0f274492/</guid>
+      <description>
+        
+          
+            A recap of the latest servicing updates for .NET and .NET Framework for October 2026. The post .NET and .NET Framework October 2026 servicing releases updates appeared first on .NET Blog .
+Worth a read for developers following .NET. Link to article: https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2026-servicing-updates 
           
           
         
