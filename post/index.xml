@@ -9,6 +9,23 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Sat, 17 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Self-Hosting at Home With Cloudflare Tunnel</title>
+      <link>https://www.dotnetramblings.com/post/17_10_2026/d783915ca783/</link>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_10_2026/d783915ca783/</guid>
+      <description>
+        
+          
+            My Linux mini PC can run web apps, but CGNAT stops me from sharing them with a router port forward.
+Worth a read for developers following .NET. Link to article: https://milanjovanovic.tech/blog/cloudflare-tunnel-hide-backend-ip 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore</title>
       <link>https://www.dotnetramblings.com/post/16_10_2026/c22ce4d9c599/</link>
       <pubDate>Fri, 16 Oct 2026 20:48:16 +0000</pubDate>
@@ -19,6 +36,23 @@
           
             Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. This post shares a nine-stage evaluation framework, built on Amazon Bedrock AgentCore, that catches silent quality regressions across the full agent lifecycle, from first commit to live production.
 Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Itaú is building generative AI for its entire customer base</title>
+      <link>https://www.dotnetramblings.com/post/16_10_2026/65442e708214/</link>
+      <pubDate>Fri, 16 Oct 2026 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_10_2026/65442e708214/</guid>
+      <description>
+        
+          
+            With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.
+Worth a read for developers following AI. Link to article: https://openai.com/index/itau-generative-ai 
           
           
         
@@ -1039,74 +1073,6 @@ Worth a read for developers following General. Link to article: https://www.devl
           
             I have time-dependent code in my application that I need to test. An invitation that expires after five minutes is a good example: I want to check the deadline…
 Worth a read for developers following .NET. Link to article: https://milanjovanovic.tech/blog/test-time-dependent-code-without-waiting 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ICYMI: What landed for AI builders in September 2026</title>
-      <link>https://www.dotnetramblings.com/post/09_10_2026/07862ce6a3fa/</link>
-      <pubDate>Fri, 09 Oct 2026 15:38:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_10_2026/07862ce6a3fa/</guid>
-      <description>
-        
-          
-            A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evaluation, and automated knowledge base syncing with native enterprise connectors.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Postman runs Agent Mode for 40 million developers on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/09_10_2026/dd106deebac2/</link>
-      <pubDate>Fri, 09 Oct 2026 15:35:02 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_10_2026/dd106deebac2/</guid>
-      <description>
-        
-          
-            Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns behind Agent Mode: controlling tool sprawl, exposing schema-based reads, and treating context as the real bottleneck, plus how it runs on Amazon Bedrock at scale.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Asana cuts model costs 76x in browser tests with GPT-6.1 Sol</title>
-      <link>https://www.dotnetramblings.com/post/09_10_2026/90995f7dbc9c/</link>
-      <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_10_2026/90995f7dbc9c/</guid>
-      <description>
-        
-          
-            Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.
-Worth a read for developers following AI. Link to article: https://openai.com/index/asana-browser-agent 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Sophos cuts threat investigation time by 96% with OpenAI Daybreak</title>
-      <link>https://www.dotnetramblings.com/post/09_10_2026/edd58468d564/</link>
-      <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/09_10_2026/edd58468d564/</guid>
-      <description>
-        
-          
-            Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.
-Worth a read for developers following AI. Link to article: https://openai.com/index/sophos 
           
           
         
