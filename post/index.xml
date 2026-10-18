@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 18 Oct 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Oct 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managing Your Time as a New Engineering Manager</title>
+      <link>https://www.dotnetramblings.com/post/18_10_2026/968031b13770/</link>
+      <pubDate>Sun, 18 Oct 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_10_2026/968031b13770/</guid>
+      <description>
+        
+          
+            Learn to manage your time as an engineering manager, balance support and coordination, handle interruptions, and recognize when your workload needs to change.
+Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/18/managing-your-time-as-a-new-engineering-manager 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Pipes vs. Streams in .NET: Choosing the Right Tool for Performance</title>
       <link>https://www.dotnetramblings.com/post/18_10_2026/6640acf850d6/</link>
@@ -19,6 +36,23 @@
           
             The choice between Pipes and Streams for data processing hinges on specific workloads. Optimal selection requires benchmarking based on the application&#39;s data handling needs.
 Worth a read for developers following .NET. Link to article: https://dotnettips.com/2026/10/18/pipes-vs-streams-in-net-choosing-the-right-tool-for-performance 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Simplifying NAudio 3 Target Frameworks</title>
+      <link>https://www.dotnetramblings.com/post/18_10_2026/4029de0320e5/</link>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_10_2026/4029de0320e5/</guid>
+      <description>
+        
+          
+            When I originally created NAudio in 2002, it was on the old .NET Framework which was Windows-only. The whole NAudio library was a single package, containing all the capabilities. Over time, I gradually split things out, trying to separate the &amp;quot;cross-platform&amp;quot; parts of NAudio, such as the core interfaces, WAV and MIDI file readers and writers, and fully managed DSP (e.g. FFT, WdlResampler ), from things that were…
+Worth a read for developers following .
           
           
         
