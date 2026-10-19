@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 19 Oct 2026 01:12:33 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Oct 2026 08:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>.NET 11 Release Candidate 2: Go-Live License and Updates Across Libraries, F#, MAUI, and WinForms</title>
+      <link>https://www.dotnetramblings.com/post/19_10_2026/8625ab6147e4/</link>
+      <pubDate>Mon, 19 Oct 2026 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_10_2026/8625ab6147e4/</guid>
+      <description>
+        
+          
+            Microsoft has released .NET 11 Release Candidate 2 under a go-live license, supported in Visual Studio 2026 Insiders. The release adds incremental CBOR reading, experimental post-quantum cryptography APIs, file-based app directive improvements, NuGet package cooldowns, F# runtime async building blocks, a C# UI option for .NET MAUI, and refined Windows Forms visual styles. By Almir Vuk
+Worth a read for developers following .NET and Visual Studio. Link to article: https://www.infoq.com/news/2026/10/dotnet-11-rc-2 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Properties for a budgeting exercise</title>
+      <link>https://www.dotnetramblings.com/post/19_10_2026/9bdcb25b4ec6/</link>
+      <pubDate>Mon, 19 Oct 2026 06:43:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_10_2026/9bdcb25b4ec6/</guid>
+      <description>
+        
+          
+            Attempting to conjure good properties. Ever since I learned about property-based testing, I&#39;ve been fascinated by it. The notion of test data generators seem superior to Test Data Builders : Both require some degree of test-specific boilerplate code, but you get more bang for your bob with test data generators. Instead of hard-coding some (often arbitrary) constant value in a Test Data Builder, you define a range of…
+Worth a read for developers following Testing.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Wolverine passed 10 million downloads</title>
       <link>https://www.dotnetramblings.com/post/19_10_2026/6aa2933acf98/</link>
@@ -138,6 +172,23 @@ Worth a read for developers following .NET. Link to article: https://dotnettips.
           
             When I originally created NAudio in 2002, it was on the old .NET Framework which was Windows-only. The whole NAudio library was a single package, containing all the capabilities. Over time, I gradually split things out, trying to separate the &amp;quot;cross-platform&amp;quot; parts of NAudio, such as the core interfaces, WAV and MIDI file readers and writers, and fully managed DSP (e.g. FFT, WdlResampler ), from things that were…
 Worth a read for developers following .
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI Writes The Code. You Still Own The Quality - Dev Leader Weekly 161</title>
+      <link>https://www.dotnetramblings.com/post/17_10_2026/d69ee26b0385/</link>
+      <pubDate>Sat, 17 Oct 2026 22:28:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_10_2026/d69ee26b0385/</guid>
+      <description>
+        
+          
+            Welcome to another issue of Dev Leader Weekly! In this issue, I discuss keeping AI-written code on track with instructions, automated checks, and telemetry.
+Worth a read for developers following AI. Link to article: https://www.devleader.ca/2026/10/17/ai-writes-the-code-you-still-own-the-quality-dev-leader-weekly-161 
           
           
         
