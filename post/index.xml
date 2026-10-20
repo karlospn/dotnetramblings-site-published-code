@@ -7,7 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 19 Oct 2026 21:14:44 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Oct 2026 23:32:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structured outputs for Anthropic Claude models on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/19_10_2026/ea83f0dd69c5/</link>
+      <pubDate>Mon, 19 Oct 2026 23:32:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_10_2026/ea83f0dd69c5/</guid>
+      <description>
+        
+          
+            Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Storing and Querying a Hierarchy of Types with Marten</title>
+      <link>https://www.dotnetramblings.com/post/19_10_2026/bb341d34902a/</link>
+      <pubDate>Mon, 19 Oct 2026 23:08:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_10_2026/bb341d34902a/</guid>
+      <description>
+        
+          
+            I was giving a version of the workshop on CQRS and Event Sourcing to a JasperFx client today (because that’s something that we do if you’re interested!). In the workshop, I give a little almost digression into Marten’s old document database functionality just to introduce that side of things because Marten’s projections subsystem relies heavily … Continue reading Storing and Querying a Hierarchy of Types with Marten…
+Worth a read for developers following Architecture and Data.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Developers can now access SageMaker Studio through the new AWS experience</title>
+      <link>https://www.dotnetramblings.com/post/19_10_2026/87cd33ee12bd/</link>
+      <pubDate>Mon, 19 Oct 2026 22:39:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_10_2026/87cd33ee12bd/</guid>
+      <description>
+        
+          
+            New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Amazon SageMaker JumpStart: 2026 year-to-date in review</title>
       <link>https://www.dotnetramblings.com/post/19_10_2026/4bf843f5f5fd/</link>
@@ -155,6 +206,23 @@ Worth a read for developers following .NET. Link to article: https://www.devlead
           
             Reorder your document tabs and return to them by visual position with new keyboard shortcuts. The post Organize and revisit tabs with the keyboard appeared first on Visual Studio Blog .
 Worth a read for developers following Visual Studio. Link to article: https://devblogs.microsoft.com/visualstudio/organize-and-revisit-tabs-with-the-keyboard 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Advancing coding in low‐resource programming languages</title>
+      <link>https://www.dotnetramblings.com/post/19_10_2026/7a364f356aab/</link>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_10_2026/7a364f356aab/</guid>
+      <description>
+        
+          
+            Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.
+Worth a read for developers following AI. Link to article: https://openai.com/index/low-resource-programming-languages 
           
           
         
@@ -1192,193 +1260,6 @@ Worth a read for developers following General. Link to article: https://www.devl
           
             Ten MCP servers I run daily as a .NET developer, so Claude works from live data instead of guesses. The list covers NuGet, GitHub, Azure, Azure DevOps, Playwright and Cloudflare plus a few community picks, with an example prompt for each and notes on keeping access read-only where it matters.
 Worth a read for developers following .NET and Azure. Link to article: https://blog.elmah.io/10-mcp-servers-you-need-to-install-now-as-a-net-developer 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>.NET and .NET Framework October 2026 servicing releases updates</title>
-      <link>https://www.dotnetramblings.com/post/12_10_2026/a2ca0f274492/</link>
-      <pubDate>Mon, 12 Oct 2026 20:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_10_2026/a2ca0f274492/</guid>
-      <description>
-        
-          
-            A recap of the latest servicing updates for .NET and .NET Framework for October 2026. The post .NET and .NET Framework October 2026 servicing releases updates appeared first on .NET Blog .
-Worth a read for developers following .NET. Link to article: https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2026-servicing-updates 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan</title>
-      <link>https://www.dotnetramblings.com/post/12_10_2026/024d9eece6c0/</link>
-      <pubDate>Mon, 12 Oct 2026 17:52:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_10_2026/024d9eece6c0/</guid>
-      <description>
-        
-          
-            Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your source Region.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Durable Task in the Real World: What Problems Does It Actually Solve?</title>
-      <link>https://www.dotnetramblings.com/post/12_10_2026/14c69997e337/</link>
-      <pubDate>Mon, 12 Oct 2026 16:30:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_10_2026/14c69997e337/</guid>
-      <description>
-        
-          
-            Five practical examples of when durable execution makes sense, when it does not, and what it means for AI agents. The post Durable Task in the Real World: What Problems Does It Actually Solve? appeared first on .NET Blog .
-Worth a read for developers following .NET and AI. Link to article: https://devblogs.microsoft.com/dotnet/durable-task-in-the-real-world 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Claude Code for .NET Developers: A Reviewable Repository Workflow</title>
-      <link>https://www.dotnetramblings.com/post/12_10_2026/7d6c6c632988/</link>
-      <pubDate>Mon, 12 Oct 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_10_2026/7d6c6c632988/</guid>
-      <description>
-        
-          
-            Learn how Claude Code fits a .NET repository workflow, from solution context and bounded changes to permissions, meaningful verification, and human review.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/12/claude-code-for-net-developers-a-reviewable-repository-workflow 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions</title>
-      <link>https://www.dotnetramblings.com/post/12_10_2026/9d1c125ff9b7/</link>
-      <pubDate>Mon, 12 Oct 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_10_2026/9d1c125ff9b7/</guid>
-      <description>
-        
-          
-            CVE-2026-105445: Docker Hub account conversion could re-assign personal access tokens to a new owner. Read what happened, who was affected, and the fix.
-Worth a read for developers following Containers and Security. Link to article: https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deploy decision models with llama.cpp on Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/12_10_2026/1241afcd37b6/</link>
-      <pubDate>Mon, 12 Oct 2026 15:51:46 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_10_2026/1241afcd37b6/</guid>
-      <description>
-        
-          
-            Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions with the AWS Deep Learning Container for llama.cpp, then extends the runtime with SemIf to return probabilities over declared options on CPU or GPU.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Run multi-node inference workloads using Ray LLM Deep Learning Containers</title>
-      <link>https://www.dotnetramblings.com/post/12_10_2026/9b76487086db/</link>
-      <pubDate>Mon, 12 Oct 2026 15:50:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_10_2026/9b76487086db/</guid>
-      <description>
-        
-          
-            Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre-built container ships the full inference stack, so you configure the deployment instead of assembling it.
-Worth a read for developers following Containers and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>From Software Engineer to Engineering Manager: Starting Well</title>
-      <link>https://www.dotnetramblings.com/post/12_10_2026/996ca3d0b99e/</link>
-      <pubDate>Mon, 12 Oct 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_10_2026/996ca3d0b99e/</guid>
-      <description>
-        
-          
-            Starting as an engineering manager means changing how you contribute. Understand expectations, support your team, and avoid becoming its permanent bottleneck.
-Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/12/from-software-engineer-to-engineering-manager-starting-well 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deep dive into Azure Maia 300 architecture</title>
-      <link>https://www.dotnetramblings.com/post/12_10_2026/280ae80917c4/</link>
-      <pubDate>Mon, 12 Oct 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_10_2026/280ae80917c4/</guid>
-      <description>
-        
-          
-            Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference. The post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog .
-Worth a read for developers following Azure and Architecture. Link to article: https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Releasing AI-generated software</title>
-      <link>https://www.dotnetramblings.com/post/12_10_2026/6204f26d93e1/</link>
-      <pubDate>Mon, 12 Oct 2026 06:22:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_10_2026/6204f26d93e1/</guid>
-      <description>
-        
-          
-            On software engineering, epistemology, and liability when code is generated by LLMs. Robert C. Martin recently generated much interest with a tweet: &amp;quot;My current strategy is to not read any of the code written by my agents. That&#39;s the only way I can take advantage of their productivity. What I do instead is to surround the agents with extreme constraints. Unit tests, gherkin tests, QA procedures, quality metrics,…
-Worth a read for developers following AI and Testing.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Use multiple schemes in an ASP.NET Core Web application</title>
-      <link>https://www.dotnetramblings.com/post/12_10_2026/079efb569dec/</link>
-      <pubDate>Mon, 12 Oct 2026 05:22:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/12_10_2026/079efb569dec/</guid>
-      <description>
-        
-          
-            This article looks at using multiple authentication schemes in an ASP.NET Core web application. I required something like this when migrating a large application to a new identity provider and reducing the used OIDC servers down to one. Instead of migrating the multiple authentication schemes to a single cookie default scheme, it was quicker to […]
-Worth a read for developers following .NET and Security. Link to article: https://damienbod.com/2026/10/12/use-multiple-schemes-in-an-asp-net-core-web-application 
           
           
         

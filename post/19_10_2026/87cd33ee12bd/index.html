@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Run multi-node inference workloads using Ray LLM Deep Learning Containers | .NET Ramblings</title>
+<title>Developers can now access SageMaker Studio through the new AWS experience | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and …">
+<meta name="description" content="New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Run multi-node inference workloads using Ray LLM Deep Learning Containers">
-<meta name="twitter:description" content="Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and …">
-<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-22045-featured-image.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/12_10_2026/9b76487086db/">
-<meta property="og:title" content="Run multi-node inference workloads using Ray LLM Deep Learning Containers">
-<meta property="og:description" content="Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and …">
-<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-22045-featured-image.png">
+<meta name="twitter:title" content="Developers can now access SageMaker Studio through the new AWS experience">
+<meta name="twitter:description" content="New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already …">
+<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22115-featured-image.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/19_10_2026/87cd33ee12bd/">
+<meta property="og:title" content="Developers can now access SageMaker Studio through the new AWS experience">
+<meta property="og:description" content="New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already …">
+<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22115-featured-image.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers">
+<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,25 +146,25 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Run multi-node inference workloads using Ray LLM Deep Learning Containers</h1>
+    <h1 class="post_title">Developers can now access SageMaker Studio through the new AWS experience</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Oct 12, 2026</span>
+      <span class="post_date">Oct 19, 2026</span>
       <span>
-          <a href="https://www.dotnetramblings.com/topics/containers/" title="Containers" class="post_tag button button_translucent">Containers</a>
-          <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
           <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
+          <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
+          <a href="https://www.dotnetramblings.com/topics/security/" title="Security" class="post_tag button button_translucent">Security</a>
       </span>
   </div>
 
-    <div class="post_body"><p>Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre-built container ships the full inference stack, so you configure the deployment instead of assembling it.</p>
+    <div class="post_body"><p>New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.</p>
 <ul>
-<li>Worth a read for developers following Containers and AI.</li>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers">https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers</a></li>
+<li>Worth a read for developers following AWS and AI.</li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience">https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience</a></li>
 </ul>
 
     </div>
