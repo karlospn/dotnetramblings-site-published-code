@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 19 Oct 2026 23:32:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Oct 2026 07:05:45 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memory-efficient JSON in .NET 10 web APIs with PipeReader</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/43ddbb0d606f/</link>
+      <pubDate>Tue, 20 Oct 2026 07:05:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/43ddbb0d606f/</guid>
+      <description>
+        
+          
+            Deserializing a JSON payload with a million objects strains memory and the garbage collector. .NET 10 adds PipeReader support to System.Text.Json, letting the serializer read straight from a pipeline. This post benchmarks it against streams on execution time, allocations, and GC collections.
+Worth a read for developers following .NET and DevOps. Link to article: https://blog.elmah.io/memory-efficient-json-in-net-10-web-apis-with-pipereader 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Structured outputs for Anthropic Claude models on Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/19_10_2026/ea83f0dd69c5/</link>
