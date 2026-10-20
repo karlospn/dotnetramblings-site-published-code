@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 20 Oct 2026 17:59:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Oct 2026 21:14:10 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/65f689d03570/</link>
+      <pubDate>Tue, 20 Oct 2026 21:14:10 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/65f689d03570/</guid>
+      <description>
+        
+          
+            Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. Its recurrent state stays fixed at 29.5 MB per sequence regardless of context length, avoiding the growing key-value cache of transformer models and keeping serving memory predictable.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>5 Event Driven Architecture Problems (And How to Avoid Them)</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/56fd3a8113f8/</link>
+      <pubDate>Tue, 20 Oct 2026 20:43:38 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/56fd3a8113f8/</guid>
+      <description>
+        
+          
+            “We switched to event driven architecture. Now we can’t debug anything.” A member of my channel shared a post with me where a team went all in on event driven architecture and ran into a bunch of problems. The thing is, they’re not wrong about the pain they experienced. But the problems weren’t directly because… Read More » 5 Event Driven Architecture Problems (And How to Avoid Them) The post 5 Event Driven…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Work management context for AI agents with Smartsheet MCP on AWS</title>
       <link>https://www.dotnetramblings.com/post/20_10_2026/209f0f415bce/</link>
@@ -417,6 +450,23 @@ Worth a watch for developers following AWS. Link to video: https://www.youtube.c
     </item>
     
     <item>
+      <title>OpenAI acquires Orchestra Bio</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/dbaa90254253/</link>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/dbaa90254253/</guid>
+      <description>
+        
+          
+            OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;amp;D, helping biopharma teams accelerate drug development and advance new treatments.
+Worth a read for developers following AI. Link to article: https://openai.com/index/openai-to-acquire-orchestra-bio 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Structured outputs for Anthropic Claude models on Amazon Bedrock</title>
       <link>https://www.dotnetramblings.com/post/19_10_2026/ea83f0dd69c5/</link>
       <pubDate>Mon, 19 Oct 2026 23:32:19 +0000</pubDate>
@@ -495,6 +545,23 @@ Worth a read for developers following AWS and AI. Link to article: https://aws.a
           
             This seven-minute video introduces AWS Transform for building a migration business case from self-managed Apache Kafka to ...
 Worth a watch for developers following AWS. Link to video: https://www.youtube.com/watch?v=nQX30d3ETB8 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Designing for sovereign AI: A shared foundation from edge to cloud</title>
+      <link>https://www.dotnetramblings.com/post/19_10_2026/630e178266bc/</link>
+      <pubDate>Mon, 19 Oct 2026 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_10_2026/630e178266bc/</guid>
+      <description>
+        
+          
+            A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency. The post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog .
+Worth a read for developers following AI and Azure. Link to article: https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud 
           
           
         
