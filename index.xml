@@ -7,7 +7,228 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 20 Oct 2026 11:51:03 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Oct 2026 17:59:07 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work management context for AI agents with Smartsheet MCP on AWS</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/209f0f415bce/</link>
+      <pubDate>Tue, 20 Oct 2026 17:59:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/209f0f415bce/</guid>
+      <description>
+        
+          
+            The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live work management data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/bf3eb719b179/</link>
+      <pubDate>Tue, 20 Oct 2026 17:52:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/bf3eb719b179/</guid>
+      <description>
+        
+          
+            Enterprise supply chains are data-rich but insight-poor, with the data to decide scattered across ERP, monitoring, procurement, and email. This post shows how Amazon Bedrock AgentCore exposes those systems as a governed tool layer, and how Amazon Quick turns them into one conversational experience for business users, with a deploy-it-yourself walkthrough.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/80e6bced4c1b/</link>
+      <pubDate>Tue, 20 Oct 2026 17:48:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/80e6bced4c1b/</guid>
+      <description>
+        
+          
+            Learn how we fine-tuned GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod, and how to decide between supervised fine-tuning (SFT) and reinforcement learning with GRPO. SFT took reasoning-language accuracy from 22% to 100%, and GRPO added measurable gains where headroom existed.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Octave built a secure multi-tenant AI foundation on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/d42536b86903/</link>
+      <pubDate>Tue, 20 Oct 2026 17:34:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/d42536b86903/</guid>
+      <description>
+        
+          
+            Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 billion regulated documents without crossing tenant boundaries.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Collections in C#: Access, Mutation, and Ownership Explained</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/b62847b8c83f/</link>
+      <pubDate>Tue, 20 Oct 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/b62847b8c83f/</guid>
+      <description>
+        
+          
+            Understand collections in C# through access, ordering, equality, mutation, and ownership contracts, with practical examples for everyday application code.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/20/collections-in-c-access-mutation-and-ownership-explained 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/753fc98bb47c/</link>
+      <pubDate>Tue, 20 Oct 2026 16:42:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/753fc98bb47c/</guid>
+      <description>
+        
+          
+            Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the Responses, Chat Completions, and Converse APIs.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Discover tools at runtime with AWS Agent Registry</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/402f87a8f5c1/</link>
+      <pubDate>Tue, 20 Oct 2026 16:22:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/402f87a8f5c1/</guid>
+      <description>
+        
+          
+            Hardcoded tool wiring breaks down as an agent&#39;s catalog grows from a handful of tools to hundreds. This post walks through a runtime Discover, Instantiate, Execute loop built on AWS Agent Registry, where an orchestrator discovers MCP servers and A2A agents through semantic search at runtime instead of compiling every tool at build time.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Securing AI agent identity with X.509 PKI on AWS</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/e5f6d3284f59/</link>
+      <pubDate>Tue, 20 Oct 2026 16:03:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/e5f6d3284f59/</guid>
+      <description>
+        
+          
+            Learn how to secure multi-agent AI systems with cryptographic identity using Keyfactor EJBCA and AWS services. This reference architecture combines signed request envelopes, user-signed delegation assertions, RFC 8693 audience-scoped tokens, and real-time OCSP revocation to prove agent identity and prevent request forgery across agent-to-agent and MCP tool calls.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/441fb3c5749d/</link>
+      <pubDate>Tue, 20 Oct 2026 15:57:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/441fb3c5749d/</guid>
+      <description>
+        
+          
+            Learn how Eon replaced per-tool credentials and local MCP processes across AWS, GCP, and Azure with a single authenticated Amazon Bedrock AgentCore gateway, giving more than 100 developers and autonomous agents unified access to production investigation and cutting new-engineer onboarding from two days to two minutes.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a semantic layer for agentic AI on AWS with Denodo and Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/9b29e0f65dbe/</link>
+      <pubDate>Tue, 20 Oct 2026 15:39:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/9b29e0f65dbe/</guid>
+      <description>
+        
+          
+            Build a governed semantic layer for agentic AI on AWS with the Denodo Platform and Amazon Bedrock AgentCore. It federates Amazon Aurora, Amazon Redshift, and an on-premises PostgreSQL database into a single customer 360 view an agent queries in VQL, with identity propagation and row- and column-level access control enforced at the semantic layer.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a semantic layer for agentic AI on AWS with Strategy Mosaic and Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/31ded39c9d23/</link>
+      <pubDate>Tue, 20 Oct 2026 15:36:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/31ded39c9d23/</guid>
+      <description>
+        
+          
+            The third post in our semantic-layer series builds a customer 360 across Amazon Redshift and Amazon Aurora with Strategy Mosaic, exposes it to a Strands agent on Amazon Bedrock AgentCore through the Mosaic MCP server, and enforces per-user row and column security end-to-end.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-strategy-mosaic-and-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a semantic layer for agentic AI on AWS with AtScale and Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/bedc00d59bfc/</link>
+      <pubDate>Tue, 20 Oct 2026 15:33:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/bedc00d59bfc/</guid>
+      <description>
+        
+          
+            The third post in our semantic-layer series builds a governed customer 360 model on Amazon Redshift with AtScale, then exposes it to a Strands agent on Amazon Bedrock AgentCore through the AtScale MCP server. Identity propagation, RBAC, row security, and full query audit are enforced at the semantic layer, not the prompt.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-atscale-and-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Handling Competing Priorities as an Engineering Manager</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/1423a70a73b9/</link>
+      <pubDate>Tue, 20 Oct 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/1423a70a73b9/</guid>
+      <description>
+        
+          
+            Understand competing priorities as an engineering manager: clarify requests, account for capacity, name displaced commitments, and escalate choices clearly.
+Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/20/handling-competing-priorities-as-an-engineering-manager 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Are IDEs Dead? Why AI Agents Make Them Matter More.</title>
       <link>https://www.dotnetramblings.com/videos/20_10_2026/08d8f939779c/</link>
@@ -70,6 +291,23 @@ Worth a watch for developers following General. Link to video: https://www.youtu
           
             In this post I introduce CBOR as a JSON alternative, and show how to use the System.Formats.Cbor NuGet package to read and write CBOR encoded data
 Worth a read for developers following .NET. Link to article: https://andrewlock.net/an-introduction-to-compact-binary-object-notation-in-dotnet 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Franchisee reconciles cash in 94% less time with ChatGPT Work</title>
+      <link>https://www.dotnetramblings.com/post/20_10_2026/b3fcb2e42d32/</link>
+      <pubDate>Tue, 20 Oct 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_10_2026/b3fcb2e42d32/</guid>
+      <description>
+        
+          
+            An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.
+Worth a read for developers following AI. Link to article: https://openai.com/index/ted-taylor-restaurant 
           
           
         
