@@ -7,7 +7,126 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 21 Oct 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Oct 2026 23:38:38 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing Quick access from corporate networks with AWS PrivateLink</title>
+      <link>https://www.dotnetramblings.com/post/21_10_2026/a8d953e36308/</link>
+      <pubDate>Wed, 21 Oct 2026 23:38:38 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_10_2026/a8d953e36308/</guid>
+      <description>
+        
+          
+            Learn how to connect on-premises data sources to Amazon Quick privately with AWS PrivateLink, keeping analytics traffic off the public internet. This walkthrough covers VPC endpoints for user and API access, VPC connections for data sources, DNS and endpoint policies, identity federation, and enforcing VPC-endpoint-only access for compliance.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>5 production challenges in multi-agent systems and how Deep Insight solved them</title>
+      <link>https://www.dotnetramblings.com/post/21_10_2026/833d3d328a66/</link>
+      <pubDate>Wed, 21 Oct 2026 23:36:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_10_2026/833d3d328a66/</guid>
+      <description>
+        
+          
+            Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five production challenges (orchestration, per-agent model selection, reliable operation, secure code execution, and monitoring) and shows how Deep Insight, an open source multi-agent system on AWS, solves each.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Adaptive agentic intelligence framework using Strands Agents</title>
+      <link>https://www.dotnetramblings.com/post/21_10_2026/d841fc8b370b/</link>
+      <pubDate>Wed, 21 Oct 2026 21:23:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_10_2026/d841fc8b370b/</guid>
+      <description>
+        
+          
+            The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, handles routine tasks locally with small language models and routes complex requests to cloud models through Amazon Bedrock. This post walks through building AAIF with local SLMs through Ollama and Amazon Bedrock, using an Internet of Things monitoring scenario.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Broad access through consistent standards</title>
+      <link>https://www.dotnetramblings.com/post/21_10_2026/2ed22a61b2f1/</link>
+      <pubDate>Wed, 21 Oct 2026 21:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_10_2026/2ed22a61b2f1/</guid>
+      <description>
+        
+          
+            How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.
+Worth a read for developers following AI. Link to article: https://openai.com/index/broad-access-through-consistent-standards 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>.NET 11 and the Critter Stack</title>
+      <link>https://www.dotnetramblings.com/post/21_10_2026/e5b245557431/</link>
+      <pubDate>Wed, 21 Oct 2026 20:07:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_10_2026/e5b245557431/</guid>
+      <description>
+        
+          
+            Hey Critter Stack folks and JasperFx Software clients, absolutely none of this is set in stone and I’m mostly writing it to elucidate my own thinking, so call this the first pass. .NET 11 will be publicly available on November 10th. For all of my career as an OSS author, I’ve been deep into my … Continue reading .NET 11 and the Critter Stack →
+Worth a read for developers following .
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Train Qwen3 on AWS Trainium with torchtitan</title>
+      <link>https://www.dotnetramblings.com/post/21_10_2026/ff2a2ed5c225/</link>
+      <pubDate>Wed, 21 Oct 2026 20:00:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_10_2026/ff2a2ed5c225/</guid>
+      <description>
+        
+          
+            Train Qwen3 on AWS Trainium with torchtitan three ways on a single trn2.48xlarge: the Hugging Face Transformers v5 modeling backend, torchtitan&#39;s native Qwen3, and NKI mixture-of-experts kernels. The same torchrun launcher and config structure work unchanged across all three paths, including loading and saving published Hugging Face safetensors.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How U.S. Hunger connects leaders and data using Amazon Quick</title>
+      <link>https://www.dotnetramblings.com/post/21_10_2026/33738f7743b5/</link>
+      <pubDate>Wed, 21 Oct 2026 19:19:50 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_10_2026/33738f7743b5/</guid>
+      <description>
+        
+          
+            U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How AT&amp;T is rethinking in-house legal work with OpenAI</title>
       <link>https://www.dotnetramblings.com/post/21_10_2026/4ab93569e260/</link>
@@ -206,6 +325,23 @@ Worth a read for developers following AI and Security. Link to article: https://
           
             See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.
 Worth a read for developers following AI. Link to article: https://openai.com/index/scaling-ai-research-for-complex-biological-data 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Democratic governance of frontier AI, part II: Empowering cyber defenders</title>
+      <link>https://www.dotnetramblings.com/post/21_10_2026/b2deaf97c98c/</link>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_10_2026/b2deaf97c98c/</guid>
+      <description>
+        
+          
+            OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.
+Worth a read for developers following AI and Security. Link to article: https://openai.com/index/empowering-cyber-defenders 
           
           
         
