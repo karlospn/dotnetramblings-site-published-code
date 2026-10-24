@@ -9,6 +9,23 @@
     <copyright>.NET Ramblings</copyright>
     <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>How to Revoke a JWT Before It Expires</title>
+      <link>https://www.dotnetramblings.com/post/24_10_2026/6bce178483bb/</link>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_10_2026/6bce178483bb/</guid>
+      <description>
+        
+          
+            ASP.NET Core validates a JWT by its signature and expiry, so a stolen token keeps working after the user changes their password.
+Worth a read for developers following .NET. Link to article: https://milanjovanovic.tech/blog/revoke-jwt-before-it-expires-token-version 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide</title>
       <link>https://www.dotnetramblings.com/post/23_10_2026/95364ce77079/</link>
       <pubDate>Fri, 23 Oct 2026 17:48:54 +0000</pubDate>
@@ -1633,176 +1650,6 @@ Worth a read for developers following .NET and Testing. Link to article: https:/
           
             My Linux mini PC can run web apps, but CGNAT stops me from sharing them with a router port forward.
 Worth a read for developers following .NET. Link to article: https://milanjovanovic.tech/blog/cloudflare-tunnel-hide-backend-ip 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/16_10_2026/c22ce4d9c599/</link>
-      <pubDate>Fri, 16 Oct 2026 20:48:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_10_2026/c22ce4d9c599/</guid>
-      <description>
-        
-          
-            Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. This post shares a nine-stage evaluation framework, built on Amazon Bedrock AgentCore, that catches silent quality regressions across the full agent lifecycle, from first commit to live production.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Itaú is building generative AI for its entire customer base</title>
-      <link>https://www.dotnetramblings.com/post/16_10_2026/65442e708214/</link>
-      <pubDate>Fri, 16 Oct 2026 19:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_10_2026/65442e708214/</guid>
-      <description>
-        
-          
-            With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.
-Worth a read for developers following AI. Link to article: https://openai.com/index/itau-generative-ai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>From Containers to Sandboxes: Developer Trust in the Agentic Era</title>
-      <link>https://www.dotnetramblings.com/post/16_10_2026/d4da02923c02/</link>
-      <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_10_2026/d4da02923c02/</guid>
-      <description>
-        
-          
-            The 2026 Stack Overflow Developer Survey shows only 7% of developers trust AI output for important decisions. Here’s what that means for running agents safely.
-Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/stack-overflow-survey-2026-ai-agent-trust 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Rebuilding 13 Years of Blog Posts as a Static Site with GitHub Copilot CLI</title>
-      <link>https://www.dotnetramblings.com/post/16_10_2026/1d4e1d4b137d/</link>
-      <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_10_2026/1d4e1d4b137d/</guid>
-      <description>
-        
-          
-            Ghost served me well for nine years, but I wanted my blog to be plain Markdown in a git repo. Here&#39;s how GitHub Copilot CLI helped me get the initial migration working in an afternoon, then polish and verify the site for launch.
-Worth a read for developers following AI. Link to article: https://montemagno.com/rebuilding-my-blog-as-a-static-site-with-github-copilot-cli 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Reflection Beam: an open-weight model for agentic coding on AWS</title>
-      <link>https://www.dotnetramblings.com/post/16_10_2026/7bd3e3f63e0f/</link>
-      <pubDate>Fri, 16 Oct 2026 15:23:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_10_2026/7bd3e3f63e0f/</guid>
-      <description>
-        
-          
-            Reflection AI&#39;s Beam is an open-weight model for agentic coding and long-horizon tasks. This post shows how to deploy Beam on AWS: start with an Amazon SageMaker JumpStart real-time endpoint, or use Amazon SageMaker HyperPod Inference with JumpStart, SGLang, or vLLM for Kubernetes-native control over distributed GPU infrastructure.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Feeling Unproductive as an Engineering Manager: Understanding Your Impact</title>
-      <link>https://www.dotnetramblings.com/post/16_10_2026/833101e749a7/</link>
-      <pubDate>Fri, 16 Oct 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_10_2026/833101e749a7/</guid>
-      <description>
-        
-          
-            Feeling unproductive as an engineering manager? Understand your impact when you code less, support others, and help the team work without depending on you.
-Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/16/feeling-unproductive-as-an-engineering-manager-understanding-your-impact 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Get Useful Feedback in a One-on-One</title>
-      <link>https://www.dotnetramblings.com/post/16_10_2026/48822c2f897b/</link>
-      <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_10_2026/48822c2f897b/</guid>
-      <description>
-        
-          
-            Get useful feedback in a one-on-one by examining specific work, understanding your manager&#39;s observations, and agreeing on next steps without guesswork.
-Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/16/how-to-get-useful-feedback-in-a-oneonone 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Volvo EX30/EX60 V2L adapter parameters</title>
-      <link>https://www.dotnetramblings.com/post/16_10_2026/bdeda358f3ee/</link>
-      <pubDate>Fri, 16 Oct 2026 11:47:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_10_2026/bdeda358f3ee/</guid>
-      <description>
-        
-          
-            Over time I bought several V2L adapters for my Volvo EX30, hoping one of them would work (even before software version 2.x), but none ever did. When the official V2L adapter became available (part no. 32411386), I ordered it immediately. This post isn’t about the official adapter, though. It’s about its electrical parameters, so you can build one yourself.
-Worth a read for developers following .NET and Data. Link to article: https://www.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Benefit Street Partners answers questions faster with Codex</title>
-      <link>https://www.dotnetramblings.com/post/16_10_2026/4a2f3ca18eb9/</link>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_10_2026/4a2f3ca18eb9/</guid>
-      <description>
-        
-          
-            Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.
-Worth a read for developers following AI. Link to article: https://openai.com/index/benefit-street-partners 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Stack Overflow for Agents triples signups with ChatGPT plugin</title>
-      <link>https://www.dotnetramblings.com/post/16_10_2026/9db4940a53f8/</link>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/16_10_2026/9db4940a53f8/</guid>
-      <description>
-        
-          
-            Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.
-Worth a read for developers following AI. Link to article: https://openai.com/index/stack-overflow-chatgpt-plugin 
           
           
         
