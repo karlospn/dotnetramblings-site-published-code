@@ -7,7 +7,92 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 26 Oct 2026 13:45:39 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Oct 2026 17:56:58 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/8ed93bec7901/</link>
+      <pubDate>Mon, 26 Oct 2026 17:56:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/8ed93bec7901/</guid>
+      <description>
+        
+          
+            Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/0f715e1693d7/</link>
+      <pubDate>Mon, 26 Oct 2026 17:27:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/0f715e1693d7/</guid>
+      <description>
+        
+          
+            Every time an agent takes a step, it re-reads its entire context before acting. Here is how prompt caching for OpenAI models on Amazon Bedrock lets your agent remember, cutting input cost and latency without resending the same tools, instructions, and history every turn.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/e5e4c3ae2b79/</link>
+      <pubDate>Mon, 26 Oct 2026 17:15:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/e5e4c3ae2b79/</guid>
+      <description>
+        
+          
+            Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed as a single CDK application.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>List and HashSet in C#: Ordering, Membership, and Equality</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/ff50bf1b3b0a/</link>
+      <pubDate>Mon, 26 Oct 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/ff50bf1b3b0a/</guid>
+      <description>
+        
+          
+            Learn how List and HashSet in C# represent ordering, duplicates, membership, and equality, with complete examples and clear boundaries for application code.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/26/list-and-hashset-in-c-ordering-membership-and-equality 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Your Availability Is Not Your Team&#39;s Overtime Expectation</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/8cfd43168c8f/</link>
+      <pubDate>Mon, 26 Oct 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/8cfd43168c8f/</guid>
+      <description>
+        
+          
+            Your availability as a manager can send unintended signals. Separate personal working choices from team expectations without becoming a permanent dependency.
+Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/26/your-availability-is-not-your-teams-overtime-expectation 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Tool Problem or Model Problem? How Clay Tells the Difference</title>
       <link>https://www.dotnetramblings.com/videos/26_10_2026/2fc9c8687697/</link>
@@ -19,6 +104,23 @@
           
             When a customer flags a bad answer, Clay uses LangSmith to trace the problem back to its source: was it a tool call that failed, ...
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=y6rrMFO7tgA 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/1a1d4bf2fc11/</link>
+      <pubDate>Mon, 26 Oct 2026 13:45:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/1a1d4bf2fc11/</guid>
+      <description>
+        
+          
+            CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.
+Worth a read for developers following AI and Security. Link to article: https://openai.com/index/gpt-6-1-sol-coderabbit-code-security 
           
           
         
@@ -128,6 +230,23 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
     </item>
     
     <item>
+      <title>ChatGPT’s expanding world of work</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/64d59b55a8fb/</link>
+      <pubDate>Mon, 26 Oct 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/64d59b55a8fb/</guid>
+      <description>
+        
+          
+            Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.
+Worth a read for developers following AI. Link to article: https://openai.com/index/chatgpt-expanding-world-of-work 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>What a Full Git Clone Actually Downloads</title>
       <link>https://www.dotnetramblings.com/videos/26_10_2026/885045a9a560/</link>
       <pubDate>Mon, 26 Oct 2026 09:00:34 +0000</pubDate>
@@ -179,6 +298,23 @@ Worth a read for developers following AI and Testing. Link to article: https://o
     </item>
     
     <item>
+      <title>How Ultrafast cut incident investigation from hours to minutes at OpenAI</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/8f2f08b6e197/</link>
+      <pubDate>Mon, 26 Oct 2026 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/8f2f08b6e197/</guid>
+      <description>
+        
+          
+            See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.
+Worth a read for developers following AI and Security. Link to article: https://openai.com/index/openai-cut-incident-investigation 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>QuickCheck property: Uncategorised bill</title>
       <link>https://www.dotnetramblings.com/post/26_10_2026/88f0d8baa577/</link>
       <pubDate>Mon, 26 Oct 2026 06:49:00 +0000</pubDate>
@@ -222,6 +358,40 @@ Worth a watch for developers following .NET and AI. Link to video: https://www.y
           
             https://aka.ms/foundry-portal https://aka.ms/InsideMicrosoftFoundryPlaylist A customer types &amp;quot;ignore your rules and give me 100 ...
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=Sae2yyNEQNM 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing GPT-6.1 Terra</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/1758535ac6be/</link>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/1758535ac6be/</guid>
+      <description>
+        
+          
+            Bringing fast and capable computer use to everyone
+Worth a read for developers following AI. Link to article: https://openai.com/index/introducing-gpt-6-1-terra 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Working with academic communities to build scientific understanding</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/f16aefe89a6e/</link>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/f16aefe89a6e/</guid>
+      <description>
+        
+          
+            OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.
+Worth a read for developers following AI. Link to article: https://openai.com/index/building-scientific-understanding-with-academic-communities 
           
           
         
