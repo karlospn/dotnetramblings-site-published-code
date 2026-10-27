@@ -7,7 +7,143 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 27 Oct 2026 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Oct 2026 19:40:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bring AWS Transform into GitHub Copilot with MCP</title>
+      <link>https://www.dotnetramblings.com/post/27_10_2026/0450a8c60f2e/</link>
+      <pubDate>Tue, 27 Oct 2026 19:40:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_10_2026/0450a8c60f2e/</guid>
+      <description>
+        
+          
+            Introduction If GitHub Copilot is already part of your .NET workflow, you know how much it accelerates day-to-day coding. Now you can bring the power of AWS Transform directly into that same workflow through the AWS Transform MCP server. AWS Transform is an agentic AI service that analyzes and transforms whole applications, infrastructure, and code, […]
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/dotnet/bring-aws-transform-into-github-copilot-with-mcp 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service</title>
+      <link>https://www.dotnetramblings.com/post/27_10_2026/685f0df653a9/</link>
+      <pubDate>Tue, 27 Oct 2026 18:03:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_10_2026/685f0df653a9/</guid>
+      <description>
+        
+          
+            AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS Connect Customer. This recognition marks an important milestone for our team, and it reflects years of work pushing on what&#39;s possible in customer experience.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing SOCI-indexed images for faster SageMaker AI jobs</title>
+      <link>https://www.dotnetramblings.com/post/27_10_2026/2f7df4450dee/</link>
+      <pubDate>Tue, 27 Oct 2026 17:00:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_10_2026/2f7df4450dee/</guid>
+      <description>
+        
+          
+            Seekable OCI (SOCI) indexing for Amazon SageMaker AI training and processing jobs takes full container image download off the critical path. SageMaker AI lazy-loads your image to start containers in seconds instead of minutes, with no changes to your job definition. See the benchmarks and how to adopt it.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Bobcat 1.0 is here!</title>
+      <link>https://www.dotnetramblings.com/post/27_10_2026/5c7581f00bf2/</link>
+      <pubDate>Tue, 27 Oct 2026 16:57:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_10_2026/5c7581f00bf2/</guid>
+      <description>
+        
+          
+            JasperFx released Bobcat 1.0 yesterday, our new MIT license tool for: “Executable Specifications”, but this time we’re focused strictly on being able to “project” human readable specifications for easy review with domain experts or us developers from the testing tools we already use, including xUnit.net, TUnit, MSTest, and NUnit. No Gherkin, markdown, or wiki text … Continue reading Bobcat 1.0 is here! →
+Worth a read for developers following .NET and Testing.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fix evaluation bias to unlock better models on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/27_10_2026/10659eb70d41/</link>
+      <pubDate>Tue, 27 Oct 2026 16:53:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_10_2026/10659eb70d41/</guid>
+      <description>
+        
+          
+            Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model, hiding its true accuracy. See how they built unbiased ground truth, applied evolutionary prompt optimization, and selected a more accurate, cost-effective model on Amazon Bedrock, cutting cost by 86% across 11 image-quality attributes.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exowatt beats frontier models on accuracy with SageMaker serverless model customization</title>
+      <link>https://www.dotnetramblings.com/post/27_10_2026/1caf0a8b5ac4/</link>
+      <pubDate>Tue, 27 Oct 2026 16:50:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_10_2026/1caf0a8b5ac4/</guid>
+      <description>
+        
+          
+            In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower cost.
+Worth a read for developers following AWS and DevOps. Link to article: https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Configure Claude Code Permissions for .NET Development</title>
+      <link>https://www.dotnetramblings.com/post/27_10_2026/5898ddae9c39/</link>
+      <pubDate>Tue, 27 Oct 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_10_2026/5898ddae9c39/</guid>
+      <description>
+        
+          
+            Understand Claude Code permissions for .NET development, including rule syntax, settings scope, command risks, and boundaries for databases and publishing.
+Worth a read for developers following .NET and Data. Link to article: https://www.devleader.ca/2026/10/27/configure-claude-code-permissions-for-net-development 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding</title>
+      <link>https://www.dotnetramblings.com/post/27_10_2026/62e48e23053e/</link>
+      <pubDate>Tue, 27 Oct 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_10_2026/62e48e23053e/</guid>
+      <description>
+        
+          
+            Compare commits with your working tree, resolve merge conflicts in bulk, and keep coding with refreshed Copilot chat, Hot Exit, keyboard tab controls, and Fonts and Colors. The post Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding appeared first on Visual Studio Blog .
+Worth a read for developers following Visual Studio and AI. Link to article: https://devblogs.microsoft.com/visualstudio/visual-studio-october-update-compare-commits-to-your-code-resolve-conflicts-in-bulk-keep-coding 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Blazor Welcomes Open-Source Contributions from Infragistics</title>
       <link>https://www.dotnetramblings.com/post/27_10_2026/9c482c9bf569/</link>
@@ -230,6 +366,23 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
     </item>
     
     <item>
+      <title>OpenAI expands partnership with Oracle to bring its apps to ChatGPT</title>
+      <link>https://www.dotnetramblings.com/post/27_10_2026/a3a879144b29/</link>
+      <pubDate>Tue, 27 Oct 2026 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_10_2026/a3a879144b29/</guid>
+      <description>
+        
+          
+            OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.
+Worth a read for developers following AI. Link to article: https://openai.com/index/oracle-apps-in-chatgpt 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Model Mondays - Train and customize open models with Fireworks on Foundry</title>
       <link>https://www.dotnetramblings.com/videos/27_10_2026/cd75324b4713/</link>
       <pubDate>Tue, 27 Oct 2026 06:30:31 +0000</pubDate>
@@ -274,6 +427,23 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
           
             Russell Kaplan explains how Cognition uses Devin internally: triaging Slack messages, knowing who owns what in the codebase, ...
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=GNu-d97XY6c 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Check Point accelerates vulnerability research with Daybreak</title>
+      <link>https://www.dotnetramblings.com/post/27_10_2026/8cb333260a17/</link>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_10_2026/8cb333260a17/</guid>
+      <description>
+        
+          
+            With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.
+Worth a read for developers following Security and AI. Link to article: https://openai.com/index/check-point-daybreak 
           
           
         
