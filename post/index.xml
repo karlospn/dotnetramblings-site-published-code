@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 26 Oct 2026 17:56:58 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Oct 2026 22:59:23 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Read Your Writes with the Critter Stack</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/dd6aa12ca697/</link>
+      <pubDate>Mon, 26 Oct 2026 22:59:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/dd6aa12ca697/</guid>
+      <description>
+        
+          
+            The image isn’t completely related, but it’s more than a little funny that the Superfriends had a super computer with incredible AI capabilities in the 70’s but yet its interface was writing out ticker tape. And for any other Gen X kids out there who read this: “meanwhile, at the Hall of Justice…” JasperFx Software … Continue reading Read Your Writes with the Critter Stack →
+Worth a read for developers following AI.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Greptile takes bug detection beyond code review with GPT-6 Astra</title>
+      <link>https://www.dotnetramblings.com/post/26_10_2026/250e5d8f3024/</link>
+      <pubDate>Mon, 26 Oct 2026 22:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/26_10_2026/250e5d8f3024/</guid>
+      <description>
+        
+          
+            How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.
+Worth a read for developers following AI and Security. Link to article: https://openai.com/index/greptile-code-review-codex-astra 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3</title>
       <link>https://www.dotnetramblings.com/post/26_10_2026/8ed93bec7901/</link>
@@ -1547,329 +1581,6 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
           
             OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;amp;D, helping biopharma teams accelerate drug development and advance new treatments.
 Worth a read for developers following AI. Link to article: https://openai.com/index/openai-to-acquire-orchestra-bio 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Structured outputs for Anthropic Claude models on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/ea83f0dd69c5/</link>
-      <pubDate>Mon, 19 Oct 2026 23:32:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/ea83f0dd69c5/</guid>
-      <description>
-        
-          
-            Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Storing and Querying a Hierarchy of Types with Marten</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/bb341d34902a/</link>
-      <pubDate>Mon, 19 Oct 2026 23:08:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/bb341d34902a/</guid>
-      <description>
-        
-          
-            I was giving a version of the workshop on CQRS and Event Sourcing to a JasperFx client today (because that’s something that we do if you’re interested!). In the workshop, I give a little almost digression into Marten’s old document database functionality just to introduce that side of things because Marten’s projections subsystem relies heavily … Continue reading Storing and Querying a Hierarchy of Types with Marten…
-Worth a read for developers following Architecture and Data.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Developers can now access SageMaker Studio through the new AWS experience</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/87cd33ee12bd/</link>
-      <pubDate>Mon, 19 Oct 2026 22:39:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/87cd33ee12bd/</guid>
-      <description>
-        
-          
-            New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Amazon SageMaker JumpStart: 2026 year-to-date in review</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/4bf843f5f5fd/</link>
-      <pubDate>Mon, 19 Oct 2026 21:14:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/4bf843f5f5fd/</guid>
-      <description>
-        
-          
-            Amazon SageMaker JumpStart onboarded over 100 new models from 30 providers in the first three quarters of 2026. This recap covers the model-onboarding highlights and JumpStart enhancements, including the simplified Model Hub, pre-configured deployment options, and Hugging Face deep link integration.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Designing for sovereign AI: A shared foundation from edge to cloud</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/630e178266bc/</link>
-      <pubDate>Mon, 19 Oct 2026 19:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/630e178266bc/</guid>
-      <description>
-        
-          
-            A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency. The post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog .
-Worth a read for developers following AI and Azure. Link to article: https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/98948186cc0e/</link>
-      <pubDate>Mon, 19 Oct 2026 16:49:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/98948186cc0e/</guid>
-      <description>
-        
-          
-            TwelveLabs Pegasus 1.5 is now available in Amazon Bedrock. The video language model turns long-form video into structured, timestamped metadata: define the moments that matter and get every matching segment back as JSON, with new video segmentation, multimodal prompting with reference images, and on-the-fly processing of up to two hours of video.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Deepgram optimized voice AI at scale with AWS Trainium</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/134c1a21491e/</link>
-      <pubDate>Mon, 19 Oct 2026 16:23:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/134c1a21491e/</guid>
-      <description>
-        
-          
-            Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. This post covers porting to the AWS Neuron stack, kernel-level tuning, a data-parallel Rust runtime, and the throughput and cost results on batch transcription.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/e242a37f6e45/</link>
-      <pubDate>Mon, 19 Oct 2026 16:05:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/e242a37f6e45/</guid>
-      <description>
-        
-          
-            vLLM&#39;s prefill-decode disaggregation splits LLM inference across engine instances but must transfer the KV cache between them. This post introduces a push-based NIXL connector that moves transfer coordination off the critical path, delivering up to 3x better TTFT and 30% better TPOT in benchmarks on Amazon EC2 P5en instances with AWS EFA.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Get Your .NET MAUI App Ready for Xcode 27</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/f56986058b6d/</link>
-      <pubDate>Mon, 19 Oct 2026 16:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/f56986058b6d/</guid>
-      <description>
-        
-          
-            Use an agent skill to prepare your existing .NET MAUI app for Xcode 27, with the scene lifecycle changes and manual migration steps explained. The post Get Your .NET MAUI App Ready for Xcode 27 appeared first on .NET Blog .
-Worth a read for developers following .NET and AI. Link to article: https://devblogs.microsoft.com/dotnet/migrate-dotnet-maui-apps-uikit-scene-lifecycle 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Improve TTFT for multi-turn agentic workloads with bi-directional KV transfer in vLLM</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/c5ffbd108a10/</link>
-      <pubDate>Mon, 19 Oct 2026 16:03:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/c5ffbd108a10/</guid>
-      <description>
-        
-          
-            Multi-turn agentic workloads reprocess growing conversation context each turn, driving up latency. See how bi-directional KV cache transfer lets prefill and decode nodes reuse previously computed context across turns, cutting time to first token by up to 1.6x for Qwen3-32B and 3.3x for GLM-5-FP8 on Amazon EC2 P5en instances with EFA.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bring Your Own Model to the GitHub Copilot SDK with C#</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/aa18e1a9ed6f/</link>
-      <pubDate>Mon, 19 Oct 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/aa18e1a9ed6f/</guid>
-      <description>
-        
-          
-            The GitHub Copilot SDK gives your application an agent runtime. BYOK lets you keep that runtime while sending model requests to your own Microsoft Foundry or Azure OpenAI deployment. Here is the complete C# setup. The post Bring Your Own Model to the GitHub Copilot SDK with C# appeared first on .NET Blog .
-Worth a read for developers following .NET and AI. Link to article: https://devblogs.microsoft.com/dotnet/bring-your-own-model-to-the-github-copilot-sdk-with-csharp 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>C# Code Intelligence in Claude Code: Setup and Limits</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/6ed0f67a200a/</link>
-      <pubDate>Mon, 19 Oct 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/6ed0f67a200a/</guid>
-      <description>
-        
-          
-            Understand C# code intelligence in Claude Code, including the csharp-lsp plugin, server prerequisites, diagnostics, symbol navigation, and verification limits.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/19/c-code-intelligence-in-claude-code-setup-and-limits 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Organize and revisit tabs with the keyboard</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/de35f7538a00/</link>
-      <pubDate>Mon, 19 Oct 2026 14:00:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/de35f7538a00/</guid>
-      <description>
-        
-          
-            Reorder your document tabs and return to them by visual position with new keyboard shortcuts. The post Organize and revisit tabs with the keyboard appeared first on Visual Studio Blog .
-Worth a read for developers following Visual Studio. Link to article: https://devblogs.microsoft.com/visualstudio/organize-and-revisit-tabs-with-the-keyboard 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Advancing coding in low‐resource programming languages</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/7a364f356aab/</link>
-      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/7a364f356aab/</guid>
-      <description>
-        
-          
-            Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.
-Worth a read for developers following AI. Link to article: https://openai.com/index/low-resource-programming-languages 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Career Conversations With Your Manager: Start With Your Own Goals</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/6420d08ea91c/</link>
-      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/6420d08ea91c/</guid>
-      <description>
-        
-          
-            Make career conversations with your manager clearer by exploring your interests, desired responsibilities, role expectations, and opportunities as goals change.
-Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/19/career-conversations-with-your-manager-start-with-your-own-goals 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>.NET 11 Release Candidate 2: Go-Live License and Updates Across Libraries, F#, MAUI, and WinForms</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/8625ab6147e4/</link>
-      <pubDate>Mon, 19 Oct 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/8625ab6147e4/</guid>
-      <description>
-        
-          
-            Microsoft has released .NET 11 Release Candidate 2 under a go-live license, supported in Visual Studio 2026 Insiders. The release adds incremental CBOR reading, experimental post-quantum cryptography APIs, file-based app directive improvements, NuGet package cooldowns, F# runtime async building blocks, a C# UI option for .NET MAUI, and refined Windows Forms visual styles. By Almir Vuk
-Worth a read for developers following .NET and Visual Studio. Link to article: https://www.infoq.com/news/2026/10/dotnet-11-rc-2 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>JetBrains .NET Day Online 2026: Watch the Recordings</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/9f42eb15866e/</link>
-      <pubDate>Mon, 19 Oct 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/9f42eb15866e/</guid>
-      <description>
-        
-          
-            Every session from October 7 is now on YouTube. .NET Day Online 2026 took place on October 7. Thanks to everyone who watched the livestream and asked questions in the chat! If you missed a session, or want to watch one again, all of them are now online. Watch the full playlist Here’s a quick […]
-Worth a read for developers following .NET. Link to article: https://blog.jetbrains.com/dotnet/2026/10/19/jetbrains-dotnet-day-online-2026-watch-the-recordings 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Properties for a budgeting exercise</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/9bdcb25b4ec6/</link>
-      <pubDate>Mon, 19 Oct 2026 06:43:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/9bdcb25b4ec6/</guid>
-      <description>
-        
-          
-            Attempting to conjure good properties. Ever since I learned about property-based testing, I&#39;ve been fascinated by it. The notion of test data generators seem superior to Test Data Builders : Both require some degree of test-specific boilerplate code, but you get more bang for your bob with test data generators. Instead of hard-coding some (often arbitrary) constant value in a Test Data Builder, you define a range of…
-Worth a read for developers following Testing.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Wolverine passed 10 million downloads</title>
-      <link>https://www.dotnetramblings.com/post/19_10_2026/6aa2933acf98/</link>
-      <pubDate>Mon, 19 Oct 2026 01:12:33 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/19_10_2026/6aa2933acf98/</guid>
-      <description>
-        
-          
-            Right now things are a bit of a blur just because of the high rate of incoming GitHub traffic we get for the Critter Stack, with Wolverine being the most common recipient of new issues, community pull requests, and JasperFx client requests. It’s nice to occasionally take a minute and celebrate the project wins whenever … Continue reading Wolverine passed 10 million downloads →
-Worth a read for developers following General.
           
           
         

@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>How Deepgram optimized voice AI at scale with AWS Trainium | .NET Ramblings</title>
+<title>Read Your Writes with the Critter Stack | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. This post …">
+<meta name="description" content="The image isn’t completely related, but it’s more than a little funny that the Superfriends had a super computer with incredible AI capabilities in the 70’s but …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="How Deepgram optimized voice AI at scale with AWS Trainium">
-<meta name="twitter:description" content="Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. This post …">
-<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-21906-featured-image.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/19_10_2026/134c1a21491e/">
-<meta property="og:title" content="How Deepgram optimized voice AI at scale with AWS Trainium">
-<meta property="og:description" content="Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. This post …">
-<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-21906-featured-image.png">
+<meta name="twitter:title" content="Read Your Writes with the Critter Stack">
+<meta name="twitter:description" content="The image isn’t completely related, but it’s more than a little funny that the Superfriends had a super computer with incredible AI capabilities in the 70’s but …">
+<meta name="twitter:image" content="https://0.gravatar.com/avatar/c4ea4a7e0b4088fb62a4d5386566b6bd45df7b1d33100c49bb775fa6edfff6fa?s=96&amp;d=identicon&amp;r=G">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/26_10_2026/dd6aa12ca697/">
+<meta property="og:title" content="Read Your Writes with the Critter Stack">
+<meta property="og:description" content="The image isn’t completely related, but it’s more than a little funny that the Superfriends had a super computer with incredible AI capabilities in the 70’s but …">
+<meta property="og:image" content="https://0.gravatar.com/avatar/c4ea4a7e0b4088fb62a4d5386566b6bd45df7b1d33100c49bb775fa6edfff6fa?s=96&amp;d=identicon&amp;r=G">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium">
+<link rel="canonical" href="https://jeremydmiller.com/2026/10/26/read-your-writes-with-the-critter-stack">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,24 +146,23 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">How Deepgram optimized voice AI at scale with AWS Trainium</h1>
+    <h1 class="post_title">Read Your Writes with the Critter Stack</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Oct 19, 2026</span>
+      <span class="post_date">Oct 26, 2026</span>
       <span>
-          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
           <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
       </span>
   </div>
 
-    <div class="post_body"><p>Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. This post covers porting to the AWS Neuron stack, kernel-level tuning, a data-parallel Rust runtime, and the throughput and cost results on batch transcription.</p>
+    <div class="post_body"><p>The image isn’t completely related, but it’s more than a little funny that the Superfriends had a super computer with incredible AI capabilities in the 70’s but yet its interface was writing out ticker tape. And for any other Gen X kids out there who read this: “meanwhile, at the Hall of Justice…” JasperFx Software … Continue reading Read Your Writes with the Critter Stack →</p>
 <ul>
-<li>Worth a read for developers following AWS and AI.</li>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium">https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium</a></li>
+<li>Worth a read for developers following AI.</li>
+<li>Link to article: <a href="https://jeremydmiller.com/2026/10/26/read-your-writes-with-the-critter-stack">https://jeremydmiller.com/2026/10/26/read-your-writes-with-the-critter-stack</a></li>
 </ul>
 
     </div>
