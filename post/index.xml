@@ -7,7 +7,109 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 28 Oct 2026 13:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Oct 2026 20:22:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Bobcat Specifications</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2026/73f666ba5172/</link>
+      <pubDate>Wed, 28 Oct 2026 20:22:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2026/73f666ba5172/</guid>
+      <description>
+        
+          
+            Bobcat 1.0, the Critter Stack’s new tool for executable specifications (automated tests that are human readable for easier review) was released just yesterday. As I wrote about in the release post yesterday, Bobcat is the “spiritual” successor to a mostly forgotten OSS project of mine called Storyteller that was itself trying to be a better … Continue reading Building Bobcat Specifications →
+Worth a read for developers following General. Link to article: https://jeremydmiller.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building an Agentic AI Platform on Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2026/b8bfa4647f10/</link>
+      <pubDate>Wed, 28 Oct 2026 18:28:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2026/b8bfa4647f10/</guid>
+      <description>
+        
+          
+            Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through the architecture and an open-source reference blueprint: the operating model, control plane, per-Workstream cells, separate inference and tool gateways, and a CI/CD evaluation pipeline that gates each agent before production.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Distributed training with Ray Train DLCs and EFA on EKS</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2026/9118d22fa409/</link>
+      <pubDate>Wed, 28 Oct 2026 18:19:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2026/9118d22fa409/</guid>
+      <description>
+        
+          
+            The Ray Train Deep Learning Container ships the full CUDA-through-EFA stack, so you build no image. This post walks through a reproducible sample that fine-tunes Qwen2.5-1.5B with PyTorch FSDP across eight GPUs on two EFA-enabled g6.12xlarge instances on Amazon EKS, using the container exactly as published.
+Worth a read for developers following AWS and Containers. Link to article: https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2026/21f4761ac0bc/</link>
+      <pubDate>Wed, 28 Oct 2026 18:12:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2026/21f4761ac0bc/</guid>
+      <description>
+        
+          
+            As QA test automation spreads across an organization, organizing tests and controlling who owns them becomes the real work. Part 3 of the QA Studio series on Amazon Nova Act adds applications that organize tests and report health metrics, plus team-based user management that controls who can see and change what.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MongoDB BSON Mapping in C#: Typed Models and Immutable Records</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2026/ee569c1b2e94/</link>
+      <pubDate>Wed, 28 Oct 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2026/ee569c1b2e94/</guid>
+      <description>
+        
+          
+            Understand MongoDB BSON mapping in C# with explicit field names, immutable record creation, ID representations, and compatibility checks for stored documents.
+Worth a read for developers following .NET and Data. Link to article: https://www.devleader.ca/2026/10/28/mongodb-bson-mapping-in-c-typed-models-and-immutable-records 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI and ServiceNow expand partnership across enterprise workflows</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2026/75e2017ed4c5/</link>
+      <pubDate>Wed, 28 Oct 2026 13:15:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2026/75e2017ed4c5/</guid>
+      <description>
+        
+          
+            OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.
+Worth a read for developers following AI. Link to article: https://openai.com/index/openai-servicenow-partnership-expansion 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Win the Agentic Era, Together: Introducing the Docker Navigator Partner Program</title>
       <link>https://www.dotnetramblings.com/post/28_10_2026/2a3f88df807b/</link>
@@ -69,6 +171,23 @@ Worth a read for developers following General. Link to article: https://www.devl
           
             Microsoft&#39;s latest monthly security update addresses 1415 vulnerabilities across multiple products. One vulnerability affecting Windows Shell has been exploited in the wild, while 85 are classified as critical. Affected products include Windows OS, Office, Exchange, .NET, Edge, as well as potentially Hyper-V and Azure components. By Sergio De Simone
 Worth a read for developers following Security and .NET. Link to article: https://www.infoq.com/news/2026/10/microsoft-october-2026-patch 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The future of the firm</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2026/0dc3cf0b7c98/</link>
+      <pubDate>Wed, 28 Oct 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2026/0dc3cf0b7c98/</guid>
+      <description>
+        
+          
+            How AI might enter the org chart—beneath, beside, and between us.
+Worth a read for developers following AI. Link to article: https://openai.com/index/the-future-of-the-firm 
           
           
         
