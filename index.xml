@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 28 Oct 2026 20:22:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Oct 2026 22:30:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preparing for Your Next Certification Could Start with Your Visual Studio Subscription</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2026/80c283bd04bf/</link>
+      <pubDate>Wed, 28 Oct 2026 22:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2026/80c283bd04bf/</guid>
+      <description>
+        
+          
+            Are you thinking about earning a Microsoft certification to help advance your career, build on your existing skills, or meet new requirements at work? If so, you may already be wondering where to start. Which courses, labs, and hands-on exercises will help you prepare? How much time will it take to find the right resources, […] The post Preparing for Your Next Certification Could Start with Your Visual Studio…
+Worth a read for developers following Visual Studio.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Building Bobcat Specifications</title>
       <link>https://www.dotnetramblings.com/post/28_10_2026/73f666ba5172/</link>
@@ -70,6 +87,23 @@ Worth a read for developers following AWS and Containers. Link to article: https
           
             As QA test automation spreads across an organization, organizing tests and controlling who owns them becomes the real work. Part 3 of the QA Studio series on Amazon Nova Act adds applications that organize tests and report health metrics, plus team-based user management that controls who can see and change what.
 Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing the Microsoft Copilot harness in Foundry Agent Service</title>
+      <link>https://www.dotnetramblings.com/post/28_10_2026/6f03a38cbdd8/</link>
+      <pubDate>Wed, 28 Oct 2026 17:40:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_10_2026/6f03a38cbdd8/</guid>
+      <description>
+        
+          
+            Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview. The post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog .
+Worth a read for developers following AI and Azure. Link to article: https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry 
           
           
         
@@ -4205,40 +4239,6 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
     </item>
     
     <item>
-      <title>Securing Quick access from corporate networks with AWS PrivateLink</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/a8d953e36308/</link>
-      <pubDate>Wed, 21 Oct 2026 23:38:38 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/a8d953e36308/</guid>
-      <description>
-        
-          
-            Learn how to connect on-premises data sources to Amazon Quick privately with AWS PrivateLink, keeping analytics traffic off the public internet. This walkthrough covers VPC endpoints for user and API access, VPC connections for data sources, DNS and endpoint policies, identity federation, and enforcing VPC-endpoint-only access for compliance.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>5 production challenges in multi-agent systems and how Deep Insight solved them</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/833d3d328a66/</link>
-      <pubDate>Wed, 21 Oct 2026 23:36:47 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/833d3d328a66/</guid>
-      <description>
-        
-          
-            Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five production challenges (orchestration, per-agent model selection, reliable operation, secure code execution, and monitoring) and shows how Deep Insight, an open source multi-agent system on AWS, solves each.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Manifold AI: Getting Therapies to Patients Faster | AWS Startups</title>
       <link>https://www.dotnetramblings.com/videos/21_10_2026/8741515beb03/</link>
       <pubDate>Wed, 21 Oct 2026 21:33:47 +0000</pubDate>
@@ -4249,40 +4249,6 @@ Worth a read for developers following AI and AWS. Link to article: https://aws.a
           
             In this episode of Napkin to MVP, the founder and CEO of Manifold AI Vinay Seth Mohta, shares a mission that started as a ...
 Worth a watch for developers following AWS and AI. Link to video: https://www.youtube.com/watch?v=0MEVT3Dyel8 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Adaptive agentic intelligence framework using Strands Agents</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/d841fc8b370b/</link>
-      <pubDate>Wed, 21 Oct 2026 21:23:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/d841fc8b370b/</guid>
-      <description>
-        
-          
-            The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, handles routine tasks locally with small language models and routes complex requests to cloud models through Amazon Bedrock. This post walks through building AAIF with local SLMs through Ollama and Amazon Bedrock, using an Internet of Things monitoring scenario.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Broad access through consistent standards</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/2ed22a61b2f1/</link>
-      <pubDate>Wed, 21 Oct 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/2ed22a61b2f1/</guid>
-      <description>
-        
-          
-            How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.
-Worth a read for developers following AI. Link to article: https://openai.com/index/broad-access-through-consistent-standards 
           
           
         
@@ -4358,40 +4324,6 @@ Worth a watch for developers following AWS. Link to video: https://www.youtube.c
     </item>
     
     <item>
-      <title>.NET 11 and the Critter Stack</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/e5b245557431/</link>
-      <pubDate>Wed, 21 Oct 2026 20:07:41 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/e5b245557431/</guid>
-      <description>
-        
-          
-            Hey Critter Stack folks and JasperFx Software clients, absolutely none of this is set in stone and I’m mostly writing it to elucidate my own thinking, so call this the first pass. .NET 11 will be publicly available on November 10th. For all of my career as an OSS author, I’ve been deep into my … Continue reading .NET 11 and the Critter Stack →
-Worth a read for developers following .
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Train Qwen3 on AWS Trainium with torchtitan</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/ff2a2ed5c225/</link>
-      <pubDate>Wed, 21 Oct 2026 20:00:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/ff2a2ed5c225/</guid>
-      <description>
-        
-          
-            Train Qwen3 on AWS Trainium with torchtitan three ways on a single trn2.48xlarge: the Hugging Face Transformers v5 modeling backend, torchtitan&#39;s native Qwen3, and NKI mixture-of-experts kernels. The same torchrun launcher and config structure work unchanged across all three paths, including loading and saving published Hugging Face safetensors.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>AI Agents That Know Your Business (Option 1)</title>
       <link>https://www.dotnetramblings.com/videos/21_10_2026/1292743b85e5/</link>
       <pubDate>Wed, 21 Oct 2026 19:56:20 +0000</pubDate>
@@ -4426,23 +4358,6 @@ Worth a watch for developers following .NET and AI. Link to video: https://www.y
     </item>
     
     <item>
-      <title>How U.S. Hunger connects leaders and data using Amazon Quick</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/33738f7743b5/</link>
-      <pubDate>Wed, 21 Oct 2026 19:19:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/33738f7743b5/</guid>
-      <description>
-        
-          
-            U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>How to trust the code you ship</title>
       <link>https://www.dotnetramblings.com/videos/21_10_2026/62c6fb8a6533/</link>
       <pubDate>Wed, 21 Oct 2026 17:50:06 +0000</pubDate>
@@ -4469,23 +4384,6 @@ Worth a read for developers following AWS and AI. Link to article: https://aws.a
           
             The longer an agent runs, the more instructions and tool results pile into its context window, and the worse its reasoning tends to ...
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=Ud5RsBegyfw 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How AT&amp;T is rethinking in-house legal work with OpenAI</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/4ab93569e260/</link>
-      <pubDate>Wed, 21 Oct 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/4ab93569e260/</guid>
-      <description>
-        
-          
-            AT&amp;amp;T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.
-Worth a read for developers following AI. Link to article: https://openai.com/index/att-legal 
           
           
         
@@ -4527,23 +4425,6 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
     </item>
     
     <item>
-      <title>Your Agent Runs in a Docker Sandbox. Now It Can Join a Team.</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/ae9ac73da22c/</link>
-      <pubDate>Wed, 21 Oct 2026 16:10:49 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/ae9ac73da22c/</guid>
-      <description>
-        
-          
-            Run AI agents in Docker Sandboxes with BAND AI. Learn how to connect isolated agents, collaborate across environments, and manage access securely.
-Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/band-ai-agents-docker-sandboxes 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Mapping Cyber Attack Paths⚠️</title>
       <link>https://www.dotnetramblings.com/videos/21_10_2026/28af46402751/</link>
       <pubDate>Wed, 21 Oct 2026 16:00:35 +0000</pubDate>
@@ -4554,40 +4435,6 @@ Worth a read for developers following Containers and AI. Link to article: https:
           
             Patching isn&#39;t enough. Discover how AI maps attack paths to your most valuable data—and why understanding the route matters ...
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=2-KIcgIpCgw 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>From baseline to Secure Software Factory: securing the systems that build your software</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/04c29137687e/</link>
-      <pubDate>Wed, 21 Oct 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/04c29137687e/</guid>
-      <description>
-        
-          
-            In July, Docker, Snyk and Keycard published Agent Baseline, an open, vendor-neutral reference architecture that defines security outcomes for running AI agents in the enterprise. It grew out of conversations with industry leaders who want to adopt agents more broadly but need answers to three questions: What is operating, with what capabilities? Is it staying...
-Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/from-baseline-to-secure-software-factory-securing-the-systems-that-build-your-software 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Make a Bounded ASP.NET Core Change with Claude Code</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/119fb0b4a4c8/</link>
-      <pubDate>Wed, 21 Oct 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/119fb0b4a4c8/</guid>
-      <description>
-        
-          
-            Explore a bounded ASP.NET Core change with Claude Code: trace an endpoint, define input rules, preserve existing contracts, and review meaningful evidence.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/21/make-a-bounded-aspnet-core-change-with-claude-code 
           
           
         
@@ -4646,40 +4493,6 @@ Worth a watch for developers following AWS. Link to video: https://www.youtube.c
     </item>
     
     <item>
-      <title>How to Help Junior Developers Without Doing Their Work</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/fd4f2ba15b23/</link>
-      <pubDate>Wed, 21 Oct 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/fd4f2ba15b23/</guid>
-      <description>
-        
-          
-            Help junior developers through the problem in front of them by listening, clarifying expectations, and choosing guidance that keeps them actively involved.
-Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/21/how-to-help-junior-developers-without-doing-their-work 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Compare today’s code with an earlier commit</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/db743f70fbfd/</link>
-      <pubDate>Wed, 21 Oct 2026 14:00:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/db743f70fbfd/</guid>
-      <description>
-        
-          
-            Compare a historical commit with your working tree without checking out the commit or leaving your branch. The post Compare today’s code with an earlier commit appeared first on Visual Studio Blog .
-Worth a read for developers following Visual Studio. Link to article: https://devblogs.microsoft.com/visualstudio/compare-todays-code-with-an-earlier-commit 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>NDC Porto 2026 with @nickchapsas &amp; @gui.ferreira</title>
       <link>https://www.dotnetramblings.com/videos/21_10_2026/53ba0b2258f6/</link>
       <pubDate>Wed, 21 Oct 2026 13:02:39 +0000</pubDate>
@@ -4707,40 +4520,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
           
             Every Azure admin has tried AI and walked away unimpressed, because it was just a chatbot with no real connection to their ...
 Worth a watch for developers following AI and Azure. Link to video: https://www.youtube.com/watch?v=RKXN-surgmY 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/74fcf21eca7a/</link>
-      <pubDate>Wed, 21 Oct 2026 13:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/74fcf21eca7a/</guid>
-      <description>
-        
-          
-            From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.
-Worth a read for developers following AI. Link to article: https://openai.com/index/chatgpt-ads-expands-26-new-countries 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>OpenAI models are coming to Google Cloud</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/61f4d0141ff3/</link>
-      <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/61f4d0141ff3/</guid>
-      <description>
-        
-          
-            OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.
-Worth a read for developers following AI. Link to article: https://openai.com/index/openai-models-google-cloud 
           
           
         
@@ -4816,23 +4595,6 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
     </item>
     
     <item>
-      <title>Microsoft Previews dotnetup: Toolchain Manager for .NET SDKs and Runtimes</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/fb95545ec015/</link>
-      <pubDate>Wed, 21 Oct 2026 08:15:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/fb95545ec015/</guid>
-      <description>
-        
-          
-            Microsoft has released a public preview of dotnetup, a cross-platform toolchain manager that installs and updates .NET SDKs and runtimes in the user’s own directory without admin rights. It tracks channels such as latest, lts, preview, and daily, reads global.json, and removes unused installs. Commands may still change before general availability. By Almir Vuk
-Worth a read for developers following .NET and Architecture. Link to article: https://www.infoq.com/news/2026/10/dotnetup-preview 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>SQL Modernization Day</title>
       <link>https://www.dotnetramblings.com/videos/21_10_2026/8a58b66bc6e4/</link>
       <pubDate>Wed, 21 Oct 2026 08:10:18 +0000</pubDate>
@@ -4843,40 +4605,6 @@ Worth a read for developers following .NET and Architecture. Link to article: ht
           
             SQL Modernization Day brings together eight sessions from the Microsoft SQL team on moving SQL Server to Azure without the ...
 Worth a watch for developers following Data and Azure. Link to video: https://www.youtube.com/watch?v=MxwXGl-lpe0 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How we built ChatGPT’s novel ad stack for user trust and relevance</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/edef63b51aed/</link>
-      <pubDate>Wed, 21 Oct 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/edef63b51aed/</guid>
-      <description>
-        
-          
-            Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.
-Worth a read for developers following AI. Link to article: https://openai.com/index/building-chatgpt-ad-stack 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Patch the Planet: global response coordination as agents uncover critical vulnerabilities</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/d3f519557f32/</link>
-      <pubDate>Wed, 21 Oct 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/d3f519557f32/</guid>
-      <description>
-        
-          
-            Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.
-Worth a read for developers following AI and Security. Link to article: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities 
           
           
         
@@ -4911,23 +4639,6 @@ Worth a watch for developers following Architecture. Link to video: https://www.
           
             Ve más allá de las herramientas tradicionales de MCP y descubre cómo llevar el protocolo a nuevos escenarios. Explora MCP ...
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=dDE_iLNNBIA 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using thousands of AI agents to uncover new leads in biological data</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/1de8e62ff715/</link>
-      <pubDate>Wed, 21 Oct 2026 04:50:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/1de8e62ff715/</guid>
-      <description>
-        
-          
-            See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.
-Worth a read for developers following AI. Link to article: https://openai.com/index/scaling-ai-research-for-complex-biological-data 
           
           
         
@@ -5047,40 +4758,6 @@ Worth a watch for developers following AWS. Link to video: https://www.youtube.c
           
             En esta sesión aprenderemos a exportar, desempaquetar y almacenar soluciones de Power Platform en Azure Repos. También ...
 Worth a watch for developers following Azure. Link to video: https://www.youtube.com/watch?v=OAwAfZ47-zI 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Cloudflare links vulnerability discovery to defense with OpenAI</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/9201054eeb4c/</link>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/9201054eeb4c/</guid>
-      <description>
-        
-          
-            Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.
-Worth a read for developers following AI and Security. Link to article: https://openai.com/index/cloudflare-cyber 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Democratic governance of frontier AI, part II: Empowering cyber defenders</title>
-      <link>https://www.dotnetramblings.com/post/21_10_2026/b2deaf97c98c/</link>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/21_10_2026/b2deaf97c98c/</guid>
-      <description>
-        
-          
-            OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.
-Worth a read for developers following AI and Security. Link to article: https://openai.com/index/empowering-cyber-defenders 
           
           
         
