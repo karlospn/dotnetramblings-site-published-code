@@ -7,7 +7,209 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 29 Oct 2026 09:27:15 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Oct 2026 18:00:30 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Event Sourcing? Prefer the Decider over AggregateRoot</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/bb8695accdd5/</link>
+      <pubDate>Thu, 29 Oct 2026 18:00:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/bb8695accdd5/</guid>
+      <description>
+        
+          
+            Functional Composition. I noticed there’s a new book coming out next month on CQRS &amp;amp; Event Sourcing from a .NET perspective, so I was of course curious to look at their sample code. I was admittedly looking to see if the samples used Marten and the rest of the Critter Stack, but also to just … Continue reading Using Event Sourcing? Prefer the Decider over AggregateRoot →
+Worth a read for developers following Architecture and .
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Encapsulation in C#: Preserve Invariants Through Public Operations</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/2e52422f2ce6/</link>
+      <pubDate>Thu, 29 Oct 2026 18:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/2e52422f2ce6/</guid>
+      <description>
+        
+          
+            Understand encapsulation in C# with constructors, validation, and collection boundaries that preserve invariants without confusing read-only with immutable.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/29/encapsulation-in-c-preserve-invariants-through-public-operations 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>An updated Model Spec for more capable and beneficial AI</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/7bf0065ceb16/</link>
+      <pubDate>Thu, 29 Oct 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/7bf0065ceb16/</guid>
+      <description>
+        
+          
+            OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.
+Worth a read for developers following AI. Link to article: https://openai.com/index/updated-model-spec 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/aa702b033bfd/</link>
+      <pubDate>Thu, 29 Oct 2026 16:58:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/aa702b033bfd/</guid>
+      <description>
+        
+          
+            AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/3dcfe747ba6c/</link>
+      <pubDate>Thu, 29 Oct 2026 16:54:52 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/3dcfe747ba6c/</guid>
+      <description>
+        
+          
+            MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/415c05d3f517/</link>
+      <pubDate>Thu, 29 Oct 2026 16:11:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/415c05d3f517/</guid>
+      <description>
+        
+          
+            NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model that pairs reasoning and tool use with multimodal understanding. This post explores its architecture and use cases, then shows how to deploy it on Amazon EKS, EKS Auto Mode, and Amazon SageMaker HyperPod EKS with NVIDIA Dynamo and vLLM.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Blazor Welcomes Open-Source Contributions from Syncfusion</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/75bfb19d7a14/</link>
+      <pubDate>Thu, 29 Oct 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/75bfb19d7a14/</guid>
+      <description>
+        
+          
+            Microsoft and Syncfusion are collaborating on Blazor through a free, open-source component toolkit, framework contributions, and developer tooling. The post Blazor Welcomes Open-Source Contributions from Syncfusion appeared first on .NET Blog .
+Worth a read for developers following .NET. Link to article: https://devblogs.microsoft.com/dotnet/blazor-welcomes-syncfusion 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>When Support for Junior Engineers Takes Over Your Workday</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/f48c2d82d14c/</link>
+      <pubDate>Thu, 29 Oct 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/f48c2d82d14c/</guid>
+      <description>
+        
+          
+            Understand why support for junior engineers feels overwhelming, improve how you help, and discuss realistic capacity with your manager without blaming juniors.
+Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/29/when-support-for-junior-engineers-takes-over-your-workday 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From GDScript to GDExtensions: One IDE for Your Godot Code</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/c18c668bc5b3/</link>
+      <pubDate>Thu, 29 Oct 2026 13:00:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/c18c668bc5b3/</guid>
+      <description>
+        
+          
+            JetBrains has been a Platinum sponsor of the Godot Foundation since August 2025, and we’ve renewed our sponsorship into 2027. Over the past year, Rider has expanded its Godot support to cover GDScript, C#, and C++ GDExtensions in one place. It’s free for non-commercial use, including hobby projects, learning, open source, and content creation. At […]
+Worth a read for developers following .NET. Link to article: https://blog.jetbrains.com/dotnet/2026/10/29/from-gdscript-to-gdextensions-one-ide-for-your-godot-code 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Coding Agent Horror Stories: The CVE That Did Not Exist</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/4937bb769d43/</link>
+      <pubDate>Thu, 29 Oct 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/4937bb769d43/</guid>
+      <description>
+        
+          
+            An AI code review agent invented a CVE and recommended dangerous fixes. Learn how Docker Sandboxes contain agents and why their output needs verification.
+Worth a read for developers following AI and Containers. Link to article: https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>.NET 11 runtime async: the runtime takes over await</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/d98727f28d54/</link>
+      <pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/d98727f28d54/</guid>
+      <description>
+        
+          
+            Everything in this series so far has rested on one fact: async is a compiler rewrite. The compiler takes your method, moves the body into a generated state machine, and leaves behind a stub that starts it. .NET 11 changes that. The runtime suspends and resumes async methods itself, and the compiler stops generating state machines. Turning it on Runtime async is a preview feature in .NET 11, opted into per…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Some Ardalis Packages Are Going Commercial: What You Need to Know</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/d15ed1449222/</link>
+      <pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/d15ed1449222/</guid>
+      <description>
+        
+          
+            Yes, I know this will not be a shock to many of you. I’m certainly not the first open source maintainer to take this step. I apologize in advance for the pain/work this will cause some of you - I’m doing my best to minimize that. I appreciate all of you who have contributed to these projects in many ways. I mean that - there have been hundreds of contributions in the form of issues opened, PRs filed, people leaving…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Create your first agent team with Orkeon Studio</title>
       <link>https://www.dotnetramblings.com/post/29_10_2026/9581365a869b/</link>
@@ -19,6 +221,40 @@
           
             You hear about AI agents everywhere, but in practice the tools often ask you to write YAML, open a terminal or understand an architecture. And most agentic tools live on the command line, under Linux or macOS. This one runs on Windows ❤️. Orkeon Studio tackles the problem from
 Worth a read for developers following AI and Architecture. Link to article: https://goatreview.com/create-your-first-agent-team-with-orkeon-studio 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How we detect frontier model misalignment</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/d28967fce9c6/</link>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/d28967fce9c6/</guid>
+      <description>
+        
+          
+            OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.
+Worth a read for developers following AI. Link to article: https://openai.com/index/how-we-detect-frontier-model-misalignment 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Ropes &amp; Gray is developing AI for transactional diligence</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/2d9928289658/</link>
+      <pubDate>Thu, 29 Oct 2026 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/2d9928289658/</guid>
+      <description>
+        
+          
+            Ropes &amp;amp; Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.
+Worth a read for developers following AI. Link to article: https://openai.com/index/ropes-gray-ai-diligence 
           
           
         
