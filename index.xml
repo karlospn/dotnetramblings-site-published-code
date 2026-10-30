@@ -7,7 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 11:00:33 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Oct 2026 17:27:45 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)</title>
+      <link>https://www.dotnetramblings.com/post/30_10_2026/cabe8a08dfb8/</link>
+      <pubDate>Fri, 30 Oct 2026 17:27:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_10_2026/cabe8a08dfb8/</guid>
+      <description>
+        
+          
+            The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). This post walks through a controlled local deployment that routes model inference to Amazon Bedrock in AWS GovCloud (US-West) using API-mode sign-in, a managed device policy, a named AWS profile, and network restrictions, so a security team can validate it before broader use.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Create a Reusable Claude Code Skill for a .NET Workflow</title>
+      <link>https://www.dotnetramblings.com/post/30_10_2026/28357dc872a7/</link>
+      <pubDate>Fri, 30 Oct 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_10_2026/28357dc872a7/</guid>
+      <description>
+        
+          
+            Create a reusable Claude Code skill for .NET change review, with project-scoped instructions, explicit invocation, useful evidence, and clear workflow limits.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/30/create-a-reusable-claude-code-skill-for-a-net-workflow 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Compromised eMudhra Certificates: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gateway Now</title>
+      <link>https://www.dotnetramblings.com/post/30_10_2026/f461e66c2125/</link>
+      <pubDate>Fri, 30 Oct 2026 15:24:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_10_2026/f461e66c2125/</guid>
+      <description>
+        
+          
+            Summary Available fixed versions The issue is fixed in the following versions: The 2025.2.6.* updates for all IDEs now contain only the JBR fix. They will get a separate hotfix for the JCEF problem. Until then, use a workaround to disable JCEF in your IDE (see instructions below). IDE versions 2025.1 and earlier, and Toolbox […]
+Worth a read for developers following .NET. Link to article: https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The 50/50 problem with voice AI nobody is talking about #Shorts</title>
       <link>https://www.dotnetramblings.com/videos/30_10_2026/a540a9b040cf/</link>
@@ -104,6 +155,23 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
           
             Not sure where to start? Junie has you covered. Try JetBrains Air with Junie Lite in Rider, free for now with your JetBrains ...
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=P0mkJY4DIzo 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Community safety report and new protections for teens</title>
+      <link>https://www.dotnetramblings.com/post/30_10_2026/c7606af40dbb/</link>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_10_2026/c7606af40dbb/</guid>
+      <description>
+        
+          
+            OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.
+Worth a read for developers following AI. Link to article: https://openai.com/index/community-safety-report-and-new-protections-for-teens 
           
           
         
@@ -478,6 +546,23 @@ Worth a read for developers following AWS and AI. Link to article: https://aws.a
           
             Database Agents in Microsoft Fabric help DBAs detect performance issues before users complain. Learn how proactive database ...
 Worth a watch for developers following AI and Data. Link to video: https://www.youtube.com/watch?v=KGhCcTWy-Ew 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/9e0baf15d40d/</link>
+      <pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/9e0baf15d40d/</guid>
+      <description>
+        
+          
+            Security, compliance, and operations teams can use this hardware-originated evidence for monitoring, compliance reporting, and forensic investigations. The post Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance appeared first on Microsoft Azure Blog .
+Worth a read for developers following Azure and Security. Link to article: https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance 
           
           
         
