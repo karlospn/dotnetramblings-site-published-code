@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI | .NET Ramblings</title>
+<title>Building intent-driven UI testing with Amazon Nova Act | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Voice agents often wait for an agent&amp;#39;s full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each …">
+<meta name="description" content="Epsilon&amp;#39;s Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI">
-<meta name="twitter:description" content="Voice agents often wait for an agent&amp;#39;s full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each …">
-<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21706-featured-image.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/22_10_2026/2e13c1358e10/">
-<meta property="og:title" content="Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI">
-<meta property="og:description" content="Voice agents often wait for an agent&amp;#39;s full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each …">
-<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21706-featured-image.png">
+<meta name="twitter:title" content="Building intent-driven UI testing with Amazon Nova Act">
+<meta name="twitter:description" content="Epsilon&amp;#39;s Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests …">
+<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/22/ML-21285-featured-image.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/29_10_2026/1fcf22f867e2/">
+<meta property="og:title" content="Building intent-driven UI testing with Amazon Nova Act">
+<meta property="og:description" content="Epsilon&amp;#39;s Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests …">
+<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/22/ML-21285-featured-image.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai">
+<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,24 +146,25 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI</h1>
+    <h1 class="post_title">Building intent-driven UI testing with Amazon Nova Act</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Oct 22, 2026</span>
+      <span class="post_date">Oct 29, 2026</span>
       <span>
           <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
+          <a href="https://www.dotnetramblings.com/topics/testing/" title="Testing" class="post_tag button button_translucent">Testing</a>
           <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
       </span>
   </div>
 
-    <div class="post_body"><p>Voice agents often wait for an agent's full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each sentence to a Kokoro-82M text-to-speech model on Amazon SageMaker AI as the agent produces it, and how to get that audio back to a browser over Server-Sent Events or a unified binary transport.</p>
+    <div class="post_body"><p>Epsilon's Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-team infrastructure overhead.</p>
 <ul>
-<li>Worth a read for developers following AWS and AI.</li>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai">https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai</a></li>
+<li>Worth a read for developers following AWS and Testing.</li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act">https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act</a></li>
 </ul>
 
     </div>

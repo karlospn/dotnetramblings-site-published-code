@@ -7,7 +7,75 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 29 Oct 2026 18:00:30 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Oct 2026 21:20:52 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convert cloud-native code from Azure to AWS with AWS Transform</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/bb9234bc39b3/</link>
+      <pubDate>Thu, 29 Oct 2026 21:20:52 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/bb9234bc39b3/</guid>
+      <description>
+        
+          
+            Introduction When you bring a cloud-native application over to AWS from another cloud, it may contain code that uses another cloud’s SDK. AWS Transform for .NET can convert code from Azure cloud-native applications to use equivalent services from AWS, helping accelerate the migration. In this post, we’ll take you on a tour of converting Azure […]
+Worth a read for developers following Azure and AWS. Link to article: https://aws.amazon.com/blogs/dotnet/convert-cloud-native-code-from-azure-to-aws-with-aws-transform 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How the UK Amazon Quick User Group grew in 2026</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/3fa519422b2c/</link>
+      <pubDate>Thu, 29 Oct 2026 20:16:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/3fa519422b2c/</guid>
+      <description>
+        
+          
+            The UK Amazon Quick User Group&#39;s 2026 roundup: three quarterly meetups, 150+ attendees, and customer stories from Arriva, Carsa, and Propulse Lab on using agentic AI and Amazon Quick to turn data into faster decisions, higher satisfaction, and scalable growth.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building intent-driven UI testing with Amazon Nova Act</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/1fcf22f867e2/</link>
+      <pubDate>Thu, 29 Oct 2026 18:20:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/1fcf22f867e2/</guid>
+      <description>
+        
+          
+            Epsilon&#39;s Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-team infrastructure overhead.
+Worth a read for developers following AWS and Testing. Link to article: https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a repeatable PHP-to-Java migration engine with Kiro</title>
+      <link>https://www.dotnetramblings.com/post/29_10_2026/983901472b07/</link>
+      <pubDate>Thu, 29 Oct 2026 18:14:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/29_10_2026/983901472b07/</guid>
+      <description>
+        
+          
+            Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies the Java port with a parity harness.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Using Event Sourcing? Prefer the Decider over AggregateRoot</title>
       <link>https://www.dotnetramblings.com/post/29_10_2026/bb8695accdd5/</link>
@@ -1425,278 +1493,6 @@ Worth a read for developers following .NET and Data. Link to article: https://ww
           
             OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.
 Worth a read for developers following AI and Security. Link to article: https://openai.com/index/openai-nask-ai-safety-security-partnership 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build more responsive apps with the Decisions API</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/27825e300358/</link>
-      <pubDate>Thu, 22 Oct 2026 19:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/27825e300358/</guid>
-      <description>
-        
-          
-            Fast, focused, low-cost decisions for any application.
-Worth a read for developers following AI. Link to article: https://openai.com/index/decisions-api 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Amazon Polly delivers a major upgrade to its Generative engine</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/ad44bdcab03f/</link>
-      <pubDate>Thu, 22 Oct 2026 18:06:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/ad44bdcab03f/</guid>
-      <description>
-        
-          
-            The Amazon Polly Generative engine gets a major upgrade: more expressive, more accurate speech with low latency, plus 14 new voices across 9 locales and general availability of Hindi and Finnish. This drop-in upgrade requires no code changes and is now generally available in production.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How IskayPet unified corporate knowledge with Amazon Bedrock Managed Knowledge Bases</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/762687ac4e57/</link>
-      <pubDate>Thu, 22 Oct 2026 18:01:53 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/762687ac4e57/</guid>
-      <description>
-        
-          
-            Learn how IskayPet, a leading pet care company in Iberia, built a multilingual corporate knowledge assistant on Amazon Bedrock Managed Knowledge Bases. The assistant answers employee questions across retail, veterinary, onboarding, and procurement in four languages and three countries, with no RAG infrastructure to manage.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing new ways to customize models with SageMaker AI, without managing GPUs</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/418ae447f600/</link>
-      <pubDate>Thu, 22 Oct 2026 18:00:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/418ae447f600/</guid>
-      <description>
-        
-          
-            Amazon SageMaker AI serverless model customization now includes training sessions, generally available today. You write and coordinate your own post-training loop (custom loss functions, reward signals, or multi-turn reinforcement learning) while SageMaker AI handles GPU allocation, distributed execution, fault recovery, and checkpoint storage.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/f5b85121619c/</link>
-      <pubDate>Thu, 22 Oct 2026 18:00:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/f5b85121619c/</guid>
-      <description>
-        
-          
-            Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then walks through a GRPO loop on GSM8K and a reinforcement learning workload on competitive programming.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deploy AI in a HIPAA-eligible environment with Amazon Quick</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/1fc68e0e835e/</link>
-      <pubDate>Thu, 22 Oct 2026 17:48:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/1fc68e0e835e/</guid>
-      <description>
-        
-          
-            Amazon Quick is a HIPAA-eligible service, but eligibility is not the same as compliance. This post explains who HIPAA applies to, how PHI flows through Amazon Quick, what the platform provides for regulated environments, and a step-by-step guide to deploying compliant AI agents in a healthcare environment.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/2e13c1358e10/</link>
-      <pubDate>Thu, 22 Oct 2026 17:45:58 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/2e13c1358e10/</guid>
-      <description>
-        
-          
-            Voice agents often wait for an agent&#39;s full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each sentence to a Kokoro-82M text-to-speech model on Amazon SageMaker AI as the agent produces it, and how to get that audio back to a browser over Server-Sent Events or a unified binary transport.
-Worth a read for developers following AWS and AI. Link to article: https://aws.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Security Update on PHP2Shell: Impact for Docker Customers</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/efd8de82d610/</link>
-      <pubDate>Thu, 22 Oct 2026 17:22:47 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/efd8de82d610/</guid>
-      <description>
-        
-          
-            On Tuesday, October 20, 2026, Docker began tracking two critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619, commonly known as PHP2Shell.
-Worth a read for developers following Containers and Security. Link to article: https://www.docker.com/blog/security-update-on-php2shell-impact-for-docker-customers 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Stop guessing auto scaling targets for TTS on Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/251516e27a00/</link>
-      <pubDate>Thu, 22 Oct 2026 16:30:06 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/251516e27a00/</guid>
-      <description>
-        
-          
-            Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling policy from two live-endpoint measurements, Q_max and T_total, instead of guesswork.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Rescale built an AI triage agent with Strands Agents and AI-DLC</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/01f69b83a34a/</link>
-      <pubDate>Thu, 22 Oct 2026 16:25:57 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/01f69b83a34a/</guid>
-      <description>
-        
-          
-            Rescale used the AI-Driven Development Lifecycle (AI-DLC) framework on AWS, with Strands Agents and Amazon Bedrock, to build an intelligent test-triage agent in weeks. Learn how AI-DLC structures AI-assisted development and how Rescale is scaling the practice across its engineering organization.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Are You Getting Everything You Can from Your Visual Studio Subscription?</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/87f52de41ee7/</link>
-      <pubDate>Thu, 22 Oct 2026 14:00:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/87f52de41ee7/</guid>
-      <description>
-        
-          
-            What if you could experiment with a new Azure service without requesting additional budget, prepare for your next technical certification using learning resources you already have, or build a dashboard without creating every UI component from scratch? If you’re a Visual Studio subscriber, you may already have benefits that can help you do all three. Here’s […] The post Are You Getting Everything You Can from Your…
-Worth a read for developers following Visual Studio and Azure.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Sharing Information Without Overloading Engineers</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/7f8ba6b0d55a/</link>
-      <pubDate>Thu, 22 Oct 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/7f8ba6b0d55a/</guid>
-      <description>
-        
-          
-            Share information without overwhelming engineers: make context accessible, explain changes, and distinguish useful transparency from repeated interruption.
-Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/22/sharing-information-without-overloading-engineers 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How to Raise a Difficult Issue in a One-on-One</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/76b9ae1b7298/</link>
-      <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/76b9ae1b7298/</guid>
-      <description>
-        
-          
-            Navigate difficult conversations with your manager: explain the impact, clarify the support you need, and agree on next steps without having every answer.
-Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/22/how-to-raise-a-difficult-issue-in-a-oneonone 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ActiveState Partners with Docker to Secure the Open Source in Enterprise Containers</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/b20b9c261d23/</link>
-      <pubDate>Thu, 22 Oct 2026 11:30:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/b20b9c261d23/</guid>
-      <description>
-        
-          
-            Container security spans the image, build, and runtime. See the practical steps that shrink your attack surface and keep vulnerabilities out of production.
-Worth a read for developers following Containers and Security. Link to article: https://www.docker.com/blog/docker-activestate-partnership 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What FDE means at OpenAI</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/63c31ca523f9/</link>
-      <pubDate>Thu, 22 Oct 2026 06:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/63c31ca523f9/</guid>
-      <description>
-        
-          
-            What forward deployed engineering means at OpenAI
-Worth a read for developers following AI. Link to article: https://openai.com/index/forward-deployed-engineering-means 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Uber brings ChatGPT Work to all employees with OpenAI</title>
-      <link>https://www.dotnetramblings.com/post/22_10_2026/ba6fa07d677a/</link>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/22_10_2026/ba6fa07d677a/</guid>
-      <description>
-        
-          
-            Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.
-Worth a read for developers following AI. Link to article: https://openai.com/index/uber-chatgpt-work-rollout 
           
           
         
