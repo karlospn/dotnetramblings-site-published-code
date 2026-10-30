@@ -7,7 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 17:27:45 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Oct 2026 21:40:03 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime</title>
+      <link>https://www.dotnetramblings.com/post/30_10_2026/391b23f56ce3/</link>
+      <pubDate>Fri, 30 Oct 2026 21:40:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_10_2026/391b23f56ce3/</guid>
+      <description>
+        
+          
+            Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the live site update in your browser as the agent edits files.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Events and Delegates in C#: Contracts, Subscriptions, and Notification</title>
+      <link>https://www.dotnetramblings.com/post/30_10_2026/84e0e8e11bac/</link>
+      <pubDate>Fri, 30 Oct 2026 18:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_10_2026/84e0e8e11bac/</guid>
+      <description>
+        
+          
+            Understand events and delegates in C# through practical examples covering notification contracts, subscriptions, multicast calls, failures, and lifetime.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/30/events-and-delegates-in-c-contracts-subscriptions-and-notification 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Worldwide Express automated freight exceptions with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/30_10_2026/44854634469c/</link>
+      <pubDate>Fri, 30 Oct 2026 17:32:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_10_2026/44854634469c/</guid>
+      <description>
+        
+          
+            Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)</title>
       <link>https://www.dotnetramblings.com/post/30_10_2026/cabe8a08dfb8/</link>
@@ -53,6 +104,23 @@ Worth a read for developers following .NET. Link to article: https://www.devlead
           
             Summary Available fixed versions The issue is fixed in the following versions: The 2025.2.6.* updates for all IDEs now contain only the JBR fix. They will get a separate hotfix for the JCEF problem. Until then, use a workaround to disable JCEF in your IDE (see instructions below). IDE versions 2025.1 and earlier, and Toolbox […]
 Worth a read for developers following .NET. Link to article: https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Making it easier for websites to express AI training preferences</title>
+      <link>https://www.dotnetramblings.com/post/30_10_2026/25cc4c9bb2e3/</link>
+      <pubDate>Fri, 30 Oct 2026 09:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_10_2026/25cc4c9bb2e3/</guid>
+      <description>
+        
+          
+            OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.
+Worth a read for developers following AI. Link to article: https://openai.com/index/helping-websites-express-ai-training-preferences 
           
           
         
