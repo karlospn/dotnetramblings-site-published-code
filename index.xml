@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 21:40:03 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Turned Off CI for Pull Requests. Here&#39;s Why</title>
+      <link>https://www.dotnetramblings.com/post/31_10_2026/033264f38ae2/</link>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/31_10_2026/033264f38ae2/</guid>
+      <description>
+        
+          
+            My pull requests haven&#39;t run GitHub Actions since June. The build and tests run on my machine, and a signoff commit status posted by Basecamp&#39;s gh-signoff…
+Worth a read for developers following .NET and DevOps. Link to article: https://milanjovanovic.tech/blog/i-turned-off-ci-for-pull-requests 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams</title>
+      <link>https://www.dotnetramblings.com/post/30_10_2026/feb912e225e8/</link>
+      <pubDate>Fri, 30 Oct 2026 22:42:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_10_2026/feb912e225e8/</guid>
+      <description>
+        
+          
+            This post presents a five-stage operating model for managing Amazon Bedrock cost: attribute every dollar to an owner, make every request observable, enforce budgets, optimize platform defaults, and operate a review cadence. Written for FinOps and platform engineering teams.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime</title>
       <link>https://www.dotnetramblings.com/post/30_10_2026/391b23f56ce3/</link>
@@ -325,6 +359,23 @@ Worth a watch for developers following Security. Link to video: https://www.yout
           
             Block&#39;s Dessa speech model uses pauses, laughter and imperfect delivery to sound remarkably human. Its full-duplex system can ...
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=OSd2HW1xbZY 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fair use benefits everyone</title>
+      <link>https://www.dotnetramblings.com/post/30_10_2026/d2282bcce162/</link>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/30_10_2026/d2282bcce162/</guid>
+      <description>
+        
+          
+            OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.
+Worth a read for developers following AI. Link to article: https://openai.com/index/fair-use-benefits-everyone 
           
           
         
@@ -3931,23 +3982,6 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
     </item>
     
     <item>
-      <title>Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide</title>
-      <link>https://www.dotnetramblings.com/post/23_10_2026/95364ce77079/</link>
-      <pubDate>Fri, 23 Oct 2026 17:48:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_10_2026/95364ce77079/</guid>
-      <description>
-        
-          
-            Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>AI Home Security Threat</title>
       <link>https://www.dotnetramblings.com/videos/23_10_2026/b505a0356739/</link>
       <pubDate>Fri, 23 Oct 2026 17:00:06 +0000</pubDate>
@@ -3965,40 +3999,6 @@ Worth a watch for developers following AI and Security. Link to video: https://w
     </item>
     
     <item>
-      <title>MongoClient in ASP.NET Core: Lifetime and Resource Ownership</title>
-      <link>https://www.dotnetramblings.com/post/23_10_2026/2b61d1f04aab/</link>
-      <pubDate>Fri, 23 Oct 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_10_2026/2b61d1f04aab/</guid>
-      <description>
-        
-          
-            Learn MongoClient in ASP.NET Core with explicit configuration, singleton reuse, borrowed collection handles, and version-aware cluster ownership at shutdown.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/23/mongoclient-in-aspnet-core-lifetime-and-resource-ownership 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
-      <link>https://www.dotnetramblings.com/post/23_10_2026/298c8de07d18/</link>
-      <pubDate>Fri, 23 Oct 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_10_2026/298c8de07d18/</guid>
-      <description>
-        
-          
-            Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.
-Worth a read for developers following AI and Azure. Link to article: https://openai.com/index/scaling-storage-one-billion-users-part-two 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Fabric IQ in Action: Ask, Understand, Act</title>
       <link>https://www.dotnetramblings.com/videos/23_10_2026/ac14134dad12/</link>
       <pubDate>Fri, 23 Oct 2026 16:44:11 +0000</pubDate>
@@ -4009,57 +4009,6 @@ Worth a read for developers following AI and Azure. Link to article: https://ope
           
             Let&#39;s put Fabric IQ to work on a real business question. We&#39;ll look at how it uses context to produce a grounded answer, how ...
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=k3ubIn_RF-4 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Orchestrating SageMaker AI endpoint auto scaling with AWS CDK</title>
-      <link>https://www.dotnetramblings.com/post/23_10_2026/c764dbeb21a3/</link>
-      <pubDate>Fri, 23 Oct 2026 16:30:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_10_2026/c764dbeb21a3/</guid>
-      <description>
-        
-          
-            Updating a SageMaker AI endpoint that has Application Auto Scaling registered makes AWS CloudFormation and AWS CDK deployments fail. This post shows how to build a reusable AWS CDK construct with CloudFormation custom resources that deregisters and re-registers auto scaling automatically, so you can update the endpoint and its scaling in a single deployment.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps</title>
-      <link>https://www.dotnetramblings.com/post/23_10_2026/d543a8c81922/</link>
-      <pubDate>Fri, 23 Oct 2026 16:24:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_10_2026/d543a8c81922/</guid>
-      <description>
-        
-          
-            Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations</title>
-      <link>https://www.dotnetramblings.com/post/23_10_2026/7f0dec178da3/</link>
-      <pubDate>Fri, 23 Oct 2026 16:21:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_10_2026/7f0dec178da3/</guid>
-      <description>
-        
-          
-            Bayer Crop Science built the Agentic Decision Engine (ADE), a multi-agent platform on Amazon Bedrock AgentCore that lets breeders, analysts, and researchers ask natural language questions about their analytics platform. This post covers the ADE architecture, five design decisions, and how the team prepared it for production with AWS Unified Operations.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations 
           
           
         
@@ -4169,40 +4118,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
     </item>
     
     <item>
-      <title>JetBrains GameDev Day 2026: Watch the Recordings</title>
-      <link>https://www.dotnetramblings.com/post/23_10_2026/71ac3ee6aa49/</link>
-      <pubDate>Fri, 23 Oct 2026 15:04:27 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_10_2026/71ac3ee6aa49/</guid>
-      <description>
-        
-          
-            Missed JetBrains GameDev Day 2026, or want to revisit your favorite sessions? All the recordings are now available on YouTube! On September 28, we brought together game developers, engineers, and industry experts for a full day of technical talks, live demos, and discussions about the tools and challenges shaping modern game development. From Epic’s open-source […]
-Worth a read for developers following .NET. Link to article: https://blog.jetbrains.com/dotnet/2026/10/23/jetbrains-gamedev-day-2026-watch-the-recordings 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Helping a Mentee Choose a Development Focus</title>
-      <link>https://www.dotnetramblings.com/post/23_10_2026/603aacb09fae/</link>
-      <pubDate>Fri, 23 Oct 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_10_2026/603aacb09fae/</guid>
-      <description>
-        
-          
-            Help a mentee choose a development focus by exploring interests, everyday friction, and useful opportunities without forcing a goal or a larger career plan.
-Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/23/helping-a-mentee-choose-a-development-focus 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>What the Heck Is Fabric IQ?</title>
       <link>https://www.dotnetramblings.com/videos/23_10_2026/0759b619797d/</link>
       <pubDate>Fri, 23 Oct 2026 14:29:40 +0000</pubDate>
@@ -4237,23 +4152,6 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
     </item>
     
     <item>
-      <title>Securing our frontier model training environment</title>
-      <link>https://www.dotnetramblings.com/post/23_10_2026/48e2274fdf2b/</link>
-      <pubDate>Fri, 23 Oct 2026 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_10_2026/48e2274fdf2b/</guid>
-      <description>
-        
-          
-            OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.
-Worth a read for developers following AI. Link to article: https://openai.com/index/securing-our-frontier-model-training-environment 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Episódio 4: Agentes de IA – Da Assistência à Colaboração Autônoma</title>
       <link>https://www.dotnetramblings.com/videos/23_10_2026/20de84680a50/</link>
       <pubDate>Fri, 23 Oct 2026 08:58:49 +0000</pubDate>
@@ -4264,23 +4162,6 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
           
             Explore a próxima evolução da IA por meio de agentes inteligentes capazes de raciocinar, planejar, automatizar e colaborar com ...
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=Gr6A1100ZwU 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Techorama (NL) 2026</title>
-      <link>https://www.dotnetramblings.com/post/23_10_2026/2b46527e7a96/</link>
-      <pubDate>Fri, 23 Oct 2026 08:58:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_10_2026/2b46527e7a96/</guid>
-      <description>
-        
-          
-            Next week Techorama in Utrecht is going to happen. The medieval edition in Belgium was fun and I’m looking forward to it again in Netherlands. I was lucky and 2 of my sessions were selected.
-Worth a read for developers following .NET and Data. Link to article: https://www.tabsoverspaces.com/233979-techorama-nl-2026 
           
           
         
@@ -4400,23 +4281,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
           
             What if AI agents could handle 40% of your Scrum Master busywork, leaving you more time to focus on your team? Contact us: ...
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=JQuiP0hvlrs 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
-      <link>https://www.dotnetramblings.com/post/23_10_2026/15c1f8ef7a58/</link>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/23_10_2026/15c1f8ef7a58/</guid>
-      <description>
-        
-          
-            OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.
-Worth a read for developers following AI and Security. Link to article: https://openai.com/index/openai-nask-ai-safety-security-partnership 
           
           
         
