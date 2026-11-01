@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 31 Oct 2026 17:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2026 06:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binary and JSON Compression in .NET: Brotli vs. LZ4</title>
+      <link>https://www.dotnetramblings.com/post/01_11_2026/af482eaba667/</link>
+      <pubDate>Sun, 01 Nov 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/01_11_2026/af482eaba667/</guid>
+      <description>
+        
+          
+            Choosing the right compression algorithm in .NET involves more than simply selecting the option that produces the smallest payload. Compression speed, decompression time, memory allocations, data format, and network conditions can all affect overall application performance. This article compares Brotli and LZ4 across binary and JSON workloads, explores how their compression levels behave, and explains the trade-offs…
+Worth a read for developers following .NET. Link to article: https://dotnettips.com/2026/11/01/binary-and-json-compression-in-net-brotli-vs-lz4 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Collection Return Types in C#: Interfaces, Views, and Snapshots</title>
       <link>https://www.dotnetramblings.com/post/31_10_2026/101d058e591f/</link>
