@@ -7,7 +7,92 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 02 Nov 2026 16:00:14 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2026 18:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delegates in C#: Action, Func, and Multicast Call Contracts</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/8b58416ac6ff/</link>
+      <pubDate>Mon, 02 Nov 2026 18:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/8b58416ac6ff/</guid>
+      <description>
+        
+          
+            Learn delegates in C# with complete Action, Func, and multicast examples, including compatible methods, captured targets, return values, and exceptions.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/02/delegates-in-c-action-func-and-multicast-call-contracts 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/195c284d0de5/</link>
+      <pubDate>Mon, 02 Nov 2026 17:11:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/195c284d0de5/</guid>
+      <description>
+        
+          
+            This post shows how to use Crawl4AI, an open source web crawler, as a content preparation layer for Amazon Bedrock Knowledge Bases, handling JavaScript rendering, selective extraction, and custom metadata enrichment before web content reaches an Amazon S3 data source.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build efficient agents with knowledge distillation on Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/80e2565f9f27/</link>
+      <pubDate>Mon, 02 Nov 2026 17:01:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/80e2565f9f27/</guid>
+      <description>
+        
+          
+            Agentic assistants built on frontier models run a multi-step tool loop, and paying frontier prices on every step is hard to sustain at production scale. This post shows how to use sequence-level knowledge distillation (SeqKD) to transfer a frontier teacher&#39;s agentic behavior into a small, lower-cost student on Amazon SageMaker AI.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/3e4765c6fd3b/</link>
+      <pubDate>Mon, 02 Nov 2026 17:01:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/3e4765c6fd3b/</guid>
+      <description>
+        
+          
+            Learn how to build a multi-agent engineering assistant that compresses aerospace component substitution evaluation from days to minutes, using Amazon Nova Multimodal Embeddings, Amazon Bedrock AgentCore, and the Strands Agents SDK to assemble substitution evidence while keeping the engineer as the decision-maker.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/7a5a1669ffe7/</link>
+      <pubDate>Mon, 02 Nov 2026 17:00:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/7a5a1669ffe7/</guid>
+      <description>
+        
+          
+            Circle K&#39;s DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system on Amazon Bedrock. This post walks through the architecture, the initial Amazon Bedrock Flows implementation, the migration to Amazon Bedrock AgentCore, and the lessons learned from scaling it.
+Worth a read for developers following AWS and DevOps. Link to article: https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build an AI agent without leaving VS Code!</title>
       <link>https://www.dotnetramblings.com/videos/02_11_2026/b590ec6091b7/</link>
@@ -26,6 +111,23 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
     </item>
     
     <item>
+      <title>Use Claude Code Hooks for Targeted .NET Verification</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/039968426c5d/</link>
+      <pubDate>Mon, 02 Nov 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/039968426c5d/</guid>
+      <description>
+        
+          
+            Understand Claude Code hooks for targeted .NET verification, with actual event schemas, stdin handling, exit behavior, selective checks, and clear CI limits.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/02/use-claude-code-hooks-for-targeted-net-verification 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Biz IQ Demo: Turn Microsoft Fabric Data into Action | Valorem Reply</title>
       <link>https://www.dotnetramblings.com/videos/02_11_2026/b90e735563fd/</link>
       <pubDate>Mon, 02 Nov 2026 15:00:08 +0000</pubDate>
@@ -36,6 +138,57 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
           
             Jamie Burgess of Valorem Reply demonstrates Biz IQ, a hybrid-intelligence solution designed to help organizations turn complex ...
 Worth a watch for developers following Azure. Link to video: https://www.youtube.com/watch?v=XeaNUL0eSPo 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing the Grid Protectors Program</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/19244c7aa206/</link>
+      <pubDate>Mon, 02 Nov 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/19244c7aa206/</guid>
+      <description>
+        
+          
+            OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.
+Worth a read for developers following AI. Link to article: https://openai.com/index/grid-protectors-program 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Ecosystem is the Answer: Docker, the Blueprint Alliance, and the Importance of Collaboration in the Agentic Era</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/7c6b46d680c8/</link>
+      <pubDate>Mon, 02 Nov 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/7c6b46d680c8/</guid>
+      <description>
+        
+          
+            Docker is a founding member of the Blueprint Alliance, a 12-company reference architecture for securing AI agents, built around four governance questions.
+Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/docker-blueprint-alliance-agent-baseline 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Where should your code live in a Docker Sandbox?</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/a29a9b961650/</link>
+      <pubDate>Mon, 02 Nov 2026 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/a29a9b961650/</guid>
+      <description>
+        
+          
+            Docker Sandboxes support three ways to organize an agent’s code: shared mounts, Git worktrees, and clone mode. Here’s how to choose between them.
+Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/docker-sandbox-code-checkout-workflows 
           
           
         
@@ -128,6 +281,23 @@ Worth a watch for developers following Architecture. Link to video: https://www.
     </item>
     
     <item>
+      <title>LifeVal</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/ed4b58253682/</link>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/ed4b58253682/</guid>
+      <description>
+        
+          
+            Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.
+Worth a read for developers following AI. Link to article: https://openai.com/index/lifeval 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Is AI the next layer of abstraction?</title>
       <link>https://www.dotnetramblings.com/post/02_11_2026/4ec0b0edee26/</link>
       <pubDate>Mon, 02 Nov 2026 06:54:00 +0000</pubDate>
@@ -171,6 +341,23 @@ Worth a read for developers following Security and .NET. Link to article: https:
           
             https://www.ssw.com.au/rules/consent-to-record Contact us: https://bit.ly/4fAFrVx Are you recording meetings the right way?
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=iQ3CP8wmW9Y 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Qodo builds context into AI code review with Codex</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/598c6194c0d3/</link>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/598c6194c0d3/</guid>
+      <description>
+        
+          
+            Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.
+Worth a read for developers following AI. Link to article: https://openai.com/index/qodo-codex-plugin 
           
           
         
