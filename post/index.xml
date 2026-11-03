@@ -7,7 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 02 Nov 2026 22:40:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Nov 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating to runtime async</title>
+      <link>https://www.dotnetramblings.com/post/03_11_2026/8692d8a6bde3/</link>
+      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_11_2026/8692d8a6bde3/</guid>
+      <description>
+        
+          
+            This is the last post of the series proper, with one bonus post to follow. The previous two posts showed what runtime async does to the IL and to the numbers. This one is about the code you already have. The short version: almost nothing changes, and that is the point. The longer version is worth reading before you turn it on in anything that matters. What does not change Every behaviour this series…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Understanding Lazy thread safety modes</title>
+      <link>https://www.dotnetramblings.com/post/03_11_2026/69f8b5208138/</link>
+      <pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_11_2026/69f8b5208138/</guid>
+      <description>
+        
+          
+            In this post I look at how the different LazyThreadSafetyMode values work with Lazy, and how exceptions are handled for each mode
+Worth a read for developers following .NET. Link to article: https://andrewlock.net/understanding-lazy-thread-safety-modes 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Installing MikroTik CHR on any VPS</title>
+      <link>https://www.dotnetramblings.com/post/03_11_2026/3cd601f047b0/</link>
+      <pubDate>Tue, 03 Nov 2026 08:44:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_11_2026/3cd601f047b0/</guid>
+      <description>
+        
+          
+            Every now and then I want a MikroTik Cloud Hosted Router (CHR) running somewhere on the internet. To test something, to learn something, or just to play with it. A cheap VPS is perfect for that. Getting CHR onto it, though, isn’t always as easy as it could be.
+Worth a read for developers following .NET and Data. Link to article: https://www.tabsoverspaces.com/233981-installing-mikrotik-chr-on-any-vps 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Heimstaden is changing residential real estate management with AI</title>
+      <link>https://www.dotnetramblings.com/post/03_11_2026/08b710f1e780/</link>
+      <pubDate>Tue, 03 Nov 2026 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_11_2026/08b710f1e780/</guid>
+      <description>
+        
+          
+            Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.
+Worth a read for developers following AI. Link to article: https://openai.com/index/heimstaden 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What is tool calling in AI? Build a simple .NET example</title>
+      <link>https://www.dotnetramblings.com/post/03_11_2026/dc5f98649ad7/</link>
+      <pubDate>Tue, 03 Nov 2026 07:58:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/03_11_2026/dc5f98649ad7/</guid>
+      <description>
+        
+          
+            LLMs understand language, but they can&#39;t query your database or call an API on their own. Tool calling closes that gap: the model names a function and its arguments, and your app runs it. This post walks through a flight booking example, shows a C# tool definition, and covers common use cases.
+Worth a read for developers following .NET and AI. Link to article: https://blog.elmah.io/what-is-tool-calling-in-ai-build-a-simple-net-example 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Retrofitting existing xUnit.Net tests to Bobcat</title>
       <link>https://www.dotnetramblings.com/post/02_11_2026/547162e6fd57/</link>
