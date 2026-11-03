@@ -1688,7 +1688,7 @@
         <p>Stable releases from selected .NET AI projects over the past year; not an exhaustive list of AI tools.</p>
       </div>
       
-        <span>Latest release Oct 30, 2026</span>
+        <span>Latest release Nov 3, 2026</span>
       
     </div>
     
@@ -1702,8 +1702,54 @@
             <button type="button" data-release-filter="major-release" aria-pressed="false">Major (1)</button>
             <button type="button" data-release-filter="breaking-change" aria-pressed="false">Breaking (4)</button>
             <button type="button" data-release-filter="deprecation" aria-pressed="false">Deprecations (4)</button>
+            <button type="button" data-release-filter="security" aria-pressed="false">Security (2)</button>
       </div>
       <div class="release-list">
+        
+          <article class="release-item release-item--security" data-release-item data-release-type="security">
+            <div class="release-item__meta">
+              <span>MCP C# SDK</span>
+              <time datetime="2026-11-03T07:33:49&#43;00:00">Nov 3, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v2.3.1" rel="noopener">MCP C# SDK 2.3.1</a></h3>
+              <p>This patch release includes a security fix for authenticated stateful sessions. Harden authenticated stateful MCP sessions (commit bfbd893) by @halter73 (co-authored by @Copilot @jeffhandley @tarekgh) Align docs publishing with shared orchestration #1981 by @jeffhandley…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Security</span>
+              <span>Official</span>
+            </div>
+          </article>
+        
+          <article class="release-item release-item--security" data-release-item data-release-type="security">
+            <div class="release-item__meta">
+              <span>MCP C# SDK</span>
+              <time datetime="2026-11-03T07:33:13&#43;00:00">Nov 3, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v1.4.2" rel="noopener">MCP C# SDK 1.4.2</a></h3>
+              <p>This patch release includes security fixes for OAuth authentication and authenticated HTTP sessions. Validate OAuth PKCE support and metadata issuer #1949 by @halter73 (co-authored by @PranavSenthilnathan @Copilot) Deployments using metadata-free 2025-03-26 OAuth discovery may…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Security</span>
+              <span>Official</span>
+            </div>
+          </article>
+        
+          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
+            <div class="release-item__meta">
+              <span>Anthropic C# SDK</span>
+              <time datetime="2026-11-02T19:11:48&#43;00:00">Nov 2, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.4.0" rel="noopener">Anthropic C# SDK 13.4.0</a></h3>
+              <p>api: add GA methods for analytics, spend limits and RBAC api: add named beta types for unified metrics and RBAC delete responses api: add shared analytics order and increase request actor types api: add tooluselimitreachederror and compactionlimitreachederror session error types…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Sdk Release</span>
+              <span>Official</span>
+            </div>
+          </article>
         
           <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
             <div class="release-item__meta">
@@ -2403,21 +2449,6 @@
             <div class="release-item__content">
               <h3><a href="https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.20.0" rel="noopener">Microsoft Agent Framework for .NET 1.20.0</a></h3>
               <p>.NET: Bump AWSSDK.Extensions.Bedrock.MEAI from 4.0.6.10 to 4.0.101.8 by @dependabot[bot] in https://github.com/microsoft/agent-framework/pull/7829 .NET: Stabilize Foundry recovery tests by @rogerbarreto in https://github.com/microsoft/agent-framework/pull/7817 .NET: fix: preserve…</p>
-            </div>
-            <div class="release-item__labels">
-              <span class="release-type">Sdk Release</span>
-              <span>Official</span>
-            </div>
-          </article>
-        
-          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
-            <div class="release-item__meta">
-              <span>Anthropic C# SDK</span>
-              <time datetime="2026-08-27T20:31:23&#43;00:00">Aug 27, 2026</time>
-            </div>
-            <div class="release-item__content">
-              <h3><a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.44.0" rel="noopener">Anthropic C# SDK 12.44.0</a></h3>
-              <p>api: beta files/skills namespaces use GA shapes; drop dated beta header pins (6e61d8f) client: page backward via beforeid and stop on hasmore=false (cc8ef57) webhooks: require headers to be passed to unwrap() (ccd76b9) api: clarify pagination on the organization rate-limit list…</p>
             </div>
             <div class="release-item__labels">
               <span class="release-type">Sdk Release</span>
