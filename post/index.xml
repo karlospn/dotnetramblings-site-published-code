@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 02 Nov 2026 18:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2026 22:40:16 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retrofitting existing xUnit.Net tests to Bobcat</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/547162e6fd57/</link>
+      <pubDate>Mon, 02 Nov 2026 22:40:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/547162e6fd57/</guid>
+      <description>
+        
+          
+            Marten’s async daemon is the subsystem that runs projections and subscriptions in the background. It’s also been historically been the single hardest thing in Marten to test. Every test has to publish events, stand up a daemon (sometimes two, in hot/cold mode), wait for shards to catch up, and then check what the projections wrote. … Continue reading Retrofitting existing xUnit.Net tests to Bobcat →
+Worth a read for developers following .
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Delegates in C#: Action, Func, and Multicast Call Contracts</title>
       <link>https://www.dotnetramblings.com/post/02_11_2026/8b58416ac6ff/</link>
@@ -19,6 +36,40 @@
           
             Learn delegates in C# with complete Action, Func, and multicast examples, including compatible methods, captured targets, return values, and exceptions.
 Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/02/delegates-in-c-action-func-and-multicast-call-contracts 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Preparing our next security sprint to harden OpenAI</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/262cfa35f430/</link>
+      <pubDate>Mon, 02 Nov 2026 18:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/262cfa35f430/</guid>
+      <description>
+        
+          
+            OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.
+Worth a read for developers following AI and Security. Link to article: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Rewarding defenders with bigger bug bounties</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/6fd6ad7938fa/</link>
+      <pubDate>Mon, 02 Nov 2026 18:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/6fd6ad7938fa/</guid>
+      <description>
+        
+          
+            OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.
+Worth a read for developers following AI and Security. Link to article: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties 
           
           
         
@@ -104,6 +155,23 @@ Worth a read for developers following AWS and DevOps. Link to article: https://a
           
             Understand Claude Code hooks for targeted .NET verification, with actual event schemas, stdin handling, exit behavior, selective checks, and clear CI limits.
 Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/02/use-claude-code-hooks-for-targeted-net-verification 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Scaling Git at OpenAI</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/de4cf53f9db9/</link>
+      <pubDate>Mon, 02 Nov 2026 15:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/de4cf53f9db9/</guid>
+      <description>
+        
+          
+            How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.
+Worth a read for developers following AI. Link to article: https://openai.com/index/scaling-git-at-openai 
           
           
         
@@ -205,6 +273,23 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
           
             This article demonstrates how to build an OpenID Connect server using Open.IdentityServer (Rock Solid Knowledge) integrated with ASP.NET Core Identity to provide identity and access management (IAM). The solution is built with Aspire and includes an ASP.NET Core web application and a protected Web API for validating and testing OpenID Connect and OAuth 2.0 standards, […]
 Worth a read for developers following Security and .NET. Link to article: https://damienbod.com/2026/11/02/use-open-identityserver-for-openid-connect-in-an-aspire-setup 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization</title>
+      <link>https://www.dotnetramblings.com/post/02_11_2026/ff138f709a7e/</link>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/02_11_2026/ff138f709a7e/</guid>
+      <description>
+        
+          
+            OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.
+Worth a read for developers following AI and Security. Link to article: https://openai.com/index/dan-driscoll-joins-openai 
           
           
         
@@ -1391,294 +1476,6 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
           
             With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.
 Worth a read for developers following Security and AI. Link to article: https://openai.com/index/check-point-daybreak 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Read Your Writes with the Critter Stack</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/dd6aa12ca697/</link>
-      <pubDate>Mon, 26 Oct 2026 22:59:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/dd6aa12ca697/</guid>
-      <description>
-        
-          
-            The image isn’t completely related, but it’s more than a little funny that the Superfriends had a super computer with incredible AI capabilities in the 70’s but yet its interface was writing out ticker tape. And for any other Gen X kids out there who read this: “meanwhile, at the Hall of Justice…” JasperFx Software … Continue reading Read Your Writes with the Critter Stack →
-Worth a read for developers following AI.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Greptile takes bug detection beyond code review with GPT-6 Astra</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/250e5d8f3024/</link>
-      <pubDate>Mon, 26 Oct 2026 22:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/250e5d8f3024/</guid>
-      <description>
-        
-          
-            How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.
-Worth a read for developers following AI and Security. Link to article: https://openai.com/index/greptile-code-review-codex-astra 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/8ed93bec7901/</link>
-      <pubDate>Mon, 26 Oct 2026 17:56:58 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/8ed93bec7901/</guid>
-      <description>
-        
-          
-            Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/0f715e1693d7/</link>
-      <pubDate>Mon, 26 Oct 2026 17:27:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/0f715e1693d7/</guid>
-      <description>
-        
-          
-            Every time an agent takes a step, it re-reads its entire context before acting. Here is how prompt caching for OpenAI models on Amazon Bedrock lets your agent remember, cutting input cost and latency without resending the same tools, instructions, and history every turn.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/e5e4c3ae2b79/</link>
-      <pubDate>Mon, 26 Oct 2026 17:15:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/e5e4c3ae2b79/</guid>
-      <description>
-        
-          
-            Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed as a single CDK application.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>List and HashSet in C#: Ordering, Membership, and Equality</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/ff50bf1b3b0a/</link>
-      <pubDate>Mon, 26 Oct 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/ff50bf1b3b0a/</guid>
-      <description>
-        
-          
-            Learn how List and HashSet in C# represent ordering, duplicates, membership, and equality, with complete examples and clear boundaries for application code.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/26/list-and-hashset-in-c-ordering-membership-and-equality 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Scale reservoir uncertainty analysis with agile reservoir modeling</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/a1fd010ba462/</link>
-      <pubDate>Mon, 26 Oct 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/a1fd010ba462/</guid>
-      <description>
-        
-          
-            As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions. The post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog .
-Worth a read for developers following Azure. Link to article: https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Your Availability Is Not Your Team&#39;s Overtime Expectation</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/8cfd43168c8f/</link>
-      <pubDate>Mon, 26 Oct 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/8cfd43168c8f/</guid>
-      <description>
-        
-          
-            Your availability as a manager can send unintended signals. Separate personal working choices from team expectations without becoming a permanent dependency.
-Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/10/26/your-availability-is-not-your-teams-overtime-expectation 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/1a1d4bf2fc11/</link>
-      <pubDate>Mon, 26 Oct 2026 13:45:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/1a1d4bf2fc11/</guid>
-      <description>
-        
-          
-            CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.
-Worth a read for developers following AI and Security. Link to article: https://openai.com/index/gpt-6-1-sol-coderabbit-code-security 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Keep your investigation between sessions</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/d79c9124e306/</link>
-      <pubDate>Mon, 26 Oct 2026 12:00:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/d79c9124e306/</guid>
-      <description>
-        
-          
-            Start a standalone Markdown note and use the opt-in Hot Exit preview to resume unsaved work next session. The post Keep your investigation between sessions appeared first on Visual Studio Blog .
-Worth a read for developers following Visual Studio. Link to article: https://devblogs.microsoft.com/visualstudio/keep-your-investigation-between-sessions 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ChatGPT’s expanding world of work</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/64d59b55a8fb/</link>
-      <pubDate>Mon, 26 Oct 2026 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/64d59b55a8fb/</guid>
-      <description>
-        
-          
-            Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.
-Worth a read for developers following AI. Link to article: https://openai.com/index/chatgpt-expanding-world-of-work 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>MCP C# SDK 2.0 Makes HTTP Stateless by Default and Adds Multi Round-Trip Requests</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/975260d0a0ac/</link>
-      <pubDate>Mon, 26 Oct 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/975260d0a0ac/</guid>
-      <description>
-        
-          
-            Microsoft announced version 2.0 of the official MCP C# SDK, which implements the 2026-07-28 revision of the Model Context Protocol with stateless HTTP servers by default, standardised routing headers and Multi Round-Trip Requests. Releases 2.1 to 2.3 have since added hybrid session serving, a subscriptions/listen handler and a series of discovery, OAuth and shutdown fixes. By Edin Kapić
-Worth a read for developers following .NET and Architecture. Link to article: https://www.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Fanatics and OpenAI streamline the fan experience</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/eb7708c5f537/</link>
-      <pubDate>Mon, 26 Oct 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/eb7708c5f537/</guid>
-      <description>
-        
-          
-            Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.
-Worth a read for developers following AI and Testing. Link to article: https://openai.com/index/fanatics-streamline-fan-experience 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Ultrafast cut incident investigation from hours to minutes at OpenAI</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/8f2f08b6e197/</link>
-      <pubDate>Mon, 26 Oct 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/8f2f08b6e197/</guid>
-      <description>
-        
-          
-            See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.
-Worth a read for developers following AI and Security. Link to article: https://openai.com/index/openai-cut-incident-investigation 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>QuickCheck property: Uncategorised bill</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/88f0d8baa577/</link>
-      <pubDate>Mon, 26 Oct 2026 06:49:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/88f0d8baa577/</guid>
-      <description>
-        
-          
-            Initial API definition and a simple property. This article is one of a series on finding properties for a budgeting kata . I expect you to have read the previous articles in the series. In this article we get started by adding a first sketch of data structures and an initial, simple property. The code is available on GitHub , in the commit 1f7aceb . Budget type # My intent with the entire exercise is to follow a…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing GPT-6.1 Terra</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/1758535ac6be/</link>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/1758535ac6be/</guid>
-      <description>
-        
-          
-            Bringing fast and capable computer use to everyone
-Worth a read for developers following AI. Link to article: https://openai.com/index/introducing-gpt-6-1-terra 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Working with academic communities to build scientific understanding</title>
-      <link>https://www.dotnetramblings.com/post/26_10_2026/f16aefe89a6e/</link>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/26_10_2026/f16aefe89a6e/</guid>
-      <description>
-        
-          
-            OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.
-Worth a read for developers following AI. Link to article: https://openai.com/index/building-scientific-understanding-with-academic-communities 
           
           
         
