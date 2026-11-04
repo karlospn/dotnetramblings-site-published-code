@@ -7,7 +7,209 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 03 Nov 2026 22:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Nov 2026 18:46:36 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use decision models with Amazon Bedrock AgentCore Evaluations</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/1840d116fbdd/</link>
+      <pubDate>Wed, 04 Nov 2026 18:46:36 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/1840d116fbdd/</guid>
+      <description>
+        
+          
+            Some agent-evaluation questions are narrow and repeatable, and decision models answer exactly that kind of question. This post shows how to connect two decision models, Jev and Strands Decider, to Amazon Bedrock AgentCore Evaluations through code-based evaluators, and how to validate a decision-model check before you gate a release on it.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Designing C# Event Contracts: Payloads, Notifications, and Decisions</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/88dc114f7e8d/</link>
+      <pubDate>Wed, 04 Nov 2026 18:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/88dc114f7e8d/</guid>
+      <description>
+        
+          
+            Understand C# event contracts with practical payload and decision examples, explicit notification timing, no-subscriber defaults, and failure boundaries.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/04/designing-c-event-contracts-payloads-notifications-and-decisions 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Starting a new tutorial series on Event Modeling w/ the Critter Stack</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/9e9ea042335b/</link>
+      <pubDate>Wed, 04 Nov 2026 17:43:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/9e9ea042335b/</guid>
+      <description>
+        
+          
+            The motif of the picture up above is the old saying “the cobbler’s children have no shoes.” In the case of JasperFx Software, we’re a software development consultancy that hasn’t done enough (yet) to automate our own business. Now that development is pretty cheap with our new fangled AI tools, I’m looking to take our … Continue reading Starting a new tutorial series on Event Modeling w/ the Critter Stack →
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Smart Approvals in Amazon Quick: Human oversight where it matters</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/5dcd8c391f4d/</link>
+      <pubDate>Wed, 04 Nov 2026 16:33:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/5dcd8c391f4d/</guid>
+      <description>
+        
+          
+            Smart Approvals in Amazon Quick reviews eligible agent actions within your existing controls, reducing unnecessary approval prompts while keeping consequential decisions with a person. See how policy sets the boundary, how a classifier reviews actions, and how AWS CloudTrail and Amazon CloudWatch Logs support audit.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Four layers of context engineering for production AI agents: How Deep Insight applies them in working code</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/2240c9709353/</link>
+      <pubDate>Wed, 04 Nov 2026 16:30:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/2240c9709353/</guid>
+      <description>
+        
+          
+            In production AI agents, context management is the real bottleneck. This post presents a four-layer context engineering framework (architecture, prompts, file-based tools, and verification agents), implemented in working code from Deep Insight, an open source multi-agent data analysis solution on the Strands Agents SDK and Amazon Bedrock AgentCore.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Indegene is modernizing and scaling enterprise data quality in life sciences</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/b860dcb6054f/</link>
+      <pubDate>Wed, 04 Nov 2026 16:25:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/b860dcb6054f/</guid>
+      <description>
+        
+          
+            This post explores how Indegene built a production-grade, LLM-powered Data Quality Agent in its NEXT Unified Data Platform on AWS. The agent generates context-aware data quality rules, validates them, and produces ready-to-run SQL and Python under human-in-the-loop governance, helping life sciences organizations scale enterprise data quality.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How U Mobile built agentic telco operations with Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/c5387dca01dc/</link>
+      <pubDate>Wed, 04 Nov 2026 16:23:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/c5387dca01dc/</guid>
+      <description>
+        
+          
+            U Mobile, Malaysia&#39;s newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Connect an Existing C# MCP Server to Claude Code</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/8b2b001430b9/</link>
+      <pubDate>Wed, 04 Nov 2026 16:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/8b2b001430b9/</guid>
+      <description>
+        
+          
+            Connect an existing C# MCP server to Claude Code using stdio or HTTP, then understand configuration scope, tool discovery, authorization, and failure evidence.
+Worth a read for developers following .NET and Security. Link to article: https://www.devleader.ca/2026/11/04/connect-an-existing-c-mcp-server-to-claude-code 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/b2474e8b3d0c/</link>
+      <pubDate>Wed, 04 Nov 2026 15:30:28 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/b2474e8b3d0c/</guid>
+      <description>
+        
+          
+            Keeping up with new technology is one thing. Finding worthwhile opportunities to explore what matters most to your work is another. That’s where VSLive! can help. It brings technical learning, hands-on experience, expert guidance, and a community of developers together in one place, giving you focused time to explore evolving technologies and decide what’s worth […] The post Keep learning, keep building! Make the…
+Worth a read for developers following Visual Studio.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI to acquire Pierre Computer Company, Inc.</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/3a06f84c0f51/</link>
+      <pubDate>Wed, 04 Nov 2026 14:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/3a06f84c0f51/</guid>
+      <description>
+        
+          
+            OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.
+Worth a read for developers following AI. Link to article: https://openai.com/index/openai-to-acquire-pierre 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Sync vs Async File I/O in .NET: Raw Throughput, Scalability, and Buffer Size</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/eb15ac98159e/</link>
+      <pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/eb15ac98159e/</guid>
+      <description>
+        
+          
+            This is a bonus post to the series about async/await in C#. The series explains how async works, from the problem it solves up to the .NET 11 runtime taking over await. This post applies all of it to one real subsystem, where the usual advice turns out to be only half the story. The default recommendation for .NET is to prefer async file I/O for scalability. That is generally good advice.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Daybreak Red is now available in AWS GovCloud (US-East)</title>
+      <link>https://www.dotnetramblings.com/post/04_11_2026/75679f5aa60b/</link>
+      <pubDate>Wed, 04 Nov 2026 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/04_11_2026/75679f5aa60b/</guid>
+      <description>
+        
+          
+            Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.
+Worth a read for developers following AWS and AI. Link to article: https://openai.com/index/daybreak-red-aws-govcloud 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Introducing Tiny Clips Studio: Screen Recordings You Can Keep Editing</title>
       <link>https://www.dotnetramblings.com/post/03_11_2026/da261f24e0ce/</link>
