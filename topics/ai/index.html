@@ -1684,7 +1684,7 @@
         <p>Stable releases from selected .NET AI projects over the past year; not an exhaustive list of AI tools.</p>
       </div>
       
-        <span>Latest release Nov 3, 2026</span>
+        <span>Latest release Nov 5, 2026</span>
       
     </div>
     
@@ -1694,13 +1694,73 @@
       </label>
       <div class="release-filters" role="group" aria-label="Release type">
         <button type="button" class="is-active" data-release-filter="all" aria-pressed="true">All</button>
-            <button type="button" data-release-filter="sdk-release" aria-pressed="false">SDK releases (138)</button>
+            <button type="button" data-release-filter="sdk-release" aria-pressed="false">SDK releases (141)</button>
             <button type="button" data-release-filter="major-release" aria-pressed="false">Major (1)</button>
             <button type="button" data-release-filter="breaking-change" aria-pressed="false">Breaking (4)</button>
             <button type="button" data-release-filter="deprecation" aria-pressed="false">Deprecations (4)</button>
             <button type="button" data-release-filter="security" aria-pressed="false">Security (2)</button>
       </div>
       <div class="release-list">
+        
+          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
+            <div class="release-item__meta">
+              <span>OpenAI .NET SDK</span>
+              <time datetime="2026-11-05T07:55:21&#43;00:00">Nov 5, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.15.0" rel="noopener">OpenAI .NET SDK 2.15.0</a></h3>
+              <p>See the official release notes for details.</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Sdk Release</span>
+              <span>Official</span>
+            </div>
+          </article>
+        
+          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
+            <div class="release-item__meta">
+              <span>OllamaSharp</span>
+              <time datetime="2026-11-05T06:27:54&#43;00:00">Nov 5, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/awaescher/OllamaSharp/releases/tag/5.5.2" rel="noopener">OllamaSharp 5.5.2</a></h3>
+              <p>fix: TextReasoningContent was not send when using IChatClient, leading to KV Cache Rollback by @jetelain in https://github.com/awaescher/OllamaSharp/pull/398 @jetelain made their first contribution in https://github.com/awaescher/OllamaSharp/pull/398 Full Changelog:…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Sdk Release</span>
+              
+            </div>
+          </article>
+        
+          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
+            <div class="release-item__meta">
+              <span>OllamaSharp</span>
+              <time datetime="2026-11-05T06:23:56&#43;00:00">Nov 5, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/awaescher/OllamaSharp/releases/tag/5.5.1" rel="noopener">OllamaSharp 5.5.1</a></h3>
+              <p>Use trusted nuget publishing by @awaescher in https://github.com/awaescher/OllamaSharp/pull/399 fix(chatclient): keep NumPredict from RawRepresentationFactory when MaxOutputTokens is unset by @pcbeingused333 in https://github.com/awaescher/OllamaSharp/pull/397 @pcbeingused333…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Sdk Release</span>
+              
+            </div>
+          </article>
+        
+          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
+            <div class="release-item__meta">
+              <span>Anthropic C# SDK</span>
+              <time datetime="2026-11-04T20:10:24&#43;00:00">Nov 4, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.5.0" rel="noopener">Anthropic C# SDK 13.5.0</a></h3>
+              <p>api: add error details types and new error type values api: add ids filter to list workspaces client: add exception classes for HTTP statuses and API error codes, and Body, Type, ApiMessage, ErrorCode and Details on AnthropicServiceException client: add RequestID and WorkspaceID…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Sdk Release</span>
+              <span>Official</span>
+            </div>
+          </article>
         
           <article class="release-item release-item--security" data-release-item data-release-type="security">
             <div class="release-item__meta">
@@ -2415,21 +2475,6 @@
             <div class="release-item__content">
               <h3><a href="https://github.com/microsoft/onnxruntime/releases/tag/v1.28.2" rel="noopener">ONNX Runtime 1.28.2</a></h3>
               <p>This is a patch release on top of v1.28.1, containing a targeted fix for Compile API model serialization. - Fixed Compile API callback serialization to prevent duplicate graph nodes, inputs, outputs, and value information in emitted optimized models, including models with…</p>
-            </div>
-            <div class="release-item__labels">
-              <span class="release-type">Sdk Release</span>
-              <span>Official</span>
-            </div>
-          </article>
-        
-          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
-            <div class="release-item__meta">
-              <span>Anthropic C# SDK</span>
-              <time datetime="2026-09-01T18:09:28&#43;00:00">Sep 1, 2026</time>
-            </div>
-            <div class="release-item__content">
-              <h3><a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.45.0" rel="noopener">Anthropic C# SDK 12.45.0</a></h3>
-              <p>api: add externaluseronboardedat to user profiles (41cc8b1) api: add support for claude-fable-5-1 and claude-mythos-5-1 (80e4311) api: add support for organization compliance settings in the Admin API (7b89777) api: support pagination on organization rate limit list endpoints…</p>
             </div>
             <div class="release-item__labels">
               <span class="release-type">Sdk Release</span>
