@@ -7,7 +7,177 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 06 Nov 2026 03:17:04 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2026 18:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/1007c961b5d3/</link>
+      <pubDate>Fri, 06 Nov 2026 18:01:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/1007c961b5d3/</guid>
+      <description>
+        
+          
+            Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.
+Worth a read for developers following AWS and AI. Link to article: https://aws.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Taxonomy of agentic primitives in Amazon Quick</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/01ae94b0daa0/</link>
+      <pubDate>Fri, 06 Nov 2026 17:34:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/01ae94b0daa0/</guid>
+      <description>
+        
+          
+            As we built Amazon Quick, its agents grew from answering questions to taking actions, and the same primitives kept getting rebuilt under different names. This post shares the taxonomy we converged on — triggers, agents, capabilities, and learned context — found by decomposing agentic work into four plain questions: When, What, Who, and How.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Serverless MCP server for AI agent data lake access on Amazon ECS Fargate</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/0f0cb95e5bb0/</link>
+      <pubDate>Fri, 06 Nov 2026 17:13:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/0f0cb95e5bb0/</guid>
+      <description>
+        
+          
+            Learn how to build a serverless Model Context Protocol (MCP) server on Amazon ECS with AWS Fargate that gives AI agents secure, metadata-driven access to an enterprise data lake. Exposing a new dataset requires only a JSON file, with no per-dataset integration code.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/903f3d6e6779/</link>
+      <pubDate>Fri, 06 Nov 2026 17:09:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/903f3d6e6779/</guid>
+      <description>
+        
+          
+            In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta&#39;s grant, Cedar policies bind each tool to the agent, a second agent runs on Amazon EKS, and AgentCore Observability traces every allow and deny beside Okta&#39;s log in Amazon CloudWatch.
+Worth a read for developers following AWS and AI. Link to article: https://aws.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/4a377ea256e2/</link>
+      <pubDate>Fri, 06 Nov 2026 17:09:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/4a377ea256e2/</guid>
+      <description>
+        
+          
+            An AI agent that acts for a user raises an identity question that per-app OAuth and service accounts leave open: which agent may act for which user, and how you stop it. In this first post of two, you build a task agent on Amazon Bedrock AgentCore that governs access through Okta Cross App Access and AgentCore Identity, and enforces each user&#39;s authority.
+Worth a read for developers following AWS and AI.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MongoDB Reads in C#: Projection, Sorting, and Pagination</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/8ed58dac4f14/</link>
+      <pubDate>Fri, 06 Nov 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/8ed58dac4f14/</guid>
+      <description>
+        
+          
+            Learn MongoDB reads in C# with typed projections, unique sort tie-breakers, bounded results, and pagination boundaries without repeating basic filter tutorials.
+Worth a read for developers following .NET and Data. Link to article: https://www.devleader.ca/2026/11/06/mongodb-reads-in-c-projection-sorting-and-pagination 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/c75bfb16cb41/</link>
+      <pubDate>Fri, 06 Nov 2026 16:55:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/c75bfb16cb41/</guid>
+      <description>
+        
+          
+            Greenlight Financial resolves more than 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a tiered multi-agent system on Amazon Bedrock AgentCore. This post covers the architecture, episodic memory for continuous learning, and the expansion from SOC operations into financial risk triage.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/aa3a68bb9ff6/</link>
+      <pubDate>Fri, 06 Nov 2026 16:49:42 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/aa3a68bb9ff6/</guid>
+      <description>
+        
+          
+            Taxbit built Taxbit Assist, a cited, permission-aware AI assistant embedded in its enterprise dashboard, on Amazon Bedrock AgentCore. This post shows how they grounded answers in a curated knowledge base, enforced role-aware and region-compliant safety, and continuously measured answer quality on live production traffic.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/bc2d0068f56d/</link>
+      <pubDate>Fri, 06 Nov 2026 16:45:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/bc2d0068f56d/</guid>
+      <description>
+        
+          
+            Run Claude Code as a remote agent on Amazon Bedrock AgentCore. Each coding task runs in its own isolated session in your AWS account, every model call goes through Amazon Bedrock, and the result comes back as a GitHub pull request you review and merge.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Partnering with Hacktron to find vulnerabilities in OpenAI’s systems</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/bc8f9eac1966/</link>
+      <pubDate>Fri, 06 Nov 2026 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/bc8f9eac1966/</guid>
+      <description>
+        
+          
+            OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.
+Worth a read for developers following AI. Link to article: https://openai.com/index/partnering-with-hacktron 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Docker Sandboxes vs. Containers: Choosing the Right Isolation for AI Agents</title>
       <link>https://www.dotnetramblings.com/post/06_11_2026/4246d58cd50e/</link>
