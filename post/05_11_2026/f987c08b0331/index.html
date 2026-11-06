@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Coding Agent Horror Stories: The CVE That Did Not Exist | .NET Ramblings</title>
+<title>Getting started with Web Answer on Amazon Bedrock AgentCore | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,18 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="An AI code review agent invented a CVE and recommended dangerous fixes. Learn how Docker Sandboxes contain agents and why their output needs verification.
-Worth …">
+<meta name="description" content="Web Answer on Amazon Bedrock AgentCore returns a synthesized, source-cited answer to a natural-language question in a single tool call, with no search, …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Coding Agent Horror Stories: The CVE That Did Not Exist">
-<meta name="twitter:description" content="An AI code review agent invented a CVE and recommended dangerous fixes. Learn how Docker Sandboxes contain agents and why their output needs verification.
-Worth …">
-<meta name="twitter:image" content="https://www.docker.com/app/uploads/2026/10/1080x566_v06.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/29_10_2026/4937bb769d43/">
-<meta property="og:title" content="Coding Agent Horror Stories: The CVE That Did Not Exist">
-<meta property="og:description" content="An AI code review agent invented a CVE and recommended dangerous fixes. Learn how Docker Sandboxes contain agents and why their output needs verification.
-Worth …">
-<meta property="og:image" content="https://www.docker.com/app/uploads/2026/10/1080x566_v06.png">
+<meta name="twitter:title" content="Getting started with Web Answer on Amazon Bedrock AgentCore">
+<meta name="twitter:description" content="Web Answer on Amazon Bedrock AgentCore returns a synthesized, source-cited answer to a natural-language question in a single tool call, with no search, …">
+<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-22248-featured-image.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/05_11_2026/f987c08b0331/">
+<meta property="og:title" content="Getting started with Web Answer on Amazon Bedrock AgentCore">
+<meta property="og:description" content="Web Answer on Amazon Bedrock AgentCore returns a synthesized, source-cited answer to a natural-language question in a single tool call, with no search, …">
+<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-22248-featured-image.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -44,7 +41,7 @@ Worth …">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist">
+<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -149,24 +146,25 @@ Worth …">
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Coding Agent Horror Stories: The CVE That Did Not Exist</h1>
+    <h1 class="post_title">Getting started with Web Answer on Amazon Bedrock AgentCore</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Oct 29, 2026</span>
+      <span class="post_date">Nov 5, 2026</span>
       <span>
+          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
           <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
-          <a href="https://www.dotnetramblings.com/topics/containers/" title="Containers" class="post_tag button button_translucent">Containers</a>
+          <a href="https://www.dotnetramblings.com/topics/devops/" title="DevOps" class="post_tag button button_translucent">DevOps</a>
       </span>
   </div>
 
-    <div class="post_body"><p>An AI code review agent invented a CVE and recommended dangerous fixes. Learn how Docker Sandboxes contain agents and why their output needs verification.</p>
+    <div class="post_body"><p>Web Answer on Amazon Bedrock AgentCore returns a synthesized, source-cited answer to a natural-language question in a single tool call, with no search, retrieve, synthesize, and citation pipeline to build. Learn how it works and how to add it to an AgentCore Gateway and call it from an agent.</p>
 <ul>
-<li>Worth a read for developers following AI and Containers.</li>
-<li>Link to article: <a href="https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist">https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist</a></li>
+<li>Worth a read for developers following AWS and AI.</li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore">https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore</a></li>
 </ul>
 
     </div>
