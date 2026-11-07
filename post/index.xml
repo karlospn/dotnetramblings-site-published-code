@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 06 Nov 2026 18:01:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Outbox Pattern in Postgres: Concurrent Workers vs Reading the WAL</title>
+      <link>https://www.dotnetramblings.com/post/07_11_2026/451ed5c07c06/</link>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/07_11_2026/451ed5c07c06/</guid>
+      <description>
+        
+          
+            An API can save an order and crash before publishing the message that tells other services about it.
+Worth a read for developers following Data and .NET. Link to article: https://milanjovanovic.tech/blog/outbox-pattern-postgres-workers-vs-wal 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>C# Operator Precedence and Evaluation Order Explained</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/f384643df2a1/</link>
+      <pubDate>Fri, 06 Nov 2026 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/f384643df2a1/</guid>
+      <description>
+        
+          
+            Learn C# operator precedence, associativity, and operand evaluation order with practical examples that separate expression grouping from observable work.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/06/c-operator-precedence-and-evaluation-order-explained 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints</title>
       <link>https://www.dotnetramblings.com/post/06_11_2026/1007c961b5d3/</link>
@@ -205,6 +239,23 @@ Worth a read for developers following Containers and AI. Link to article: https:
         
           
             From RollingStone.com When I start work in the mornings, but after feeding the family dog and well before my wife and our kids get up, I have a little Claude routine to give me a summary of activity across the JasperFx GitHub organization (home of the Critter Stack tools plus some private stuff for JasperFx … Continue reading A day in the life building a Critter Stack release w/ AI →
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Measuring how AI agents handle everyday wet-lab science</title>
+      <link>https://www.dotnetramblings.com/post/06_11_2026/cfd4354afa14/</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/06_11_2026/cfd4354afa14/</guid>
+      <description>
+        
+          
+            OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.
+Worth a read for developers following AI. Link to article: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science 
           
           
         
@@ -1610,176 +1661,6 @@ Worth a read for developers following General. Link to article: https://www.devl
           
             My pull requests haven&#39;t run GitHub Actions since June. The build and tests run on my machine, and a signoff commit status posted by Basecamp&#39;s gh-signoff…
 Worth a read for developers following .NET and DevOps. Link to article: https://milanjovanovic.tech/blog/i-turned-off-ci-for-pull-requests 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams</title>
-      <link>https://www.dotnetramblings.com/post/30_10_2026/feb912e225e8/</link>
-      <pubDate>Fri, 30 Oct 2026 22:42:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_10_2026/feb912e225e8/</guid>
-      <description>
-        
-          
-            This post presents a five-stage operating model for managing Amazon Bedrock cost: attribute every dollar to an owner, make every request observable, enforce budgets, optimize platform defaults, and operate a review cadence. Written for FinOps and platform engineering teams.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime</title>
-      <link>https://www.dotnetramblings.com/post/30_10_2026/391b23f56ce3/</link>
-      <pubDate>Fri, 30 Oct 2026 21:40:03 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_10_2026/391b23f56ce3/</guid>
-      <description>
-        
-          
-            Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the live site update in your browser as the agent edits files.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Events and Delegates in C#: Contracts, Subscriptions, and Notification</title>
-      <link>https://www.dotnetramblings.com/post/30_10_2026/84e0e8e11bac/</link>
-      <pubDate>Fri, 30 Oct 2026 18:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_10_2026/84e0e8e11bac/</guid>
-      <description>
-        
-          
-            Understand events and delegates in C# through practical examples covering notification contracts, subscriptions, multicast calls, failures, and lifetime.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/30/events-and-delegates-in-c-contracts-subscriptions-and-notification 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Worldwide Express automated freight exceptions with Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/30_10_2026/44854634469c/</link>
-      <pubDate>Fri, 30 Oct 2026 17:32:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_10_2026/44854634469c/</guid>
-      <description>
-        
-          
-            Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)</title>
-      <link>https://www.dotnetramblings.com/post/30_10_2026/cabe8a08dfb8/</link>
-      <pubDate>Fri, 30 Oct 2026 17:27:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_10_2026/cabe8a08dfb8/</guid>
-      <description>
-        
-          
-            The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). This post walks through a controlled local deployment that routes model inference to Amazon Bedrock in AWS GovCloud (US-West) using API-mode sign-in, a managed device policy, a named AWS profile, and network restrictions, so a security team can validate it before broader use.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Create a Reusable Claude Code Skill for a .NET Workflow</title>
-      <link>https://www.dotnetramblings.com/post/30_10_2026/28357dc872a7/</link>
-      <pubDate>Fri, 30 Oct 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_10_2026/28357dc872a7/</guid>
-      <description>
-        
-          
-            Create a reusable Claude Code skill for .NET change review, with project-scoped instructions, explicit invocation, useful evidence, and clear workflow limits.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/10/30/create-a-reusable-claude-code-skill-for-a-net-workflow 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Compromised eMudhra Certificates: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gateway Now</title>
-      <link>https://www.dotnetramblings.com/post/30_10_2026/f461e66c2125/</link>
-      <pubDate>Fri, 30 Oct 2026 15:24:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_10_2026/f461e66c2125/</guid>
-      <description>
-        
-          
-            Summary Available fixed versions The issue is fixed in the following versions: The 2025.2.6.* updates for all IDEs now contain only the JBR fix. They will get a separate hotfix for the JCEF problem. Until then, use a workaround to disable JCEF in your IDE (see instructions below). IDE versions 2025.1 and earlier, and Toolbox […]
-Worth a read for developers following .NET. Link to article: https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Making it easier for websites to express AI training preferences</title>
-      <link>https://www.dotnetramblings.com/post/30_10_2026/25cc4c9bb2e3/</link>
-      <pubDate>Fri, 30 Oct 2026 09:30:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_10_2026/25cc4c9bb2e3/</guid>
-      <description>
-        
-          
-            OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.
-Worth a read for developers following AI. Link to article: https://openai.com/index/helping-websites-express-ai-training-preferences 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Community safety report and new protections for teens</title>
-      <link>https://www.dotnetramblings.com/post/30_10_2026/c7606af40dbb/</link>
-      <pubDate>Fri, 30 Oct 2026 09:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_10_2026/c7606af40dbb/</guid>
-      <description>
-        
-          
-            OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.
-Worth a read for developers following AI. Link to article: https://openai.com/index/community-safety-report-and-new-protections-for-teens 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Fair use benefits everyone</title>
-      <link>https://www.dotnetramblings.com/post/30_10_2026/d2282bcce162/</link>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/30_10_2026/d2282bcce162/</guid>
-      <description>
-        
-          
-            OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.
-Worth a read for developers following AI. Link to article: https://openai.com/index/fair-use-benefits-everyone 
           
           
         
