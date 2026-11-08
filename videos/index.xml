@@ -7,7 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 07 Nov 2026 10:15:01 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/videos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Nov 2026 12:00:25 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why AI Models Run Faster on Some Chips: The KV Cache Effect</title>
+      <link>https://www.dotnetramblings.com/videos/08_11_2026/0c525512d3a5/</link>
+      <pubDate>Sun, 08 Nov 2026 12:00:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/08_11_2026/0c525512d3a5/</guid>
+      <description>
+        
+          
+            Learn more about KV Cache here → https://ibm.biz/~6LPSw4Y8N The same AI model can run differently across chips. Kaoutar El ...
+Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=H_GJapsoLyU 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>DORA Proved It: Small Batches Win (Even for AI) #infoq</title>
+      <link>https://www.dotnetramblings.com/videos/08_11_2026/de7918a93714/</link>
+      <pubDate>Sun, 08 Nov 2026 10:15:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/08_11_2026/de7918a93714/</guid>
+      <description>
+        
+          
+            DORA research proved small batches win. Then AI bots entered the chat with 50000-line PRs. Just like human engineers, bots ...
+Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=iU2aPdGf9TY 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How your browser reaches a Docker container</title>
+      <link>https://www.dotnetramblings.com/videos/08_11_2026/73dcc894ca19/</link>
+      <pubDate>Sun, 08 Nov 2026 09:00:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/08_11_2026/73dcc894ca19/</guid>
+      <description>
+        
+          
+            A request hits Traefik before it reaches my React app and .NET API. I show how the proxy routes traffic and handles HTTPS ...
+Worth a watch for developers following Containers and .NET. Link to video: https://www.youtube.com/watch?v=tCTc8GVPlEs 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Architecture Diagrams vs. Reality #infoq</title>
       <link>https://www.dotnetramblings.com/videos/07_11_2026/38a4facc6316/</link>
@@ -2042,108 +2093,6 @@ Worth a watch for developers following Architecture. Link to video: https://www.
           
             I register a second VPS as a deploy server in Dokploy, using its public IP address and an SSH key. The server account needs ...
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=BIbD-7y7oNk 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>When Security Patches Leak</title>
-      <link>https://www.dotnetramblings.com/videos/31_10_2026/ffd5ee95fc3e/</link>
-      <pubDate>Sat, 31 Oct 2026 16:00:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/31_10_2026/ffd5ee95fc3e/</guid>
-      <description>
-        
-          
-            What happens when vulnerabilities leak before patches are ready? Discover why one point of failure puts 70% of the web at risk.
-Worth a watch for developers following Security. Link to video: https://www.youtube.com/watch?v=mfgSBLGePuA 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Why Your App Crashes Under Load (Hint: Timeouts) #infoq</title>
-      <link>https://www.dotnetramblings.com/videos/31_10_2026/daebf5c91339/</link>
-      <pubDate>Sat, 31 Oct 2026 10:15:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/31_10_2026/daebf5c91339/</guid>
-      <description>
-        
-          
-            A bad timeout setting can bring down your entire app. Too long? You waste resources and inflate latency. Too short? Premature ...
-Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=jvtU1A1aJ9k 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Anthropic&#39;s Git Replacement Starts With a Log</title>
-      <link>https://www.dotnetramblings.com/videos/31_10_2026/eb9da3ce2294/</link>
-      <pubDate>Sat, 31 Oct 2026 09:00:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/31_10_2026/eb9da3ce2294/</guid>
-      <description>
-        
-          
-            Scion appends changesets to a write-ahead log, then can replay those changes to compute the data it needs. I explain what a ...
-Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=U2gVFC_cXbI 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Solving the Great Grocery Mystery, &amp; The Bot That Never Naps</title>
-      <link>https://www.dotnetramblings.com/videos/31_10_2026/7d88b2624bc8/</link>
-      <pubDate>Sat, 31 Oct 2026 06:13:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/31_10_2026/7d88b2624bc8/</guid>
-      <description>
-        
-          
-            Subscribe to AWS: https://go.aws/subscribe Create a free AWS account: https://go.aws/signup Try AWS for free: https://go.aws/free ...
-Worth a watch for developers following AWS. Link to video: https://www.youtube.com/watch?v=1szMYsCqVx4 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Content Creation &amp; Production: Valorem Reply on Accelerating Content Workflows — Jamie Burgess</title>
-      <link>https://www.dotnetramblings.com/videos/31_10_2026/9ee7e9938520/</link>
-      <pubDate>Sat, 31 Oct 2026 05:40:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/31_10_2026/9ee7e9938520/</guid>
-      <description>
-        
-          
-            Jamie Burgess, AI Innovation and Transformation Leader at Valorem Reply, discusses how the Microsoft partner is helping media ...
-Worth a watch for developers following Azure and AI. Link to video: https://www.youtube.com/watch?v=1T5fTau5bfc 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What Is Orchestrated Media Intelligence? | Microsoft Media &amp; Entertainment</title>
-      <link>https://www.dotnetramblings.com/videos/31_10_2026/963ea64ba557/</link>
-      <pubDate>Sat, 31 Oct 2026 05:39:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/31_10_2026/963ea64ba557/</guid>
-      <description>
-        
-          
-            What is orchestrated media intelligence, and what could it mean for media and entertainment? Microsoft introduces its approach ...
-Worth a watch for developers following Azure. Link to video: https://www.youtube.com/watch?v=7cQwWUjv3mQ 
           
           
         
