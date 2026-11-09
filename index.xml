@@ -7,7 +7,143 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 17:00:29 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2026 20:13:18 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base</title>
+      <link>https://www.dotnetramblings.com/post/09_11_2026/0eb7f2999aa2/</link>
+      <pubDate>Mon, 09 Nov 2026 20:13:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_11_2026/0eb7f2999aa2/</guid>
+      <description>
+        
+          
+            Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to each request, using an illustrative internal banking policy assistant.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Claude Fable 5.2 on AWS</title>
+      <link>https://www.dotnetramblings.com/post/09_11_2026/2e186972ef6c/</link>
+      <pubDate>Mon, 09 Nov 2026 20:04:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_11_2026/2e186972ef6c/</guid>
+      <description>
+        
+          
+            Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS. Learn what&#39;s new in both models, why Fable 5.2 matters for your technical workloads, and how to get started building with it on Amazon Bedrock.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart</title>
+      <link>https://www.dotnetramblings.com/post/09_11_2026/51fd6bae6a94/</link>
+      <pubDate>Mon, 09 Nov 2026 20:01:20 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_11_2026/51fd6bae6a94/</guid>
+      <description>
+        
+          
+            NVIDIA Nemotron 3.5 Super VL, a 120B-parameter multimodal vision-language model, is now available in Amazon SageMaker JumpStart. Deploy the NVFP4 or BF16 variant in a few steps, then run text, image, and video inference for document intelligence, computer-use agents, and multimodal agentic workloads.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Pluggable Agentic AI Framework: A seven-layer composable enterprise agentic AI reference architecture on Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/09_11_2026/cafe7e1bd3db/</link>
+      <pubDate>Mon, 09 Nov 2026 19:05:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_11_2026/cafe7e1bd3db/</guid>
+      <description>
+        
+          
+            A seven-layer composable reference architecture for taking enterprise agentic AI from prototype to production on Amazon Bedrock AgentCore. Each layer has a stable contract, so you can swap technologies at any layer without redesigning the rest of the stack.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ChatGPT Enterprise now available in AWS Marketplace</title>
+      <link>https://www.dotnetramblings.com/post/09_11_2026/9c331579e229/</link>
+      <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_11_2026/9c331579e229/</guid>
+      <description>
+        
+          
+            ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.
+Worth a read for developers following AWS and AI. Link to article: https://openai.com/index/chatgpt-enterprise-aws-marketplace 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Logical Operators in C#: Short-Circuiting and Boolean Conditions</title>
+      <link>https://www.dotnetramblings.com/post/09_11_2026/9265e6777b74/</link>
+      <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_11_2026/9265e6777b74/</guid>
+      <description>
+        
+          
+            Understand logical operators in C#, including short-circuiting, Boolean guards, eager evaluation, and nullable bool rules, through practical code examples.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/09/logical-operators-in-c-shortcircuiting-and-boolean-conditions 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How CrossnoKaye grounds physical AI with Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/09_11_2026/033426cd1fa4/</link>
+      <pubDate>Mon, 09 Nov 2026 18:55:43 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_11_2026/033426cd1fa4/</guid>
+      <description>
+        
+          
+            CrossnoKaye brought physical AI to heavy industry with Amazon Bedrock AgentCore. Its ATLAS platform and AURA agentic system ground AI reasoning in live plant data and run verifiable Python in isolated AgentCore sandboxes, giving plant engineers checkable, math-backed answers instead of model guesses.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Professional work deserves professional tools. Meet AWS Quick.</title>
+      <link>https://www.dotnetramblings.com/post/09_11_2026/9015c3069685/</link>
+      <pubDate>Mon, 09 Nov 2026 18:43:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_11_2026/9015c3069685/</guid>
+      <description>
+        
+          
+            Introducing AWS Quick, formerly Amazon Quick, and the debut of our first brand campaign celebrating teams who keep business moving. AWS Quick is the AI workspace built only for work, where teams use AI agents to research, analyze, and act across the data and applications they already rely on.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI Lightning Round | Humans In The Loop Podcast</title>
       <link>https://www.dotnetramblings.com/videos/09_11_2026/fc8bc7d958a6/</link>
@@ -19,6 +155,23 @@
           
             Chris Shea (Solutions Architect, AWS) shares the latest developments in the AI space at AWS in a bite-sized AI Lightning Round!
 Worth a watch for developers following AI and AWS. Link to video: https://www.youtube.com/watch?v=OY3ParXQp-0 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Concurrent Collections in C#: Safe Operations and Workflow Boundaries</title>
+      <link>https://www.dotnetramblings.com/post/09_11_2026/3d022968a38b/</link>
+      <pubDate>Mon, 09 Nov 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_11_2026/3d022968a38b/</guid>
+      <description>
+        
+          
+            Understand concurrent collections in C# by separating safe operations, repeatable factories, enumeration, shared values, and multi-step workflow boundaries.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/09/concurrent-collections-in-c-safe-operations-and-workflow-boundaries 
           
           
         
@@ -145,6 +298,23 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
     </item>
     
     <item>
+      <title>Speed up CI builds with Meziantou.DeltaBuild</title>
+      <link>https://www.dotnetramblings.com/post/09_11_2026/9fad5f163da4/</link>
+      <pubDate>Mon, 09 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_11_2026/9fad5f163da4/</guid>
+      <description>
+        
+          
+            In a monorepo, every commit or pull request can trigger a full rebuild and test of all projects even when only one small piece changed. Meziantou.DeltaBuild is a .NET CLI tool that solves this problem by analyzing git changes and the MSBuild dependency graph to produce a filtered solution or build file that contains only the affected projects. It can also help with test sharding by splitting affected test…
+Worth a read for developers following .
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>I Built a Claude Code Usage Tracker with TimescaleDB</title>
       <link>https://www.dotnetramblings.com/videos/09_11_2026/7ec5fad9df0e/</link>
       <pubDate>Mon, 09 Nov 2026 11:53:03 +0000</pubDate>
@@ -206,6 +376,23 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
           
             What if #JuniorDevelopers are exactly what the #AI era needs most? ➤ Senior engineers bring battle-tested experience - but also ...
 Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=EBf8zs4Ss0o 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Kuken Industries searches 70 years of drawings in minutes</title>
+      <link>https://www.dotnetramblings.com/post/09_11_2026/932fe34bad72/</link>
+      <pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/09_11_2026/932fe34bad72/</guid>
+      <description>
+        
+          
+            Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.
+Worth a read for developers following AI. Link to article: https://openai.com/index/kuken 
           
           
         
