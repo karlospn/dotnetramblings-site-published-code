@@ -7,7 +7,75 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 00:21:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2026 12:32:30 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrate SQL Server Always Encrypted CMK to AWS Secrets Manager with .NET</title>
+      <link>https://www.dotnetramblings.com/post/10_11_2026/4f113955df31/</link>
+      <pubDate>Tue, 10 Nov 2026 12:32:30 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_11_2026/4f113955df31/</guid>
+      <description>
+        
+          
+            Introduction By migrating the SQL Server Always Encrypted column master key (CMK) from the Windows Certificate Store to AWS Secrets Manager, you can remove a Windows-only platform dependency from your .NET application. The default CMK store provider, MSSQL_CERTIFICATE_STORE, relies on the Windows Certificate Store. The CMK must move to a platform-agnostic store like AWS Secrets […]
+Worth a read for developers following .NET and AWS. Link to article: https://aws.amazon.com/blogs/dotnet/migrate-sql-server-always-encrypted-cmk-to-aws-secrets-manager-with-net 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Helping caregivers use AI in everyday life</title>
+      <link>https://www.dotnetramblings.com/post/10_11_2026/46ecb159c153/</link>
+      <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_11_2026/46ecb159c153/</guid>
+      <description>
+        
+          
+            OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.
+Worth a read for developers following AI. Link to article: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>MCP server vs REST API: When should you use each?</title>
+      <link>https://www.dotnetramblings.com/post/10_11_2026/3e490a9d9dfb/</link>
+      <pubDate>Tue, 10 Nov 2026 11:41:53 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_11_2026/3e490a9d9dfb/</guid>
+      <description>
+        
+          
+            REST APIs serve applications whose developers already know the endpoints. MCP lets AI agents discover tools at runtime and ask for approval mid-task. This post compares caching, discovery, auth and context cost, and shows why most systems pair an MCP layer with their REST API.
+Worth a read for developers following AI. Link to article: https://blog.elmah.io/mcp-server-vs-rest-api-when-should-you-use-each 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Closing the AI guidance gap in education</title>
+      <link>https://www.dotnetramblings.com/post/10_11_2026/01a8528fa117/</link>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_11_2026/01a8528fa117/</guid>
+      <description>
+        
+          
+            New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.
+Worth a read for developers following AI. Link to article: https://openai.com/index/closing-ai-guidance-gap-education 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How skills and agents work in AWS Quick</title>
       <link>https://www.dotnetramblings.com/post/10_11_2026/831bd9db6c4f/</link>
