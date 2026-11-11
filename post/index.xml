@@ -7,7 +7,175 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 11 Nov 2026 12:31:24 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Nov 2026 21:05:59 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The attendee’s guide to the AWS re:Invent 2026 AI/ML track</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/6dbf5bd5b92f/</link>
+      <pubDate>Wed, 11 Nov 2026 21:05:59 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/6dbf5bd5b92f/</guid>
+      <description>
+        
+          
+            AWS re:Invent 2026 includes more than 140 AI/ML track sessions. This attendee&#39;s guide helps you find the breakouts, chalk talks, workshops, and builders&#39; sessions that fit your role and goals, spanning AI chips, models and inference, agents, agent trust, and sustainability, so you can build a smarter re:Invent schedule.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/the-attendees-guide-to-the-aws-reinvent-2026-ai-ml-track 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Automating AWS Agent Registry updates with push-based architecture</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/3beb9de1922e/</link>
+      <pubDate>Wed, 11 Nov 2026 20:52:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/3beb9de1922e/</guid>
+      <description>
+        
+          
+            This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, across single- and multi-account environments.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How DXC Technology built a multi-model AI substrate on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/2f5ac4847b02/</link>
+      <pubDate>Wed, 11 Nov 2026 20:45:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/2f5ac4847b02/</guid>
+      <description>
+        
+          
+            DXC Technology runs mission-critical managed IT services for regulated organizations across 70 countries. Learn how DXC built DCX OASIS, its Human+AI operating model, on a governed multi-model substrate in Amazon Bedrock, separating a resilient model substrate from a trusted harness that orchestrates, governs, and audits AI agents at scale.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Stale Data Is More Than an Eventual Consistency Problem</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/b57a75eb8b99/</link>
+      <pubDate>Wed, 11 Nov 2026 20:21:01 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/b57a75eb8b99/</guid>
+      <description>
+        
+          
+            The moment you retrieve data, it’s potentially already stale. And I’m not talking about eventual consistency or reading from a cache, which is what people typically think of when they think of stale data. No, I’m talking about your primary database. YouTube Check out my YouTube channel, where I post all kinds of content on Software Architecture… Read More » Stale Data Is More Than an Eventual Consistency Problem The…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerating generative AI delivery with reusable assets</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/0afd1907df33/</link>
+      <pubDate>Wed, 11 Nov 2026 19:19:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/0afd1907df33/</guid>
+      <description>
+        
+          
+            Every generative AI team keeps rebuilding the same components: RAG pipelines, document processors, and agent scaffolding. This post shows how to access a curated catalog of 23 production-ready, open source reusable assets from the AWS Generative AI Innovation Center, with real delivery results from DoorDash, Lyft, and Ricoh.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Arithmetic Operators in C#: Numeric Types, Division, and Overflow</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/7450320889a2/</link>
+      <pubDate>Wed, 11 Nov 2026 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/7450320889a2/</guid>
+      <description>
+        
+          
+            Learn arithmetic operators in C# through numeric promotion, integer division, remainder, zero division, and checked overflow with clear practical examples.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/11/arithmetic-operators-in-c-numeric-types-division-and-overflow 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Bring Your Own Model is now generally available in Visual Studio</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/d619d2e84d75/</link>
+      <pubDate>Wed, 11 Nov 2026 17:00:48 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/d619d2e84d75/</guid>
+      <description>
+        
+          
+            Whether your team hosts its own AI models, you have an API key from a model provider, or you want to experiment with a model running on your machine, Bring Your Own Model (BYOM) lets you use those models without leaving Visual Studio. BYOM is now generally available in Visual Studio 18.12. Since the August […] The post Bring Your Own Model is now generally available in Visual Studio appeared first on Visual Studio…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Accelerating product development with AI-driven lifecycle management (AI-PDLC) in AWS Quick</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/6e11a23c0428/</link>
+      <pubDate>Wed, 11 Nov 2026 16:05:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/6e11a23c0428/</guid>
+      <description>
+        
+          
+            Learn how to build an AI-driven product development lifecycle (AI-PDLC) with a suite of six AWS Quick agents that take you from scattered customer signals to a validated prototype across Discover, Decide, Design, and Prototype, with human approval at every gate and a specification ready to hand to coding agents like Kiro.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>UAEF: A framework-agnostic system for closed-loop evaluation of AI agents</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/7026ee2cddf1/</link>
+      <pubDate>Wed, 11 Nov 2026 15:50:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/7026ee2cddf1/</guid>
+      <description>
+        
+          
+            The Universal Agent Evaluation Framework (UAEF) is a framework-agnostic system for evaluating AI agents. UAEF converts each framework&#39;s traces into one canonical format, scores them with 36 built-in metrics across 7 dimensions, and stores results so teams can compare agent versions and catch regressions.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing usage-based pricing for Amazon SageMaker AI bidirectional streaming</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/3bb3af59874a/</link>
+      <pubDate>Wed, 11 Nov 2026 15:10:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/3bb3af59874a/</guid>
+      <description>
+        
+          
+            AWS Marketplace now supports usage-based metering for Amazon SageMaker bidirectional streaming inference, so model providers can charge for what customers actually consume during a live stream. Deepgram is the launch partner, bringing usage-based speech-to-text and text-to-speech billing to AWS Marketplace.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Migrate a GitHub repository to GitHub Enterprise</title>
       <link>https://www.dotnetramblings.com/post/11_11_2026/d9e81614a605/</link>
@@ -70,6 +238,23 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
           
             Kimi K3.1 Pro from Moonshot AI is now available on Amazon Bedrock. Learn how to get started through the OpenAI-compatible Chat Completions, Responses, and Converse APIs, optimize inference with explicit prompt caching, and use the model as a coding assistant in OpenCode.
 Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>JioStar’s chief architect on AI discovery at 500M-user scale</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/8c999d6885d2/</link>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/8c999d6885d2/</guid>
+      <description>
+        
+          
+            JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.
+Worth a read for developers following AI. Link to article: https://openai.com/index/jiostar-vijay-seshadri 
           
           
         
