@@ -1684,7 +1684,7 @@
         <p>Stable releases from selected .NET AI projects over the past year; not an exhaustive list of AI tools.</p>
       </div>
       
-        <span>Latest release Nov 9, 2026</span>
+        <span>Latest release Nov 11, 2026</span>
       
     </div>
     
@@ -1695,12 +1695,42 @@
       <div class="release-filters" role="group" aria-label="Release type">
         <button type="button" class="is-active" data-release-filter="all" aria-pressed="true">All</button>
             <button type="button" data-release-filter="sdk-release" aria-pressed="false">SDK releases (141)</button>
-            <button type="button" data-release-filter="major-release" aria-pressed="false">Major (1)</button>
+            <button type="button" data-release-filter="major-release" aria-pressed="false">Major (2)</button>
             <button type="button" data-release-filter="breaking-change" aria-pressed="false">Breaking (4)</button>
             <button type="button" data-release-filter="deprecation" aria-pressed="false">Deprecations (4)</button>
             <button type="button" data-release-filter="security" aria-pressed="false">Security (2)</button>
       </div>
       <div class="release-list">
+        
+          <article class="release-item release-item--major-release" data-release-item data-release-type="major-release">
+            <div class="release-item__meta">
+              <span>Microsoft.Extensions.AI</span>
+              <time datetime="2026-11-11T02:32:54&#43;00:00">Nov 11, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/dotnet/extensions/releases/tag/v11.0.0" rel="noopener">Microsoft.Extensions.AI 11.0.0</a></h3>
+              <p>Version 11.0.0 ships alongside .NET 11 and with net11 targets added to packages. Highlights of this release include new experimental Documents and Document Extraction abstractions, metric instrument descriptions, and a sliding-window retry budget for HTTP resilience. HTTP server…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Major Release</span>
+              <span>Official</span>
+            </div>
+          </article>
+        
+          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
+            <div class="release-item__meta">
+              <span>Anthropic C# SDK</span>
+              <time datetime="2026-11-10T17:11:15&#43;00:00">Nov 10, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.8.0" rel="noopener">Anthropic C# SDK 13.8.0</a></h3>
+              <p>api: add Claude Tag metrics to the analytics summaries and users reports api: add replymode to Claude Tag Slack channel settings docs: clarify displayname for RBAC Roles created by Anthropic docs: clarify plugin delete and skill name conflict descriptions docs: clarify when to…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Sdk Release</span>
+              <span>Official</span>
+            </div>
+          </article>
         
           <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
             <div class="release-item__meta">
@@ -2415,21 +2445,6 @@
             <div class="release-item__content">
               <h3><a href="https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.14.0" rel="noopener">OpenAI .NET SDK 2.14.0</a></h3>
               <p>See the official release notes for details.</p>
-            </div>
-            <div class="release-item__labels">
-              <span class="release-type">Sdk Release</span>
-              <span>Official</span>
-            </div>
-          </article>
-        
-          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
-            <div class="release-item__meta">
-              <span>Anthropic C# SDK</span>
-              <time datetime="2026-09-15T15:15:38&#43;00:00">Sep 15, 2026</time>
-            </div>
-            <div class="release-item__content">
-              <h3><a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.48.0" rel="noopener">Anthropic C# SDK 12.48.0</a></h3>
-              <p>api: add auto mode tool permissions for Managed Agents (0271c76) api: add compaction parameter and signed compaction blocks (beta) (8de3a4e) api: add enum types for workspace data-residency geo fields (59cd52e) api: add thinkingmismatchallowed entries to inputtransformations…</p>
             </div>
             <div class="release-item__labels">
               <span class="release-type">Sdk Release</span>
