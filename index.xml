@@ -7,7 +7,75 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 20:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Nov 2026 01:07:19 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Kimi K3.1 Pro on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/52c1a0c9377c/</link>
+      <pubDate>Wed, 11 Nov 2026 01:07:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/52c1a0c9377c/</guid>
+      <description>
+        
+          
+            Kimi K3.1 Pro from Moonshot AI is now available on Amazon Bedrock. Learn how to get started through the OpenAI-compatible Chat Completions, Responses, and Converse APIs, optimize inference with explicit prompt caching, and use the model as a coding assistant in OpenCode.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search</title>
+      <link>https://www.dotnetramblings.com/post/10_11_2026/55fb77d5f91b/</link>
+      <pubDate>Tue, 10 Nov 2026 23:34:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_11_2026/55fb77d5f91b/</guid>
+      <description>
+        
+          
+            The Web Search API in Amazon Bedrock AgentCore gives agents current, cited web results signed with the AWS credentials they already use. In this post, build a daily dependency watcher as a LangGraph graph that researches package ecosystems in parallel, keeps its rules in code, and checks every finding against its cited sources.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations</title>
+      <link>https://www.dotnetramblings.com/post/10_11_2026/14f6b8b42007/</link>
+      <pubDate>Tue, 10 Nov 2026 22:35:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_11_2026/14f6b8b42007/</guid>
+      <description>
+        
+          
+            When you deploy an agent, whether it is working is really several questions: did it finish the task, stay on topic, leak data, or skip steps? This post shows how to evaluate agents on Amazon Bedrock AgentCore with built-in, DeepEval, and AutoEval evaluators, and how to match each behavior that matters to the right evaluator at the right level.
+Worth a read for developers following AWS and AI. Link to article: https://aws.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ReSharper 2026.3: Claude Agent and Codex in Visual Studio, .NET 11 and C# 15 Support, and More</title>
+      <link>https://www.dotnetramblings.com/post/10_11_2026/a197f131019b/</link>
+      <pubDate>Tue, 10 Nov 2026 21:43:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/10_11_2026/a197f131019b/</guid>
+      <description>
+        
+          
+            ReSharper 2026.2 brought Junie to Visual Studio as ReSharper’s first coding agent. In 2026.3, you can also pick Claude Agent or Codex in the same tool window. All three agents can use ReSharper’s refactoring skill to run refactorings such as Rename. This release also supports .NET 11 and C# 15, and the test runner now […]
+Worth a read for developers following Visual Studio and .NET. Link to article: https://blog.jetbrains.com/dotnet/2026/11/10/resharper-2026-3-release 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Characterization Tests Before Refactoring C# Code</title>
       <link>https://www.dotnetramblings.com/post/10_11_2026/7a867368c361/</link>
@@ -3266,40 +3334,6 @@ Worth a watch for developers following Data and Security. Link to video: https:/
     </item>
     
     <item>
-      <title>Introducing Tiny Clips Studio: Screen Recordings You Can Keep Editing</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/da261f24e0ce/</link>
-      <pubDate>Tue, 03 Nov 2026 22:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/da261f24e0ce/</guid>
-      <description>
-        
-          
-            Record now. Choose the look afterward. Tiny Clips Studio keeps your screen and camera separate so you can change layouts, add zooms, and export without giving up the ability to edit again.
-Worth a read for developers following General. Link to article: https://montemagno.com/introducing-tiny-clips-studio 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Flow-based specifications with Bobcat</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/6ce4b325ed8b/</link>
-      <pubDate>Tue, 03 Nov 2026 21:02:06 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/6ce4b325ed8b/</guid>
-      <description>
-        
-          
-            Babu added a new feature to our JasperFx CRM website to allow folks to download trial licenses to CritterWatch to try it out before purchasing. It’s a small feature with a long tail: a prospect fills in a form, we email them a verification link, they click it, and in one transaction we provision an … Continue reading Flow-based specifications with Bobcat →
-Worth a read for developers following General. Link to article: https://jeremydmiller.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Building Smarter, Agentic Media Operations with DataMiner | Skyline Communications</title>
       <link>https://www.dotnetramblings.com/videos/03_11_2026/59b5e8a17a59/</link>
       <pubDate>Tue, 03 Nov 2026 21:00:03 +0000</pubDate>
@@ -3402,23 +3436,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
     </item>
     
     <item>
-      <title>Delivering Skills in NuGet packages</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/f8e28c27ae3e/</link>
-      <pubDate>Tue, 03 Nov 2026 19:00:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/f8e28c27ae3e/</guid>
-      <description>
-        
-          
-            Agent skills can be delivered in NuGet packages as a way to deliver up-to-date library documentation to models. The post Delivering Skills in NuGet packages appeared first on .NET Blog .
-Worth a read for developers following .NET and AI. Link to article: https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Microsoft Fabric at Scale: Build, Deploy, and Govern (Option 1)</title>
       <link>https://www.dotnetramblings.com/videos/03_11_2026/c288f9aadd63/</link>
       <pubDate>Tue, 03 Nov 2026 18:05:35 +0000</pubDate>
@@ -3446,142 +3463,6 @@ Worth a watch for developers following AI and Security. Link to video: https://w
           
             George Hampton from MediaKind demonstrates how MK.IO, MediaKind&#39;s SaaS video platform, integrates with Microsoft Copilot to ...
 Worth a watch for developers following Azure and AI. Link to video: https://www.youtube.com/watch?v=Jwc7ng2GEvs 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Polymorphism in C#: What Runs Through Base and Interface References?</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/1a64dfaeddaa/</link>
-      <pubDate>Tue, 03 Nov 2026 18:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/1a64dfaeddaa/</guid>
-      <description>
-        
-          
-            Understand polymorphism in C# by tracing base and interface calls, comparing virtual overrides with new hiding, and reading explicit implementations clearly.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/03/polymorphism-in-c-what-runs-through-base-and-interface-references 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Get Ready for .NET Conf 2026!</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/331b82bc98c6/</link>
-      <pubDate>Tue, 03 Nov 2026 17:30:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/331b82bc98c6/</guid>
-      <description>
-        
-          
-            .NET Conf is one week away! Join us November 10-13 for the launch of .NET 11, two days of Microsoft sessions, and two days of Community Days. The post Get Ready for .NET Conf 2026! appeared first on .NET Blog .
-Worth a read for developers following .NET. Link to article: https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bring structured and unstructured data together with Amazon Quick</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/81baaaf3b2d1/</link>
-      <pubDate>Tue, 03 Nov 2026 16:49:29 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/81baaaf3b2d1/</guid>
-      <description>
-        
-          
-            Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/841c3ce16d85/</link>
-      <pubDate>Tue, 03 Nov 2026 16:47:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/841c3ce16d85/</guid>
-      <description>
-        
-          
-            Learn how to configure Amazon Bedrock AgentCore Gateway for an on-behalf-of (OBO) token exchange with Microsoft Entra ID, so an AI agent can call the ServiceNow REST API while preserving the calling user&#39;s identity. AgentCore Gateway performs the exchange natively, with no interceptor Lambda or custom code.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Gen Digital built Norton Revamp’s AI-curated News Engine with Amazon Bedrock AgentCore Web Search</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/74c9b2e03867/</link>
-      <pubDate>Tue, 03 Nov 2026 16:43:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/74c9b2e03867/</guid>
-      <description>
-        
-          
-            Gen Digital built Norton Revamp, a generative AI-powered professional reputation management platform, with an AI-curated News Engine grounded by Web Search on Amazon Bedrock AgentCore. See how the Gen team delivers real-time, cited content suggestions, goal setting, and news feeds with zero data egress and Norton-grade privacy.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/ef509d7a4530/</link>
-      <pubDate>Tue, 03 Nov 2026 16:41:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/ef509d7a4530/</guid>
-      <description>
-        
-          
-            Learn how to build a governed semantic layer for agentic AI inside EDB Postgres AI and query it from a Strands Agents agent on Amazon Bedrock AgentCore. Business meaning, join paths, and access control all live in Postgres, with GRANT and row-level security enforcing what each agent can read.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building ultra-low-latency voice AI applications on AWS</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/e466f624af7d/</link>
-      <pubDate>Tue, 03 Nov 2026 16:40:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/e466f624af7d/</guid>
-      <description>
-        
-          
-            Learn how Cartesia, an AWS Partner, uses purpose-built State Space Models and AWS infrastructure to deliver sub-100ms text-to-speech and speech-to-text at global scale, and how to deploy its Sonic model on Amazon SageMaker AI or self-managed Amazon EC2 GPU instances.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing India-based inference for Kimi K3 on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/020b7910e3b4/</link>
-      <pubDate>Tue, 03 Nov 2026 16:32:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/020b7910e3b4/</guid>
-      <description>
-        
-          
-            Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad Regions. This post explains the global and geographic cross-Region inference options and shares example code for reading and understanding Indic-language documents with Kimi K3.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock 
           
           
         
@@ -3633,23 +3514,6 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
           
             See how Global Objects uses Microsoft Azure and 3D technology to rethink location scouting for media production. Erick Geisler ...
 Worth a watch for developers following Azure. Link to video: https://www.youtube.com/watch?v=VJZ-Iwb4J8A 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Turning Repeated Mentoring Help Into Reusable Learning</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/ec1f1037b9ce/</link>
-      <pubDate>Tue, 03 Nov 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/ec1f1037b9ce/</guid>
-      <description>
-        
-          
-            Make learning useful beyond one mentoring conversation. Capture reasoning, improve shared examples, and reduce dependence without replacing human support.
-Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/11/03/turning-repeated-mentoring-help-into-reusable-learning 
           
           
         
@@ -3759,39 +3623,6 @@ Worth a watch for developers following AI. Link to video: https://www.youtube.co
     </item>
     
     <item>
-      <title>Accelerating engineering for the physical world</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/26c6032e1d26/</link>
-      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/26c6032e1d26/</guid>
-      <description>
-        
-          
-            Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.
-Worth a read for developers following AI. Link to article: https://openai.com/index/accelerating-engineering-for-the-physical-world 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Migrating to runtime async</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/8692d8a6bde3/</link>
-      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/8692d8a6bde3/</guid>
-      <description>
-        
-          
-            This is the last post of the series proper, with one bonus post to follow. The previous two posts showed what runtime async does to the IL and to the numbers. This one is about the code you already have. The short version: almost nothing changes, and that is the point. The longer version is worth reading before you turn it on in anything that matters. What does not change Every behaviour this series…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Software Developer Graduates 2031 - Anne M. V. Bosch - NDC Oslo 2026</title>
       <link>https://www.dotnetramblings.com/videos/03_11_2026/fc5f9e0fc47e/</link>
       <pubDate>Tue, 03 Nov 2026 11:48:29 +0000</pubDate>
@@ -3853,23 +3684,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
           
             This talk was recorded at NDC Oslo in Oslo, Norway. #ndcoslo #ndcconferences #developer #softwaredeveloper Attend the next ...
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=W7FApS-s_L8 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Understanding Lazy thread safety modes</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/69f8b5208138/</link>
-      <pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/69f8b5208138/</guid>
-      <description>
-        
-          
-            In this post I look at how the different LazyThreadSafetyMode values work with Lazy, and how exceptions are handled for each mode
-Worth a read for developers following .NET. Link to article: https://andrewlock.net/understanding-lazy-thread-safety-modes 
           
           
         
@@ -3945,23 +3759,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
     </item>
     
     <item>
-      <title>Installing MikroTik CHR on any VPS</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/3cd601f047b0/</link>
-      <pubDate>Tue, 03 Nov 2026 08:44:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/3cd601f047b0/</guid>
-      <description>
-        
-          
-            Every now and then I want a MikroTik Cloud Hosted Router (CHR) running somewhere on the internet. To test something, to learn something, or just to play with it. A cheap VPS is perfect for that. Getting CHR onto it, though, isn’t always as easy as it could be.
-Worth a read for developers following .NET and Data. Link to article: https://www.tabsoverspaces.com/233981-installing-mikrotik-chr-on-any-vps 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>How to Run AI Agents at the Industrial Edge</title>
       <link>https://www.dotnetramblings.com/videos/03_11_2026/0cf5a7454e17/</link>
       <pubDate>Tue, 03 Nov 2026 08:00:26 +0000</pubDate>
@@ -3972,74 +3769,6 @@ Worth a read for developers following .NET and Data. Link to article: https://ww
           
             Physical AI connects real equipment to AI agents through a hybrid architecture. Cloud-connected devices link directly to Azure IoT ...
 Worth a watch for developers following AI and Azure. Link to video: https://www.youtube.com/watch?v=J9GDIAewjPY 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Heimstaden is changing residential real estate management with AI</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/08b710f1e780/</link>
-      <pubDate>Tue, 03 Nov 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/08b710f1e780/</guid>
-      <description>
-        
-          
-            Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.
-Worth a read for developers following AI. Link to article: https://openai.com/index/heimstaden 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Cisco defends at machine speed with OpenAI</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/a2357e701f02/</link>
-      <pubDate>Tue, 03 Nov 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/a2357e701f02/</guid>
-      <description>
-        
-          
-            Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.
-Worth a read for developers following AI and Security. Link to article: https://openai.com/index/cisco-cyber 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What is tool calling in AI? Build a simple .NET example</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/dc5f98649ad7/</link>
-      <pubDate>Tue, 03 Nov 2026 07:58:58 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/dc5f98649ad7/</guid>
-      <description>
-        
-          
-            LLMs understand language, but they can&#39;t query your database or call an API on their own. Tool calling closes that gap: the model names a function and its arguments, and your app runs it. This post walks through a flight booking example, shows a C# tool definition, and covers common use cases.
-Worth a read for developers following .NET and AI. Link to article: https://blog.elmah.io/what-is-tool-calling-in-ai-build-a-simple-net-example 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer</title>
-      <link>https://www.dotnetramblings.com/post/03_11_2026/3d509e27bae2/</link>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/03_11_2026/3d509e27bae2/</guid>
-      <description>
-        
-          
-            Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.
-Worth a read for developers following AI. Link to article: https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer 
           
           
         

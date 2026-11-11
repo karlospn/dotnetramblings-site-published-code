@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>What is tool calling in AI? Build a simple .NET example | .NET Ramblings</title>
+<title>The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="LLMs understand language, but they can&amp;#39;t query your database or call an API on their own. Tool calling closes that gap: the model names a function and its …">
+<meta name="description" content="When you deploy an agent, whether it is working is really several questions: did it finish the task, stay on topic, leak data, or skip steps? This post shows …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="What is tool calling in AI? Build a simple .NET example">
-<meta name="twitter:description" content="LLMs understand language, but they can&amp;#39;t query your database or call an API on their own. Tool calling closes that gap: the model names a function and its …">
-<meta name="twitter:image" content="https://storage.ghost.io/c/a8/df/a8df410f-f385-46fe-9464-e894f7952067/content/images/2026/09/what-is-tool-calling-in-ai-build-a-simple-dot.net-example-o.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/03_11_2026/dc5f98649ad7/">
-<meta property="og:title" content="What is tool calling in AI? Build a simple .NET example">
-<meta property="og:description" content="LLMs understand language, but they can&amp;#39;t query your database or call an API on their own. Tool calling closes that gap: the model names a function and its …">
-<meta property="og:image" content="https://storage.ghost.io/c/a8/df/a8df410f-f385-46fe-9464-e894f7952067/content/images/2026/09/what-is-tool-calling-in-ai-build-a-simple-dot.net-example-o.png">
+<meta name="twitter:title" content="The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations">
+<meta name="twitter:description" content="When you deploy an agent, whether it is working is really several questions: did it finish the task, stay on topic, leak data, or skip steps? This post shows …">
+<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21893-featured-image.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/10_11_2026/14f6b8b42007/">
+<meta property="og:title" content="The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations">
+<meta property="og:description" content="When you deploy an agent, whether it is working is really several questions: did it finish the task, stay on topic, leak data, or skip steps? This post shows …">
+<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21893-featured-image.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://blog.elmah.io/what-is-tool-calling-in-ai-build-a-simple-net-example">
+<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,25 +146,24 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">What is tool calling in AI? Build a simple .NET example</h1>
+    <h1 class="post_title">The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Nov 3, 2026</span>
+      <span class="post_date">Nov 10, 2026</span>
       <span>
-          <a href="https://www.dotnetramblings.com/topics/.net/" title=".NET" class="post_tag button button_translucent">.NET</a>
+          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
           <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
-          <a href="https://www.dotnetramblings.com/topics/data/" title="Data" class="post_tag button button_translucent">Data</a>
       </span>
   </div>
 
-    <div class="post_body"><p>LLMs understand language, but they can't query your database or call an API on their own. Tool calling closes that gap: the model names a function and its arguments, and your app runs it. This post walks through a flight booking example, shows a C# tool definition, and covers common use cases.</p>
+    <div class="post_body"><p>When you deploy an agent, whether it is working is really several questions: did it finish the task, stay on topic, leak data, or skip steps? This post shows how to evaluate agents on Amazon Bedrock AgentCore with built-in, DeepEval, and AutoEval evaluators, and how to match each behavior that matters to the right evaluator at the right level.</p>
 <ul>
-<li>Worth a read for developers following .NET and AI.</li>
-<li>Link to article: <a href="https://blog.elmah.io/what-is-tool-calling-in-ai-build-a-simple-net-example">https://blog.elmah.io/what-is-tool-calling-in-ai-build-a-simple-net-example</a></li>
+<li>Worth a read for developers following AWS and AI.</li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore">https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore</a></li>
 </ul>
 
     </div>
