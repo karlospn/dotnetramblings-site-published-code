@@ -7,7 +7,194 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 15:26:12 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Nov 2026 20:51:55 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Four Amazon Bedrock inference choices that affect cost</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/e9b2308e4ac3/</link>
+      <pubDate>Thu, 12 Nov 2026 20:51:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/e9b2308e4ac3/</guid>
+      <description>
+        
+          
+            Your Amazon Bedrock inference bill can keep climbing even after you tune prompts and application logic. Four request-level choices (cache duration, service tier, reasoning effort, and maxTokens) change how many tokens the service processes and the rate applied. We show how we tested each and how to verify the effect.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Amplitude ships product improvements in 1–2 days with OpenAI</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/372847c94994/</link>
+      <pubDate>Thu, 12 Nov 2026 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/372847c94994/</guid>
+      <description>
+        
+          
+            Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.
+Worth a read for developers following AI. Link to article: https://openai.com/index/amplitude 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Refactoring Diff Review in C#: Find Hidden Behavior Changes</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/3741f5f46e44/</link>
+      <pubDate>Thu, 12 Nov 2026 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/3741f5f46e44/</guid>
+      <description>
+        
+          
+            Learn refactoring diff review in C# by checking evaluation order, null handling, exceptions, loop exits, and targeted examples that expose behavior changes.
+Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/12/refactoring-diff-review-in-c-find-hidden-behavior-changes 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/c8c5dc29297d/</link>
+      <pubDate>Thu, 12 Nov 2026 19:29:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/c8c5dc29297d/</guid>
+      <description>
+        
+          
+            Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Optimizing cost per task and proving agent ROI on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/4e46e49750fb/</link>
+      <pubDate>Thu, 12 Nov 2026 18:43:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/4e46e49750fb/</guid>
+      <description>
+        
+          
+            Comparing per-token prices hides the real cost of running a model on Amazon Bedrock. This post shows how to calculate the true cost per task across four hidden cost drivers, reduce it with caching, routing, and output constraints, and prove agent ROI with human baselines, holdout experiments, and a five-dimension scorecard.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building a self-service LLM gateway with Amazon Bedrock and LiteLLM</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/83054ecb029e/</link>
+      <pubDate>Thu, 12 Nov 2026 18:41:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/83054ecb029e/</guid>
+      <description>
+        
+          
+            Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind an OpenAI-compatible API. Developers get instant access through a single API key, while platform teams gain per-user cost controls, quota isolation, and observability.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Run agents securely and efficiently with the next generation AgentCore runtime</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/85bacafff424/</link>
+      <pubDate>Thu, 12 Nov 2026 17:59:59 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/85bacafff424/</guid>
+      <description>
+        
+          
+            AI agents now run multi-step workloads for hours and act on behalf of users, raising the bar for secure, scalable agent compute. Learn how the next generation of Amazon Bedrock AgentCore runtime delivers hardware-isolated sessions with faster starts, more compute, usage-based billing, and isolation that now extends to your data.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Migrate to Amazon Bedrock Managed Knowledge Base with your coding agent</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/6d29ea24a6e6/</link>
+      <pubDate>Thu, 12 Nov 2026 16:16:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/6d29ea24a6e6/</guid>
+      <description>
+        
+          
+            The migration guide in the amazon-bedrock skill helps you migrate a customer-managed Amazon Bedrock knowledge base to a Managed Knowledge Base. Your coding agent plans the move with read-only discovery, creates the new knowledge base or an infrastructure-as-code template alongside the original, and validates retrieval before you cut over.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build composable, interoperable multi-agent systems with A2A on AWS</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/d3206ea89ca2/</link>
+      <pubDate>Thu, 12 Nov 2026 15:42:21 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/d3206ea89ca2/</guid>
+      <description>
+        
+          
+            Build a composable, interoperable multi-agent system on AWS with the Agent-to-Agent (A2A) protocol. A LangChain orchestrator on Amazon ECS communicates with a Strands agent on Amazon Bedrock AgentCore across organizational boundaries, using bidirectional, OAuth-authenticated calls, with neither side depending on the other&#39;s framework or SDK.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/9ed2099ae485/</link>
+      <pubDate>Thu, 12 Nov 2026 15:40:24 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/9ed2099ae485/</guid>
+      <description>
+        
+          
+            Learn how to expose an Amazon Bedrock Managed Knowledge Base to AI agents as MCP tools through Amazon Bedrock AgentCore Gateway while keeping per-user access control. A request interceptor injects verified identity, Policy in AgentCore validates it independently, and a resource-based policy restricts direct access to the knowledge base.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From prototype to production: Engineering agents with Agent DLC</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/aff6802cc567/</link>
+      <pubDate>Thu, 12 Nov 2026 15:38:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/aff6802cc567/</guid>
+      <description>
+        
+          
+            Agents stall between demo and release when teams lack a repeatable way to measure how good an agent is and whether the last change helped. This post covers three agent properties that break traditional CI/CD, a measured case where an aggregate metric hides a coverage gap, and Agent DLC: one lifecycle, two loops, and one explicit standard for judging every change.
+Worth a read for developers following AI and AWS. Link to article: https://aws.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Fireside Chat with Erik Bernhardsson, Modal</title>
       <link>https://www.dotnetramblings.com/videos/12_11_2026/7ac7de19a0ad/</link>
@@ -19,6 +206,23 @@
           
             Erik Bernhardsson, CEO and Co-Founder of Modal, explains what drove demand for Modal&#39;s sandboxes (vibe coding apps, ...
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=1M8vagUOdJM 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build better applications with Bold BI, a Visual Studio subscriber benefit from Syncfusion</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/29aaf095ddde/</link>
+      <pubDate>Thu, 12 Nov 2026 15:00:31 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/29aaf095ddde/</guid>
+      <description>
+        
+          
+            I was talking with a developer recently about a project his team was working on. They’d built an application, connected their data sources, and had everything in working order. Then came another request from management: Could they add a dashboard within the app so users could actually see what was happening with all that data? […] The post Build better applications with Bold BI, a Visual Studio subscriber benefit…
+Worth a read for developers following Visual Studio.
           
           
         
