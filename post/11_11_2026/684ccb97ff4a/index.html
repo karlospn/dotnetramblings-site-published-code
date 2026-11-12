@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>How Indegene is modernizing and scaling enterprise data quality in life sciences | .NET Ramblings</title>
+<title>What I think so far about Spec Driven Development | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="This post explores how Indegene built a production-grade, LLM-powered Data Quality Agent in its NEXT Unified Data Platform on AWS. The agent generates …">
+<meta name="description" content="TL;DR: I don’t believe that AI is going to lead to a “Waterfall Renaissance, ” and I see SDD as valuable, but we’re leaning into it as “BDD in the AI Era”. In …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="How Indegene is modernizing and scaling enterprise data quality in life sciences">
-<meta name="twitter:description" content="This post explores how Indegene built a production-grade, LLM-powered Data Quality Agent in its NEXT Unified Data Platform on AWS. The agent generates …">
-<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21740-featured-image.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/04_11_2026/b860dcb6054f/">
-<meta property="og:title" content="How Indegene is modernizing and scaling enterprise data quality in life sciences">
-<meta property="og:description" content="This post explores how Indegene built a production-grade, LLM-powered Data Quality Agent in its NEXT Unified Data Platform on AWS. The agent generates …">
-<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21740-featured-image.png">
+<meta name="twitter:title" content="What I think so far about Spec Driven Development">
+<meta name="twitter:description" content="TL;DR: I don’t believe that AI is going to lead to a “Waterfall Renaissance, ” and I see SDD as valuable, but we’re leaning into it as “BDD in the AI Era”. In …">
+<meta name="twitter:image" content="https://0.gravatar.com/avatar/c4ea4a7e0b4088fb62a4d5386566b6bd45df7b1d33100c49bb775fa6edfff6fa?s=96&amp;d=identicon&amp;r=G">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/11_11_2026/684ccb97ff4a/">
+<meta property="og:title" content="What I think so far about Spec Driven Development">
+<meta property="og:description" content="TL;DR: I don’t believe that AI is going to lead to a “Waterfall Renaissance, ” and I see SDD as valuable, but we’re leaning into it as “BDD in the AI Era”. In …">
+<meta property="og:image" content="https://0.gravatar.com/avatar/c4ea4a7e0b4088fb62a4d5386566b6bd45df7b1d33100c49bb775fa6edfff6fa?s=96&amp;d=identicon&amp;r=G">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences">
+<link rel="canonical" href="https://jeremydmiller.com/2026/11/11/what-i-think-so-far-about-spec-driven-development">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,25 +146,23 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">How Indegene is modernizing and scaling enterprise data quality in life sciences</h1>
+    <h1 class="post_title">What I think so far about Spec Driven Development</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Nov 4, 2026</span>
+      <span class="post_date">Nov 11, 2026</span>
       <span>
-          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
           <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
-          <a href="https://www.dotnetramblings.com/topics/python/" title="Python" class="post_tag button button_translucent">Python</a>
       </span>
   </div>
 
-    <div class="post_body"><p>This post explores how Indegene built a production-grade, LLM-powered Data Quality Agent in its NEXT Unified Data Platform on AWS. The agent generates context-aware data quality rules, validates them, and produces ready-to-run SQL and Python under human-in-the-loop governance, helping life sciences organizations scale enterprise data quality.</p>
+    <div class="post_body"><p>TL;DR: I don’t believe that AI is going to lead to a “Waterfall Renaissance, ” and I see SDD as valuable, but we’re leaning into it as “BDD in the AI Era”. In my live stream yesterday (at about the 45 minute mark if you’re curious) Vedran Zakanj wrote this in the chat I think … Continue reading What I think so far about Spec Driven Development →</p>
 <ul>
-<li>Worth a read for developers following AWS and AI.</li>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences">https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences</a></li>
+<li>Worth a read for developers following AI.</li>
+<li>Link to article: <a href="https://jeremydmiller.com/2026/11/11/what-i-think-so-far-about-spec-driven-development">https://jeremydmiller.com/2026/11/11/what-i-think-so-far-about-spec-driven-development</a></li>
 </ul>
 
     </div>

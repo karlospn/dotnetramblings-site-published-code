@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>A thousand fewer paths to root | .NET Ramblings</title>
+<title>Semantic diffing of formal policies with anti-unification | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,18 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.
-Worth a …">
+<meta name="description" content="A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="A thousand fewer paths to root">
-<meta name="twitter:description" content="OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.
-Worth a …">
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/devops.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/04_11_2026/a4f4c423c542/">
-<meta property="og:title" content="A thousand fewer paths to root">
-<meta property="og:description" content="OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.
-Worth a …">
-<meta property="og:image" content="https://www.dotnetramblings.com/images/devops.png">
+<meta name="twitter:title" content="Semantic diffing of formal policies with anti-unification">
+<meta name="twitter:description" content="A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, …">
+<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21875-featured-image.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/11_11_2026/cf5ad5ad4907/">
+<meta property="og:title" content="Semantic diffing of formal policies with anti-unification">
+<meta property="og:description" content="A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, …">
+<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21875-featured-image.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -44,7 +41,7 @@ Worth a …">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://openai.com/index/a-thousand-fewer-paths-to-root">
+<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -149,24 +146,25 @@ Worth a …">
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">A thousand fewer paths to root</h1>
+    <h1 class="post_title">Semantic diffing of formal policies with anti-unification</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Nov 4, 2026</span>
+      <span class="post_date">Nov 11, 2026</span>
       <span>
-          <a href="https://www.dotnetramblings.com/topics/devops/" title="DevOps" class="post_tag button button_translucent">DevOps</a>
+          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
           <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
+          <a href="https://www.dotnetramblings.com/topics/security/" title="Security" class="post_tag button button_translucent">Security</a>
       </span>
   </div>
 
-    <div class="post_body"><p>OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.</p>
+    <div class="post_body"><p>A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.</p>
 <ul>
-<li>Worth a read for developers following DevOps and AI.</li>
-<li>Link to article: <a href="https://openai.com/index/a-thousand-fewer-paths-to-root">https://openai.com/index/a-thousand-fewer-paths-to-root</a></li>
+<li>Worth a read for developers following AWS and AI.</li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification">https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification</a></li>
 </ul>
 
     </div>

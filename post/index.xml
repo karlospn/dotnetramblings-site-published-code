@@ -7,7 +7,160 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 11 Nov 2026 21:05:59 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Nov 2026 01:18:23 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build autonomous AI agents with Amazon Bedrock and Spring AI</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/a0a8bd68435e/</link>
+      <pubDate>Thu, 12 Nov 2026 01:18:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/a0a8bd68435e/</guid>
+      <description>
+        
+          
+            Learn how Java developers can build production-ready autonomous AI agents using Amazon Bedrock and Spring AI. This post walks through tool calling, conversation memory, resilience patterns, and multi-agent orchestration, then deploys the agent to AWS with Amazon Bedrock AgentCore.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Gilbert &#43; Tobin rethinks the business of law with AI</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/f28f90d2895a/</link>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/f28f90d2895a/</guid>
+      <description>
+        
+          
+            A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.
+Worth a read for developers following AI. Link to article: https://openai.com/index/gilbert-tobin-sam-nickless 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Event Social Post Wall: From .NET Conf to Your Next Event</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/5e0f91df741a/</link>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/5e0f91df741a/</guid>
+      <description>
+        
+          
+            Thousands of comments and posts, 10 moderators, and one community conversation. Meet the open-source version of our .NET Conf Community Wall and see how Aspire brings its three sites together.
+Worth a read for developers following .NET. Link to article: https://montemagno.com/introducing-event-social-post-wall 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI Codex on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/0566809c6575/</link>
+      <pubDate>Wed, 11 Nov 2026 23:35:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/0566809c6575/</guid>
+      <description>
+        
+          
+            A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Semantic diffing of formal policies with anti-unification</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/cf5ad5ad4907/</link>
+      <pubDate>Wed, 11 Nov 2026 23:33:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/cf5ad5ad4907/</guid>
+      <description>
+        
+          
+            A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/005484e05b9e/</link>
+      <pubDate>Wed, 11 Nov 2026 23:30:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/005484e05b9e/</guid>
+      <description>
+        
+          
+            Silent data corruption is a GPU fault that returns wrong but plausible numbers with no error, quietly poisoning distributed training. This post adds three checks to a PyTorch DDP loop to detect it, localize the faulty node on Amazon SageMaker HyperPod, and hand the node to automatic recovery for replacement.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing the Web Search API on Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/263d7dc4e1e2/</link>
+      <pubDate>Wed, 11 Nov 2026 23:13:16 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/263d7dc4e1e2/</guid>
+      <description>
+        
+          
+            Today we&#39;re announcing the Web Search API on Amazon Bedrock AgentCore: your own code can search the web with a single signed API call, with no gateway and no resources to create. Call it from the AWS SDKs or the AWS CLI and use it in applications, agent loops, and data pipelines.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What I think so far about Spec Driven Development</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/684ccb97ff4a/</link>
+      <pubDate>Wed, 11 Nov 2026 23:00:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/684ccb97ff4a/</guid>
+      <description>
+        
+          
+            TL;DR: I don’t believe that AI is going to lead to a “Waterfall Renaissance, ” and I see SDD as valuable, but we’re leaning into it as “BDD in the AI Era”. In my live stream yesterday (at about the 45 minute mark if you’re curious) Vedran Zakanj wrote this in the chat I think … Continue reading What I think so far about Spec Driven Development →
+Worth a read for developers following AI.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ICYMI: What landed for AI builders in October 2026</title>
+      <link>https://www.dotnetramblings.com/post/11_11_2026/8b208eddf6e2/</link>
+      <pubDate>Wed, 11 Nov 2026 22:26:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/11_11_2026/8b208eddf6e2/</guid>
+      <description>
+        
+          
+            A recap of the major Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from October 2026: new models to match each task, updates that keep agents available and grounded, and clearer cost reporting for AI builders.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The attendee’s guide to the AWS re:Invent 2026 AI/ML track</title>
       <link>https://www.dotnetramblings.com/post/11_11_2026/6dbf5bd5b92f/</link>
@@ -1610,276 +1763,6 @@ Worth a read for developers following .
           
             Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.
 Worth a read for developers following AI. Link to article: https://openai.com/index/franklin-templeton 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Use decision models with Amazon Bedrock AgentCore Evaluations</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/1840d116fbdd/</link>
-      <pubDate>Wed, 04 Nov 2026 18:46:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/1840d116fbdd/</guid>
-      <description>
-        
-          
-            Some agent-evaluation questions are narrow and repeatable, and decision models answer exactly that kind of question. This post shows how to connect two decision models, Jev and Strands Decider, to Amazon Bedrock AgentCore Evaluations through code-based evaluators, and how to validate a decision-model check before you gate a release on it.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Designing C# Event Contracts: Payloads, Notifications, and Decisions</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/88dc114f7e8d/</link>
-      <pubDate>Wed, 04 Nov 2026 18:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/88dc114f7e8d/</guid>
-      <description>
-        
-          
-            Understand C# event contracts with practical payload and decision examples, explicit notification timing, no-subscriber defaults, and failure boundaries.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/04/designing-c-event-contracts-payloads-notifications-and-decisions 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Starting a new tutorial series on Event Modeling w/ the Critter Stack</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/9e9ea042335b/</link>
-      <pubDate>Wed, 04 Nov 2026 17:43:41 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/9e9ea042335b/</guid>
-      <description>
-        
-          
-            The motif of the picture up above is the old saying “the cobbler’s children have no shoes.” In the case of JasperFx Software, we’re a software development consultancy that hasn’t done enough (yet) to automate our own business. Now that development is pretty cheap with our new fangled AI tools, I’m looking to take our … Continue reading Starting a new tutorial series on Event Modeling w/ the Critter Stack →
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Smart Approvals in Amazon Quick: Human oversight where it matters</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/5dcd8c391f4d/</link>
-      <pubDate>Wed, 04 Nov 2026 16:33:03 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/5dcd8c391f4d/</guid>
-      <description>
-        
-          
-            Smart Approvals in Amazon Quick reviews eligible agent actions within your existing controls, reducing unnecessary approval prompts while keeping consequential decisions with a person. See how policy sets the boundary, how a classifier reviews actions, and how AWS CloudTrail and Amazon CloudWatch Logs support audit.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Four layers of context engineering for production AI agents: How Deep Insight applies them in working code</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/2240c9709353/</link>
-      <pubDate>Wed, 04 Nov 2026 16:30:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/2240c9709353/</guid>
-      <description>
-        
-          
-            In production AI agents, context management is the real bottleneck. This post presents a four-layer context engineering framework (architecture, prompts, file-based tools, and verification agents), implemented in working code from Deep Insight, an open source multi-agent data analysis solution on the Strands Agents SDK and Amazon Bedrock AgentCore.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Indegene is modernizing and scaling enterprise data quality in life sciences</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/b860dcb6054f/</link>
-      <pubDate>Wed, 04 Nov 2026 16:25:57 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/b860dcb6054f/</guid>
-      <description>
-        
-          
-            This post explores how Indegene built a production-grade, LLM-powered Data Quality Agent in its NEXT Unified Data Platform on AWS. The agent generates context-aware data quality rules, validates them, and produces ready-to-run SQL and Python under human-in-the-loop governance, helping life sciences organizations scale enterprise data quality.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How U Mobile built agentic telco operations with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/c5387dca01dc/</link>
-      <pubDate>Wed, 04 Nov 2026 16:23:33 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/c5387dca01dc/</guid>
-      <description>
-        
-          
-            U Mobile, Malaysia&#39;s newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Connect an Existing C# MCP Server to Claude Code</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/8b2b001430b9/</link>
-      <pubDate>Wed, 04 Nov 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/8b2b001430b9/</guid>
-      <description>
-        
-          
-            Connect an existing C# MCP server to Claude Code using stdio or HTTP, then understand configuration scope, tool discovery, authorization, and failure evidence.
-Worth a read for developers following .NET and Security. Link to article: https://www.devleader.ca/2026/11/04/connect-an-existing-c-mcp-server-to-claude-code 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/9bc464ef8a07/</link>
-      <pubDate>Wed, 04 Nov 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/9bc464ef8a07/</guid>
-      <description>
-        
-          
-            Azure Failure Prediction and Detection (AFPD) helps reduce interruptions by predicting hardware failures, moving eligible workloads, and notifying customers when action is needed. See what that means for SAP on Azure and other mission-critical workloads. The post Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads appeared first on Microsoft Azure Blog .
-Worth a read for developers following Azure. Link to article: https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/b2474e8b3d0c/</link>
-      <pubDate>Wed, 04 Nov 2026 15:30:28 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/b2474e8b3d0c/</guid>
-      <description>
-        
-          
-            Keeping up with new technology is one thing. Finding worthwhile opportunities to explore what matters most to your work is another. That’s where VSLive! can help. It brings technical learning, hands-on experience, expert guidance, and a community of developers together in one place, giving you focused time to explore evolving technologies and decide what’s worth […] The post Keep learning, keep building! Make the…
-Worth a read for developers following Visual Studio.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>OpenAI to acquire Pierre Computer Company, Inc.</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/3a06f84c0f51/</link>
-      <pubDate>Wed, 04 Nov 2026 14:30:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/3a06f84c0f51/</guid>
-      <description>
-        
-          
-            OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.
-Worth a read for developers following AI. Link to article: https://openai.com/index/openai-to-acquire-pierre 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Sync vs Async File I/O in .NET: Raw Throughput, Scalability, and Buffer Size</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/eb15ac98159e/</link>
-      <pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/eb15ac98159e/</guid>
-      <description>
-        
-          
-            This is a bonus post to the series about async/await in C#. The series explains how async works, from the problem it solves up to the .NET 11 runtime taking over await. This post applies all of it to one real subsystem, where the usual advice turns out to be only half the story. The default recommendation for .NET is to prefer async file I/O for scalability. That is generally good advice.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A thousand fewer paths to root</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/a4f4c423c542/</link>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/a4f4c423c542/</guid>
-      <description>
-        
-          
-            OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.
-Worth a read for developers following DevOps and AI. Link to article: https://openai.com/index/a-thousand-fewer-paths-to-root 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Daybreak Red is now available in AWS GovCloud (US-East)</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/75679f5aa60b/</link>
-      <pubDate>Wed, 04 Nov 2026 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/75679f5aa60b/</guid>
-      <description>
-        
-          
-            Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.
-Worth a read for developers following AWS and AI. Link to article: https://openai.com/index/daybreak-red-aws-govcloud 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>DevRev delivers autonomous self-service with GPT-6.1 Sol</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/bf25be8f8779/</link>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/bf25be8f8779/</guid>
-      <description>
-        
-          
-            DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.
-Worth a read for developers following AI. Link to article: https://openai.com/index/devrev-enterprise-self-service 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Images 2.6</title>
-      <link>https://www.dotnetramblings.com/post/04_11_2026/0a437d67f2ef/</link>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/04_11_2026/0a437d67f2ef/</guid>
-      <description>
-        
-          
-            Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.
-Worth a read for developers following AI. Link to article: https://openai.com/index/introducing-images-2-6 
           
           
         
