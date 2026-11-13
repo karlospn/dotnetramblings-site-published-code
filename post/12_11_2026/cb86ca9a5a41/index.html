@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Franklin Templeton uses OpenAI to support investment research | .NET Ramblings</title>
+<title>How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks. …">
+<meta name="description" content="Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Franklin Templeton uses OpenAI to support investment research">
-<meta name="twitter:description" content="Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks. …">
-<meta name="twitter:image" content="https://www.dotnetramblings.com/images/ai.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/05_11_2026/c0d7b0808284/">
-<meta property="og:title" content="Franklin Templeton uses OpenAI to support investment research">
-<meta property="og:description" content="Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks. …">
-<meta property="og:image" content="https://www.dotnetramblings.com/images/ai.png">
+<meta name="twitter:title" content="How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore">
+<meta name="twitter:description" content="Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post …">
+<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21653-featured-image.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/12_11_2026/cb86ca9a5a41/">
+<meta property="og:title" content="How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore">
+<meta property="og:description" content="Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post …">
+<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21653-featured-image.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://openai.com/index/franklin-templeton">
+<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,23 +146,25 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Franklin Templeton uses OpenAI to support investment research</h1>
+    <h1 class="post_title">How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Nov 5, 2026</span>
+      <span class="post_date">Nov 12, 2026</span>
       <span>
+          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
           <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
+          <a href="https://www.dotnetramblings.com/topics/architecture/" title="Architecture" class="post_tag button button_translucent">Architecture</a>
       </span>
   </div>
 
-    <div class="post_body"><p>Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.</p>
+    <div class="post_body"><p>Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response and 96.2% automated coverage across support tickets.</p>
 <ul>
-<li>Worth a read for developers following AI.</li>
-<li>Link to article: <a href="https://openai.com/index/franklin-templeton">https://openai.com/index/franklin-templeton</a></li>
+<li>Worth a read for developers following AWS and AI.</li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore">https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore</a></li>
 </ul>
 
     </div>

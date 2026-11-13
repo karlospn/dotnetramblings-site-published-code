@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 20:51:55 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Nov 2026 22:03:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy frontier AI models on AWS Trainium with SGLang-Neuron</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/ec886a92fa12/</link>
+      <pubDate>Thu, 12 Nov 2026 22:03:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/ec886a92fa12/</guid>
+      <description>
+        
+          
+            SGLang-Neuron is now publicly available through an AWS Deep Learning Container. With SGLang-Neuron, you can serve models and generate reinforcement learning rollouts with SGLang on AWS Trainium using the same SGLang interface you already know, all running on native PyTorch.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/cb86ca9a5a41/</link>
+      <pubDate>Thu, 12 Nov 2026 21:47:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/cb86ca9a5a41/</guid>
+      <description>
+        
+          
+            Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response and 96.2% automated coverage across support tickets.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Four Amazon Bedrock inference choices that affect cost</title>
       <link>https://www.dotnetramblings.com/post/12_11_2026/e9b2308e4ac3/</link>
@@ -36,6 +70,23 @@ Worth a read for developers following AWS and AI. Link to article: https://aws.a
           
             Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.
 Worth a read for developers following AI. Link to article: https://openai.com/index/amplitude 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Amplitude ships product improvements in 1–2 days with OpenAI</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/5b0f73df89a6/</link>
+      <pubDate>Thu, 12 Nov 2026 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/5b0f73df89a6/</guid>
+      <description>
+        
+          
+            Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.
+Worth a read for developers following AI. Link to article: https://openai.com/business/customer-stories/amplitude 
           
           
         
@@ -274,6 +325,23 @@ Worth a read for developers following .NET and Data. Link to article: https://ww
           
             Apple Foundation Models bring local AI, the fm CLI, and Private Cloud Compute into the Mac developer toolkit. Here’s how to understand the architecture and find practical uses alongside tools like Ollama.
 Worth a read for developers following AI and Architecture. Link to article: https://build5nines.com/apple-foundation-models-macos-ai-toolkit 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Gondola doubles revenue as its team builds more with Codex</title>
+      <link>https://www.dotnetramblings.com/post/12_11_2026/90d79223706e/</link>
+      <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/12_11_2026/90d79223706e/</guid>
+      <description>
+        
+          
+            Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.
+Worth a read for developers following AI. Link to article: https://openai.com/business/customer-stories/gondola 
           
           
         
@@ -1713,378 +1781,6 @@ Worth a read for developers following Containers and AI. Link to article: https:
           
             OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.
 Worth a read for developers following AI. Link to article: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Getting started with Web Answer on Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/f987c08b0331/</link>
-      <pubDate>Thu, 05 Nov 2026 21:04:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/f987c08b0331/</guid>
-      <description>
-        
-          
-            Web Answer on Amazon Bedrock AgentCore returns a synthesized, source-cited answer to a natural-language question in a single tool call, with no search, retrieve, synthesize, and citation pipeline to build. Learn how it works and how to add it to an AgentCore Gateway and call it from an agent.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Cult.fit builds operational muscle with Codex</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/c88b52d0b210/</link>
-      <pubDate>Thu, 05 Nov 2026 20:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/c88b52d0b210/</guid>
-      <description>
-        
-          
-            Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.
-Worth a read for developers following AI. Link to article: https://openai.com/index/cultfit-builds-with-codex 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Help Shape the Future of .NET: Take the 2026 .NET Developer Survey</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/213265ac6c9d/</link>
-      <pubDate>Thu, 05 Nov 2026 19:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/213265ac6c9d/</guid>
-      <description>
-        
-          
-            Take the 2026 .NET Developer Survey to share your experience, help identify common challenges, and guide future .NET investments. The survey takes about 15 minutes. The post Help Shape the Future of .NET: Take the 2026 .NET Developer Survey appeared first on .NET Blog .
-Worth a read for developers following .NET. Link to article: https://devblogs.microsoft.com/dotnet/dotnet-developer-survey-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Amazon Marketplace evaluates content quality with Amazon SageMaker AI</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/5e845585dbaf/</link>
-      <pubDate>Thu, 05 Nov 2026 18:06:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/5e845585dbaf/</guid>
-      <description>
-        
-          
-            Learn how Amazon Marketplace evaluates A+ Content quality at scale on Amazon SageMaker AI by rendering each product page as a single snapshot, scoring it with a vision-language model fused with OCR readability signals in a CatBoost classifier, and using SHAP to turn each decision into prioritized, actionable recommendations for selling partners.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Modernize your .NET apps for Windows Arm64 with GitHub Copilot</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/9b0e3e4b6a72/</link>
-      <pubDate>Thu, 05 Nov 2026 18:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/9b0e3e4b6a72/</guid>
-      <description>
-        
-          
-            Modernize your .NET apps for Windows Arm64 with the GitHub Copilot upgrade agent, from identifying migration blockers to planning and making code changes. The post Modernize your .NET apps for Windows Arm64 with GitHub Copilot appeared first on .NET Blog .
-Worth a read for developers following .NET and AI. Link to article: https://devblogs.microsoft.com/dotnet/modernize-dotnet-apps-for-windows-arm64 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Australian universities are creating AI-native graduates</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/b58fee4edbbb/</link>
-      <pubDate>Thu, 05 Nov 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/b58fee4edbbb/</guid>
-      <description>
-        
-          
-            Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.
-Worth a read for developers following AI. Link to article: https://openai.com/index/australian-universities-ai-native-graduates 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Queue and Stack in C#: FIFO, LIFO, and Empty-State Behavior</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/eba82a4afa38/</link>
-      <pubDate>Thu, 05 Nov 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/eba82a4afa38/</guid>
-      <description>
-        
-          
-            Understand Queue and Stack in C# through FIFO, LIFO, peek, and try operations, with complete examples that separate collection order from workflow behavior.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/05/queue-and-stack-in-c-fifo-lifo-and-emptystate-behavior 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Stop treating agents as one-off projects and start running them as a continuous discipline</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/fa69cf987a95/</link>
-      <pubDate>Thu, 05 Nov 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/fa69cf987a95/</guid>
-      <description>
-        
-          
-            AI must be selected, architected, and managed as a continuous business discipline, not a series of isolated projects. The post Stop treating agents as one-off projects and start running them as a continuous discipline appeared first on Microsoft Azure Blog .
-Worth a read for developers following AI and Azure. Link to article: https://azure.microsoft.com/en-us/blog/stop-treating-agents-as-one-off-projects-and-start-running-them-as-a-continuous-discipline 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/8d0224de36d0/</link>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/8d0224de36d0/</guid>
-      <description>
-        
-          
-            Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable cloud infrastructure for silicon design and development. The post Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200 appeared first on Microsoft…
-Worth a read for developers following Azure. Link to article: https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AutoMapper 16.3.0 and 15.1.4 Released with Security Fixes</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/80bdf58fb6f9/</link>
-      <pubDate>Thu, 05 Nov 2026 15:36:35 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/80bdf58fb6f9/</guid>
-      <description>
-        
-          
-            Today I pushed out AutoMapper 16.3.0 and 15.1.4. Both releases fix two security issues, so if you&#39;re on either 16.x or 15.x, you should upgrade. Security Back in March, 16.1.1 fixed a denial of service issue where mapping a deeply
-Worth a read for developers following Security. Link to article: https://www.jimmybogard.com/automapper-16-3-0-and-15-1-4-released-with-security-fixes 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docker &#43; ActiveState Extending Secure Defaults to the Packages Developers Install</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/5dcd3e9eb13e/</link>
-      <pubDate>Thu, 05 Nov 2026 15:28:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/5dcd3e9eb13e/</guid>
-      <description>
-        
-          
-            Docker partners with ActiveState to continue to provide one standard for trusted content across everything you and your teams build on.
-Worth a read for developers following Containers. Link to article: https://www.docker.com/blog/docker-activestate-trusted-content 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Being an Onboarding Buddy Without Becoming the Only Help Source</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/82492c96182e/</link>
-      <pubDate>Thu, 05 Nov 2026 15:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/82492c96182e/</guid>
-      <description>
-        
-          
-            Be a useful onboarding buddy by clarifying your role, connecting new engineers with expertise, arranging backups, and helping them seek support confidently.
-Worth a read for developers following General. Link to article: https://www.devleader.ca/2026/11/05/being-an-onboarding-buddy-without-becoming-the-only-help-source 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>CNCF Score project improved its security posture by joining the Docker-Sponsored Open Source Program</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/e518ae11154e/</link>
-      <pubDate>Thu, 05 Nov 2026 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/e518ae11154e/</guid>
-      <description>
-        
-          
-            See how CNCF Score improved container security with Docker Scout, Hardened Images, and the Docker-Sponsored Open Source Program.
-Worth a read for developers following Containers and Security. Link to article: https://www.docker.com/blog/cncf-score-project-improved-its-security-posture-by-joining-the-docker-sponsored-open-source-program 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>dotInsights | November 2026</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/330aa3d47d72/</link>
-      <pubDate>Thu, 05 Nov 2026 10:19:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/330aa3d47d72/</guid>
-      <description>
-        
-          
-            Did you know? F# Units of Measure verify dimensional calculations at compile time, eliminating catastrophic system errors and maximizing overall reliability with zero runtime performance cost. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. ☕ Coffee […]
-Worth a read for developers following .NET. Link to article: https://blog.jetbrains.com/dotnet/2026/11/05/dotinsights-november-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>GPT‐6 Cyber: Advancing the frontier of aligned cybersecurity agents</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/53c56afbaf05/</link>
-      <pubDate>Thu, 05 Nov 2026 09:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/53c56afbaf05/</guid>
-      <description>
-        
-          
-            Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.
-Worth a read for developers following AI and Security. Link to article: https://openai.com/index/introducing-gpt-6-cyber 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Merge builds product and business tools with OpenAI technology</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/300d91101f21/</link>
-      <pubDate>Thu, 05 Nov 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/300d91101f21/</guid>
-      <description>
-        
-          
-            Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.
-Worth a read for developers following AI. Link to article: https://openai.com/index/merge-builds-with-openai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Setting a new standard for responsible AI infrastructure</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/f93567576105/</link>
-      <pubDate>Thu, 05 Nov 2026 02:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/f93567576105/</guid>
-      <description>
-        
-          
-            OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.
-Worth a read for developers following AI. Link to article: https://openai.com/index/setting-new-standard-responsible-ai-infrastructure 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The Road to Visual Studio 2027</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/3202aea9f4ed/</link>
-      <pubDate>Thu, 05 Nov 2026 01:43:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/3202aea9f4ed/</guid>
-      <description>
-        
-          
-            November 5, 2026 9 minutes read Update, November 2026: this post first appeared in April 2026, right after the Visual Studio Live! Las Vegas keynote. We refreshed it with everything Microsoft shipped and documented since then. Visual Studio 2027 and .NET 11 should launch in a few days. At the Visual Studio Live! Las Vegas … Continue reading The Road to Visual Studio 2027 The post The Road to Visual Studio 2027…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>C# 15 Unions</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/0b47047aaa80/</link>
-      <pubDate>Thu, 05 Nov 2026 00:50:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/0b47047aaa80/</guid>
-      <description>
-        
-          
-            November 5, 2026 9 minutes read A C# union is a type whose value is exactly one of a fixed, closed set of case types. You may also know it as a discriminated union, tagged union or sum type. Switch over it and the compiler checks that you handle every case, with no default arm … Continue reading C# 15 Unions The post C# 15 Unions appeared first on NDepend Blog .
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Flipsnack grows product signups with conversion optimization</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/1f9981de5700/</link>
-      <pubDate>Thu, 05 Nov 2026 00:45:15 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/1f9981de5700/</guid>
-      <description>
-        
-          
-            Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.
-Worth a read for developers following AI. Link to article: https://openai.com/ads/customers/flipsnack 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>C# Async/Await Explained: Complete Guide with Examples [2026]</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/5670bf1e482f/</link>
-      <pubDate>Thu, 05 Nov 2026 00:20:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/5670bf1e482f/</guid>
-      <description>
-        
-          
-            November 5, 2026 9 minutes read Mastering C# async / await is key to building fast, scalable .NET apps. Introduced in C# 5 back in 2012, the C# async and await keywords transformed how developers handle I/O-bound work like database calls or web APIs. Where synchronous code blocks threads and wastes resources, C# async await … Continue reading C# Async/Await Explained: Complete Guide with Examples [2026] The post C#…
-Worth a read for developers following .
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Franklin Templeton uses OpenAI to support investment research</title>
-      <link>https://www.dotnetramblings.com/post/05_11_2026/c0d7b0808284/</link>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/05_11_2026/c0d7b0808284/</guid>
-      <description>
-        
-          
-            Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.
-Worth a read for developers following AI. Link to article: https://openai.com/index/franklin-templeton 
           
           
         
