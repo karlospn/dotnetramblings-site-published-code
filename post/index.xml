@@ -7,7 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 22:03:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Nov 2026 12:13:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Is Changing Terraform Work—and the Role of Platform Engineers and SREs</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/092cff08b4a9/</link>
+      <pubDate>Fri, 13 Nov 2026 12:13:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/092cff08b4a9/</guid>
+      <description>
+        
+          
+            GitHub Copilot and Claude Code are changing Terraform workflows on Azure. The biggest opportunity for Platform Engineers and SREs is making proven infrastructure patterns easier to reuse, validate, and operate.
+Worth a read for developers following Infrastructure as Code and AI. Link to article: https://build5nines.com/ai-terraform-platform-engineers-sres 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>C# 15 Labeled Break Continue</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/4641b5a849e9/</link>
+      <pubDate>Fri, 13 Nov 2026 07:30:43 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/4641b5a849e9/</guid>
+      <description>
+        
+          
+            November 13, 2026 9 minutes read With C# 15, a break or continue statement can name the loop it targets. Put a label on a loop, such as outer:, and then write break outer; or continue outer; from any nested loop. Microsoft calls this feature labeled break and continue. C# 15 and .NET 11 shipped … Continue reading C# 15 Labeled Break Continue The post C# 15 Labeled Break Continue appeared first on NDepend Blog .
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>C# 15 Closed Hierarchies</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/5430cb31d998/</link>
+      <pubDate>Fri, 13 Nov 2026 06:22:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/5430cb31d998/</guid>
+      <description>
+        
+          
+            November 13, 2026 9 minutes read A C# closed class is a class whose direct subclasses all live in its own assembly. The closed modifier, new in C# 15, tells the compiler that this set of subclasses is complete. As a result, a switch expression that handles each subclass needs no default arm. Microsoft names … Continue reading C# 15 Closed Hierarchies The post C# 15 Closed Hierarchies appeared first on NDepend Blog .
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Deploy frontier AI models on AWS Trainium with SGLang-Neuron</title>
       <link>https://www.dotnetramblings.com/post/12_11_2026/ec886a92fa12/</link>
