@@ -7,7 +7,108 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 13 Nov 2026 12:20:22 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Nov 2026 19:35:35 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/a05d08fd0b1b/</link>
+      <pubDate>Fri, 13 Nov 2026 19:35:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/a05d08fd0b1b/</guid>
+      <description>
+        
+          
+            Learn how AssemblyAI runs cost-optimized speech-to-text inference at scale on AWS, using Amazon ECS, Amazon EC2 Spot GPU instances, and an Amazon SQS-based retry architecture to achieve 70% cost savings while maintaining SLA commitments across European Regions.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Equality in C#: Reference, Value, and Operator Semantics</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/e69026814d09/</link>
+      <pubDate>Fri, 13 Nov 2026 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/e69026814d09/</guid>
+      <description>
+        
+          
+            Understand equality in C# through static operand types, reference identity, Equals, strings, records, structs, and boxed values with practical examples.
+Worth a read for developers following .NET and Security. Link to article: https://www.devleader.ca/2026/11/13/equality-in-c-reference-value-and-operator-semantics 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/773ec8d2db34/</link>
+      <pubDate>Fri, 13 Nov 2026 18:44:02 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/773ec8d2db34/</guid>
+      <description>
+        
+          
+            Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it. This post shows how to attribute per-user Bedrock costs for AI developer and productivity tools using IAM Identity Center, session tags, and CUR 2.0, and how to enforce per-user usage limits.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing Clipboard Next for Mac and Windows</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/f014f50354ed/</link>
+      <pubDate>Fri, 13 Nov 2026 18:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/f014f50354ed/</guid>
+      <description>
+        
+          
+            When we demo, we&#39;re often trying to remember every command we need to enter. For Ignite, we have a series of .NET MAUI DevFlow commands to run, and remembering all of them just isn&#39;t going to happen! Sometimes you don&#39;t need to memorize anything. You just want the next item ready on your clipboard. That is why I built Clipboard Next, a small, free, open-source app for Mac and Windows that lines up your commands, code…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/e504c61a39ac/</link>
+      <pubDate>Fri, 13 Nov 2026 18:01:15 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/e504c61a39ac/</guid>
+      <description>
+        
+          
+            Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3. This post walks through one end-to-end example: capturing a support router&#39;s production traffic, surfacing a new-product blind spot with Amazon Athena, fine-tuning on the captured data with the HyperPod training operator, and measuring the before-and-after lift.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing ChatGPT Wallet</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/5bf4951adbe9/</link>
+      <pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/5bf4951adbe9/</guid>
+      <description>
+        
+          
+            Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.
+Worth a read for developers following AI. Link to article: https://openai.com/index/introducing-chatgpt-wallet 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Quizás ya estés usando más IA de lo que crees</title>
       <link>https://www.dotnetramblings.com/videos/13_11_2026/675bd426a443/</link>
