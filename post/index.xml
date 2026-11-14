@@ -7,7 +7,92 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 13 Nov 2026 19:35:35 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EF 11 Drops a Redundant Join From Split Queries</title>
+      <link>https://www.dotnetramblings.com/post/14_11_2026/9a623eee757a/</link>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/14_11_2026/9a623eee757a/</guid>
+      <description>
+        
+          
+            EF 11 stops joining reference navigations in the collection statements of a split query, and it drops their keys from ORDER BY.
+Worth a read for developers following .NET. Link to article: https://milanjovanovic.tech/blog/ef-core-11-split-query-redundant-join 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/db2e46052313/</link>
+      <pubDate>Fri, 13 Nov 2026 23:22:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/db2e46052313/</guid>
+      <description>
+        
+          
+            GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers&#39; no-code models run in production. This post shows how ML engineers reuse validated preprocessing flows and models, cutting deployment from about a week to a few hours and running batch inference every 30 minutes.
+Worth a read for developers following AWS and DevOps. Link to article: https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/94d8e8d36570/</link>
+      <pubDate>Fri, 13 Nov 2026 22:30:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/94d8e8d36570/</guid>
+      <description>
+        
+          
+            Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this post, you use the AWS CDK to deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock, then measure cost per solved task for a routed model group against single-model baselines.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/99d40623cf51/</link>
+      <pubDate>Fri, 13 Nov 2026 22:02:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/99d40623cf51/</guid>
+      <description>
+        
+          
+            Amazon Bedrock AgentCore runtime V2 snapshots your initialized environment and restores it for each new session, so session start no longer grows with image size. This post explains how V2 starts a session, how to measure session start time, and four patterns to keep work off the first request.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/41b9d660ec27/</link>
+      <pubDate>Fri, 13 Nov 2026 21:53:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/41b9d660ec27/</guid>
+      <description>
+        
+          
+            Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and ligand complexes in your own AWS account. The post covers asynchronous inference, multi-GPU parallelism, bringing your own MSAs for accuracy and privacy, and scaling to zero to reduce cost.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot</title>
       <link>https://www.dotnetramblings.com/post/13_11_2026/a05d08fd0b1b/</link>
@@ -120,6 +205,23 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
           
             GitHub Copilot and Claude Code are changing Terraform workflows on Azure. The biggest opportunity for Platform Engineers and SREs is making proven infrastructure patterns easier to reuse, validate, and operate.
 Worth a read for developers following Infrastructure as Code and AI. Link to article: https://build5nines.com/ai-terraform-platform-engineers-sres 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Shield helps technicians hand off legacy portal work with OpenAI</title>
+      <link>https://www.dotnetramblings.com/post/13_11_2026/d1318183fe17/</link>
+      <pubDate>Fri, 13 Nov 2026 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/13_11_2026/d1318183fe17/</guid>
+      <description>
+        
+          
+            Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.
+Worth a read for developers following AI. Link to article: https://openai.com/business/customer-stories/shield 
           
           
         
@@ -1677,260 +1779,6 @@ Worth a read for developers following .NET. Link to article: https://www.devlead
           
             An API can save an order and crash before publishing the message that tells other services about it.
 Worth a read for developers following Data and .NET. Link to article: https://milanjovanovic.tech/blog/outbox-pattern-postgres-workers-vs-wal 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building the next generation of multimodal AI experiences with fal in Microsoft Foundry</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/59154091f75e/</link>
-      <pubDate>Fri, 06 Nov 2026 19:08:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/59154091f75e/</guid>
-      <description>
-        
-          
-            Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications. The post Building the next generation of multimodal AI experiences with fal in Microsoft Foundry appeared first on Microsoft Azure Blog .
-Worth a read for developers following AI and Azure. Link to article: https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>C# Operator Precedence and Evaluation Order Explained</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/f384643df2a1/</link>
-      <pubDate>Fri, 06 Nov 2026 19:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/f384643df2a1/</guid>
-      <description>
-        
-          
-            Learn C# operator precedence, associativity, and operand evaluation order with practical examples that separate expression grouping from observable work.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/06/c-operator-precedence-and-evaluation-order-explained 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/1007c961b5d3/</link>
-      <pubDate>Fri, 06 Nov 2026 18:01:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/1007c961b5d3/</guid>
-      <description>
-        
-          
-            Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.
-Worth a read for developers following AWS and AI. Link to article: https://aws.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Taxonomy of agentic primitives in Amazon Quick</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/01ae94b0daa0/</link>
-      <pubDate>Fri, 06 Nov 2026 17:34:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/01ae94b0daa0/</guid>
-      <description>
-        
-          
-            As we built Amazon Quick, its agents grew from answering questions to taking actions, and the same primitives kept getting rebuilt under different names. This post shares the taxonomy we converged on — triggers, agents, capabilities, and learned context — found by decomposing agentic work into four plain questions: When, What, Who, and How.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Serverless MCP server for AI agent data lake access on Amazon ECS Fargate</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/0f0cb95e5bb0/</link>
-      <pubDate>Fri, 06 Nov 2026 17:13:13 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/0f0cb95e5bb0/</guid>
-      <description>
-        
-          
-            Learn how to build a serverless Model Context Protocol (MCP) server on Amazon ECS with AWS Fargate that gives AI agents secure, metadata-driven access to an enterprise data lake. Exposing a new dataset requires only a JSON file, with no per-dataset integration code.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/903f3d6e6779/</link>
-      <pubDate>Fri, 06 Nov 2026 17:09:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/903f3d6e6779/</guid>
-      <description>
-        
-          
-            In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta&#39;s grant, Cedar policies bind each tool to the agent, a second agent runs on Amazon EKS, and AgentCore Observability traces every allow and deny beside Okta&#39;s log in Amazon CloudWatch.
-Worth a read for developers following AWS and AI. Link to article: https://aws.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/4a377ea256e2/</link>
-      <pubDate>Fri, 06 Nov 2026 17:09:18 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/4a377ea256e2/</guid>
-      <description>
-        
-          
-            An AI agent that acts for a user raises an identity question that per-app OAuth and service accounts leave open: which agent may act for which user, and how you stop it. In this first post of two, you build a task agent on Amazon Bedrock AgentCore that governs access through Okta Cross App Access and AgentCore Identity, and enforces each user&#39;s authority.
-Worth a read for developers following AWS and AI.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>MongoDB Reads in C#: Projection, Sorting, and Pagination</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/8ed58dac4f14/</link>
-      <pubDate>Fri, 06 Nov 2026 17:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/8ed58dac4f14/</guid>
-      <description>
-        
-          
-            Learn MongoDB reads in C# with typed projections, unique sort tie-breakers, bounded results, and pagination boundaries without repeating basic filter tutorials.
-Worth a read for developers following .NET and Data. Link to article: https://www.devleader.ca/2026/11/06/mongodb-reads-in-c-projection-sorting-and-pagination 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/c75bfb16cb41/</link>
-      <pubDate>Fri, 06 Nov 2026 16:55:05 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/c75bfb16cb41/</guid>
-      <description>
-        
-          
-            Greenlight Financial resolves more than 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a tiered multi-agent system on Amazon Bedrock AgentCore. This post covers the architecture, episodic memory for continuous learning, and the expansion from SOC operations into financial risk triage.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/aa3a68bb9ff6/</link>
-      <pubDate>Fri, 06 Nov 2026 16:49:42 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/aa3a68bb9ff6/</guid>
-      <description>
-        
-          
-            Taxbit built Taxbit Assist, a cited, permission-aware AI assistant embedded in its enterprise dashboard, on Amazon Bedrock AgentCore. This post shows how they grounded answers in a curated knowledge base, enforced role-aware and region-compliant safety, and continuously measured answer quality on live production traffic.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/bc2d0068f56d/</link>
-      <pubDate>Fri, 06 Nov 2026 16:45:58 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/bc2d0068f56d/</guid>
-      <description>
-        
-          
-            Run Claude Code as a remote agent on Amazon Bedrock AgentCore. Each coding task runs in its own isolated session in your AWS account, every model call goes through Amazon Bedrock, and the result comes back as a GitHub pull request you review and merge.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Partnering with Hacktron to find vulnerabilities in OpenAI’s systems</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/bc8f9eac1966/</link>
-      <pubDate>Fri, 06 Nov 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/bc8f9eac1966/</guid>
-      <description>
-        
-          
-            OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.
-Worth a read for developers following AI. Link to article: https://openai.com/index/partnering-with-hacktron 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docker Sandboxes vs. Containers: Choosing the Right Isolation for AI Agents</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/4246d58cd50e/</link>
-      <pubDate>Fri, 06 Nov 2026 03:17:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/4246d58cd50e/</guid>
-      <description>
-        
-          
-            A container shares the host kernel. Docker Sandboxes are microVMs with their own kernel and private Docker Engine. See how they differ and when to use each.
-Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/docker-sandboxes-vs-containers 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>A day in the life building a Critter Stack release w/ AI</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/d48e014d698c/</link>
-      <pubDate>Fri, 06 Nov 2026 02:18:08 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/d48e014d698c/</guid>
-      <description>
-        
-          
-            From RollingStone.com When I start work in the mornings, but after feeding the family dog and well before my wife and our kids get up, I have a little Claude routine to give me a summary of activity across the JasperFx GitHub organization (home of the Critter Stack tools plus some private stuff for JasperFx … Continue reading A day in the life building a Critter Stack release w/ AI →
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Measuring how AI agents handle everyday wet-lab science</title>
-      <link>https://www.dotnetramblings.com/post/06_11_2026/cfd4354afa14/</link>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/06_11_2026/cfd4354afa14/</guid>
-      <description>
-        
-          
-            OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.
-Worth a read for developers following AI. Link to article: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science 
           
           
         

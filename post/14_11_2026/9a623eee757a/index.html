@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1 | .NET Ramblings</title>
+<title>EF 11 Drops a Redundant Join From Split Queries | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,18 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="An AI agent that acts for a user raises an identity question that per-app OAuth and service accounts leave open: which agent may act for which user, and how you …">
+<meta name="description" content="EF 11 stops joining reference navigations in the collection statements of a split query, and it drops their keys from ORDER BY.
+Worth a read for developers …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1">
-<meta name="twitter:description" content="An AI agent that acts for a user raises an identity question that per-app OAuth and service accounts leave open: which agent may act for which user, and how you …">
-<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21547-featured-image.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/06_11_2026/4a377ea256e2/">
-<meta property="og:title" content="Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1">
-<meta property="og:description" content="An AI agent that acts for a user raises an identity question that per-app OAuth and service accounts leave open: which agent may act for which user, and how you …">
-<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21547-featured-image.png">
+<meta name="twitter:title" content="EF 11 Drops a Redundant Join From Split Queries">
+<meta name="twitter:description" content="EF 11 stops joining reference navigations in the collection statements of a split query, and it drops their keys from ORDER BY.
+Worth a read for developers …">
+<meta name="twitter:image" content="https://milanjovanovic.tech/blog-covers/mnw_220.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/14_11_2026/9a623eee757a/">
+<meta property="og:title" content="EF 11 Drops a Redundant Join From Split Queries">
+<meta property="og:description" content="EF 11 stops joining reference navigations in the collection statements of a split query, and it drops their keys from ORDER BY.
+Worth a read for developers …">
+<meta property="og:image" content="https://milanjovanovic.tech/blog-covers/mnw_220.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +44,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1">
+<link rel="canonical" href="https://milanjovanovic.tech/blog/ef-core-11-split-query-redundant-join">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,25 +149,23 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1</h1>
+    <h1 class="post_title">EF 11 Drops a Redundant Join From Split Queries</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Nov 6, 2026</span>
+      <span class="post_date">Nov 14, 2026</span>
       <span>
-          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
-          <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
-          <a href="https://www.dotnetramblings.com/topics/security/" title="Security" class="post_tag button button_translucent">Security</a>
+          <a href="https://www.dotnetramblings.com/topics/.net/" title=".NET" class="post_tag button button_translucent">.NET</a>
       </span>
   </div>
 
-    <div class="post_body"><p>An AI agent that acts for a user raises an identity question that per-app OAuth and service accounts leave open: which agent may act for which user, and how you stop it. In this first post of two, you build a task agent on Amazon Bedrock AgentCore that governs access through Okta Cross App Access and AgentCore Identity, and enforces each user's authority.</p>
+    <div class="post_body"><p>EF 11 stops joining reference navigations in the collection statements of a split query, and it drops their keys from ORDER BY.</p>
 <ul>
-<li>Worth a read for developers following AWS and AI.</li>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1">https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1</a></li>
+<li>Worth a read for developers following .NET.</li>
+<li>Link to article: <a href="https://milanjovanovic.tech/blog/ef-core-11-split-query-redundant-join">https://milanjovanovic.tech/blog/ef-core-11-split-query-redundant-join</a></li>
 </ul>
 
     </div>

@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints | .NET Ramblings</title>
+<title>OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you …">
+<meta name="description" content="Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and ligand complexes in your own AWS account. The post …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints">
-<meta name="twitter:description" content="Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you …">
-<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/05/ML-22216-featured-image.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/06_11_2026/1007c961b5d3/">
-<meta property="og:title" content="SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints">
-<meta property="og:description" content="Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you …">
-<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/05/ML-22216-featured-image.png">
+<meta name="twitter:title" content="OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures">
+<meta name="twitter:description" content="Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and ligand complexes in your own AWS account. The post …">
+<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/12/ML-22226-featured-image.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/13_11_2026/41b9d660ec27/">
+<meta property="og:title" content="OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures">
+<meta property="og:description" content="Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and ligand complexes in your own AWS account. The post …">
+<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/12/ML-22226-featured-image.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints">
+<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,24 +146,24 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints</h1>
+    <h1 class="post_title">OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Nov 6, 2026</span>
+      <span class="post_date">Nov 13, 2026</span>
       <span>
           <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
           <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
       </span>
   </div>
 
-    <div class="post_body"><p>Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.</p>
+    <div class="post_body"><p>Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and ligand complexes in your own AWS account. The post covers asynchronous inference, multi-GPU parallelism, bringing your own MSAs for accuracy and privacy, and scaling to zero to reduce cost.</p>
 <ul>
 <li>Worth a read for developers following AWS and AI.</li>
-<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints">https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints</a></li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures">https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures</a></li>
 </ul>
 
     </div>
