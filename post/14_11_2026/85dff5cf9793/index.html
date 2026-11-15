@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Composition in C#: Owning Versus Borrowing Dependencies | .NET Ramblings</title>
+<title>Public Contract Compatibility When Refactoring C# Libraries | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="Learn composition in C# through dependency ownership, shared references, and disposal boundaries, including why borrowers should not dispose injected services. …">
+<meta name="description" content="Understand public contract compatibility in C# libraries: preserve source calls, existing binaries, observable behavior, and consumer-sensitive API details. …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Composition in C#: Owning Versus Borrowing Dependencies">
-<meta name="twitter:description" content="Learn composition in C# through dependency ownership, shared references, and disposal boundaries, including why borrowers should not dispose injected services. …">
-<meta name="twitter:image" content="https://devleader-d2f9ggbjfpdqcka7.z01.azurefd.net/media/csharp-composition-resource-ownership-193a2701.webp">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/07_11_2026/d6c5201d7c05/">
-<meta property="og:title" content="Composition in C#: Owning Versus Borrowing Dependencies">
-<meta property="og:description" content="Learn composition in C# through dependency ownership, shared references, and disposal boundaries, including why borrowers should not dispose injected services. …">
-<meta property="og:image" content="https://devleader-d2f9ggbjfpdqcka7.z01.azurefd.net/media/csharp-composition-resource-ownership-193a2701.webp">
+<meta name="twitter:title" content="Public Contract Compatibility When Refactoring C# Libraries">
+<meta name="twitter:description" content="Understand public contract compatibility in C# libraries: preserve source calls, existing binaries, observable behavior, and consumer-sensitive API details. …">
+<meta name="twitter:image" content="https://devleader-d2f9ggbjfpdqcka7.z01.azurefd.net/media/refactoring-public-contract-connector-b5b867cc.webp">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/14_11_2026/85dff5cf9793/">
+<meta property="og:title" content="Public Contract Compatibility When Refactoring C# Libraries">
+<meta property="og:description" content="Understand public contract compatibility in C# libraries: preserve source calls, existing binaries, observable behavior, and consumer-sensitive API details. …">
+<meta property="og:image" content="https://devleader-d2f9ggbjfpdqcka7.z01.azurefd.net/media/refactoring-public-contract-connector-b5b867cc.webp">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://www.devleader.ca/2026/11/07/composition-in-c-owning-versus-borrowing-dependencies">
+<link rel="canonical" href="https://www.devleader.ca/2026/11/14/public-contract-compatibility-when-refactoring-c-libraries">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,23 +146,23 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Composition in C#: Owning Versus Borrowing Dependencies</h1>
+    <h1 class="post_title">Public Contract Compatibility When Refactoring C# Libraries</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Nov 7, 2026</span>
+      <span class="post_date">Nov 14, 2026</span>
       <span>
           <a href="https://www.dotnetramblings.com/topics/.net/" title=".NET" class="post_tag button button_translucent">.NET</a>
       </span>
   </div>
 
-    <div class="post_body"><p>Learn composition in C# through dependency ownership, shared references, and disposal boundaries, including why borrowers should not dispose injected services.</p>
+    <div class="post_body"><p>Understand public contract compatibility in C# libraries: preserve source calls, existing binaries, observable behavior, and consumer-sensitive API details.</p>
 <ul>
 <li>Worth a read for developers following .NET.</li>
-<li>Link to article: <a href="https://www.devleader.ca/2026/11/07/composition-in-c-owning-versus-borrowing-dependencies">https://www.devleader.ca/2026/11/07/composition-in-c-owning-versus-borrowing-dependencies</a></li>
+<li>Link to article: <a href="https://www.devleader.ca/2026/11/14/public-contract-compatibility-when-refactoring-c-libraries">https://www.devleader.ca/2026/11/14/public-contract-compatibility-when-refactoring-c-libraries</a></li>
 </ul>
 
     </div>
