@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>QuickCheck property: Forced category limit applies | .NET Ramblings</title>
+<title>Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="A continued programming exercise using TDD with PBT. This article is one of a series on finding properties for a budgeting kata . I expect you to have read the …">
+<meta name="description" content="Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="QuickCheck property: Forced category limit applies">
-<meta name="twitter:description" content="A continued programming exercise using TDD with PBT. This article is one of a series on finding properties for a budgeting kata . I expect you to have read the …">
-<meta name="twitter:image" content="https://blog.ploeh.dk/content/binary/item-budget-category-singleton-intersection.png">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/09_11_2026/236f4611fb4e/">
-<meta property="og:title" content="QuickCheck property: Forced category limit applies">
-<meta property="og:description" content="A continued programming exercise using TDD with PBT. This article is one of a series on finding properties for a budgeting kata . I expect you to have read the …">
-<meta property="og:image" content="https://blog.ploeh.dk/content/binary/item-budget-category-singleton-intersection.png">
+<meta name="twitter:title" content="Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing">
+<meta name="twitter:description" content="Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and …">
+<meta name="twitter:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21577-featured-image.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/16_11_2026/0761da68e54f/">
+<meta property="og:title" content="Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing">
+<meta property="og:description" content="Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and …">
+<meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21577-featured-image.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://blog.ploeh.dk/2026/11/09/quickcheck-property-forced-category-limit-applies">
+<link rel="canonical" href="https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,23 +146,25 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">QuickCheck property: Forced category limit applies</h1>
+    <h1 class="post_title">Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Nov 9, 2026</span>
+      <span class="post_date">Nov 16, 2026</span>
       <span>
-          <a href="https://www.dotnetramblings.com/topics/general/" title="General" class="post_tag button button_translucent">General</a>
+          <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
+          <a href="https://www.dotnetramblings.com/topics/architecture/" title="Architecture" class="post_tag button button_translucent">Architecture</a>
+          <a href="https://www.dotnetramblings.com/topics/aws/" title="AWS" class="post_tag button button_translucent">AWS</a>
       </span>
   </div>
 
-    <div class="post_body"><p>A continued programming exercise using TDD with PBT. This article is one of a series on finding properties for a budgeting kata . I expect you to have read the previous articles in the series. The first property specified that a bill doesn't exceed the total budget, and that's all there is to say about the total budget. All the complication lies in how category budgets are handled. In this article, we get started on…</p>
+    <div class="post_body"><p>Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and anti-patterns, a framework for deciding when multiple agents are warranted, and how to build cost-efficient, reliable systems on AWS.</p>
 <ul>
-<li>Worth a read for developers following General.</li>
-<li>Link to article: <a href="https://blog.ploeh.dk/2026/11/09/quickcheck-property-forced-category-limit-applies">https://blog.ploeh.dk/2026/11/09/quickcheck-property-forced-category-limit-applies</a></li>
+<li>Worth a read for developers following AI and Architecture.</li>
+<li>Link to article: <a href="https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing">https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing</a></li>
 </ul>
 
     </div>
