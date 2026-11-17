@@ -7,7 +7,140 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 16 Nov 2026 22:43:30 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Nov 2026 12:23:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a Simple AI Coding Harness in C# with SharpVector and Microsoft Agent Framework</title>
+      <link>https://www.dotnetramblings.com/post/17_11_2026/342b099c6378/</link>
+      <pubDate>Tue, 17 Nov 2026 12:23:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_11_2026/342b099c6378/</guid>
+      <description>
+        
+          
+            Build a small C# AI coding harness that searches project context with SharpVector, edits an approved file, and uses deterministic scripts to validate the result.
+Worth a read for developers following .NET and AI. Link to article: https://build5nines.com/build-simple-ai-coding-harness-csharp-sharpvector-microsoft-agent-framework 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Finding a deadlock in a .NET dump with an AI agent</title>
+      <link>https://www.dotnetramblings.com/post/17_11_2026/ed62f34004b3/</link>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_11_2026/ed62f34004b3/</guid>
+      <description>
+        
+          
+            A hang is the easiest problem to diagnose from a dump and the hardest to diagnose any other way. There is no exception, no log line, and attaching a debugger to a production process is rarely an option. But the state that explains it, which thread holds what and which thread waits for what, is entirely present in a dump. This post takes a deadlocked process and lets an agent find both locks.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building AI features in .NET with Microsoft.Extensions.AI</title>
+      <link>https://www.dotnetramblings.com/post/17_11_2026/daa44bc2c67d/</link>
+      <pubDate>Tue, 17 Nov 2026 11:54:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_11_2026/daa44bc2c67d/</guid>
+      <description>
+        
+          
+            Microsoft.Extensions.AI gives .NET one set of abstractions for talking to AI providers. This post builds a console chatbot with IChatClient, streaming responses and conversation history. It then adds typed, structured output and handles rate limits, so the demo holds up on a free-tier model.
+Worth a read for developers following .NET and AI. Link to article: https://blog.elmah.io/building-ai-features-in-net-with-microsoft-extensions-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Microsoft Releases .NET 11: C# 15 Union Types, Native AOT CLI Host, and CoreCLR by Default in MAUI</title>
+      <link>https://www.dotnetramblings.com/post/17_11_2026/764b373c1541/</link>
+      <pubDate>Tue, 17 Nov 2026 11:50:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_11_2026/764b373c1541/</guid>
+      <description>
+        
+          
+            Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async, Zstandard compression, asynchronous validation and OpenAPI 3.2 in ASP.NET Core, CoreCLR as the default runtime in .NET MAUI, and EF Core 11 with experimental vector search. By Almir Vuk
+Worth a read for developers following .
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What’s new in .NET 11 Numerics</title>
+      <link>https://www.dotnetramblings.com/post/17_11_2026/675a33467630/</link>
+      <pubDate>Tue, 17 Nov 2026 05:58:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_11_2026/675a33467630/</guid>
+      <description>
+        
+          
+            November 17, 2026 9 minutes read .NET 11 numerics got a lot of love this year. The release adds three IEEE 754 decimal types, a BFloat16 type for AI workloads, a generic Complex, generic random number APIs and a new partial parsing API. On top of that, System.Numerics.Tensors became much faster and stricter about correctness. … Continue reading What’s new in .NET 11 Numerics The post What’s new in .NET 11 Numerics…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>.NET 11 C# File-Based Apps</title>
+      <link>https://www.dotnetramblings.com/post/17_11_2026/2b1ecb00e625/</link>
+      <pubDate>Tue, 17 Nov 2026 01:25:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_11_2026/2b1ecb00e625/</guid>
+      <description>
+        
+          
+            November 17, 2026 9 minutes read File-based apps let you build and run a C# file without creating a .csproj project file. Microsoft introduced them with .NET 10 in November 2025. One year later, .NET 11 turns them into a surprisingly capable model for real tools. A file-based app can now span several files, reuse … Continue reading .NET 11 C# File-Based Apps The post .NET 11 C# File-Based Apps appeared first on…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing OpenAI for Chile</title>
+      <link>https://www.dotnetramblings.com/post/17_11_2026/58da9c66b145/</link>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_11_2026/58da9c66b145/</guid>
+      <description>
+        
+          
+            OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.
+Worth a read for developers following AI. Link to article: https://openai.com/index/introducing-openai-for-chile 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Strengthening NATO and allied cyber defenses with AI</title>
+      <link>https://www.dotnetramblings.com/post/17_11_2026/590cb0b9c5dd/</link>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/17_11_2026/590cb0b9c5dd/</guid>
+      <description>
+        
+          
+            How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.
+Worth a read for developers following AI. Link to article: https://openai.com/index/strengthening-nato-allied-cyber-defences-ai 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base</title>
       <link>https://www.dotnetramblings.com/post/16_11_2026/d218f9a95b85/</link>
@@ -290,6 +423,23 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
           
             This has been cooking for a while now, so some of you may have already noticed it. Still, I think it deserves its own blog post, because I’m really excited about the data.
 Worth a read for developers following .NET and Data. Link to article: https://www.tabsoverspaces.com/233983-current-and-historical-data-for-the-time-cincura-net-public-time-server 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Revolut raises ambition without lowering the bar</title>
+      <link>https://www.dotnetramblings.com/post/16_11_2026/f054a54f8228/</link>
+      <pubDate>Mon, 16 Nov 2026 09:30:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/16_11_2026/f054a54f8228/</guid>
+      <description>
+        
+          
+            Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.
+Worth a read for developers following AI and Security. Link to article: https://openai.com/business/customer-stories/revolut 
           
           
         
