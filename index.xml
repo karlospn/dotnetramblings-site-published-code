@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 19 Nov 2026 00:15:58 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2026 09:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NetWasm 0.10 Speeds Up C# on WebAssembly, Now Faster Than Mono AOT</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/4cb484914332/</link>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/4cb484914332/</guid>
+      <description>
+        
+          
+            Summary: NetWasm, an ahead-of-time compiler from C# to WebAssembly, has reworked exception handling, bounds-check elimination, SIMD and division in its 0.10 series. Across more than 2000 benchmark cases, the project reports running in 0.41 times the time of Mono AOT’s WASI build. By Edin Kapić
+Worth a read for developers following .NET. Link to article: https://www.infoq.com/news/2026/11/NetWasm-0-10-Faster 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Entity Framework Core 11 provider for Firebird is ready</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/1f1e2735b2be/</link>
+      <pubDate>Thu, 19 Nov 2026 08:16:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/1f1e2735b2be/</guid>
+      <description>
+        
+          
+            I’m excited to announce the release of Entity Framework Core 11 provider for Firebird.
+Worth a read for developers following .NET. Link to article: https://www.tabsoverspaces.com/233984-entity-framework-core-11-provider-for-firebird-is-ready 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization</title>
       <link>https://www.dotnetramblings.com/post/19_11_2026/1980ba70462d/</link>
