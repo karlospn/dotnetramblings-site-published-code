@@ -7,7 +7,176 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 19 Nov 2026 09:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2026 18:48:55 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimize AI economics on Amazon Bedrock with Accenture’s sequenced approach</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/7e4679faa340/</link>
+      <pubDate>Thu, 19 Nov 2026 18:48:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/7e4679faa340/</guid>
+      <description>
+        
+          
+            As enterprises scale AI on Amazon Bedrock, token spend can grow even as per-token prices fall. This post walks through six composable optimization levers, shows how Accenture applied them across four client engagements, and recommends a sequence for cutting AI token spend on your own workloads.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/e04b4e930bcd/</link>
+      <pubDate>Thu, 19 Nov 2026 18:26:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/e04b4e930bcd/</guid>
+      <description>
+        
+          
+            Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco&#39;s journey, lessons from the 2026 winning agent built on Amazon Bedrock AgentCore, and how to host your own league.
+Worth a read for developers following AWS and AI. Link to article: https://aws.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/0f531b5b0f64/</link>
+      <pubDate>Thu, 19 Nov 2026 18:20:54 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/0f531b5b0f64/</guid>
+      <description>
+        
+          
+            Cross-Region inference routing in Amazon SageMaker AI gives your application one invocation path across the endpoints and inference components you already run, in one or more AWS Regions and AWS accounts. The router prefers its own Region and shifts new requests to another destination only when the local one can&#39;t serve reliably.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/7e9fc57c134e/</link>
+      <pubDate>Thu, 19 Nov 2026 18:14:36 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/7e9fc57c134e/</guid>
+      <description>
+        
+          
+            Learn how Skyflow and Amazon Bedrock AgentCore Gateway keep sensitive data out of the tools your AI agents call. Added as a gateway interceptor, Skyflow de-identifies data before any tool, model, or log sees it, and restores it for authorized callers, with no change to your agent code.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docker patches Java4Shell and the NGINX HTTP/2 with Docker Hardened Images</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/ae9dfbfde2f4/</link>
+      <pubDate>Thu, 19 Nov 2026 17:38:08 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/ae9dfbfde2f4/</guid>
+      <description>
+        
+          
+            Docker publishes fixed images for both Java4Shell and the NGINX HTTP/2 in the Docker Hardened Images (DHI) catalog.
+Worth a read for developers following Containers. Link to article: https://www.docker.com/blog/docker-patches-java4shell-and-the-nginx-http-2-with-docker-hardened-images 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>PolyAI Dialog-RSN-1 is now on Amazon SageMaker JumpStart</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/58ab887d6a72/</link>
+      <pubDate>Thu, 19 Nov 2026 17:28:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/58ab887d6a72/</guid>
+      <description>
+        
+          
+            PolyAI Dialog-RSN-1, a reasoning model built for real-time complex dialog, is available today on AWS Marketplace and Amazon SageMaker JumpStart. Discover it, evaluate it on your own data, and deploy it to a secure SageMaker endpoint in your own AWS account.
+Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/polyai-dialog-rsn-1-is-now-on-amazon-sagemaker-jumpstart 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Meet the New Docker: Built to Run on Trust</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/899c4b9dc79c/</link>
+      <pubDate>Thu, 19 Nov 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/899c4b9dc79c/</guid>
+      <description>
+        
+          
+            Docker launches a new brand built on trust. Learn why Docker is evolving for AI agents, what stays the same, and how to run agents securely with Docker.
+Worth a read for developers following Containers and AI. Link to article: https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using NVIDIA Run:ai GPU Fractioning on Amazon EKS</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/448d198a6d06/</link>
+      <pubDate>Thu, 19 Nov 2026 16:13:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/448d198a6d06/</guid>
+      <description>
+        
+          
+            Learn how to run two memory-bounded Kubernetes Pods on a single NVIDIA A10G GPU using open-source NVIDIA Run:ai GPU Fractioning on Amazon EKS. This walkthrough builds a custom Amazon Linux 2023 image, installs KAI Scheduler and the GPU Fractioning Operator, and validates per-Pod GPU-memory contracts with enforcement and metrics.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/using-nvidia-runai-gpu-fractioning-on-amazon-eks 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Diagnosing thread pool starvation from a .NET dump with an AI agent</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/14fe0078ed06/</link>
+      <pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/14fe0078ed06/</guid>
+      <description>
+        
+          
+            Thread pool starvation does not hang the application, it makes it slow, and it makes it slow in a way that no profiler flags: the CPU is idle, no query is slow, and every individual operation looks fine. What is wrong is that the pool has no thread left to run the next work item, because the previous ones are all blocked waiting for something. This is also the case where an agent saves the most time,…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>.NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/c5c69d6ef9ec/</link>
+      <pubDate>Thu, 19 Nov 2026 11:27:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/c5c69d6ef9ec/</guid>
+      <description>
+        
+          
+            Microsoft has released ASP.NET Core in .NET 11. The update adds C# union type support in JSON bodies, asynchronous validation for Minimal APIs, OpenAPI 3.2 by default, and SignalR authentication refresh. Blazor gains a CacheView component, client-side validation for static SSR forms, opt-in circuit pause for inactive tabs, and experimental AI components. Zstandard compression is on by default. By Almir Vuk
+Worth a read for developers following .NET and AI. Link to article: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>NetWasm 0.10 Speeds Up C# on WebAssembly, Now Faster Than Mono AOT</title>
       <link>https://www.dotnetramblings.com/post/19_11_2026/4cb484914332/</link>
@@ -36,6 +205,23 @@ Worth a read for developers following .NET. Link to article: https://www.infoq.c
           
             I’m excited to announce the release of Entity Framework Core 11 provider for Firebird.
 Worth a read for developers following .NET. Link to article: https://www.tabsoverspaces.com/233984-entity-framework-core-11-provider-for-firebird-is-ready 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How OpenAI’s Performance Factory keeps ChatGPT fast</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/6687f7be62c3/</link>
+      <pubDate>Thu, 19 Nov 2026 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/6687f7be62c3/</guid>
+      <description>
+        
+          
+            Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.
+Worth a read for developers following AI. Link to article: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast 
           
           
         
