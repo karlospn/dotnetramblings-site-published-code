@@ -7,7 +7,143 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 18 Nov 2026 19:27:56 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2026 00:15:58 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization</title>
+      <link>https://www.dotnetramblings.com/post/19_11_2026/1980ba70462d/</link>
+      <pubDate>Thu, 19 Nov 2026 00:15:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/19_11_2026/1980ba70462d/</guid>
+      <description>
+        
+          
+            Amazon SageMaker AI Serverless Model Customization now supports Full Fine-Tuning (FFT). This post explores when FFT outperforms LoRA across key benchmarks, examines the spectral properties of model weight matrices behind the quality gap, shares practical hyperparameter tuning guidelines, and shows how to get started.
+Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2026/6f8f17530b91/</link>
+      <pubDate>Wed, 18 Nov 2026 23:58:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2026/6f8f17530b91/</guid>
+      <description>
+        
+          
+            Exa&#39;s neural search engine is backed by an in-house vector database, so the unit economics of embedding tens of billions of web documents drive the business. This post shares how Exa optimized embedding inference on AWS Neuron hardware (Inferentia2 and Trainium2) with custom NKI kernels, reaching a 47% gain in performance and cost per million documents.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2026/eacbd26a911f/</link>
+      <pubDate>Wed, 18 Nov 2026 23:03:29 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2026/eacbd26a911f/</guid>
+      <description>
+        
+          
+            Large training jobs can stall or compute wrong results even when every node looks healthy. Amazon SageMaker HyperPod now adds workload recovery and expanded infrastructure checks that catch these failures sooner and raise the goodput of your training workloads.
+Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing the Amazon SageMaker JumpStart Model Leaderboard</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2026/663fa60cff59/</link>
+      <pubDate>Wed, 18 Nov 2026 22:31:04 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2026/663fa60cff59/</guid>
+      <description>
+        
+          
+            The Amazon SageMaker JumpStart Model Leaderboard compares 70+ foundation models side by side on quality, speed, and cost, directly in SageMaker Studio. Learn what the leaderboard shows, how AWS benchmarks models, and how to go from a shortlist to a deployed model.
+Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Airbnb uses cost per task to operate coding agents on Amazon Bedrock</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2026/44013fe75393/</link>
+      <pubDate>Wed, 18 Nov 2026 21:48:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2026/44013fe75393/</guid>
+      <description>
+        
+          
+            Airbnb runs evals on real engineering tasks and uses Amazon Bedrock observability to choose models for its coding agents and control production costs. This post shows how cost per task guides model selection, why production spending can differ from eval results, and how to monitor latency, manage quotas, and attribute spend.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Design responsible AI controls for Amazon Aurora PostgreSQL</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2026/a8eb0ed9ef43/</link>
+      <pubDate>Wed, 18 Nov 2026 21:38:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2026/a8eb0ed9ef43/</guid>
+      <description>
+        
+          
+            Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Private certificate authority support in Amazon Bedrock AgentCore Identity</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2026/59cfeb6a6aab/</link>
+      <pubDate>Wed, 18 Nov 2026 20:53:41 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2026/59cfeb6a6aab/</guid>
+      <description>
+        
+          
+            Amazon Bedrock AgentCore Identity now supports private certificate authorities (CAs), so your agents can connect to self-hosted identity providers that use a private CA. This post shows how to issue an IdP certificate with AWS Private CA, configure a credential provider to trust it, rotate the CA, and protect the certificate.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2026/2ab4deb8d869/</link>
+      <pubDate>Wed, 18 Nov 2026 20:13:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2026/2ab4deb8d869/</guid>
+      <description>
+        
+          
+            Learn how Salesforce uses the cross-Region inference router in Amazon SageMaker AI to turn fragmented Regional capacity into reliable model serving. Salesforce adds capacity securely across Regions and accounts while keeping its data residency commitments, and sees per request where each call was served and why.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How Social Department built culture-aware video discovery</title>
       <link>https://www.dotnetramblings.com/post/18_11_2026/3107113245e3/</link>
@@ -127,6 +263,23 @@ Worth a read for developers following .NET and AI. Link to article: https://blog
     </item>
     
     <item>
+      <title>How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2026/b527b6f0ddce/</link>
+      <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2026/b527b6f0ddce/</guid>
+      <description>
+        
+          
+            Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.
+Worth a read for developers following AI. Link to article: https://openai.com/business/customer-stories/sumitomo-life 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Inside the Codex sandbox</title>
       <link>https://www.dotnetramblings.com/post/18_11_2026/53f2a14376dd/</link>
       <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
@@ -144,6 +297,23 @@ Worth a read for developers following General. Link to article: https://openai.c
     </item>
     
     <item>
+      <title>Research acceleration: The jagged frontier</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2026/9fa731b0ef6c/</link>
+      <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2026/9fa731b0ef6c/</guid>
+      <description>
+        
+          
+            OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.
+Worth a read for developers following AI. Link to article: https://openai.com/index/research-acceleration-jagged-frontier 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Aspire 17 is ready for primetime</title>
       <link>https://www.dotnetramblings.com/post/18_11_2026/111d09e621b8/</link>
       <pubDate>Wed, 18 Nov 2026 07:15:00 +0000</pubDate>
@@ -154,6 +324,23 @@ Worth a read for developers following General. Link to article: https://openai.c
           
             Aspire 17 gives you more levers to build real enterprise apps and your own platform on top of Aspire, with shared team defaults, larger-app workflows, and stable Kubernetes deployment packages.
 Worth a read for developers following .NET and Containers. Link to article: https://devblogs.microsoft.com/aspire/whats-new-aspire-17 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Managing frontier AI risk: From training to deployment</title>
+      <link>https://www.dotnetramblings.com/post/18_11_2026/8b6ac2940fdc/</link>
+      <pubDate>Wed, 18 Nov 2026 06:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/18_11_2026/8b6ac2940fdc/</guid>
+      <description>
+        
+          
+            OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.
+Worth a read for developers following AI. Link to article: https://openai.com/index/managing-frontier-ai-risk 
           
           
         
@@ -2004,362 +2191,6 @@ Worth a read for developers following .NET. Link to article: https://montemagno.
           
             OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.
 Worth a read for developers following AI. Link to article: https://openai.com/index/children-first-declaration 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>OpenAI Codex on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/0566809c6575/</link>
-      <pubDate>Wed, 11 Nov 2026 23:35:47 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/0566809c6575/</guid>
-      <description>
-        
-          
-            A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Semantic diffing of formal policies with anti-unification</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/cf5ad5ad4907/</link>
-      <pubDate>Wed, 11 Nov 2026 23:33:03 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/cf5ad5ad4907/</guid>
-      <description>
-        
-          
-            A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.
-Worth a read for developers following Security. Link to article: https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/005484e05b9e/</link>
-      <pubDate>Wed, 11 Nov 2026 23:30:03 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/005484e05b9e/</guid>
-      <description>
-        
-          
-            Silent data corruption is a GPU fault that returns wrong but plausible numbers with no error, quietly poisoning distributed training. This post adds three checks to a PyTorch DDP loop to detect it, localize the faulty node on Amazon SageMaker HyperPod, and hand the node to automatic recovery for replacement.
-Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing the Web Search API on Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/263d7dc4e1e2/</link>
-      <pubDate>Wed, 11 Nov 2026 23:13:16 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/263d7dc4e1e2/</guid>
-      <description>
-        
-          
-            Today we&#39;re announcing the Web Search API on Amazon Bedrock AgentCore: your own code can search the web with a single signed API call, with no gateway and no resources to create. Call it from the AWS SDKs or the AWS CLI and use it in applications, agent loops, and data pipelines.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What I think so far about Spec Driven Development</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/684ccb97ff4a/</link>
-      <pubDate>Wed, 11 Nov 2026 23:00:41 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/684ccb97ff4a/</guid>
-      <description>
-        
-          
-            TL;DR: I don’t believe that AI is going to lead to a “Waterfall Renaissance, ” and I see SDD as valuable, but we’re leaning into it as “BDD in the AI Era”. In my live stream yesterday (at about the 45 minute mark if you’re curious) Vedran Zakanj wrote this in the chat I think …
-Worth a read for developers following AI. Link to article: https://jeremydmiller.com/2026/11/11/what-i-think-so-far-about-spec-driven-development 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ICYMI: What landed for AI builders in October 2026</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/8b208eddf6e2/</link>
-      <pubDate>Wed, 11 Nov 2026 22:26:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/8b208eddf6e2/</guid>
-      <description>
-        
-          
-            A recap of the major Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from October 2026: new models to match each task, updates that keep agents available and grounded, and clearer cost reporting for AI builders.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>The attendee’s guide to the AWS re:Invent 2026 AI/ML track</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/6dbf5bd5b92f/</link>
-      <pubDate>Wed, 11 Nov 2026 21:05:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/6dbf5bd5b92f/</guid>
-      <description>
-        
-          
-            AWS re:Invent 2026 includes more than 140 AI/ML track sessions. This attendee&#39;s guide helps you find the breakouts, chalk talks, workshops, and builders&#39; sessions that fit your role and goals, spanning AI chips, models and inference, agents, agent trust, and sustainability, so you can build a smarter re:Invent schedule.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/the-attendees-guide-to-the-aws-reinvent-2026-ai-ml-track 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Automating AWS Agent Registry updates with push-based architecture</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/3beb9de1922e/</link>
-      <pubDate>Wed, 11 Nov 2026 20:52:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/3beb9de1922e/</guid>
-      <description>
-        
-          
-            This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, across single- and multi-account environments.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How DXC Technology built a multi-model AI substrate on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/2f5ac4847b02/</link>
-      <pubDate>Wed, 11 Nov 2026 20:45:45 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/2f5ac4847b02/</guid>
-      <description>
-        
-          
-            DXC Technology runs mission-critical managed IT services for regulated organizations across 70 countries. Learn how DXC built DCX OASIS, its Human+AI operating model, on a governed multi-model substrate in Amazon Bedrock, separating a resilient model substrate from a trusted harness that orchestrates, governs, and audits AI agents at scale.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Stale Data Is More Than an Eventual Consistency Problem</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/b57a75eb8b99/</link>
-      <pubDate>Wed, 11 Nov 2026 20:21:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/b57a75eb8b99/</guid>
-      <description>
-        
-          
-            The moment you retrieve data, it’s potentially already stale. And I’m not talking about eventual consistency or reading from a cache, which is what people typically think of when they think of stale data. No, I’m talking about your primary database. YouTube Check out my YouTube channel, where I post all kinds of content on Software Architecture… Read More » Stale Data Is More Than an Eventual Consistency Problem The…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerating generative AI delivery with reusable assets</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/0afd1907df33/</link>
-      <pubDate>Wed, 11 Nov 2026 19:19:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/0afd1907df33/</guid>
-      <description>
-        
-          
-            Every generative AI team keeps rebuilding the same components: RAG pipelines, document processors, and agent scaffolding. This post shows how to access a curated catalog of 23 production-ready, open source reusable assets from the AWS Generative AI Innovation Center, with real delivery results from DoorDash, Lyft, and Ricoh.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Arithmetic Operators in C#: Numeric Types, Division, and Overflow</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/7450320889a2/</link>
-      <pubDate>Wed, 11 Nov 2026 19:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/7450320889a2/</guid>
-      <description>
-        
-          
-            Learn arithmetic operators in C# through numeric promotion, integer division, remainder, zero division, and checked overflow with clear practical examples.
-Worth a read for developers following .NET. Link to article: https://www.devleader.ca/2026/11/11/arithmetic-operators-in-c-numeric-types-division-and-overflow 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Bring Your Own Model is now generally available in Visual Studio</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/d619d2e84d75/</link>
-      <pubDate>Wed, 11 Nov 2026 17:00:48 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/d619d2e84d75/</guid>
-      <description>
-        
-          
-            Whether your team hosts its own AI models, you have an API key from a model provider, or you want to experiment with a model running on your machine, Bring Your Own Model (BYOM) lets you use those models without leaving Visual Studio. BYOM is now generally available in Visual Studio 18.12. Since the August […]
-Worth a read for developers following Visual Studio and AI. Link to article: https://devblogs.microsoft.com/visualstudio/bring-your-own-model-is-now-generally-available-in-visual-studio 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Accelerating product development with AI-driven lifecycle management (AI-PDLC) in AWS Quick</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/6e11a23c0428/</link>
-      <pubDate>Wed, 11 Nov 2026 16:05:33 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/6e11a23c0428/</guid>
-      <description>
-        
-          
-            Learn how to build an AI-driven product development lifecycle (AI-PDLC) with a suite of six AWS Quick agents that take you from scattered customer signals to a validated prototype across Discover, Decide, Design, and Prototype, with human approval at every gate and a specification ready to hand to coding agents like Kiro.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>UAEF: A framework-agnostic system for closed-loop evaluation of AI agents</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/7026ee2cddf1/</link>
-      <pubDate>Wed, 11 Nov 2026 15:50:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/7026ee2cddf1/</guid>
-      <description>
-        
-          
-            The Universal Agent Evaluation Framework (UAEF) is a framework-agnostic system for evaluating AI agents. UAEF converts each framework&#39;s traces into one canonical format, scores them with 36 built-in metrics across 7 dimensions, and stores results so teams can compare agent versions and catch regressions.
-Worth a read for developers following AI. Link to article: https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing usage-based pricing for Amazon SageMaker AI bidirectional streaming</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/3bb3af59874a/</link>
-      <pubDate>Wed, 11 Nov 2026 15:10:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/3bb3af59874a/</guid>
-      <description>
-        
-          
-            AWS Marketplace now supports usage-based metering for Amazon SageMaker bidirectional streaming inference, so model providers can charge for what customers actually consume during a live stream. Deepgram is the launch partner, bringing usage-based speech-to-text and text-to-speech billing to AWS Marketplace.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Migrate a GitHub repository to GitHub Enterprise</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/d9e81614a605/</link>
-      <pubDate>Wed, 11 Nov 2026 12:31:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/d9e81614a605/</guid>
-      <description>
-        
-          
-            This posts shows how to migrate a repository from GitHub.com to GitHub Enterprise Cloud (GHE.com). The migration transfers the repository and its associated data to the GitHub Enterprise environment while preserving project continuity and maintaining access for authorized users. Step 1: Install required tools for the GitHub migration. Install the required tools for the GitHub […]
-Worth a read for developers following General. Link to article: https://damienbod.com/2026/11/11/migrate-github-repository-to-github-enterprise 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Rider 2026.3 for Game Development: Lua and Verse Plugins, Better C&#43;&#43; Debugging, and Closer Godot Integration</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/240fe2c4cc90/</link>
-      <pubDate>Wed, 11 Nov 2026 10:30:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/240fe2c4cc90/</guid>
-      <description>
-        
-          
-            Rider 2026.3 brings improvements to the workflows you rely on to write, run, and debug games. This release connects Rider more closely with the Godot Editor, improves debugging for Unreal Engine and custom C++ engines, adds support for Unity CoreCLR Players, and introduces new Lua and Verse plugins in Beta. Here’s what’s new for game […]
-Worth a read for developers following General. Link to article: https://blog.jetbrains.com/dotnet/2026/11/11/rider-2026-3-for-gamedev 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ChatGPT Plus for veterans and servicemembers</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/80b38ea7da37/</link>
-      <pubDate>Wed, 11 Nov 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/80b38ea7da37/</guid>
-      <description>
-        
-          
-            More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.
-Worth a read for developers following AI. Link to article: https://openai.com/index/chatgpt-plus-for-veterans 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Kimi K3.1 Pro on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/52c1a0c9377c/</link>
-      <pubDate>Wed, 11 Nov 2026 01:07:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/52c1a0c9377c/</guid>
-      <description>
-        
-          
-            Kimi K3.1 Pro from Moonshot AI is now available on Amazon Bedrock. Learn how to get started through the OpenAI-compatible Chat Completions, Responses, and Converse APIs, optimize inference with explicit prompt caching, and use the model as a coding assistant in OpenCode.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>JioStar’s chief architect on AI discovery at 500M-user scale</title>
-      <link>https://www.dotnetramblings.com/post/11_11_2026/8c999d6885d2/</link>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/11_11_2026/8c999d6885d2/</guid>
-      <description>
-        
-          
-            JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.
-Worth a read for developers following AI. Link to article: https://openai.com/index/jiostar-vijay-seshadri 
           
           
         
