@@ -1297,7 +1297,7 @@
         <p>Stable releases from selected .NET AI projects over the past year; not an exhaustive list of AI tools.</p>
       </div>
       
-        <span>Latest release Nov 17, 2026</span>
+        <span>Latest release Nov 20, 2026</span>
       
     </div>
     
@@ -1307,13 +1307,58 @@
       </label>
       <div class="release-filters" role="group" aria-label="Release type">
         <button type="button" class="is-active" data-release-filter="all" aria-pressed="true">All</button>
-            <button type="button" data-release-filter="sdk-release" aria-pressed="false">SDK releases (138)</button>
+            <button type="button" data-release-filter="sdk-release" aria-pressed="false">SDK releases (139)</button>
             <button type="button" data-release-filter="major-release" aria-pressed="false">Major (2)</button>
             <button type="button" data-release-filter="breaking-change" aria-pressed="false">Breaking (4)</button>
             <button type="button" data-release-filter="deprecation" aria-pressed="false">Deprecations (4)</button>
             <button type="button" data-release-filter="security" aria-pressed="false">Security (2)</button>
       </div>
       <div class="release-list">
+        
+          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
+            <div class="release-item__meta">
+              <span>Anthropic C# SDK</span>
+              <time datetime="2026-11-20T15:57:23&#43;00:00">Nov 20, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.12.0" rel="noopener">Anthropic C# SDK 13.12.0</a></h3>
+              <p>api: add the imagedimensionstoolarge error code client: keep enum member numbers stable across versions Enum members keep the numbers they had in 13.11.0. Recompile any library that was built against 13.10.0 or earlier. client: send one user profile ID when the request and the…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Sdk Release</span>
+              <span>Official</span>
+            </div>
+          </article>
+        
+          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
+            <div class="release-item__meta">
+              <span>Microsoft.Extensions.AI</span>
+              <time datetime="2026-11-20T02:02:24&#43;00:00">Nov 20, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/dotnet/extensions/releases/tag/v10.11.1" rel="noopener">Microsoft.Extensions.AI 10.11.1</a></h3>
+              <p>This servicing release removes unsupported-TFM package warnings and clarifies framework compatibility notices. It does not change supported frameworks or republish the project templates. The release includes 41 stable packages and nine preview packages. | Package | Version |…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Sdk Release</span>
+              <span>Official</span>
+            </div>
+          </article>
+        
+          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
+            <div class="release-item__meta">
+              <span>Anthropic C# SDK</span>
+              <time datetime="2026-11-19T19:16:00&#43;00:00">Nov 19, 2026</time>
+            </div>
+            <div class="release-item__content">
+              <h3><a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.11.0" rel="noopener">Anthropic C# SDK 13.11.0</a></h3>
+              <p>api: add Claude Code managed settings to the Admin API api: add the sandboxegressrestricted error to Admin API plugin methods client: throw if a library was built against another major version After you upgrade, building a client throws AnthropicException if your app has a…</p>
+            </div>
+            <div class="release-item__labels">
+              <span class="release-type">Sdk Release</span>
+              <span>Official</span>
+            </div>
+          </article>
         
           <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
             <div class="release-item__meta">
@@ -1992,21 +2037,6 @@
         
           <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
             <div class="release-item__meta">
-              <span>Anthropic C# SDK</span>
-              <time datetime="2026-09-30T18:47:19&#43;00:00">Sep 30, 2026</time>
-            </div>
-            <div class="release-item__content">
-              <h3><a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.52.0" rel="noopener">Anthropic C# SDK 12.52.0</a></h3>
-              <p>api: add a refusal stop reason and stopdetails to Managed Agents session idle events (de3c72d) api: add Claude Enterprise analytics, spend limits, and RBAC groups and roles to the Admin API (35e80fc) api: add per-user usage and cost reports to the Admin API analytics (69db0bf)…</p>
-            </div>
-            <div class="release-item__labels">
-              <span class="release-type">Sdk Release</span>
-              <span>Official</span>
-            </div>
-          </article>
-        
-          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
-            <div class="release-item__meta">
               <span>OllamaSharp</span>
               <time datetime="2026-09-30T06:47:58&#43;00:00">Sep 30, 2026</time>
             </div>
@@ -2017,21 +2047,6 @@
             <div class="release-item__labels">
               <span class="release-type">Sdk Release</span>
               
-            </div>
-          </article>
-        
-          <article class="release-item release-item--sdk-release" data-release-item data-release-type="sdk-release">
-            <div class="release-item__meta">
-              <span>Anthropic C# SDK</span>
-              <time datetime="2026-09-28T18:04:44&#43;00:00">Sep 28, 2026</time>
-            </div>
-            <div class="release-item__content">
-              <h3><a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.51.0" rel="noopener">Anthropic C# SDK 12.51.0</a></h3>
-              <p>api: add betweentools thinking type (7cb59af) api: add claude-sonnet-5-5 (26ad891) api: add includeinherited and source to workspace rate limits (bc781fc) api: add typed event type values to the Managed Agents events list filter (51c641e) api: cache diagnostics GA — diagnostics…</p>
-            </div>
-            <div class="release-item__labels">
-              <span class="release-type">Sdk Release</span>
-              <span>Official</span>
             </div>
           </article>
         
