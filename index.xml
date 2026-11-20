@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 20 Nov 2026 16:01:37 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Nov 2026 18:24:06 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2026/1993e3871a44/</link>
+      <pubDate>Fri, 20 Nov 2026 18:24:06 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2026/1993e3871a44/</guid>
+      <description>
+        
+          
+            Amazon SageMaker HyperPod now offers enhanced observability to help you diagnose GPU training issues faster. It brings together diagnostic and profiling capabilities for training workloads on both Amazon EKS and Slurm orchestrators, pinpointing issues across GPU, network, and host layers.
+Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI is Changing the Cross-Platform Decision Matrix</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2026/1fa64136a1e4/</link>
+      <pubDate>Fri, 20 Nov 2026 18:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2026/1fa64136a1e4/</guid>
+      <description>
+        
+          
+            AI agents rebuilt a .NET MAUI app with platform UI in days. See what that cost to build, what it costs to maintain, and what changed at runtime, so you can weigh the same choice for your app.
+Worth a read for developers following AI and .NET. Link to article: https://devblogs.microsoft.com/dotnet/ai-cross-platform-decision-matrix 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Generate Embeddings with Microsoft-Embedding-1 in Azure Cosmos DB</title>
       <link>https://www.dotnetramblings.com/videos/20_11_2026/597450c4ebc3/</link>
@@ -68,6 +102,22 @@ Worth a watch for developers following General. Link to video: https://www.youtu
           
             Four days of workshops, code and conversations along the Douro. The talks are great, but the hallway chats between sessions are where a lot of the real work gets done. Huge thanks to every speaker, attendee and partner who showed up and shared what they know. One more day of sessions to go. #ndcporto
 Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=rOlbadHpMZQ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Finding a memory leak in a .NET dump with an AI agent</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2026/01a536714c0f/</link>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2026/01a536714c0f/</guid>
+      <description>
+        
+          
+            A leak investigation has three questions, in this order: what is on the heap, who keeps it alive, and is it actually growing. Each has its own command, and the third one is the one that gets skipped, by humans and models alike, because a single dump always looks like enough evidence. The sample contains the application, the collection script, and the skill. Every command output below comes from it. The…
           
           
         
@@ -320,6 +370,23 @@ Worth a read for developers following AWS and AI. Link to article: https://aws.a
           
             Kimi Code CLI v2.7.0 adds a native Amazon Bedrock provider, so you can connect the open source coding agent to models like Kimi K3.1 Pro using your standard AWS credential chain (named profiles or SSO) instead of a separate API key. This post shows how to configure the provider and send your first request.
 Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Can AI help scientists identify promising drug candidates?</title>
+      <link>https://www.dotnetramblings.com/post/20_11_2026/f4784c304003/</link>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/20_11_2026/f4784c304003/</guid>
+      <description>
+        
+          
+            MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.
+Worth a read for developers following AI. Link to article: https://openai.com/index/introducing-medchembench 
           
           
         
