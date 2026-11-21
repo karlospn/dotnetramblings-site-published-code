@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 21 Nov 2026 01:06:42 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Nov 2026 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding WebMCP to a Static Hugo Site on GitHub Pages</title>
+      <link>https://www.dotnetramblings.com/post/21_11_2026/b2929007388e/</link>
+      <pubDate>Sat, 21 Nov 2026 15:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_11_2026/b2929007388e/</guid>
+      <description>
+        
+          
+            I saw Debbie O&#39;Brien&#39;s post about adding WebMCP to her site and thought this could be pretty cool for my own website. She also shared a walkthrough on X, which is worth checking out. My first question, though, was whether it would work on a static website. This site uses Hugo, and GitHub Pages serves the generated files. There isn&#39;t an application server sitting behind each page waiting to answer an agent&#39;s…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Finding a leak rooted by an event handler or a timer with an AI agent</title>
+      <link>https://www.dotnetramblings.com/post/21_11_2026/31b66472d21f/</link>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/21_11_2026/31b66472d21f/</guid>
+      <description>
+        
+          
+            The previous post found a leak whose root was a static cache, which is the case everybody recognises. This one has no cache, no static collection, and nothing that looks like storage. It leaks because objects subscribe to an event and because they schedule a timer. Same three commands, but the gcroot chain looks completely different, and the output is large enough that reading it becomes a problem of its…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>New in AWS Quick: More capable flows, an updated web experience, and agents that work together</title>
       <link>https://www.dotnetramblings.com/post/21_11_2026/3628ce26a797/</link>
