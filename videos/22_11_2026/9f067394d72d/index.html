@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>AI Can Write Code. You Still Need System Design. | .NET Ramblings</title>
+<title>Union Types Broke My Build (And That&#39;s the Point) | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,18 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="AI can produce code faster, but you still need the fundamentals to steer it. My takeaway from Anthropic&amp;#39;s project is that system ...
-Worth a watch for …">
+<meta name="description" content="The one-line Result union from my last video has a gap. It knows a call can fail, but not which errors exist, so a new error still compiles and ends up as a …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AI Can Write Code. You Still Need System Design.">
-<meta name="twitter:description" content="AI can produce code faster, but you still need the fundamentals to steer it. My takeaway from Anthropic&amp;#39;s project is that system ...
-Worth a watch for …">
-<meta name="twitter:image" content="https://i.ytimg.com/vi/4mvDgKYgV2M/hqdefault.jpg">
-<meta property="og:url" content="https://www.dotnetramblings.com/videos/14_11_2026/62bebfb6197f/">
-<meta property="og:title" content="AI Can Write Code. You Still Need System Design.">
-<meta property="og:description" content="AI can produce code faster, but you still need the fundamentals to steer it. My takeaway from Anthropic&amp;#39;s project is that system ...
-Worth a watch for …">
-<meta property="og:image" content="https://i.ytimg.com/vi/4mvDgKYgV2M/hqdefault.jpg">
+<meta name="twitter:title" content="Union Types Broke My Build (And That&#39;s the Point)">
+<meta name="twitter:description" content="The one-line Result union from my last video has a gap. It knows a call can fail, but not which errors exist, so a new error still compiles and ends up as a …">
+<meta name="twitter:image" content="https://i.ytimg.com/vi/mbaFDIuEAXA/hqdefault.jpg">
+<meta property="og:url" content="https://www.dotnetramblings.com/videos/22_11_2026/9f067394d72d/">
+<meta property="og:title" content="Union Types Broke My Build (And That&#39;s the Point)">
+<meta property="og:description" content="The one-line Result union from my last video has a gap. It knows a call can fail, but not which errors exist, so a new error still compiles and ends up as a …">
+<meta property="og:image" content="https://i.ytimg.com/vi/mbaFDIuEAXA/hqdefault.jpg">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -44,7 +41,7 @@ Worth a watch for …">
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://www.youtube.com/watch?v=4mvDgKYgV2M">
+<link rel="canonical" href="https://www.youtube.com/watch?v=mbaFDIuEAXA">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -149,23 +146,24 @@ Worth a watch for …">
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">AI Can Write Code. You Still Need System Design.</h1>
+    <h1 class="post_title">Union Types Broke My Build (And That's the Point)</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Nov 14, 2026</span>
+      <span class="post_date">Nov 22, 2026</span>
       <span>
+          <a href="https://www.dotnetramblings.com/topics/.net/" title=".NET" class="post_tag button button_translucent">.NET</a>
           <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
       </span>
   </div>
 
-    <div class="post_body"><p>AI can produce code faster, but you still need the fundamentals to steer it. My takeaway from Anthropic's project is that system ...</p>
+    <div class="post_body"><p>The one-line Result union from my last video has a gap. It knows a call can fail, but not which errors exist, so a new error still compiles and ends up as a 500. 🎓 Master the SWE skills agents can't replace: <a href="https://milanjovanovic.tech/courses">https://milanjovanovic.tech/courses</a> 💻 Source code on Patreon: <a href="https://www.patreon.com/c/milanjovanovic">https://www.patreon.com/c/milanjovanovic</a> 📬 Weekly .NET tips in my newsletter: <a href="https://milanjovanovic.tech/blog">https://milanjovanovic.tech/blog</a> ⚡ Try Katabench: <a href="https://katabench.com/">https://katabench.com/</a>…</p>
 <ul>
-<li>Worth a watch for developers following AI.</li>
-<li>Link to video: <a href="https://www.youtube.com/watch?v=4mvDgKYgV2M">https://www.youtube.com/watch?v=4mvDgKYgV2M</a></li>
+<li>Worth a watch for developers following .NET and AI.</li>
+<li>Link to video: <a href="https://www.youtube.com/watch?v=mbaFDIuEAXA">https://www.youtube.com/watch?v=mbaFDIuEAXA</a></li>
 </ul>
 
     </div>

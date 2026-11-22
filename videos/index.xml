@@ -7,7 +7,90 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 21 Nov 2026 10:15:21 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/videos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2026 12:00:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Accelerators vs. CPUs: Why They Think Differently</title>
+      <link>https://www.dotnetramblings.com/videos/22_11_2026/bfcb08761a98/</link>
+      <pubDate>Sun, 22 Nov 2026 12:00:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/22_11_2026/bfcb08761a98/</guid>
+      <description>
+        
+          
+            Learn more about AI Accelerators here → https://ibm.biz/~ioJcnGCZ4 The same math can behave very differently across AI hardware. Swagath Venkataramani compares CPUs, GPUs, and AI accelerators through scheduling, parallelism, and data movement. Learn why control flow, dataflow, latency, and throughput shape performance. 00:00 – Compare How AI Hardware Decides What Runs Next 00:23 – Understand CPUs, GPUs &amp;amp; AI…
+Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=IYVqarjWO2g 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Union Types Broke My Build (And That&#39;s the Point)</title>
+      <link>https://www.dotnetramblings.com/videos/22_11_2026/9f067394d72d/</link>
+      <pubDate>Sun, 22 Nov 2026 11:00:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/22_11_2026/9f067394d72d/</guid>
+      <description>
+        
+          
+            The one-line Result union from my last video has a gap. It knows a call can fail, but not which errors exist, so a new error still compiles and ends up as a 500. 🎓 Master the SWE skills agents can&#39;t replace: https://milanjovanovic.tech/courses 💻 Source code on Patreon: https://www.patreon.com/c/milanjovanovic 📬 Weekly .NET tips in my newsletter: https://milanjovanovic.tech/blog ⚡ Try Katabench: https://katabench.com/…
+Worth a watch for developers following .NET and AI. Link to video: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Would you trust AI with 1,000,000 lines of code? #infoq</title>
+      <link>https://www.dotnetramblings.com/videos/22_11_2026/3e79f447ad65/</link>
+      <pubDate>Sun, 22 Nov 2026 10:15:27 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/22_11_2026/3e79f447ad65/</guid>
+      <description>
+        
+          
+            A million-line production codebase. Rewritten by AI. Would you trust it? Rust co-designer Nicholas Matsakis reveals how Microsoft and other major tech teams are using AI to tackle migrations that once took decades - now completed in weeks. The results are challenging everything we thought we knew about large-scale code modernization. 🔗 Watch the full video [transcript included] – https://bit.ly/4tef3IP #AI…
+Worth a watch for developers following AI. Link to video: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How do I securely access the Amazon EKS cluster API server endpoint from within a VPC or peered VPC?</title>
+      <link>https://www.dotnetramblings.com/videos/21_11_2026/c8222b825f5a/</link>
+      <pubDate>Sat, 21 Nov 2026 19:00:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/21_11_2026/c8222b825f5a/</guid>
+      <description>
+        
+          
+            Want to keep your Amazon EKS API server off the public internet? Harpreet shows how to switch your cluster to private endpoint access so you can reach it only from within your VPC or a peered VPC. 0:00 Introduction 0:20 Before you turn on private access 0:53 Change endpoint access in the EKS console 2:00 Test the private endpoint with kubectl 2:27 Change endpoint access with the AWS CLI 2:59 Closing For more…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Ignite 2026 Summary</title>
+      <link>https://www.dotnetramblings.com/videos/21_11_2026/19bcd51391eb/</link>
+      <pubDate>Sat, 21 Nov 2026 17:28:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/21_11_2026/19bcd51391eb/</guid>
+      <description>
+        
+          
+            This is not my Ignite 2026 Update Special, I&#39;m working on that. Instead accept a summary overview while I continue working on the deep dive :-) 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in the moderation queue never to be seen…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>$2M in AI Costs... With Zero Code Changes #infoq</title>
       <link>https://www.dotnetramblings.com/videos/21_11_2026/617969bbbc75/</link>
@@ -3041,57 +3124,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
           
             Dokploy&#39;s Security tab covers UFW, SSH, and fail2ban. I explain how a provider firewall and private network affect which ...
 Worth a watch for developers following Security. Link to video: https://www.youtube.com/watch?v=_EQGbs3Pix4 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Influence - Authority: Senior Engineer Leadership #infoq</title>
-      <link>https://www.dotnetramblings.com/videos/14_11_2026/1d9133fc4139/</link>
-      <pubDate>Sat, 14 Nov 2026 10:15:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/14_11_2026/1d9133fc4139/</guid>
-      <description>
-        
-          
-            No managerial title? No problem. Senior ICs lead through influence, not authority. Driving change without direct reports comes ...
-Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=TD6x5yQ-3HI 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AI Can Write Code. You Still Need System Design.</title>
-      <link>https://www.dotnetramblings.com/videos/14_11_2026/62bebfb6197f/</link>
-      <pubDate>Sat, 14 Nov 2026 09:00:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/14_11_2026/62bebfb6197f/</guid>
-      <description>
-        
-          
-            AI can produce code faster, but you still need the fundamentals to steer it. My takeaway from Anthropic&#39;s project is that system ...
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=4mvDgKYgV2M 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Security&#39;s New Reality Check</title>
-      <link>https://www.dotnetramblings.com/videos/14_11_2026/52f08cefdab5/</link>
-      <pubDate>Sat, 14 Nov 2026 05:00:28 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/14_11_2026/52f08cefdab5/</guid>
-      <description>
-        
-          
-            Everyone&#39;s a target. The question isn&#39;t if you&#39;ll be breached—it&#39;s how fast you can contain it. Learn the containment-first security ...
-Worth a watch for developers following Security. Link to video: https://www.youtube.com/watch?v=sZg4uJnU9rU 
           
           
         
