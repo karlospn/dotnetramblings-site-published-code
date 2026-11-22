@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sun, 22 Nov 2026 07:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debugging a running .NET application with WinDbg and an AI agent</title>
+      <link>https://www.dotnetramblings.com/post/22_11_2026/66650f2d15ef/</link>
+      <pubDate>Sun, 22 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_11_2026/66650f2d15ef/</guid>
+      <description>
+        
+          
+            Every post in this series so far started from a file: a dump, a gcdump, a trace. That works as long as the answer is in memory at the moment the file is written. Some answers never are. A dump can show that a value is wrong. It cannot show who wrote it, because by the time the dump is taken, the write is long gone. That question needs a debugger attached to the running process, one that stops the process…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Database Performance: Counting Rows with EF Core vs. ADO.NET</title>
       <link>https://www.dotnetramblings.com/post/22_11_2026/92464a394893/</link>
@@ -36,6 +52,23 @@ Worth a read for developers following .NET and Data. Link to article: https://do
           
             AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.
 Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Perplexity and Intelligence</title>
+      <link>https://www.dotnetramblings.com/post/22_11_2026/de5cd1a6d51d/</link>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_11_2026/de5cd1a6d51d/</guid>
+      <description>
+        
+          
+            How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.
+Worth a read for developers following AI. Link to article: https://openai.com/index/perplexity-and-intelligence 
           
           
         
