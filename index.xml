@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Sat, 21 Nov 2026 15:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2026 07:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database Performance: Counting Rows with EF Core vs. ADO.NET</title>
+      <link>https://www.dotnetramblings.com/post/22_11_2026/92464a394893/</link>
+      <pubDate>Sun, 22 Nov 2026 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_11_2026/92464a394893/</guid>
+      <description>
+        
+          
+            Counting rows may seem simple, but the data-access approach can affect both execution time and memory allocations. This benchmark compares Entity Framework Core, compiled EF Core queries, and direct ADO.NET with SQLite to reveal which approach handles frequently executed count operations most efficiently.
+Worth a read for developers following .NET and Data. Link to article: https://dotnettips.com/2026/11/22/database-performance-counting-rows-with-ef-core-vs-ado-net 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Meta ads is now available in AWS Quick</title>
+      <link>https://www.dotnetramblings.com/post/22_11_2026/26e2979e9c83/</link>
+      <pubDate>Sun, 22 Nov 2026 01:59:13 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/22_11_2026/26e2979e9c83/</guid>
+      <description>
+        
+          
+            AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.
+Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Adding WebMCP to a Static Hugo Site on GitHub Pages</title>
       <link>https://www.dotnetramblings.com/post/21_11_2026/b2929007388e/</link>
