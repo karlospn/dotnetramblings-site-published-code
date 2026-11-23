@@ -7,7 +7,373 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Mon, 23 Nov 2026 07:53:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Nov 2026 19:13:35 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS: AI Answered How to keep control of an AI agent when I give it real work? | Amazon Web Services</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/7fd85a44b70f/</link>
+      <pubDate>Mon, 23 Nov 2026 19:13:35 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/7fd85a44b70f/</guid>
+      <description>
+        
+          
+            How do I keep control of an AI agent when I give it real work? When an AI agent can move money, change infrastructure, or ship code, the hard part is not getting it to act. It is trusting it to stay inside the lines while it does the work that matters most. The shift is to stop treating control as one gate before launch and start building it in layers around the AI agent, so you can expand what you safely hand it…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Barracuda Builds a Data Foundation on AWS to Power AI Threat Protection | Amazon Web Services</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/93e0cc637038/</link>
+      <pubDate>Mon, 23 Nov 2026 19:02:12 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/93e0cc637038/</guid>
+      <description>
+        
+          
+            Learn how Barracuda uses OpenSearch Serverless to scale threat detection across billions of daily objects and protect nearly 200,000 businesses worldwide. Key highlights: Protects almost 200,000 businesses globally from threats to applications, networks, email, and identity Operates at petabyte scale, with billions of objects processed daily OpenSearch Serverless lets Barracuda optimize ingestion, storage, search,…
+Worth a watch for developers following AWS and AI. Link to video: https://www.youtube.com/watch?v=snmVFrr3lkc 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How do I connect to my Amazon EC2 instance if I lose my SSH key pair?</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/8556f16ec95d/</link>
+      <pubDate>Mon, 23 Nov 2026 19:00:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/8556f16ec95d/</guid>
+      <description>
+        
+          
+            Lost the SSH key pair for your Amazon EC2 instance? Shiva Prasad walks through several ways to get back in: a new key pair with user data, Systems Manager, EC2 Instance Connect, the EC2 Serial Console, and a rescue instance. 0:00 Introduction 0:29 Create a new key pair 0:56 Get the public key material 1:52 Add the new key with user data 2:52 Remove the user data script 3:26 Reset access with Systems Manager 4:59…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Who&#39;s Your Agent Acting For? Managed Deep Agents in Under 65 Seconds</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/7be750408a22/</link>
+      <pubDate>Mon, 23 Nov 2026 18:25:57 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/7be750408a22/</guid>
+      <description>
+        
+          
+            Victor Moreira, Product Manager at LangChain, explains how Managed Deep Agents lets you define an agent&#39;s access control by the channel it is called from, so you can let it use your personal memories and credentials in a Slack DM and keep that information out of a shared channel. When the agent is missing a user&#39;s on-behalf-of token, the human in the loop built into Deep Agents and the LangGraph runtime lets it pause…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>We Open Sourced Our Design Brain</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/17c8dd30281a/</link>
+      <pubDate>Mon, 23 Nov 2026 18:17:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/17c8dd30281a/</guid>
+      <description>
+        
+          
+            Content Studio is the design agent LangChain runs in Slack, and it&#39;s now open source. It has made over 3,000 assets for us, including work for some of our biggest launches. Every graphic it makes is an HTML page and every video is an animation timeline, so the work stays editable and on-brand. We walk through how it&#39;s built, then deploy it to a Slack workspace in three steps. Once it&#39;s live, we hand it our brand…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Sandbox Your AI Agents in One Command with Strands Box</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/0b6a145bd77d/</link>
+      <pubDate>Mon, 23 Nov 2026 18:15:23 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/0b6a145bd77d/</guid>
+      <description>
+        
+          
+            Coding agents are capable, but they can also be unpredictable and exploitable. Strands Box lets you run Claude Code, Codex, or Kiro CLI in YOLO mode while it controls which files, websites, and tools the agent can touch. Strands Box is a free, open-source agent sandbox from AWS that lets you run Claude Code, Codex, or Kiro CLI with limits on what the agent can reach. One command starts a sandboxed session with the…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Halloween Theme Park Edition | GameDay Rapid Replay</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/eefe98bce6fc/</link>
+      <pubDate>Mon, 23 Nov 2026 18:09:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/eefe98bce6fc/</guid>
+      <description>
+        
+          
+            Join the GameDay team as they try to open the first ever theme park from Unicorn.Rentals! Halloween will never be the same as we work through getting the gates open by squashing bugs in our all Serverless architecture that powers the frightful and fabulous attractions at Boonicorn.Rentals. You&#39;ll never sleep again -- or at least until we get our Step Functions workflow flowing! Watch the full episode here:…
+Worth a watch for developers following Architecture.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>.NET Data Community Standup: EF 11 release celebration 🎉</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/1f173f4db376/</link>
+      <pubDate>Mon, 23 Nov 2026 17:26:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/1f173f4db376/</guid>
+      <description>
+        
+          
+            Join the EF team to celebrate EF 11 release, ask questions and get juicy behind the scenes stories. 😉 🎙️ Featuring: Jiri Cincura #ef #efcore #data #dotnet #dotnet11 #ef11
+Worth a watch for developers following .NET. Link to video: https://www.youtube.com/watch?v=6rZ3r7f2Gf4 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How OpenAI Serves 1.2 Billion Users with Azure Cosmos DB</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/08e6a1b4b424/</link>
+      <pubDate>Mon, 23 Nov 2026 15:43:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/08e6a1b4b424/</guid>
+      <description>
+        
+          
+            OpenAI serves 1.2 billion users with Habitat, a shared database built on Azure Cosmos DB. What makes that scale possible? OpenAI’s application teams share the same database infrastructure, while serverless scaling lets them launch new apps without provisioning capacity for each one. In 75 seconds, see how OpenAI uses multitenancy to scale new applications, how geo-partitioning keeps data close to users, and why a…
+Worth a watch for developers following Azure and AI.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>All or Nothing: Distributed Transactions in Azure Cosmos DB</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/502a8c4f86d5/</link>
+      <pubDate>Mon, 23 Nov 2026 15:26:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/502a8c4f86d5/</guid>
+      <description>
+        
+          
+            How do distributed transactions work in Azure Cosmos DB? In public preview, distributed transactions let you commit writes across partition keys, containers, and databases within a single Azure Cosmos DB account. Unlike a transactional batch, which is limited to one logical partition, a distributed transaction uses two-phase commit to keep writes atomic: either every write succeeds or none takes effect. Watch Alice…
+Worth a watch for developers following Azure and Containers.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Protecting and Re-Monetizing Live Content with Agentic Intelligence | Support Partners</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/82305237f493/</link>
+      <pubDate>Mon, 23 Nov 2026 14:38:56 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/82305237f493/</guid>
+      <description>
+        
+          
+            See how Support Partners Ghost uses Agentic Intelligence and agentic workflows to help broadcasters identify and respond to unauthorized live streams. The demo shows how Ghost analyzes piracy activity, gathers contextual evidence, supports response decisions, prepares incident information for legal workflows, and provides visibility into streaming activity. It also explores opportunities to move beyond stream…
+Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=ORapTfXuyFU 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Jev Explained: How TypeSafe&#39;s System One Model Fits into Your Agents</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/91a9c1d7340d/</link>
+      <pubDate>Mon, 23 Nov 2026 14:25:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/91a9c1d7340d/</guid>
+      <description>
+        
+          
+            Sydney Runkle, product manager for open source at LangChain, talks with Sasha Sheng, co-founder of TypeSafe AI, whose team builds the training data behind Jev. Sasha explains why TypeSafe built a model that returns typed answers with a confidence score rather than generated text, and how to break a fuzzy problem into small questions that Jev answers in parallel. They also get into where Jev fits inside a LangChain…
+Worth a watch for developers following AI.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Dev Floor · Ep 1 (Part 1) – “The Issue With New Hires”</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/333f77ae7b0d/</link>
+      <pubDate>Mon, 23 Nov 2026 14:08:29 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/333f77ae7b0d/</guid>
+      <description>
+        
+          
+            Your first day at yet another AI B2B SaaS. What could possibly go wrong?
+Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=3KYWHdHfs5E 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Dev Floor · Ep 1 – “The Issue With New Hires”</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/eaa111c9b8c0/</link>
+      <pubDate>Mon, 23 Nov 2026 14:05:14 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/eaa111c9b8c0/</guid>
+      <description>
+        
+          
+            New hire Polly’s AI coding speed leaves her mentor, Lukas, in the dust – until everything crashes and nobody knows what she actually shipped. The Dev Floor is a workplace comedy series about MoreAgents.io, a small software team trying to ship in the age of AI coding agents. The agents write the code, the developers argue about it, and nobody is entirely sure who’s responsible anymore. A mockumentary for anyone who’s…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Get More Done with GitHub Copilot in JetBrains IDEs</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/85732af08894/</link>
+      <pubDate>Mon, 23 Nov 2026 13:21:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/85732af08894/</guid>
+      <description>
+        
+          
+            In this live session, watch GitHub Copilot in action using IntelliJ IDEA. Run parallel agents, use your own tools, stay secure, track costs, and modernize a legacy app. We&#39;ll also briefly cover the latest GitHub Universe and Microsoft Ignite announcements, including Copilot Fusion. You Will Learn: • Run Copilot agents in parallel • Customize Copilot with skills and MCP • Sandbox agents and manage policies • Track and…
+Worth a watch for developers following AI.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Vibe Coding vs. Agentic Coding: Which Should You Use?</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/62176aa3381b/</link>
+      <pubDate>Mon, 23 Nov 2026 12:00:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/62176aa3381b/</guid>
+      <description>
+        
+          
+            Learn more about Agentic Coding here → https://ibm.biz/~6fQmfF0jA Not every AI coding task needs the same workflow. Grace Ableidinger compares Vibe Coding with Agentic Coding across context, planning, testing, validation, and security. Learn which approach fits prototypes, production features, and complex code changes. 00:00 – Define Vibe Coding vs. Agentic Coding 01:23 – Understand How Vibe Coding Works 01:51 – Use…
+Worth a watch for developers following AI and Security. Link to video: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>One &#34;Add to Cart&#34; Click = 40&#43; Microservices?! #infoq</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/395a13f5aa85/</link>
+      <pubDate>Mon, 23 Nov 2026 11:13:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/395a13f5aa85/</guid>
+      <description>
+        
+          
+            One “Add to Cart” click can trigger 40+ microservice calls behind the scenes. Jayesh Bhayani, Senior Engineering Director at Tesco, explains why the right API abstractions are critical to managing complexity at scale - and keeping mobile experiences responsive. 🔗 Watch the full video (transcript included): https://bit.ly/4tdFJcF #SoftwareArchitecture #Microservices #APIDesign #SystemDesign #InfoQ
+Worth a watch for developers following Architecture. Link to video: https://www.youtube.com/watch?v=_CfUefGJo1s 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>M365 Resilience Overview</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/9b74dcbfc85c/</link>
+      <pubDate>Mon, 23 Nov 2026 10:50:34 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/9b74dcbfc85c/</guid>
+      <description>
+        
+          
+            A walkthrough of M365 architecture, the layers of resiliency and how they work together. ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:38 - The client 01:16 - DNS service 02:24 - Frontend 02:51 - Client Access Front End (CAFE) 06:01 - Azure Front Door 07:17 - Failover option 09:03 - Backend 10:11 - Exchange cells 10:54 - Teams 11:21 - Cross-service dependency 12:09 - Change management and testing 14:57 -…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Simulation Can Tell You What Your Agents are Actually Doing: A Conversation with Zhou Yu</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/2110136743be/</link>
+      <pubDate>Mon, 23 Nov 2026 10:13:36 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/2110136743be/</guid>
+      <description>
+        
+          
+            In this podcast, Michael Stiefel spoke to Zhou Yu about using dynamic simulations to evaluate AI agents. One particular focus was conversational agents where actions depend on prior responses, and the non-deterministic nation of LLMs means you cannot rely on static, reference-based benchmarks. You need to test them using dynamic simulations that incorporate different personas, goals, and corner cases. You can…
+Worth a watch for developers following AI. Link to video: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Coding agents can&#39;t get Java</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/490ae7601b78/</link>
+      <pubDate>Mon, 23 Nov 2026 09:57:32 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/490ae7601b78/</guid>
+      <description>
+        
+          
+            Netflix engineers saw that coding agents struggle with large Java projects, searching text but missing types, dependencies, and structure. JetBrains builds IDEs that know Java code inside out. Together, the two teams brought that understanding to coding agents.
+Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=bUIrCAHPFFQ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>I turn off auto-deploy for production</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/250986c84aed/</link>
+      <pubDate>Mon, 23 Nov 2026 09:00:33 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/250986c84aed/</guid>
+      <description>
+        
+          
+            I create a Docker Compose deployment on the production server and disable automatic deployments on every Git push. Changes go through staging before I deploy them to production manually. Learn to deploy and run your own apps: https://milanjovanovic.tech/pragmatic-self-hosting
+Worth a watch for developers following Containers. Link to video: https://www.youtube.com/watch?v=UanzY8fv83Q 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What DORA Found: AI Amplifies Good and Bad Systems Alike</title>
+      <link>https://www.dotnetramblings.com/videos/23_11_2026/53de62e2c138/</link>
+      <pubDate>Mon, 23 Nov 2026 08:55:19 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/23_11_2026/53de62e2c138/</guid>
+      <description>
+        
+          
+            Nearly 5,000 practitioners told DORA how they use AI, and the verdict is clear: AI amplifies the system you already have, good or bad. Nathen Harvey leads DORA, the research program that has spent more than a decade studying how technology teams improve software delivery. In this talk he walks through the 2025 findings on AI adoption. About 90% of respondents use AI at work, with a median of two hours a day, and…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>QuickCheck property: Monotonicity in items</title>
       <link>https://www.dotnetramblings.com/post/23_11_2026/43a75c0de77a/</link>
@@ -25,6 +391,23 @@
     </item>
     
     <item>
+      <title>From Hours to Minutes: Automating Podcast Production With AI</title>
+      <link>https://www.dotnetramblings.com/videos/22_11_2026/c9ad8c42b830/</link>
+      <pubDate>Sun, 22 Nov 2026 19:04:39 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/22_11_2026/c9ad8c42b830/</guid>
+      <description>
+        
+          
+            Discover how GitHub Copilot and the Microsoft Copilot SDK transformed podcast production from hours to minutes. Watch a live demo of &amp;quot;outro kit&amp;quot;—a custom automation tool that generates titles, descriptions, chapters, and thumbnails while seamlessly handling uploads across YouTube, Fireside, and Patreon. A practical masterclass in AI-driven workflow automation. OutroKit: https://outrokit.com Recorded with Tiny Clips:…
+Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=NmXjdcXxBQg 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>How I automated my podcast workflow with GitHub Copilot, VS Code, and Blazor</title>
       <link>https://www.dotnetramblings.com/post/22_11_2026/33b50791e21b/</link>
       <pubDate>Sun, 22 Nov 2026 19:00:00 +0000</pubDate>
@@ -35,6 +418,22 @@
           
             Every week, Merge Conflict turned into an hour of renaming files, making thumbnails, and filling in the same details on three sites. So I asked GitHub Copilot what we could build to fix that. Here&#39;s how it went, including the parts that still aren&#39;t automated.
 Worth a read for developers following .NET and AI. Link to article: https://montemagno.com/how-i-automated-my-podcast-workflow-with-github-copilot-vs-code-and-blazor 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Weekly Update - 22nd November 2026 - Ignite 2026 Special</title>
+      <link>https://www.dotnetramblings.com/videos/22_11_2026/5362a04ca8fb/</link>
+      <pubDate>Sun, 22 Nov 2026 18:35:22 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/22_11_2026/5362a04ca8fb/</guid>
+      <description>
+        
+          
+            HUGE update to cover Ignite 2026. 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in the moderation queue never to be seen so please post questions to other sites like Reddit, Microsoft Community Hub etc.
           
           
         
@@ -5240,74 +5639,6 @@ Worth a read for developers following General. Link to article: https://openai.c
           
             The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.
 Worth a read for developers following AI. Link to article: https://openai.com/index/the-kings-trust-and-openai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build lean with HTMX and Web Components with Brook Jeynes</title>
-      <link>https://www.dotnetramblings.com/videos/15_11_2026/e4ad02b681d7/</link>
-      <pubDate>Sun, 15 Nov 2026 23:30:40 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/15_11_2026/e4ad02b681d7/</guid>
-      <description>
-        
-          
-            Most websites are static pages, forms, and the occasional data table. So why do we build websites like we need to harness the ...
-Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=u_fHCZxpYUo 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AI Model Debugging: Find the First Divergence Across AI Accelerators</title>
-      <link>https://www.dotnetramblings.com/videos/15_11_2026/01393caa3ed5/</link>
-      <pubDate>Sun, 15 Nov 2026 12:00:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/15_11_2026/01393caa3ed5/</guid>
-      <description>
-        
-          
-            Learn more about AI Debugging here → https://ibm.biz/~i26jCJsKx The same AI model can produce different results across ...
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=K6ffYKrlPdU 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Staff&#43; Reality Check: Maturity First #infoq</title>
-      <link>https://www.dotnetramblings.com/videos/15_11_2026/2ff23e8d15b7/</link>
-      <pubDate>Sun, 15 Nov 2026 10:15:03 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/15_11_2026/2ff23e8d15b7/</guid>
-      <description>
-        
-          
-            Maturity enables complexity.” The best technical solution isn&#39;t always the right solution for your organization. For #StaffPlus ...
-Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=MR5x_AvV_xk 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Check your VPS security before you deploy</title>
-      <link>https://www.dotnetramblings.com/videos/15_11_2026/840a905cb499/</link>
-      <pubDate>Sun, 15 Nov 2026 09:00:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/15_11_2026/840a905cb499/</guid>
-      <description>
-        
-          
-            Dokploy&#39;s Security tab covers UFW, SSH, and fail2ban. I explain how a provider firewall and private network affect which ...
-Worth a watch for developers following Security. Link to video: https://www.youtube.com/watch?v=_EQGbs3Pix4 
           
           
         
