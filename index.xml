@@ -7,7 +7,108 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 24 Nov 2026 05:01:14 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Nov 2026 18:05:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing DocumentExtractionClient (preview): Extract documents in .NET</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/2a31448f04ed/</link>
+      <pubDate>Tue, 24 Nov 2026 18:05:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/2a31448f04ed/</guid>
+      <description>
+        
+          
+            Meet DocumentExtractionClient, a preview .NET API that turns PDFs, images, and other documents into structured content, with a set of starter providers to choose from.
+Worth a read for developers following .NET. Link to article: https://devblogs.microsoft.com/dotnet/document-extraction-dotnet-preview 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio November Update – Faster Workflows, Better Reviews</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/35eb9c3a6c94/</link>
+      <pubDate>Tue, 24 Nov 2026 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/35eb9c3a6c94/</guid>
+      <description>
+        
+          
+            The November Visual Studio update reduces repeated work in large-solution workflows, adds MSBuild Restore in Open Folder, introduces Copilot Chat&#39;s new engine and work controls, helps organize large pull-request reviews, and adds CSS color previews and IntelliSense.
+Worth a read for developers following Visual Studio and AI. Link to article: https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-faster-workflows-better-reviews 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Yet another post about how AI is changing software development</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/d61482c9cb25/</link>
+      <pubDate>Tue, 24 Nov 2026 16:27:18 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/d61482c9cb25/</guid>
+      <description>
+        
+          
+            Look, AI is changing our software development profession pretty quickly and I for one don’t feel like making any kind of statement about how I knew how this is going to play out for us. All I’m going to offer is some thoughts here about my recent experiences in our new AI-centric world. My oldest …
+Worth a read for developers following AI. Link to article: https://jeremydmiller.com/2026/11/24/yet-another-post-about-how-ai-is-changing-software-development 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Following a slow request across services with Aspire and an AI agent</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/354e324d18fd/</link>
+      <pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/354e324d18fd/</guid>
+      <description>
+        
+          
+            In the previous post, the slow code and the slow queries were in the same service. This time, a request goes through a web shop, a Redis cache, and a catalog service. The trace shows where the time goes, the logs say what the code decided, and the agent needs both. It also shows why an agent&#39;s report deserves a second look, even when the fix is right: the agent found the faulty line, and still got the…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Invariant culture string interpolation with [InterpolatedStringHandler]</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/a540294e78cc/</link>
+      <pubDate>Tue, 24 Nov 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/a540294e78cc/</guid>
+      <description>
+        
+          
+            In this post I show how you can use a custom [InterpolatedStringHandler] to ensure string interpolation formats values using the invariant culture
+Worth a read for developers following General. Link to article: https://andrewlock.net/invariant-culture-string-interpolation-with-interpolatedstringhandler 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>New in .NET 11: Faster ASP.NET Core APIs with runtime async</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/aa44e3c79aa8/</link>
+      <pubDate>Tue, 24 Nov 2026 08:00:51 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/aa44e3c79aa8/</guid>
+      <description>
+        
+          
+            .NET 11 moves async and await work from compiler-generated state machines into the runtime. We build the same console app on .NET 10 and .NET 11, compare live stack traces, and look at what changes for allocations, the JIT, ExecutionContext, NativeAOT, and debugging, without touching your C# code.
+Worth a read for developers following .NET. Link to article: https://blog.elmah.io/new-in-net-11-faster-asp-net-core-apis-with-runtime-async 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Introducing the Amazon Bedrock Trusted Access API with Anthropic’s Enterprise Frontier Safeguards and Enterprise Data Controls</title>
       <link>https://www.dotnetramblings.com/post/24_11_2026/f3f6304a8cca/</link>
@@ -19,6 +120,22 @@
           
             Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic&#39;s Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data when you use Claude Fable models.
 Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Pipes and Filter Pattern</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/e816109982ec/</link>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/e816109982ec/</guid>
+      <description>
+        
+          
+            Take a big processing job, cut it into small steps, connect the steps with queues. Each step deploys, scales and gets reused on its own. That&#39;s Pipes and Filters, and you&#39;ve used it even if you never named it: every cat | grep | sort in a shell is one. In practice, you&#39;ll have small steps, connected by queues. The idea was written down in 2003, and it still holds. The pattern, before the cloud got hold of it Pipes…
           
           
         
