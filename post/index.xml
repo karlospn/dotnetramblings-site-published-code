@@ -77,6 +77,23 @@ Worth a read for developers following Visual Studio and AI. Link to article: htt
     </item>
     
     <item>
+      <title>Developer Docs Deserve Their Own Folder</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/63966c89c706/</link>
+      <pubDate>Tue, 24 Nov 2026 16:29:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/63966c89c706/</guid>
+      <description>
+        
+          
+            Many source repositories include a docs/ folder for documentation, especially now that LLMs can help generate and maintain documentation for software projects. However, traditional docs have been targeted toward users or consumers of the software application, tool, or package. For developers of the application itself, instructions have long been scattered amongst wikis, README files, docs, and other locations (if…
+Worth a read for developers following General. Link to article: https://ardalis.com/developer-docs-deserve-their-own-folder 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Yet another post about how AI is changing software development</title>
       <link>https://www.dotnetramblings.com/post/24_11_2026/d61482c9cb25/</link>
       <pubDate>Tue, 24 Nov 2026 16:27:18 +0000</pubDate>
@@ -94,6 +111,23 @@ Worth a read for developers following AI. Link to article: https://jeremydmiller
     </item>
     
     <item>
+      <title>GPT-6 models demonstrate intrinsic protein-design capabilities</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/3c6728c1bfd1/</link>
+      <pubDate>Tue, 24 Nov 2026 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/3c6728c1bfd1/</guid>
+      <description>
+        
+          
+            GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.
+Worth a read for developers following AI. Link to article: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Following a slow request across services with Aspire and an AI agent</title>
       <link>https://www.dotnetramblings.com/post/24_11_2026/354e324d18fd/</link>
       <pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
@@ -103,6 +137,23 @@ Worth a read for developers following AI. Link to article: https://jeremydmiller
         
           
             In the previous post, the slow code and the slow queries were in the same service. This time, a request goes through a web shop, a Redis cache, and a catalog service. The trace shows where the time goes, the logs say what the code decided, and the agent needs both. It also shows why an agent&#39;s report deserves a second look, even when the fix is right: the agent found the faulty line, and still got the…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Beyond the prompt: Discovering trusted technical perspectives with your Visual Studio subscription</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/a99825fcf1a1/</link>
+      <pubDate>Tue, 24 Nov 2026 11:00:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/a99825fcf1a1/</guid>
+      <description>
+        
+          
+            AI is changing the speed at which developers can produce code. And with this change, a different challenge emerges: how do we ensure that what we’re building is secure, reliable, and maintainable? Not just an immediate answer AI-generated code can look convincing, compile successfully, and even pass critical tests without necessarily meeting an application’s security, […]
+Worth a read for developers following Visual Studio and AI. Link to article: https://devblogs.microsoft.com/visualstudio/beyond-the-prompt-discovering-trusted-technical-perspectives-with-your-visual-studio-subscription 
           
           
         
@@ -171,6 +222,23 @@ Worth a read for developers following .NET. Link to article: https://blog.elmah.
           
             Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic&#39;s Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data when you use Claude Fable models.
 Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Clay helps sales teams win with Codex and ChatGPT</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/99b93f3e1098/</link>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/99b93f3e1098/</guid>
+      <description>
+        
+          
+            ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.
+Worth a read for developers following AI. Link to article: https://openai.com/business/customer-stories/clay-plugins-openai 
           
           
         
@@ -1505,549 +1573,6 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
           
             Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.
 Worth a read for developers following AI. Link to article: https://openai.com/index/the-silent-consensus 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/206b86c970ea/</link>
-      <pubDate>Tue, 17 Nov 2026 23:33:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/206b86c970ea/</guid>
-      <description>
-        
-          
-            Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself.
-Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/2c0a64e08e41/</link>
-      <pubDate>Tue, 17 Nov 2026 22:44:51 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/2c0a64e08e41/</guid>
-      <description>
-        
-          
-            As production agents on Amazon Bedrock AgentCore process multi-megabyte JSON payloads, token costs and latency climb. This post shares three composable strategies: offloading heavy artifacts to Amazon S3, on-demand result paging, and dictionary compaction. Together they cut per-turn token use by up to 71% and latency by up to 80%.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Cut generative AI costs: Code for rules, models for judgment</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/6dbfd2c16f1d/</link>
-      <pubDate>Tue, 17 Nov 2026 21:14:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/6dbfd2c16f1d/</guid>
-      <description>
-        
-          
-            The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Amazon SageMaker AI real-time endpoints now support KV cache aware routing</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/8e21326b778b/</link>
-      <pubDate>Tue, 17 Nov 2026 21:11:51 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/8e21326b778b/</guid>
-      <description>
-        
-          
-            Amazon SageMaker AI real-time endpoints now support KV cache-aware routing, a new strategy that routes each request to the instance holding the longest cached match for its prompt. Learn how it works, when to use it compared with prefix-aware routing, and how to enable, invoke, and verify it on single model and inference component endpoints.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing staged publishing on NuGet.org</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/46c2ced4d175/</link>
-      <pubDate>Tue, 17 Nov 2026 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/46c2ced4d175/</guid>
-      <description>
-        
-          
-            Stage and validate packages privately on NuGet.org, then approve their release when you are ready.
-Worth a read for developers following .NET. Link to article: https://devblogs.microsoft.com/dotnet/nuget-staged-publishing 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Govern and discover records with common metadata in AWS Agent Registry</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/1796857b9a1b/</link>
-      <pubDate>Tue, 17 Nov 2026 20:31:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/1796857b9a1b/</guid>
-      <description>
-        
-          
-            Custom metadata schemas in AWS Agent Registry let an administrator define typed, validated fields that every agent, MCP server, and skill must carry. This post follows an MCP record from schema definition through registration, enrichment, approval, and discovery, so teams govern and find resources with one shared set of facts.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/3a6ddd65cb94/</link>
-      <pubDate>Tue, 17 Nov 2026 20:25:23 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/3a6ddd65cb94/</guid>
-      <description>
-        
-          
-            When an AI agent on Amazon Bedrock AgentCore calls Snowflake Cortex AI over MCP, how does it authenticate? This post walks through three OAuth patterns we tested on AgentCore Identity: Snowflake OAuth, three-legged OAuth with a corporate IdP, and two-legged OAuth, so you can match your organization&#39;s identity, audit, and compliance needs.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/2052af3031ae/</link>
-      <pubDate>Tue, 17 Nov 2026 19:40:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/2052af3031ae/</guid>
-      <description>
-        
-          
-            Amazon SageMaker AI now offers AI data preparation capabilities for building high-quality training and evaluation data. Generate synthetic examples, assess and improve datasets, auto-label at scale, and bring in expert review through Python SDK APIs and an agent skill, all from your own notebook or IDE.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Getting AI out of the demo and into businesses globally</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/1e308b5aafc0/</link>
-      <pubDate>Tue, 17 Nov 2026 19:05:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/1e308b5aafc0/</guid>
-      <description>
-        
-          
-            Most enterprises have AI that works in a demo but stalls before production. AWS Forward Deployed Engineering closes that gap. AWS engineers embed with customer teams to take high-value workflows to production in 45-day sprints, leaving a foundation, workflows, and governance the customer owns.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build WhatsApp AI agents with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/dfdee5b6b2fc/</link>
-      <pubDate>Tue, 17 Nov 2026 18:48:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/dfdee5b6b2fc/</guid>
-      <description>
-        
-          
-            SMART, an open-source Python SDK and Terraform stack, deploys the full WhatsApp channel layer to your AWS account with one command. Bring any agent that runs on Amazon Bedrock AgentCore, and SMART handles webhook ingestion, media, conversation memory, scheduling, and Meta message templates.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/2f84abf2face/</link>
-      <pubDate>Tue, 17 Nov 2026 18:35:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/2f84abf2face/</guid>
-      <description>
-        
-          
-            At Microsoft Ignite 2026, we’ll showcase what’s possible when models, silicon, and cloud infrastructure converge into a single, co-engineered system. By tuning the entire stack, and introducing new capabilities across isolated execution, networking, context management, and inference efficiency, we’re fundamentally improving agent speed, security, and unit economics.
-Worth a read for developers following Azure and AI. Link to article: https://azure.microsoft.com/en-us/blog/introducing-azure-catalyst-agentic-modernization-and-new-ai-infrastructure-innovations 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft and Oracle bring agentic AI into flow of enterprise work</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/f71a79de0ac7/</link>
-      <pubDate>Tue, 17 Nov 2026 18:35:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/f71a79de0ac7/</guid>
-      <description>
-        
-          
-            Our new integrations let AI agents reason across Oracle’s business-critical data.
-Worth a read for developers following AI. Link to article: https://azure.microsoft.com/en-us/blog/microsoft-and-oracle-bring-agentic-ai-into-flow-of-enterprise-work 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft Ignite 2026: What’s new in Azure, the platform purpose-built for AI</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/7c4d82be4673/</link>
-      <pubDate>Tue, 17 Nov 2026 18:35:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/7c4d82be4673/</guid>
-      <description>
-        
-          
-            At Microsoft Ignite, we&#39;re sharing what&#39;s new across every layer of the platform. New capabilities spanning compute, storage, and networking let you run AI at scale with the control of your own infrastructure, without having to build, secure, and operate all of it yourself.
-Worth a read for developers following Azure and AI. Link to article: https://azure.microsoft.com/en-us/blog/microsoft-ignite-2026-whats-new-in-azure-the-platform-purpose-built-for-ai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/30de8039d835/</link>
-      <pubDate>Tue, 17 Nov 2026 18:20:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/30de8039d835/</guid>
-      <description>
-        
-          
-            Azure Cobalt 200 VMs bring improved performance and efficiency to cloud-native applications, databases, developer tools, and agentic AI workloads.
-Worth a read for developers following Azure and AI. Link to article: https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Continuous improvement comes to Microsoft Foundry</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/c44a0ea9cb71/</link>
-      <pubDate>Tue, 17 Nov 2026 18:15:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/c44a0ea9cb71/</guid>
-      <description>
-        
-          
-            Discover how continuous improvement in Microsoft Foundry helps organizations evaluate, optimize, and improve agents over time while keeping teams in control.
-Worth a read for developers following AI. Link to article: https://azure.microsoft.com/en-us/blog/continuous-improvement-comes-to-microsoft-foundry 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Reason over time-series data with OpenTSLM on Amazon SageMaker JumpStart</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/0f81d901dab5/</link>
-      <pubDate>Tue, 17 Nov 2026 18:06:44 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/0f81d901dab5/</guid>
-      <description>
-        
-          
-            OpenTSLM, an open source family of time-series language models, is now available in Amazon SageMaker JumpStart. See how Nexthink and Aionic Labs apply it to proactive IT support, then deploy OpenTSLM to a real-time endpoint and fine-tune it on your own data with TimeNet and a SageMaker training job.
-Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing the new Microsoft IQ: Putting your organization’s intelligence to work in every agent</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/812f978215b2/</link>
-      <pubDate>Tue, 17 Nov 2026 18:05:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/812f978215b2/</guid>
-      <description>
-        
-          
-            Today, we are announcing Microsoft IQ, the enterprise context management platform that helps organizations create their own IQ. What sets an organization apart is everything around the model: its own intelligence.
-Worth a read for developers following AI. Link to article: https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing GPT-6.2 Astra and Sol</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/549a77347d5e/</link>
-      <pubDate>Tue, 17 Nov 2026 17:45:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/549a77347d5e/</guid>
-      <description>
-        
-          
-            Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.
-Worth a read for developers following AI. Link to article: https://openai.com/index/introducing-gpt-6-2-astra-sol 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Your complete guide to AWS Quick at AWS re:Invent 2026</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/38c4a38bd619/</link>
-      <pubDate>Tue, 17 Nov 2026 17:08:21 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/38c4a38bd619/</guid>
-      <description>
-        
-          
-            AWS Quick gives your whole organization AI that knows your business, respects your security rules, and acts on your behalf. At AWS re:Invent 2026, customers including Allianz, Cox Automotive, and Southwest Airlines share how they govern, extend, and scale Quick. Use this guide to find the sessions that fit your goals.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/your-complete-guide-to-aws-quick-at-aws-reinvent-2026 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/fa2d79e8a491/</link>
-      <pubDate>Tue, 17 Nov 2026 17:01:08 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/fa2d79e8a491/</guid>
-      <description>
-        
-          
-            LoanPro worked with AWS Partner AllCloud and the AWS Generative AI Innovation Center to build a multi-agent AI assistant on Amazon Bedrock and Amazon Bedrock AgentCore. It gives loan servicing agents instant borrower context and next-best-action recommendations, reducing customer call times by up to 15 percent.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Responsible AI for agentic AI: A phased roadmap for platform and application teams</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/692230a9d797/</link>
-      <pubDate>Tue, 17 Nov 2026 16:56:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/692230a9d797/</guid>
-      <description>
-        
-          
-            Enterprises adopting agentic AI at scale need platforms that embed responsible AI from the start. This post gives platform and application teams a three-phase roadmap (governance foundation, pilot deployment, and evaluation and hardening) that maps the AWS Responsible AI Lens pillars to each phase, with guidance on when to revisit each one.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How ArisGlobal scaled generative AI inference on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/5b0b199a3f15/</link>
-      <pubDate>Tue, 17 Nov 2026 15:57:09 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/5b0b199a3f15/</guid>
-      <description>
-        
-          
-            ArisGlobal runs NavaX, its life-sciences AI engine, on Amazon Bedrock. By caching the shared prompt prefix instead of each per-case document, ArisGlobal cut effective input cost by about 50% and overall monthly inference spend by about 40%, while onboarding more tenants without proportional cost growth.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build a Simple AI Coding Harness in C# with SharpVector and Microsoft Agent Framework</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/342b099c6378/</link>
-      <pubDate>Tue, 17 Nov 2026 12:23:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/342b099c6378/</guid>
-      <description>
-        
-          
-            Build a small C# AI coding harness that searches project context with SharpVector, edits an approved file, and uses deterministic scripts to validate the result.
-Worth a read for developers following .NET and AI. Link to article: https://build5nines.com/build-simple-ai-coding-harness-csharp-sharpvector-microsoft-agent-framework 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Finding a deadlock in a .NET dump with an AI agent</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/ed62f34004b3/</link>
-      <pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/ed62f34004b3/</guid>
-      <description>
-        
-          
-            A hang is the easiest problem to diagnose from a dump and the hardest to diagnose any other way. There is no exception, no log line, and attaching a debugger to a production process is rarely an option. But the state that explains it, which thread holds what and which thread waits for what, is entirely present in a dump. This post takes a deadlocked process and lets an agent find both locks.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building AI features in .NET with Microsoft.Extensions.AI</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/daa44bc2c67d/</link>
-      <pubDate>Tue, 17 Nov 2026 11:54:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/daa44bc2c67d/</guid>
-      <description>
-        
-          
-            Microsoft.Extensions.AI gives .NET one set of abstractions for talking to AI providers. This post builds a console chatbot with IChatClient, streaming responses and conversation history. It then adds typed, structured output and handles rate limits, so the demo holds up on a free-tier model.
-Worth a read for developers following .NET and AI. Link to article: https://blog.elmah.io/building-ai-features-in-net-with-microsoft-extensions-ai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft Releases .NET 11: C# 15 Union Types, Native AOT CLI Host, and CoreCLR by Default in MAUI</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/764b373c1541/</link>
-      <pubDate>Tue, 17 Nov 2026 11:50:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/764b373c1541/</guid>
-      <description>
-        
-          
-            Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async, Zstandard compression, asynchronous validation and OpenAPI 3.2 in ASP.NET Core, CoreCLR as the default runtime in .NET MAUI, and EF Core 11 with experimental vector search. By Almir Vuk
-Worth a read for developers following .
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing ChatGPT for Sales</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/c6c361c53bc4/</link>
-      <pubDate>Tue, 17 Nov 2026 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/c6c361c53bc4/</guid>
-      <description>
-        
-          
-            Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.
-Worth a read for developers following AI. Link to article: https://openai.com/index/introducing-chatgpt-for-sales 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What’s new in .NET 11 Numerics</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/675a33467630/</link>
-      <pubDate>Tue, 17 Nov 2026 05:58:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/675a33467630/</guid>
-      <description>
-        
-          
-            .NET 11 numerics got a lot of love this year. The release adds three IEEE 754 decimal types, a BFloat16 type for AI workloads, a generic Complex , generic random number APIs and a new partial parsing API. On top of that, System.Numerics.Tensors became much faster and stricter about correctness. …
-Worth a read for developers following .NET and AI. Link to article: https://blog.ndepend.com/net-11-numerics 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>.NET 11 C# File-Based Apps</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/2b1ecb00e625/</link>
-      <pubDate>Tue, 17 Nov 2026 01:25:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/2b1ecb00e625/</guid>
-      <description>
-        
-          
-            File-based apps let you build and run a C# file without creating a .csproj project file. Microsoft introduced them with .NET 10 in November 2025. One year later, .NET 11 turns them into a surprisingly capable model for real tools. A file-based app can now span several files, reuse …
-Worth a read for developers following .NET. Link to article: https://blog.ndepend.com/csharp-file-based-apps 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Astra for Law leads in legal intelligence</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/0604bc2b50fc/</link>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/0604bc2b50fc/</guid>
-      <description>
-        
-          
-            Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.
-Worth a read for developers following AI. Link to article: https://openai.com/index/astra-law-6-2 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing OpenAI for Chile</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/58da9c66b145/</link>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/58da9c66b145/</guid>
-      <description>
-        
-          
-            OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.
-Worth a read for developers following AI. Link to article: https://openai.com/index/introducing-openai-for-chile 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Strengthening NATO and allied cyber defenses with AI</title>
-      <link>https://www.dotnetramblings.com/post/17_11_2026/590cb0b9c5dd/</link>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/17_11_2026/590cb0b9c5dd/</guid>
-      <description>
-        
-          
-            How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.
-Worth a read for developers following AI. Link to article: https://openai.com/index/strengthening-nato-allied-cyber-defences-ai 
           
           
         
