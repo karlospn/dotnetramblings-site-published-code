@@ -7,7 +7,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Wed, 25 Nov 2026 13:41:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Nov 2026 15:00:17 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀 Launching from Visual Studio with the right config is as easy as configuring a launch profile!</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/1ee9baf29cca/</link>
+      <pubDate>Wed, 25 Nov 2026 15:00:17 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/1ee9baf29cca/</guid>
+      <description>
+        
+          
+            #visualstudio #debugging
+Worth a watch for developers following Visual Studio. Link to video: https://www.youtube.com/watch?v=XzvpUK-42E0 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What Microsoft paid me as an intern</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/43c2390ea479/</link>
+      <pubDate>Wed, 25 Nov 2026 15:00:03 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/43c2390ea479/</guid>
+      <description>
+        
+          
+             Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=a792mHg66mI 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Um assistente de IA convincente consegue passar num teste de verdade?</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/b23a86ace1e5/</link>
+      <pubDate>Wed, 25 Nov 2026 14:26:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/b23a86ace1e5/</guid>
+      <description>
+        
+          
+            Como avaliar um assistente de IA que consulta documentos quando as fontes estão desatualizadas, apresentam informações contraditórias ou não contêm a resposta? Nesta sessão prática, vamos explorar esses três cenários e construir um pequeno conjunto de testes para examinar o apoio das respostas nas fontes, o tratamento da incerteza e o reconhecimento de informações insuficientes. A proposta inclui uma demonstração com…
+Worth a watch for developers following General. Link to video: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How We Tested Jev as an Agent Eval Judge with LangSmith &#43; Deep Agents</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/5e71fa6280f0/</link>
+      <pubDate>Wed, 25 Nov 2026 14:26:25 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/5e71fa6280f0/</guid>
+      <description>
+        
+          
+            Seán Roche, Education Engineer at LangChain, walks through how he and Daniel Shea tested TypeSafe AI&#39;s Jev as a judge for agent evals, in this talk from the LangChain SF Meetup with TypeSafe AI. They stored five frozen traces from a Deep Agents weather agent in LangSmith and scored them 100 times with Jev and three LLM judges (GPT-5.6 Luna, GPT-5.6 Terra, and Claude Sonnet 4.6). On a continuous 0 to 1 score, the LLM…
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Thankful that JasperFx is still flying</title>
       <link>https://www.dotnetramblings.com/post/25_11_2026/9c6ae2878560/</link>
@@ -26,6 +92,40 @@ Worth a read for developers following General. Link to article: https://jeremydm
     </item>
     
     <item>
+      <title>Your Event-Driven Architecture Is STILL Tightly Coupled</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/504dd3071eb2/</link>
+      <pubDate>Wed, 25 Nov 2026 13:30:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/504dd3071eb2/</guid>
+      <description>
+        
+          
+            Does event-driven architecture really eliminate coupling, or are you just hiding it? A common belief when building microservices is that replacing direct API calls with events and a message broker means services can evolve completely independently. But loose coupling does not mean no coupling. While event-driven architecture reduces temporal coupling and inverts dependency directions, it can still introduce semantic,…
+Worth a watch for developers following Architecture. Link to video: https://www.youtube.com/watch?v=1G38wJ0KWSY 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fabric IQ en acción: de una pregunta de negocio a una respuesta basada en tus datos</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/af083990fc95/</link>
+      <pubDate>Wed, 25 Nov 2026 12:14:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/af083990fc95/</guid>
+      <description>
+        
+          
+            Ya hablamos bastante. Ahora veamos Fabric IQ trabajando con una pregunta de negocio real. Veremos cómo el contexto cambia la respuesta, qué significa que una respuesta esté realmente basada en tus datos y dónde el profesional de datos todavía debe revisar el trabajo. [eventID:27753]
+Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=RF7cEBo_6Hs 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Diagnosing latency under load from Aspire metrics with an AI agent</title>
       <link>https://www.dotnetramblings.com/post/25_11_2026/5e62d71c9fc6/</link>
       <pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
@@ -35,6 +135,192 @@ Worth a read for developers following General. Link to article: https://jeremydm
         
           
             In the first post about Aspire, the slow request had 203 spans. In the second one, it called another service once per line of a cart. In both cases, the trace of the slow request contained the explanation. This time it does not. The slow endpoint runs a single query, which takes less than a millisecond, and the request takes 170 ms. The trace shows a gap, and a gap has no attributes.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI&#39;s $1.2M bug hunt, Grok Bot after dark &amp; Optimizely malware</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/ee00e9ed2dd8/</link>
+      <pubDate>Wed, 25 Nov 2026 10:30:58 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/ee00e9ed2dd8/</guid>
+      <description>
+        
+          
+            What does a $1.2 million AI bug hunt get you? For OpenAI, 948 working Linux kernel exploits. On episode 61 of Security Intelligence, Nick Bradley, San Sanda Htyte and Kimmie Farrington join host Patrick Austin to break down three cybersecurity stories and what they mean for defenders. First, OpenAI’s agents hunt for Linux kernel vulnerabilities and draft patches. Finding a bug and fixing it safely are two different…
+Worth a watch for developers following AI and Security.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fabric IQ na prática: de uma pergunta de negócio a uma resposta fundamentada nos seus dados</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/ed393bc67d70/</link>
+      <pubDate>Wed, 25 Nov 2026 10:12:45 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/ed393bc67d70/</guid>
+      <description>
+        
+          
+            Chega de explicar. Vamos colocar o Fabric IQ para trabalhar com uma pergunta de negócio real. Veremos como o contexto muda a resposta, o que significa uma resposta realmente fundamentada nos seus dados e onde o profissional de dados ainda precisa conferir o trabalho. Para mais informações sobre o Data Days e tudo o que ele tem a oferecer, acesse https://aka.ms/DataDays 📌 Este evento faz parte de uma série. Saiba mais…
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Will Rust save Linux from AI? #infoq</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/b38d44eb859e/</link>
+      <pubDate>Wed, 25 Nov 2026 07:44:37 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/b38d44eb859e/</guid>
+      <description>
+        
+          
+            We&#39;ve spent 20+ years patching memory-safety bugs, which account for 70% of security vulnerabilities. What if the real fix is to stop writing code that creates them? Rust co-designer Niko Matsakis explains why switching languages - not adding more patches - changes the game. Even Linux leadership sees the shift: &amp;quot;Rust will save Linux from AI.&amp;quot; 🔗 Watch the full video [transcript and slides included] -…
+Worth a watch for developers following AI and Security.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>New Year, New Bot - Bring Your AI Desk Robot to Life</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/68bd490ca94d/</link>
+      <pubDate>Wed, 25 Nov 2026 06:52:07 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/68bd490ca94d/</guid>
+      <description>
+        
+          
+            Meet the M5Stack StackChan as a physical AI desk robot. Program its expressions and movements, connect it to a .NET backend and dashboard, and create a first end-to-end interaction. This hands-on session shows how hardware and .NET services can work together to bring a real desk companion to life. 🔗 Learn more by exploring the resources: https://aka.ms/newyearnewbot…
+Worth a watch for developers following AI and .NET. Link to video: https://www.youtube.com/watch?v=L-zaWiyjDEU 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Could AI Cut the Wait for GTA 6 on PC? | Eve Cogan &amp; Josh Berman</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/d79769123584/</link>
+      <pubDate>Wed, 25 Nov 2026 06:45:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/d79769123584/</guid>
+      <description>
+        
+          
+            Could AI change how long PC players have to wait for GTA 6? We discuss claims about AI-assisted efforts to recreate the Xbox version for PC, whether developers could realistically avoid AI, and why Rockstar staggers its releases. From reverse engineering to keeping the hype alive, we explore how AI could disrupt the traditional game-release cycle. #GTA6 #RockstarGames #PCGaming #AI #GameDevelopment #SSWTV v1 - Marcus
+Worth a watch for developers following AI.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Is Anthropic the AI Industry’s IPO Test Balloon? | Eve Cogan &amp; Josh Berman</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/64580ad63838/</link>
+      <pubDate>Wed, 25 Nov 2026 06:45:44 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/64580ad63838/</guid>
+      <description>
+        
+          
+            Could letting Anthropic reach the stock market first give OpenAI an advantage? We discuss the idea of Anthropic’s IPO acting as a test balloon for investor demand, pricing and public confidence in AI. We also explore early-investor exits, market volatility, and whether OpenAI’s timing is driven by safety concerns or a chance to learn from its competitor. #OpenAI #Anthropic #IPO #SamAltman #ArtificialIntelligence…
+Worth a watch for developers following AI. Link to video: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Could Jensen Huang’s Return Reshape the AI Race? | Eve Cogan &amp; Josh Berman</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/d951f1a32d1f/</link>
+      <pubDate>Wed, 25 Nov 2026 06:45:40 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/d951f1a32d1f/</guid>
+      <description>
+        
+          
+            Why could NVIDIA’s rebound matter for the future of open AI models? We discuss Jensen Huang’s return, NVIDIA’s role in supporting open-weight models, and why that competition could put pressure on closed AI labs such as OpenAI and Anthropic. We also explore Anthropic’s efforts to diversify its compute and what shifting hardware relationships could mean for the AI race. #NVIDIA #JensenHuang #OpenWeightAI #OpenAI…
+Worth a watch for developers following AI. Link to video: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Agentes sin caos: gobernar datos, permisos y costes en Copilot Studio</title>
+      <link>https://www.dotnetramblings.com/videos/25_11_2026/095fcbc5cd2d/</link>
+      <pubDate>Wed, 25 Nov 2026 03:15:47 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/25_11_2026/095fcbc5cd2d/</guid>
+      <description>
+        
+          
+            Crear un agente lleva diez minutos. Gobernarlo, no. En esta sesión vemos lo que pasa después del &amp;quot;qué chulo&amp;quot;: permisos sobre datos internos, DLPs, licencias y costes reales de los agentes en Copilot Studio. Para equipos de IT que ya tienen Copilot en marcha o están a punto. 🔗 Aprende más accediendo a los recursos: https://aka.ms/EvaluacionDeCostos https://aka.ms/AgentesIA https://aka.ms/gobernanzaIA #MicrosoftReactor…
+Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=7t9OX-JixNg 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Cobalt Explained with Pat Stemen</title>
+      <link>https://www.dotnetramblings.com/videos/24_11_2026/e4f06d4a9d32/</link>
+      <pubDate>Tue, 24 Nov 2026 22:14:46 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/24_11_2026/e4f06d4a9d32/</guid>
+      <description>
+        
+          
+            What does it take to build a cloud CPU from the ground up? Join Pat Stemen, VP of Azure Cobalt, for a behind-the-scenes look at Azure Cobalt and the engineering decisions that shaped Microsoft&#39;s first custom Arm-based processor.
+Worth a watch for developers following Azure. Link to video: https://www.youtube.com/watch?v=K7CCAnqQ3HY 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Tame Your Agent Sessions with the New VS Code Inbox</title>
+      <link>https://www.dotnetramblings.com/videos/24_11_2026/94ae38c07278/</link>
+      <pubDate>Tue, 24 Nov 2026 21:00:05 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/24_11_2026/94ae38c07278/</guid>
+      <description>
+        
+          
+            Juggling AI agent sessions across projects can get overwhelming. Take a look at the new Inbox in VS Code’s Agents window: see finished and active sessions at a glance, then filter by repository or environment to find the work you need. The feature is evolving, so check out the latest VS Code Insiders build and give it a try. Learn more:…
+Worth a watch for developers following AI. Link to video: https://www.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t Call It a Decision Model: Allie Laabs on Jev and System One</title>
+      <link>https://www.dotnetramblings.com/videos/24_11_2026/59d484aadc14/</link>
+      <pubDate>Tue, 24 Nov 2026 19:34:55 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/24_11_2026/59d484aadc14/</guid>
+      <description>
+        
+          
+            Allie Laabs, Founding Developer Advocate at TypeSafe AI, explains why the company calls its model Jev a System One model, after Daniel Kahneman&#39;s term for the quick, intuitive judgments a knowledgeable person makes in seconds. With a customer support routing example, she shows how putting a whole decision into one Jev question leads to prompt gymnastics. Her alternative is to ask Jev only the small, fuzzy questions…
+Worth a watch for developers following AI.
           
           
         
@@ -691,6 +977,23 @@ Worth a read for developers following General. Link to article: https://andrewlo
           
             Agents can write your UI now. The more interesting question is what that does to everything around the writing - the design handoff, the review, the verification, the call on what actually ships. ​WebStorm, Callstack, Expo and Chromatic have teamed up for an evening in JetBrains Amsterdam office on exactly that. Three talks, practical and production-level. ​Whether you build for web, mobile or both, if agents are…
 Worth a watch for developers following AI.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Dev Floor · Ep 1 (Part 3) – “The Issue With New Hires”</title>
+      <link>https://www.dotnetramblings.com/videos/24_11_2026/72b574f1076a/</link>
+      <pubDate>Tue, 24 Nov 2026 09:05:26 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/videos/24_11_2026/72b574f1076a/</guid>
+      <description>
+        
+          
+            Using agents is fine, until they take down all of prod.
+Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=NHQ1plrPB5c 
           
           
         
@@ -4435,743 +4738,6 @@ Worth a read for developers following AI. Link to article: https://openai.com/in
           
             Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.
 Worth a read for developers following AI. Link to article: https://openai.com/index/the-silent-consensus 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Automating the ADLC with Engine | Introduction to LangSmith (12/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/12f0481e03a3/</link>
-      <pubDate>Tue, 17 Nov 2026 23:48:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/12f0481e03a3/</guid>
-      <description>
-        
-          
-            Every step of the loop so far was done by hand, and that gets slower as tens of traces become thousands. LangSmith Engine automates the ADLC. It clusters your traces into a short list of agent issues and drafts fixes as pull requests against your codebase. For each issue it also writes dataset examples, with assertions about the agent&#39;s behavior as reference outputs. Run on the LangSlice project, Engine finds the…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Closing the Loop | Introduction to LangSmith (11/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/8172265ffb94/</link>
-      <pubDate>Tue, 17 Nov 2026 23:48:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/8172265ffb94/</guid>
-      <description>
-        
-          
-            In the Monitor stage, five LangSmith features worked together to surface the LangSlice agent&#39;s second bug. The confirm_order tool checks the delivery minimum against the sides and ignores the pizzas. This short lesson lays out how that chain fit together and what fixing the bug looks like. Fixing it sends us back to the Test stage. The confirmed threads in the annotation queue and the delivery complaints Insights…
-Worth a watch for developers following AI.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Dashboards and Alerts | Introduction to LangSmith (10/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/ad9442006c74/</link>
-      <pubDate>Tue, 17 Nov 2026 23:48:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/ad9442006c74/</guid>
-      <description>
-        
-          
-            Everything we found in the Monitor stage so far came from going looking for it. Dashboards chart how the agent behaves over time, and alerts tell you when a metric crosses a line you set. This lesson starts with the dashboard every LangSmith tracing project comes with, then builds a custom chart of average sentiment from the online evaluator. We finish with an alert that fires when average sentiment drops below 0.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Insights | Introduction to LangSmith (9/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/dea6996f05cf/</link>
-      <pubDate>Tue, 17 Nov 2026 23:47:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/dea6996f05cf/</guid>
-      <description>
-        
-          
-            An evaluator answers a question you can write down as a score. Insights is for questions about categories you don&#39;t know yet, such as what customers talk about when they&#39;re upset. In this lesson we run an Insights report on the LangSlice traces with the auto flow and ask how customers engage with the agent. The report groups conversations into categories, each with the share of traces it covers. The delivery minimum…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Annotation Queues | Introduction to LangSmith (8/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/d1ba9b8ba881/</link>
-      <pubDate>Tue, 17 Nov 2026 23:47:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/d1ba9b8ba881/</guid>
-      <description>
-        
-          
-            An LLM judge that has never been checked against human labels can be confidently wrong at scale. In this lesson we label the LangSlice threads in an annotation queue by hand and compare our labels with the sentiment evaluator&#39;s. Two customers stayed polite while leaving without what they came for, and the judge scored both as positive. Adding an outcome section to the rubric fixes it. The same review turns up the…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Online Evals and Automations | Introduction to LangSmith (7/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/354d0b504f2b/</link>
-      <pubDate>Tue, 17 Nov 2026 23:47:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/354d0b504f2b/</guid>
-      <description>
-        
-          
-            In the Test stage, we only learned customers were upset because the LangSlice staff told us. This lesson starts the Monitor stage by scoring sentiment directly from what customers write, as each conversation comes in. We build an LLM-as-judge evaluator that scores whole threads from their human-AI message pairs, so the judge reads the conversation without the tool calls. An automation then routes every scored thread…
-Worth a watch for developers following AI.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Deployments | Introduction to LangSmith (6/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/f424f6c62843/</link>
-      <pubDate>Tue, 17 Nov 2026 23:46:58 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/f424f6c62843/</guid>
-      <description>
-        
-          
-            The dev server we&#39;ve used so far keeps state in memory and ties each run to the request that started it, which breaks once real customers arrive. A LangSmith deployment stores checkpoints in Postgres and puts runs on a queue, so a run survives a dropped connection. We compare langgraph dev with langgraph up, which runs the full Agent Server locally in Docker, and langgraph deploy, which hands it to LangSmith to host.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Experiments | Introduction to LangSmith (5/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/eb8fe0283d3b/</link>
-      <pubDate>Tue, 17 Nov 2026 23:46:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/eb8fe0283d3b/</guid>
-      <description>
-        
-          
-            An experiment runs your agent over every example in a dataset and scores the results with your evaluators. In this lesson we run a baseline experiment on the LangSlice pizza agent with the LangSmith SDK and read the evaluator&#39;s comments on the orders that let out-of-stock toppings through. Then we add a stock check to add_pizza_to_order and run the experiment again. The comparison view lines the two runs up example…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Datasets and Offline Evaluations | Introduction to LangSmith (4/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/f7ffe482a8cb/</link>
-      <pubDate>Tue, 17 Nov 2026 23:46:25 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/f7ffe482a8cb/</guid>
-      <description>
-        
-          
-            Forking one run in Studio showed how the out-of-stock bug works, but one run can&#39;t tell you how often it happens across all the ways customers ask for a pizza. This lesson starts the Test stage by turning LangSlice traces into a LangSmith dataset and writing an evaluator that checks every topping on an order against the ingredient catalog. You&#39;ll use a tree filter to pull every trace that added a pizza, including the…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Debugging with Studio | Introduction to LangSmith (3/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/3cbf01f036ca/</link>
-      <pubDate>Tue, 17 Nov 2026 23:46:12 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/3cbf01f036ca/</guid>
-      <description>
-        
-          
-            A trace records a run that already happened, so it can&#39;t tell you what the agent would have done if a tool had behaved correctly. LangGraph Studio can. In this lesson we reproduce the LangSlice out-of-stock bug, edit the add_pizza_to_order result at its checkpoint to the rejection it should have returned, and fork the run from there. With that one value changed, the agent tells the customer pineapple is out of stock.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What is Tracing? | Introduction to LangSmith (2/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/14ecac9ba21c/</link>
-      <pubDate>Tue, 17 Nov 2026 23:45:57 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/14ecac9ba21c/</guid>
-      <description>
-        
-          
-            An agent&#39;s reply shows what it said and hides the tool calls behind it. This lesson turns on LangSmith tracing for the LangSlice pizza agent, loads a batch of recorded customer conversations, and uses the trace views to find a bug the output never shows. The add_pizza_to_order tool sees that pineapple is out of stock and adds it to the order anyway, with no error raised. For agents built on LangChain&#39;s open-source…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>LangSmith Overview | Introduction to LangSmith (1/12)</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/e263d7fa4421/</link>
-      <pubDate>Tue, 17 Nov 2026 23:45:41 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/e263d7fa4421/</guid>
-      <description>
-        
-          
-            A traditional program fails with a stack trace pointing at the line that broke. An agent can return a reasonable answer after choosing the wrong tools along the way, and nothing in the reply shows it. This first lesson of LangSmith Essentials explains why agents need a process that keeps improving them after they ship, the Agent Development Lifecycle (ADLC), and how the course maps each stage onto LangSmith. You&#39;ll…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Mocks vs Emulator and How AWS Emulator Can Change How We Test Apps?</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/d2496c4f3840/</link>
-      <pubDate>Tue, 17 Nov 2026 22:30:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/d2496c4f3840/</guid>
-      <description>
-        
-          
-            Every mock is a guess about how an AWS service behaves. In this video I show what happens when the guess is wrong, and how to catch it on your own computer and in CI. The sample app is a small pub game on Amazon SQS and Amazon DynamoDB. Customers order, the bartender serves, and the order is deleted from the queue. I start with mocks. An agent writes a fake SQS and a fake DynamoDB, and the tests pass on my machine…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Opening Keynote</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/09824c555f46/</link>
-      <pubDate>Tue, 17 Nov 2026 22:10:17 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/09824c555f46/</guid>
-      <description>
-        
-          
-            Ivan Chirkov, Team Lead for JetBrains Marketplace, opens the conference with the latest Marketplace updates and future plans. Jakub Chrzanowski covers updates to the IntelliJ Platform Gradle Plugin and Plugin DevKit, while Róbert Novotný highlights improvements to the IntelliJ Plugin Verifier. Yuriy Artamonov shares the latest IntelliJ Platform developments, new APIs in 2026.3, and common plugin performance…
-Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=zuXWzeFxBlw 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Dependency Assistant: An IntelliJ Plugin That Started With a Prompt</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/31fff20a7d53/</link>
-      <pubDate>Tue, 17 Nov 2026 22:10:14 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/31fff20a7d53/</guid>
-      <description>
-        
-          
-            This session explores the development of Dependency Assistant, an IntelliJ plugin built with the help of AI tools. Mark shares where AI proved useful, from exploring unfamiliar APIs to reviewing code, and where it created more work than value. Speaker: Mark Paluch, Spring Data Engineer at Broadcom
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=b0iCLZyGsOU 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Building Language Plugins With the Native LSP API</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/ce6700ae68e4/</link>
-      <pubDate>Tue, 17 Nov 2026 22:10:10 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/ce6700ae68e4/</guid>
-      <description>
-        
-          
-            This session explores how to build language plugins for JetBrains IDEs using the IntelliJ Platform’s native LSP API. Through a real-world case study, Vladimir walks through the plugin’s functionality, code structure, and publishing process, showing how you can apply the same approach to your own language. Speaker: Vladimir Logachev, Software Engineer
-Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=8u0Wk-gm2DQ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Integrating a Web-Based Profiler Into IntelliJ IDEA</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/ea1310a0a7a8/</link>
-      <pubDate>Tue, 17 Nov 2026 22:10:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/ea1310a0a7a8/</guid>
-      <description>
-        
-          
-            Learn how to integrate a web-based application into an IntelliJ plugin using IntelliJ IDEA’s embedded Chromium browser. Using the Firefox Profiler as an example, Johannes demonstrates how to connect the web UI with the IDE and create a seamless experience. He also shares practical lessons and challenges, including Linux-specific issues and increased memory usage. Speaker: Johannes Bechberger, OpenJDK and Profiler…
-Worth a watch for developers following General. Link to video: https://www.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Your Plugin&#39;s Second Service: Architecture for Integrations That Grow</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/cb92ee9de6c5/</link>
-      <pubDate>Tue, 17 Nov 2026 22:10:04 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/cb92ee9de6c5/</guid>
-      <description>
-        
-          
-            Discover how to build scalable plugin architectures that support multiple external services. Through a real-world example of four plugins sharing a single codebase, Evgeny covers modular design, testing, and maintenance, and shows how to expose plugin functionality to AI agents using the built-in MCP server. Speaker: Evgeny Kudelevsky, Independent Plugin Developer
-Worth a watch for developers following Architecture and AI. Link to video: https://www.youtube.com/watch?v=kN64x0pMjZc 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>EelApi: Taking Your Plugin From Local to WSL and Dev Containers</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/cc631af85919/</link>
-      <pubDate>Tue, 17 Nov 2026 22:10:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/cc631af85919/</guid>
-      <description>
-        
-          
-            Learn how EelApi helps plugins work across local, WSL, and Dev Container environments. Alexander explains how IntelliJ Platform support for these environments evolved, introduces IJent and EelApi, and shares practical examples and DevKit guidance for plugin developers. Speaker: Alexander Koshevoy, Technical Lead, IntelliJ Platform DevEnv Team at JetBrains
-Worth a watch for developers following Containers. Link to video: https://www.youtube.com/watch?v=0q7mBIqjj_4 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Continuous Improvement: NTT &#43; Microsoft Foundry</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/8a923ca635c5/</link>
-      <pubDate>Tue, 17 Nov 2026 20:31:51 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/8a923ca635c5/</guid>
-      <description>
-        
-          
-            NTT DATA is building a project management agent with Microsoft Foundry. It uses tracing, evaluations, and Agent Optimizer to improve the agent’s performance over time. Early estimates show the agent could cut time on some project management tasks by around 60%. Learn more: https://msft.it/6052xE9dm #MicrosoftFoundry #Agents
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=4Z_dWCL92qo 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft and Intel: Advancing digital sovereignty from silicon to cloud</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/6caeab978884/</link>
-      <pubDate>Tue, 17 Nov 2026 20:16:20 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/6caeab978884/</guid>
-      <description>
-        
-          
-            As AI takes on more sensitive workloads, Microsoft and Intel® help you advance digital sovereignty without sacrificing innovation. Microsoft Sovereign Cloud gives you choices across the sovereignty continuum, with controls designed for different workloads and requirements. Intel® Xeon® processors with Intel® TDX add hardware isolation, and Microsoft extends that protection from silicon to cloud. From cloud to data…
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=8eCdRnYboOc 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>De MCP a agentes A2A en Microsoft Fabric: Demo final de extremo a extremo</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/2090d261a709/</link>
-      <pubDate>Tue, 17 Nov 2026 19:48:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/2090d261a709/</guid>
-      <description>
-        
-          
-            En esta sesión final integraremos todo lo construido durante la serie. Ejecutaremos un flujo completo donde el usuario plantea una pregunta de negocio, el orquestador decide qué herramientas y agentes usar, Fabric aporta datos, los agentes especialistas colaboran, MCP permite ejecutar acciones y el sistema genera una respuesta final con evidencias, trazabilidad y controles. Cerraremos con una revisión de la…
-Worth a watch for developers following AI. Link to video: https://www.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>De MCP a agentes A2A en Microsoft Fabric: Seguridad, gobierno y permisos</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/e3869126d341/</link>
-      <pubDate>Tue, 17 Nov 2026 19:43:55 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/e3869126d341/</guid>
-      <description>
-        
-          
-            En esta sesión revisaremos los aspectos de seguridad y gobierno necesarios para trabajar con agentes conectados a Microsoft Fabric. Explicaremos permisos, identidad, acceso a workspaces, operaciones sensibles, confirmación humana, auditoría y trazabilidad. El objetivo es mostrar cómo diseñar agentes que respeten límites y puedan encajar en escenarios empresariales con gobierno. 🔗 Aprende más accediendo a los…
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=u-RBvHYLKtE 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>De MCP a agentes A2A en Microsoft Fabric: Evaluación, trazas y observabilidad</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/54fa3ad91289/</link>
-      <pubDate>Tue, 17 Nov 2026 19:38:09 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/54fa3ad91289/</guid>
-      <description>
-        
-          
-            En esta sesión mostraremos cómo saber si un sistema de agentes funciona correctamente. Revisaremos trazas, llamadas a herramientas, errores, latencia, selección de herramientas y respuestas finales. También construiremos un conjunto mínimo de casos de evaluación para validar que el agente usa Fabric, MCP y agentes especialistas correctamente, sin inventar datos y respetando límites. 🔗 Aprende más accediendo a los…
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=1Kfsw_0pAw8 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>De MCP a agentes A2A en Microsoft Fabric: A2A y agentes especialistas</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/12dd989e639b/</link>
-      <pubDate>Tue, 17 Nov 2026 19:16:59 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/12dd989e639b/</guid>
-      <description>
-        
-          
-            En esta sesión introduciremos el patrón A2A para que un agente pueda colaborar con otros agentes especialistas. Explicaremos la diferencia entre MCP y A2A: MCP conecta agentes con herramientas, mientras que A2A conecta agentes con otros agentes. Construiremos una arquitectura donde un orquestador delega tareas en agentes especializados, como datos, operaciones, BI o soporte. 🔗 Aprende más accediendo a los recursos:…
-Worth a watch for developers following AI and Security. Link to video: https://www.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>De MCP a agentes A2A en Microsoft Fabric: Herramientas y acciones con MCP</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/2df75f2682f4/</link>
-      <pubDate>Tue, 17 Nov 2026 19:10:19 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/2df75f2682f4/</guid>
-      <description>
-        
-          
-            En esta sesión daremos herramientas reales al agente para que no solo consulte datos, sino que pueda avanzar procesos controlados. Veremos cómo diseñar herramientas con contratos claros, cómo diferenciar herramientas de lectura y escritura, cómo proteger acciones sensibles y cómo aplicar confirmación humana antes de ejecutar operaciones importantes. La sesión conectará MCP con escenarios reales de automatización…
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=4GrjUMByKy0 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>De MCP a agentes A2A en Microsoft Fabric: Crear el agente orquestador</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/ccdcddfe0d66/</link>
-      <pubDate>Tue, 17 Nov 2026 19:03:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/ccdcddfe0d66/</guid>
-      <description>
-        
-          
-            En esta sesión construiremos el agente orquestador que coordinará el resto del sistema. Explicaremos qué responsabilidades debe tener un orquestador, cómo diseñar instrucciones, cómo decidir cuándo usar una herramienta, cuándo llamar a otro agente y cuándo pedir confirmación al usuario. También definiremos límites claros para evitar que el orquestador intente hacerlo todo. 🔗 Aprende más accediendo a los recursos:…
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=vomftqjyMhs 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>De MCP a agentes A2A en Microsoft Fabric: Fabric IQ y contexto de negocio</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/4c7bb7936571/</link>
-      <pubDate>Tue, 17 Nov 2026 18:58:52 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/4c7bb7936571/</guid>
-      <description>
-        
-          
-            En esta sesión explicaremos cómo usar Fabric IQ y conceptos de contexto empresarial para que los agentes entiendan mejor entidades, relaciones y significado de negocio. El objetivo es mostrar que no basta con exponer tablas: los agentes necesitan contexto. Revisaremos cómo conceptos como cliente, producto, región, venta, margen o incidencia pueden convertirse en una capa semántica útil para respuestas más…
-Worth a watch for developers following AI. Link to video: https://www.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>DP-800 in One Hour: SQL, AI &#43; What You Need to Know</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/07086195ee94/</link>
-      <pubDate>Tue, 17 Nov 2026 18:57:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/07086195ee94/</guid>
-      <description>
-        
-          
-            DP-800 brings SQL development and AI together, but what does that actually mean for the exam? Get a fast, practical tour of the major skills covered, from modern database development and performance to embeddings, search, and RAG. We&#39;ll help you understand where to focus and build a plan for getting exam-ready. 📌 This event is part of a series. Learn more here: https://aka.ms/DataDays/FabConRecap/y…
-Worth a watch for developers following AI and Data.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>De MCP a agentes A2A en Microsoft Fabric: Fabric Data Agent como herramienta</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/11263a2d1946/</link>
-      <pubDate>Tue, 17 Nov 2026 18:53:43 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/11263a2d1946/</guid>
-      <description>
-        
-          
-            En esta sesión crearemos o reutilizaremos un Fabric Data Agent para que los usuarios puedan hacer preguntas de negocio sobre datos empresariales. Veremos cómo configurar el Data Agent, cómo definir instrucciones, cómo probar preguntas, cómo validar respuestas y cómo prepararlo para ser consumido por otros agentes. La idea es que el Data Agent funcione como una pieza especializada dentro de una arquitectura mayor. 🔗…
-Worth a watch for developers following AI.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>De MCP a agentes A2A en Microsoft Fabric: Datos empresariales para agentes</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/b2ba41dddabf/</link>
-      <pubDate>Tue, 17 Nov 2026 18:48:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/b2ba41dddabf/</guid>
-      <description>
-        
-          
-            En esta sesión construiremos la base de datos que usarán los agentes: lakehouse, warehouse o tablas de ejemplo en Microsoft Fabric. Explicaremos cómo preparar datos para escenarios de IA generativa y agentes: nombres claros, relaciones comprensibles, columnas relevantes, documentación, permisos y calidad mínima. También veremos por qué un agente necesita datos bien modelados para responder de forma útil y evitar…
-Worth a watch for developers following AI. Link to video: https://www.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Azure Catalyst</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/b79f9481071b/</link>
-      <pubDate>Tue, 17 Nov 2026 18:35:26 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/b79f9481071b/</guid>
-      <description>
-        
-          
-            Discover how AI agents can help modernize apps, data, and infrastructure, from discovery and design through execution. Learn more: https://msft.it/6053xB4eT #Azure #AzureCatalyst #AIAgents
-Worth a watch for developers following Azure and AI. Link to video: https://www.youtube.com/watch?v=m_gxDepG7i4 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Control Who Sees Sensitive Trace Data in LangSmith</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/1e45b8edd671/</link>
-      <pubDate>Tue, 17 Nov 2026 18:03:08 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/1e45b8edd671/</guid>
-      <description>
-        
-          
-            Production traces show engineers how an agent behaved, but their inputs and outputs often hold sensitive customer data such as health or payment details. LangSmith&#39;s new access controls let admins restrict who can see trace inputs and outputs, so engineers can keep debugging from the run tree and performance stats without seeing that data. Admins can also give user groups their own access settings, or write policies…
-Worth a watch for developers following AI.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>What are Deep Agents? What&#39;s a Sandbox? Our Top Workshop Questions Answered</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/9920bc09e8d1/</link>
-      <pubDate>Tue, 17 Nov 2026 15:33:41 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/9920bc09e8d1/</guid>
-      <description>
-        
-          
-            LangChain Education Engineer Ishaan Lal answers two commonly asked questions during the Interrupt NYC workshops. What is ...
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=7F2oYREhfG4 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Build Intelligent Physical Systems with Foundry Local and Azure Local</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/618cf6d9d881/</link>
-      <pubDate>Tue, 17 Nov 2026 15:00:01 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/618cf6d9d881/</guid>
-      <description>
-        
-          
-            See how breakthroughs in physical intelligence, together with enterprise platforms like Microsoft Foundry and Microsoft Azure, are ...
-Worth a watch for developers following Azure. Link to video: https://www.youtube.com/watch?v=aPwwFywYbE4 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Sovereign AI | Microsoft, Mistral, and NVIDIA on Innovating with Control</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/0777fb80e988/</link>
-      <pubDate>Tue, 17 Nov 2026 14:08:54 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/0777fb80e988/</guid>
-      <description>
-        
-          
-            Discover how Microsoft in collaboration with Mistral and NVIDIA helps organizations innovate with AI while keeping control of their ...
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=QVsOd7Q3o9k 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Is AI Really Superintelligence? ANI, AGI &amp; ASI Explained</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/98a63b031522/</link>
-      <pubDate>Tue, 17 Nov 2026 12:00:39 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/98a63b031522/</guid>
-      <description>
-        
-          
-            Learn more about Artificial Superintelligence? here → https://ibm.biz/~ma2KWmdlF Is today&#39;s AI truly superintelligent, or are we ...
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=0MvcuIrects 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Anthropic Cut Worktree Creation from 7 Minutes to 5 Seconds</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/0499a6624fa9/</link>
-      <pubDate>Tue, 17 Nov 2026 09:00:22 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/0499a6624fa9/</guid>
-      <description>
-        
-          
-            Anthropic cut new worktree creation from roughly seven minutes to five seconds. I explain why that specific improvement matters ...
-Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=Ks0VJihHxhI 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Open External Links in a New Tab | SSW Rules | Hark Singh</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/358cf765b62f/</link>
-      <pubDate>Tue, 17 Nov 2026 07:15:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/358cf765b62f/</guid>
-      <description>
-        
-          
-            SSW Rule: https://www.ssw.com.au/rules/open-external-links https://www.ssw.com.au/rules/indicate-external-links Contact us: ...
-Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=evgKqB2k4BE 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>One Question, One Answer: Build a 360° Business Agent with Foundry and Microsoft IQ</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/52a28fadf2ee/</link>
-      <pubDate>Tue, 17 Nov 2026 04:00:36 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/52a28fadf2ee/</guid>
-      <description>
-        
-          
-            Business answers are scattered across reports, documents, reviews, email and the web, and a Power BI report alone can&#39;t explain ...
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=W7z1RVE0GJQ 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Coding Agent Safety: Classifiers Catch 89%, Humans 13% #infoq #qconsf #agenticai</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/9696f05d7bae/</link>
-      <pubDate>Tue, 17 Nov 2026 02:55:46 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/9696f05d7bae/</guid>
-      <description>
-        
-          
-            Auto-classifiers in coding agents catch 89% of dangerous commands. Humans reviewing every permission prompt catch 13%.
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=_1OqGQ_0U8Y 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AI Agents Can Pass Failing Tests by Deleting Them #ai #softwareengineering #QConsf #agenticai</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/16c55824ef70/</link>
-      <pubDate>Tue, 17 Nov 2026 02:40:50 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/16c55824ef70/</guid>
-      <description>
-        
-          
-            Give an AI agent the job to make failing tests pass, and it has two options: fix the code, or delete the test. Both satisfy the stated ...
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=5LhTMixMZb0 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Microsoft Sovereign Cloud demo: Choice and control for every workload</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/971e39feaaac/</link>
-      <pubDate>Tue, 17 Nov 2026 02:01:56 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/971e39feaaac/</guid>
-      <description>
-        
-          
-            Discover how Microsoft Sovereign Cloud helps you apply the right level of control to every workload. The Sovereign Control Panel ...
-Worth a watch for developers following General. Link to video: https://www.youtube.com/watch?v=ekbp60NwUPA 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Fashable takes brands from trend to supplier in weeks using Foundry Agent Service</title>
-      <link>https://www.dotnetramblings.com/videos/17_11_2026/68252fd26101/</link>
-      <pubDate>Tue, 17 Nov 2026 00:01:37 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/videos/17_11_2026/68252fd26101/</guid>
-      <description>
-        
-          
-            Fashable coordinates seven agents on Foundry Agent Service, carrying fashion brands from trend research to supplier ...
-Worth a watch for developers following AI. Link to video: https://www.youtube.com/watch?v=w7tvYaq7RXk 
           
           
         
