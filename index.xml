@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Tue, 24 Nov 2026 18:44:08 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Nov 2026 13:41:09 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thankful that JasperFx is still flying</title>
+      <link>https://www.dotnetramblings.com/post/25_11_2026/9c6ae2878560/</link>
+      <pubDate>Wed, 25 Nov 2026 13:41:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_11_2026/9c6ae2878560/</guid>
+      <description>
+        
+          
+            Happy Thanksgiving! I’m giving myself the day off and probably not doing much professionally until next week. I actually don’t like those awkward “what are you thankful for?” episodes with the extended family, but I’m doing one anyway. I’m in year four of JasperFx Software now and thankful that I’m more or less getting to …
+Worth a read for developers following General. Link to article: https://jeremydmiller.com/2026/11/25/thankful-that-jasperfx-is-still-flying 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Diagnosing latency under load from Aspire metrics with an AI agent</title>
+      <link>https://www.dotnetramblings.com/post/25_11_2026/5e62d71c9fc6/</link>
+      <pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/25_11_2026/5e62d71c9fc6/</guid>
+      <description>
+        
+          
+            In the first post about Aspire, the slow request had 203 spans. In the second one, it called another service once per line of a cart. In both cases, the trace of the slow request contained the explanation. This time it does not. The slow endpoint runs a single query, which takes less than a millisecond, and the request takes 170 ms. The trace shows a gap, and a gap has no attributes.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Novidades do Microsoft Ignite 2026: A Era dos Agentes de IA</title>
       <link>https://www.dotnetramblings.com/videos/24_11_2026/1958495b3deb/</link>
@@ -154,6 +187,23 @@ Worth a watch for developers following Data.
           
             The November Visual Studio update reduces repeated work in large-solution workflows, adds MSBuild Restore in Open Folder, introduces Copilot Chat&#39;s new engine and work controls, helps organize large pull-request reviews, and adds CSS color previews and IntelliSense.
 Worth a read for developers following Visual Studio and AI. Link to article: https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-faster-workflows-better-reviews 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Developer Docs Deserve Their Own Folder</title>
+      <link>https://www.dotnetramblings.com/post/24_11_2026/5c87f63db96d/</link>
+      <pubDate>Tue, 24 Nov 2026 16:29:09 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/24_11_2026/5c87f63db96d/</guid>
+      <description>
+        
+          
+            Many source repositories include a docs/ folder for documentation, especially now that LLMs can help generate and maintain documentation for software projects. However, traditional docs have been targeted toward users or consumers of the software application, tool, or package. For developers of the application itself, instructions have long been scattered amongst wikis, README files, docs, and other locations (if…
+Worth a read for developers following General. Link to article: https://ardalis.com/keep-developer-docs-separate-in-devdocs 
           
           
         
