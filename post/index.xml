@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Thu, 26 Nov 2026 16:46:50 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running tests on a Windows machine over SSH with an AI agent</title>
+      <link>https://www.dotnetramblings.com/post/27_11_2026/598886f8df25/</link>
+      <pubDate>Fri, 27 Nov 2026 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/27_11_2026/598886f8df25/</guid>
+      <description>
+        
+          
+            The previous posts of this series gave the agent a dump, a debugger, or the telemetry of a running application. This one gives it something more basic: another machine. The situation is common. You work on a Mac or on Linux, every test passes, you push, and the Windows job of the CI fails. The usual loop is to read the log, guess a fix, push again, and wait ten minutes for the next result.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Event Driven Architecture Doesn’t Eliminate Coupling</title>
       <link>https://www.dotnetramblings.com/post/26_11_2026/5ac28dbf6e6f/</link>
