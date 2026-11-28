@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>.NET Ramblings</copyright>
-    <lastBuildDate>Fri, 27 Nov 2026 17:02:34 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dotnetramblings.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Gave Claude Code Its Own VPS and Locked It in a Sandbox</title>
+      <link>https://www.dotnetramblings.com/post/28_11_2026/44b3f8712c7f/</link>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dotnetramblings.com/post/28_11_2026/44b3f8712c7f/</guid>
+      <description>
+        
+          
+            Claude Code can work unattended on a VPS if it runs in a sandbox. I set it up in a Docker dev container on an Ubuntu VPS, with a firewall that only allows the…
+Worth a read for developers following Containers. Link to article: https://milanjovanovic.tech/blog/claude-code-sandbox-vps 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Dev Floor Ep 2. “The Issue With Ambitious Projects”</title>
       <link>https://www.dotnetramblings.com/videos/27_11_2026/567a2dff6952/</link>
@@ -2521,57 +2538,6 @@ Worth a read for developers following .NET. Link to article: https://milanjovano
     </item>
     
     <item>
-      <title>Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/668baa710142/</link>
-      <pubDate>Fri, 20 Nov 2026 23:07:03 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/668baa710142/</guid>
-      <description>
-        
-          
-            Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringing declarative, API- and console-driven configuration to the software running on Slurm cluster nodes. This post explains how the extensions work and follows a platform team through a quarter of running a shared Slurm cluster with them.
-Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/5259c7996b79/</link>
-      <pubDate>Fri, 20 Nov 2026 22:35:24 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/5259c7996b79/</guid>
-      <description>
-        
-          
-            Amazon SageMaker HyperPod introduces the Global Inference Gateway, one managed endpoint that routes inference requests across your HyperPod clusters in one Region or across Regions. It picks the best cluster, fails over automatically, and authenticates every request with SigV4 and IAM over AWS PrivateLink.
-Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>How Standard Bank Group automates AI risk assessment for generative AI</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/dc26abff6344/</link>
-      <pubDate>Fri, 20 Nov 2026 20:37:31 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/dc26abff6344/</guid>
-      <description>
-        
-          
-            Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.
-Worth a read for developers following AI and AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Can Your Agent Review Your Cloud Architecture?</title>
       <link>https://www.dotnetramblings.com/videos/20_11_2026/631352376ff1/</link>
       <pubDate>Fri, 20 Nov 2026 20:30:10 +0000</pubDate>
@@ -2582,23 +2548,6 @@ Worth a read for developers following AI and AWS. Link to article: https://aws.a
           
             When I was a Solutions Architect at AWS, Well-Architected reviews meant whiteboarding sessions with customers, chasing undocumented decisions, and hours writing up findings, often with no diagram, no docs, and the person who built it long gone. That&#39;s why reviews happened late, once, or never. The Agent Toolkit for AWS ships an actual aws-well-architected-review skill, so I pointed it at a public AWS sample and ran a…
 Worth a watch for developers following AI and Architecture.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Announcing Amazon Textract Insights: Verifiable generative AI for documents</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/e9ec780811f7/</link>
-      <pubDate>Fri, 20 Nov 2026 20:22:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/e9ec780811f7/</guid>
-      <description>
-        
-          
-            Announcing the general availability of Amazon Textract Insights, a new generative AI feature of Amazon Textract. Describe the fields you need in natural language, submit a document or a mixed packet, and receive structured results with a confidence score and page-level grounding for each value, with no model training required.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents 
           
           
         
@@ -2631,40 +2580,6 @@ Worth a read for developers following AWS and AI. Link to article: https://aws.a
         
           
             A year ago most teams had one or two agents in production. Now many have dozens, built by different teams on different frameworks, and Jess Weng, Education Engineer at LangChain, walks through four LangSmith updates for keeping track of them. LangSmith is now organized around agents, so each agent is managed in one place across its full lifecycle. Agents also get views tailored to their type, and coding agents come…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/1993e3871a44/</link>
-      <pubDate>Fri, 20 Nov 2026 18:24:06 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/1993e3871a44/</guid>
-      <description>
-        
-          
-            Amazon SageMaker HyperPod now offers enhanced observability to help you diagnose GPU training issues faster. It brings together diagnostic and profiling capabilities for training workloads on both Amazon EKS and Slurm orchestrators, pinpointing issues across GPU, network, and host layers.
-Worth a read for developers following AWS. Link to article: https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>AI is Changing the Cross-Platform Decision Matrix</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/1fa64136a1e4/</link>
-      <pubDate>Fri, 20 Nov 2026 18:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/1fa64136a1e4/</guid>
-      <description>
-        
-          
-            AI agents rebuilt a .NET MAUI app with platform UI in days. See what that cost to build, what it costs to maintain, and what changed at runtime, so you can weigh the same choice for your app.
-Worth a read for developers following AI and .NET. Link to article: https://devblogs.microsoft.com/dotnet/ai-cross-platform-decision-matrix 
           
           
         
@@ -3190,22 +3105,6 @@ Worth a watch for developers following General. Link to video: https://www.youtu
     </item>
     
     <item>
-      <title>Finding a memory leak in a .NET dump with an AI agent</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/01a536714c0f/</link>
-      <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/01a536714c0f/</guid>
-      <description>
-        
-          
-            A leak investigation has three questions, in this order: what is on the heap, who keeps it alive, and is it actually growing. Each has its own command, and the third one is the one that gets skipped, by humans and models alike, because a single dump always looks like enough evidence. The sample contains the application, the collection script, and the skill. Every command output below comes from it. The…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>I Replaced My Result Class With One Line of C# 15</title>
       <link>https://www.dotnetramblings.com/videos/20_11_2026/4e4ae4701297/</link>
       <pubDate>Fri, 20 Nov 2026 11:00:18 +0000</pubDate>
@@ -3298,23 +3197,6 @@ Worth a watch for developers following AI.
         
           
             Fabric IQ parece importante, mas o que ele realmente faz? Vamos explicar como ele usa o contexto do negócio para ajudar a IA a entender seus dados, como se conecta ao restante do Fabric e como isso pode funcionar em um cenário real. Para mais informações sobre o Data Days e tudo o que ele tem a oferecer, acesse https://aka.ms/DataDays 📌 Este evento faz parte de uma série. Saiba mais aqui:…
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Combatting adversarial distillation</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/3ea993db7e3c/</link>
-      <pubDate>Fri, 20 Nov 2026 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/3ea993db7e3c/</guid>
-      <description>
-        
-          
-            OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.
-Worth a read for developers following AI. Link to article: https://openai.com/index/combatting-adversarial-distillation 
           
           
         
@@ -3434,74 +3316,6 @@ Worth a watch for developers following Azure and AI. Link to video: https://www.
           
             From Microsoft IQ to Azure Cobalt 200 and Foundry Models, here are three things you need to know from #MSIgnite this week.
 Worth a watch for developers following Azure. Link to video: https://www.youtube.com/watch?v=WTe2vqdm3pk 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Amazon SageMaker Inference: 2026 launches in review, part 2</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/d47187ac7d51/</link>
-      <pubDate>Fri, 20 Nov 2026 00:34:07 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/d47187ac7d51/</guid>
-      <description>
-        
-          
-            This second installment reviews 13 more Amazon SageMaker AI inference launches from 2026, spanning configuration recommendations, fitting more models onto each GPU, serving models too large for one instance, cross-Region routing, and post-launch tuning, bringing the year&#39;s total to 26.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Use Kimi Code CLI with models on Amazon Bedrock</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/c7569a295cb7/</link>
-      <pubDate>Fri, 20 Nov 2026 00:33:30 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/c7569a295cb7/</guid>
-      <description>
-        
-          
-            Kimi Code CLI v2.7.0 adds a native Amazon Bedrock provider, so you can connect the open source coding agent to models like Kimi K3.1 Pro using your standard AWS credential chain (named profiles or SSO) instead of a separate API key. This post shows how to configure the provider and send your first request.
-Worth a read for developers following AWS and AI. Link to article: https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Can AI help scientists identify promising drug candidates?</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/f4784c304003/</link>
-      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/f4784c304003/</guid>
-      <description>
-        
-          
-            MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.
-Worth a read for developers following AI. Link to article: https://openai.com/index/introducing-medchembench 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Hebbia sees improvements in financial research with GPT-6 Astra</title>
-      <link>https://www.dotnetramblings.com/post/20_11_2026/d15c45643214/</link>
-      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dotnetramblings.com/post/20_11_2026/d15c45643214/</guid>
-      <description>
-        
-          
-            Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.
-Worth a read for developers following AI. Link to article: https://openai.com/business/customer-stories/hebbia 
           
           
         

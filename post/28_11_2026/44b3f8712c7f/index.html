@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Finding a memory leak in a .NET dump with an AI agent | .NET Ramblings</title>
+<title>I Gave Claude Code Its Own VPS and Locked It in a Sandbox | .NET Ramblings</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +25,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:type" content="article">
-<meta name="description" content="A leak investigation has three questions, in this order: what is on the heap, who keeps it alive, and is it actually growing. Each has its own command, and the …">
+<meta name="description" content="Claude Code can work unattended on a VPS if it runs in a sandbox. I set it up in a Docker dev container on an Ubuntu VPS, with a firewall that only allows the… …">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Finding a memory leak in a .NET dump with an AI agent">
-<meta name="twitter:description" content="A leak investigation has three questions, in this order: what is on the heap, who keeps it alive, and is it actually growing. Each has its own command, and the …">
-<meta name="twitter:image" content="https://www.meziantou.net/assets/cover-db5b97.jpg?v=4793">
-<meta property="og:url" content="https://www.dotnetramblings.com/post/20_11_2026/01a536714c0f/">
-<meta property="og:title" content="Finding a memory leak in a .NET dump with an AI agent">
-<meta property="og:description" content="A leak investigation has three questions, in this order: what is on the heap, who keeps it alive, and is it actually growing. Each has its own command, and the …">
-<meta property="og:image" content="https://www.meziantou.net/assets/cover-db5b97.jpg?v=4793">
+<meta name="twitter:title" content="I Gave Claude Code Its Own VPS and Locked It in a Sandbox">
+<meta name="twitter:description" content="Claude Code can work unattended on a VPS if it runs in a sandbox. I set it up in a Docker dev container on an Ubuntu VPS, with a firewall that only allows the… …">
+<meta name="twitter:image" content="https://milanjovanovic.tech/blog-covers/mnw_222.png">
+<meta property="og:url" content="https://www.dotnetramblings.com/post/28_11_2026/44b3f8712c7f/">
+<meta property="og:title" content="I Gave Claude Code Its Own VPS and Locked It in a Sandbox">
+<meta property="og:description" content="Claude Code can work unattended on a VPS if it runs in a sandbox. I set it up in a Docker dev container on an Ubuntu VPS, with a firewall that only allows the… …">
+<meta property="og:image" content="https://milanjovanovic.tech/blog-covers/mnw_222.png">
 <meta name="keywords" content=".net news,dotnet news,c# news,asp.net core,azure,software architecture,devops,developer videos">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.dotnetramblings.com/icons/apple-touch-icon.png">
@@ -41,7 +41,7 @@
 <link rel="manifest" href="https://www.dotnetramblings.com/icons/site.webmanifest">
 
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="https://www.meziantou.net/finding-a-memory-leak-in-a-dotnet-dump-with-an-ai-agent.htm">
+<link rel="canonical" href="https://milanjovanovic.tech/blog/claude-code-sandbox-vps">
 
 <link rel="preload" href="https://www.dotnetramblings.com/css/styles.42e2c5f6d8cf9c52872666f8d8b2678ad0c426978b9d78aff3c33b7a1e7f6f97f54bcdaf0518a25fb0fe26367d04f8b07c683b3b38b331cb098daadee06b1f3e.css" integrity="sha512-QuLF9tjPnFKHJmb42LJnitDEJpeLnXiv88M7eh5/b5f1S82vBRiiX7D&#43;JjZ9BPiwfGg7OzizMcsJjare4GsfPg==" as="style" crossorigin="anonymous">
 
@@ -146,24 +146,23 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Finding a memory leak in a .NET dump with an AI agent</h1>
+    <h1 class="post_title">I Gave Claude Code Its Own VPS and Locked It in a Sandbox</h1>
   <div class="post_meta">
       <span><svg class="icon">
   <title>calendar</title>
   <use xlink:href="#calendar"></use>
 </svg>
 </span>
-      <span class="post_date">Nov 20, 2026</span>
+      <span class="post_date">Nov 28, 2026</span>
       <span>
-          <a href="https://www.dotnetramblings.com/topics/.net/" title=".NET" class="post_tag button button_translucent">.NET</a>
-          <a href="https://www.dotnetramblings.com/topics/ai/" title="AI" class="post_tag button button_translucent">AI</a>
+          <a href="https://www.dotnetramblings.com/topics/containers/" title="Containers" class="post_tag button button_translucent">Containers</a>
       </span>
   </div>
 
-    <div class="post_body"><p>A leak investigation has three questions, in this order: what is on the heap, who keeps it alive, and is it actually growing. Each has its own command, and the third one is the one that gets skipped, by humans and models alike, because a single dump always looks like enough evidence. The sample contains the application, the collection script, and the skill. Every command output below comes from it. The…</p>
+    <div class="post_body"><p>Claude Code can work unattended on a VPS if it runs in a sandbox. I set it up in a Docker dev container on an Ubuntu VPS, with a firewall that only allows the…</p>
 <ul>
-<li>Worth a read for developers following .NET and AI.</li>
-<li>Link to article: <a href="https://www.meziantou.net/finding-a-memory-leak-in-a-dotnet-dump-with-an-ai-agent.htm">https://www.meziantou.net/finding-a-memory-leak-in-a-dotnet-dump-with-an-ai-agent.htm</a></li>
+<li>Worth a read for developers following Containers.</li>
+<li>Link to article: <a href="https://milanjovanovic.tech/blog/claude-code-sandbox-vps">https://milanjovanovic.tech/blog/claude-code-sandbox-vps</a></li>
 </ul>
 
     </div>
